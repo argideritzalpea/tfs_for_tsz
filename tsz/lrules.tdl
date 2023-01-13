@@ -1,0 +1,96 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+noun-pc2-synth-adp-lex := noun-pc2-synth-adp-lex-rule.
+
+noun-pc5-synth-adp-lex := noun-pc5-synth-adp-lex-rule.
+
+noun-pc10-synth-adp-lex := noun-pc10-synth-adp-lex-rule.
+
+noun-pc21-synth-adp-lex := noun-pc21-synth-adp-lex-rule.
+
+noun-pc26-synth-adp-lex := noun-pc26-synth-adp-lex-rule.
+
+noun-pc31-synth-adp-lex := noun-pc31-synth-adp-lex-rule.
+
+noun-pc48-synth-adp-lex := noun-pc48-synth-adp-lex-rule.
+
+noun-pc80-synth-adp-lex := noun-pc80-synth-adp-lex-rule.
+
+noun-pc83-synth-adp-lex := noun-pc83-synth-adp-lex-rule.
+
+noun-pc86-synth-adp-lex := noun-pc86-synth-adp-lex-rule.
+
+verb-pc8_lrt2-lex := verb-pc8_lrt2-lex-rule.
+
+verb-pc8_lrt3-lex := verb-pc8_lrt3-lex-rule.
+
+verb-pc33_lrt2-lex := verb-pc33_lrt2-lex-rule.
+
+verb-pc35_lrt4-lex := verb-pc35_lrt4-lex-rule.
+
+verb-pc35_lrt5-lex := verb-pc35_lrt5-lex-rule.
+
+verb-pc42_lrt2-lex := verb-pc42_lrt2-lex-rule.
+
+verb-pc42_lrt3-lex := verb-pc42_lrt3-lex-rule.
+
+verb-pc60_lrt2-lex := verb-pc60_lrt2-lex-rule.
+
+verb-pc77_lrt5-lex := verb-pc77_lrt5-lex-rule.
+
+verb-pc116_lrt3-lex := verb-pc116_lrt3-lex-rule.
+
+verb-pc222_lrt1-lex := verb-pc222_lrt1-lex-rule.
+
+verb-pc223_lrt1-lex := verb-pc223_lrt1-lex-rule.
+
+verb-pc224_lrt1-lex := verb-pc224_lrt1-lex-rule.
+
+verb-pc225_lrt1-lex := verb-pc225_lrt1-lex-rule.
+
+verb-pc226_lrt1-lex := verb-pc226_lrt1-lex-rule.
+
+verb-pc227_lrt1-lex := verb-pc227_lrt1-lex-rule.
+
+verb-pc228_lrt1-lex := verb-pc228_lrt1-lex-rule.
+
+verb-pc229_lrt1-lex := verb-pc229_lrt1-lex-rule.
+
+verb-pc230_lrt1-lex := verb-pc230_lrt1-lex-rule.
+
+verb-pc231_lrt1-lex := verb-pc231_lrt1-lex-rule.
+
+verb-pc232_lrt1-lex := verb-pc232_lrt1-lex-rule.
+
+verb-pc233_lrt1-lex := verb-pc233_lrt1-lex-rule.
+
+verb-pc234_lrt1-lex := verb-pc234_lrt1-lex-rule.
+
+verb-pc235_lrt1-lex := verb-pc235_lrt1-lex-rule.
+
+verb-pc236_lrt1-lex := verb-pc236_lrt1-lex-rule.
+
+verb-pc237_lrt1-lex := verb-pc237_lrt1-lex-rule.
+
+verb-pc238_lrt1-lex := verb-pc238_lrt1-lex-rule.
+
+verb-pc239_lrt1-lex := verb-pc239_lrt1-lex-rule.
+
+verb-pc240_lrt1-lex := verb-pc240_lrt1-lex-rule.
+
+verb-pc241_lrt1-lex := verb-pc241_lrt1-lex-rule.
+
+verb-pc242_lrt1-lex := verb-pc242_lrt1-lex-rule.
+
+verb-pc243_lrt1-lex := verb-pc243_lrt1-lex-rule.
+
+verb-pc244_lrt1-lex := verb-pc244_lrt1-lex-rule.
+
+verb-pc245_lrt1-lex := verb-pc245_lrt1-lex-rule.
+
+verb-pc246_lrt1-lex := verb-pc246_lrt1-lex-rule.
+
+verb-pc247_lrt1-lex := verb-pc247_lrt1-lex-rule.
+
+verb-pc248_lrt1-lex := verb-pc248_lrt1-lex-rule.
+
+verb-pc249_lrt1-lex := verb-pc249_lrt1-lex-rule.
