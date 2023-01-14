@@ -1,0 +1,2 @@
+/Users/mosaix/hpsg/tfs_for_tsz/tsz/tsdb/skeletons/lab2/./make_item.py:383: DeprecationWarning: 'U' mode is deprecated
+  tslines = open(tsf, 'rU', encoding=enc).readlines()
