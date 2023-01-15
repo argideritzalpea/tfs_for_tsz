@@ -7,12 +7,12 @@ Source a: The Tarascan Language, Mary LeCron Foster, University of California Pu
 
 #1
 Source: ref 3291 in tsz_toolbox.txt
-Vetted: f
+Vetted: s
 Judgment: g
 Phenomena: case
 ima kuɽa-tʃi-ʃ-tirini itʃuskuta ama-mpa-mpu
 ima kuɽa-tʃi-sï-ti=rini itʃuskuta ama-mpa-mpu
-DEM.SG request-APP.1/2-AOR-3.IND=1SG.OBJ tortilla go-3.POSS-INSTR
+DEM.SG request-APP.1/2-AOR-3.IND=1SG.OBJ tortilla mother-3.POSS-INSTR
 Aquel me ha pedido tortillas por su madre
 
 #2
@@ -104,3 +104,13 @@ yuɽiɽi etʃu-nu-h-ti
 juɽiri etʃu-nu-sï-ti 
 blood CL.flat-patio-AOR-3.IND 
 Context: I found some drops of blood on the patio. Intended:'There are drops of blood lying on the patio'/'There is blood on the patio' 
+
+#11
+Source: ref 3291 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: case
+ama-mpa-mpu
+ama-mpa-mpu
+mother-3.POSS-INSTR
+por su madre
