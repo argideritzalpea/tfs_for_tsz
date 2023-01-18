@@ -47,13 +47,11 @@ tʰu_3_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
     FLAGS.TRIGGER "tʰu_3" ].
 
-u_8_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E [ TENSE fut,
-                                   ASPECT hab,
-                                   pfv ,
-                                   MOOD ind,
-                                   irr  ] ] >,
-    FLAGS.TRIGGER "u_8" ].
+u_8_gr := arg0e_gtr & 
+  [ CONTEXT.RELS.LIST < [ ARG0.E [ TENSE fut, 
+                                   ASPECT hab, 
+                                   MOOD ind ] ] >, 
+   FLAGS.TRIGGER "u_8" ].
 
 piri_5_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ ARG0.E.MOOD ind ] >,
