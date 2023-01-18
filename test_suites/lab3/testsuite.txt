@@ -1,0 +1,216 @@
+Language: <Purepecha / Tarascan>
+Language code: <tsz>
+Lines: orth orth-seg gloss translat
+Author: Chris Haberland and Abhinav Patil
+Date: January 13, 2023
+Source a: The Tarascan Language, Mary LeCron Foster, University of California Publications v56
+
+#1
+Source: ref 3291 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: case
+ima kuɽa-tʃi-ʃ-tirini itʃuskuta ama-mpa-mpu
+ima kuɽa-tʃi-sï-ti=rini itʃuskuta ama-mpa-mpu
+DEM.SG request-APP.1/2-AOR-3.IND=1SG.OBJ tortilla mother-3.POSS-INSTR
+Aquel me ha pedido tortillas por su madre
+
+#2
+Source: ref 2671 in tsz_toolbox.txt
+Vetted: f
+Judgment: g
+Phenomena: tense
+tʃeni ma-ku-ra-ha-ka
+tʃeeni ma-ku-ra-ʃa-ka
+how one-APPL.3-VAL-PROG-1/2IND
+I give a lot.
+
+#3
+Source: ref 2672 in tsz_toolbox.txt
+Vetted: f
+Judgment: g
+Phenomena: tense
+tʃeni maku-ra-ha-ka
+tʃeeni mata-ra-ʃa-ka
+how give-VAL-PROG-1/2IND
+I used to give a lot.
+
+#4
+Source: ref 2673 in tsz_toolbox.txt
+Vetted: f
+Judgment: g
+Phenomena: tense
+tʃeni maku-ra-ka
+tʃeeni mata-ra-ka 
+much give-VAL-1/2IND 
+I gave a lot.
+
+#5
+Source: ref 2674 in tsz_toolbox.txt
+Vetted: f
+Judgment: g
+Phenomena: tense
+tʃeni maku-ra-pi-h-ka
+tʃeeni mata-ra-pʰi-sï-ka 
+much give-VAL-PST-AOR-1/2IND 
+I had given a lot.
+
+#6
+Source: ref 3545 in tsz_toolbox.txt
+Vetted: f
+Judgment: g
+Phenomena: aspect
+waɽi-ʃ-ti
+waɽi-sï-ti 
+die-AOR-3.IND
+El esta muerto.
+
+#7
+Source: ref 3600 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: aspect
+hu-ɽa-ʃ-ti
+hu-ra-sï-ti 
+come-FORM-AOR-3.IND 
+unknown/unvetted ((He has come))
+
+#8
+Source: ref 3626 in tsv_toolbox
+Vetted: s
+Judgment: g
+Phenomena: aspect
+a-sï-ka
+a-sï-ka 
+say-AOR-1/2IND 
+I said 
+
+#9
+Source: ref 3814 in tsv_toolbox
+Vetted: f
+Judgment: g
+Phenomena: aspect
+isï unta-s-ti
+isï unta-s-ti 
+APPROX begin-AOR-3.IND 
+so the donkey started to limp
+
+#10
+Source: ref 3987 in tsv_toolbox
+Vetted: f
+Judgment: g
+Phenomena: aspect
+yuɽiɽi etʃu-nu-h-ti
+juɽiri etʃu-nu-sï-ti 
+blood CL.flat-patio-AOR-3.IND 
+Context: I found some drops of blood on the patio. Intended:'There are drops of blood lying on the patio'/'There is blood on the patio'
+
+#11
+Source: ref 3291 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: case
+ama-mpa-mpu
+ama-mpa-mpu
+mother-3.POSS-INSTR
+por su madre
+
+#12
+Source: ref 3911 in tsz_toolbox.txt, reduced
+Vetted: s
+Judgment: g
+Phenomena: agreement
+Pegru aɽa-h-ø-ti
+Pegru aɽa-sï-ø-ti
+Pedro eat-AOR-PRES-3.IND
+Pedro ate
+
+#13
+Source: ref 3911 in tsz_toolbox.txt + our own informed judgement
+Vetted: s
+Judgment: u
+Phenomena: agreement
+Pegru aɽa-h-ø-ka
+Pegru aɽa-sï-ø-ka
+Pedro eat-AOR-PRES-1/2IND
+Pedro ate
+
+#14
+Source: ref 3362 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+ekwatsi-i-ʃ-ti=kʃï
+ekwatsi-i-sï-ti=kʃï
+twenty-PRED-AOR-3.IND=3PL
+It is twenty
+
+#15
+Source: ref 3467 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+piri-ʃa-ti
+piri-ʃa-ti
+sing-PROG-3.IND
+He is singing
+
+#16
+Source: ref 3546 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+ni-ʃa-ka kwʰiripita-ni
+ni-ʃa-ka kʰwiripeta-ni
+cook-PROG-1/2IND meat-OBJ
+I am cooking the meat
+
+#17
+Source: ref 3546 in tsz_toolbox.txt  + our own informed judgement
+Vetted: s
+Judgment: u
+Phenomena: agreement
+ni-ʃa-ti kwʰiripita-ni
+ni-ʃa-ti kʰwiripeta-ni
+cook-PROG-3IND meat-OBJ
+I am cooking the meat
+
+#18
+Source: ref 3545 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+waɽi-ʃ-ti
+waɽi-sï-ti
+die-AOR-3.IND
+He is dead
+
+#19
+Source: ref 3881 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+ero-ka-ʃa-ka
+ero-ka-ʃa-ka
+wait-FORM-PROG-1/2IND
+I/you/we/you(pl.) are waiting
+
+#20
+Source: ref 3882 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+ero-ka-ʃa-ti
+ero-ka-ʃa-ti
+wait-FORM-PROG-3.IND
+He/they are waiting
+
+#21
+Source: ref 3421 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+hinkonikwa-ti-itʃatʰiri-ʃïn-ti
+hinkonikwa-ti-etʃa  tʰire-sïn-ti
+sister-2.POSS-PL eat-HAB-3.IND
+Your sisters eat
