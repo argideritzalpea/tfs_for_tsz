@@ -1,0 +1,2 @@
+(tsdb:tsdb  :home  "/home/user/tfs_for_tsz/tsdb/home")
+(tsdb:tsdb  :skeleton  "/home/user/tfs_for_tsz/tsdb/skeletons")
