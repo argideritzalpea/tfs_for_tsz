@@ -66,4 +66,17 @@ def search_for_item(search_string, field="gloss"):
 
 search_for_item("-mpu", "mph")
 
-all_data[5786]
+def get_glosses_for_string(search_string, field="gloss"):
+    out = {}
+    for idx, item in enumerate(all_data):
+        for id2, token in enumerate(item[field].split()):
+            if search_string in token:
+                out.setdefault(item["mgl"].split()[id2], [])
+                out[item["mgl"].split()[id2]].append(idx)
+    return out
+
+get_glosses_for_string("nkuni", "mph")
+
+
+
+len(get_max_length(2))
