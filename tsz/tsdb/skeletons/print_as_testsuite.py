@@ -6,11 +6,12 @@ for line in data:
     line = line.strip()
     if line.startswith("\\ref"):
         curr_ref = {}
-        curr_ref["ref"] = line.split("\\ref")[1]
+        curr_ref["ref"] = line.split("\\ref")[1].strip()
     if line.startswith("\\tph"):
         curr_ref["tph"] = line.split("\\tph")[1]
     if line.startswith("\\mph"):
         curr_ref["mph"] = line.split("\\mph")[1]
+        curr_ref["form_mph"] = re.sub(" ([-=])", "\\1", curr_ref["mph"].strip())
     if line.startswith("\\mgl"):
         curr_ref["mgl"] = line.split("\\mgl")[1]
     if line.startswith("\\ps"):
@@ -28,7 +29,7 @@ def print_as_test_example(num, vet="f", judge="g", phenom=""):
     judgement = "Judgement: {}".format(judge)
     phenomena = "Phenomena: {}".format(phenom)
     ortho = all_data[num+1]["tph"].strip()
-    morpho = re.sub(" ([-=])", "\\1", all_data[num+1]["mph"].strip())
+    morpho = all_data[num+1]["form_mph"].strip()
     gloss = all_data[num+1]["mgl"].strip()
     transl = all_data[num+1]["eng"].strip()
     print(source, 
@@ -42,3 +43,27 @@ def print_as_test_example(num, vet="f", judge="g", phenom=""):
         sep="\n")
 
 print_as_test_example(0)
+
+from collections import Counter
+ilengths = {}
+for example in all_data:
+    ises = example['form_mph'].split()
+    ilength = len(ises)
+    print(example['ref'])
+    ilengths[int(example['ref'])] = ilength
+
+all_data[4930]['form_mph'].split()
+
+def get_max_length(length=3):
+    return set([key for key in ilengths if ilengths[key]<length])
+
+def search_for_item(search_string, field="gloss"):
+    out = []
+    for idx, item in enumerate(all_data):
+        if search_string in item[field]:
+            out.append(idx)
+    return set(out)
+
+search_for_item("-mpu", "mph")
+
+all_data[5786]
