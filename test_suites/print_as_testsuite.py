@@ -78,5 +78,4 @@ def get_glosses_for_string(search_string, field="gloss"):
 get_glosses_for_string("nkuni", "mph")
 
 
-
 len(get_max_length(2))
