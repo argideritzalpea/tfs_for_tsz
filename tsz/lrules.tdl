@@ -27,8 +27,6 @@ verb-pc33_lrt2-lex := verb-pc33_lrt2-lex-rule.
 
 verb-pc35_lrt4-lex := verb-pc35_lrt4-lex-rule.
 
-verb-pc35_lrt5-lex := verb-pc35_lrt5-lex-rule.
-
 verb-pc42_lrt2-lex := verb-pc42_lrt2-lex-rule.
 
 verb-pc42_lrt3-lex := verb-pc42_lrt3-lex-rule.

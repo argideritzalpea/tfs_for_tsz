@@ -93,6 +93,10 @@ noun-pc5_lrt1-suffix :=
 %suffix (* -eri)
 noun-pc5_lrt1-lex-rule.
 
+noun-pc5_lrt3-suffix :=
+%suffix (* -mpu)
+noun-pc5_lrt3-lex-rule.
+
 noun-pc6_lrt1-suffix :=
 %suffix (* -etʃa)
 noun-pc6_lrt1-lex-rule.
@@ -1180,10 +1184,6 @@ verb-pc176_lrt1-lex-rule.
 verb-pc179_lrt1-suffix :=
 %suffix (* -kwa)
 verb-pc179_lrt1-lex-rule.
-
-verb-pc183_lrt1-suffix :=
-%suffix (* -ti)
-verb-pc183_lrt1-lex-rule.
 
 verb-pc185_lrt1-suffix :=
 %suffix (* =ri)
