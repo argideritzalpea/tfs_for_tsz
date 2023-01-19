@@ -210,7 +210,116 @@ Source: ref 3421 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: agreement
-hinkonikwa-ti-itʃatʰiri-ʃïn-ti
-hinkonikwa-ti-etʃa  tʰire-sïn-ti
+hinkonikwa-ti-itʃa tʰiri-ʃïn-ti
+hinkonikwa-ti-etʃa tʰire-sïn-ti
 sister-2.POSS-PL eat-HAB-3.IND
 Your sisters eat
+
+#22
+Source: ref 5686 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+hini peta-p-ti tsʰa-mpo
+hini peta-p-ti ta-mpu
+there take.out-PAST-3.IND home-INSTR
+She took her from her own house / Se la llevó de su propia casa
+
+#23
+Source: ref 2999 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+tʰu=kini himbo-ha-ka
+tʰu=kini himpo-ʃa-ka
+2SG =2SG.OBJ INSTR PROG 1/2IND
+
+#24
+Source: ref 5052 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+p'urhepecha jimpo uanta-kua
+p'urhepecha jimpo uanta-kua
+Purhepecha INSTR speak-NMLZR
+our language
+
+#25
+Source: ref 5122 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+kani-kua jimpo-ka=chka
+kani-kua jimpo-ka=chka
+much-NMLZR INSTR-1/2IND=then
+things really have changed
+
+#26
+Source: ref 6639 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+sesi chaari kutsïkua-echa-ni
+sesi t'uchaeueri kutsïkua-echa-ni
+good 2PL.GEN ear-PL-OBJ
+so open up your ears.
+
+#27
+Source: modded ref 6639 in tsz_toolbox
+Vetted: s
+Judgement: u
+Phenomena: case
+sesi chaari kutsïkua-ni-echa
+sesi t'uchaeueri kutsïkua-ni-echa
+good 2PL.GEN ear-OBJ-PL
+so open up your ears.
+
+#28
+Source: ref 3602 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+arhi-j-ti=ni juchiti tati
+arhi-sï-ti=ni jucheeti tati
+say AOR 3.IND =1SG.SBJ 1SG.GEN father
+My dad said to me
+
+#29
+Source: ref 4294 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+inte hutʃeeti
+inte hutʃeeti
+DEM.SG 1SG.GEN
+My horse is black
+
+#30
+Source: ref 4287 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+nompe we-ʃïn-ka-ni
+nompe weka-sïn-ka-ni
+NEG want-HAB-1/2IND-OBJ
+I don't want anything
+
+#31
+Source: modded ref 200 in tsz_toolbox
+Vetted: s
+Judgement: u
+Phenomena: case
+o documentu-echa-ni u-ni-a
+o documentu-echa-ni u-ni-a
+or document-PL-OBJ do-OBJ-3PL.OBJ
+or making documents
+
+#32
+Source: ref 200 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+o documentu-echa-ni u-a-ni
+o documentu-echa-ni u-a-ni
+or document-PL-OBJ do-3PL.OBJ-OBJ
+or making documents

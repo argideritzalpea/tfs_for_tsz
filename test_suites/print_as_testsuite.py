@@ -100,10 +100,20 @@ with open('gloss_count.csv','w+') as out:
 df = pd.DataFrame(counts)
 
 
-short_instr = get_max_length(3).intersection(search_for_item("INSTR", "mgl"))
+short_instr = get_max_length(4).intersection(search_for_item("APPRX", "mgl"))
 
 
 get_max_length(3)
 
-for item in short_instr:
-   print_as_test_example(item-1)
+import sys
+
+with open('sample.txt', 'w+') as f:
+    original_stdout = sys.stdout
+    sys.stdout = f # Change the standard output to the file we created.
+    for item in short_instr:
+        sample = str(print_as_test_example(item-1))
+        print("\n")
+    sys.stdout = original_stdout
+
+
+search_for_item("APPRX", "mgl")
