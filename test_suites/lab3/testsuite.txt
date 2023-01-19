@@ -323,3 +323,13 @@ o documentu-echa-ni u-a-ni
 o documentu-echa-ni u-a-ni
 or document-PL-OBJ do-3PL.OBJ-OBJ
 or making documents
+
+#33
+Source: ref 3882 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+ero-ʃa-ka-ti
+ero-ʃa-ka-ti
+wait-PROG-FORM-3.IND
+He/they are waiting
