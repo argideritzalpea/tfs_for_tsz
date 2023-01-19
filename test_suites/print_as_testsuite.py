@@ -1,4 +1,4 @@
-with open("tsz_toolbox.txt", "r") as f:
+with open("/Users/mosaix/hpsg/tfs_for_tsz/tsz_toolbox.txt", "r") as f:
     data = f.readlines()
 
 all_data = []
@@ -55,7 +55,7 @@ for example in all_data:
 all_data[4930]['form_mph'].split()
 
 def get_max_length(length=3):
-    return set([key for key in ilengths if ilengths[key]<length])
+    return set([key-1 for key in ilengths if ilengths[key]<length])
 
 def search_for_item(search_string, field="gloss"):
     out = []
@@ -76,6 +76,34 @@ def get_glosses_for_string(search_string, field="gloss"):
     return out
 
 get_glosses_for_string("nkuni", "mph")
-
-
 len(get_max_length(2))
+
+gloss_dictionary = {}
+for idx, item in enumerate(all_data):
+    for id2, token in enumerate(item["mgl"].split()):
+        gloss_dictionary.setdefault(token, [])
+        gloss_dictionary[token].append(idx)
+
+gloss_count = list(map(lambda x: (x, len(gloss_dictionary[x])), gloss_dictionary.keys()))
+
+sorted_gloss_count = sorted(gloss_count, key=lambda x: x[1], reverse=True)
+
+import csv
+with open('gloss_count.csv','w+') as out:
+    csv_out=csv.writer(out)
+    csv_out.writerow(['gloss','count'])
+    for row in sorted_gloss_count:
+        if (row[0][0].isupper() or row[0][0].isnumeric()) and (row[0][-1].isupper() or row[0][-1].isnumeric()):
+            csv_out.writerow(row)
+
+
+df = pd.DataFrame(counts)
+
+
+short_instr = get_max_length(3).intersection(search_for_item("INSTR", "mgl"))
+
+
+get_max_length(3)
+
+for item in short_instr:
+   print_as_test_example(item-1)
