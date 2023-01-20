@@ -272,7 +272,7 @@ Phenomena: case
 sesi chaari kutsïkua-ni-echa
 sesi t'uchaeueri kutsïkua-ni-echa
 good 2PL.GEN ear-OBJ-PL
-so open up your ears.
+so open up your ears. (ni must follow echa (pl))
 
 #28
 Source: ref 3602 in tsz_toolbox
@@ -298,7 +298,7 @@ My horse is black
 Source: ref 4287 in tsz_toolbox
 Vetted: f
 Judgement: g
-Phenomena: case
+Phenomena: agreement
 nompe we-ʃïn-ka-ni
 nompe weka-sïn-ka-ni
 NEG want-HAB-1/2IND-OBJ
@@ -308,21 +308,21 @@ I don't want anything
 Source: modded ref 200 in tsz_toolbox
 Vetted: s
 Judgement: u
-Phenomena: case
+Phenomena: agreement
 o documentu-echa-ni u-ni-a
 o documentu-echa-ni u-ni-a
 or document-PL-OBJ do-OBJ-3PL.OBJ
-or making documents
+or making documents (switched -ni and -a positions)
 
 #32
 Source: ref 200 in tsz_toolbox
 Vetted: f
 Judgement: g
-Phenomena: case
+Phenomena: agreement
 o documentu-echa-ni u-a-ni
 o documentu-echa-ni u-a-ni
 or document-PL-OBJ do-3PL.OBJ-OBJ
-or making documents
+or making documents (switched -ni and -a positions)
 
 #33
 Source: ref 3882 in tsz_toolbox.txt
@@ -333,3 +333,24 @@ ero-ʃa-ka-ti
 ero-ʃa-ka-ti
 wait-PROG-FORM-3.IND
 He/they are waiting
+
+#34
+Source: ref 4101 in tsz_toolbox
+Vetted: s
+Judgement: u
+Phenomena: case
+hatsi-ku-ø namunitu itukwa tʃuripu
+hatsi-ku-ø namunitu itukwa tʃuɽipu
+have APPL.3 IMPRTV2 few salt soup
+Intended: 'Put a little salt in the soup' (needs ni after the IO)
+
+#35
+Source: ref 4101 in tsz_toolbox, 
+Vetted: s
+Judgement: g
+Phenomena: case
+hatsi-ku-ø namunitu itukwa-ni
+hatsi-ku-ø namunitu itukwa-ni
+have-APPL.3-IMPRTV2 few salt-OBJ
+Intended: 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
+
