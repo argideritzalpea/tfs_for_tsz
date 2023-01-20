@@ -78,11 +78,30 @@ def get_glosses_for_string(search_string, field="gloss"):
 get_glosses_for_string("nkuni", "mph")
 len(get_max_length(2))
 
+# Get all glosses and their counts
 gloss_dictionary = {}
 for idx, item in enumerate(all_data):
     for id2, token in enumerate(item["mgl"].split()):
         gloss_dictionary.setdefault(token, [])
         gloss_dictionary[token].append(idx)
+
+# Get all words and their glosses (may not line up exactly)
+glosses_to_orth_tokens = {}
+for idx, item in enumerate(all_data):
+    for orth_tok, gloss_tok in zip(re.sub("([-=])", " \\1", item["tph"].strip()).split(), item["mgl"].split()):
+        glosses_to_orth_tokens.setdefault(gloss_tok, set())
+        glosses_to_orth_tokens[gloss_tok].add(orth_tok)
+
+# Get all morphs and their glosses
+glosses_to_morph_tokens = {}
+for idx, item in enumerate(all_data):
+    for orth_tok, gloss_tok in zip(item["mph"].strip().split(), item["mgl"].split()):
+        glosses_to_morph_tokens.setdefault(gloss_tok, set())
+        glosses_to_morph_tokens[gloss_tok].add(orth_tok)
+
+gloss_dictionary["patio"]
+glosses_to_orth_tokens["cat"]
+glosses_to_morph_tokens["cat"]
 
 gloss_count = list(map(lambda x: (x, len(gloss_dictionary[x])), gloss_dictionary.keys()))
 
@@ -96,8 +115,13 @@ with open('gloss_count.csv','w+') as out:
         if (row[0][0].isupper() or row[0][0].isnumeric()) and (row[0][-1].isupper() or row[0][-1].isnumeric()):
             csv_out.writerow(row)
 
-
-df = pd.DataFrame(counts)
+import csv
+with open('gloss_interpretable_count.csv','w+') as out:
+    csv_out=csv.writer(out)
+    csv_out.writerow(['gloss','count'])
+    for row in sorted_gloss_count:
+        if not (row[0][0].isupper() or row[0][0].isnumeric()) and not (row[0][-1].isupper() or row[0][-1].isnumeric()):
+            csv_out.writerow(row)
 
 
 short_instr = get_max_length(4).intersection(search_for_item("APPRX", "mgl"))
@@ -107,13 +131,19 @@ get_max_length(3)
 
 import sys
 
-with open('sample.txt', 'w+') as f:
-    original_stdout = sys.stdout
-    sys.stdout = f # Change the standard output to the file we created.
-    for item in short_instr:
-        sample = str(print_as_test_example(item-1))
-        print("\n")
-    sys.stdout = original_stdout
+def print_searched_samples_to_file(filename="sample.txt", ilength=4, search="APPRX", field="mgl"):
+    ilength_cond_set = get_max_length(ilength)
+    search = search_for_item(search, field)
+    short_instr = ilength_cond_set.intersection(search)
+    with open(filename, 'w+') as f:
+        original_stdout = sys.stdout
+        sys.stdout = f # Change the standard output to the file we created.
+        for item in short_instr:
+            sample = str(print_as_test_example(item-1))
+            print("\n")
+        sys.stdout = original_stdout
 
-
-search_for_item("APPRX", "mgl")
+print_searched_samples_to_file(filename="sample.txt",
+                            ilength=80,
+                            search="COMP",
+                            field="mgl")

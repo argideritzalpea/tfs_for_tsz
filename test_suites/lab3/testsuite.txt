@@ -232,7 +232,7 @@ Judgement: g
 Phenomena: case
 tʰu=kini himbo-ha-ka
 tʰu=kini himpo-ʃa-ka
-2SG =2SG.OBJ INSTR PROG 1/2IND
+2SG=2SG.OBJ INSTR-PROG-1/2IND
 
 #24
 Source: ref 5052 in tsz_toolbox
