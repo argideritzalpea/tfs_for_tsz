@@ -450,12 +450,8 @@ verb-pc14_lrt1-suffix :=
 verb-pc14_lrt1-lex-rule.
 
 verb-pc15_lrt1-suffix :=
-%suffix (* -hampi)
-verb-pc15_lrt1-lex-rule.
-
-verb-pc15_lrt2-suffix :=
 %suffix (* -ntʰa)
-verb-pc15_lrt2-lex-rule.
+verb-pc15_lrt1-lex-rule.
 
 verb-pc16_lrt1-suffix :=
 %suffix (* -s)
@@ -541,9 +537,13 @@ verb-pc30_lrt1-suffix :=
 %suffix (* -kuarhe)
 verb-pc30_lrt1-lex-rule.
 
-verb-pc31_lrt1-suffix :=
+antipassive-suffix1 :=
 %suffix (* -pʰe)
-verb-pc31_lrt1-lex-rule.
+antipassive-lex-rule.
+
+antipassive-suffix2 :=
+%suffix (* -p'e)
+antipassive-lex-rule.
 
 verb-pc33_lrt1-suffix :=
 %suffix (* -etʃa)
@@ -841,10 +841,6 @@ verb-pc96_lrt1-suffix :=
 %suffix (* -cha)
 verb-pc96_lrt1-lex-rule.
 
-verb-pc97_lrt1-suffix :=
-%suffix (* -p'e)
-verb-pc97_lrt1-lex-rule.
-
 verb-pc98_lrt1-suffix :=
 %suffix (* -p'i)
 verb-pc98_lrt1-lex-rule.
@@ -1121,6 +1117,14 @@ verb-pc159_lrt3-suffix :=
 %suffix (* -sï)
 verb-pc159_lrt3-lex-rule.
 
+verb-pc159_lrt4-suffix1 :=
+%suffix (* -xam)
+verb-pc159_lrt4-lex-rule.
+
+verb-pc159_lrt4-suffix2 :=
+%suffix (* -hampi)
+verb-pc159_lrt4-lex-rule.
+
 verb-pc160_lrt1-suffix1 :=
 %suffix (* -punkua)
 verb-pc160_lrt1-lex-rule.
@@ -1140,10 +1144,6 @@ verb-pc163_lrt1-lex-rule.
 verb-pc164_lrt1-suffix :=
 %suffix (* -mu)
 verb-pc164_lrt1-lex-rule.
-
-verb-pc164_lrt2-suffix :=
-%suffix (* -ʃam)
-verb-pc164_lrt2-lex-rule.
 
 verb-pc165_lrt1-suffix :=
 %suffix (* -mu)
@@ -1256,19 +1256,3 @@ verb-pc209_lrt1-lex-rule.
 verb-pc211_lrt1-suffix :=
 %suffix (* -ka)
 verb-pc211_lrt1-lex-rule.
-
-verb-pc218_lrt1-suffix :=
-%suffix (* -pʰe)
-verb-pc218_lrt1-lex-rule.
-
-verb-pc219_lrt1-suffix :=
-%suffix (* -ma)
-verb-pc219_lrt1-lex-rule.
-
-verb-pc220_lrt1-suffix :=
-%suffix (* -ku)
-verb-pc220_lrt1-lex-rule.
-
-verb-pc221_lrt1-suffix :=
-%suffix (* -pʰe)
-verb-pc221_lrt1-lex-rule.

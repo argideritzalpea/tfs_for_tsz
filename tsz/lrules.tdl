@@ -39,8 +39,6 @@ verb-pc116_lrt3-lex := verb-pc116_lrt3-lex-rule.
 
 verb-pc222_lrt1-lex := verb-pc222_lrt1-lex-rule.
 
-verb-pc223_lrt1-lex := verb-pc223_lrt1-lex-rule.
-
 verb-pc224_lrt1-lex := verb-pc224_lrt1-lex-rule.
 
 verb-pc225_lrt1-lex := verb-pc225_lrt1-lex-rule.

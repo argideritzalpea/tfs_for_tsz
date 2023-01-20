@@ -81,78 +81,17 @@ tsuntsu_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT pot ] >,
     FLAGS.TRIGGER "tsuntsu" ].
 
--ni_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-ni" ].
-
--ki_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E.MOOD irr ] >,
-    FLAGS.TRIGGER "-ki" ].
-
--sï_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT pfv ] >,
-    FLAGS.TRIGGER "-sï" ].
-
--ri_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E.TENSE pst ] >,
-    FLAGS.TRIGGER "-ri" ].
-
--ti_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E.MOOD ind ] >,
-    FLAGS.TRIGGER "-ti" ].
-
--xa_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT prog ] >,
-    FLAGS.TRIGGER "-xa" ].
-
 mama_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT mom ] >,
     FLAGS.TRIGGER "mama" ].
-
--rini_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-rini" ].
-
--ka_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-ka" ].
-
--sïren_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E [ TENSE pst,
-                                   ASPECT hab ] ] >,
-    FLAGS.TRIGGER "-sïren" ].
-
--nhka_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-nhka" ].
-
--p_27i_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-p_27i" ].
-
--ta_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-ta" ].
-
--ʃa_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT prog ] >,
-    FLAGS.TRIGGER "-ʃa" ].
 
 keske_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT cmpl ] >,
     FLAGS.TRIGGER "keske" ].
 
--ku_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-ku" ].
-
 inki_2_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT rel ] >,
     FLAGS.TRIGGER "inki_2" ].
-
--a_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E.TENSE fut ] >,
-    FLAGS.TRIGGER "-a" ].
 
 çacura_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
@@ -218,42 +157,6 @@ inki_2_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
     FLAGS.TRIGGER "çacuni" ].
 
-_3Dni_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "_3Dni" ].
-
--ʃuska_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-ʃuska" ].
-
--tara_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-tara" ].
-
--pʰera_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E.MOOD recip ] >,
-    FLAGS.TRIGGER "-pʰera" ].
-
--pa_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT cont ] >,
-    FLAGS.TRIGGER "-pa" ].
-
--ŋka_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-ŋka" ].
-
--ntʰa_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT iter ] >,
-    FLAGS.TRIGGER "-ntʰa" ].
-
 jimpo_2_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
     FLAGS.TRIGGER "jimpo_2" ].
-
--tu_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-tu" ].
-
--tsi_gr := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "-tsi" ].
