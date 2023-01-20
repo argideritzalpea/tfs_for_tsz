@@ -101,11 +101,12 @@ for idx, item in enumerate(all_data):
 
 gloss_dictionary["patio"]
 glosses_to_orth_tokens["cat"]
-glosses_to_morph_tokens["cat"]
+glosses_to_morph_tokens["now"]
 
 gloss_count = list(map(lambda x: (x, len(gloss_dictionary[x])), gloss_dictionary.keys()))
 
 sorted_gloss_count = sorted(gloss_count, key=lambda x: x[1], reverse=True)
+
 
 import csv
 with open('gloss_count.csv','w+') as out:
@@ -145,5 +146,36 @@ def print_searched_samples_to_file(filename="sample.txt", ilength=4, search="APP
 
 print_searched_samples_to_file(filename="sample.txt",
                             ilength=80,
+
                             search="COMP",
                             field="mgl")
+
+import lingpy
+
+
+msa = lingpy.align.pairwise.nw_align('iaxï', 'jaʃyï')
+
+lingpy.align.pairwise.edit_dist('iaxï', 'jaʃyï')
+
+def find_similar_pairs(strings):
+    for 
+
+
+candidates = []
+for gloss_tup in sorted_gloss_count:
+    gloss = gloss_tup[0]   
+    morphlist = list(glosses_to_morph_tokens[gloss])
+    for id1, morph1 in enumerate(morphlist):
+        for id2, morph2 in enumerate(morphlist[id1+1:]):
+            if lingpy.align.pairwise.edit_dist(morph1, morph2) <= 2:
+                candidates.append([gloss]+list(lingpy.align.pairwise.nw_align(morph1, morph2)))
+
+with open("candidates.txt", 'w+') as f:
+    original_stdout = sys.stdout
+    sys.stdout = f # Change the standard output to the file we created.
+    for candidate in candidates:
+        print(candidate[0])
+        print(candidate[1])
+        print(candidate[2])
+        print()
+    sys.stdout = original_stdout
