@@ -120,9 +120,9 @@ Source: ref 3911 in tsz_toolbox.txt, reduced
 Vetted: s
 Judgment: g
 Phenomena: agreement
-Pegru aɽa-h-ø-ti
-Pegru aɽa-sï-ø-ti
-Pedro eat-AOR-PRES-3.IND
+Pegru aɽa-h-ti
+Pegru aɽa-sï-ti
+Pedro eat-AOR-3.IND
 Pedro ate
 
 #13
@@ -130,9 +130,9 @@ Source: ref 3911 in tsz_toolbox.txt + our own informed judgement
 Vetted: s
 Judgment: u
 Phenomena: agreement
-Pegru aɽa-h-ø-ka
-Pegru aɽa-sï-ø-ka
-Pedro eat-AOR-PRES-1/2IND
+Pegru aɽa-h-ka
+Pegru aɽa-sï-ka
+Pedro eat-AOR-1/2IND
 Pedro ate
 
 #14
@@ -215,7 +215,87 @@ hinkonikwa-ti-etʃa tʰire-sïn-ti
 sister-2.POSS-PL eat-HAB-3.IND
 Your sisters eat
 
-#22
+#22 - AOR
+Source: toolbox ref 3555 (but with subject because argument optionality not working right now)
+Vetted: s
+Judgment: g
+Phenomena: aspect
+Puki piri-ʃ-ti pirikwa-ni
+piri-sï-ti pirikwa-ni 
+sing-AOR-3.IND song-OBJ 
+[She/he/it] is singing (about to sing or continuing to sing) (Yo sigo cantando (estoy a punto de cantar y continuo cantando))
+
+#23 - PROG - original: "Jwanu u-xa-ø-ti ma waxantsïkwa" but had to eliminate words due to edge limit (revisit)
+Source: Dominguez dissertation p. 196, ex. 5.5-13
+Vetted: s
+Judgment: g
+Phenomena: aspect
+uxati waxantsïkwa
+u-xa-ti waʃantsïkwa
+do-PROG-3.IND seat
+[He/she/it] is making a seat/bench (Está haciendo una silla)
+
+#25 - HAB
+Source: toolbox ref 3484 (edited)
+Vetted: s
+Judgment: g
+Phenomena: aspect
+piri-ʃïn-ti
+piri-sïn-ti
+sing-HAB-3.IND
+He sings (habitually, commonly). ('El canta/el tiene la costumbre de cantar')
+
+#26 - CONT
+Source: toolbox ref 3555 (but with subject because argument optionality not working right now)
+Vetted: s
+Judgment: g
+Phenomena: aspect
+ji pirixamka
+ji piri-ʃam-ka
+1SG sing-CONT-1/2IND
+I/you am/are singing. (about to sing or continuing to sing) (Yo sigo cantando (estoy a punto de cantar y continuo cantando))
+
+#27 - AOR/PAST
+Source: p. 54 (3.1-5) Dominguez (spelling changed)
+Vetted: s
+Judgment: g
+Phenomena: tam
+erokaspti
+ero-ka-sï-p-ti
+wait-FORM-PERF-PASS-3ASER
+[He/she/it] had waited (for it) ('lo había esperado')
+
+#28 - CONT/NONPST (bipartite)
+Source: toolbox ref 3876 (no null morpheme)
+Vetted: s
+Judgment: g
+Phenomena: tam
+ero-ka-ʃa-ka=ksï
+ero-ka-ʃa-ka=kʃï 
+wait-FORM-PROG-1/2IND=1PL.EX.SBJ 
+We are waiting
+
+#28 - CONT/NONPST (bipartite)
+Source: toolbox ref 3876 (no null morpheme)
+Vetted: s
+Judgment: u
+Phenomena: tam
+ero-ka-ʃa-ka=ksï
+ero-ka-ʃa-ka=kʃï 
+wait-FORM-PROG-1/2IND=1PL.EX.SBJ 
+Intended:'We are waiting'
+
+#29 - AOR/PAST
+Source: toolbox ref 1633
+Vetted: s
+Judgment: g
+Phenomena: tam
+ji sesi ireka-sï-p-ka
+ji sesi ireka-sï-p-ka
+1SG good reside-AOR-PAST-1/2IND 
+I lived well
+
+#30
 Source: ref 5686 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -225,26 +305,17 @@ hini peta-p-ti ta-mpu
 there take.out-PAST-3.IND home-INSTR
 She took her from her own house / Se la llevó de su propia casa
 
-#23
-Source: ref 2999 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: case
-tʰu=kini himbo-ha-ka
-tʰu=kini himpo-ʃa-ka
-2SG=2SG.OBJ INSTR-PROG-1/2IND
-
-#24
+#31
 Source: ref 5052 in tsz_toolbox
 Vetted: f
 Judgement: g
-Phenomena: 
+Phenomena: case
 p'urhepecha jimpo uanta-kua
 p'urhepecha jimpo uanta-kua
 Purhepecha INSTR speak-NMLZR
-our language
+Purhepecha speech
 
-#25
+#32
 Source: ref 5122 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -254,7 +325,7 @@ kani-kua jimpo-ka=chka
 much-NMLZR INSTR-1/2IND=then
 things really have changed
 
-#26
+#33
 Source: ref 6639 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -264,7 +335,7 @@ sesi t'uchaeueri kutsïkua-echa-ni
 good 2PL.GEN ear-PL-OBJ
 so open up your ears.
 
-#27
+#34
 Source: modded ref 6639 in tsz_toolbox
 Vetted: s
 Judgement: u
@@ -274,17 +345,17 @@ sesi t'uchaeueri kutsïkua-ni-echa
 good 2PL.GEN ear-OBJ-PL
 so open up your ears. (ni must follow echa (pl))
 
-#28
+#35
 Source: ref 3602 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: case
 arhi-j-ti=ni juchiti tati
 arhi-sï-ti=ni jucheeti tati
-say AOR 3.IND =1SG.SBJ 1SG.GEN father
+say-AOR-3.IND=1SG.SBJ 1SG.GEN father
 My dad said to me
 
-#29
+#36
 Source: ref 4294 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -294,7 +365,7 @@ inte hutʃeeti
 DEM.SG 1SG.GEN
 My horse is black
 
-#30
+#37
 Source: ref 4287 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -304,7 +375,7 @@ nompe weka-sïn-ka-ni
 NEG want-HAB-1/2IND-OBJ
 I don't want anything
 
-#31
+#38
 Source: modded ref 200 in tsz_toolbox
 Vetted: s
 Judgement: u
@@ -314,7 +385,7 @@ o documentu-echa-ni u-ni-a
 or document-PL-OBJ do-OBJ-3PL.OBJ
 or making documents (switched -ni and -a positions)
 
-#32
+#39
 Source: ref 200 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -324,33 +395,23 @@ o documentu-echa-ni u-a-ni
 or document-PL-OBJ do-3PL.OBJ-OBJ
 or making documents (switched -ni and -a positions)
 
-#33
-Source: ref 3882 in tsz_toolbox.txt
-Vetted: s
-Judgment: g
-Phenomena: agreement
-ero-ʃa-ka-ti
-ero-ʃa-ka-ti
-wait-PROG-FORM-3.IND
-He/they are waiting
-
-#34
-Source: ref 4101 in tsz_toolbox
-Vetted: s
-Judgement: u
-Phenomena: case
-hatsi-ku-ø namunitu itukwa tʃuripu
-hatsi-ku-ø namunitu itukwa tʃuɽipu
-have APPL.3 IMPRTV2 few salt soup
-Intended: 'Put a little salt in the soup' (needs ni after the IO)
-
-#35
-Source: ref 4101 in tsz_toolbox, 
+#40
+Source: ref 4102 in tsz_toolbox, 
 Vetted: s
 Judgement: g
 Phenomena: case
-hatsi-ku-ø namunitu itukwa-ni
-hatsi-ku-ø namunitu itukwa-ni
-have-APPL.3-IMPRTV2 few salt-OBJ
-Intended: 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
+hatsi-ku-ø sani-titu itukwa tʃuripu
+hatsi-ku-ø sani-tu itukwa tʃuɽipu
+have-APPL.3-IMPRTV2 little-DIM salt soup
+'Put a little salt in the soup'  (needs ni after the IO)
+
+#41
+Source: ref 4102 in tsz_toolbox, 
+Vetted: s
+Judgement: u
+Phenomena: case
+hatsi-ku-ø sani-titu itukwa tʃuripu-ni
+hatsi-ku-ø sani-tu itukwa tʃuɽipu-ni 
+have-APPL.3-IMPRTV2 little-DIM salt soup-OBJ
+'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
 
