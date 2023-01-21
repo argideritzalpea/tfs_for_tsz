@@ -1,0 +1,67 @@
+﻿Lab 3
+Abhinav Patil
+Chris Haberland
+
+
+1. Your answers to the questions about the initial and final [incr tsdb()] runs, for both test corpus and test suite, repeated here:
+
+
+Test Corpus:
+We don’t have a corpus before/after because even at i-length < 3 the runs are very expensive at the moment, requiring running our computers at full CPU usage for hours. We will repeat the results of our test suite run from Lab2 below:
+355 of 2955 at i-length < 3 had parses. 
+The average number of parses per parsed item was 42.
+The most ambiguous item had 512 parses
+The main sources of ambiguity was the massive number of noun and verbal position classes and lexical items. The trees run extremely deep (A 5 morpheme VP could have over 10 V daughters) and the depth of the trees for a particular constituent usually correspond with a massive number of position classes created by multiple lexical rules.
+The parses we have reviewed for at least 10 items did not look linguistically justified - all have seemingly too many PC and LRs that create an un-intuitively large number of classes, whereby an NP might have 10 singleton layers of Ns (or VPs to V) of different types. This is still a problem after our morphotactics changes this week, but to a slightly lesser extent that is reflected in the change in the avg. number of parses in our test suite discussed in the following section.
+Test Suite (Lab3):
+Our test suite is only tractable due to (mostly) judicious selection of test sentences. For our test suite, our statistics are as follows:
+
+
+Items parsed (after): 10
+Items parsed (before): 9
+Average number (after): 35.4 (Are “analyses” different from “readings”?)
+Average number (before): 36.44 
+Most ambiguous item (after): # 29, ji sesi ireka-sï-p-ka, with 132 readings
+Most ambiguous item (before): #38, o documentu-echa-ni u-ni-a , with 160 readings
+Sources of ambiguity (with comparison between before and after): 
+As with lab 1, although the situation has somewhat improved.
+For #29, the very first parse suggested by the GUI when clicking on the number under “mrs” in the results window does look reasonable. The predicate is “reside” while the English translation is “live,” but that’s not such a big difference. It also got the aspect right, though not the mood.
+Although we do at least parse 10 items now, most parses still do not look very correct. A major problem is that we do not have valence and argument optionality handled very well yet, so for sentences consisting of just a single verb, it will often fail to parse due to requiring a subject but not getting it; a verb and any (pro)noun may parse, but even if the verb is transitive, for probably the same reason, the object gets marked as the subject. We noticed this issue in this lab for the first time, and hope to fix it over the next week. 
+2. Documentation of the phenomena you have added to your testsuite, illustrated with examples from the testsuite.
+1. Expansion of case
+2. Agreement
+3. Tense/aspect
+We expanded the set of case examples to cover examples of the objective case:
+#17
+ni-ʃa-ti kʰwiripeta-ni
+cook-PROG-3IND meat-OBJ
+I am cooking the meat
+In this simple example, the objective case is used on the argument of the verb ‘cook’, as the direct object. Furthermore, we added examples for the genitive case:
+#26
+sesi t'uchaeueri kutsïkua-echa-ni
+good 2PL.GEN ear-PL-OBJ
+so open up your ears
+Ungrammatical examples were added to ensure that disallowed orders of case suffixes are validated in our test suite. In the following example, the plural suffix “echa” incorrectly follows the objective “ni”. In P’urepecha, the objective case “ni” cannot precede the plural suffix:
+#27
+sesi t'uchaeueri kutsïkua-ni-echa
+good 2PL.GEN ear-OBJ-PL
+so open up your ears. (ni must follow echa (pl))
+
+
+We also added examples for the tense-aspect system. P’urepecha has two tenses, past and non-past, and four aspects, which in the literature have different names and analyses, but which we are adopting by convention the terms aorist, progressive, habitual, and continuous-inchoative. These correspond, respectively, to items 22, 23, and 25 in the test suite, while 27-29 dealt with the past tense. As an example, 22 and 25 contrast almost minimally:
+
+
+#22
+piri-sï-ti pirikwa-ni 
+sing-AOR-3.IND song-OBJ 
+[She/he/it] is singing (about to sing or continuing to sing) (Yo sigo cantando (estoy a punto de cantar y continuo cantando))
+
+
+#25
+piri-ʃïn-ti
+piri-sïn-ti
+sing-HAB-3.IND
+He sings (habitually, commonly). ('El canta/el tiene la costumbre de cantar')
+3. Documentation of the improvements you made the morphotactic choices. What did you change and why? Please include IGT that illustrate the effects of the changes so I can test them out.
+There are at least two different orthographic standards used in our ‘toolbox.txt’ corpus.  While we have not resolved this discrepancy fully, we began work on it as we expect doing so will help collapse common representations. In order to help collapse lexical rules and position classes, we created a tool to find surface words of similar glosses, and align the morphemic representations in our ‘toolbox.txt’ file (our primary linguistic corpus) according to sound class (https://link.springer.com/chapter/10.1007/978-3-642-31467-4_3) to be able to more easily identify misspelled and/or variant surface representations of identical morphs.
+With regard to morphotactic changes: we collapsed some verb types, following the heuristic that if any two verb types have the same valence/case info, and contain at least two stems that are just orthographic variants of each other, we can collapse the whole class. We expect to eventually baseline to a single orthographic variant, but for now, we added extra LRIs for alternate spellings. Second, we collapsed the following verb position classes into one: 31, 97, 218, 221. This rule deals with just one of the valence changing voices, the antipassive. Unfortunately we do not have usable IGT examples to give you to illustrate the benefits of this merge because sentences that have the antipassive are generally already so long, with several affixes in front or required after it, that we hit the edge limit, or fail to parse because those affixes do not have a correct analysis in the grammar as of now. Now that we have a hang of the process of merging, we hope to collapse more noun and verb types and position classes going forward, so that hopefully we can bring down ambiguity and processing times to tractable levels.
