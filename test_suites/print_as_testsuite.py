@@ -145,10 +145,9 @@ def print_searched_samples_to_file(filename="sample.txt", ilength=4, search="APP
         sys.stdout = original_stdout
 
 print_searched_samples_to_file(filename="sample.txt",
-                            ilength=80,
-
-                            search="COMP",
-                            field="mgl")
+                            ilength=5,
+                            search="-ni",
+                            field="mph")
 
 import lingpy
 
@@ -179,3 +178,4 @@ with open("candidates.txt", 'w+') as f:
         print(candidate[2])
         print()
     sys.stdout = original_stdout
+

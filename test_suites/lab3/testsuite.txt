@@ -238,7 +238,7 @@ tʰu=kini himpo-ʃa-ka
 Source: ref 5052 in tsz_toolbox
 Vetted: f
 Judgement: g
-Phenomena: 
+Phenomena: case
 p'urhepecha jimpo uanta-kua
 p'urhepecha jimpo uanta-kua
 Purhepecha INSTR speak-NMLZR
