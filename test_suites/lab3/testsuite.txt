@@ -220,7 +220,7 @@ Source: toolbox ref 3555 (but with subject because argument optionality not work
 Vetted: s
 Judgment: g
 Phenomena: aspect
-Puki piri-ʃ-ti pirikwa-ni
+piri-ʃ-ti pirikwa-ni
 piri-sï-ti pirikwa-ni 
 sing-AOR-3.IND song-OBJ 
 [She/he/it] is singing (about to sing or continuing to sing) (Yo sigo cantando (estoy a punto de cantar y continuo cantando))
