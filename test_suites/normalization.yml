@@ -1,0 +1,20 @@
+metadata:
+  author: Christopher Haberland
+  version: 0.1.1
+  description: Tarascan Graph Transliterator
+tokens:
+  a: []
+  b: []
+  c: [class_c]
+  d: [class_d]
+  ' ': [wb]
+rules:
+  d (b <class_c>): a_before_b_and_class_c # match token 'd' before 'b' and a token of class 'class_c'
+  (<class_c> b) a: a_after_b_and_class_c  # match token 'a' after 'b' and a token of class 'class_c'
+  (<class_c> d) a (b <class_c> <class_d>): x # match 'a' after token of 'class_c' and 'd' and before a token of 'class_c' and of 'class_d'
+onmatch_rules:
+  - <vowel> + <vowel>: ',' # add a comma between vowels
+whitespace:
+  default: ' '
+  token_class: wb
+  consolidate: false

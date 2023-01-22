@@ -1,0 +1,9940 @@
+Source: ref 2047 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huren-pʰe-ni
+huren-pʰe-ni
+know ANTIPASS INF
+to teach
+
+
+Source: ref 2048 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huren-pʰe-ri-ni
+huren-pʰe-ri-ni
+know ANTIPASS PAST INF
+to have taught
+
+
+Source: ref 1 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo unta-sï-ti reŋgéreŋgétskani-tska-ni
+isï jimpo unta-sï-ti reŋgéreŋgétskani-tska-ni
+APPROX INSTR begin AOR 3.IND NONE LOC.buttocks INF
+so the donkey started to limp
+
+
+Source: ref 6145 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-ni p'ukuminturi-o ja-p-ka-ni
+enka-ni p'ukuminturi-o ja-p-ka-ni
+SUBORD OBJ forest LOC exist PAST SBJNC OBJ
+when I was in the forest
+
+
+Source: ref 4100 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hatsi-ku-ø sani-titu itukwa tʃuripu-ni
+hatsi-ku-ø sani-tu itukwa tʃuɽipu-ni
+have APPL.3 IMPRTV2 little DIM salt soup OBJ
+'Put a little salt in the soup'
+
+
+Source: ref 4101 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hatsi-ku-ø namunitu itukwa tʃuripu-ni
+hatsi-ku-ø namunitu itukwa tʃuɽipu-ni
+have APPL.3 IMPRTV2 few salt soup OBJ
+Intended: 'Put a little salt in the soup'
+
+
+Source: ref 6150 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sani isï xanha-ra-pa-ni
+sani isï xana-ra-pa-ni
+bit APPROX walk VAL CONT OBJ
+walking
+
+
+Source: ref 2059 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mi-tsi-ni no huren-pʰera-ka--ti
+mi-tsi-ni no huren-pʰera-ka-a-ti
+know FORM INF no know RECIP FORM FUT 3.IND
+
+
+
+Source: ref 4110 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+na=ti hatsi-ku-sï-ki itukwa tʃuɽipu-ni
+na=ti hatsi-ku-sï-ki itukwa tʃuɽipu-ni
+how =2/3SG have APPL.3 AOR INTER salt soup OBJ
+Intended: How much salt did you put in the soup?
+
+
+Source: ref 2065 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte huren-pʰera-ŋka-ni
+katʃunte huren-pʰera-ŋka-ni
+optative know RECIP PASS INF
+
+
+
+Source: ref 2077 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-kaki u-ke--ka huren-pʰera-ke-ni
+hima-ka-ki u-ke-a-ka huren-pʰera-ke-ni
+when FORM IRR do hollow FUT SBJNC know RECIP hollow INF
+
+
+
+Source: ref 2078 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huren-pʰera-ke-ni
+huren-pʰera-ke-ni
+know RECIP hollow INF
+
+
+
+Source: ref 2079 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huren-pʰera-ke-ri-ni
+huren-pʰera-ke-ri-ni
+know RECIP hollow PAST INF
+
+
+
+Source: ref 2080 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+aŋa-ha-ti huren-pʰera-ŋka-ni
+aŋa-ʃa-ti huren-pʰera-ŋka-ni
+expect PROG 3.IND know RECIP PASS INF
+
+
+
+Source: ref 4126 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-nhka jandiajku uanta-ni
+ima-nhka jandiajku uanta-ni
+DEM.SG PASS alone say OBJ
+She said alone
+
+
+Source: ref 4130 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+menteru=na sesesisesi jikua-rhi-ni
+menteru=na sesesi sesi jikua-rhi-ni
+again =evidential NONE good shower LOC.body OBJ
+again showered really well
+
+
+Source: ref 6192 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+joperu no ini uanta-nt's-kua-ni
+pero no ini uanta-nt'a-kua-ni
+but no DEM.SG.ACC speak ITER NMLZR OBJ
+
+
+
+Source: ref 6198 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka iasï no jatsi-s-ka-ni
+ka iaxï no jatsi-sï-ka-ni
+and now no have AOR 1/2IND OBJ
+
+
+
+Source: ref 6199 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka ixu ima-ni enka-ni
+enka ixu ima-ni enka-ni
+SUBORD here DEM.SG OBJ SUBORD OBJ
+
+
+
+Source: ref 6202 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tamu ka anhatapu-ni
+tamu ka anhatapu-ni
+otherplace and fir OBJ
+
+
+
+Source: ref 4159 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jarhoa-ta=rini sani ue-mi-nt'a-ni ixu
+jarhoa-ta=rini sani ue-mi-nt'a-ni ixu
+help CAUS =1SG.OBJ bit goout LIQ ITER INF here
+Help me get out of here
+
+
+Source: ref 6210 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iasï ireka-ni ia
+iaxï ireka-ni ia
+now reside OBJ already
+
+
+
+Source: ref 6211 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï ka axantikua-echa-ni
+isï ka axantikua-echa-ni
+likethis and branch PL OBJ
+
+
+
+Source: ref 4168 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampetse-ni
+ampetse-ni
+pollute INF
+be contaminated, damaged, throw away
+
+
+Source: ref 4170 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampetse-mu-ni
+ampetse-mu-ni
+pollute LOC.mouth INF
+To be sharp-tongued/Embotarse el filo, ser de mala lengua
+
+
+Source: ref 4171 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampetse-ŋaɽi-ni
+ampetse-ŋaɽi-ni
+pollute LOC.face INF
+To damage the face or eyes/Desfigurarse y estar borrado el rostro o faz de algo o dañársele la cara o los ojos
+
+
+Source: ref 4172 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰiumpe-hku-ɽa-ni
+tsʰiumpe-hku-ra-ni
+pointy finger FORM OBJ
+To have pointy fingers/Tener los dedos puntiagudos
+
+
+Source: ref 4173 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰiumpe-tʃʰa-ni
+tsʰiumpe-tʃʰa-ni
+pointy neck INF
+To have a slim and pointy neck/Tener el cuello sacado y delgado
+
+
+Source: ref 4174 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰiumpehchu-ni
+tsʰiumpe tʃʰu-ni
+pointy seat INF
+To have a pointy base/Estar agudo el asiento
+
+
+Source: ref 4175 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰiumpe-mu-ni
+tsʰiumpe-mu-ni
+pointy LOC.mouth INF
+To have a good peak (the bird)/Tener buenos filos, estar puntiagudo, tener buen pico el ave
+
+
+Source: ref 4176 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰiumpe-mu-ta-ni
+tsʰiumpe-mu-ta-ni
+pointy LOC.mouth CAUS INF
+To sharp/Afilar y hacer punta
+
+
+Source: ref 4177 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+thsiumbe-ɽu-ni
+tsʰiumpe-ɽu-ni
+pointy front INF
+
+
+
+Source: ref 4178 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+thsiumbe-ɽu-ni
+tsʰiumpe-ɽu-ni
+pointy front INF
+
+
+
+Source: ref 4179 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+thsiumbe-htsi-ni
+tsʰiumpe-tsʰï-ni
+pointy LOC.head INF
+
+
+
+Source: ref 4180 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+thsiumbe-ni
+tsʰiumpe-ni
+pointy OBJ
+
+
+
+Source: ref 4182 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+maría kuirú-tʰi tsïkíata-ni
+Maria kuirú-tʰi tsïkíata-ni
+Maria decorate 3.IND basket OBJ
+María decorated the basket. / María decoró la canasta.
+
+
+Source: ref 4184 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Alisia pʰa-ma-tʰi joɽe-kwa-ni
+Alisia pʰa-ma-tʰi joɽe-kwa-ni
+Alice touch liquid 3.IND stream NMLZR OBJ
+Alice touched the surface of the river. / Alicia tocó el río en la superficie.
+
+
+Source: ref 4185 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Alisia pʰó-ma-tʰi joɽe-kwa-ni
+Alisia pʰó-ma-tʰi joɽe-kwa-ni
+Alice depth liquid 3.IND stream NMLZR OBJ
+Alice depth her hand into the water. / Alicia metió la mano en el río.
+
+
+Source: ref 4186 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Juanu kuɽu-tʰi misíku-ni
+Juanu kuɽu-tʰi misíku-ni
+Juan singe 3.IND cat OBJ
+Juan singed the hair of the cat. / Juan le chamuscó los pelos al gato.
+
+
+Source: ref 6233 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji ampe u-ra-ua uarhi-ti-ni=ia
+ji ampe u-ra-a uarhi-ti-ni=a
+1SG something do CAUS FUT woman 3.IND OBJ =already
+what will I use a woman for
+
+
+Source: ref 4188 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+maría katʰú-tʰi kʰáni-ni
+Maria katʃʰu-tʰi kʰáni-ni
+Maria cut 3.IND milpa.leaves OBJ
+María cut the leafs of the milpa. / María cortó las hojas de la milpa.
+
+
+Source: ref 4189 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Juánu matʰo-tʰi pirúakwa-ni
+Juanu matʰo-tʰi pirúakwa-ni
+Juan entangle 3.IND hilo OBJ
+Juan enredó el hilo
+
+
+Source: ref 4191 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Juánu matʃʰúkuʃati-ku-ʃa-ti boti-ni
+Juanu matʃʰúkuʃati-ku-ʃa-ti boti-ni
+Juan NONE APPL.3 PROG 3.IND bottle OBJ
+Juan está machucando un bote.
+
+
+Source: ref 6242 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsiri jatsi-ni mantani uexurhini
+tsiri jatsi-ni mantani uexurini
+corn have OBJ each year
+each year planting corn
+
+
+Source: ref 4199 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hanini-ni ha
+hanini-ni ha
+NONE INF exist
+It is not raining
+
+
+Source: ref 6247 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima nira-san-ti e-ni
+ka ima nira-san-ti e-ni
+and DEM.SG go HAB.PST 3.IND see OBJ
+and everyday he went to look over the corn
+
+
+Source: ref 4203 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nompe-ne ampe aɽini nemani-ni
+nompe-ne ampe aɽini  nemani-ni
+NEG who something say NONE OBJ
+No one said anything to anyone
+
+
+Source: ref 6251 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pauani kokani jauara-ka akutsikuni-ku-ni
+pauani kokani jauara-ka akutsikuni-ku-ni
+tomorrow early get.up 1/2IND NONE APPL.3 INF
+tomorow I'm getting up early
+
+
+Source: ref 2158 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tero=ni ne-wa-ta-ni hure-ta-ŋka-pirin-ka
+anti-ki=tero=ni ne-a-ta-ni hure-ta-ŋka-pirin-ka
+why IRR =other =1SG.SBJ who FUT CAUS OBJ heat CAUS PASS COND SBJNC
+
+
+
+Source: ref 2159 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=re=tero ne-wa-ta-ni hure-ta-ŋka-pirini-ka
+anti-ki=ri=tero ne-a-ta-ni hure-ta-ŋka-pirin-ka
+why IRR 2SG =other who FUT CAUS OBJ heat CAUS PASS COND SBJNC
+
+
+
+Source: ref 2160 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tero ne-wa-ta-ni hure-ta-ŋka-pirini-ka
+anti-ki=tero ne-a-ta-ni hure-ta-ŋka-pirin-ka
+why INTER =other who FUT CAUS OBJ heat CAUS PASS COND SBJNC
+
+
+
+Source: ref 2161 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=kutʃʰe=tero ne-wa-ta-ni hure-ta-ŋka-pirini-ka
+anti-ki=kutʃʰe=tero ne-a-ta-ni hure-ta-ŋka-pirin-ka
+why IRR =1PL.SBJ =other who FUT CAUS OBJ heat CAUS PASS COND SBJNC
+
+
+
+Source: ref 2162 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tsʰï=tero ne-wa-ta-ni hure-ta-ŋka-pirini-ka
+anti-ki=tsʰï=tero ne-a-ta-ni hure-ta-ŋka-pirin-ka
+why INTER =2PL =other who FUT CAUS OBJ heat CAUS PASS COND SBJNC
+
+
+
+Source: ref 2163 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=kʃï=tero ne-wa-ta-ni hure-ta-ŋka-pirini-ka
+anti-ki=kʃï=tero ne-a-ta-ni hure-ta-ŋka-pirin-ka
+why INTER =3PL =other who FUT CAUS OBJ heat CAUS PASS COND SBJNC
+
+
+
+Source: ref 116 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji arhi-n=ksï-nhka-ni Paz
+ji arhi-n=kxï-nhka-ni Paz
+1SG say LNK =3PL PASS OBJ Paz
+Paz
+
+
+Source: ref 4093 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eroka-ʃa-p-ka wanikwa kʰwiripu-itʃa-ni
+ero-ʃa-p-ka wanikwa kʰwiripu-etʃa -ni
+wait PROG PAST 1/2IND many people PL OBJ
+'I was expecting a lot of people'
+
+
+Source: ref 119 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka-ni
+jimpo-ka-ni
+INSTR FORM OBJ
+INSTR
+
+
+Source: ref 4215 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi mirikuɽi-ʃin ima-ni kʰwintʃinkwa-ni
+hi mirikuɽi-sïn ima-ni kʰwintʃinkwa-ni
+1SG forget HAB DEM.SG OBJ party OBJ
+I do forget the party
+
+
+Source: ref 4094 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eroka-ʃa-p-ka kanikwa kʰwiripu-itʃa-ni
+ero-ʃa-p-ka kanikwa kʰwiripu-etʃa -ni
+wait PROG PAST 1/2IND much people PL OBJ
+Intended: I was expecting a lot of people
+
+
+Source: ref 2176 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte=ni hure-ta-ŋka-ni
+katʃunte=ni hure-ta-ŋka-ni
+optative =1SG.SBJ heat CAUS PASS INF
+
+
+
+Source: ref 2177 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+carechunde=retʃunte hure-ta-ŋka-ni
+carechunde=ri katʃunte hure-ta-ŋka-ni
+NONE 2SG optative heat CAUS PASS INF
+
+
+
+Source: ref 2178 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte hure-ta-ŋka-ni
+katʃunte hure-ta-ŋka-ni
+optative heat CAUS PASS INF
+
+
+
+Source: ref 2179 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+cacuhchechunde=kutʃʰetʃunte hure-ta-ŋka-ni
+cacuhchechunde=kutʃʰe katʃunte hure-ta-ŋka-ni
+NONE =1PL.SBJ optative heat CAUS PASS INF
+
+
+
+Source: ref 2180 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+cahtsichunde=tsʰïtʃunte hure-ta-ŋka-ni
+cahtsichunde=tsʰï katʃunte hure-ta-ŋka-ni
+NONE =2PL optative heat CAUS PASS INF
+
+
+
+Source: ref 133 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+p'urhe jimpo uanta-pa-ni ima-ni
+p'urhe jimpo uanta-pa-ni ima-ni
+P'urhepecha INSTR speak CONT OBJ DEM.SG OBJ
+Speak P'urhepecha with her
+
+
+Source: ref 2181 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+caxchunde=kʃïtʃunte hure-ta-ŋka-ni
+caxchunde=kʃï katʃunte hure-ta-ŋka-ni
+NONE =3PL optative heat CAUS PASS INF
+
+
+
+Source: ref 2182 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=ni tsʰï-ri=kʃï a-ri-ŋka-ka hure-ta-ŋka-ni
+nontiati=ni tsʰï-ri=kʃï a-ri-ŋka-ka hure-ta-ŋka-ni
+optativeadverb =1SG.SBJ DEM.PL PL.OBJ =3PL AUX PAST PASS SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2183 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=re tsʰï-ri=kʃï a-ri-ŋka-ka hure-ta-ŋka-ni
+nontiati=ri tsʰï-ri=kʃï a-ri-ŋka-ka hure-ta-ŋka-ni
+subjunctiveadverb 2SG DEM.PL PL.OBJ =3PL AUX PAST PASS SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2184 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati tsʰï-ri=kʃï a-ri-ŋka-ka hure-ta-ŋka-ni
+nontiati tsʰï-ri=kʃï a-ri-ŋka-ka hure-ta-ŋka-ni
+subjunctiveadverb DEM.PL PL.OBJ =3PL AUX PAST PASS SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2185 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=kutʃʰe tsʰï-ri=kʃï a-ri-ŋka-ka hure-ta-ŋka-ni
+nontiati=kutʃʰe tsʰï-ri=kʃï a-ri-ŋka-ka hure-ta-ŋka-ni
+subjunctiveadverb =1PL.SBJ DEM.PL PL.OBJ =3PL AUX PAST PASS SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2187 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=kʃï tsʰï-ri=kʃï a-ri-ŋka-ka hure-ta-ŋka-ni
+nontiati=kʃï tsʰï-ri=kʃï a-ri-ŋka-ka hure-ta-ŋka-ni
+optativeadverb =3PL DEM.PL PL.OBJ =3PL AUX PAST PASS SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2188 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte=ni hure-ta-ŋka-ni
+katʃunte=ni hure-ta-ŋka-ni
+optative =1SG.SBJ heat CAUS PASS INF
+
+
+
+Source: ref 2189 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+carechunde=retʃunte hure-ta-ŋka-ni
+carechunde=ri katʃunte hure-ta-ŋka-ni
+NONE 2SG optative heat CAUS PASS INF
+
+
+
+Source: ref 2190 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte hure-ta-ŋka-ni
+katʃunte hure-ta-ŋka-ni
+optative heat CAUS PASS INF
+
+
+
+Source: ref 143 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kurha-echa-sïren-ka k'uiripu p'urhe uanta-ni
+kurha-echa-sïren-ka k'uiripu p'urhe uanta-ni
+hear NONE HAB.PST 1/2IND people P'urhepecha speak OBJ
+heard people speaking P'urhepecha
+
+
+Source: ref 2191 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+cacuhchechundekutʃʰetʃunte hure-ta-ŋka-ni
+cacuhchechunde=kutʃʰe katʃunte hure-ta-ŋka-ni
+NONE 1PL.SBJ optative heat CAUS PASS INF
+
+
+
+Source: ref 2192 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+cahtsichunde=tsʰïtʃunte hure-ta-ŋka-ni
+cahtsichunde=tsʰï katʃunte hure-ta-ŋka-ni
+NONE =2PL optative heat CAUS PASS INF
+
+
+
+Source: ref 2193 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+caxchunde=kʃïtʃunte hure-ta-ŋka-ni
+caxchunde=kʃï katʃunte hure-ta-ŋka-ni
+NONE =3PL optative heat CAUS PASS INF
+
+
+
+Source: ref 147 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa jucha P'urhe-echa segiri-ni
+para jucha p'urhe-echa segiri-ni
+for 1PL P'urhepecha PL continue INF
+for us, P'urhepechas, to continue
+
+
+Source: ref 148 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ini juchaeri uantakua-ni
+ini juchaeri uantakua-ni
+DEM.SG.ACC 1PL.GEN language OBJ
+our language
+
+
+Source: ref 149 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jurhen-ta-ni jucha-eri uap'a-echa-ni
+juren-ta-ni jucha-eri uap'a-echa-ni
+know CAUS INF 1PL GEN son PL OBJ
+to teach our children
+
+
+Source: ref 4238 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima weka we-ni
+ima weka we-ni
+DEM.SG want sad INF
+She did not want to cry
+
+
+Source: ref 4239 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima weka-ti no we-ni
+ima weka-ti no we-ni
+DEM.SG want 3.IND no sad INF
+She wanted to not cry
+
+
+Source: ref 2200 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=ni ne-wa-ta-ni hure-ta-ŋka--ka
+nontiati=ni ne-a-ta-ni hure-ta-ŋka-a-ka
+optativeadverb =1SG.SBJ who FUT CAUS OBJ heat CAUS PASS FUT SBJNC
+
+
+
+Source: ref 2201 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=re ne-wa-ta-ni hure-ta-ŋka--ka
+nontiati=ri ne-a-ta-ni hure-ta-ŋka-a-ka
+subjunctiveadverb 2SG who FUT CAUS OBJ heat CAUS PASS FUT SBJNC
+
+
+
+Source: ref 2202 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati ne-wa-ta-ni hure-ta-ŋka--ka
+nontiati ne-a-ta-ni hure-ta-ŋka-a-ka
+subjunctiveadverb who FUT CAUS OBJ heat CAUS PASS FUT SBJNC
+
+
+
+Source: ref 2203 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=kutʃʰe ne-wa-ta-ni hure-ta-ŋka--ka
+nontiati=kutʃʰe ne-a-ta-ni hure-ta-ŋka-a-ka
+subjunctiveadverb =1PL.SBJ who FUT CAUS OBJ heat CAUS PASS FUT SBJNC
+
+
+
+Source: ref 156 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha-eri uanta-kua-ni
+jucha-eri uanta-kua-ni
+1PL GEN speak NMLZR OBJ
+
+
+
+Source: ref 2204 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=tsʰï ne-wa-ta-ni hure-ta-ŋka--ka
+nontiati=tsʰï ne-a-ta-ni hure-ta-ŋka-a-ka
+subjunctiveadverb =2PL who FUT CAUS OBJ heat CAUS PASS FUT SBJNC
+
+
+
+Source: ref 2205 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=kʃï ne-wa-ta-ni hure-ta-ŋka--ka
+nontiati=kʃï ne-a-ta-ni hure-ta-ŋka-a-ka
+optativeadverb =3PL who FUT CAUS OBJ heat CAUS PASS FUT SBJNC
+
+
+
+Source: ref 4249 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi noompi=ni kʰwi-ni ha
+hi noompi=ni kʰwi-ni ha
+1SG NEG =1SG.SBJ sleep INF exist
+I do not sleep
+
+
+Source: ref 4252 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=ri o-ʃin-ka ima-ni hutʃeeti-ni
+tʰu=ri o-sïn-ka ima-ni hutʃeeti-ni
+2SG =2SG lock HAB 1/2IND DEM.SG OBJ 1SG.GEN OBJ
+tu encierras a mi hijo
+
+
+Source: ref 6297 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+poka ima ni-ti ni-nt'a-ni
+porka ima ni-ti ni-nt'a-ni
+because DEM.SG go 3.IND go ITER INF
+Because he would go back
+
+
+Source: ref 4258 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+asï ha-ma-ni mika-ni puerta
+asï ha-ma-ni mika-ni puerta
+PROHIB exist outgoing INF close OBJ door
+Do not close the door / do not make the door close
+
+
+Source: ref 6300 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka menki=sï nira-san-ti kaui-ni
+ka mentku=sï nira-san-ti kaui-ni
+and always =FOC go HAB.PST 3.IND get.drunk INF
+and he always went to drink
+
+
+Source: ref 4265 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti=ri no we-ni ha-ki
+anti=ri no we-ni ha-ki
+why =2SG no sad INF exist INTER
+Why are you not crying?
+
+
+Source: ref 172 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+importanti-s-ti pa-chi jucha estudiari-ni
+importanti-sï-ti para-chi jucha estudiari-ni
+important AOR 3.IND for APP.1/2 1PL study INF
+It's important for us to study
+
+
+Source: ref 4268 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ho awa-ka-ni
+ho awa-ka-ni
+yes receive 1/2IND OBJ
+Yes I want
+
+
+Source: ref 6140 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=tsïni u-a-ti ikara-ni
+no=kxïni u-a-ti ikara-ni
+no =2PL.OBJ can FUT 3.IND plant OBJ
+they are not going to be able to plant me
+
+
+Source: ref 177 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+komo orgullosu jarha-ni
+komo orgullosu jarha-ni
+como proud be INF
+to be proud
+
+
+Source: ref 178 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka pa-chi jucha segiri-ni
+ka para-chi jucha segiri-ni
+and for APP.1/2 1PL continue INF
+and for us to continue
+
+
+Source: ref 4275 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+asï hame wera-ni hini
+asï ama wera-ni hini
+PROHIB go goout INF there
+Don't get out of here / Don't go around getting out of here / No se anden saliendo
+
+
+Source: ref 4277 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hu -ni
+hu-ni
+come OBJ
+come
+
+
+Source: ref 4278 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+asï ha-ma-ni hu-ni
+asï ha-ma-ni hu-ni
+PROHIB exist outgoing INF come INF
+Don't come
+
+
+Source: ref 183 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte-n=t'u-chi u-sïn-ka exe-ni
+inte-n=t'u-chi u-sïn-ka exe-ni
+DEM.SG LNK =also APP.1/2 can HAB 1/2IND see INF
+in that we can also see
+
+
+Source: ref 186 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-chi orgullosu jarha-ni
+para-chi orgullosu jarha-ni
+to APP.1/2 proud be INF
+to be proud
+
+
+Source: ref 188 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka pa-chi segiri-ni
+ka para-chi segiri-ni
+and for APP.1/2 continue INF
+and for us to continue
+
+
+Source: ref 189 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha-eri pinte-kua-echa-ni chu-xa-pa-ni
+jucha-eri p'inte-kua-echa-ni chu-xa-pa-ni
+1PL GEN accustom NMLZR PL OBJ follow PROG CONT OBJ
+to follow our customs
+
+
+Source: ref 4287 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nompe we-ʃïn-ka-ni
+nompe weka-sïn-ka-ni
+NEG want HAB 1/2IND OBJ
+I don't want anything
+
+
+Source: ref 192 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+estudiari-ni jucha-eri uanta-kua
+estudiari-ni jucha-eri uanta-kua
+study OBJ 1PL GEN speak NMLZR
+studying our language
+
+
+Source: ref 4288 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=ri ʃaɽi-ni
+tʰu=ri ʃaɽi-ni
+2SG =2SG swim INF
+Can you swim?
+
+
+Source: ref 4290 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi mite-sï-ka mare-ni
+hi mite-sï-ka mare-ni
+1SG be.acquainted AOR 1/2IND sea OBJ
+I know the sea
+
+
+Source: ref 195 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+komo diccionariu-ni ma u-ni
+komo diccionariu-ni ma u-ni
+como dictionary OBJ one do INF
+to make a dictionary
+
+
+Source: ref 4291 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi mite mare-ni
+hi mite mare-ni
+1SG be.acquainted sea OBJ
+I don't know the sea
+
+
+Source: ref 6337 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+k'uani-ku-ni a
+k'uani-ku-ni a
+throw APPL.3 INF AUX
+“to throw out”.
+
+
+Source: ref 198 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ji xu=t'u-ni anchi-kuarhi-xa-ka
+ka ji ixu=t'u-ni anchi-kuarhe-xa-ka
+and 1SG here =also OBJ work RFLX PROG 1/2IND
+And I am also working here
+
+
+Source: ref 199 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+diccionariu-ni ma kreari-ni
+diccionariu-ni ma kreari-ni
+dictionary OBJ one create INF
+to create a dictionary
+
+
+Source: ref 200 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o documentu-echa-ni u-a-ni
+o documentu-echa-ni u-a-ni
+or document PL OBJ do 3PL.OBJ OBJ
+or making documents
+
+
+Source: ref 203 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+historia-echa-ni
+historia-echa-ni
+history PL OBJ
+histories
+
+
+Source: ref 204 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+historia-echa-ni ioni anapu
+historia-echa-ni yoni anapu
+history PL OBJ long.time origin
+histories from a long time
+
+
+Source: ref 205 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-chi jucha u-ni komo
+para-chi jucha u-ni komo
+for APP.1/2 1PL can INF como
+so we can like
+
+
+Source: ref 4300 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte kweneʃi hutʃeeti wanta-ni
+inte kweneʃi hutʃeeti wanta-ni
+DEM.SG child 1SG.GEN speak INF
+My son began to speak two months ago
+
+
+Source: ref 207 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha-eri uap'a-echa-ni jurhen-ta-ni
+jucha-eri uap'a-echa-ni juren-ta-ni
+1PL GEN son PL OBJ know CAUS OBJ
+we can teach our children
+
+
+Source: ref 2260 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka=ki=ni u-ta-wa-ka hure-ta-ŋka-ni
+hima-ka=ki=ni u-ta-a-ka hure-ta-ŋka-ni
+there FORM =RELT =1SG.SBJ do CAUS FUT SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2261 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka-ki=re u-ta-wa-ka hure-ta-ŋka-ni
+hima-ka-ki=ri u-ta-a-ka hure-ta-ŋka-ni
+there FORM IRR =2SG do CAUS FUT SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2262 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka=ki u-ta-wa-ka hure-ta-ŋka-ni
+hima-ka=ki u-ta-a-ka hure-ta-ŋka-ni
+there FORM =RELT do CAUS FUT SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 215 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-chi jucha u-ni
+para-chi jucha u-ni
+for APP.1/2 1PL can INF
+so we can
+
+
+Source: ref 216 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+salvari-ni ini jucha-eri uanta-kua-ni
+salvari-ni ini jucha-eri uanta-kua-ni
+save OBJ DEM.SG.ACC 1PL GEN speak NMLZR OBJ
+to save our language
+
+
+Source: ref 217 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka pinte-kua-echa-ni
+ka p'inte-kua-echa-ni
+and accustom NMLZR PL OBJ
+and customs
+
+
+Source: ref 2263 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka=ki=kutʃʰe u-ta-wa-ka hure-ta-ŋka-ni
+hima-ka=ki=kutʃʰe u-ta-a-ka hure-ta-ŋka-ni
+there FORM =RELT =1PL.SBJ do CAUS FUT SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2264 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka=ki=tsʰï u-ta-wa-ka hure-ta-ŋka-ni
+hima-ka=ki=tsʰï u-ta-a-ka hure-ta-ŋka-ni
+there FORM =RELT =2PL do CAUS FUT SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2265 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka-ki=kʃï u-ta-wa-ka hure-ta-ŋka-ni
+hima-ka-ki=kʃï u-ta-a-ka hure-ta-ŋka-ni
+there FORM IRR =3PL do CAUS FUT SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 221 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+historia-ni ma uanta-nt'a-ni
+historia-ni ma uanta-nt'a-ni
+history OBJ one speak ITER INF
+to tell a story
+
+
+Source: ref 222 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o historia-ni ma archivari-ni
+o historia-ni ma archivari-ni
+or history OBJ one file INF
+or to file a story
+
+
+Source: ref 2266 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hure-ta-ŋka-ni
+hure-ta-ŋka-ni
+heat CAUS PASS INF
+To be taught.
+
+
+Source: ref 2267 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hure-ta-ŋka-ri-ni
+hure-ta-ŋka-ri-ni
+heat CAUS PASS PAST INF
+To have been taught.
+
+
+Source: ref 4318 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte atʃati ima-ni
+inte atʃati ima-ni
+DEM.SG man DEM.SG OBJ
+That man hits his wife
+
+
+Source: ref 4319 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte atʃati ima-ni
+inte atʃati ima-ni
+DEM.SG man DEM.SG OBJ
+That man does not hit his wife
+
+
+Source: ref 4320 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte atʃati ima-ni pero
+inte atʃati ima-ni pero
+DEM.SG man DEM.SG OBJ but
+That man used to hit his wife but he does not do it anymore
+
+
+Source: ref 228 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ri ueka-ni ja-ka archivari-ni
+enka=ri ueka-ni ja-ka archivari-ni
+SUBORD =2SG want OBJ exist SBJNC file INF
+that you are wanting to file
+
+
+Source: ref 233 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o u-a-ka=tsïni uanta-pa-ni
+o u-a-ka=kxïni uanta-pa-ni
+or can FUT 1/2IND =2PL.OBJ speak CONT OBJ
+or you will be able to call me
+
+
+Source: ref 234 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+numeru-ni ji ixu jatsi-a-ka
+numeru-ni ji ixu jatsi-a-ka
+number OBJ 1SG here put FUT 1/2IND
+I will put the number here
+
+
+Source: ref 4334 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eʃe-ʃa-ka=kini iski=ri aɽa-ni ha-ka
+eʃe-ʃa-ka=kini iski=ri aɽa-ni ha-ka
+see PROG 1/2IND =2SG.OBJ that =2SG eat OBJ exist SBJNC
+I see that you are eating
+
+
+Source: ref 240 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wera-ni
+wera-ni
+cry INF
+to cry
+
+
+Source: ref 4337 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hutʃa puɽepetʃa wanta-ʃïn-ka-ni
+hutʃa puɽepetʃa wanta-sïn-ka-ni
+1PL Purhepecha speak HAB 1/2IND OBJ
+We speak Purepecha
+
+
+Source: ref 242 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uingangaríni-ni
+uingangaríni-ni
+NONE INF
+to be worth
+
+
+Source: ref 243 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+thepathepantzcani-ni
+thepathepantzcani-ni
+NONE INF
+to spill something liquid
+
+
+Source: ref 245 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wekʰowekʰomari-pʰe-ni
+wekʰomari wekʰomari-pʰe-ni
+beg beg ANTIPASS INF
+to pray for others
+
+
+Source: ref 246 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+teru-ŋari-ta-pʰe-ni
+taru-ŋaɽi-ta-pʰe-ni
+other LOC.face CAUS ANTIPASS INF
+to place something in front of others before arrival
+
+
+Source: ref 247 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+weka-tseara-me-ntʃa-ni
+weka-tse ara-me-ntʃa-ni
+want down auxiliar be mood INF
+to fall into serious illness
+
+
+Source: ref 248 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huka-ka-ha-tiʃukupaɽa-ni
+huka-ka-ʃa-ti ʃukupaɽa-ni
+have FORM PROG 3.IND clothing INF
+for everyone to get dressed
+
+
+Source: ref 4345 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hini kurutʃa pitama-ni ha-ti=teru
+hini kurutʃa pitama-ni ha-ti=teru
+there fish fish INF exist 3.IND =still
+He is there, still fishing
+
+
+Source: ref 250 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ánta-ni
+ánta-ni
+guide INF
+to guide
+
+
+Source: ref 4347 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no pitama-ni ha
+no pitama-ni ha
+no fish INF exist
+No, he is not still fishing
+
+
+Source: ref 253 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+waɽa-ni
+waɽa-ni
+dance INF
+to dance
+
+
+Source: ref 254 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wá-ɽa-ni
+wa-ra-ni
+move FORM OBJ
+to hunt
+
+
+Source: ref 256 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pʰampska-ni
+pʰampska-ni
+love INF
+to love
+
+
+Source: ref 258 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ni
+pa-ni
+take INF
+to carry elsewhere
+
+
+Source: ref 4367 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte tumpi eʃe misitu-ni
+inte tumpi eʃe misitu-ni
+DEM.SG lad see cat OBJ
+That lad did not see a cat
+
+
+Source: ref 281 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mirintʃe-ni
+mirintʃe-ni
+forget.way INF
+to forget the road
+
+
+Source: ref 4383 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+noompi=ni pameɽa-ni ha
+noompi=ni pameɽa-ni ha
+NEG =1SG.SBJ stomach.ache INF exist
+My stomach is not hurting
+
+
+Source: ref 4384 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi noompi=ni pameɽa-ni ha
+hi noompi=ni pameɽa-ni ha
+1SG NEG =1SG.SBJ stomach.ache INF exist
+
+
+
+Source: ref 293 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+angel-ni
+angel-ni
+angel OBJ
+angel DAT/ACC
+
+
+Source: ref 4391 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu ata-sï-ka awani-ni
+tʰu ata-sï-ka awani-ni
+2SG kill AOR 1/2IND rabbit OBJ
+You killed the rabbit
+
+
+Source: ref 4392 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=ri ata ima-ni awani
+tʰu=ri ata ima-ni awani
+2SG =2SG kill DEM.SG OBJ rabbit
+You did not kill the rabbit
+
+
+Source: ref 297 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+angel-ni
+angel-ni
+angel OBJ
+angels + DAT/ACC
+
+
+Source: ref 4395 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+asi ha-ma-ni nira-ni hini
+asï ha-ma-ni nira-ni hini
+PROHIB exist outgoing INF go INF there
+Don't go to Marias house
+
+
+Source: ref 300 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tata-ni himbo teruntʃe-ka
+tata-ni himpo teruntʃe-ka
+sir OBJ INSTR destine 1/2IND
+I am destined to serve the father
+
+
+Source: ref 6444 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+menk'u=na no=teru ma p'iku-nt'a-ni
+menk'u=na no=teru ma p'iku-nt'a-ni
+always =evidential no =more one harvest ITER OBJ
+suddenly he harvested no more
+
+
+Source: ref 2350 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tero=ni ne-wa-ta-ni =e-pirini-ka
+anti-ki=tero=ni ne-a-ta-ni=e-pirin-ka
+why INTER =other =1SG.SBJ who FUT CAUS OBJ =be COND SBJNC
+
+
+
+Source: ref 2351 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=re=tero ne-wa-ta-ni =e-pirini-ka
+anti-ki=ri=tero ne-a-ta-ni=e-pirin-ka
+why IRR 2SG =other who FUT CAUS OBJ =be COND SBJNC
+
+
+
+Source: ref 2352 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tero ne-wa-ta-ni =e-pirini-ka
+anti-ki=tero ne-a-ta-ni=e-pirin-ka
+why INTER =other who FUT CAUS OBJ =be COND SBJNC
+
+
+
+Source: ref 2353 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=kutʃʰe=tero ne-wa-ni =e-pirini-ka
+anti-ki=kutʃʰe=tero ne-a-ni=e-pirin-ka
+why INTER =1PL.SBJ =other who FUT OBJ =be COND SBJNC
+
+
+
+Source: ref 2354 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tsʰï=tero ne-wa-ni =e-pirini-ka
+anti-ki=tsʰï=tero ne-a-ni=e-pirin-ka
+why INTER =2PL =other who FUT OBJ =be COND SBJNC
+
+
+
+Source: ref 2355 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=kʃï=tero ne-wa-ni =e-pirini-ka
+anti-ki=kʃï=tero ne-a-ni=e-pirin-ka
+why INTER =3PL =other who FUT OBJ =be COND SBJNC
+
+
+
+Source: ref 4405 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi=ni iski ha-ka ero-ka-ni
+hi=ni iski ha-ka ero-ka-ni
+1SG =1SG.SBJ that exist 1/2IND wait FORM INF
+I have been waiting  a long time  for you
+
+
+Source: ref 4415 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka eka-nhka u-pin-ka tsiki-ni
+ka enka-nhka u-pirin-ka tsiki-ni
+and SUBORD PASS can COND 1/2IND grow OBJ
+and if it would grow
+
+
+Source: ref 321 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro hukama-ku-ha-ti Juano-ni mimi-ʃe-ni
+Pegru hukama-ku-ʃa-ti Juanu-ni mimi-ʃe-ni
+Pedro outdo APPL.3 PROG 3.IND Juan OBJ wisdom FORM OBJ
+Pedro is wiser than Juan
+
+
+Source: ref 4420 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka marhoata-ni k'uiripu-echa
+ka marhoata-ni k'uiripu-echa
+and help OBJ people PL
+and help people
+
+
+Source: ref 4426 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka k'e-ra-ni anhatapu-echa ampe
+ka k'e-ra-ni anhatapu-echa ampe
+and grow MED OBJ tree PL something
+and the trees would grow
+
+
+Source: ref 333 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsipe-ni
+tsipe-ni
+life INF
+to live
+
+
+Source: ref 4430 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=ksï inte u-a-sïren-ti incha-nturha-kua-echa-ni
+ima=kxï inte ukuarhint'a-a-sïren-ti incha-ntu-kua-echa-ni
+DEM.SG =3PL DEM.SG make 3PL.OBJ HAB.PST 3.IND enter LOC.foot NMLZR PL OBJ
+they used to make huaraches
+
+
+Source: ref 335 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ni
+pa-ni
+take INF
+to take
+
+
+Source: ref 337 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pire-ni
+pire-ni
+sing INF
+sing
+
+
+Source: ref 339 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kasiɽe-ni
+kasiɽe-ni
+bow INF
+to bow
+
+
+Source: ref 341 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tarhe-ni
+taɽe-ni
+plow INF
+to plow
+
+
+Source: ref 343 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eska-ni
+eska-ni
+sight INF
+to sight
+
+
+Source: ref 2392 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tero=ni ne-wa-ni =e--ka
+anti-ki=tero=ni ne-a-ni=e-a-ka
+why INTER =other =1SG.SBJ who FUT OBJ =be FUT SBJNC
+
+
+
+Source: ref 345 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ni
+pa-ni
+take INF
+to take
+
+
+Source: ref 2393 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=re=tero ne-wa-ni =e--ka
+anti-ki=ri=tero ne-a-ni=e-a-ka
+why IRR 2SG =other who FUT OBJ =be FUT SBJNC
+
+
+
+Source: ref 2394 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tero ne-wa-ni =e--ka
+anti-ki=tero ne-a-ni=e-a-ka
+why INTER =other who FUT OBJ =be FUT SBJNC
+
+
+
+Source: ref 2395 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=kutʃʰe=tero ne-wa-ni =e--ka
+anti-ki=kutʃʰe=tero ne-a-ni=e-a-ka
+why INTER =1PL.SBJ =other who FUT OBJ =be FUT SBJNC
+
+
+
+Source: ref 2396 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tsʰï=tero ne-wa-ni =e--ka
+anti-ki=tsʰï=tero ne-a-ni=e-a-ka
+why INTER =2PL =other who FUT OBJ =be FUT SBJNC
+
+
+
+Source: ref 2397 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=kʃï=tero ne-wa-ni =e--ka
+anti-ki=kʃï=tero ne-a-ni=e-a-ka
+why INTER =3PL =other who FUT OBJ =be FUT SBJNC
+
+
+
+Source: ref 4440 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa=ksï nitama-kuarhi-ni
+para=kxï nitama-kuarhe-ni
+for =3PL pass RFLX OBJ
+for they to survive
+
+
+Source: ref 353 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pʰaska-ni
+pʰaska-ni
+dye INF
+to dye dark
+
+
+Source: ref 355 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ʃerekuaɽe-ni
+ʃerekuaɽe-ni
+entangle/makenests INF
+entangle / make nests
+
+
+Source: ref 6506 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tata=na moku-ku-ni
+tati=na moku-ku-ni
+father =evidential answer APPL.3 OBJ
+The priest replied:
+
+
+Source: ref 363 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kuri-ni=sï
+kuɽi-ni=sï
+burn INF =FOC
+sleeper
+
+
+Source: ref 6510 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima uanta-ni
+ka ima uanta-ni
+and DEM.SG speak INF
+And he said:
+
+
+Source: ref 6282 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nani pi-ua-s-ki-ri ts'ïma-ni uakasï-echa-ni
+nani pi-a-sï-ki-ri ts'ïma-ni uakasï-echa-ni
+where get 3PL.OBJ AOR IRR PAST DEM.PL OBJ ox PL OBJ
+where did you get those oxen?
+
+
+Source: ref 4467 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-ni jintini u-nt'a-ka
+enka-ni jinteni ukuarhint'a-nt'a-ka
+SUBORD OBJ 1SG.OBJ make ITER SBJNC
+that you will make me
+
+
+Source: ref 4469 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha ixu a-rhi-sïn-ka ikicha-kua-echa-ni
+jucha ixu a-rhi-sïn-ka ikicha-kua-echa-ni
+1PL here say MID HAB 1/2IND hate NMLZR PL OBJ
+here we call them devils
+
+
+Source: ref 4470 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kanharhikua-echa-ni enka sïuankua juka-ua-ni-ka
+kanharhikua-echa-ni enka sïuankua juka-a-ni-ka
+face PL OBJ SUBORD horn have 3PL.OBJ OBJ 1/2IND
+face that those horns
+
+
+Source: ref 4472 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ch'éti ampe jatsi-ku-nt'a-ni
+ka ch'éti ampe jatsi-ku-nt'a-ni
+and tail something put APPL.3 ITER OBJ
+and he put him a tail
+
+
+Source: ref 4475 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka tsïuankua juka-nt'a-ni
+ka sïuankua juka-nt'a-ni
+and horn have ITER OBJ
+and had horns
+
+
+Source: ref 4479 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-sï-ni isï tsanarhi ji
+anti-sï-ni isï tsanarhi ji
+why AOR OBJ APPROX dream 1SG
+Why did I dream this?
+
+
+Source: ref 4480 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o anti-ni=sï isï tsanarhi-ta
+o anti-ni=sï isï tsanarhi-ta
+or why FORM =FOC APPROX dream CAUS
+or why I was made to dream like this `
+
+
+Source: ref 2434 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iki=ni ne-wa-ni tsʰïrimu =e-ka
+iki=ni ne-a-ni tsʰïrimu=e-ka
+if,as =1SG.SBJ who FUT OBJ Truly? =be SBJNC
+
+
+
+Source: ref 2435 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iki=re ne-wa-ni tsʰïrimu =e-ka
+iki=ri ne-a-ni tsʰïrimu=e-ka
+if,as 2SG who FUT OBJ Truly? =be SBJNC
+
+
+
+Source: ref 2436 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki ne-wa-ni tsʰïrimu =e-ka
+i=ki ne-a-ni tsʰïrimu=e-ka
+DEM.SG =RELT who FUT OBJ Truly? =be SBJNC
+
+
+
+Source: ref 2437 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iki=kutʃʰe ne-wa-ni tsʰïrimu =e-ka
+iki=kutʃʰe ne-a-ni tsʰïrimu=e-ka
+if,as =1PL.SBJ who FUT OBJ Truly? =be SBJNC
+
+
+
+Source: ref 2438 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iki=tsʰï ne-wa-ni tsʰïrimu =e-ka
+iki=tsʰï ne-a-ni tsʰïrimu=e-ka
+if,as =2PL who FUT OBJ Truly? =be SBJNC
+
+
+
+Source: ref 2439 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iki=kʃï ne-wa-ni tsʰïrimu =e-ka
+iki=kʃï ne-a-ni tsʰïrimu=e-ka
+if,as =3PL who FUT OBJ Truly? =be SBJNC
+
+
+
+Source: ref 4483 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+u-nt'a-sï-p-ti-nhka ima-ni
+ukuarhint'a-nt'a-sï-p-ti-nhka ima-ni
+make ITER AOR PAST 3.IND PASS DEM.SG OBJ
+he made that
+
+
+Source: ref 6534 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sani=teru meni=tku ima-ni mia-a-ta-sïren-ti
+sani=teru meni=tku ima-ni mia-a-ta-sïren-ti
+bit =more one.time =still DEM.SG OBJ remember 3PL.OBJ CAUS HAB.PST 3.IND
+he was always more remembering them
+
+
+Source: ref 4490 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima urhe-ta pia-ni-ka-sï-p-ti
+ka ima orhe-ta piá-ni-ka-sï-p-ti
+and DEM.SG get.ahead CAUS buy OBJ FORM AOR PAST 3.IND
+and that was bought first
+
+
+Source: ref 4499 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte-ni u-ka-ta-echa-ni kurhankuarhi-a-n=ksï
+inte-ni u-ka-ta-echa-ni kurhamarhi-a-n=kxï
+DEM.SG OBJ do 1/2IND NMLZR PL OBJ ask 3PL.OBJ LNK =3PL
+they ask for those works
+
+
+Source: ref 4504 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jurhena-s-p-ti=ksï u-a-ni
+juren-sï-p-ti=kxï ukuarhint'a-a-ni
+know AOR PAST 3.IND =3PL make 3PL.OBJ OBJ
+they knew to make them
+
+
+Source: ref 6552 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=teru-ni isï jama-a-ka
+no=teru-ni isï jama-a-ka
+no =more OBJ APPROX bearound FUT 1/2IND
+I will not be like this anymore
+
+
+Source: ref 4513 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka u-ni=ksi u-ka-ta-echa-ni u-k'u-a-ni
+ka u-ni=kxï u-ka-ta-echa-ni ukuarhint'a-k'u-a-ni
+and can OBJ =3PL do 1/2IND NMLZR PL OBJ make LOC.hand 3PL.OBJ OBJ
+and to be able to make the works
+
+
+Source: ref 4515 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa=ksï ima no xere-kuarhi-nt'a-ni
+para=kxï ima no xere-kuarhe-nt'a-ni
+for =3PL DEM.SG no fall.apart RFLX ITER OBJ
+so they wouldn't break
+
+
+Source: ref 4518 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=ksï ataranta-sïren-ti k'uinchi-kua-echa-ni jimpo
+ima=kxï atarant'a-sïren-ti k'uinchi-kua-echa-ni jimpo
+DEM.SG =3PL sell HAB.PST 3.IND party NMLZR PL INF INSTR
+they used to sell  them in celebrations
+
+
+Source: ref 2476 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-ni
+=e-ni
+=be INF
+
+
+
+Source: ref 2477 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-ti-ni
+=e-ti-ni
+=be 3.IND INF
+
+
+
+Source: ref 2478 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-ri-ni
+=e-ri-ni
+=be PAST INF
+
+
+
+Source: ref 4526 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sino mate=ksï xa-sï uanta-ni
+sino máteru=kxï xa-sï uanta-ni
+if.not another =3PL form type speak OBJ
+but they spoke another type of language
+
+
+Source: ref 4528 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sante=ksï sesi maia-ni-p'i-a-ni
+santeru=kxï sesi mayo-ni-p'i-a-ni
+more =3PL good trade FORM BEN 3PL.OBJ OBJ
+they pay them better
+
+
+Source: ref 6577 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka kuaka-pirin-ka jajki-ni ia
+enka kuaka-pirin-ka jajki-ni ia
+SUBORD get.wet COND SBJNC hand OBJ already
+when he would get his hand
+
+
+Source: ref 6578 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni=tku apo-para-ri-ni kama-ni
+meni=tku apo-parha-ri-ni kama-ni
+one.time =still lie.horizontal LOC.back PAST INF have OBJ
+he always had it laying on his back
+
+
+Source: ref 6580 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mentku=na apo-parha-ri-ni ja-ma-ni
+mentku=na apo-parha-ri-ni ja-ma-ni
+always =evidential lie.horizontal LOC.back PAST OBJ exist on.the.go INF
+he was always laying it on his back
+
+
+Source: ref 4534 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+komo kua-sku-ni ampe
+komo kua-sku-ni ampe
+como fall towards.ground OBJ something
+like kuaskuni
+
+
+Source: ref 6587 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=na moku-ku-ni
+ima=na moku-ku-ni
+DEM.SG =evidential answer APPL.3 OBJ
+He replied:
+
+
+Source: ref 2493 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mi-tsi-ni no =e-ŋka--ti
+mi-tsi-ni no=e-ŋka-a-ti
+know FORM INF no =be PASS FUT 3.IND
+
+
+
+Source: ref 447 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ni
+pa-ni
+take INF
+
+
+
+Source: ref 2495 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tero ne--ni =e-ka-pirini-ka
+anti-ki=tero ne-a-ni=e-ka-pirin-ka
+why INTER =other who FUT OBJ =be FORM COND SBJNC
+
+
+
+Source: ref 2498 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte =e-ka-ni
+katʃunte=e-ka-ni
+optative =be FORM INF
+
+
+
+Source: ref 2500 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte =e-ka-ni
+katʃunte=e-ka-ni
+optative =be FORM INF
+
+
+
+Source: ref 4549 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima-ki-ni ueka-xa-p-ka kurhamarhi-ni
+ka ima-ki-ni ueka-xa-p-ka kurhamarhi-ni
+and DEM.SG IRR OBJ want PROG PAST 1/2IND ask OBJ
+And I wanted to ask you
+
+
+Source: ref 2502 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati ne-wa-ta-ni =e-ka--ka
+nontiati ne-a-ta-ni=e-ka-a-ka
+subjunctiveadverb who FUT CAUS OBJ =be FORM FUT SBJNC
+
+
+
+Source: ref 6607 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mentku isï apo-parha-ri-ni kama-ni
+mentku isï apo-parha-ri-ni kama-ni
+always likethis lie.horizontal LOC.side PAST OBJ have OBJ
+
+
+
+Source: ref 2514 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka-ki u-ta--ka =e-n-ka-ni
+hima-ka-ki u-ta-a-ka=e-n-ka-ni
+when FORM IRR do CAUS FUT SBJNC =be LNK FORM INF
+
+
+
+Source: ref 2515 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-ka-ni
+=e-ka-ni
+=be FORM INF
+
+
+
+Source: ref 2516 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-n-ka-ri-ni
+=e-n-ka-ri-ni
+=be LNK FORM PAST INF
+
+
+
+Source: ref 4563 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa=ksï isï teruku-ta-ni
+para=kxï isï teroku-ta-ni
+for =3PL APPROX match CAUS OBJ
+so they can match it
+
+
+Source: ref 2518 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jenko-kwaɽe-n-ka-ha-ti =e-ka-kweka-ni
+jenko-kwaɽe-n-ka-ʃa-ti=e-ka-s weka-ni
+hope RFLX LNK FORM PROG 3.IND =be FORM LINKER? want INF
+
+
+
+Source: ref 2519 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+aŋa-ha-ti =e-n-ka-kweka-ni
+aŋa-ʃa-ti=e-n-ka-s weka-ni
+expect PROG 3.IND =be LNK FORM LINKER? want INF
+
+
+
+Source: ref 6616 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anha-xu-s-ta kokua-ni sani
+anha-xu-sï-ta kokani-ni sani
+stand.up here AOR CAUS fast OBJ bit
+Make this stop quick!
+
+
+Source: ref 6618 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=na moku-ku-ni
+ima=na moku-ku-ni
+DEM.SG =evidential answer APPL.3 OBJ
+He answered:
+
+
+Source: ref 4576 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+joperu no=teru mak'u-ni pa-sïn-ti
+pero no=teru majku-ni pa-sïn-ti
+but no =more same OBJ take HAB 3.IND
+but they don't follow oit the same
+
+
+Source: ref 5794 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+asï ama-ni tʃʰé-ni
+asï ama-ni tʃʰé-ni
+PROHIB go INF fear INF
+to be afraid
+
+
+Source: ref 4583 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=te=ksï ueka-ni uanta-ni jimpo
+no=te=kxï ueka-ni uanta-ni jimpo
+no =more =3PL want OBJ speak INF INSTR
+they don't want to speak Purhe anymore
+
+
+Source: ref 490 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ni
+pa-ni
+take INF
+
+
+
+Source: ref 493 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ha-ma-ni
+ha-ma-ni
+exist outgoing INF
+
+
+
+Source: ref 6639 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sesi chaari kutsïkua-echa-ni
+sesi t'uchaeueri kutsïkua-echa-ni
+good 2PL.GEN ear PL OBJ
+so open up your ears.
+
+
+Source: ref 4597 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï=t'u inte-ni ampe
+isï=t'u inte-ni ampe
+APPROX =also DEM.SG OBJ something
+and that xiapata also
+
+
+Source: ref 2550 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hasï hara -ni
+hasï haɽáni-ni
+PROHIB be INF
+
+
+
+Source: ref 504 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+intsï-wa-ni
+intsï-wa-ni
+give  INF
+
+
+
+Source: ref 2553 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-hue hasï hara nira-ni
+a-we hasï haɽáni nira-ni
+AUX 3.IMPRTV PROHIB be go INF
+
+
+
+Source: ref 4603 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima-ni jimpo=ksï ampaki-nt'a-ni
+ka ima-ni jimpo=kxï ampaki-nt'a-ni
+and DEM.SG OBJ INSTR =3PL heal ITER OBJ
+and with that they heal up
+
+
+Source: ref 2556 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ahuj hara-nitʃunte=ni ni-pirini-ka
+ahujh haɽáni-ni katʃunte=ni ni-pirin-ka
+alas be INF subjunctive =1SG.SBJ go COND SBJNC
+
+
+
+Source: ref 509 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ni
+pa-ni
+take INF
+
+
+
+Source: ref 510 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ŋka-ni
+paku-ŋka-ni
+take PASS INF
+
+
+
+Source: ref 2557 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte=ni hara nira-ni
+katʃunte=ni haɽáni nira-ni
+optative =1SG.SBJ be go INF
+
+
+
+Source: ref 2558 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=ni tsʰïrimuhara-ni
+nontiati=ni tsʰïrimu haɽáni-ni
+optativeadverb =1SG.SBJ Truly? be INF
+
+
+
+Source: ref 2559 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte=ni hara-ni
+katʃunte=ni haɽáni-ni
+optative =1SG.SBJ be INF
+
+
+
+Source: ref 514 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tarhe-ni
+taɽe-ni
+plow INF
+
+
+
+Source: ref 4611 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nira-sïn-ka=kini kurhamarhi-kua-echa-ni ma u-chi-a-ni
+nira-sïn-ka=kini kurhamarhi-kua-echa-ni ma ukuarhint'a-chi-a-ni
+go HAB 1/2IND =2SG.OBJ ask NMLZR PL OBJ one make BEN 3PL.OBJ OBJ
+I am going to make you some questions
+
+
+Source: ref 516 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰire-ni
+tʰire-ni
+eat INF
+
+
+
+Source: ref 2564 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka-ki=ni u-ta-wa-ka hara-ni
+hima-ka-ki=ni u-ta-a-ka haɽáni-ni
+when FORM IRR =1SG.SBJ do CAUS FUT SBJNC be INF
+
+
+
+Source: ref 2565 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hara-ni
+haɽáni-ni
+be INF
+
+
+
+Source: ref 4613 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+na=ri e-xe-sï-ni
+na=ri e-xe-sï-ni
+how =2SG sight FORM AOR OBJ
+what do you see?
+
+
+Source: ref 5801 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ka ima-ni nira-ni
+ka ka ima-ni nira-ni
+and and DEM.SG OBJ go INF
+leave
+
+
+Source: ref 523 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hirinka-ni
+hirinka-ni
+lookfor INF
+
+
+
+Source: ref 524 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hirinka-ŋka-ni
+hirinka-ŋka-ni
+lookfor PASS INF
+
+
+
+Source: ref 6668 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka marikua arhi-ni tumpi-ni
+ka marikua arhi-ni tumpi-ni
+and young.lady say OBJ lad OBJ
+And the lady told the young men:
+
+
+Source: ref 527 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ara-ni
+ara-ni
+auxiliar INF
+
+
+
+Source: ref 528 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-ra-ha-ka tire-ni
+a-ra-ʃa-ka tʰire-ni
+AUX VAL PROG 1/2IND eat INF
+
+
+
+Source: ref 529 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ha-ra-ni
+ha-ra-ni
+exist VAL INF
+
+
+
+Source: ref 530 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ha-ra-ha-ka tire-ni
+ha-ra-ʃa-ka tʰire-ni
+exist FORM PROG 1/2IND eat INF
+
+
+
+Source: ref 2579 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-hue a-ra-ni
+a-we aɽa-ra-ni
+AUX 3.IMPRTV eat VAL INF
+
+
+
+Source: ref 532 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro-ni
+Pegru-ni
+Pedro OBJ
+
+
+
+Source: ref 5803 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima ma nanaka-ni
+ima ma nanaka-ni
+DEM.SG one woman OBJ
+woman
+
+
+Source: ref 4630 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa=ksï tatsu-ntu-kua-echa-ni u-a-ni
+para=kxï tatsu-ntu-kua-echa-ni ukuarhint'a-a-ni
+for =3PL cover LOC.foot NMLZR PL OBJ make 3PL.OBJ OBJ
+to make huaraches
+
+
+Source: ref 4631 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka marhoa-ta-n=ksï ima-ni
+ka marhoa-ta-n=kxï ima-ni
+and utilize CAUS LNK =3PL DEM.SG OBJ
+to use them
+
+
+Source: ref 6678 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka marikua moku-ku-ni
+ka marikua moku-ku-ni
+and young.lady answer APPL.3 OBJ
+And the lady said:
+
+
+Source: ref 4634 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ixu=ksï kurhamarhi-a-sï-p-ka ji tatachi-echa-ni
+ixu=kxï kurhamarhi-a-sï-p-ka ji tataka-echa-ni
+here =3PL ask 3PL.OBJ AOR PAST 1/2IND 1SG man PL OBJ
+I asked around to the men
+
+
+Source: ref 2590 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tero=ni ne-wa-ta-ni a-pirin-ka
+anti-ki=tero=ni ne-a-ta-ni a-pirin-ka
+why IRR =other =1SG.SBJ who FUT CAUS OBJ AUX COND SBJNC
+
+
+
+Source: ref 4638 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=ksï anatapu-ni ma kua-sku-sï-p-ka
+jimpo-ka=kxï anhatapu-ni ma kua-sku-sï-p-ka
+INSTR FORM =3PL tree OBJ one fall towards.ground AOR PAST 1/2IND
+because they took down a tree
+
+
+Source: ref 2593 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte=ni a-ra-ni
+katʃunte=ni a-ra-ni
+subjunctive =1SG.SBJ AUX VAL INF
+
+
+
+Source: ref 2595 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte=ni ara-ni
+katʃunte=ni ara-ni
+subjunctive =1SG.SBJ auxiliar INF
+
+
+
+Source: ref 549 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kirakuatani-kwata-ni
+kirakuatani-kwatʰa-ni
+NONE on.ground OBJ
+to place round things on the floor
+
+
+Source: ref 2597 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=ni ne-wa-ta-ni a--ka
+nontiati=ni ne-a-ta-ni aɽa-a-ka
+optativeadverb =1SG.SBJ who FUT CAUS OBJ eat FUT SBJNC
+
+
+
+Source: ref 6694 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte-ni costumbrichani-cha-ni
+inte-ni costumbrichani-cha-ni
+DEM.SG OBJ NONE throat INF
+INF
+
+
+Source: ref 2602 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iki=ni tʰwin u-ta-pirini-ka a-ra-ni
+iki=ni tʰwin u-ta-pirin-ka a-ra-ni
+if,as =1SG.SBJ before do CAUS COND SBJNC AUX VAL INF
+
+
+
+Source: ref 6698 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no ka intsï-k'u-ni
+no ka intsï-k'u-ni
+no and give LOC.hand OBJ
+give
+
+
+Source: ref 2605 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka-ki=ni u-ta-wa-ka ara-ni
+hima-ka-ki=ni u-ta-a-ka ara-ni
+when FORM IRR =1SG.SBJ do CAUS FUT SBJNC auxiliar INF
+
+
+
+Source: ref 2606 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ara-ni
+ara-ni
+auxiliar INF
+
+
+
+Source: ref 2607 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-ti-ni
+a-ti-ni
+AUX 3.IND INF
+
+
+
+Source: ref 2608 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jenkokware-ha-ka akweka-ni
+jenkokware-ʃa-ka a weka-ni
+hope PROG SBJNC AUX want INF
+
+
+
+Source: ref 2609 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-ra-ha-ka akweka-ni
+a-ra-ʃa-ka a weka-ni
+AUX VAL PROG SBJNC AUX want INF
+
+
+
+Source: ref 2610 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-ra-ni
+a-ra-ni
+AUX VAL INF
+
+
+
+Source: ref 2611 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+macunia-ku-ni
+macuni a-ku-ni
+NONE AUX APPL.3 INF
+
+
+
+Source: ref 564 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+u-ni
+u-ni
+do INF
+
+
+
+Source: ref 2613 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+çacunia-ku-ni
+çacuni a-ku-ni
+NONE AUX APPL.3 INF
+
+
+
+Source: ref 2615 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-tsi-pe-ni
+a-tsi-pʰe-ni
+AUX FORM ANTIPASS INF
+
+
+
+Source: ref 2618 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃeni macuhati-a-ku-ha-ti tʰire-ni
+tʃeeni macuhati-a-ku-ʃa-ti tʰire-ni
+how NONE FUT APPL.3 PROG 3.IND eat INF
+
+
+
+Source: ref 2620 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃeni macuhatia-ku-ha-ti antʃekware-ni
+tʃeeni macuhati a-ku-ʃa-ti antʃikole-ni
+much NONE AUX APPL.3 PROG 3.IND work INF
+
+
+
+Source: ref 2623 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃeni macuhacaa-ku-ha-ka tʰire-ni
+tʃeeni macuhaca a-ku-ʃa-ka tʰire-ni
+much NONE AUX APPL.3 PROG 1/2IND eat INF
+I eat a lot.
+
+
+Source: ref 2624 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+macuhacaa-ku-ha-ka tʰire-ni
+macuhaca a-ku-ʃa-ka tʰire-ni
+NONE AUX APPL.3 PROG 1/2IND eat INF
+I eat a lot.
+
+
+Source: ref 2627 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte=ni tʃeni macunia-ku-ni
+katʃunte=ni tʃeeni macuni a-ku-ni
+subjunctive =1SG.SBJ how NONE AUX APPL.3 INF
+
+
+
+Source: ref 584 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰapatsʰa-ni
+tsʰapatsʰa-ni
+hoarse INF
+to be hoarse
+
+
+Source: ref 4681 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka juchiti nanti-ni
+ka jucheeti nanti-ni
+and 1SG.GEN mother OBJ
+And Susana asked my mom:
+
+
+Source: ref 6730 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+komo p'urhe uanta-ni p'urhe
+komo p'urhe uanta-ni p'urhe
+como P'urhepecha speak INF P'urhepecha
+P'urhepecha
+
+
+Source: ref 2637 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃeni macunia-ku-ni
+tʃeeni macuni a-ku-ni
+much NONE AUX APPL.3 INF
+
+
+
+Source: ref 2638 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃeni macurina-ku-ri-ni
+tʃeeni macurin a-ku-ri-ni
+much NONE AUX APPL.3 PAST INF
+
+
+
+Source: ref 2646 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne çacuhaquia-ku-ha-ki tʰire-ni
+ne çacuhaqui a-ku-ʃa-ki tʰire-ni
+who NONE AUX APPL.3 PROG IRR eat INF
+
+
+
+Source: ref 599 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+angel-ni
+angel-ni
+angel OBJ
+angel + DAT/ACC
+
+
+Source: ref 600 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+angel-ni
+angel-ni
+angel OBJ
+angel DAT/ACC
+
+
+Source: ref 2647 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne çacuhaquia-ku-ha-ki itsïma-ni
+ne çacuhaqui a-ku-ʃa-ki itsïma-ni
+who NONE AUX APPL.3 PROG IRR drink INF
+Who drinks?/Who is drinking?
+
+
+Source: ref 602 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+angel-ni himpo
+angel-ni himpo
+angel OBJ INSTR
+for the angel,  because of the angel
+
+
+Source: ref 2648 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne çacuhaquia-ku-ha-ki kara-ni
+ne çacuhaqui a-ku-ʃa-ki kara-ni
+who NONE AUX APPL.3 PROG IRR write INF
+Who writes?
+
+
+Source: ref 2649 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne çacuhaquia-ku-ha-ki antʃekware-ni
+ne çacuhaqui a-ku-ʃa-ki antʃikole-ni
+who NONE AUX APPL.3 PROG IRR work INF
+
+
+
+Source: ref 605 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+angel -etʃa-ni
+angel-etʃa -ni
+angel PL OBJ
+OBJ
+
+
+Source: ref 2650 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne çacuhaquia-ku-ha-ki kwiki=re-ni
+ne çacuhaqui a-ku-ʃa-ki kwiki=re-ni
+who NONE AUX APPL.3 PROG IRR whip =move INF
+Who whips?
+
+
+Source: ref 607 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+angel -etʃa-ni himpo
+angel-etʃa -ni himpo
+angel PL OBJ INSTR
+for the angels, because of the angels
+
+
+Source: ref 4697 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima=rini arhi-ni
+ka ima=rini arhi-ni
+and DEM.SG =1SG.OBJ say INF
+and he told me: koliari.
+
+
+Source: ref 2657 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne çacuhania-ku-ha-ni
+ne çacuhani aɽa-ku-ʃa-ni
+who NONE eat APPL.3 PROG INF
+Who does it?
+
+
+Source: ref 6755 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+p'iku-ni o
+p'iku-ni o
+take OBJ or
+
+
+
+Source: ref 2665 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nah=re macuhaquia-ku-ha-ki tʰire-ni
+na=ri macuhaqui a-ku-ʃa-ki tʰire-ni
+how 2SG NONE AUX APPL.3 PROG IRR eat INF
+How do you eat?
+
+
+Source: ref 4713 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka arhi-ni meni ka
+ka arhi-ni meni ka
+and say INF one.time and
+And she told me again: “ there are uaricha and owls sometimes.”
+
+
+Source: ref 2667 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nah=re macuhaquia-ku-ha-ki kara-ni
+na=ri macuhaqui a-ku-ʃa-ki kara-ni
+how 2SG NONE AUX APPL.3 PROG IRR write INF
+How do you write?
+
+
+Source: ref 4715 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka arhi-ni t'u
+ka arhi-ni t'u
+and say INF 2SG
+And Susana told me: “but you’re really still very young.”
+
+
+Source: ref 2673 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃeni maku-ra--ka tʰire-rani watʃe-ni
+tʃeeni mata-ra-a-ka tʰire-rani watʃe-ni
+much give VAL FUT 1/2IND eat MAX son OBJ
+I will feed my son a lot of food.
+
+
+Source: ref 2674 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nah=re maku-ra tʰire-ra-ni
+na=ri mata-ra tʰire-ra-ni
+how 2SG give VAL eat VAL INF
+How did you make your son eat?
+
+
+Source: ref 6771 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ueka-ni centavu i
+ueka-ni sentabu i
+want OBJ money DEM.SG
+
+
+
+Source: ref 4727 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ji uandáni-ni ampe
+ka ji uandáni-ni ampe
+and 1SG NONE INF something
+And I heard him and I asked “who is there?”
+
+
+Source: ref 2680 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne çacurahaquia-ku-ra-ha-ki tsʰenka-ni
+ne çacurahaqui a-ku-ra-ʃa-ki tsʰenka-ni
+who NONE AUX APPL.3 VAL PROG IRR measure INF
+Who measures?
+
+
+Source: ref 6775 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni enka
+ima-ni enka
+DEM.SG OBJ SUBORD
+
+
+
+Source: ref 2682 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne çacurahaquia-kura-ha-ki ha-rata-ni
+ne çacurahaqui a-kuɽa-ʃa-ki ha-rata-ni
+who NONE AUX APPL.PL PROG IRR rain CAUS INF
+Who causes the rain?
+
+
+Source: ref 635 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+-etʃa-ni himpo
+-etʃa -ni himpo
+PL OBJ INSTR
+
+
+
+Source: ref 2683 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne çacurahaquia-ku-ra-ha-ki taria-tara-ni
+ne çacurahaqui a-ku-ra-ʃa-ki taɽia-tara-ni
+who NONE AUX APPL.3 VAL PROG IRR wind CAUS INF
+Who makes the wind?
+
+
+Source: ref 6783 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+che ixu jua-ni
+che ixu jua-ni
+POSS here bring OBJ
+
+
+
+Source: ref 6293 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka uarhi-ti-echa-ni jinkoni jama-ni
+ka uarhi-ti-echa-ni jinkoni jama-ni
+and woman 3.IND PL OBJ POSTP bearound INF
+and to be around women
+
+
+Source: ref 2694 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-tsipe-ni
+a-tspe-ni
+AUX multitud INF
+
+
+
+Source: ref 2695 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-tsipe-nsta-ni
+a-tspe-ntʰa-ni
+AUX multitud ITER INF
+
+
+
+Source: ref 4742 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ketsi-nt'a-xa-ti patsa-ni perasï-echa-ni
+ka ketsi-nt'a-xa-ti patsa-ni perasï-echa-ni
+and descend ITER PROG 3.IND preserve INF pears PL OBJ
+and he is going back down to save the pears
+
+
+Source: ref 2697 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-tsipe-ka kara-tspe-ni
+a-tspe-ka kara-tspe-ni
+AUX multitud 1/2IND write multitud INF
+I wrote for other people.
+
+
+Source: ref 2698 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-tsipe-ka tʰire-tspe-ni
+a-tspe-ka tʰire-tspe-ni
+AUX multitud 1/2IND eat multitud INF
+
+
+
+Source: ref 2700 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ʃenkwa a-ku-tspe-ni
+ʃenkwa a-ku-tspe-ni
+cherry AUX APPL.3 multitud INF
+To eat someone else's cherries.
+
+
+Source: ref 653 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hukama-ni
+hukama-ni
+outdo INF
+
+
+
+Source: ref 654 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wanantamapʰema-ni
+wanantamapʰema-ni
+bebetter INF
+
+
+
+Source: ref 655 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wantatsepʰema-ni
+wantatsepʰema-ni
+bebetter INF
+
+
+
+Source: ref 656 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hatzistahpémani-ni
+hatzistahpémani-ni
+NONE INF
+
+
+
+Source: ref 2701 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kupanta a-ku-tspe-ni
+kupanta a-ku-tspe-ni
+avocado AUX APPL.3 multitud INF
+To eat someone else's avocadoes.
+
+
+Source: ref 2702 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-ku-tspe-ni
+a-ku-tspe-ni
+AUX APPL.3 multitud INF
+To eat someone else's sapodilla.
+
+
+Source: ref 2703 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+vcas=sï sira-ni a-ku-tspe-ni
+vcas=sï sira-ni a-ku-tspe-ni
+NONE =FOC fig OBJ AUX APPL.3 multitud INF
+To eat small pumpkins, figs, etc.
+
+
+Source: ref 4749 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kutsuri-nt'a-s-ti ma pera-ni
+kutsu-nt'a-sï-ti ma pera-ni
+clean ITER AOR 3.IND one pear OBJ
+he cleaned a pear
+
+
+Source: ref 2722 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+atʃʰure-tʃʰa-ni
+atʃʰiuri-etʃa -ni
+night PL OBJ
+the nights
+
+
+Source: ref 4774 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nira-xa-ti ia ke-tsi-ni
+nira-xa-ti ia ke-tsi-ni
+go PROG 3.IND already down down INF
+he is going to get down
+
+
+Source: ref 4794 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xanha-ra-xa-ti antanku-ni tataka-ni
+xana-ra-xa-ti antanku-ni tataka-ni
+walk FORM PROG 3.IND reach INF boy OBJ
+he is walking to reach the boy
+
+
+Source: ref 4796 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka intsï-ku-nt'a-s-ti juka-ts'ï-kua-ni
+ka intsï-ku-nt'a-sï-ti juka-ts'ï-kua-ni
+and give APPL.3 ITER AOR 3.IND put LOC.head NMLZR OBJ
+and he gave back the hat
+
+
+Source: ref 4798 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka intsï-n-p'i-s-ti tsimani perasï-echa-ni
+ka intsï-n-p'i-sï-ti tsimani perasï-echa-ni
+and give LNK BEN AOR 3.IND two pears PL OBJ
+and he gifted him two pears
+
+
+Source: ref 4801 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pareceka=ksï chana-ni nira-ni ja-ka
+pareceka=kxï chana-ni nira-ni ja-ka
+seems.like =3PL play INF go OBJ exist 1/2IND
+seems like they are going to play
+
+
+Source: ref 711 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+thúchahtzini-tʃa=tsʰï-ni huren-ha-ka hintsini
+thúchahtzini-etʃa =tsʰï-ni huren-ʃa-ka hinteni
+NONE PL =2PL OBJ know PROG 1/2IND 1SG.OBJ
+You guys teach me
+
+
+Source: ref 2760 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+çambini-ni
+çambini-ni
+NONE INF
+small inanimated thing such as a stone, sticks, oranges or similar objects
+
+
+Source: ref 2766 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+çambini-ni
+çambini-ni
+NONE INF
+
+
+
+Source: ref 4817 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jupikueka-a-ni jama-ni
+jupi kueka-a-ni jama-ni
+grab want 3PL.OBJ OBJ bearound OBJ
+wanted to be grabbing them
+
+
+Source: ref 4830 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=chka-ni ji=t'u=kini jarhoa-ta-sï-ka p'iku-nt'a-ni
+no=chka-ni ji=t'u=kini jarhoa-ta-sï-ka p'iku-nt'a-ni
+no =then OBJ 1SG =also =2SG.OBJ help CAUS AOR 1/2IND harvest ITER INF
+Becuase I also helped you to harvest
+
+
+Source: ref 6882 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha isï inte-ni k'uinchi-kua-echa
+jucha isï inte-ni k'uinchi-kua-echa
+1PL APPROX DEM.SG OBJ party NMLZR PL
+
+
+
+Source: ref 4837 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+p'amok'u-pa-ri-ni isï arhi-sï-p-ti
+p'amok'u-pa-ri-ni isï arhi-sï-p-ti
+pity CONT PAST OBJ likethis say AOR PAST 3.IND
+Feeling pity he said like this
+
+
+Source: ref 4852 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji=chka-ni jinte-s-ka ima uarhi
+ji=chka-ni jinte-sï-ka ima uarhi
+1SG =then OBJ DEM.SG AOR 1/2IND DEM.SG woman
+I am that woman
+
+
+Source: ref 6909 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kuata-nt'a-s-p-ti ero-nt'a-ni
+kuata-nt'a-sï-p-ti ero-nt'a-ni
+get.tired ITER AOR PAST 3.IND wait ITER OBJ
+She got tired of waiting,
+
+
+Source: ref 6910 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ts'ira-pa-ri-ni kara-ma-nt'a-s-ti
+ka ts'ira-pa-ri-ni kara-ma-nt'a-sï-ti
+and cold CONT PAST INF ascend on.the.go ITER AOR 3.IND
+and she went back up feeling cold
+
+
+Source: ref 4868 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimajkani ju-ua-ka t'u-nki-ni pi-nt'a-ni
+jimajkani ju-a-ka t'u-nki-ni pi-nt'a-ni
+then come FUT SBJNC 2SG SUB OBJ take ITER INF
+I will come to take you then
+
+
+Source: ref 6917 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kani-kua no sesi pikuarhe-ra-ni
+kani-kua no sesi pikuarhe-ra-ni
+much NMLZR no good feel CAUS OBJ
+She was feeling really bad
+
+
+Source: ref 4870 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u no jama-a-ka uantania-ni
+t'u no jama-a-ka uantane-ni
+2SG no bearound FUT 1/2IND worry OBJ
+You will not be worrying
+
+
+Source: ref 6918 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï k'uanatsi-nt'a-s-ti nia-nt'a-ni
+isï k'uanatsi-nt'a-sï-ti nya-nt'a-ni
+likethis return ITER AOR 3.IND arrive CENTR INF
+She just returned back
+
+
+Source: ref 4879 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=ri nema-ni jama-a-ka aian-ku-ni
+no=ri nema-ni jama-a-ka aian-ku-ni
+no =2SG someone OBJ bearound FUT 1/2IND inform APPL.3 OBJ
+You are not informing anyone.
+
+
+Source: ref 794 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ni
+pa-ni
+take INF
+to take
+
+
+Source: ref 795 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ni
+paku-ni
+take INF
+to have taken
+
+
+Source: ref 4896 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=ksï ampe kuerata-ncha-ni
+no=kxï ampe kuerata-ncha-ni
+no =3PL something lack mood OBJ
+where they won't lack of anything
+
+
+Source: ref 801 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-nini-ra-ha-ka
+pa-ni ni-ra-ʃa-ka
+take INF go MED PROG 1/2IND
+I am going to take
+
+
+Source: ref 6946 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Jwanu kiɽa-nu-ta-sï-ti tsuntsu-ni
+Juanu kiɽa-nu-ta-sï-ti tsuntsu-ni
+Juan round.object patio CAUS AOR 3.IND pot OBJ
+'Juan put/hat put the pot in the patio'
+
+
+Source: ref 6947 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Jwanu kiɽa-paɽa-ta-sï-ti tsuntsu Maria-ni
+Juanu kiɽa-paɽa-ta-sï-ti tsuntsu Maria-ni
+Juan round.object LOC.back CAUS AOR 3.IND pot Maria OBJ
+'Juan put the/a pot on Maria's back'
+
+
+Source: ref 804 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+weka-ha-ka tire-ni
+weka-ʃa-ka tʰire-ni
+want PROG 1/2IND eat INF
+I want to eat.
+
+
+Source: ref 805 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nira-ha-ka pa-ni
+nira-ʃa-ka pa-ni
+leave PROG 1/2IND take INF
+I am going to take.
+
+
+Source: ref 806 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi-tʃe-ni himpo =e-sï-ka pa-ni
+hi-tʃe-ni himpo=e-sï-ka pa-ni
+1SG me OBJ INSTR =be AOR 1/2IND take INF
+It is convenient for me to take.
+
+
+Source: ref 809 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+himbo =e-sï-ti pa-ni
+himpo=e-sï-ti pa-ni
+INSTR =be AOR 3.IND take INF
+it is convenient to take
+
+
+Source: ref 810 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iuan himbo =e-sï-ti wanta-tse-kwaɽe-ni
+Juanu himpo=e-sï-ti wanta-tse-kwaɽe-ni
+Juan INSTR =be AOR 3.IND speak down RFLX INF
+
+
+
+Source: ref 811 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-sï-ti ʃatʃomukware-ni tios-ni
+=e-sï-ti ʃatʃomukware-ni diosï-ni
+=be AOR 3.IND receive INF god OBJ
+
+
+
+Source: ref 812 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eʃe-kwa-ni
+eʃe-kwa-ni
+see NMLZR OBJ
+it is worth seeing
+
+
+Source: ref 4905 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+k'uiripu jankuarhe-sïren-p-ti p'askuarhu nira-ni
+k'uiripu jaakuarhe-sïren-p-ti p'askuarhu nira-ni
+people hurry HAB.PST PAST 3.IND patzcuaro go INF
+People were in a hurry to go to Patzcuaro.
+
+
+Source: ref 4907 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+k'uinchi-kua pire-ni ka tsïtsïki
+k'uinchi-kua pire-ni ka tsïtsïki
+party NMLZR sing INF and flower
+The celebration was full of people singing and the fields were full of flowers.
+
+
+Source: ref 4916 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne marhua-ta-a ia inte-ni
+ne marhoa-ta-a ia inte-ni
+who utilize CAUS FUT already DEM.SG OBJ
+who will help himself to it…?
+
+
+Source: ref 4918 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no ji=chka-ni ampe ni-nt'a-ka
+no ji=chka-ni ampe ni-nt'a-ka
+no 1SG =then OBJ NEG go ITER 1/2IND
+No, I am not going back
+
+
+Source: ref 4919 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-ni u-a-ka ni-ua-ka sïpa-kuarhe-ni
+enka-ni u-a-ka ni-a-ka sïpa-kuarhe-ni
+SUBORD INF can FUT SBJNC go FUT 1/2IND steal RFLX INF
+if I can, I will go to run away
+
+
+Source: ref 4924 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jankuarhe-s-ti ima-ni sïkuiri-ni juka-nt'a-ni
+jaakuarhe-sï-ti ima-ni sïkuiri-ni juka-nt'a-ni
+hurry AOR 3.IND DEM.SG OBJ leather OBJ wear ITER INF
+He hurried to put on that leather
+
+
+Source: ref 4929 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jankuarhe-s-ti ueka-ni exent'a-ni
+jaakuarhe-sï-ti ueka-ni exent'a-ni
+hurry AOR 3.IND want OBJ find INF
+She hurried wanting to find him
+
+
+Source: ref 4933 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï ni-ni sïpa-kuarhe-ni
+ka isï ni-ni sïpa-kuarhe-ni
+and APPROX go OBJ steal RFLX INF
+by going to escape
+
+
+Source: ref 4935 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï e-tsi-pa-ri-ni
+isï e-tsi-pa-ri-ni
+APPROX see down CONT PAST OBJ
+he was thinking like this
+
+
+Source: ref 4939 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+najkiru=chka-ni inte=k'u-ni pa-nt'a-a-ka
+najkiru=chka-ni inte=k'u-ni pa-nt'a-a-ka
+even =then OBJ DEM.SG =only OBJ take ITER FUT 1/2IND
+I will only take back that then
+
+
+Source: ref 4940 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï ikia-pa-ri-ni
+ka isï ikia-pa-ri-ni
+and APPROX angry CONT PAST OBJ
+and he left with anger
+
+
+Source: ref 4946 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji=chka-ni pa-nt'a-a-ka
+ji=chka-ni pa-nt'a-a-ka
+1SG =then OBJ take ITER FUT 1/2IND
+I will then take him back
+
+
+Source: ref 4240 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima weka-ti we-ni
+ima weka-ti we-ni
+DEM.SG want 3.IND sad INF
+She wanted to cry
+
+
+Source: ref 4959 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka irhi-ts'ï-ku-a-s-ka=ksï uakasï-echa-ni
+ka irhi-ts'ï-ku-a-sï-ka=kxï uakasï-echa-ni
+and tie LOC.head APPL.3 3PL.OBJ AOR 1/2IND =3PL ox PL OBJ
+Then we tied the oxen by the horns.
+
+
+Source: ref 4964 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka mintsi-ra-ni
+ka mintsi-ra-ni
+and rest FORM INF
+Ka uanatisa mintsirani k’uenhksicha.
+
+
+Source: ref 4967 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ju-j-ti susana teroxu-kua-rhu jua-ni
+ju-sï-ti susana teroxu-kua-rhu jua-ni
+come AOR 3.IND Susana be.noon NMLZR LOC bring INF
+Susana came in the afternoon to bring
+
+
+Source: ref 4973 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+chkapi kokani tsiri jatsi-ni
+chkapi kokani tsiri jatsi-ni
+quick fast corn put INF
+“quick, hurry to plant corn.”
+
+
+Source: ref 6281 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï arhi-ni
+ka isï arhi-ni
+and APPROX say OBJ
+and told her
+
+
+Source: ref 2938 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wanatse-h-pe-ma-ni
+wanatse-s-pʰe-ma-ni
+excel LINKER? ANTIPASS one INF
+to stand out among them
+
+
+Source: ref 891 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ŋka-ni
+paku-ŋka-ni
+take PASS INF
+to be taken
+
+
+Source: ref 2939 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro Juano-ni ampake-ni
+Pegru Juanu-ni ampake-ni
+Pedro Juan OBJ good ADV
+
+
+
+Source: ref 2940 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro Juano-ni ampake-ni
+Pegru Juanu-ni ampake-ni
+Pedro Juan OBJ good ADV
+
+
+
+Source: ref 4987 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kurhánikuarikua-ni-kua ma isï ara-ka
+kurhánikuarikua-ni-kua ma isï ara-ka
+NONE INF NMLZR one APPROX auxiliar 1/2IND
+People say that
+
+
+Source: ref 4990 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nárhi-ri xésïnisï-ni
+nárhi-ri xésïni sï-ni
+NONE PAST NONE threads INF
+What do you think?
+
+
+Source: ref 896 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nira-ha-ka pa-ŋka-ni
+nira-ʃa-ka paku-ŋka-ni
+leave PROG 1/2IND take PASS INF
+I am going to be taken
+
+
+Source: ref 897 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi tʃeni himbo =e-sï-ka pa-ŋka-ni
+hi tʃeeni himpo=e-sï-ka pa-ŋka-ni
+1SG how INSTR =be AOR 1/2IND take PASS INF
+it is convenient for me to be taken
+
+
+Source: ref 2946 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro i=sï ampake-ni Juano
+Pegru i=sï ampake-ni Juanu
+Pedro DEM.SG =FOC good ADV Juan
+
+
+
+Source: ref 2947 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro ampake-ni ka
+Pegru ampake-ni ka
+Pedro good ADV and
+
+
+
+Source: ref 4994 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jurhéndani-ni
+jurhéndani-ni
+NONE INF
+to teach spanish to their kids
+
+
+Source: ref 2950 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mento kani Juano-ni ampake-ni
+kámento kani Juanu-ni ampake-ni
+all much Juan OBJ good ADV
+
+
+
+Source: ref 4998 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o=ksï kurháchini-ni peksïni-ni contestarichindani-chi-ni
+o=kxï kurháchini-ni peksïni-ni contestarichindani-chi-ni
+or =3PL NONE INF NONE INF NONE APP.1/2 INF
+or they understand but they respond in Spanish
+
+
+Source: ref 2954 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nah mi-tsi-ni
+na mi-tsi-ni
+how know FORM INF
+
+
+
+Source: ref 2955 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nah mi-tsi-ni mento
+na mi-tsi-ni kámento
+how know FORM INF all
+
+
+
+Source: ref 2960 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mento kani Juano-ni ampake-ni
+kámento kani Juanu-ni ampake-ni
+all much Juan OBJ good ADV
+
+
+
+Source: ref 2961 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mento Juano-ni ampake-ni
+kámento Juanu-ni ampake-ni
+all Juan OBJ good ADV
+
+
+
+Source: ref 2962 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mento Juano-ni ampake-ni
+kámento Juanu-ni ampake-ni
+all Juan OBJ good ADV
+
+
+
+Source: ref 2963 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mento Juano-ni ampake-ni
+kámento Juanu-ni ampake-ni
+all Juan OBJ good ADV
+
+
+
+Source: ref 2964 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mento ampake-ni
+kámento ampake-ni
+all good ADV
+
+
+
+Source: ref 5009 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïkakini-ki-ni na
+esïkakini-ki-ni na
+NONE IRR INF how
+like I was telling you just now
+
+
+Source: ref 6288 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimani k'oru nira-s-ti=ksï p'orhempi-ni
+jimani k'o nira-sï-ti=kxï p'orempi-ni
+then yes.emphasized go AOR 3.IND =3PL visit INF
+They did go to visit him then
+
+
+Source: ref 5018 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+obligariuani-ua-ni ia jini pari
+obligariuani-a-ni ia jini para
+NONE FUT INF already there for
+and force teachers
+
+
+Source: ref 5020 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+p'urhe jimpo seguirini-ni uandákani-ka-ni
+p'urhe jimpo seguirini-ni uandákani-ka-ni
+P'urhepecha INSTR NONE INF NONE 1/2IND INF
+so they continue speaking P'urhepecha
+
+
+Source: ref 2973 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sesï macuhaquia-ku-ha-ki kara-ni
+sesi macuhaqui a-ku-ʃa-ki kara-ni
+well NONE AUX APPL.3 PROG IRR write INF
+
+
+
+Source: ref 5022 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïkakini-ki-ni na arhíni-ni ja-p-ka
+esïkakini-ki-ni na arhíni-ni ja-p-ka
+NONE IRR INF how NONE INF exist PAST 1/2IND
+like I was saying
+
+
+Source: ref 5023 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima u-a-ti u-ni ima-ni
+ima u-a-ti u-ni ima-ni
+DEM.SG can FUT 3.IND can INF DEM.SG OBJ
+only the goverment
+
+
+Source: ref 5024 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+conservarini-ni juchari uanta-kua-ni juchari
+conservarini-ni juchaeri uanta-kua-ni juchaeri
+NONE INF 1PL.GEN speak NMLZR OBJ 1PL.GEN
+can help preserve our language
+
+
+Source: ref 5026 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+costumbrichani-cha-ni inte=chka ia P'urhépechechi-chi
+costumbrichani-cha-ni inte=chka ia P'urhépechechi-chi
+NONE throat INF DEM.SG =then already NONE APP.1/2
+our traditions that's for us to save because that is something the belongs to the P'urhepechas
+
+
+Source: ref 2982 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+akwa =e-sï-ti pire-ni
+akwa=e-sï-ti pire-ni
+food =be AOR 3.IND sing INF
+
+
+
+Source: ref 935 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-ti-ni
+=e-ti-ni
+=be 3.IND INF
+to have been
+
+
+Source: ref 936 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-ri-ni
+=e-ri-ni
+=be PAST INF
+to have been
+
+
+Source: ref 937 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-ka-ni
+=e-ka-ni
+=be 1/2IND OBJ
+I hope to be be
+
+
+Source: ref 938 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-ra-ni
+=e-ra-ni
+=be VAL INF
+to make someone be
+
+
+Source: ref 2984 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=e-sï-ti ka akwa =e-sï-ti tare-ni
+=e-sï-ti ka akwa=e-sï-ti taɽe-ni
+=be AOR 3.IND and food =be AOR 3.IND dig INF
+
+
+
+Source: ref 2985 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro-ni
+Pegru-ni
+Pedro OBJ
+
+
+
+Source: ref 2988 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+watʃe-ni
+watʃe-ni
+son OBJ
+
+
+
+Source: ref 5033 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kasi inte-ni p'urhe
+kasi inte-ni p'urhe
+almost DEM.SG OBJ P'urhepecha
+they don't attempt to teach their children P'urhepecha anymore
+
+
+Source: ref 2992 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi Mariani-ni
+hi Mariani-ni
+1SG NONE OBJ
+
+
+
+Source: ref 945 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+intsï-pe-ni
+intsï-pʰe-ni
+give ANTIPASS INF
+to give
+
+
+Source: ref 946 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+intsï-wa-ni
+intsï-wa-ni
+give  INF
+to give
+
+
+Source: ref 2993 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi kwiripu -etʃa-ni
+hi kʰwiripu-etʃa -ni
+1SG people PL OBJ
+
+
+
+Source: ref 948 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+intsï-ku-ni
+intsï-ku-ni
+give one INF
+
+
+
+Source: ref 949 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+puti-kʰu-ku-ni
+puti-kʰu-ku-ni
+kiss LOC.hand APPL.3 INF
+to kiss her/his hand
+
+
+Source: ref 950 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huka-pera-ni
+huka-pʰera-ni
+argue RECIP INF
+to argue with each other
+
+
+Source: ref 951 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+intsï-pera-ni
+intsï-pʰera-ni
+give RECIP INF
+
+
+
+Source: ref 952 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hirinka-ni
+hirinka-ni
+lookfor INF
+to look for
+
+
+Source: ref 953 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hirinka-ŋka-ni
+hirinka-ŋka-ni
+lookfor PASS INF
+to be sought
+
+
+Source: ref 3002 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=re Pedro-ni
+tʰu=ri Pegru-ni
+2SG 2SG Pedro OBJ
+
+
+
+Source: ref 5048 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ini juchari uanta-kua-ni
+ini juchaeri uanta-kua-ni
+DEM.SG.ACC 1PL.GEN speak NMLZR OBJ
+to preserve our language
+
+
+Source: ref 5050 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ia para inte-ni
+ia para inte-ni
+already for DEM.SG OBJ
+have too much interest
+
+
+Source: ref 6294 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uani-cha-ni tuminu ambentara-ni
+uani-cha-ni tumina ambentara-ni
+much throat OBJ money waste OBJ
+Wasting a lot of money
+
+
+Source: ref 5055 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïkakini-ki-ni na ano costumbrichani-cha-ni
+esïkakini-ki-ni na ano costumbrichani-cha-ni
+NONE IRR INF how no NONE throat INF
+like I was telling you, our traditions are still followed strongly
+
+
+Source: ref 960 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hu-nkwa-ni
+hu-nkwa-ni
+come CENTR INF
+to come again
+
+
+Source: ref 962 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huwa-ni
+hwa-ni
+bring INF
+to bring again
+
+
+Source: ref 963 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huwa-ni
+hwa-ni
+bring INF
+
+
+
+Source: ref 964 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wera-ni
+wera-ni
+cry INF
+
+
+
+Source: ref 965 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wera-nsta-ni
+wera-ntʰa-ni
+cry ITER INF
+to always be crying
+
+
+Source: ref 966 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hapi-na-ni
+hapi-na-ni
+possess LOC.interior INF
+to possess
+
+
+Source: ref 967 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ukʰa-ma-ni
+ukʰa-ma-ni
+possess one INF
+
+
+
+Source: ref 968 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wera-ni
+wera-ni
+goout INF
+
+
+
+Source: ref 969 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wera-ni
+wera-ni
+cry INF
+
+
+
+Source: ref 5059 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte segiri-ni jarháni-ni inte-ni
+inte segiri-ni jarháni-ni inte-ni
+DEM.SG continue INF NONE INF DEM.SG OBJ
+and just by seeing our celebrations they continue to celebrate them
+
+
+Source: ref 971 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huka-ni
+huka-ni
+argue INF
+to argue
+
+
+Source: ref 973 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ara-ha-ka tire-ni
+ara-ʃa-ka tʰire-ni
+auxiliar PROG 1/2IND eat INF
+I am eating
+
+
+Source: ref 974 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-ra-mpi-ha-ka tire-ni
+a-ra-hampi-ʃa-ka tʰire-ni
+AUX VAL IMPRF PROG 1/2IND eat INF
+I am eating
+
+
+Source: ref 975 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-wa-ka kara-ni
+a-a-ka kara-ni
+AUX FUT 1/2IND write INF
+I will write
+
+
+Source: ref 976 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iki=ni apiringa-pirin-ka tire-ni
+iki=ni apiringa-pirin-ka tʰire-ni
+if,as =1SG.SBJ NONE COND 1/2IND eat INF
+If I ate
+
+
+Source: ref 977 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+macunia-ku-ni
+macuni a-ku-ni
+NONE AUX APPL.3 INF
+
+
+
+Source: ref 978 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+zacunia-ku-ni
+zacuni a-ku-ni
+NONE AUX APPL.3 INF
+
+
+
+Source: ref 983 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ikini tʃeni macupiringa-pirin-ka tire-ni
+iki=ni tʃeeni macupiringa-pirin-ka tʰire-ni
+if,as 1SG.SBJ how NONE COND SBJNC eat INF
+
+
+
+Source: ref 984 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ha-ra-ha-ka tire-ni
+ha-ra-ʃa-ka tʰire-ni
+exist FORM PROG 1/2IND eat INF
+I am
+
+
+Source: ref 986 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ha-ra-ni
+ha-ra-ni
+exist VAL INF
+
+
+
+Source: ref 5083 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uanta-kua-ni
+uanta-kua-ni
+speak NMLZR OBJ
+preserving our language
+
+
+Source: ref 5086 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u e-xe-sï-ni esï-ka
+t'u e-xe-sï-ni exki-ka
+2SG sight FORM AOR OBJ SUBORD 1/2IND
+do you think that the P'urepechas will disappear along with the language?
+
+
+Source: ref 998 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ints-ŋka-ni
+intsï-ŋka-ni
+give PASS INF
+
+
+
+Source: ref 5099 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sani jarha-s-ti inte contestarichindani-chi-ni
+sani jarha-sï-ti inte contestarichindani-chi-ni
+bit be AOR 3.IND DEM.SG NONE APP.1/2 INF
+it's a really difficult question to answer for me
+
+
+Source: ref 1007 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pamps-ri-ni
+pampsï-ri-ni
+love PAST INF
+
+
+
+Source: ref 1008 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huka-ni
+huka-ni
+argue INF
+
+
+
+Source: ref 1009 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tecani-ni
+tecani-ni
+NONE INF
+
+
+
+Source: ref 1010 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huka-ni
+huka-ni
+have INF
+
+
+
+Source: ref 1011 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tire-ma-ni
+tʰire-ma-ni
+eat one INF
+
+
+
+Source: ref 1012 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ins-ku-ma-ni
+intsï-ku-ma-ni
+give APPL.3 one INF
+
+
+
+Source: ref 1013 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hukama-ni
+hukama-ni
+outdo INF
+outdo
+
+
+Source: ref 1014 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ukʰa-ma-ni
+ukʰa-ma-ni
+possess one INF
+
+
+
+Source: ref 5103 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+p'urhe u-ni ia
+p'urhe u-ni ia
+P'urhepecha can INF already
+that's what makes someone a P'urepecha
+
+
+Source: ref 1016 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huka-ni
+huka-ni
+have OBJ
+
+
+
+Source: ref 1017 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huka-ri-ni
+huka-ri-ni
+have PAST INF
+
+
+
+Source: ref 1018 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hurena-ni
+huren-ni
+know INF
+
+
+
+Source: ref 1019 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tire-ni
+tʰire-ni
+eat INF
+
+
+
+Source: ref 1020 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tire-na-ni
+tʰire-na-ni
+eat LOC.interior INF
+
+
+
+Source: ref 3065 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mi-tsi-ni ne
+mi-tsi-ni ne
+know FORM INF who
+
+
+
+Source: ref 3068 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+his Pedro-ni
+his Pegru-ni
+myself Pedro OBJ
+
+
+
+Source: ref 3070 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro-ni
+Pegru-ni
+Pedro OBJ
+
+
+
+Source: ref 3071 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro-ni
+Pegru-ni
+Pedro OBJ
+
+
+
+Source: ref 3072 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro-ni
+Pegru-ni
+Pedro OBJ
+
+
+
+Source: ref 3074 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro-ni
+Pegru-ni
+Pedro OBJ
+
+
+
+Source: ref 1027 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃana-ni
+tʃana-ni
+play INF
+
+
+
+Source: ref 1028 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wera-ni
+wera-ni
+goout OBJ
+
+
+
+Source: ref 1029 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hawa-ra-ni
+hawa-ra-ni
+drawaway MED INF
+to draw away
+
+
+Source: ref 3075 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro-ni
+Pegru-ni
+Pedro OBJ
+
+
+
+Source: ref 3076 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte-ni inte-ni
+inte-ni inte-ni
+DEM.SG OBJ DEM.SG OBJ
+
+
+
+Source: ref 1032 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wara-ni
+waɽa-ni
+dance INF
+
+
+
+Source: ref 1034 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ara-ni
+ara-ni
+auxiliar INF
+irregular verb
+
+
+Source: ref 1036 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huka-ni
+huka-ni
+have INF
+irregular
+
+
+Source: ref 1037 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nira-ni
+nira-ni
+go INF
+irregular
+
+
+Source: ref 1038 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pirani-ni
+pirani-ni
+NONE INF
+
+
+
+Source: ref 5135 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ma jarhoa-ta-ni
+ka ma jarhoa-ta-ni
+and one help CAUS OBJ
+so we had to go help our parents
+
+
+Source: ref 3094 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a tʰire-ni
+a tʰire-ni
+AUX eat INF
+
+
+
+Source: ref 3095 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a itsïma-ni
+a itsïma-ni
+AUX drink INF
+
+
+
+Source: ref 5143 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka peru enka-ni ji
+ka pero enka-ni ji
+and but SUBORD OBJ 1SG
+but what I remember
+
+
+Source: ref 5145 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uap'a-echa-ni isï pa-ta-ni ima-ni
+uap'a-echa-ni isï pa-ta-ni ima-ni
+son PL OBJ APPROX shut.down CAUS INF DEM.SG OBJ
+parents prefered to take their children to work
+
+
+Source: ref 1052 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-nsta-ni
+paku-ntʰa-ni
+take ITER INF
+
+
+
+Source: ref 1053 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+haranguenhapenstani-nsta-ni
+haranguenhapenstani-ntʰa-ni
+NONE ITER INF
+
+
+
+Source: ref 3100 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+arah ni-he tʰire-ni
+ara ni-i tʰire-ni
+auxiliar haveenough IMPRTV.2PL eat INF
+
+
+
+Source: ref 5154 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nena ima escuela jima-ni
+nena ima eskuela jima-ni
+how DEM.SG school there OBJ
+How was school back then?
+
+
+Source: ref 3107 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huren-pʰe-ni
+huren-pʰe-ni
+know ANTIPASS INF
+
+
+
+Source: ref 1060 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ns-ri-ni
+paku-ntʰa-ri-ni
+take ITER PAST INF
+
+
+
+Source: ref 1061 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ns-ri-ni
+paku-ntʰa-ri-ni
+take ITER PAST INF
+
+
+
+Source: ref 1062 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pampsï-ka-ni
+pampsï-ka-ni
+love FORM INF
+
+
+
+Source: ref 1063 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pampsï-nsta-ni
+pampsï-ntʰa-ni
+love ITER INF
+
+
+
+Source: ref 1064 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+yucinstani-nsta-ni
+yucinstani-ntʰa-ni
+NONE ITER INF
+
+
+
+Source: ref 1065 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hantzcani-ka-ni
+hantzcani-ka-ni
+NONE 1/2IND INF
+
+
+
+Source: ref 1066 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hantzinstani-nsta-ni
+hantzinstani-ntʰa-ni
+NONE ITER INF
+
+
+
+Source: ref 1067 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eska-ni
+eska-ni
+sight INF
+
+
+
+Source: ref 1068 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ints-ŋka-ni
+intsï-ŋka-ni
+give PASS INF
+
+
+
+Source: ref 1069 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ŋka-nsta-ni
+paku-ŋka-ntʰa-ni
+take PASS ITER INF
+
+
+
+Source: ref 1070 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tiri-nsta-ni
+tʰire-ntʰa-ni
+eat ITER INF
+to be eating
+
+
+Source: ref 3110 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huren-pʰe-ni
+huren-pʰe-ni
+know ANTIPASS INF
+
+
+
+Source: ref 5160 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma jurhen-ta-ni
+ma juren-ta-ni
+one know CAUS INF
+they even slapped students on the head
+
+
+Source: ref 5166 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni
+ima-ni
+DEM.SG OBJ
+who gave teachers permission
+
+
+Source: ref 5169 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kutsïkua ima-ni ka
+kutsïkua ima-ni ka
+ear DEM.SG OBJ and
+that our teachers pulled our ears or they hit us
+
+
+Source: ref 5171 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+u-ni ia
+u-ni ia
+can INF already
+or playing around
+
+
+Source: ref 1076 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pire-ni
+pire-ni
+sing INF
+
+
+
+Source: ref 1078 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tzipe-ni
+tsipe-ni
+live INF
+
+
+
+Source: ref 5174 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jima-ni i enka ia
+jima-ni i enka ia
+there OBJ this SUBORD already
+and today
+
+
+Source: ref 1080 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sïkwa-me-ni
+sïkwami-me-ni
+adviser,shaman be INF
+
+
+
+Source: ref 3129 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima inte-ni
+ima inte-ni
+DEM.SG DEM.SG OBJ
+
+
+
+Source: ref 1083 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tire-ra-pʰe-ni
+tʰire-ra-pʰe-ni
+eat CAUS ANTIPASS INF
+
+
+
+Source: ref 1088 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kuwi-ni
+kʰwi-ni
+sleep INF
+
+
+
+Source: ref 1089 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kuwi-nsta-ni
+kʰwi-ntʰa-ni
+sleep ITER INF
+
+
+
+Source: ref 1090 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tire-ni
+tʰire-ni
+eat INF
+
+
+
+Source: ref 1091 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tire-nsta-ni
+tʰire-ntʰa-ni
+eat ITER INF
+
+
+
+Source: ref 1101 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pampsï-ka-ni
+pampsï-ka-ni
+love FORM INF
+to love
+
+
+Source: ref 3150 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi inte-ni
+hi inte-ni
+1SG DEM.SG OBJ
+
+
+
+Source: ref 1103 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+casireni-ni
+casireni-ni
+NONE INF
+
+
+
+Source: ref 1105 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huren-ta-pʰera-ni
+huren-ta-pʰera-ni
+know CAUS RECIP INF
+
+
+
+Source: ref 1107 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pire-ni
+pire-ni
+sing INF
+
+
+
+Source: ref 5204 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u e-xe-sï-ni esïka ixu
+t'u e-xe-sï-ni exki ixu
+2SG sight FORM AOR OBJ SUBORD here
+do you think that it's better
+
+
+Source: ref 1109 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tare-ni
+taɽe-ni
+dig INF
+to dig
+
+
+Source: ref 1111 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ari-nsta-ni
+aɽini -ntʰa-ni
+say ITER INF
+
+
+
+Source: ref 5211 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ia ma inte-ni
+ia ma inte-ni
+already one DEM.SG OBJ
+has to adapt
+
+
+Source: ref 5218 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni jimpo-ka
+ima-ni jimpo-ka
+DEM.SG OBJ INSTR 1/2IND
+because of the
+
+
+Source: ref 3181 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti=re no ari-nsta-ni
+anti=ri no aɽini -ntʰa-ni
+why =2SG no say ITER INF
+
+
+
+Source: ref 5229 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka nia-ra-ni
+ka nya-ra-ni
+and arrive FORM OBJ
+and here it's different, once you graduate
+
+
+Source: ref 5233 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+para jini k'uiripi-ni ma
+para jini k'uiripe-ni ma
+for there grow OBJ one
+for someone to grow up
+
+
+Source: ref 5111 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+para k'uiripi-ni ma
+para k'uiripe-ni ma
+for grow OBJ one
+when I was growing up
+
+
+Source: ref 3193 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ho Puki piri-ʃ-ti pirikwa-ni
+ho Puki piri-sï-ti pirikwa-ni
+yes  sing AOR 3.IND song OBJ
+Yes, Puki has sung the song.
+
+
+Source: ref 3195 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+íntsa-ʃa-ti=kʃï tsïtsïki-itʃa-ni
+intsï-ʃa-ti=kʃï tsïtsïki-etʃa -ni
+give PROG 3.IND =3PL flower PL OBJ
+They are giving her/him the flowers.
+
+
+Source: ref 5113 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ia k'uiripi-ni komu ma
+ia k'uiripe-ni komu ma
+already grow OBJ poor one
+people really struggled
+
+
+Source: ref 3202 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pablu we-ʃ-ti Mariani-ni himpo
+pablu we-sï-ti Mariani-ni himpo
+Pablo sad AOR 3.IND NONE OBJ INSTR
+Pablo has cried because of Maria.
+
+
+Source: ref 3204 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Marcosï ata-ʃ-ti wítʃu-ni
+Marcosï ata-sï-ti witʃu-ni
+Marcos beat AOR 3.IND dog OBJ
+Marcos has beaten the dog.
+
+
+Source: ref 3205 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pablu piri-kwa-ni piri-ʃ-ti
+pablu piri-kwa-ni piri-sï-ti
+Pablo sing NMLZR OBJ sing AOR 3.IND
+Pablo has sung the song.
+
+
+Source: ref 3206 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pablu piri-ʃ-ti pirikwa-ni
+pablu piri-sï-ti pirikwa-ni
+Pablo sing AOR 3.IND song OBJ
+Pablo has sung the song.
+
+
+Source: ref 5259 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ju ia iasï jupa-ni
+ju ia iaxï jupa-ni
+come already now wash INF
+“but let’s go wash now
+
+
+Source: ref 5271 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=ksï ionta-sï-ka karretera-rhu niara-ni
+no=kxï ionta-sï-ka karretera-rhu niara-ni
+no =3PL be.late AOR 1/2IND road LOC arrive INF
+We didn’t take to long to arrive in the road.
+
+
+Source: ref 5272 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uaxa-ka-sï flecha-ni ero-ka-ni
+uaxa-ka-sï flecha-ni ero-ka-ni
+sit FORM AOR bus OBJ wait FORM INF
+We sat down to wait for the bus.
+
+
+Source: ref 1179 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ŋka-ni
+paku-ŋka-ni
+take PASS INF
+
+
+
+Source: ref 1186 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ŋka-ti-ni
+paku-ŋka-ti-ni
+take PASS 3.IND INF
+
+
+
+Source: ref 1188 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pampsï-ka-ni
+pampsï-ka-ni
+love FORM INF
+
+
+
+Source: ref 1189 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ingani-ŋka-ni
+ingani-ŋka-ni
+NONE PASS INF
+
+
+
+Source: ref 1190 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pampsï-ŋka-ni
+pampsï-ŋka-ni
+love PASS INF
+
+
+
+Source: ref 5287 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+niara-sï-ka plasa ka ke-tsi-ni
+niara-sï-ka plasa ka ke-tsi-ni
+arrive AOR FORM square and down down OBJ
+We arrive in the plaza and we got down
+
+
+Source: ref 1192 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ŋka-sta-ni
+paku-ŋka-ntʰa-ni
+take PASS ITER INF
+
+
+
+Source: ref 5321 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ju ia iasï jupa-ni
+ju ia iaxï jupa-ni
+come already now wash INF
+“but let’s go do laundry
+
+
+Source: ref 1235 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hapi-na-ni
+hapi-na-ni
+possess LOC.interior INF
+
+
+
+Source: ref 5333 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=ksï ionta-s-ka karretera-rhu niara-ni
+no=kxï ionta-s-ka karretera-rhu niara-ni
+no =3PL be.late AOR 1/2IND road LOC arrive INF
+We didn’t take to long to arrive in the highway.
+
+
+Source: ref 1238 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iretʃa hapi-na-ti camachacuhpeni-pʰe-ni
+iretʃa hapi-na-ti camachacuhpeni-pʰe-ni
+king possess LOC.interior 3.IND NONE ANTIPASS INF
+
+
+
+Source: ref 5334 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uaxa-ka-s-ka=ksï flecha-ni ero-ka-ni
+uaxa-ka-s-ka=kxï flecha-ni ero-ka-ni
+sit 1/2IND AOR FORM =3PL bus OBJ wait FORM INF
+we took a sit, and waited for the bus.
+
+
+Source: ref 1242 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+u-tʃe-ni
+u-tʃe-ni
+do me INF
+
+
+
+Source: ref 1243 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=re kara-ku-wa-ka Pedro-ni
+tʰu=ri kara-ku-a-ka Pegru-ni
+2SG 2SG write APPL.3 FUT 1/2IND Pedro OBJ
+you will write for Pedro
+
+
+Source: ref 3292 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=tʃka hi=tʰu=kini haɽoa-ta-sï-ki pʰiku-ntʰa-ni
+no=tʃka hi=tʰu=kini haɽoa-ta-sï-ki pʰiku-ntʰa-ni
+no =then 1SG =also =2SG.OBJ help CAUS AOR INTER harvest ITER INF
+Pues yo tambien te he ayudado yo tambien a cosechar?  (NO no implica negacion sino una estrategia para enfatizar la informacion)
+
+
+Source: ref 1245 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pampsï-ka-ha-ka Pedro-ni
+pampsï-ka-ʃa-ka Pegru-ni
+love FORM PROG 1/2IND Pedro OBJ
+I love Pedro.
+
+
+Source: ref 3293 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu tʃʰé--a-ʃïn-ka sapi-etʃa -ni
+tʰu tʃʰé-ta-a-sïn-ka sapi-etʃa -ni
+2SG scare CAUS 3PL.OBJ HAB 1/2IND little PL OBJ
+You scare the little ones.
+
+
+Source: ref 3294 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi íntsa-ʃ-ka Pedruni-ni
+hi intsï-sï-ka Pedruni-ni
+1SG give AOR 1/2IND NONE OBJ
+I have given the dogs to Pedro
+
+
+Source: ref 1250 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tata-ni himpo teruntʃe-ha-ka
+tata-ni himpo teruntʃe-ʃa-ka
+sir OBJ INSTR destine PROG 1/2IND
+
+
+
+Source: ref 5348 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jini=ksï-ni pia-chi-a-ka sani kamata
+jini=kxï-ni piá-chi-a-ka sani kamata
+there =3PL OBJ buy APP.1/2 FUT 1/2IND bit corn.beverage
+“we will buy you some atole over there.”
+
+
+Source: ref 5349 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+niara-s-ka=ksï plasa ka ketsi-ni=ksï
+niara-s-ka=kxï plasa ka ketsi-ni=kxï
+arrivethere AOR FORM =3PL square and descend OBJ =3PL
+We arrived at the plaza and we got down.
+
+
+Source: ref 1254 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+am-ha-ŋka wanta-ŋka-ni hi
+ampe-ʃa-ŋka wanta-ŋka-ni hi
+something PROG PASS speak PASS INF 1SG
+What is said about me?
+
+
+Source: ref 5361 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=ri-ni pia-chi-a ma ka-ts'ï-kua
+no=ri-ni piá-chi-a ma ka-ts'ï-kua
+no =2SG INF buy APP.1/2 FUT one and LOC.head NMLZR
+“can you buy me hat?”
+
+
+Source: ref 5383 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima a-s-ti u-a=rini pa-ni
+ima a-sï-ti u-a=rini pa-ni
+DEM.SG AUX AOR 3.IND do FUT =1SG.OBJ take INF
+He told him: You will be able to take me?
+
+
+Source: ref 1297 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kweka-ni
+weka-ni
+want INF
+to want
+
+
+Source: ref 1298 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+weka-ni
+weka-ni
+want INF
+to want
+
+
+Source: ref 1302 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ari-sï-ka ampo-ŋka-nskweka-ni
+aɽini -sï-ka ampo-ŋka-ntʰa weka-ni
+say AOR 1/2IND space PASS ITER want INF
+I have said this wanting to declare.
+
+
+Source: ref 1303 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+weka-ha-ka huren-ta-pʰekweka-ni
+weka-ʃa-ka huren-ta-pʰe weka-ni
+want PROG 1/2IND know CAUS ANTIPASS want INF
+
+
+
+Source: ref 3108 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huren-pʰe-ni
+huren-pʰe-ni
+know ANTIPASS INF
+
+
+
+Source: ref 1307 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mara-ni
+amara-ni
+grouch INF
+
+
+
+Source: ref 5406 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni-ra-sï-p-ti juchiti tati-ni jinkoni
+ni-ra-sï-p-ti jucheeti tati-ni jinkoni
+go VAL AOR PAST 3.IND 1SG.GEN father INF POSTP
+Seba went to tarheni with my dad.
+
+
+Source: ref 3109 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huren-pʰe-ni
+huren-pʰe-ni
+know ANTIPASS INF
+
+
+
+Source: ref 1319 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃuru-ni tzacapu
+tʃuru-ni tsakapu
+amontonarcosaredonda INF stone
+
+
+
+Source: ref 1324 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hutu-ra-ta-ni hocucata-kata kantelas
+hutu-ra-ta-ni hocucata-kata kantela
+sheaf MED CAUS INF NONE PASS.PRT candle
+to place a bundle of candles
+
+
+Source: ref 5426 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka arhi-ni
+ka arhi-ni
+and say INF
+And she told us:
+
+
+Source: ref 1335 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+itʃa-ku-ta-ni kantelas
+itʃa-ku-ta-ni kantela
+CL.long TRSLOC CAUS INF candle
+
+
+
+Source: ref 1336 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kira-ta-ni
+kiɽa-ta-ni
+round.object CAUS round.object
+
+
+
+Source: ref 1341 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kira-ŋka-ta-ni naranʃas
+kiɽa-ŋka-ta-ni naraʃa
+round.object PASS CAUS INF orange
+to be picked up
+
+
+Source: ref 1345 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-ku-ni
+hopo-kʰu-ni
+wash LOC.hand INF
+
+
+
+Source: ref 1347 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kaka-tʃa-ni
+kaka-tʃa-ni
+break throat INF
+
+
+
+Source: ref 1348 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-tʃa-ni
+hopo-tʃa-ni
+wash throat INF
+
+
+
+Source: ref 1350 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hatsi-tʃʰu-ku-ni
+hatsi-tʃʰu-ku-ni
+put down APPL.3 INF
+
+
+
+Source: ref 1351 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-tʃʰu-ku-ni
+hopo-tʃʰu-ku-ni
+wash down APPL.3 INF
+
+
+
+Source: ref 1353 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hapo-tu-ni
+hopo-tu-ni
+wash feet INF
+
+
+
+Source: ref 1355 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-nti-ni
+hopo-nti-ni
+wash LOC.ear INF
+
+
+
+Source: ref 1357 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-ŋari-ni
+hopo-ŋaɽi-ni
+wash LOC.face INF
+
+
+
+Source: ref 3405 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma-nta-ni irita
+ma-ntʰa-ni ireta
+one always ADV town
+'Each town' / 'Cada pueblo'
+
+
+Source: ref 3406 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma-nta-ni wéʃuɽini
+ma-ntʰa-ni weʃurini
+one ITER ADV year
+'Every year' / 'Cada ano'
+
+
+Source: ref 5455 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eka ma jama-ni ja-p-ka
+enka ma jama-ni ja-p-ka
+SUBORD one bearound INF exist PAST SBJNC
+While we were eating and we saw a wolf walking around.
+
+
+Source: ref 1361 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-mu-ni
+hopo-mu-ni
+wash LOC.mouth INF
+
+
+
+Source: ref 1363 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-para-ni
+hopo-paɽa-ni
+wash LOC.back INF
+
+
+
+Source: ref 1365 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hue-pa-ta-ni
+hue-pa-ta-ni
+extinguish LOC.ground CAUS INF
+
+
+
+Source: ref 5155 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-ni ji jima-ni
+enka-ni ji jima-ni
+SUBORD OBJ 1SG there OBJ
+what i remember is that teachers
+
+
+Source: ref 1367 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kira-pe-ni
+kiɽa-pe-ni
+round.object field INF
+
+
+
+Source: ref 1369 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-ɽu-ni
+hopo-ɽu-ni
+wash front INF
+
+
+
+Source: ref 5156 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma jurhen-ta-ni
+ma juren-ta-ni
+one know CAUS INF
+tried to teach us P'urepecha
+
+
+Source: ref 1371 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-ta-ni
+hopo-ta-ni
+wash LOC.thigh INF
+
+
+
+Source: ref 1372 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ira-ta-ni
+ira-ta-ni
+round LOC.thigh INF
+
+
+
+Source: ref 5465 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ts'ïma ka ja-tsi-ni
+ka ts'ïma ka ja-tsi-ni
+and 3PL and exist FORM INF
+We ate and they went back him and we started to plant corn.
+
+
+Source: ref 1374 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-tsʰï-ni
+hopo-tsʰï-ni
+wash LOC.head INF
+
+
+
+Source: ref 3423 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+íntsa-ʃa-ti=kʃï tsïtsïki-itʃa-ni
+intsï-ʃa-ti=kʃï tsïtsïki-etʃa -ni
+give PROG 3.IND =3PL flower PL OBJ
+'They are giving him the flores' / 'Ellos le estan dando las flores'
+
+
+Source: ref 1376 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-ʃu-ni
+hopo-ʃu-ni
+wash LOC.arm INF
+
+
+
+Source: ref 5470 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kokani ja-tsi-ni
+kokani ja-tsi-ni
+fast exist FORM INF
+“hurry up and keep sembrando maiz.”
+
+
+Source: ref 1378 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hopo-wa-ni
+hopo-wa-ni
+wash outerbelly INF
+
+
+
+Source: ref 1380 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tempu-pesï-pera-ni
+tempu-pesï-pʰera-ni
+marry mock RECIP INF
+
+
+
+Source: ref 1381 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+intsï-pe-ni
+intsï-pʰe-ni
+give ANTIPASS INF
+
+
+
+Source: ref 1382 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+intsï-pe-ta-pera-ni
+intsï-pʰe-ta-pʰera-ni
+give ANTIPASS CAUS RECIP INF
+
+
+
+Source: ref 1383 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wekʰomari-ni
+wekʰomari-ni
+beg INF
+
+
+
+Source: ref 1384 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wekʰo-ksi-mari-ni
+wekʰomari-ksi-mari-ni
+beg LOC? much INF
+
+
+
+Source: ref 5479 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji tsipi-ni
+ji tsipi-ni
+1SG smile INF
+I was really happy because I also found the oxen in the morning.
+
+
+Source: ref 1386 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tetecarihmani-karihma-ni
+tetecarihmani-karihma-ni
+NONE put.aside INF
+
+
+
+Source: ref 1389 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pivacuzcani-wa-kuska-ni wanta-kwa
+pivacuzcani-a-kuska-ni wanta-kwa
+NONE 3PL.OBJ select INF speak NMLZR
+
+
+
+Source: ref 1391 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pame-tʃa-ni
+pame-tʃa-ni
+sick body INF
+
+
+
+Source: ref 1392 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+vecatzenchamani-tʃa-ma-ni
+vecatzenchamani-tʃa-ma-ni
+NONE body liquid INF
+to sprinkle the body with holy water
+
+
+Source: ref 1393 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi nana-ni
+hi nanaka-ni
+1SG woman OBJ
+I have mother
+
+
+Source: ref 5488 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+chkuandera-kua-ni ima-eri itsikua-ni
+ch'ikuandera-kuarhe-ni ima-eri itsikua-ni
+lie RFLX OBJ DEM.SG GEN brother.in.law OBJ
+lied—to his brother-in-law:
+
+
+Source: ref 5491 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka itsikua tempa-ni a-ni
+ka itsikua tempa-ni a-ni
+and brother.in.law wife OBJ AUX OBJ
+And his brother-in-law said to the wife:
+
+
+Source: ref 1398 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+niyachataperanshe-tʃata-pera-ns huka-pera-ni
+niyachataperanshe-tʃata-pʰera-ntʰa huka-pʰera-ni
+NONE gorge RECIP ITER wear RECIP INF
+
+
+
+Source: ref 1401 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+era-ni
+eɽa-ni
+see INF
+
+
+
+Source: ref 1402 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+era-tʃe-ni
+eɽa-tʃe-ni
+see damage/benefit INF
+
+
+
+Source: ref 1403 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+quencheni-tʃe-ni
+quencheni-tʃe-ni
+NONE hacerarriba INF
+
+
+
+Source: ref 3452 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-a-ka-ni
+a-a-ka-ni
+eat FUT 1/2IND INF
+'I will eat' / 'Yo ingerire'
+
+
+Source: ref 5501 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ni-s-p-ti=na k'uani-ku-ni
+ka ni-sï-p-ti=na k'uani-ku-ni
+and go AOR PAST 3.IND =evidential throw FORM INF
+And he went to throw it
+
+
+Source: ref 1406 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kutsu-tsu-ku-ni
+kutsu-tʃu-ku-ni
+clean abajo APPL.3 INF
+
+
+
+Source: ref 5503 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima=na uanta-ni
+ka ima=na uanta-ni
+and DEM.SG =evidential speak OBJ
+And he said
+
+
+Source: ref 1408 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pʰame-ku-ni
+pʰame-kʰu-ni
+pain LOC.hand INF
+
+
+
+Source: ref 1409 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pʰame-ni
+pʰame-ni
+pain INF
+
+
+
+Source: ref 3458 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+-ni
+eʃe-ni
+see INF
+
+
+
+Source: ref 3459 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ero-ka-ni
+ero-ka-ni
+wait FORM INF
+
+
+
+Source: ref 1412 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+purevacurani-wa-ku-ni
+purevacurani-a-ku-ni
+NONE FUT APPL.3 INF
+
+
+
+Source: ref 1413 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+-kuri-ni
+-kwaɽe-ni
+RFLX INF
+
+
+
+Source: ref 1414 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wekʰo-ni
+wekʰomari-ni
+beg INF
+
+
+
+Source: ref 1415 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+maricuxani-ni
+maricuxani-ni
+NONE INF
+
+
+
+Source: ref 1416 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+waʃa-kuska-ni
+waʃa-kuska-ni
+sit on.floor INF
+
+
+
+Source: ref 3460 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mi-ti-ni
+mi-ti-ni
+know LOC.top INF
+
+
+
+Source: ref 1418 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka tʰu-ni
+ka tʰu-ni
+INT 2SG INF
+
+
+
+Source: ref 3461 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+waʃa-ka-ni
+waʃa-ka-ni
+sit FORM INF
+
+
+
+Source: ref 1420 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pʰame-ni
+pʰame-ni
+pain INF
+
+
+
+Source: ref 5512 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima=ksï moku-ku-ni
+ka ima=kxï moku-ku-ni
+and DEM.SG =3PL answer APPL.3 OBJ
+And they replied:
+
+
+Source: ref 5518 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimajkani ma sïpa-ri tsinarhi-ni
+jimajkani ma sïpa-ri tsinharhi-ni
+then one steal AGT wake OBJ
+then one thief woke up
+
+
+Source: ref 5522 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima=ksï=na uiri-ni sani=teru
+ka ima=kxï=na uiri-ni sani=teru
+and DEM.SG =3PL =evidential run OBJ bit =more
+and they ran a bit more
+
+
+Source: ref 5526 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte=ts'ï-ni jintini che-rhi-ti
+inte=ts'ï-ni jinteni che-rhi-ti
+DEM.SG =2PL INF 1SG.OBJ afraid MID 3.IND
+they are afraid of me
+
+
+Source: ref 5531 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka tempa-ni a-ni
+ka tempa-ni a-ni
+and wife OBJ AUX INF
+and told the wife:
+
+
+Source: ref 3486 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+-ʃ-ti pablu-ni
+eʃe-sï-ti pablu-ni
+see AOR 3.IND Pablo OBJ
+'Pedro has seen Pablo' / 'Pedro ha visto a Pablo'
+
+
+Source: ref 3487 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+-ʃ-ki pablu-ni
+eʃe-sï-ki pablu-ni
+see AOR INTER Pablo OBJ
+Has Pedro seen Pablo?
+
+
+Source: ref 5535 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima=na moku-ku-ni
+ka ima=na moku-ku-ni
+and DEM.SG =evidential answer APPL.3 OBJ
+And hereplied:
+
+
+Source: ref 1441 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wanta-ke-ni
+wanta-ke-ni
+speak inside INF
+
+
+
+Source: ref 1442 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ha-ke-ni
+ha-ke-ni
+exist inside INF
+
+
+
+Source: ref 1443 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+weka-ke-ni
+wekoɽe-ke-ni
+fall hollow INF
+
+
+
+Source: ref 1444 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huwa-ke-ni
+hwa-ke-ni
+bring inside INF
+
+
+
+Source: ref 1445 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pira-ke-ni
+pira-ke-ni
+take inside INF
+
+
+
+Source: ref 3492 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu hu-ɽa-ʃïn-i ma-nta-ni wéʃuɽini
+tʰu hu-ra-sïn-i ma-ntʰa-ni weʃurini
+2SG come FORM HAB QM one ITER ADV year
+'Do you come every year?' / 'Vienes cada ano?'
+
+
+Source: ref 1453 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tire-ma-ni
+tʰire-ma-ni
+eat on.the.go INF
+
+
+
+Source: ref 1455 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wa-ma-ni
+wa-ma-ni
+move liquid INF
+
+
+
+Source: ref 1459 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hapumeni-me-ni
+hapumeni-me-ni
+NONE beard INF
+
+
+
+Source: ref 1460 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ha-me-ni
+ha-me-ni
+exist beard INF
+
+
+
+Source: ref 5555 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte tempa-ni=na menteru arhi-j-ti =ia
+inte tempa-ni=na menteru arhi-sï-ti=a
+DEM.SG wife OBJ =evidential again say AOR 3.IND =already
+He told his wife again:
+
+
+Source: ref 1465 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+peta-mu-ni
+peta-mu-ni
+take.out LOC.mouth INF
+
+
+
+Source: ref 1472 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+waʃa-nu-ni
+waʃa-nu-ni
+sit patio INF
+To sit on the patio.
+
+
+Source: ref 1473 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pʰa-mo-nu-ni
+pʰame-mo-nu-ni
+pain CONT? remains INF
+To feel pain for what is left behind.
+
+
+Source: ref 1477 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+misquarepani-pa-ni
+misquarepani-pa-ni
+NONE CONT INF
+to always be sad
+
+
+Source: ref 1478 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pire-pa-ni
+pire-pa-ni
+sing CONT INF
+be singing
+
+
+Source: ref 1480 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+we-pa-ta-ni
+wera-pa-ta-ni
+goout LOC.ground CAUS INF
+
+
+
+Source: ref 1482 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+era-pa-ni
+eɽa-pa-ni
+see flat INF
+
+
+
+Source: ref 1484 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+we-ka-pe-ni
+we-ka-pa-ni
+throw FORM LOC.ground INF
+
+
+
+Source: ref 1485 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+we-ka-pe-kwaɽe-ni
+we-ka-pa-kwaɽe-ni
+throw FORM LOC.ground RFLX INF
+
+
+
+Source: ref 1486 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+aŋa-pe-ni
+aŋa-pa-ni
+erect flat INF
+
+
+
+Source: ref 3534 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ʃaɽia-ni
+ʃaɽi-ni
+swim INF
+'Do you know how to swim?' / 'Sabes  nadar?'
+
+
+Source: ref 1488 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wanta-pera-ni
+wanta-pʰera-ni
+speak RECIP INF
+
+
+
+Source: ref 1490 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pʰame-tʃa-ni piquareni-ni
+pʰame-tʃa-ni piquareni-ni
+pain body INF NONE INF
+to feel sick
+
+
+Source: ref 1492 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pire-po-ni
+pire-po-ni
+sing comedoing INF
+
+
+
+Source: ref 3540 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wanta-ni
+wanta-ni
+speak INF
+'I have started to speak (not long ago)' / 'He comenzado a hablar (hace poco tiempo)'
+
+
+Source: ref 3541 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wanta-ni
+wanta-ni
+speak INF
+'I started to speak (a long time ago)' / 'Comence a hablar (hace mucho tiempo)'
+
+
+Source: ref 1495 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tere-kwaɽe-ni
+tere-kwaɽe-ni
+laugh RFLX INF
+
+
+
+Source: ref 1496 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-kwaɽe-ni
+paku-kwaɽe-ni
+take RFLX INF
+
+
+
+Source: ref 3544 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni-ʃa-ka kwʰiripita-ni
+ni-ʃa-ka kʰwiripeta-ni
+cook PROG 1/2IND meat OBJ
+'Estoy cociendo la carne' / 'I am cooking the meat'
+
+
+Source: ref 1498 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+quiraquathani-kwatʰa-ni naranʃas
+quiraquathani-kwatʰa-ni naraʃa
+NONE LOC.ground INF orange
+to place the oranges on the floor
+
+
+Source: ref 3549 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma-nta-ni wéʃuɽini hu-ɽa-ʃïn-ka=rini -ni
+ma-ntʰa-ni weʃurini hu-ra-sïn-ka=rini eʃe-ni
+one ITER ADV year come FORM HAB 1/2IND =1SG.OBJ see INF
+'Cada ano vienes a verme' / 'Vienes a verme cada ano'
+
+
+Source: ref 1507 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hara=re-ni
+haɽáni=re-ni
+be =move INF
+
+
+
+Source: ref 1509 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+huntu-re-ni
+huntu=re-ni
+attract move INF
+
+
+
+Source: ref 1514 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kaka-na-ri-ns-ta-ni wanta-kata
+kaka-na-ri-ntʰa-ta-ni wanta-kata
+break LOC.interior PL.OBJ ITER CAUS INF word PASS.PRT
+
+
+
+Source: ref 1515 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kaka-ni
+kaka-ni
+break INF
+
+
+
+Source: ref 5615 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni=k'u=na tandatandatsïpuni-ts'ï-pu-ni
+meni=k'u=na tandatandatsïpuni-ts'ï-pu-ni
+one.time =only =evidential NONE LOC.head CENTR INF
+always was coming tandatandatsipuni
+
+
+Source: ref 1520 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+waʃa-ɽu-ni
+waʃa-ɽu-ni
+sit edge INF
+
+
+
+Source: ref 1521 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pʰame-ɽu-ni
+pʰame-ɽu-ni
+pain edge INF
+
+
+
+Source: ref 5616 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kaui-ri-ni isï=na ni-ts'ï-po-ni
+kaui-ri-ni isï=na ni-ts'ï-po-ni
+get.drunk AGT OBJ APPROX =evidential go LOC.head comedoing OBJ
+was coming moving his head as if he was drunk
+
+
+Source: ref 5618 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xasï=na arhi-ni=na
+xasï=na arhi-ni=na
+later =evidential say INF =evidential
+Later he said
+
+
+Source: ref 1524 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kara-sku-ni
+kara-sku-ni
+write LOC.top INF
+
+
+
+Source: ref 1525 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hure-sku-ni
+hure-sku-ni
+heat LOC.top INF
+
+
+
+Source: ref 3575 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima we-ka-pirin-ti mi-ti-ni
+hinte weka-ka-pirin-ti mi-ti-ni
+3SG want FORM COND 3.IND know LOC.top INF
+He would like to know.
+
+
+Source: ref 3576 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wanti-ku-pirin-ka=kʃï tsíkata-ni nenki=ri hu-pirin-ka
+wanti-ku-pirin-ka=kʃï tsikata-ni nenki=ri hu-pirin-ka
+kill FORM COND 1/2IND =3PL hen OBJ if =2SG come COND 1/2IND
+We would kill the hen if you came.
+
+
+Source: ref 5626 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jurhajku jano-ni a-ni=na ia
+jurhaku jano-ni a-ni=na ia
+leave arrive OBJ say OBJ =evidential already
+Just let him arrive, he said
+
+
+Source: ref 1531 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mi-tsa-ta-ni
+mi-tsa-ta-ni
+open quickly CAUS INF
+
+
+
+Source: ref 1532 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mi-tsa-ta-kwaɽe-ni
+mi-tsa-ta-kwaɽe-ni
+know quickly CAUS RFLX INF
+
+
+
+Source: ref 1533 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kuri-ra-ni
+kuɽi-ra-ni
+burn VAL INF
+to burn
+
+
+Source: ref 1534 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kuri-tsa-ta-kwaɽe-ni
+kuɽi-tsa-ta-kwaɽe-ni
+burn suddenly CAUS RFLX INF
+
+
+
+Source: ref 5628 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni acha-ti-ni uanta-pa-j-ti=na
+ima-ni acha-ti-ni uanta-pa-sï-ti=na
+DEM.SG OBJ man 3.IND OBJ speak CONT AOR 3.IND =evidential
+he called that man
+
+
+Source: ref 1540 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ha-tsire-ha-ti wanta-tse-kwaɽe-ni
+ha-tsire-ʃa-ti wanta-tse-kwaɽe-ni
+exist night PROG 3.IND speak down RFLX INF
+S/he is all night praying.
+
+
+Source: ref 1541 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ambâmarihtzirêni-tsire-ni
+ambâmarihtzirêni-tsire-ni
+NONE night INF
+
+
+
+Source: ref 1542 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pʰame-wara-ni
+pʰame-wara-ni
+pain innards INF
+
+
+
+Source: ref 3589 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+witsintikwa tʃa inte-ni
+witsintekwa tʃa inte-ni
+yesterday 2PL DEM.SG OBJ
+
+
+
+Source: ref 1544 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kura-wa-ni kampana
+kura-wa-ni kampana
+listen far INF bell
+
+
+
+Source: ref 1550 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kara-wina-ni
+kara-wina-ni
+write allday INF
+
+
+
+Source: ref 3599 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsïmi kʰwi-ni =ja
+tsïmi kʰwi-ni=a
+DEM.PL sleep INF =already
+
+
+
+Source: ref 3601 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sebastianu nani=ri nira-sï-ni
+sebastianu nani=ri nira-sï-ni
+Sebastian where =2SG go AOR OBJ
+“Sebastian, wehre are you going?”
+
+
+Source: ref 1559 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+aŋa-ʃuɽi-ni
+aŋa-ʃuɽi-ni
+stand.up LOC.knee INF
+
+
+
+Source: ref 1560 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tiwu-ʃuɽi-ni
+tiwu-ʃuɽi-ni
+kneel LOC.knee INF
+
+
+
+Source: ref 1561 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+waʃa-ʃuɽi-ni
+waʃa-ʃuɽi-ni
+sit LOC.knee INF
+
+
+
+Source: ref 3608 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'ire-ra-ua tsikata-echa-ni o nompe
+t'ire-ra-a tsikata-echa-ni o nompe
+eat CAUS 3PL.OBJ hen PL OBJ or NEG
+“Will I feed the hens or no?
+
+
+Source: ref 1563 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+aŋa-ni
+aŋa-ni
+stand.up INF
+
+
+
+Source: ref 1564 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tikwi-ni
+tiwu-ni
+kneel INF
+
+
+
+Source: ref 3613 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sebastianu ju ia almorsari-ni
+sebastianu ju ia almorsari-ni
+Sebastian come already lunch INF
+“Sebestian come to lunch.”
+
+
+Source: ref 5657 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni k'oru-ni no intsï-n-p'i-ni
+ima-ni k'o-ni no intsï-n-p'i-ni
+DEM.SG OBJ yes.emphasized OBJ no give LNK BEN OBJ
+and I didn't gift him anything
+
+
+Source: ref 1569 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hura-sï-kawanta-pʰe-joka-ni
+hu-sï-ka wanta-pʰe-joka-ni
+come AOR 1/2IND speak ANTIPASS come INF
+
+
+
+Source: ref 5666 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=ts'ï ne-ma-ni ikicha-sïn-ka
+no=ts'ï ne-ma-ni ikicha-sïn-ka
+no =2PL who one OBJ disgust HAB 1/2IND
+you don't feel disgust of anyone
+
+
+Source: ref 5669 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iamindu-echa-ni pa-ua-nt'a-sïn-ka=ri
+iamintu-echa-ni pa-a-nt'a-sïn-ka=ri
+everyone PL OBJ take 3PL.OBJ ITER HAB FORM =2SG
+you take all of them back
+
+
+Source: ref 5671 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xasï xantku-ni ia
+xasï xantku-ni ia
+later only OBJ already
+Later it's all
+
+
+Source: ref 3625 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima=rini a-ni
+ka ima=rini a-ni
+and DEM.SG =1SG.OBJ AUX INF
+and he told me: koliari.
+
+
+Source: ref 3627 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ji a-sï-ka jua-s-ka-ni
+ka ji a-sï-ka jua-sï-ka-ni
+and 1SG AUX AOR 1/2IND bring AOR 1/2IND OBJ
+And I responded: “yes I brought it.”
+
+
+Source: ref 5676 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pensari-ni iski ampe ukoɽe-pirin-ka
+pensari-ni iski ampe ukoɽe-pirin-ka
+think INF that something happen COND SBJNC
+They thought that something bad was about to happen
+
+
+Source: ref 1583 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï a-rhi-xa-p-ti burru-ni
+ka isï a-rhi-xa-p-ti burru-ni
+and APPROX say MID PROG PAST 3.IND donkey OBJ
+And he was telling the donkey
+
+
+Source: ref 3632 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni-s-p-ka ka ju-nkua-ni=ia
+ni-sï-p-ka ka ju-nkua-ni=a
+go AOR PAST 1/2IND and come CENTR OBJ =already
+I went an came back already .
+
+
+Source: ref 1585 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka no=ri anchi-ta=na-ni
+ka no=ri anchi-ta=na-ni
+and no =2SG work CAUS =evidential OBJ
+and you are not made to work
+
+
+Source: ref 3633 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka tati=rini a-ni
+ka tati=rini a-ni
+and father =1SG.OBJ AUX INF
+And my dad told me:
+
+
+Source: ref 5679 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o iski ʃerena-pirin-ka pueblu-ni
+o iski ʃerena-pirin-ka ireta-ni
+or that destroy COND SBJNC town OBJ
+or destroy a town / o destruir un pueblo
+
+
+Source: ref 3636 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka tatsikua pioni-echa-ni a-a-j-ti
+ka tatsekua pioni-echa-ni a-a-sï-ti
+and after worker PL OBJ say 3PL.OBJ AOR 3.IND
+And later he told the workers:
+
+
+Source: ref 1590 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-rhi-sïn-ti=ksï-ni tontu
+a-rhi-sïn-ti=kxï-ni tontu
+say LOC.body HAB 3.IND =3PL OBJ silly
+They call you silly
+
+
+Source: ref 5690 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima-ni itsï mata-sï-p-ti
+ka ima-ni itsï mata-sï-p-ti
+and DEM.SG OBJ water give AOR PAST 3.IND
+She gave it to the woman to drink / Se lo dio a beber a la mujer
+
+
+Source: ref 1597 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï-ni ueka-ka k'atá-ni
+enka=kxï-ni ueka-ka k'atá-ni
+SUBORD =3PL OBJ want SBJNC load.firewood INF
+Whent they want to make you load firewood
+
+
+Source: ref 5695 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+asï ama-ni tʃʰé-ni
+asï ama-ni tʃʰé-ni
+PROHIB go INF fear INF
+
+
+
+Source: ref 1600 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka jiua-kuarhi-ni
+ka jiua-kuarhe-ni
+and vomit RFLX OBJ
+and vomit
+
+
+Source: ref 1602 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pame-ni-cha-ti u-kuarhi
+pame-ni-cha-ti ukuarhint'a-kuarhe
+pain NONE cha 3.IND make RFLX
+make yourself sick
+
+
+Source: ref 3650 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka tatsikua k'ui-niia
+ka tatsekua k'ui-ni ia
+and after sleep OBJ already
+And later I slept already.
+
+
+Source: ref 1604 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka puru sesi=ri ka-nha-ni
+ka puru sesi=ri ka-nhka-ni
+and pure very =2SG have PASS INF
+and they are treating you good
+
+
+Source: ref 3652 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ji uanta-ni
+ka ji uanta-ni
+and 1SG speak OBJ
+And I said:
+
+
+Source: ref 5702 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ka ima-ni nira-ni
+ka ka ima-ni nira-ni
+and and DEM.SG OBJ go INF
+
+
+
+Source: ref 1608 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka pa-ni anchi-ta-ni
+ka pa-ni anchi-ta-ni
+and take INF work CAUS INF
+and to take him to work
+
+
+Source: ref 5704 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima ma nanaka-ni
+ima ma nanaka-ni
+DEM.SG one woman OBJ
+
+
+
+Source: ref 5706 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+asï ha-ma-ni tʃʰé-ni iski=ri
+asï ha-ma-ni tʃʰé-ni iski=ri
+PROHIB exist outgoing INF fear INF that =2SG
+
+
+
+Source: ref 1611 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka kuarha-tsi-ni
+ka kuarha-tsi-ni
+and break down OBJ
+and he fell down
+
+
+Source: ref 1613 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka katamba ue-cha-ni
+ka katamba ue-cha-ni
+and tongue goout throat OBJ
+and sticking his tongue out
+
+
+Source: ref 1619 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-rhi-sï-ti esika jurajku-pirin-ka uakasï-ni
+a-rhi-sï-ti exki jurhaku-pirin-ka uakasï-ni
+say MID AOR 3.IND SUBORD leave COND SBJNC ox OBJ
+said to him that he would leave the ox
+
+
+Source: ref 5716 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima aɽi-sï-p-ti-a ma nanaka-ni
+ima aɽi-sï-p-ti-a ma nanaka-ni
+DEM.SG say AOR PAST 3.IND FUT one woman OBJ
+
+
+
+Source: ref 1624 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+asta churi-kua jua-ni-kua-sï-ti burru-tu-ni
+asta churi-kua jua-ni-kuarhe-sï-ti burru-tu-ni
+until dusk NMLZR bring OBJ MID AOR 3.IND donkey DIM OBJ
+He brought back the little donkey until the night
+
+
+Source: ref 1627 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka kuarha-tsi-ni ue-ncha-pa-rini ka
+ka kuarha-tsi-ni ue-ncha-pa-rini ka
+and break down OBJ cry mood CONT PART and
+and he fell down wanting to cty and karhanchitani
+
+
+Source: ref 1628 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka konti-kuarhi-ni isï pensari-pa-rini
+ka konti-kuarhe-ni isï pensari-pa-rini
+and grieve RFLX OBJ APPROX think CONT PART
+and he was sad and was thinking
+
+
+Source: ref 1633 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka agustu pikuarhe-ra-ni ji
+ka agustu pikuarhe-ra-ni ji
+and comfortable feel MED OBJ 1SG
+and I felt comfortable
+
+
+Source: ref 1642 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï pensari-sï-ka-ni jandiajku
+isï pensari-sï-ka-ni jandiajku
+likethis think AOR 1/2IND OBJ alone
+I thought to myself.
+
+
+Source: ref 5741 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jamintu ima-ni
+jamintu ima-ni
+all DEM.SG OBJ
+
+
+
+Source: ref 1648 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima=rini arhi-ni
+ka ima=rini arhi-ni
+and DEM.SG =1SG.OBJ say OBJ
+And she told me
+
+
+Source: ref 5748 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hini ima-ni ima tsa
+hini ima-ni ima tsa
+there DEM.SG OBJ DEM.SG they
+
+
+
+Source: ref 1657 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka juchiti nanti=rini arhi-ni
+ka jucheeti nanti=rini arhi-ni
+and 1SG.GEN mother =1SG.OBJ say INF
+And my mom told me:
+
+
+Source: ref 1658 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nira-j-ti susana-ni jinkoni
+nira-sï-ti susana-ni jinkoni
+go AOR 3.IND Susana OBJ POSTP
+“He went with Susana.
+
+
+Source: ref 5755 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka pitama-ni
+ka pitama-ni
+and fish INF
+
+
+
+Source: ref 5757 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni atʃati hini
+ima-ni atʃati hini
+DEM.SG OBJ man there
+
+
+
+Source: ref 1662 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ji jacha-ni jatsi-parha-ku-nt'a-sï-ka
+ka ji jácha-ni jatsi-parha-ku-nt'a-sï-ka
+and 1SG axe INF put LOC.back APPL.3 ITER AOR 1/2IND
+Then I put the ax on the back of the donkey.
+
+
+Source: ref 5759 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka aɽi-sï-p-ti ima-ni atʃati
+ka aɽi-sï-p-ti ima-ni atʃati
+and name AOR PAST 3.IND DEM.SG OBJ man
+
+
+
+Source: ref 5761 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka aɽini ima-ni
+ka aɽini  ima-ni
+and say DEM.SG OBJ
+
+
+
+Source: ref 5764 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima tsani-ni tata
+ima tsani-ni tata
+DEM.SG NONE OBJ sir
+
+
+
+Source: ref 1677 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ju-chi-ka=ia ni-nt'a-ni
+ju-chi-ka=a ni-nt'a-ni
+come APP.1/2 1/2IND =already go ITER INF
+come already, let's go back
+
+
+Source: ref 3727 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kumba ju-s-ki=ts'ï=ni sani p'orempi-ni
+kumba ju-sï-ki=ts'ï=ni sani p'orempi-ni
+compadre come AOR INTER =2PL =1SG.SBJ bit visit INF
+“Compa, “You all came to visit me?
+
+
+Source: ref 5775 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pensari-ni iski ampe ukoɽe-pirin-ka
+pensari-ni iski ampe ukoɽe-pirin-ka
+think INF that something happen COND SBJNC
+They thought that something bad was about to happen
+
+
+Source: ref 1682 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+arhi-sï-ka-ni
+arhi-sï-ka-ni
+say AOR 1/2IND OBJ
+I told him
+
+
+Source: ref 5778 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o iski ʃerena-pirin-ka pueblu-ni
+o iski ʃerena-pirin-ka ireta-ni
+or that destroy COND SBJNC town OBJ
+or destroy a town / o destruir un pueblo
+
+
+Source: ref 3737 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima=rini a-j-ti incha-ni
+ka ima=rini a-sï-ti incha-ni
+and DEM.SG =1SG.OBJ AUX AOR 3.IND enter INF
+And she told me: “Let’s go in.”
+
+
+Source: ref 1690 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-pera-ni
+pa-pʰera-ni
+take RECIP INF
+to be friends, to carry it together
+
+
+Source: ref 1691 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-ni
+pa-ni
+take INF
+'To carry it elsewhere'
+
+
+Source: ref 1692 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃʰé-pera-ni
+tʃʰé-pʰera-ni
+fear RECIP INF
+'To fear each other'
+
+
+Source: ref 1693 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃʰé-ni
+tʃʰé-ni
+fear INF
+'To be afraid'
+
+
+Source: ref 1694 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsakʰama-ni
+tsakʰama-ni
+whiten INF
+to whiten something
+
+
+Source: ref 1695 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sakʰama-ni
+sakʰama-ni
+rinse INF
+to rinse
+
+
+Source: ref 1696 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tzahpandini-nti-ni
+tzahpandini-nti-ni
+NONE LOC.ear INF
+something to exist imperfectly
+
+
+Source: ref 1697 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sapʰa-nti-ni
+sapʰa-nti-ni
+drink LOC.ear INF
+to drink everything
+
+
+Source: ref 1698 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsitsi-mu-ni
+tsitsi-mu-ni
+beautiful LOC.mouth INF
+to speak graciously
+
+
+Source: ref 1699 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sisi-mu-ni
+sisi-mu-ni
+whistle LOC.mouth INF
+to whistle
+
+
+Source: ref 3739 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+segiri-sï-ka=ksï kara-ma-ni jajki-rhu jamperi
+segiri-sï-ka=kxï kara-ma-ni jajki-rhu jamperi
+continue AOR 1/2IND =3PL ascend on.the.go INF hand LOC also
+We continued going up to the hand.
+
+
+Source: ref 3746 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nira-sïn-ka=ksïni aian-ku-nt'a-ni ampake-ti ampe
+nira-sïn-ka=kxïni aian-ku-nt'a-ni ampake-ti ampe
+go HAB 1/2IND =2PL.OBJ inform BEN ITER OBJ good 3.IND something
+I’m going to tell you great things
+
+
+Source: ref 5789 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima-ni itsï mata-s-p-ti
+ka ima-ni itsï mata-s-p-ti
+and DEM.SG OBJ water give AOR PAST 3.IND
+She gave it to the woman to drink / Se lo dio a beber a la mujer
+
+
+Source: ref 3751 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isi=k'u nia-nt'a-ni
+ka isï=k'u nya-nt'a-ni
+and likethis =only arrive CENTR OBJ
+and he just arrived back
+
+
+Source: ref 1704 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsïka-na-ri-ni
+tsïka-na-ri-ni
+mix LOC.interior PL.OBJ INF
+to mix two or more things
+
+
+Source: ref 1705 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsika-nari-ni
+tsika-ŋaɽi-ni
+fold LOC.face INF
+to fold fabric or paper
+
+
+Source: ref 1706 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsïka-ra-ni
+tsïka-ra-ni
+knead CAUS INF
+to make someone knead
+
+
+Source: ref 1707 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsikʰa-ra-ni
+tsikʰa-ra-ni
+fall VAL INF
+the leafs to fall from anything
+
+
+Source: ref 1708 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsïkʰa-ra-mo-ni
+tsikʰa-ra-mo-ni
+fall VAL CONT? INF
+fall out
+
+
+Source: ref 1709 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsikʰaramo-ni
+tsikʰaramo-ni
+jump INF
+to jump as blood or liquor
+
+
+Source: ref 1710 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eratʰa-ni
+eratʰa-ni
+INF
+to relieve someone from other work
+
+
+Source: ref 1711 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+erata-ni
+erata-ni
+obey INF
+
+
+
+Source: ref 1712 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jekʰama-ni
+jekʰama-ni
+lie INF
+to lie
+
+
+Source: ref 1713 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jeka-ma-ni
+jeka-ma-ni
+throw.net liquid INF
+
+
+
+Source: ref 1714 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wepʰa-ni
+wepʰa-ni
+die.out INF
+
+
+
+Source: ref 1715 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+we-pa-ni
+we-pa-ni
+sad go INF
+leave crying
+
+
+Source: ref 1716 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ahtani-ni
+ahtani-ni
+NONE INF
+to hurt one's thighs walking
+
+
+Source: ref 1717 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ata-ni
+ata-ni
+toll INF
+
+
+
+Source: ref 5805 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+asï ha-ma-ni tʃʰé-ni iski=ri
+asï ha-ma-ni tʃʰé-ni iski=ri
+PROHIB exist outgoing INF fear INF that =2SG
+that
+
+
+Source: ref 5815 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima aɽi-s-p-ti-a ma nanaka-ni
+ima aɽi-s-p-ti-a ma nanaka-ni
+DEM.SG say AOR PAST 3.IND FUT one woman OBJ
+woman
+
+
+Source: ref 1722 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+técandinikʰanti-ni
+técandini kʰanti-ni
+NONE deaf INF
+to be deaf
+
+
+Source: ref 1723 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tecándini-ni
+tecándini-ni
+NONE INF
+to be uncorrectable
+
+
+Source: ref 1724 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ha-wa-ta-ni
+ha-wa-ta-ni
+exist far CAUS INF
+
+
+
+Source: ref 1725 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hawa-ta-ni
+hawa-ta-ni
+drawaway CAUS INF
+to lift up, like one lifts a sick person
+
+
+Source: ref 1726 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pama-kwaɽe-ni
+pʰame-kwaɽe-ni
+pain RFLX INF
+to grieve
+
+
+Source: ref 1727 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pama-kwaɽe-ni
+pama-kwaɽe-ni
+wrap RFLX INF
+to wrap
+
+
+Source: ref 1728 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anta-ni
+anta-ni
+conductlivestock INF
+to conduck livestock
+
+
+Source: ref 1729 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anta-ni
+anta-ni
+win INF
+to win a game
+
+
+Source: ref 1730 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wara-ni
+wáɽa-ni
+hunt INF
+to hunt
+
+
+Source: ref 1731 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wara-ni
+waɽa-ni
+dance INF
+to dance
+
+
+Source: ref 1732 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+wera-ni
+wera-ni
+goout INF
+to go out
+
+
+Source: ref 1733 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+we-ra-ni
+we-ra-ni
+sad FORM INF
+to cry
+
+
+Source: ref 1734 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsa-ra-ma-ni
+tsa-ra-ma-ni
+reflex MED on.the.go INF
+to reflect
+
+
+Source: ref 3777 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=teru-ni komu nitama-kuarhe-a-ka ia
+no=teru-ni komu nitama-kuarhe-a-ka ia
+no =more OBJ suffer pass RFLX FUT 1/2IND already
+I will not pass through suffering anymore
+
+
+Source: ref 1736 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsantapʰe-ni
+tsantapʰe-ni
+disclose INF
+to disclose, to let someone know
+
+
+Source: ref 3781 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ji no=teru-ni anchi-kuarhe-ni
+ka ji no=teru-ni anchi-kuarhe-ni
+and 1SG no =more OBJ work RFLX INF
+and I no more uerarinchaaka to work
+
+
+Source: ref 3783 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima=ksï ni-ua-ti anche-kuarhi-ni
+ka ima=kxï ni-a-ti anchi-kuarhe-ni
+and DEM.SG =3PL go FUT 3.IND work RFLX INF
+and they will go to work
+
+
+Source: ref 3786 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka u-ni a-rhi-a-ua-ni
+ka u-ni a-rhi-a-a-ni
+and can INF say MID 3PL.OBJ FUT OBJ
+and I will tell them
+
+
+Source: ref 1743 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsahkwanta ata-pʰe-ni
+ʃuŋanta ata-pʰe-ni
+resin spread ANTIPASS INF
+
+
+
+Source: ref 1744 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tseta-mu-ni
+tseta-mu-ni
+hurt LOC.mouth INF
+to bite one's tongue
+
+
+Source: ref 1745 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tseta-tu-ni
+tseta-tu-ni
+hurt feet INF
+to hurt one's foot with some stone
+
+
+Source: ref 1746 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tseka-wa-ku-ni
+tseka-wa-ku-ni
+dig NONE APPL.3 INF
+to dig stone or wood
+
+
+Source: ref 1747 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰere-ni
+tsʰeri-ni
+measure INF
+
+
+
+Source: ref 5840 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jámintu ima-ni
+jámintu ima-ni
+all DEM.SG OBJ
+DEM
+
+
+Source: ref 1749 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+thzendani-ni
+thzendani-ni
+NONE INF
+
+
+
+Source: ref 1751 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰeku-ni
+tsʰeku-ni
+tidy INF
+
+
+
+Source: ref 5847 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hini ima-ni ima tsa
+hini ima-ni ima tsa
+there DEM.SG OBJ DEM.SG they
+they
+
+
+Source: ref 1754 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰinitsʰini-ni
+tsʰini tsʰini-ni
+dye dye INF
+
+
+
+Source: ref 5854 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka pitama-ni
+ka pitama-ni
+and fish INF
+to fish
+
+
+Source: ref 1759 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰira-ni
+tsʰira-ni
+cold INF
+
+
+
+Source: ref 1760 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsʰirakware-ni
+tsʰirakware-ni
+cold INF
+
+
+
+Source: ref 1761 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsonkas-ka-ni
+tsonkas-ka-ni
+sunshine FORM INF
+
+
+
+Source: ref 1762 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsonkas-ta-pʰe-ni
+tsonkas-ta-pʰe-ni
+sunshine CAUS ANTIPASS INF
+
+
+
+Source: ref 3811 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+burru ueka-ni ima
+burru ueka-ni ima
+donkey want INF DEM.SG
+The donkey quickly realized what the wolf wanted,
+
+
+Source: ref 1764 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsome-ni
+tsóme-ni
+burning INF
+to burn
+
+
+Source: ref 5856 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni atʃati hini
+ima-ni atʃati hini
+DEM.SG OBJ man there
+there
+
+
+Source: ref 5858 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka aɽi-s-p-ti ima-ni atʃati
+ka aɽi-s-p-ti ima-ni atʃati
+and name AOR PAST 3.IND DEM.SG OBJ man
+man
+
+
+Source: ref 5860 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka aɽini ima-ni
+ka aɽini  ima-ni
+and say DEM.SG OBJ
+DEM
+
+
+Source: ref 5863 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima tsani-ni tata
+ima tsani-ni tata
+DEM.SG NONE OBJ sir
+man
+
+
+Source: ref 1770 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsikoretse-ni
+tsikoretse-ni
+undo INF
+to undo anything
+
+
+Source: ref 1775 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kwiripu-ni
+kʰwiripu-ni
+people OBJ
+
+
+
+Source: ref 1777 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kwiripu-ni himbo
+kʰwiripu-ni himpo
+people OBJ INSTR
+
+
+
+Source: ref 1780 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kwiripu -etʃa-ni
+kʰwiripu-etʃa -ni
+people PL OBJ
+
+
+
+Source: ref 1782 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kwiripu -etʃa-ni himpo
+kʰwiripu-etʃa -ni himpo
+people PL OBJ INSTR
+
+
+
+Source: ref 1785 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsihuereti-ni
+tsiwereti-ni
+male OBJ
+
+
+
+Source: ref 1787 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsiuereti-ni himpo
+tsiwereti-ni himpo
+male OBJ INSTR
+
+
+
+Source: ref 1790 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsihuintsa-ni
+tsiwintsa-ni
+males OBJ
+
+
+
+Source: ref 1792 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsihuintsa-ni himpo
+tsiwintsa-ni himpo
+males OBJ INSTR
+
+
+
+Source: ref 5889 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no tsiti-sïren-ti jurhiata-eri *t'ini-tsi-kua-ni
+no tsiti-sïren-ti jurhiata-eri *t'ini-tsi-kua-ni
+no like HAB.PST 3.IND sun GEN heat down NMLZR OBJ
+It didn't like the sun's heat
+
+
+Source: ref 3845 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+peru solo ji u-ni
+pero solo ji u-ni
+but only 1SG do INF
+Yes, I will go but only if you help me swim so I can cross to the other side
+
+
+Source: ref 5894 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka arachakusïrampti-sïram-p-ti anhatapu-ni
+ka arachakusïrampti-sïram-p-ti anhatapu-ni
+and NONE HAB.PST PAST 3.IND fir OBJ
+and.... the tree
+
+
+Source: ref 6055 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uiri-pa-nha-ni parhu-ta-ni
+uiri-pa-nhka-ni parhu-ta-ni
+run CONT PASS OBJ turn.off CAUS OBJ
+running to put down the fire
+
+
+Source: ref 5910 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iamintu patsï-rhi-korhe-na-ni
+iamintu patsï-rhi-kuarhe-na-ni
+all naked MID RFLX PASS OBJ
+all of them were left naked
+
+
+Source: ref 1815 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampa-ke-ti-ni
+ampa-ke-ti-ni
+good hollow 3.IND OBJ
+
+
+
+Source: ref 1817 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampaketi-ni himpo
+ampaketi-ni himpo
+good OBJ INSTR
+
+
+
+Source: ref 5913 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+para peta-a-ta-ni jima p'ukuminturi-o
+para peta-a-ta-ni jima p'ukuminturi-o
+for take.out CNTR CAUS OBJ there forest LOC
+to take them out of the forest
+
+
+Source: ref 3867 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+teɽu-ŋaɽi-ta-pʰe-jara-ni
+teɽu-ŋaɽi-ta-pʰe-jara-ni
+cross LOC.face ACT ANTIPASS MOV INF
+'to put something in front of others upon arrival'
+
+
+Source: ref 6059 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sontku puerta-ni mita-nha-ni
+sontku puerta-ni mita-nhka-ni
+quick door OBJ open PASS OBJ
+the door was open really quick
+
+
+Source: ref 1821 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampa-ke-tʃa-ni
+ampa-ke-etʃa -ni
+clean hollow PL OBJ
+
+
+
+Source: ref 1823 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampa-ke-tʃa-ni himpo
+ampa-ke-etʃa -ni himpo
+clean hollow PL OBJ INSTR
+
+
+
+Source: ref 3871 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ero-paɽa-ni
+ero-paɽa-ni
+wait LOC.side INF
+'to feel a presence from behind'
+
+
+Source: ref 3876 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ero-ka-ni
+ero-ka-ni
+wait FORM INF
+'to wait'
+
+
+Source: ref 3877 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ero-nta-ni
+ero-ntʰa-ni
+wait ITER INF
+'to await, expect'
+
+
+Source: ref 3878 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ero-paɽa-ni
+ero-paɽa-ni
+wait LOC.side INF
+'to feel a presence from behind'
+
+
+Source: ref 5924 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-ni Ejiptu ju-nkua-ni ja-p-ka
+enka-ni Ejiptu ju-nkua-ni ja-p-ka
+SUBORD OBJ Egypt come CENTR OBJ exist PAST SBJNC
+When I was coming back from Egypt
+
+
+Source: ref 5925 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uane-kua barcu jimpa-ni e-xe-nu-nkua-s-p-ka
+uane-kua barcu jimpa-ni e-xe-nu-nkua-sï-p-ka
+many NMLZR ship new OBJ sight FORM patio CENTR AOR PAST 1/2IND
+I saw many new ships
+
+
+Source: ref 5941 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka nia-ra-ni jarha-p-ka
+enka nya-ra-ni jarha-p-ka
+SUBORD arrive FORM OBJ be PAST SBJNC
+When Christmas was arriving
+
+
+Source: ref 5942 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anhatapu sapi-rha-ti-echa-ni p'iku-a-sïram-p-ti=ksï
+anhatapu sapi-rha-ti-echa-ni p'iku-a-sïram-p-ti=kxï
+fir little APPL 3.IND PL OBJ cut FUT HAB.PST PAST 3.IND =3PL
+they used to cut the little trees
+
+
+Source: ref 1847 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte-ni
+inte-ni
+DEM.SG OBJ
+
+
+
+Source: ref 1848 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte-ni himpo
+inte-ni himpo
+DEM.SG OBJ INSTR
+
+
+
+Source: ref 5947 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+patsï-rhi-korhe-na-sïram-p-ti iamintu axantikua-echa-ni
+patsï-rhi-kuarhe-na-sïram-p-ti iamintu axantikua-echa-ni
+naked MID RFLX PASS HAB.PST PAST 3.IND all branch PL OBJ
+but naked from all of its branches
+
+
+Source: ref 1852 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi-tʃʰa-ni himpo
+hi-etʃa -ni himpo
+1SG PL OBJ INSTR
+
+
+
+Source: ref 5949 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka peta-a-ta-ni jima p'ukuminturi-o
+ka peta-a-ta-ni jima p'ukuminturi-o
+and take.out 3PL.OBJ CAUS OBJ there forest LOC
+and take them out of the forest
+
+
+Source: ref 5950 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nani=ksï pa-a-sï-ni ts'ï-ni
+nani=kxï pa-a-sï-ni ts'ï-ni
+where =3PL take 3PL.OBJ AOR OBJ DEM.PL OBJ
+where do they take them
+
+
+Source: ref 5955 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nani ni-na-sï-ni
+nani ni-na-sï-ni
+where go PASS AOR OBJ
+where are they going?
+
+
+Source: ref 5956 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha mi-ti-s-ka-ni jucha mi-ti-s-ka-ni
+jucha mi-ti-sï-ka-ni jucha mi-ti-sï-ka-ni
+1PL know 3.IND AOR 1/2IND OBJ 1PL know 3.IND AOR 1/2IND OBJ
+we know, we know!
+
+
+Source: ref 3923 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pegru aɽa-h-ø-ti tiriapu-ni
+Pegru aɽa-sï-ø-ti tiriapu-ni
+Pedro eat AOR PRES 3.IND corn.ear OBJ
+'Pedro ate the ear of corn'
+
+
+Source: ref 5976 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ueka-pirin-ka-ni motsi-ta-ra-kua-rhu jarha-ni ia
+ueka-pirin-ka-ni motsi-ta-ra-kua-rhu jarha-ni ia
+want COND 1/2IND OBJ changelocation CAUS FORM NMLZR LOC be OBJ already
+I would like to be in the truck already
+
+
+Source: ref 5977 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jima kuartu-rhu jurhepi-tku jarha-ni
+jima kuartu-rhu jurhepi-tku jarha-ni
+there room LOC warm INTSFR be OBJ
+to be warm there
+
+
+Source: ref 1890 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iki=ni pame-tʃa-ni
+iki=ni pame-tʃa-ni
+if,as =1SG.SBJ sick body INF
+I had already taught when I became sick.
+
+
+Source: ref 3939 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro aw-a-h-ti iamindu itʃakwa -ni
+Pegru aɽa-a-sï-ti jamintu itʃakwa-ni
+Pedro eat 3PL.OBJ AOR 3.IND all long.thing OBJ
+Intended: 'Pedro ate all the fish'
+
+
+Source: ref 5991 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima chunku-ma-sïram-p-ti k'e-ni
+ima chunku-ma-sïram-p-ti k'e-ni
+DEM.SG follow outgoing HAB.PST PAST 3.IND grow INF
+he continued to grow
+
+
+Source: ref 3945 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro aɽ-a-h-ti kurutʃa-ni
+Pegru aɽa-a-sï-ti kurutʃa-ni
+Pedro eat 3PL.OBJ AOR 3.IND fish OBJ
+'Pedro ate the fish'
+
+
+Source: ref 3946 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro aɽ-a-h-ti itʃakwa kurutʃa -ni
+Pegru aɽa-a-sï-ti itʃakwa kurutʃa-ni
+Pedro eat 3PL.OBJ AOR 3.IND long.thing fish OBJ
+Intended: 'Pedro ate the/some fish'
+
+
+Source: ref 5997 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-n=ksï uena-s-p-ti kachu-ta-ni
+ima-n=kxï uena-sï-p-ti kachu-ta-ni
+DEM.SG LNK =3PL start AOR PAST 3.IND cut CAUS INF
+they began to cut
+
+
+Source: ref 3952 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hura-h-tirini pʰorempi-ni ma waɽi-i-ti
+hu-sï-ti=rini pʰorempi-ni ma waɽi-i-ti
+come AOR 3.IND 1SG.OBJ visit INF one woman PRED 3.IND
+'A woman came to visit me'
+
+
+Source: ref 3953 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hura-h-ti=rini pʰorempi-ni eɽakwa waɽi-i-ti
+hu-sï-ti=rini pʰorempi-ni eɽakwa waɽi-i-ti
+come AOR 3.IND =1SG.OBJ visit INF round.thing woman PRED 3.IND
+Intended: 'A woman came to visit me'
+
+
+Source: ref 3957 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰire-ni
+tʰire-ni
+eat OBJ
+'to eat'
+
+
+Source: ref 6005 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni ma=teru anhatapu-echa-ni
+ni ma=teru anhatapu-echa-ni
+go one =more tree PL OBJ
+or the other trees
+
+
+Source: ref 3959 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mi-ta-ni
+mi-ta-ni
+open CAUS INF
+'to open'
+
+
+Source: ref 6006 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni tsïtsïki-echa-ni enka=ksï uiripata-p-ka
+ni tsïtsïki-echa-ni enka=kxï wiripata-p-ka
+go flower PL OBJ SUBORD =3PL around PAST 1/2IND
+or the flowers that were around him
+
+
+Source: ref 6007 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni kuini-echa-ni
+ni kuini-echa-ni
+go bird PL OBJ
+or the birds
+
+
+Source: ref 6009 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-n=ksï anhatapu-ni pa-ra-s-p-ti maru=teru-echa
+ima-n=kxï anhatapu-ni pa-ra-sï-p-ti maru=teru-echa
+DEM.SG LNK =3PL fir OBJ take FORM AOR PAST 3.IND some =more PL
+that tree they took with the others
+
+
+Source: ref 6012 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha paka-ra-ncha-a-ka-ni
+jucha paka-ra-ncha-a-ka-ni
+1PL keep VAL mood FUT FORM OBJ
+We will keep him
+
+
+Source: ref 3966 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampuʃï wane--ni
+ampuʃï wane-ta-ni
+louse many CAUS INF
+'to accumulate lice'
+
+
+Source: ref 6014 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pa-s-p-ti=ksï ima-ni anhatapu-ni
+pa-sï-p-ti=kxï ima-ni anhatapu-ni
+take AOR PAST 3.IND =3PL DEM.SG OBJ fir OBJ
+is where they took that tree jachukurini
+
+
+Source: ref 1922 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hasï huren-pʰe-pa mi-tsi-ni utame-wa-ka
+hasï huren-pʰe-pa mi-tsi-ni utame-a-ka
+PROHIB know ANTIPASS IMPRTV know FORM INF condemn FUT SBJNC
+
+
+
+Source: ref 1926 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ʃko ari-pʰe-pa huren-pʰe-ni
+ʃko aɽini -pʰe-pa huren-pʰe-ni
+PRHB say ANTIPASS IMPRTV know ANTIPASS INF
+
+
+
+Source: ref 1927 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ʃko ari-pʰe huren-pʰe-ni
+ʃko aɽini -pʰe huren-pʰe-ni
+PRHB say ANTIPASS know ANTIPASS INF
+Do no teach anymore.
+
+
+Source: ref 1928 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ʃko ari-pʰe-we huren-pʰe-ni
+ʃko aɽini -pʰe-we huren-pʰe-ni
+PRHB say ANTIPASS 3.IMPRTV know ANTIPASS INF
+
+
+
+Source: ref 1929 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ʃko=kutʃʰe ari-pʰe-pa huren-pʰe-ni
+ʃko=kutʃʰe aɽini -pʰe-pa huren-pʰe-ni
+PRHB =1PL.SBJ say ANTIPASS IMPRTV know ANTIPASS INF
+Let's not teach anymore.
+
+
+Source: ref 1930 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ʃko ari-pʰe-he huren-pʰe-ni
+ʃko aɽini -pʰe-i huren-pʰe-ni
+PRHB say ANTIPASS IMPRTV.2PL know ANTIPASS INF
+
+
+
+Source: ref 1931 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ʃko=kʃï ari-pʰe-we huren-pʰe-ni
+ʃko=kʃï aɽini -pʰe-we huren-pʰe-ni
+PRHB =3PL say ANTIPASS 3.IMPRTV know ANTIPASS INF
+Do not teach anymore.
+
+
+Source: ref 3974 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+etʃu-mu-ku-h-ti ma eroksï tsuntsu-ni
+etʃu-mu-ku-sï-ti ma eroksï tsuntsu-ni
+CL.flat LOC.mouth APPL.3 AOR 3.IND one pan pot OBJ
+'A pan is (lying flat) on top of the pot'
+
+
+Source: ref 1933 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ara-nitʰire-ni
+ara-ni tʰire-ni
+auxiliar OBJ eat INF
+what you have eaten
+
+
+Source: ref 1934 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ʃko =a tʰire-ni
+ʃko=a tʰire-ni
+PRHB =already eat INF
+Do not eat anymore.
+
+
+Source: ref 3975 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+etʃu-ɽa-mu-ku-ɽa-h-ti eroksï-tʃa tsuntsu-ni
+etʃu-ɽa-mu-ku-ɽa-sï-ti eroksï-etʃa  tsuntsu-ni
+CL.flat APPL LOC.mouth APPL.3 APPL AOR 3.IND pan PL pot OBJ
+'Some pans are (lying flat) on top of the pot'
+
+
+Source: ref 3980 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Cesari tʃunwiɽa-htsï-ta-h-ti eroksï-tʃa-ni
+Cesari tʃunwiɽa-tsʰï-ta-sï-ti eroksï-etʃa -ni
+Cesar piledup LOC.head CAUS AOR 3.IND pan PL OBJ
+'Cesar piled up the pans on the table'
+
+
+Source: ref 6026 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+para ima-ni anhatapu-ni tirhe-rata-ni
+para ima-ni anhatapu-ni t'ire-rata-ni
+for DEM.SG OBJ fir OBJ eat CAUS OBJ
+to feed that tree
+
+
+Source: ref 6031 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ka urapi-ti jo-rhi-a-ni
+ka ka urapi-ti jo-rhi-a-ni
+and and white 3.IND tie LOC.body 3PL.OBJ OBJ
+and tied with  chupipiti and white
+
+
+Source: ref 1940 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=kutʃʰe=tero ne-wa-ta-ni huren-pʰe-piri-ka
+anti-ki=kutʃʰe=tero ne-a-ta-ni huren-pʰe-pirin-ka
+why INTER =1PL.SBJ =other who FUT CAUS OBJ know ANTIPASS COND SBJNC
+
+
+
+Source: ref 1941 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=tsʰï=tero ne-wa-ta-ni huren-pʰe-piri-ka
+anti-ki=tsʰï=tero ne-a-ta-ni huren-pʰe-pirin-ka
+why INTER =2PL =other who FUT CAUS OBJ know ANTIPASS COND SBJNC
+
+
+
+Source: ref 1942 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti-ki=kʃï=tero ne-wa-ta-ni huren-pʰe-pirini-ka
+anti-ki=kʃï=tero ne-a-ta-ni huren-pʰe-pirin-ka
+why INTER =3PL =other who FUT CAUS OBJ know ANTIPASS COND SBJNC
+
+
+
+Source: ref 1943 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ahuj huren-pʰe-pirinikatʃunte-ni
+ahujh huren-pʰe-pirin katʃunte-ni
+alas know ANTIPASS COND subjunctive INF
+If I taught / I would like to teach.
+
+
+Source: ref 6038 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ueka-pirin-ka-ni esika churi-pirin-ka ia
+ueka-pirin-ka-ni exki churi-pirin-ka ia
+want COND 1/2IND OBJ SUBORD dusk COND SBJNC already
+I would want that it would become night already
+
+
+Source: ref 6048 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sontku=ksï ia eraku-tara-kua-echa-ni
+sontku=kxï ia eraku-tara-kua-echa-ni
+quick =3PL already select CAUS NMLZR PL OBJ
+quick they toxataspti
+
+
+Source: ref 1955 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunteni huren-pʰe-ni
+katʃunte=ni huren-pʰe-ni
+optative 1SG.SBJ know ANTIPASS INF
+Oh, if I taught.
+
+
+Source: ref 1956 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+carechunde=retʃunte huren-pʰe-ni
+carechunde=ri katʃunte huren-pʰe-ni
+NONE 2SG optative know ANTIPASS INF
+Oh, if you taught.
+
+
+Source: ref 1957 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte huren-pʰe-ni
+katʃunte huren-pʰe-ni
+optative know ANTIPASS INF
+Oh, if s/he taught.
+
+
+Source: ref 1958 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+cacuhchechundekutʃʰetʃunte huren-pʰe-ni
+cacuhchechunde=kutʃʰe katʃunte huren-pʰe-ni
+NONE 1PL.SBJ optative know ANTIPASS INF
+Oh, if we taught.
+
+
+Source: ref 1959 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+cahtsichunde=tsʰïtʃunte huren-pʰe-ni
+cahtsichunde=tsʰï katʃunte huren-pʰe-ni
+NONE =2PL optative know ANTIPASS INF
+Oh, if you taught.
+
+
+Source: ref 1960 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+caxchunde=kʃïtʃunte huren-pʰe-ni
+caxchunde=kʃï katʃunte huren-pʰe-ni
+NONE =3PL optative know ANTIPASS INF
+Oh, if they taught.
+
+
+Source: ref 1961 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiatini ari-pʰe-ka huren-pʰe-ni
+nontiati=ni aɽini -pʰe-ka huren-pʰe-ni
+subjunctiveadverb 1SG.SBJ say ANTIPASS SBJNC know ANTIPASS INF
+
+
+
+Source: ref 1962 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=re ari-pʰe-ka huren-pʰe-ni
+nontiati=ri aɽini -pʰe-ka huren-pʰe-ni
+subjunctiveadverb 2SG say ANTIPASS SBJNC know ANTIPASS INF
+
+
+
+Source: ref 1963 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati ari-pʰe-ka huren-pʰe-ni
+nontiati aɽini -pʰe-ka huren-pʰe-ni
+subjunctiveadverb say ANTIPASS SBJNC know ANTIPASS INF
+
+
+
+Source: ref 1964 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiatikutʃʰe ari-pʰe-ka huren-pʰe-ni
+nontiati=kutʃʰe aɽini -pʰe-ka huren-pʰe-ni
+optativeadverb 1PL.SBJ say ANTIPASS SBJNC know ANTIPASS INF
+
+
+
+Source: ref 1965 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=tsʰï ari-pʰe-ka huren-pʰe-ni
+nontiati=tsʰï aɽini -pʰe-ka huren-pʰe-ni
+optativeadverb =2PL say ANTIPASS SBJNC know ANTIPASS INF
+
+
+
+Source: ref 1966 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nontiati=kʃï ari-pʰe-ka huren-pʰe-ni
+nontiati=kʃï aɽini -pʰe-ka huren-pʰe-ni
+subjunctiveadverb =3PL say ANTIPASS SBJNC know ANTIPASS INF
+
+
+
+Source: ref 1967 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunteni huren-pʰe-ni
+katʃunte=ni huren-pʰe-ni
+optative 1SG.SBJ know ANTIPASS INF
+Oh, if I had taught.
+
+
+Source: ref 1968 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+carechunde=retʃunte huren-pʰe-ni
+carechunde=ri katʃunte huren-pʰe-ni
+NONE 2SG optative know ANTIPASS INF
+Oh, if you had taught.
+
+
+Source: ref 1969 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+katʃunte huren-pʰe-ni
+katʃunte huren-pʰe-ni
+optative know ANTIPASS INF
+to teach them
+
+
+Source: ref 1970 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+cacuhchechundekutʃʰetʃunte huren-pʰe-ni
+cacuhchechunde=kutʃʰe katʃunte huren-pʰe-ni
+NONE 1PL.SBJ optative know ANTIPASS INF
+Oh, if we had taught.
+
+
+Source: ref 1971 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+cahtsichunde=tsʰïtʃunte huren-pʰe-ni
+cahtsichunde=tsʰï katʃunte huren-pʰe-ni
+NONE =2PL optative know ANTIPASS INF
+Oh, if you had taught.
+
+
+Source: ref 1972 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+caxchunde=kʃïtʃunte huren-pʰe-ni
+caxchunde=kʃï katʃunte huren-pʰe-ni
+NONE =3PL optative know ANTIPASS INF
+Oh, if they had taught.
+
+
+Source: ref 6064 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ue-nha-ta-ni uina-cha-pa-ni
+ka ue-nhka-ta-ni uina-cha-pa-ni
+and goout PASS CAUS OBJ strong throat CONT OBJ
+and they went out screaming
+
+
+Source: ref 4028 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+namun-ti ka-a-ʃïn-ni sapi-tʃa-ni
+namuni-ti ka-a-sïn-ni sapi-etʃa -ni
+how.many 2.POSS have 3PL.OBJ HAB 2.INT child PL OBJ
+'How many children do you have?'
+
+
+Source: ref 4029 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+namun-ti ka-a-ʃïn-ni sapi-ni
+namuni-ti ka-a-sïn-ni sapi-ni
+how.many 2.POSS have 3PL.OBJ HAB 2.INT child OBJ
+Intended: How many children do you have?
+
+
+Source: ref 4035 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+waɽi-i-ti-tʃa huka-ʃïn-ti tatsunarikwa-itʃa-ni
+waɽi-i-ti-etʃa  huka-sïn-ti tatsunarikwa-etʃa -ni
+woman PRED 3.IND PL wear HAB 3.IND apron PL OBJ
+'Women wear aprons'
+
+
+Source: ref 6083 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+arhi-sïram-p-ti uinhacha-pa-ri-ni sapi-rha-ti-echa
+arhi-sïram-p-ti uinhacha-pa-ri-ni sapi-rha-ti-echa
+say HAB.PST PAST 3.IND scream CONT PAST OBJ little APPL 3.IND PL
+the little ones said screaming
+
+
+Source: ref 6084 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka jima anhatapu-ni piri-ti-ni
+ka jima anhatapu-ni piri-ti-ni
+and there fir OBJ next 3.IND OBJ
+and next to the tree
+
+
+Source: ref 6094 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mentku iamintu-echa isï uinhacha-nha-ni
+mentku iamintu-echa isï uinhacha-nhka-ni
+always all PL likethis scream PASS OBJ
+everyone screamed
+
+
+Source: ref 6096 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampe-sï-ni u-ni ja-ki ixu
+ampe-sï-ni u-ni ja-ki ixu
+something AOR OBJ do INF exist INTER here
+and what am I doing here?
+
+
+Source: ref 6102 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uinhacha-pa-ri-ni
+uinhacha-pa-ri-ni
+scream CONT PAST OBJ
+screaming
+
+
+Source: ref 6108 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+na isï paka-ra-ncha-ni princesani-ni
+na isï paka-ra-ncha-ni princesani-ni
+how APPROX remain FORM mood OBJ NONE OBJ
+but he still stayed with the princess
+
+
+Source: ref 4062 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+na-ni=ksï tʃanarakwa-itʃa haɽa-sï-ki=ksï mesa-ɽu
+na-ni=kʃï tʃanarakwa-etʃa  ha-sï-ki=kʃï mesa-ɽu
+WH ADV =3PL toy PL exist AOR INTER =3PL table LOC
+'How many toys are there on the table?'
+
+
+Source: ref 4069 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsima-arani sapi-itʃa nira-h-tiia kʰui-ni
+tsimani-rani sapi-etʃa  nira-sï-ti=a kʰwi-ni
+two MAX little PL go AOR 3.IND already sleep OBJ
+'The two children went to bed already' Context: There are only two children in the house. Both of them went to bed already.
+
+
+Source: ref 4070 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsima-perarani sapi-itʃa nira-h-tiia kʰui-ni
+tsimani-perarani sapi-etʃa  nira-sï-ti=a kʰwi-ni
+two MAX little PL go AOR 3.IND already sleep OBJ
+Intended: 'The two children went to bed already' Context: There are only two children in the house. Both of them went to bed already.
+
+
+Source: ref 4071 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tani-perarani sapi-itʃa nira-h-tiia kʰui-ni
+tanimu-perarani sapi-etʃa  nira-sï-ti=a kʰwi-ni
+three MAX small PL go AOR 3.IND already sleep OBJ
+'The three children went to bed already' Context: There are only three children in the house. The three of them went to bed already.
+
+
+Source: ref 4072 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tani-rani sapi-itʃa nira-h-tiia kʰui-ni
+tanimu-rani sapi-etʃa  nira-sï-ti=a kʰwi-ni
+three MAX small PL go AOR 3.IND already sleep INF
+Intended: 'The three children went to sleep already' Context: There are only three children in the house. The three of them went to bed already.
+
+
+Source: ref 4073 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tani-rani sapi-itʃa nira-h-tiia kʰui-ni
+tanimu-rani sapi-etʃa  nira-sï-ti=a kʰwi-ni
+three MAX small PL go AOR 3.IND already sleep INF
+Intended: 'The three children went to bed already' Context: There are only three children in the house. The three of them went to bed already.
+
+
+Source: ref 4074 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma-perarani sapi nira-h-tiia kʰui-ni
+ma-perarani sapi nira-sï-ti=a kʰwi-ni
+one MAX small go AOR 3.IND already sleep INF
+Intended: 'The child went to sleep already' Context: There is only one child in the house. He went to sleep already.
+
+
+Source: ref 4075 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma-arani sapi nira-h-tiia kʰui-ni
+ma-rani sapi nira-sï-ti=a kʰwi-ni
+one MAX small go AOR 3.IND already sleep INF
+Intended: 'The child went to sleep already' Context: There is only one child in the house. He went to sleep already.
+
+
+Source: ref 4076 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sapi nira-h-tiia kʰui-ni
+sapi nira-sï-ti=a kʰwi-ni
+child go AOR 3.IND already sleep INF
+'The child went to sleep already' Context: There is only one child in the house. He went to sleep already.
+
+
+Source: ref 6118 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsipe isï juka-rhi-korhe-ni ampe
+tsipe isï juka-rhi-kuarhe-ni ampe
+life likethis have LOC.body RFLX OBJ NEG
+I would be happy to have those things on me
+
+
+Source: ref 6122 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mamari ampe e-ra-tse-nt'a-ni jarha-ni
+mamari ampe e-ra-tse-nt'a-ni jarha-ni
+differenttypes NEG see VAL down ITER OBJ be OBJ
+thinking about different things
+
+
+Source: ref 6136 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima anhatapu *jiri-korhe-ni jarha-s-p-ti
+ima anhatapu *jiri-kuarhe-ni jarha-sï-p-ti
+DEM.SG fir hide RFLX OBJ be AOR PAST 3.IND
+the tree was hiding
+
+
+Source: ref 2041 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-kakini u-ta-wa-ka huren-pʰe-ni
+hima-ka-ki=ni u-ta-a-ka huren-pʰe-ni
+when FORM IRR 1SG.SBJ do CAUS FUT SBJNC know ANTIPASS INF
+
+
+
+Source: ref 2042 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-kaki=re u-ta-wa-ka huren-pʰe-ni
+hima-ka-ki=ri u-ta-a-ka huren-pʰe-ni
+there FORM IRR 2SG do CAUS FUT SBJNC know ANTIPASS INF
+
+
+
+Source: ref 2043 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-kaki u-ta-wa-ka huren-pʰe-ni
+hima-ka-ki u-ta-a-ka huren-pʰe-ni
+when FORM IRR do CAUS FUT SBJNC know ANTIPASS INF
+
+
+
+Source: ref 2044 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-kakikutʃʰe u-ta-wa-ka huren-pʰe-ni
+hima-ka-ki=kutʃʰe u-ta-a-ka huren-pʰe-ni
+there FORM IRR 1PL.SBJ do CAUS FUT SBJNC know ANTIPASS INF
+
+
+
+Source: ref 2045 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-kaki=tsʰï u-ta-wa-ka huren-pʰe-ni
+hima-ka-ki=tsʰï u-ta-a-ka huren-pʰe-ni
+when 1/2IND IRR =2PL do CAUS FUT SBJNC know ANTIPASS INF
+
+
+
+Source: ref 2046 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka-ki=kʃï u-ta-wa-ka huren-pʰe-ni
+hima-ka-ki=kʃï u-ta-a-ka huren-pʰe-ni
+when FORM IRR =3PL do CAUS FUT SBJNC know ANTIPASS INF
+
+
+
