@@ -26600,7 +26600,7 @@
 
 \ref 3326 ## IPA ##
 \tph inte-iri anhatapu
-\mph inte -                                                                                                 eri anhatapu 
+\mph inte -eri anhatapu 
 \mgl DEM.SG GEN tree 
 \ps dem n:Any n 
 \eng his/her tree /su arbol (de ese)
@@ -26608,7 +26608,7 @@
 
 \ref 3327 ## IPA ##
 \tph imeri- eri anhatapu
-\mph imeri -                                                                                                 eri anhatapu 
+\mph imeri -eri anhatapu 
 \mgl DEM.SG GEN tree 
 \ps NotSure n:Any n 
 \eng 
@@ -26616,7 +26616,7 @@
 
 \ref 3328 ## IPA ##
 \tph hutʃa-iri anhatapu
-\mph hutʃa -                                                                                                 eri anhatapu 
+\mph hutʃa-eri anhatapu 
 \mgl 1PL GEN tree 
 \ps pers n:Any n 
 \eng our tree/nuestro arbol
@@ -26640,15 +26640,15 @@
 
 \ref 3331 ## IPA ##
 \tph tsïmi-iri anhatapu
-\mph tsïmi -                                                                                                 eri anhatapu 
+\mph tsïmi-eri anhatapu 
 \mgl DEM.PL GEN tree 
 \ps NotSure n:Any n 
 \eng su arbol (de esos)
 \id 3331
 
 \ref 3332 ## IPA ##
-\tph tsïm- eri anhatapu
-\mph ts'ïma -                                                                                                 eri anhatapu 
+\tph tsïm-eri anhatapu
+\mph ts'ïma-eri anhatapu 
 \mgl 3PL GEN tree 
 \ps NotSure n:Any n 
 \eng su arbol (de aquellos, de ellos)
@@ -26664,7 +26664,7 @@
 
 \ref 3334 ## IPA ##
 \tph inte-iri t'iri-ʃa-ti
-\mph inte -                                                                                                 eri t'ire -ʃa -ti 
+\mph inte-eri t'ire -ʃa -ti 
 \mgl DEM.SG GEN eat PROG 3.IND 
 \ps dem n:Any NotSure v:ASP Attachestoanycategory 
 \eng El suyo (de ese) esta comiendo
@@ -26672,7 +26672,7 @@
 
 \ref 3335 ## IPA ##
 \tph ima- eri t'iri-ʃa-ti
-\mph ima -                                                                                                 eri t'ire -ʃa -ti 
+\mph ima-eri t'ire -ʃa -ti 
 \mgl DEM.SG GEN eat PROG 3.IND 
 \ps NotSure n:Any NotSure v:ASP Attachestoanycategory 
 \eng El suyo (de aquel o de el) esta comiendo
@@ -26680,7 +26680,7 @@
 
 \ref 3336 ## IPA ##
 \tph hutʃa-iri t'iri-ʃa-ti
-\mph hutʃa -                                                                                                 eri t'ire -ʃa -ti 
+\mph hutʃa-eri t'ire -ʃa -ti 
 \mgl 1PL GEN eat PROG 3.IND 
 \ps pers n:Any NotSure v:ASP Attachestoanycategory 
 \eng El nuestro esta comiendo
@@ -26696,7 +26696,7 @@
 
 \ref 3338 ## IPA ##
 \tph ts'ï-iri t'iri-ʃa-ti
-\mph ts'ï -                                                                                                 eri t'ire -ʃa -ti 
+\mph ts'ï-eri t'ire -ʃa -ti 
 \mgl DEM.PL GEN eat PROG 3.IND 
 \ps NotSure n:Any NotSure v:ASP Attachestoanycategory 
 \eng El suyo (de estos) esta comiendo  
@@ -26704,7 +26704,7 @@
 
 \ref 3339 ## IPA ##
 \tph tsïmi-iri t'iri-ʃa-ti
-\mph tsïmi -                                                                                                 eri t'ire -ʃa -ti 
+\mph tsïmi-eri t'ire -ʃa -ti 
 \mgl DEM.PL GEN eat PROG 3.IND 
 \ps NotSure n:Any NotSure v:ASP Attachestoanycategory 
 \eng El suyo (de esos) esta comiendo
@@ -26712,7 +26712,7 @@
 
 \ref 3340 ## IPA ##
 \tph tsïm- eri t'iri-ʃa-ti
-\mph ts'ïma -                                                                                                 eri t'ire -ʃa -ti 
+\mph ts'ïma-eri t'ire -ʃa -ti 
 \mgl 3PL GEN eat PROG 3.IND 
 \ps NotSure n:Any NotSure v:ASP Attachestoanycategory 
 \eng El suyo (de ellos, de aquellos) esta comiendo 
@@ -26728,7 +26728,7 @@
 
 \ref 3342 ## IPA ##
 \tph t'u-tʃa-iri anhatapu
-\mph t'u -etʃa  -                                                                                                 eri anhatapu 
+\mph t'u -etʃa-eri anhatapu 
 \mgl 2SG PL GEN tree 
 \ps NotSure n:Any n:Any n 
 \eng Su arbol (de usted)
@@ -28656,7 +28656,7 @@
 
 \ref 3583 ## IPA ##
 \tph hutʃa-iri
-\mph hutʃa -                                                                                                 eri 
+\mph hutʃa-eri 
 \mgl 1PL GEN 
 \ps pers n:Any 
 \eng 
@@ -28696,7 +28696,7 @@
 
 \ref 3588 ## IPA ##
 \tph hutʃa-iri
-\mph hutʃa -                                                                                                 eri 
+\mph hutʃa-eri 
 \mgl 1PL GEN 
 \ps pers n:Any 
 \eng 
@@ -31328,7 +31328,7 @@
 
 \ref 3917 ## IPA ##
 \tph tani-mu tsuntsu -itʃa barru-iri
-\mph tani -mu tsuntsu -etʃa  barru -                                                                                                 eri 
+\mph tani -mu tsuntsu -etʃa  barru-eri 
 \mgl three SUM pot PL clay GEN 
 \ps NotSure Attachestoanycategory n n:Any n[sp] n:Any 
 \eng 'Three clay cups'
@@ -32496,7 +32496,7 @@
 
 \ref 4063 ## IPA ##
 \tph Cesar ka Nelo hupakuri-h-ti iamindu-itʃa-ni ts'ï- eri ʃukuparhakwa-ni
-\mph Cesari ka Nelo hupakuri -sï -ti jamintu -etʃa  -ni ts'ï -                                                                                                 eri ʃukuparhakwa -ni 
+\mph Cesari ka Nelo hupakuri -sï -ti jamintu -etʃa  -ni ts'ï-eri ʃukuparhakwa -ni 
 \mgl Cesar and Nelo wash AOR 3.IND all PL OBJ DEM.PL GEN clothing OBJ 
 \ps NotSure NotSure NotSure NotSure v:ASP Attachestoanycategory NotSure n:Any n:Any NotSure n:Any n n:Any 
 \eng 'Cesar and Nelo washed all of their clothes'
@@ -32624,7 +32624,7 @@
 
 \ref 4079 ## IPA ##
 \tph hi=k'u-i-sï-ka=ni hantiak'u hutʃi nanti--iri
-\mph hi =k'u -i -sï -ka =ni hantiak'u hutʃi nanti -                                                                                                 eri 
+\mph hi =k'u -i -sï -ka =ni hantiak'u hutʃi nanti-eri 
 \mgl 1SG =only PRED AOR 1/2IND =1SG.SBJ single 1SG.POSS mother GEN 
 \ps pers NotSure nv v:ASP v:SBJ.AGR NotSure NotSure NotSure n n:Any 
 \eng 'I am my mother's only son'
@@ -33472,7 +33472,7 @@
 
 \ref 4185 ## IPA ##
 \tph urhíkwa-iri sïrata káni-kwa tsóme-sï-ti
-\mph urhikwa -                                                                                                 eri sïrata kani -kwa tsóme -sï -ti 
+\mph urhikwa-eri sïrata kani -kwa tsóme -sï -ti 
 \mgl oak GEN smoke very NMLZR burning AOR 3.IND 
 \ps n n:Any n adv Attachestoanycategory n v:ASP Attachestoanycategory 
 \eng The smoke of the oak is burning. / El humo del encino es muy ardoroso.
@@ -33840,7 +33840,7 @@
 
 \ref 4231 ## IPA ##
 \tph hi noompi=ni ustari-h inte-ni k'wiripeta kutʃi- eri
-\mph hi noompi =ni ustari -sï inte -ni k'wiripeta kutʃi -                                                                                                 eri 
+\mph hi noompi =ni ustari -sï inte -ni k'wiripeta kutʃi-eri 
 \mgl 1SG NEG =1SG.SBJ like AOR DEM.SG OBJ meat pig GEN 
 \ps pers NotSure NotSure v v:ASP dem n:Any n n n:Any 
 \eng I do not like pork
@@ -33848,7 +33848,7 @@
 
 \ref 4232 ## IPA ##
 \tph hi ɡustarie-ʃïn-ka inte-ni k'wiripeta kutʃi- eri
-\mph hi ustari -sïn -ka inte -ni k'wiripeta kutʃi -                                                                                                 eri 
+\mph hi ustari -sïn -ka inte -ni k'wiripeta kutʃi-eri 
 \mgl 1SG like HAB 1/2IND DEM.SG OBJ meat pig GEN 
 \ps pers v v:ASP v:SBJ.AGR dem n:Any n n n:Any 
 \eng I do like pork
@@ -34256,7 +34256,7 @@
 
 \ref 4283 ## IPA ##
 \tph a-i t'ire-h-ka inte nank'eri hutʃa-iri
-\mph arha -i t'ire -sï -ka inte nanti k'eri hutʃa -                                                                                                 eri 
+\mph arha -i t'ire -sï -ka inte nanti k'eri hutʃa-eri 
 \mgl eat IMPRTV.2PL eat AOR SBJNC DEM.SG mother big 1PL GEN 
 \ps v v:Any NotSure v:ASP v:Any dem n NotSure pers n:Any 
 \eng Ay, como come mi abuelita!
@@ -34264,7 +34264,7 @@
 
 \ref 4284 ## IPA ##
 \tph inte nank'eri hutʃa-iri we-ki arha-ni
-\mph inte nanti k'eri hutʃa -                                                                                                 eri weka -ki arha -ni 
+\mph inte nanti k'eri hutʃa-eri weka -ki arha -ni 
 \mgl DEM.SG mother big 1PL GEN want IRR eat OBJ 
 \ps dem n NotSure pers n:Any NotSure Attachestoanycategory v n:Any 
 \eng My grandmother wants nothing to eat
@@ -34456,7 +34456,7 @@
 
 \ref 4308 ## IPA ##
 \tph ima tata k'eri hutʃa-iri
-\mph ima tata k'eri hutʃa -                                                                                                 eri 
+\mph ima tata k'eri hutʃa-eri 
 \mgl DEM.SG sir big 1PL GEN 
 \ps NotSure n NotSure pers n:Any 
 \eng My grandfather is death
@@ -34520,7 +34520,7 @@
 
 \ref 4316 ## IPA ##
 \tph inte nana k'eri hutʃa-iri warhi-ʃa-ti
-\mph inte nana k'eri hutʃa -                                                                                                 eri warhi -ʃa -ti 
+\mph inte nana k'eri hutʃa-eri warhi -ʃa -ti 
 \mgl DEM.SG HON big 1PL GEN die PROG 3.IND 
 \ps dem NotSure NotSure pers n:Any NotSure v:ASP Attachestoanycategory 
 \eng My grandmother is dying
@@ -34528,7 +34528,7 @@
 
 \ref 4317 ## IPA ##
 \tph inte nana k'eri hutʃa-iri warhi-ni ha
-\mph inte nana k'eri hutʃa -                                                                                                 eri warhi -ni ha 
+\mph inte nana k'eri hutʃa-eri warhi -ni ha 
 \mgl DEM.SG HON big 1PL GEN woman OBJ exist 
 \ps dem NotSure NotSure pers n:Any n n:Any NotSure 
 \eng My grandmother is not dying
@@ -35016,7 +35016,7 @@
 
 \ref 4378 ## IPA ##
 \tph hini intsïpe-sï-ka-ni libru inte nani hutʃa-iri
-\mph hini intsïpi -sï -ka -ni libru inte nani hutʃa -                                                                                                 eri 
+\mph hini intsïpi -sï -ka -ni libru inte nani hutʃa-eri 
 \mgl there give AOR 1/2IND OBJ book DEM.SG where 1PL GEN 
 \ps NotSure NotSure v:ASP v:SBJ.AGR n:Any n dem NotSure pers n:Any 
 \eng I gave this book to my mother
@@ -35096,7 +35096,7 @@
 
 \ref 4388 ## IPA ##
 \tph inte tata hutʃa-iri bien tʃinilitu himini
-\mph inte tata hutʃa -                                                                                                 eri bien tʃinilitu himini 
+\mph inte tata hutʃa-eri bien tʃinilitu himini 
 \mgl DEM.SG sir 1PL GEN very wrinkle there 
 \ps dem n pers n:Any NotSure NotSure NotSure 
 \eng My father frowns  (wrinkles his face)
