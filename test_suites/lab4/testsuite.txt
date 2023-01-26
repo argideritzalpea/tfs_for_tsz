@@ -301,7 +301,7 @@ Judgement: g
 Phenomena: agreement
 nompe we-ʃïn-ka-ni
 nompe weka-sïn-ka-ni
-NEG want-HAB-1/2IND-OBJ
+NEG want-HAB-1/2IND-INF
 I don't want anything
 
 #31
@@ -311,7 +311,7 @@ Judgement: u
 Phenomena: agreement
 o documentu-echa-ni u-ni-a
 o documentu-echa-ni u-ni-a
-or document-PL-OBJ do-OBJ-3PL.OBJ
+or document-PL-OBJ do-INF-3PL.OBJ
 or making documents (switched -ni and -a positions)
 
 #32
@@ -321,7 +321,7 @@ Judgement: g
 Phenomena: agreement
 o documentu-echa-ni u-a-ni
 o documentu-echa-ni u-a-ni
-or document-PL-OBJ do-3PL.OBJ-OBJ
+or document-PL-OBJ do-3PL.OBJ-INF
 or making documents (switched -ni and -a positions)
 
 #33
@@ -351,7 +351,7 @@ Judgement: g
 Phenomena: case
 hatsi-ku-ø namunitu itukwa-ni
 hatsi-ku-ø namunitu itukwa-ni
-have-APPL.3-IMPRTV2 few salt-OBJ
+have-APPL.3-IMPRTV2 few salt-INF
 Intended: 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
 
 
@@ -362,7 +362,7 @@ Judgement: g
 Phenomena: adverbial clausal modifiers
 ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
 ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
-go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST SBJNC
+go ITER AOR PAST 3.IND INSTR =3PL eat INF exist PAST SBJNC
 They went because they were eating
 
 #40
@@ -372,7 +372,7 @@ Judgement: g
 Phenomena: adverbial clausal modifiers
 hi wera-ka-ni k'uta-rhu puerta-rhu
 hi wera-ka-ni k'uta-rhu puerta-rhu
-1SG goout-1/2IND-OBJ house-LOC door-LOC
+1SG goout-1/2IND-INF house-LOC door-LOC
 I go out of the house by the door
 
 #42
@@ -382,7 +382,7 @@ Judgement: g
 Phenomena: adverbial clausal modifiers
 jima ni-e-nt'a-ni=kxï menteru
 jima ni-e-nt'a-ni=kxï menteru
-there go-VOC-ITER-OBJ=3PL again
+there go-VOC-ITER-INF=3PL again
 There we arrived again at the house.
 
 
@@ -403,7 +403,7 @@ Judgement: g
 Phenomena: adverbial clausal modifiers
 hi ka=na-s-ka-ni oktubre-mpu
 hi ka=na-s-ka-ni oktubre-mpu
-1SG and=evidential-AOR-1/2IND-OBJ October-INSTR
+1SG and=evidential-AOR-1/2IND-INF October-INSTR
 I was born in October. (shortened)
 
 #51
@@ -413,7 +413,7 @@ Judgement: g
 Phenomena: complement clauses
 ueka-pirin-ka-ni esika churi-pirin-ka ia
 ueka-pirin-ka-ni exki churi-pirin-ka ia
-want COND 1/2IND OBJ SUBORD dusk COND SBJNC already
+want COND 1/2IND INF SUBORD dusk COND SBJNC already
 I would want that it would become night already
 
 #52
@@ -423,7 +423,7 @@ Judgement: g
 Phenomena: complement clauses
 a-rhi-sï-ti esika jurajku-pirin-ka uakasï-ni
 a-rhi-sï-ti exki jurhaku-pirin-ka uakasï-ni
-say MID AOR 3.IND SUBORD leave COND SBJNC ox OBJ
+say MID AOR 3.IND SUBORD leave COND SBJNC ox INF
 said to him that he would leave the ox
 
 #53
