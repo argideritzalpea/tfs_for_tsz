@@ -354,35 +354,6 @@ hatsi-ku-ø namunitu itukwa-ni
 have-APPL.3-IMPRTV2 few salt-OBJ
 Intended: 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
 
-#36
-Source: modified 2023 Chamoreau (ex. 50)
-Vetted: s
-Judgement: u
-Phenomena: adverbial clausal modifiers
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
-go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST 1/2IND
-They went because they were eating
-
-#37
-Source: modified 2023 Chamoreau (ex. 50)
-Vetted: s
-Judgement: u
-Phenomena: adverbial clausal modifiers
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-e
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-e
-go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST VOC
-They went because they were eating
-
-#38
-Source: modified 2023 Chamoreau (ex. 50)
-Vetted: s
-Judgement: u
-Phenomena: adverbial clausal modifiers
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ti
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ti
-go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST FORM
-They went because they were eating
 
 #39
 Source: modified 2023 Chamoreau (ex. 50)
@@ -395,16 +366,6 @@ go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST SBJNC
 They went because they were eating
 
 #40
-Source: modified 2023 Chamoreau (ex. 50)
-Vetted: s
-Judgement: u
-Phenomena: adverbial clausal modifiers
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p
-go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST
-They went because they were eating
-
-#41
 Source: The Tarascan Language - Foster, pg. 184
 Vetted: s
 Judgement: g
@@ -444,66 +405,6 @@ hi ka=na-s-ka-ni oktubre-mpu
 hi ka=na-s-ka-ni oktubre-mpu
 1SG and=evidential-AOR-1/2IND-OBJ October-INSTR
 I was born in October. (shortened)
-
-#45
-Source: The Tarascan Language - Foster, pg. 184
-Vetted: s
-Judgement: g
-Phenomena: relative clauses
-t'u=ri t'u-nki=ri
-t'u=ri t'u-nki=ri
-2SG =2SG 2SG SUB =2SG
-You're the one (you are that you)
-
-#46
-Source: ref 411 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: relative clauses
-hinte =e-sï-ti hinte=ki
-hinte=e-sï-ti hinte=ki
-3SG =be AOR 3.IND 3SG =RELT
-that one is the one (that)
-
-#47
-Source: The Tarascan Language - Foster, pg. 78
-Vetted: s
-Judgement: g
-Phenomena: relative clauses
-ji-ni=ksï ni=e-nt'a-ni ta-rhu ji-ni-nki=ksï hu-tsa ni-e-ra-p-ka
-ji-ni=ksï ni=e-nt'a-ni ta-rhu ji-ni-nki=ksï hu-tsa ni-e-ra-p-ka
-1SG OBJ bothofthem go =be ITER OBJ home LOC 1SG OBJ SUB bothofthem come quickly go VOC VAL PAST 1/2IND
-We arrived at the house where we had arrived at before
-
-#48
-Source: ref 3579 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: relative clauses
-iʃe-ʃa-ø-ka=kini inki tʰu tʰiri-ø-ka
-eʃe-ʃa-ø-ka=kini inki tʰu tʰire-ø-ka
-see PROG PRES 1/2IND =2SG.OBJ REL 2SG eat PRES SBJNC
-I am looking at you eating.
-
-#49
-Source: ref 3502 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: relative clauses
-ima-nki hini hu-tʃi mimi-i-ʃ-ti
-ima-nki hini hu-tʃi mimi-i-sï-ti
-DEM.SG SUB there 1SG APP.1/2 brother PRED AOR 3.IND
-'The one that is there is my brother' / 'Aquel que esta alla es mi hermano'
-
-#50
-Source: ref 4868 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: relative clauses
-jimajkani ju-ua-ka t'u-nki-ni pi-nt'a-ni
-jimajkani ju-a-ka t'u-nki-ni pi-nt'a-ni
-then come FUT SBJNC 2SG SUB OBJ take ITER INF
-I will come to take you then
 
 #51
 Source: ref 6038 in tsz_toolbox
