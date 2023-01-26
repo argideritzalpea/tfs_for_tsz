@@ -1,0 +1,50 @@
+Source: ref 6245 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+po'ki kani-kua anchi-kuarhi-ta jatsi-san-ti
+porka kani-kua anchi-kuarhe-ta jatsi-san-ti
+because much NMLZR work RFLX NMLZR have HAB.PST 3.IND
+because he had a lot of work
+
+
+Source: ref 6376 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima achati arhi-ni sesi jarha-sï-ti a ni-pa ji jimajkani ixu-a-ni=ia poki ji uakasï-echa-ni jirinka-nt's-kua jatsi-a-s-ka=chka-ni=ia poki ji tarhe-a-ka a
+ima achati arhi-ni sesi jarha-sï-ti a ni-pa ji jimajkani ixu-a-ni=a porka ji uakasï-echa-ni jirinka-nt'a-kua jatsi-a-sï-ka=chka-ni=a porka ji tarhe-a-ka a
+DEM.SG man say OBJ good be NONE 3.IND AUX go CONT 1SG then here CNTR OBJ =already because 1SG ox PL OBJ lookfor ITER NMLZR have 3PL.OBJ AOR 1/2IND =then OBJ =already because 1SG plow FUT 1/2IND AUX
+
+
+
+Source: ref 6285 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+po'ki pauani kokua-ni=ri jauara-ka nira-ni itsu-kua p'iku-a-ni ts'ïma-ni uakasï-echa-ni
+porka pauani kokani-ni=ri jauara-ka nira-ni itsu-kua p'iku-a-ni ts'ïma-ni uakasï-echa-ni
+because tomorrow early OBJ =2SG get.up 1/2IND go INF feed NMLZR get 3PL.OBJ INF 3PL OBJ ox PL OBJ
+because tomorrow you are getting up early to go get milk for those oxen
+
+
+Source: ref 6320 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ni je k'uani-ku-ni poki inte ixu=rini ok'utani jarha-sïn-ti inte xanini tere-nharhi a
+ka ni je k'uani-ku-ni porka inte ixu=rini ok'uta ni jarha-sïn-ti inte xanini tere- a
+and go IMPRTV throw APPL.3 OBJ because thatone here here hinder go be HAB 3.IND thatone corncob rot LOC.front.surface AUX
+"and go throw it because that is hinering me here that rotten corn cob"
+
+
+Source: ref 6297 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+poka ima ni-ti ni-nt'a-ni
+porka ima ni-ti ni-nt'a-ni
+because DEM.SG go 3.IND go ITER INF
+Because he would go back
+
+

@@ -1,0 +1,868 @@
+Source: ref 4607 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka repentku=ksï enka p'urhe-p'i-ka
+ka repenti=kxï enka p'urhe-p'i-ka
+and suddenly =3PL SUBORD P'urhepecha BEN 1/2IND
+and when they visit someone
+
+
+Source: ref 6145 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-ni p'ukuminturi-o ja-p-ka-ni
+enka-ni p'ukuminturi-o ja-p-ka-ni
+SUBORD OBJ forest LOC exist PAST SBJNC OBJ
+when I was in the forest
+
+
+Source: ref 5125 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka mero ia
+enka mero ia
+SUBORD very already
+what about your life?
+
+
+Source: ref 5131 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ri o
+enka=ri o
+SUBORD =2SG or
+
+
+
+Source: ref 6166 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jima enka ja-ka ka
+jima enka ja-ka ka
+there SUBORD exist SBJNC and
+there, where the cheese is and the ham
+
+
+Source: ref 5143 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka peru enka-ni ji
+ka pero enka-ni ji
+and but SUBORD OBJ 1SG
+but what I remember
+
+
+Source: ref 5155 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-ni ji jima-ni
+enka-ni ji jima-ni
+SUBORD OBJ 1SG there OBJ
+what i remember is that teachers
+
+
+Source: ref 1575 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampeenka animali-echa uanta-pirin-ka
+ampe enka animali-echa uanta-pirin-ka
+something SUBORD animal PL talk COND SBJNC
+what the animals would talk
+
+
+Source: ref 6184 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+joperu enka
+pero enka
+but SUBORD
+
+
+
+Source: ref 5163 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka i no
+enka i no
+SUBORD this no
+before it was our own parents who said if he is not listening
+
+
+Source: ref 5174 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jima-ni i enka ia
+jima-ni i enka ia
+there OBJ this SUBORD already
+and today
+
+
+Source: ref 6199 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka ixu ima-ni enka-ni
+enka ixu ima-ni enka-ni
+SUBORD here DEM.SG OBJ SUBORD OBJ
+
+
+
+Source: ref 4664 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïka-j=tsïni no jurajku-sï-ka
+exki-sï=kxïni no jurhaku-sï-ka
+SUBORD AOR =2PL.OBJ no leave AOR SBJNC
+that they did not leave us
+
+
+Source: ref 6713 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka isï
+enka isï
+SUBORD APPROX
+APPROX
+
+
+Source: ref 1592 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eska=ri isï a-rhi-nha-ka
+exki=ri isï a-rhi-nhka-ka
+SUBORD =2SG likethis AUX LOC.body PASS 1/2IND
+that they call you like that
+
+
+Source: ref 1597 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï-ni ueka-ka k'atá-ni
+enka=kxï-ni ueka-ka k'atá-ni
+SUBORD =3PL OBJ want SBJNC load.firewood INF
+Whent they want to make you load firewood
+
+
+Source: ref 4683 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+na na enka
+na na enka
+how how SUBORD
+Look, Seba is throwing the corn to the trash.
+
+
+Source: ref 5199 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ia a no enka
+ia a no enka
+already AUX no SUBORD
+only they know the truth
+
+
+Source: ref 1616 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iamindu esika na exe-p-ka
+iamintu exki na exe-p-ka
+all SUBORD how see PAST SBJNC
+all the things he saw
+
+
+Source: ref 5201 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ixu agustu peru enka
+ixu agustu pero enka
+here comfortable but SUBORD
+or if they feel comfortable here
+
+
+Source: ref 1619 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-rhi-sï-ti esika jurajku-pirin-ka uakasï-ni
+a-rhi-sï-ti exki jurhaku-pirin-ka uakasï-ni
+say MID AOR 3.IND SUBORD leave COND SBJNC ox OBJ
+said to him that he would leave the ox
+
+
+Source: ref 5204 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u e-xe-sï-ni esïka ixu
+t'u e-xe-sï-ni exki ixu
+2SG sight FORM AOR OBJ SUBORD here
+do you think that it's better
+
+
+Source: ref 1622 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sino esika ata-pirin-ka
+sino exki ata-pirin-ka
+if.not SUBORD hit COND SBJNC
+and that he should hit him
+
+
+Source: ref 6743 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ni no
+enka=ni no
+SUBORD =1SG.SBJ no
+no
+
+
+Source: ref 5221 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka enka iasï
+ka enka iaxï
+and SUBORD now
+and also
+
+
+Source: ref 6246 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+niara-s-p-ti enka juka-p-ka tiriapu
+niara-sï-p-ti enka juka-p-ka tiriapu
+arrivethere AOR PAST 3.IND SUBORD have PAST 1/2IND corn.cob
+Then the day that corn grew arrived
+
+
+Source: ref 5225 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ia esïka
+ia exki
+already SUBORD
+guaranteed that they will find a job after graduating
+
+
+Source: ref 5230 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mentku esïka ma
+mentku exki ma
+always SUBORD one
+it's guaranteed that one will get a job
+
+
+Source: ref 6768 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ni ixu i i
+enka=ni ixu i i
+SUBORD =1SG.SBJ here DEM.SG DEM.SG
+
+
+
+Source: ref 6775 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni enka
+ima-ni enka
+DEM.SG OBJ SUBORD
+
+
+
+Source: ref 4728 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o uakasï enka
+o uakasï enka
+cover ox SUBORD
+“is it the uakasi who came back again?”
+
+
+Source: ref 4736 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ienka perasï exe-kua=e-ti
+i enka perasï exe-kua=e-ti
+DEM.SG SUBORD pears see NMLZR =be 3.IND
+this is the pear movie
+
+
+Source: ref 6278 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka ima tsinharhi-p-ka
+enka ima tsinharhi-p-ka
+SUBORD DEM.SG wake PAST SBJNC
+when he woke up
+
+
+Source: ref 5268 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+utasï kapinti-s-p-ti eka=ksï jauara-p-ka
+utaxï kapinti-sï-p-ti enka=kxï jauara-p-ka
+still dark AOR PAST 3.IND SUBORD =3PL get.up PAST SBJNC
+It was still dark when they woke up.
+
+
+Source: ref 168 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-chi jucha exe-ka Michoacani
+enka-chi jucha exe-ka Michoacan
+SUBORD APP.1/2 1PL see SBJNC Michoacan
+If we see Michoacan
+
+
+Source: ref 171 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo enka-chi
+isï jimpo enka-chi
+APPROX INSTR SUBORD APP.1/2
+For the reason that
+
+
+Source: ref 4786 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka i tataka ue-k'u-a-ka
+enka i tataka ue-k'u-a-ka
+SUBORD DEM.SG boy drop LOC.hand 3PL.OBJ SBJNC
+that this little boy dropped
+
+
+Source: ref 202 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-chi jucha jatsi-ka komo
+enka-chi jucha jatsi-ka komo
+SUBORD APP.1/2 1PL have SBJNC como
+that we have like
+
+
+Source: ref 5330 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+utasï kapinti-s-p-ti eka=ksï jauara-p-ka
+utaxï kapinti-s-p-ti enka=kxï jauara-p-ka
+still dark AOR PAST 3.IND SUBORD =3PL get.up PAST SBJNC
+It was still dark when we woke up.
+
+
+Source: ref 218 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka enka-chi
+ka enka-chi
+and SUBORD APP.1/2
+and if we
+
+
+Source: ref 219 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ri t'u u-ka
+enka=ri t'u u-ka
+SUBORD =2SG 2SG can SBJNC
+if you can
+
+
+Source: ref 228 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ri ueka-ni ja-ka archivari-ni
+enka=ri ueka-ni ja-ka archivari-ni
+SUBORD =2SG want OBJ exist SBJNC file INF
+that you are wanting to file
+
+
+Source: ref 4841 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ri t'ats'ïni jinkoni a-ua-ka
+enka=ri t'ats'ïni jinkoni a-a-ka
+SUBORD =2SG bean POSTP eat FUT 1/2IND
+that you will eat with beans
+
+
+Source: ref 3822 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka isï ima burru
+enka isï ima burru
+SUBORD likethis DEM.SG donkey
+While the wolf continued rolling around on the grass, unable to stand up, the donkey ran away.
+
+
+Source: ref 4868 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimajkani ju-ua-ka t'u-nki-ni pi-nt'a-ni
+jimajkani ju-a-ka t'u-nki-ni pi-nt'a-ni
+then come FUT SBJNC 2SG SUB OBJ take ITER INF
+I will come to take you then
+
+
+Source: ref 3850 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka jimpo
+enka jimpo
+SUBORD INSTR
+the frog was starting to untie the (p’atsimu- mustache) that he used to tie his legs
+
+
+Source: ref 4878 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+na enka=ksïni xani ueka
+na enka=kxïni xani ueka
+how SUBORD =2PL.OBJ alot want
+how much they want/like you
+
+
+Source: ref 5917 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka nia-nt'a-ka golondrina-echa ka
+enka nya-nt'a-ka golondrina-echa ka
+SUBORD arrive ITER SBJNC golondrina PL and
+where the golondrinas and japosi arrived
+
+
+Source: ref 5924 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-ni Ejiptu ju-nkua-ni ja-p-ka
+enka-ni Ejiptu ju-nkua-ni ja-p-ka
+SUBORD OBJ Egypt come CENTR OBJ exist PAST SBJNC
+When I was coming back from Egypt
+
+
+Source: ref 5934 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsipe-pirin-ka=ri enka=ri sapichu=e-ka
+tsipe-pirin-ka=ri enka=ri sapi=e-ka
+life COND FORM =2SG SUBORD =2SG little =be SBJNC
+you would laugh because you are little
+
+
+Source: ref 5937 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ri iasï sapichu-ku=e-ka
+enka=ri iaxï sapi-ku=e-ka
+SUBORD =2SG now little FORM =be SBJNC
+You are now little
+
+
+Source: ref 5941 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka nia-ra-ni jarha-p-ka
+enka nya-ra-ni jarha-p-ka
+SUBORD arrive FORM OBJ be PAST SBJNC
+When Christmas was arriving
+
+
+Source: ref 4919 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-ni u-a-ka ni-ua-ka sïpa-kuarhe-ni
+enka-ni u-a-ka ni-a-ka sïpa-kuarhe-ni
+SUBORD INF can FUT SBJNC go FUT 1/2IND steal RFLX INF
+if I can, I will go to run away
+
+
+Source: ref 4923 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tatsekua eka ima k'arhi-ka
+tatsekua enka ima k'arhi-ka
+after SUBORD DEM.SG dry.up SBJNC
+Later when he dried it
+
+
+Source: ref 4413 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka enka ima k'arhi-pin-ka
+ka enka ima k'arhi-pirin-ka
+and SUBORD DEM.SG dry.up COND 1/2IND
+and if that kotempa would dry up
+
+
+Source: ref 4415 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka eka-nhka u-pin-ka tsiki-ni
+ka enka-nhka u-pirin-ka tsiki-ni
+and SUBORD PASS can COND 1/2IND grow OBJ
+and if it would grow
+
+
+Source: ref 4416 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïka buenu jarha-s-p-ka
+exki buenu jarha-sï-p-ka
+SUBORD good be AOR PAST 1/2IND
+Then it was good
+
+
+Source: ref 6477 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï mi-ti-kuarhe-sï-ti esï-ka
+isï mi-ti-kuarhe-sï-ti exki-ka
+APPROX know FORM RFLX AOR 3.IND SUBORD 1/2IND
+Since then that day is known as:
+
+
+Source: ref 4431 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o enka-chi a-rhi-ka tatsu-ntu-kua
+o enka-chi a-rhi-ka tatsu-ntu-kua
+or SUBORD APP.1/2 say MID 1/2IND cover LOC.foot NMLZR
+
+
+
+Source: ref 5455 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eka ma jama-ni ja-p-ka
+enka ma jama-ni ja-p-ka
+SUBORD one bearound INF exist PAST SBJNC
+While we were eating and we saw a wolf walking around.
+
+
+Source: ref 5981 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka no isï-pirin-ka
+enka no isï-pirin-ka
+SUBORD no APPROX COND 1/2IND
+if it wouldn't be like that
+
+
+Source: ref 5477 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka jimaenka
+ka jima enka
+and there SUBORD
+And we found them in the karasarhu because Susana picked them up.
+
+
+Source: ref 4455 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïka komu nitama-nhka-sïren-ti k'uiripu-echa
+exki komu nitama-nhka-sïren-ti k'uiripu-echa
+SUBORD poor pass PASS HAB.PST 3.IND people PL
+that people used to pass through suffering
+
+
+Source: ref 4458 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka turhi=sï jimpo a-rhi-ka
+enka turhi=sï jimpo a-rhi-ka
+SUBORD no.purhepecha =FOC INSTR say MID 1/2IND
+that in spanish we call last name
+
+
+Source: ref 5994 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kuirhipu-echa enka=ksï exe-p-ka a-rhi-sïren-p-ti=ksï
+k'uiripu-echa enka=kxï exe-p-ka a-rhi-sïren-p-ti=kxï
+people PL SUBORD =3PL see PAST SBJNC say MID HAB.PST PAST 3.IND =3PL
+the people who saw him used to say
+
+
+Source: ref 5998 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima acha enka kachu-ta-p-ka
+ima acha enka kachu-ta-p-ka
+DEM.SG man SUBORD cut CAUS PAST SBJNC
+that man who cutted
+
+
+Source: ref 4467 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-ni jintini u-nt'a-ka
+enka-ni jinteni ukuarhint'a-nt'a-ka
+SUBORD OBJ 1SG.OBJ make ITER SBJNC
+that you will make me
+
+
+Source: ref 4470 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kanharhikua-echa-ni enka sïuankua juka-ua-ni-ka
+kanharhikua-echa-ni enka sïuankua juka-a-ni-ka
+face PL OBJ SUBORD horn have 3PL.OBJ OBJ 1/2IND
+face that those horns
+
+
+Source: ref 6006 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni tsïtsïki-echa-ni enka=ksï uiripata-p-ka
+ni tsïtsïki-echa-ni enka=kxï wiripata-p-ka
+go flower PL OBJ SUBORD =3PL around PAST 1/2IND
+or the flowers that were around him
+
+
+Source: ref 6535 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka ima tata arhi-p-ka
+enka ima tati arhi-p-ka
+SUBORD DEM.SG father say PAST SBJNC
+what the father said
+
+
+Source: ref 6024 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ts'ïma enka k'umanchi-kua-rhu anchi-korhe-p-ka
+ts'ïma enka k'umanchi-kua-rhu anchi-kuarhe-p-ka
+3PL SUBORD put.oneself.shade NMLZR LOC work RFLX PAST SBJNC
+with those that worked in the house
+
+
+Source: ref 4492 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï turhi=sï-echa a-rhi-ka
+enka=kxï turhi=sï-echa a-rhi-ka
+SUBORD =3PL no.purhepecha =FOC PL say MID 1/2IND
+that those no P'urhepechas call Artesania
+
+
+Source: ref 6038 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ueka-pirin-ka-ni esika churi-pirin-ka ia
+ueka-pirin-ka-ni exki churi-pirin-ka ia
+want COND 1/2IND OBJ SUBORD dusk COND SBJNC already
+I would want that it would become night already
+
+
+Source: ref 4508 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï ima p'iku-kuarhi-p-ka
+enka=kxï ima p'iku-kuarhe-p-ka
+SUBORD =3PL DEM.SG take RFLX PAST 1/2IND
+that they took of themselves
+
+
+Source: ref 3502 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-nki hini hu-tʃi mimi-i-ʃ-ti
+ima-nki hini hu-tʃi mimi-i-sï-ti
+DEM.SG SUB there 1SG APP.1/2 brother PRED AOR 3.IND
+'The one that is there is my brother' / 'Aquel que esta alla es mi hermano'
+
+
+Source: ref 6577 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka kuaka-pirin-ka jajki-ni ia
+enka kuaka-pirin-ka jajki-ni ia
+SUBORD get.wet COND SBJNC hand OBJ already
+when he would get his hand
+
+
+Source: ref 6070 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka veleecha-echa k'ama-rhu-a-p-ka ia
+enka veleecha-echa k'ama-rhu-a-p-ka ia
+SUBORD NONE PL finish edge FUT PAST SBJNC already
+When  the candles turned off
+
+
+Source: ref 5047 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+k'e-ra-ti-echa enka-chi ia utasi
+k'e-ra-ti-echa enka-chi ia utaxï
+big FORM 3.IND PL SUBORD APP.1/2 already still
+it's the older P'urepechas that are trying a bit more
+
+
+Source: ref 4540 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï santeru sesi u-ka-ta=e=ksï
+enka=kxï santeru sesi u-ka-ta=e=kxï
+SUBORD =3PL more good do FORM CAUS =be =3PL
+when they are better made works
+
+
+Source: ref 6076 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima enka=ksï kua-sku-pirin-ti=ksï
+ima enka=kxï kua-sku-pirin-ti=kxï
+DEM.SG SUBORD =3PL fall towards.ground COND 3.IND =3PL
+they who....took him down
+
+
+Source: ref 5056 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esï-ka na ia
+exki-ka na ia
+SUBORD 1/2IND how already
+beause people follow
+
+
+Source: ref 6080 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka e-ra-rhi-p-ka
+enka e-ra-rhi-p-ka
+SUBORD see FORM LOC.body PAST 1/2IND
+that was looking at it
+
+
+Source: ref 5086 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u e-xe-sï-ni esï-ka
+t'u e-xe-sï-ni exki-ka
+2SG sight FORM AOR OBJ SUBORD 1/2IND
+do you think that the P'urepechas will disappear along with the language?
+
+
+Source: ref 5089 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï ia ima=chka
+enka=kxï ia ima=chka
+SUBORD =3PL already DEM.SG =then
+that when someone has P'urepecha blood running through their veins
+
+
+Source: ref 5613 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eka=na e-parha-p-ka ia
+enka=na e-parha-p-ka ia
+SUBORD =evidential see LOC.side PAST 1/2IND already
+When he looked back
+
+
+Source: ref 4606 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï u-nt'a-ka k'uinchi-kua-echa jimpo
+enka=kxï ukuarhint'a-nt'a-ka k'uinchi-kua-echa jimpo
+SUBORD =3PL make ITER 1/2IND party NMLZR PL INSTR
+that they make in parties
+
+
+Source: 2023 Chamoreau (ex. 46)
+Vetted: s
+Judgement: g
+Phenomena: embedded clausal complements
+arhi-sïn-ti iska che-narhi-sïn-ka
+arhi-sïn-ti iska che-narhi-sïn-ka
+say HAB 3.IND like afraid HAB 1/2IND
+‘He (always) says that I am afraid

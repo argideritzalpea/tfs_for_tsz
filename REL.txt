@@ -1,0 +1,700 @@
+Source: ref 3583 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inki tʰu
+inki tʰu
+REL 2SG
+
+
+
+Source: ref 3455 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inki a-ka
+inki aɽa-ka
+REL eat SBJNC
+'... that I eat' / '...que yo ingiera'
+
+
+Source: ref 641 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=ki
+=ki
+=RELT
+
+
+
+Source: ref 642 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi =e-sï-ka hi=ki wanta-ha-ka
+hi=e-sï-ka hi=ki wanta-ʃa-ka
+1SG =be AOR 1/2IND 1SG =RELT speak PROG 1/2IND
+I am the one who speaks
+
+
+Source: ref 643 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu =e-sï-ka tʰu=ki wanta-ha-ka
+tʰu=e-sï-ka tʰu=ki wanta-ʃa-ka
+2SG =be AOR 1/2IND 2SG =RELT speak PROG 1/2IND
+You are the one who speaks.
+
+
+Source: ref 644 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro =e-sï-ti hinte=ki wanta-ha-ka
+Pegru=e-sï-ti hinte=ki wanta-ʃa-ka
+Pedro =be AOR 3.IND DEM.SG =RELT speak PROG SBJNC
+Pedro is the one who talks
+
+
+Source: ref 5765 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=ki hini
+ima=ki hini
+DEM.SG =RELT there
+
+
+
+Source: ref 2436 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki ne-wa-ni tsʰïrimu =e-ka
+i=ki ne-a-ni tsʰïrimu=e-ka
+DEM.SG =RELT who FUT OBJ Truly? =be SBJNC
+
+
+
+Source: ref 647 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=kini amutans-ka
+tʰu=ki=ni amutans-ka
+2SG =RELT 1SG.SBJ despise 1/2IND
+you who despises me
+
+
+Source: ref 648 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki Pedro tire-wa-ka
+i=ki Pegru tʰire-a-ka
+DEM.SG =RELT Pedro eat FUT SBJNC
+when Pedro eats
+
+
+Source: ref 2444 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-pirini-ka
+i=ki=e-pirin-ka
+DEM.SG =RELT =be COND SBJNC
+
+
+
+Source: ref 3085 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki hin
+i=ki hinteni
+DEM.SG =RELT 3SG.OBJ
+
+
+
+Source: ref 2445 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-ha-pirini-ka
+i=ki=e-ʃa-pirin-ka
+DEM.SG =RELT =be PROG COND SBJNC
+
+
+
+Source: ref 2068 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki huren-pʰera-ka-ha-ka
+i=ki huren-pʰera-ka-ʃa-ka
+DEM.SG =RELT know RECIP FORM PROG SBJNC
+If everyone teaches.
+
+
+Source: ref 2069 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki huren-pʰera-ka-pirini-ka
+i=ki huren-pʰera-ka-pirin-ka
+DEM.SG =RELT know RECIP FORM COND SBJNC
+If they all taught.
+
+
+Source: ref 790 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki ni
+i=ki=ni
+DEM.SG =RELT 1SG.SBJ
+if I had
+
+
+Source: ref 2071 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki huren-pʰera-ka-pirini-ka
+i=ki huren-pʰera-ka-pirin-ka
+DEM.SG =RELT know RECIP FORM COND SBJNC
+If they all taught.
+
+
+Source: ref 2454 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki tʰwin =e-pirini-ka
+i=ki tʰwin=e-pirin-ka
+DEM.SG =RELT before =be COND SBJNC
+
+
+
+Source: ref 409 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi =e-sï-ka hi=ki
+hi=e-sï-ka hi=ki
+1SG =be AOR 1/2IND 1SG =RELT
+I am the one that
+
+
+Source: ref 410 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu =e-sï-ka tʰu=ki
+tʰu=e-sï-ka tʰu=ki
+2SG =be AOR 1/2IND 2SG =RELT
+you who
+
+
+Source: ref 2075 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki huren-pʰera-ŋka-wa-ka
+i=ki huren-pʰera-ŋka-a-ka
+DEM.SG =RELT know RECIP PASS FUT SBJNC
+
+
+
+Source: ref 2076 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki tʰwin huren-pʰera-ŋka-wa-ka
+i=ki tʰwin huren-pʰera-ŋka-a-ka
+DEM.SG =RELT before know RECIP PASS FUT SBJNC
+
+
+
+Source: ref 411 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hinte =e-sï-ti hinte=ki
+hinte=e-sï-ti hinte=ki
+3SG =be AOR 3.IND 3SG =RELT
+that one is the one that
+
+
+Source: ref 2460 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e--ka
+i=ki=e-a-ka
+DEM.SG =RELT =be FUT SBJNC
+
+
+
+Source: ref 2208 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki hure-ta-ŋka-ha-ka
+i=ki hure-ta-ŋka-ʃa-ka
+DEM.SG =RELT heat CAUS PASS PROG SBJNC
+If s/he is taught.
+
+
+Source: ref 2466 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki tʰwin =e--ka
+i=ki tʰwin=e-a-ka
+DEM.SG =RELT before =be FUT SBJNC
+
+
+
+Source: ref 2214 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki hure-ta-ŋka-pirini-ka
+i=ki hure-ta-ŋka-pirin-ka
+DEM.SG =RELT heat CAUS PASS COND SBJNC
+
+
+
+Source: ref 3111 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=kini
+=ki=ni
+=RELT 1SG.SBJ
+
+
+
+Source: ref 5800 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i i-s=ki tata diosï
+i i-s=ki tata diosï
+DEM.SG DEM.SG LINKER? =RELT sir god
+god
+
+
+Source: ref 2472 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki tʰwin u-ta-wa-ka e
+i=ki tʰwin u-ta-a-ka e
+DEM.SG =RELT before do CAUS FUT SBJNC be
+
+
+
+Source: ref 3115 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=kini
+=ki=ni
+=RELT 1SG.SBJ
+
+
+
+Source: ref 557 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=ki
+tʰu=ki
+2SG =RELT
+
+
+
+Source: ref 2226 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki hure-ta-ŋka-pirini-ka
+i=ki hure-ta-ŋka-pirin-ka
+DEM.SG =RELT heat CAUS PASS COND SBJNC
+
+
+
+Source: ref 2232 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki hure-ta-ŋka-ka
+i=ki hure-ta-ŋka-ka
+DEM.SG =RELT heat CAUS PASS SBJNC
+
+
+
+Source: ref 2238 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki hure-ta-ŋka-pirini-ka
+i=ki hure-ta-ŋka-pirin-ka
+DEM.SG =RELT heat CAUS PASS COND SBJNC
+
+
+
+Source: ref 5701 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i i-s=ki tata diosï
+i i-s=ki tata diosï
+DEM.SG DEM.SG LINKER? =RELT sir god
+
+
+
+Source: ref 5831 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nompe inte=ki
+nompe inte=ki
+NEG DEM.SG =RELT
+the one that
+
+
+Source: ref 2503 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-ka-ka
+i=ki=e-ka-ka
+DEM.SG =RELT =be FORM SBJNC
+
+
+
+Source: ref 2504 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-ka-sï-ka
+i=ki=e-ka-sï-ka
+DEM.SG =RELT =be FORM AOR SBJNC
+
+
+
+Source: ref 2250 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki hure-ta-ŋka--ka
+i=ki hure-ta-ŋka-a-ka
+DEM.SG =RELT heat CAUS PASS FUT SBJNC
+
+
+
+Source: ref 2505 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-ka-pirini-ka
+i=ki=e-ka-pirin-ka
+DEM.SG =RELT =be FORM COND SBJNC
+
+
+
+Source: ref 2506 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-ka-hampi-ri-ka
+i=ki=e-ka-hampi-ri-ka
+DEM.SG =RELT =be FORM IMPRF PAST SBJNC
+
+
+
+Source: ref 2508 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-pirini-ka
+i=ki=e-pirin-ka
+DEM.SG =RELT =be COND SBJNC
+
+
+
+Source: ref 2510 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-pirini-ka
+i=ki=e-pirin-ka
+DEM.SG =RELT =be COND SBJNC
+
+
+
+Source: ref 2511 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki tʰwin u-ta-pirini engan-ka
+i=ki tʰwin u-ta-pirin engan-ka
+DEM.SG =RELT before do CAUS COND NONE 1/2IND
+
+
+
+Source: ref 2256 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki tʰwin hure-ta-ŋka--ka
+i=ki tʰwin hure-ta-ŋka-a-ka
+DEM.SG =RELT before heat CAUS PASS FUT SBJNC
+
+
+
+Source: ref 2512 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-ka--ka
+i=ki=e-ka-a-ka
+DEM.SG =RELT =be FORM FUT SBJNC
+
+
+
+Source: ref 2513 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki tʰwin =e-ka--ka
+i=ki tʰwin=e-ka-a-ka
+DEM.SG =RELT before =be FORM FUT SBJNC
+
+
+
+Source: ref 2260 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka=ki=ni u-ta-wa-ka hure-ta-ŋka-ni
+hima-ka=ki=ni u-ta-a-ka hure-ta-ŋka-ni
+there FORM =RELT =1SG.SBJ do CAUS FUT SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2262 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka=ki u-ta-wa-ka hure-ta-ŋka-ni
+hima-ka=ki u-ta-a-ka hure-ta-ŋka-ni
+there FORM =RELT do CAUS FUT SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2263 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka=ki=kutʃʰe u-ta-wa-ka hure-ta-ŋka-ni
+hima-ka=ki=kutʃʰe u-ta-a-ka hure-ta-ŋka-ni
+there FORM =RELT =1PL.SBJ do CAUS FUT SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 2264 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hima-ka=ki=tsʰï u-ta-wa-ka hure-ta-ŋka-ni
+hima-ka=ki=tsʰï u-ta-a-ka hure-ta-ŋka-ni
+there FORM =RELT =2PL do CAUS FUT SBJNC heat CAUS PASS INF
+
+
+
+Source: ref 1115 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hinte=ki pa-wa-ka
+hinte=ki pa-a-ka
+3SG =RELT take FUT SBJNC
+that one that may take
+
+
+Source: ref 1119 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki pa-wa-ka
+i=ki paku-a-ka
+DEM.SG =RELT take FUT SBJNC
+
+
+
+Source: ref 1120 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki pa-ŋka-wa-ka
+i=ki paku-ŋka-a-ka
+DEM.SG =RELT take PASS FUT SBJNC
+
+
+
+Source: ref 3039 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+=kini
+=ki=ni
+=RELT 1SG.SBJ
+
+
+
+Source: ref 3040 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki
+i=ki
+DEM.SG =RELT
+
+
+
+Source: ref 5732 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nompe inte=ki
+nompe inte=ki
+NEG DEM.SG =RELT
+
+
+
+Source: ref 3047 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte =e-ti i=ki hitʃʰani
+inte=e-ti i=ki hitʃani
+DEM.SG =be 3.IND DEM.SG =RELT 3PL.OBJ
+
+
+
+Source: ref 5864 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=ki hini
+ima=ki hini
+DEM.SG =RELT there
+there
+
+
+Source: ref 3048 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hinte i=ki ka
+hinte i=ki ka
+3SG DEM.SG =RELT and
+
+
+
+Source: ref 3049 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki
+i=ki
+DEM.SG =RELT
+
+
+
+Source: ref 3050 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hinte i=ki no no
+hinte i=ki no no
+3SG DEM.SG =RELT no no
+
+
+
+Source: ref 3051 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne hi =kini hinkuni
+ne hi=ki=ni hinkoni
+who 1SG =RELT 1SG.SBJ POSTP
+
+
+
+Source: ref 3053 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ne inte i=ki hinkuni
+ne inte i=ki hinkoni
+who DEM.SG DEM.SG =RELT POSTP
+
+
+
+Source: ref 2418 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-pirini-ka
+i=ki=e-pirin-ka
+DEM.SG =RELT =be COND SBJNC
+
+
+
+Source: ref 3059 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki ne
+i=ki ne
+DEM.SG =RELT who
+
+
+
+Source: ref 3062 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hinte i=ki ne-ma
+hinte i=ki ne-ma
+3SG DEM.SG =RELT who one
+
+
+
+Source: ref 3579 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iʃe-ʃa-ø-ka=kini inki tʰu tʰiri-ø-ka
+eʃe-ʃa-ø-ka=kini inki tʰu tʰire-ø-ka
+see PROG PRES 1/2IND =2SG.OBJ REL 2SG eat PRES SBJNC
+I am looking at you eating.
+
+
+Source: ref 2430 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i=ki =e-pirini-ka
+i=ki=e-pirin-ka
+DEM.SG =RELT =be COND SBJNC
+
+
+

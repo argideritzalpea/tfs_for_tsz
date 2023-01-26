@@ -1,0 +1,27 @@
+/Users/mosaix/hpsg/tfs_for_tsz/test_suites/make_item.py:383: DeprecationWarning: 'U' mode is deprecated
+  tslines = open(tsf, 'rU', encoding=enc).readlines()
+    orth: tʰu=kini himbo-ha-ka
+orth-seg: tʰu=kini himpo-ʃa-ka
+   gloss: 2SG =2SG.OBJ INSTR PROG 1/2IND
+translat: 
+
+Error: all morpheme segmented lines are required
+       to have the same number of tokens.
+5 tokens: ['2SG', '=2SG.OBJ', 'INSTR', 'PROG', '1/2IND']
+2 tokens: ['tʰu=kini', 'himpo-ʃa-ka']
+    (alignment error in igt item 23)
+    orth: tʰu=kini himbo-ha-ka
+orth-seg: tʰu=kini himpo-ʃa-ka
+   gloss: 2SG =2SG.OBJ INSTR PROG 1/2IND
+translat: 
+
+Error: all morpheme segmented lines are required
+       to have the same number of tokens.
+6 tokens: ['say', 'AOR', '3.IND', '=1SG.SBJ', '1SG.GEN', 'father']
+3 tokens: ['arhi-sï-ti=ni', 'jucheeti', 'tati']
+    (alignment error in igt item 28)
+    orth: arhi-j-ti=ni juchiti tati
+orth-seg: arhi-sï-ti=ni jucheeti tati
+   gloss: say AOR 3.IND =1SG.SBJ 1SG.GEN father
+translat: My dad said to me
+

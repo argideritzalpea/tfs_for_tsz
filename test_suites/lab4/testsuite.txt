@@ -1,0 +1,546 @@
+Language: <Purepecha / Tarascan>
+Language code: <tsz>
+Lines: orth orth-seg gloss translat
+Author: Chris Haberland and Abhinav Patil
+Date: January 13, 2023
+Source a: The Tarascan Language, Mary LeCron Foster, University of California Publications v56
+
+#1
+Source: ref 3291 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: case
+ima kuɽa-tʃi-ʃ-tirini itʃuskuta ama-mpa-mpu
+ima kuɽa-tʃi-sï-ti=rini itʃuskuta ama-mpa-mpu
+DEM.SG request-APP.1/2-AOR-3.IND=1SG.OBJ tortilla mother-3.POSS-INSTR
+Aquel me ha pedido tortillas por su madre
+
+#2
+Source: ref 2671 in tsz_toolbox.txt
+Vetted: f
+Judgment: g
+Phenomena: tense
+tʃeni ma-ku-ra-ha-ka
+tʃeeni ma-ku-ra-ʃa-ka
+how one-APPL.3-VAL-PROG-1/2IND
+I give a lot.
+
+#3
+Source: ref 2672 in tsz_toolbox.txt
+Vetted: f
+Judgment: g
+Phenomena: tense
+tʃeni maku-ra-ha-ka
+tʃeeni mata-ra-ʃa-ka
+how give-VAL-PROG-1/2IND
+I used to give a lot.
+
+#4
+Source: ref 2673 in tsz_toolbox.txt
+Vetted: f
+Judgment: g
+Phenomena: tense
+tʃeni maku-ra-ka
+tʃeeni mata-ra-ka 
+much give-VAL-1/2IND 
+I gave a lot.
+
+#5
+Source: ref 2674 in tsz_toolbox.txt
+Vetted: f
+Judgment: g
+Phenomena: tense
+tʃeni maku-ra-pi-h-ka
+tʃeeni mata-ra-pʰi-sï-ka 
+much give-VAL-PST-AOR-1/2IND 
+I had given a lot.
+
+#6
+Source: ref 3545 in tsz_toolbox.txt
+Vetted: f
+Judgment: g
+Phenomena: aspect
+waɽi-ʃ-ti
+waɽi-sï-ti 
+die-AOR-3.IND
+El esta muerto.
+
+#7
+Source: ref 3600 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: aspect
+hu-ɽa-ʃ-ti
+hu-ra-sï-ti 
+come-FORM-AOR-3.IND 
+unknown/unvetted ((He has come))
+
+#8
+Source: ref 3626 in tsv_toolbox
+Vetted: s
+Judgment: g
+Phenomena: aspect
+a-sï-ka
+a-sï-ka 
+say-AOR-1/2IND 
+I said 
+
+#9
+Source: ref 3814 in tsv_toolbox
+Vetted: f
+Judgment: g
+Phenomena: aspect
+isï unta-s-ti
+isï unta-s-ti 
+APPROX begin-AOR-3.IND 
+so the donkey started to limp
+
+#10
+Source: ref 3987 in tsv_toolbox
+Vetted: f
+Judgment: g
+Phenomena: aspect
+yuɽiɽi etʃu-nu-h-ti
+juɽiri etʃu-nu-sï-ti 
+blood CL.flat-patio-AOR-3.IND 
+Context: I found some drops of blood on the patio. Intended:'There are drops of blood lying on the patio'/'There is blood on the patio'
+
+#11
+Source: ref 3291 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: case
+ama-mpa-mpu
+ama-mpa-mpu
+mother-3.POSS-INSTR
+por su madre
+
+#12
+Source: ref 3911 in tsz_toolbox.txt, reduced
+Vetted: s
+Judgment: g
+Phenomena: agreement
+Pegru aɽa-h-ø-ti
+Pegru aɽa-sï-ø-ti
+Pedro eat-AOR-PRES-3.IND
+Pedro ate
+
+#13
+Source: ref 3911 in tsz_toolbox.txt + our own informed judgement
+Vetted: s
+Judgment: u
+Phenomena: agreement
+Pegru aɽa-h-ø-ka
+Pegru aɽa-sï-ø-ka
+Pedro eat-AOR-PRES-1/2IND
+Pedro ate
+
+#14
+Source: ref 3362 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+ekwatsi-i-ʃ-ti=kʃï
+ekwatsi-i-sï-ti=kʃï
+twenty-PRED-AOR-3.IND=3PL
+It is twenty
+
+#15
+Source: ref 3467 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+piri-ʃa-ti
+piri-ʃa-ti
+sing-PROG-3.IND
+He is singing
+
+#16
+Source: ref 3546 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+ni-ʃa-ka kwʰiripita-ni
+ni-ʃa-ka kʰwiripeta-ni
+cook-PROG-1/2IND meat-OBJ
+I am cooking the meat
+
+#17
+Source: ref 3546 in tsz_toolbox.txt  + our own informed judgement
+Vetted: s
+Judgment: u
+Phenomena: agreement
+ni-ʃa-ti kwʰiripita-ni
+ni-ʃa-ti kʰwiripeta-ni
+cook-PROG-3IND meat-OBJ
+I am cooking the meat
+
+#18
+Source: ref 3545 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+waɽi-ʃ-ti
+waɽi-sï-ti
+die-AOR-3.IND
+He is dead
+
+#19
+Source: ref 3881 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+ero-ka-ʃa-ka
+ero-ka-ʃa-ka
+wait-FORM-PROG-1/2IND
+I/you/we/you(pl.) are waiting
+
+#20
+Source: ref 3882 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+ero-ka-ʃa-ti
+ero-ka-ʃa-ti
+wait-FORM-PROG-3.IND
+He/they are waiting
+
+#21
+Source: ref 3421 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+hinkonikwa-ti-itʃa tʰiri-ʃïn-ti
+hinkonikwa-ti-etʃa tʰire-sïn-ti
+sister-2.POSS-PL eat-HAB-3.IND
+Your sisters eat
+
+#22
+Source: ref 5686 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+hini peta-p-ti tsʰa-mpo
+hini peta-p-ti ta-mpu
+there take.out-PAST-3.IND home-INSTR
+She took her from her own house / Se la llevó de su propia casa
+
+#23
+Source: ref 2999 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+tʰu=kini himbo-ha-ka
+tʰu=kini himpo-ʃa-ka
+2SG=2SG.OBJ INSTR-PROG-1/2IND
+
+#24
+Source: ref 5052 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+p'urhepecha jimpo uanta-kua
+p'urhepecha jimpo uanta-kua
+Purhepecha INSTR speak-NMLZR
+our language
+
+#25
+Source: ref 5122 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+kani-kua jimpo-ka=chka
+kani-kua jimpo-ka=chka
+much-NMLZR INSTR-1/2IND=then
+things really have changed
+
+#26
+Source: ref 6639 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+sesi chaari kutsïkua-echa-ni
+sesi t'uchaeueri kutsïkua-echa-ni
+good 2PL.GEN ear-PL-OBJ
+so open up your ears.
+
+#27
+Source: modded ref 6639 in tsz_toolbox
+Vetted: s
+Judgement: u
+Phenomena: case
+sesi chaari kutsïkua-ni-echa
+sesi t'uchaeueri kutsïkua-ni-echa
+good 2PL.GEN ear-OBJ-PL
+so open up your ears. (ni must follow echa (pl))
+
+#28
+Source: ref 3602 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+arhi-j-ti=ni juchiti tati
+arhi-sï-ti=ni jucheeti tati
+say AOR 3.IND =1SG.SBJ 1SG.GEN father
+My dad said to me
+
+#29
+Source: ref 4294 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: case
+inte hutʃeeti
+inte hutʃeeti
+DEM.SG 1SG.GEN
+My horse is black
+
+#30
+Source: ref 4287 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: agreement
+nompe we-ʃïn-ka-ni
+nompe weka-sïn-ka-ni
+NEG want-HAB-1/2IND-OBJ
+I don't want anything
+
+#31
+Source: modded ref 200 in tsz_toolbox
+Vetted: s
+Judgement: u
+Phenomena: agreement
+o documentu-echa-ni u-ni-a
+o documentu-echa-ni u-ni-a
+or document-PL-OBJ do-OBJ-3PL.OBJ
+or making documents (switched -ni and -a positions)
+
+#32
+Source: ref 200 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: agreement
+o documentu-echa-ni u-a-ni
+o documentu-echa-ni u-a-ni
+or document-PL-OBJ do-3PL.OBJ-OBJ
+or making documents (switched -ni and -a positions)
+
+#33
+Source: ref 3882 in tsz_toolbox.txt
+Vetted: s
+Judgment: g
+Phenomena: agreement
+ero-ʃa-ka-ti
+ero-ʃa-ka-ti
+wait-PROG-FORM-3.IND
+He/they are waiting
+
+#34
+Source: ref 4101 in tsz_toolbox
+Vetted: s
+Judgement: u
+Phenomena: case
+hatsi-ku-ø namunitu itukwa tʃuripu
+hatsi-ku-ø namunitu itukwa tʃuɽipu
+have APPL.3 IMPRTV2 few salt soup
+Intended: 'Put a little salt in the soup' (needs ni after the IO)
+
+#35
+Source: ref 4101 in tsz_toolbox, 
+Vetted: s
+Judgement: g
+Phenomena: case
+hatsi-ku-ø namunitu itukwa-ni
+hatsi-ku-ø namunitu itukwa-ni
+have-APPL.3-IMPRTV2 few salt-OBJ
+Intended: 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
+
+#36
+Source: modified 2023 Chamoreau (ex. 50)
+Vetted: s
+Judgement: u
+Phenomena: adverbial clausal modifiers
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
+go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST 1/2IND
+They went because they were eating
+
+#37
+Source: modified 2023 Chamoreau (ex. 50)
+Vetted: s
+Judgement: u
+Phenomena: adverbial clausal modifiers
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-e
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-e
+go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST VOC
+They went because they were eating
+
+#38
+Source: modified 2023 Chamoreau (ex. 50)
+Vetted: s
+Judgement: u
+Phenomena: adverbial clausal modifiers
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ti
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ti
+go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST FORM
+They went because they were eating
+
+#39
+Source: modified 2023 Chamoreau (ex. 50)
+Vetted: s
+Judgement: g
+Phenomena: adverbial clausal modifiers
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
+go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST SBJNC
+They went because they were eating
+
+#40
+Source: modified 2023 Chamoreau (ex. 50)
+Vetted: s
+Judgement: u
+Phenomena: adverbial clausal modifiers
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p
+go ITER AOR PAST 3.IND INSTR =3PL eat OBJ exist PAST
+They went because they were eating
+
+#41
+Source: The Tarascan Language - Foster, pg. 184
+Vetted: s
+Judgement: g
+Phenomena: adverbial clausal modifiers
+hi wera-ka-ni k'uta-rhu puerta-rhu
+hi wera-ka-ni k'uta-rhu puerta-rhu
+1SG goout-1/2IND-OBJ house-LOC door-LOC
+I go out of the house by the door
+
+#42
+Source: The Tarascan Language - Foster, pg. 184
+Vetted: s
+Judgement: g
+Phenomena: adverbial clausal modifiers
+jima ni-e-nt'a-ni=kxï menteru
+jima ni-e-nt'a-ni=kxï menteru
+there go-VOC-ITER-OBJ=3PL again
+There we arrived again at the house.
+
+
+#43
+Source: The Tarascan Language - Foster, pg. 183
+Vetted: s
+Judgement: g
+Phenomena: adverbial clausal modifiers
+ni-a-ka=kxï jurhia-kwa
+ni-a-ka=kxï jurhia-kwa
+go-FUT1/2IND=3PL dawn-NMLZR
+Let's go by day.
+
+#44
+Source: The Tarascan Language - Foster, pg. 184
+Vetted: s
+Judgement: g
+Phenomena: adverbial clausal modifiers
+hi ka=na-s-ka-ni oktubre-mpu
+hi ka=na-s-ka-ni oktubre-mpu
+1SG and=evidential-AOR-1/2IND-OBJ October-INSTR
+I was born in October. (shortened)
+
+#45
+Source: The Tarascan Language - Foster, pg. 184
+Vetted: s
+Judgement: g
+Phenomena: relative clauses
+t'u=ri t'u-nki=ri
+t'u=ri t'u-nki=ri
+2SG =2SG 2SG SUB =2SG
+You're the one (you are that you)
+
+#46
+Source: ref 411 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: relative clauses
+hinte =e-sï-ti hinte=ki
+hinte=e-sï-ti hinte=ki
+3SG =be AOR 3.IND 3SG =RELT
+that one is the one (that)
+
+#47
+Source: The Tarascan Language - Foster, pg. 78
+Vetted: s
+Judgement: g
+Phenomena: relative clauses
+ji-ni=ksï ni=e-nt'a-ni ta-rhu ji-ni-nki=ksï hu-tsa ni-e-ra-p-ka
+ji-ni=ksï ni=e-nt'a-ni ta-rhu ji-ni-nki=ksï hu-tsa ni-e-ra-p-ka
+1SG OBJ bothofthem go =be ITER OBJ home LOC 1SG OBJ SUB bothofthem come quickly go VOC VAL PAST 1/2IND
+We arrived at the house where we had arrived at before
+
+#48
+Source: ref 3579 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: relative clauses
+iʃe-ʃa-ø-ka=kini inki tʰu tʰiri-ø-ka
+eʃe-ʃa-ø-ka=kini inki tʰu tʰire-ø-ka
+see PROG PRES 1/2IND =2SG.OBJ REL 2SG eat PRES SBJNC
+I am looking at you eating.
+
+#49
+Source: ref 3502 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: relative clauses
+ima-nki hini hu-tʃi mimi-i-ʃ-ti
+ima-nki hini hu-tʃi mimi-i-sï-ti
+DEM.SG SUB there 1SG APP.1/2 brother PRED AOR 3.IND
+'The one that is there is my brother' / 'Aquel que esta alla es mi hermano'
+
+#50
+Source: ref 4868 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: relative clauses
+jimajkani ju-ua-ka t'u-nki-ni pi-nt'a-ni
+jimajkani ju-a-ka t'u-nki-ni pi-nt'a-ni
+then come FUT SBJNC 2SG SUB OBJ take ITER INF
+I will come to take you then
+
+#51
+Source: ref 6038 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: complement clauses
+ueka-pirin-ka-ni esika churi-pirin-ka ia
+ueka-pirin-ka-ni exki churi-pirin-ka ia
+want COND 1/2IND OBJ SUBORD dusk COND SBJNC already
+I would want that it would become night already
+
+#52
+Source: ref 1619 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: complement clauses
+a-rhi-sï-ti esika jurajku-pirin-ka uakasï-ni
+a-rhi-sï-ti exki jurhaku-pirin-ka uakasï-ni
+say MID AOR 3.IND SUBORD leave COND SBJNC ox OBJ
+said to him that he would leave the ox
+
+#53
+Source: ref 3805 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: complement clauses
+burru isï u-s-ti esika na
+burru isï u-s-ti exki na
+donkey likethis do AOR 3.IND SUBORD how
+The poor donkey, did everything as he planned
+
+#54
+Source: ref 5994 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: complement clauses
+kuirhipu-echa enka=ksï exe-p-ka a-rhi-sïren-p-ti=ksï
+k'uiripu-echa enka=kxï exe-p-ka a-rhi-sïren-p-ti=kxï
+people PL SUBORD =3PL see PAST SBJNC say MID HAB.PST PAST 3.IND =3PL
+the people who saw him used to say

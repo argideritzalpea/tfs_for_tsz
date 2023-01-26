@@ -1,0 +1,4530 @@
+Source: ref -1 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni jimpo ma burru t'ire-xa-p-ti ue-ra-ni=isï ka jima=k'u e-s-ti ma juatsï-ni enka ni-ni ja-p-ka anta-rhi-rha-ni
+meni jimpo ma burru t'ire-xa-p-ti ue-ra-ni isï ka jima=k'u e-sï-ti ma jiuatsï-ni enka ni-ni ja-p-ka anta-rhi-rha-ni
+one.time INSTR one donkey eat PROG PAST 3.IND sad CAUS INF =APPROX and there =only see AOR 3.IND one coyote INF SUBORD go INF exist PAST SBJNC approach LOC.body APPL OBJ
+Once upon a time, a donkey was eating aroound the town outskirts, and there he saw a wolf that was approaching him.
+
+
+Source: ref 1 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo unta-sï-ti reŋgéreŋgétskani-tska-ni
+isï jimpo unta-sï-ti reŋgéreŋgétskani-tska-ni
+APPROX INSTR begin AOR 3.IND NONE LOC.buttocks INF
+so the donkey started to limp
+
+
+Source: ref 6147 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka jinteni iki-ta-sïren-p-ti jimpo-ka=rini arachaku-p-ka
+ka jinteni iki-ta-sïren-p-ti jimpo-ka=rini arachaku-p-ka
+and 1SG.OBJ bad CAUS HAB.PST PAST 3.IND INSTR 1/2IND =1SG.OBJ jump.over PAST 1/2IND
+and they made me mad because they jumped over me
+
+
+Source: ref 10 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka mero enka ima jiuatsï isï sesi ka-ni ja-p-ka burru ma repenti-tku tarha-ra-s-ti ka tsimani jantsiri jimpo t'aua-rhi-nha-s-ti jiuatsï-ni ka asta jini k'uani-ku-ni mentku pere-tsi-pa-nt'a-ni anta-tse-ra-ni no sesi ku-j-ta-ku-nt'a-ni
+ka mero enka ima jiuatsï isï sesi ka-ni ja-p-ka burru ma repenti-tku tarha-ra-sï-ti ka tsimani jantsiri jimpo t'aua-rhi-nhka-sï-ti jiuatsï-ni ka asta jini k'uani-ku-ni mentku pere-tsi-pa-nt'a-ni anta-tse-ra-ni no sesi ku-sï-ta-ku-nt'a-ni
+and very SUBORD DEM.SG coyote likethis good treat OBJ exist PAST SBJNC donkey one suddenly INTSFR lift CAUS AOR 3.IND and two leg INSTR step LOC.body PASS AOR 3.IND coyote INF and until DEM.SING.ACC throw APPL.3 OBJ suddenly wallow down IMPRTV ITER INF approach down CAUS OBJ no good sound AOR CAUS APPL.3 ITER OBJ
+And when the wolf was being so gentle with him, the donkey suddenly stood up and with its two back legs kicked the wolf that sent him flying, the wolf landed so badly that even when he landed he was still rolling around the grass.
+
+
+Source: ref 20 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo unta-sï-ti konti-kuarhi-ni ka ue-nencha-ni pikuarhe-ra-ni
+isï jimpo unta-sï-ti konti-kuarhe-ni ka ue-ncha-ni pikuarhe-ra-ni
+likethis INSTR begin AOR 3.IND grieve RFLX INF and sad want INF feel CAUS INF
+And for this reason he started to feel sad for himself and he felt like he wanted to cry
+
+
+Source: ref 21 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni jimpo enka no nani pa-nha-p-ka burru unta-sï-ti e-tsi-ni ka pori ultimu isï uanta-s-ti jandiajku-tu
+meni jimpo enka no nani pa-nhka-p-ka burru unta-sï-ti e-tsi-ni ka pori ultimu isï uanta-sï-ti jandiajku-tu
+one.time INSTR SUBORD no where take PASS PAST SBJNC donkey begin AOR 3.IND sight down INF and for last likethis say AOR 3.IND alone DIM
+One day when the owner didn’t take out the donkey, he began to think and lastly said to himself:
+
+
+Source: ref 4124 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-nhka=isï axa-nhka-p-ti para-sïn-ti k'amukua-ni ka mentku-na jantiaku pire-kuarhi-pa-ri-ni ni-xa-ti-nhka
+jimpo-nhka isï axa-nhka-p-ti para-sïn-ti k'amukua-ni ka mentku-na jandiajku pire-kuarhe-pa-ri-ni ni-xa-ti-nhka
+INSTR PASS =APPROX send PASS PAST 3.IND NONE HAB 3.IND pitcher OBJ and always LOC.interior alone sing RFLX CONT PAST OBJ go PROG 3.IND PASS
+That is why she had to go get water apoku took her cantaro,and she always went alone and always sang to herself
+
+
+Source: ref 4125 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka enka nitama-s-p-ti ma jurhia-ti-kua enka=na ju-nkua-ni ja-p-j-kaia itsï jinkoni xana-rhu jimpo e-xe-s-p-ti=na ma kuini-tu-ni mentku=na sesesisesi kuaka-ri-ni pire-kuarhi-ni ja-ni ka uarata-kurhi-nt'a-ni=na mentku=na itsï k'uani-a-s-ka=isï
+ka enka nitama-sï-p-ti ma jurhia-ti-kua enka=na ju-nkua-ni ja-p-sï-ka ia itsï jinkoni xana-rhu jimpo e-xe-sï-p-ti=na ma kuini-tu-ni mentku=na sesesi sesi kuaka-ri-ni pire-kuarhe-ni ja-ni ka uarata-kuarhe-nt'a-ni=na mentku=na itsï k'uani-a-sï-ka isï
+and SUBORD pass AOR PAST 3.IND one dawn 3.IND NMLZR SUBORD =evidential come CENTR OBJ exist PAST AOR 1/2IND already water POSTP walk LOC INSTR see FORM AOR PAST 3.IND =evidential one bird DIM OBJ suddenly =evidential NONE good get.wet PAST OBJ sing RFLX OBJ exist INF and shake RFLX ITER OBJ =evidential suddenly =evidential water throw CNTR AOR 1/2IND =APPROX
+And when one day passed by  when  Kacha’cha was coming back with the water,  in the road she saw a little bird that was all wet, singing to himseld, and shaking off  the water that splashed everywhere.
+
+
+Source: ref 29 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimajkani dueni-mpa ka p'orempi-ri-cha ata-s-ti=ksï chk'ari jimpo no sesi makúranhksï=ksï jimpo-ka isï no sesi niátaspka-s-p-ka
+jimajkani duenu-mpa ka p'orempi-ri-cha ata-sï-ti=kxï chk'ari jimpo no sesi makúranhksï=kxï jimpo-ka isï no sesi niátaspka-sï-p-ka
+then owner 3.POSS and visit PAST visitors kill AOR 3.IND =3PL wood INSTR no good NONE =3PL INSTR 1/2IND likethis no good NONE AOR PAST 1/2IND
+Then the owner and the visitor hit him really bad with wood because he did bad niataspka
+
+
+Source: ref 30 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo no u-sï-ti sesi paka-ni para anta-kuarhi-ni sesi e-xe-ncha-kua ka puti-mu-kua ampe esika ima na ueka-ni jamaenka
+isï jimpo no u-sï-ti sesi paka-ni para anta-kuarhe-ni sesi e-xe-ncha-kua ka puti-mu-kua ampe exki ima na ueka-ni jama enka
+likethis INSTR no do AOR 3.IND good remain INF for win RFLX OBJ good sight FORM want NMLZR and kiss LOC.mouth NMLZR something SUBORD DEM.SG how want OBJ bearound SUBORD
+And for this the donkey couldn’t give a good impression, and win the desire to be seen again, or kisses like he wanted
+
+
+Source: ref 33 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jeiaki sapi sontku tsiti-s-ti ni-ra-ni p'orempi-ni esika ima na a-rhi-p-ka jimpo-ka mi-s-p-ka sani xarhia-ni
+jayáki sapi sontku tsiti-sï-ti ni-ra-ni p'orempi-ni exki ima na a-rhi-p-ka jimpo-ka mi-sï-p-ka sani xarhi-ni
+mouse little quick like AOR 3.IND go FORM INF visit OBJ SUBORD DEM.SG how say LOC.body PAST SBJNC INSTR 1/2IND know AOR PAST 1/2IND bit swim INF
+The little mouse quickly liked the idea of visiting as the frog told him because he knew a little how to swim
+
+
+Source: ref 4131 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka jima isijimpo=na ionta-ni nia-nt'a-ni
+ka jima isï jimpo=na ionta-ni nya-nt'a-ni
+and there APPROX INSTR =evidential be.late OBJ arrive ITER INF
+and that's why she was going back to her house late
+
+
+Source: ref 36 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kuanasï a-rhi-sï-ti jimajkani uetarhi-a-ti esika=ksï jo-ntu-a-ka ma chiti jantsiri juchiti jantsiri-ni jinkoni ma p'atsimu jimpo para=kini u-ni jarhoa-ta-ni
+kuanasï a-rhi-sï-ti jimajkani uetarhi-a-ti exki=kxï jo-ntu-a-ka ma chiti jantsiri jucheeti jantsiri-ni jinkoni ma p'atsimu jimpo para=kini u-ni jarhoa-ta-ni
+frog AUX LOC.body AOR 3.IND then need FUT 3.IND SUBORD =3PL tie LOC.foot CNTR SBJNC one 2SG.POSS leg 1SG.GEN leg OBJ POSTP one tule INSTR for =2SG.OBJ can INF help CAUS OBJ
+The frog told him: Of course, but we need to tie together your leg and my leg with a tule so I can help you
+
+
+Source: ref 4134 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ioni jimpo=na e-xe-s-p-ti nanienka jikua-tsï-ka ima kuini-tu
+ka yoni jimpo=na e-xe-sï-p-ti nani enka jikua-tsï-ka ima kuini-tu
+and long.time INSTR =evidential sight FORM AOR PAST 3.IND where SUBORD shower MID SBJNC DEM.SG bird DIM
+After a long time she finally saw where the little bird showered.
+
+
+Source: ref 6183 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ma=teru jimpo churi-kua ma=teru amu jinkoni para anhatapu-ni ka ima anhatapu enka sani=teru sani=teru esika na ima
+ka ma=teru jimpo churi-kua ma=teru amu jinkonikua para anhatapu-ni ka ima anhatapu enka sani=teru sani=teru exki na ima
+and one =more INSTR dusk NMLZR one =more owner relative for fir OBJ and DEM.SG fir SUBORD bit =more bit =more SUBORD how DEM.SG
+
+
+
+Source: ref 40 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+unta-xa-p-ti kuanasï kuera-ntu-ta-ni p'atsimu enka jimpo jo-ntu-p-ka
+unta-xa-p-ti kuanasï kuera-ntu-ta-ni p'atsimu enka jimpo jo-ntu-p-ka
+begin PROG PAST 3.IND frog untie LOC.foot CAUS INF tule SUBORD INSTR tie LOC.foot PAST SBJNC
+the frog was starting to untie the tule that he tied with his foot.
+
+
+Source: ref 4138 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mentku=na isï a-ni pire-ni jimpo-ka=na no=teru ni-pirin-niia xani iauani nia itsï p'ita-ni
+mentku=na isï a-ni pire-ni jimpo-ka=na no=teru ni-pirin-ni ia xani iauani nya itsï p'ita-ni
+suddenly =evidential likethis say OBJ sing INF INSTR 1/2IND =evidential no =more go COND OBJ already alot far arrive water extract INF
+The bird was singing because Maria would not have to go far to get the water anymore
+
+
+Source: ref 43 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo tsapki ma=terku pi-ma-s-ti kurucha ka k'uiripita para t'ire-ni
+isï jimpo tsapki ma=terku pi-ma-sï-ti kurucha ka k'uiripeta para t'ire-ni
+likethis INSTR hawk one =only take one AOR 3.IND fish and meat for eat INF
+And just like that, the hawk captured fish and meat to eat
+
+
+Source: ref 6188 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma=teru churi-kua jimpo sani=teru uane-kua niara-nha-s-p-ti ia ka jimpo ma=teru tsimani joperu ts'ïma-ni no ima jimpo-ka komu
+ma=teru churi-kua jimpo sani=teru uane-kua niara-nhka-sï-p-ti ia ka jimpo ma=teru tsimani pero ts'ïma-ni no ima jimpo-ka komu
+one =more dusk NMLZR INSTR bit =more many NMLZR arrivethere PASS AOR PAST 3.IND already and INSTR one =more two but 3PL OBJ no DEM.SG INSTR 1/2IND poor
+
+
+
+Source: ref 45 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma jeiaki enka ma siuda-rhu ireka-p-ka ni-s-ti meni jimpo sani ima-eri primu-mpa-ni p'orempi-ni
+ma jayáki enka ma siuda-rhu ireka-p-ka ni-sï-ti meni jimpo sani ima-eri primu-mpa-ni p'orempi-ni
+one mouse SUBORD one city LOC reside PAST 1/2IND go AOR 3.IND one.time INSTR bit DEM.SG GEN cousin 3.POSS OBJ visit OBJ
+Once upon a time there was a mouse who lived in the city that went to visit his cousin
+
+
+Source: ref 6191 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima churi-kua jimpo enka-ni xani sesi joperu jienka-ni no enka-ni xani
+ima churi-kua jimpo enka-ni xani sesi pero ji enka-ni no enka-ni xani
+DEM.SG dusk NMLZR INSTR SUBORD OBJ that good but 1SG SUBORD OBJ no SUBORD OBJ that
+
+
+
+Source: ref 49 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima jeiaki siuda-rhu anapu saniisï t'ire-s-ti nomasi para no xani k'arhi-ni ja-ni tatsikua jimpo-ka no sani jeiápanhintaska-s-ka ima-ni t'ire-kua-ni xani pobri
+ima jayáki siuda-rhu anapu sani isï t'ire-sï-ti no masi para no xani k'arhi-ni ja-ni tatsekua jimpo-ka no sani jeiápanhintaska-sï-ka ima-ni t'ire-kua-ni xani pobri
+DEM.SG mouse city LOC origin bit APPROX eat AOR 3.IND no more for no that dry.up INF exist INF after INSTR 1/2IND no bit NONE AOR 1/2IND DEM.SG INF eat NMLZR OBJ that poor
+The City Mouse ate just a little bit to avoid feeling too hungry later, because that humble meal was not good enough for him
+
+
+Source: ref 4147 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ixu-nhka pitara-ni=ia jimpo-ka-nhka kani-kua sesi jasïspti-s-p-ti
+ixu-nhka pitara-ni=a jimpo-ka-nhka kani-kua sesi jasïspti-sï-p-ti
+here PASS correspond OBJ =already INSTR 1/2IND PASS much NMLZR good NONE AOR PAST 3.IND
+Here it correspondated to Kacha'hania because she was really beautiful
+
+
+Source: ref 6201 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo ma achati-echa jima
+jimpo ma achati-echa jima
+INSTR one man PL there
+
+
+
+Source: ref 4154 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo=ksïima k'uiripu-echa Parhachu tamapu anapu-echa xu ju-nha-p-ti motsi-nt'a-ni itsï jimpo
+jimpo=kxï ima k'uiripu-echa paracho tamapu anapu-echa xu ju-nhka-p-ti motsi-nt'a-ni itsï jimpo
+INSTR =3PL DEM.SG people PL Paracho old origin PL green come PASS PAST 3.IND changelocation ITER INF water INSTR
+This is why people from old Paracho came to move here because of the water
+
+
+Source: ref 4156 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni jimpo ma siegu kuarhatsi-s-p-ti ka itsï-a-rhu ichákuamerani-ra-ni ka mentku ma-mi-ra-ni atsïmu-rhu
+meni jimpo ma siegu kuarhatsi-sï-p-ti ka itsï-a-rhu ichákuamerani-ra-ni ka mentku ma-mi-ra-ni atsïmu-rhu
+one.time INSTR one blind fall AOR PAST 3.IND and water CNTR LOC NONE CAUS OBJ and always glue LIQ CAUS OBJ mud LOC
+Once upon a time a blind man fell into the water and he icha got stuck in the mud
+
+
+Source: ref 61 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pero agustu a-sïn-ka ka no esika ixu enka ambákiti ampe ja-ka ka no u-ni agustu t'ire-ni jimpo-ka xani peligru ja-s-ka
+pero agustu a-sïn-ka ka no exki ixu enka ambákiti ampe ja-ka ka no u-ni agustu t'ire-ni jimpo-ka xani peligru ja-sï-ka
+but comfortable eat HAB 1/2IND and no SUBORD here SUBORD bueno something exist 1/2IND and no can INF comfortable eat INF INSTR 1/2IND that danger exist AOR 1/2IND
+And I eat in peace and not like here where there are a lot of delicious things but no peace to eat because it’s too dangerous
+
+
+Source: ref 4160 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji=kini no u-a-ka jarhoa-ta-ni jimpo-ka-ni ji koju=e-s-ka
+ji=kini no u-a-ka jarhoa-ta-ni jimpo-ka-ni ji koju=e-sï-ka
+1SG =2SG.OBJ no do FUT 1/2IND help CAUS INF INSTR FORM OBJ 1SG lame =be AOR 1/2IND
+I won’t be able to help you because I’m lame
+
+
+Source: ref 69 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo=ksï uanikua k'uirhipu-echa jatsi-sï-ti parhí tamuisï nira-ni ka uanikua=ksï ixu jura-sïn-ti
+jimpo=kxï uanikua k'uiripu-echa jatsi-sï-ti para tamu isï nira-ni ka uanikua=kxï ixu jura-sïn-ti
+INSTR =3PL many people PL have AOR 3.IND for otherplace APPROX go INF and many =3PL here come HAB 3.IND
+States
+
+
+Source: ref 70 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jini kumichu ampe ja-ki uanikua anchi-kuarhi-kua jimpo=ksï uanikua ixu jura-sïn-ti
+jini kumichu ampe ja-ki uanikua anchi-kuarhe-kua jimpo=kxï uanikua ixu jura-sïn-ti
+there Ocumicho NEG exist IRR many work MID NMLZR INSTR =3PL many here come HAB 3.IND
+States
+
+
+Source: ref 4167 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo kuiparha-s-ti siegu koju-ni ka jimajkani ueratini u-s-ti=ksï ni-ni iapuru=isï
+isï jimpo kuiparha-sï-ti siegu koju-ni ka jimajkani ueratini u-sï-ti=kxï ni-ni iapuru isï
+APPROX INSTR carry.with.back AOR 3.IND blind lame OBJ and then since do AOR 3.IND =3PL go INF anywhere =APPROX
+And the blind man carried the crippled on his back and since then they were able to go everywhere
+
+
+Source: ref 6213 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni utasï jama-sïren-p-ti ka u-ni jimpo
+ima-ni utaxï jama-sïren-p-ti ka u-ni jimpo
+DEM.SG OBJ still bearound HAB.PST PAST 3.IND and do INF INSTR
+
+
+
+Source: ref 6214 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jima tataka sapi-rha-ti-echa enka jimpo uarha-nha-ni ja-p-ka anhatapu-ni uiripata-ni
+jima tataka sapi-rha-ti-echa enka jimpo uarha-nhka-ni ja-p-ka anhatapu-ni wiripata-ni
+there boy little APPL 3.IND PL SUBORD INSTR dance PASS OBJ exist PAST SBJNC fir OBJ around OBJ
+
+
+
+Source: ref 74 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka enka=ni jucha eskuelaru-rhu nira ima=ts'ïni jimpo intsïku-sïren-ti=ts'ïni clasechani-echa-ni
+ka enka=ni jucha eskuelaru-rhu nira ima=ts'ïni jimpo intsku-sïren-ti=ts'ïni clasechani-echa-ni
+and SUBORD =1SG.SBJ 1PL NONE LOC go DEM.SG =1PL.OBJ INSTR give HAB.PST 3.IND =1PL.OBJ NONE PL OBJ
+class
+
+
+Source: ref 75 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eskuela ampe jatsi-p kanikua jimpo jucha pizarrunichani-echa-ni
+eskuela ampe jatsi-p kanikua jimpo jucha pizarrunichani-echa-ni
+school NEG have PAST much INSTR 1PL NONE PL OBJ
+pizzarron
+
+
+Source: ref 6216 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+era je ampe-sï-ni a i jimpo anhatapu ka xasï
+ira je ampe-sï-ni a i jimpo anhatapu ka xasï
+look.distance IMPRTV something AOR OBJ AUX DEM.SG INSTR fir and type
+
+
+
+Source: ref 6217 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï arhi-s-p-ti axantikua-echa-rhu ka jimpo
+isï arhi-sï-p-ti axantikua-echa-rhu ka jimpo
+APPROX say AOR PAST 3.IND branch PL LOC and INSTR
+
+
+
+Source: ref 6219 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka jini enka xani jimpo ka enka xani sesi uanta-nt's-kua
+enka jini enka xani jimpo ka enka xani sesi uanta-nt'a-kua
+SUBORD there SUBORD that INSTR and SUBORD that good speak ITER NMLZR
+
+
+
+Source: ref 79 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sapichu ma=e-sï-p-ti jimpo-ka ireta sapichu-sï-p-ti
+sapi ma=e-sï-p-ti jimpo-ka ireta sapi-sï-p-ti
+little one =be AOR PAST 3.IND INSTR 1/2IND town small AOR PAST 3.IND
+small
+
+
+Source: ref 80 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampe=ksï xani uani k'uiripu ja-ki parhí eskuela nira-ni jimpo=ksï jucha ma-echa-kua=hku-ni maestru kama-sïren-ka
+ampe=kxï xani uan- k'uiripu ja-ki para eskuela nira-ni jimpo=kxï jucha ma-echa-kua=k'u-ni maestru kama-sïren-ka
+NEG =3PL that many people exist IRR for school go INF INSTR =3PL 1PL one PL NMLZR =only OBJ teacher have HAB.PST 1/2IND
+have
+
+
+Source: ref 6224 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anhatapu uina-ni ka mentku isï eni jimpo=sï tataka sapi-rha-ti-echa para exe-ni a-rhi-sïren-p-ti=ksï
+anhatapu uina-ni ka mentku isï eni jimpo=sï tataka sapi-rha-ti-echa para exe-ni a-rhi-sïren-p-ti=kxï
+fir strong OBJ and always APPROX be INSTR =FOC boy little APPL 3.IND PL for see INF say MID HAB.PST PAST 3.IND =3PL
+
+
+
+Source: ref 6225 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+joperu enka enka enka ima anhatapu ma ementa jimpo o inviernu jimpo auanta-rhu ketsi-kua enka uane-kua ka ka ima-ni=k'u-sï uanta-nt's-kua-ni ka ima-ni enka
+pero enka enka enka ima anhatapu ma ementa jimpo o inviernu jimpo auanta-rhu ketsi-kua enka uane-kua ka ka ima-ni=k'u-sï uanta-nt'a-kua-ni ka ima-ni enka
+but SUBORD SUBORD SUBORD DEM.SG fir one rain.season INSTR or winter INSTR sky LOC descend NMLZR SUBORD many NMLZR and and DEM.SG OBJ =only AOR speak ITER NMLZR OBJ and DEM.SG OBJ SUBORD
+
+
+
+Source: ref 91 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=ksï ima ampe juren-ta-ki
+jimpo-ka=kxï ima ampe juren-ta-ki
+INSTR SBJNC =3PL DEM.SG something know CAUS IRR
+teach
+
+
+Source: ref 93 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo=sï=ksï ima=k'u=ksï=sï uanta-ti k'uiripu-echa enka=ksï jini anápue-ka enka=ksï jini naceri-p-ka
+jimpo=sï=kxï ima=k'u=kxï=sï uanta-ti k'uiripu-echa enka=kxï jini anápue-ka enka=kxï jini naceri-p-ka
+INSTR =FOC =3PL DEM.SG =only =3PL =FOC speak 3.IND people PL SUBORD =3PL there origin SBJNC SUBORD =3PL there born PAST 1/2IND
+born
+
+
+Source: ref 4190 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+maría katʃʰú-ku-tʃi-sï-ti=rini tʃukʰáɽi-ni -ni himpó
+Maria katʃʰu-ku-tʃi-sï-ti=rini tʃukʰáɽi-ni hátʃa-ni himpo
+Maria cut APPL.3 APP.1/2 AOR 3.IND =1SG.OBJ wood OBJ axe OBJ INSTR
+/María me trozó el palo con la hacha.
+
+
+Source: ref 95 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji=kxïni aianku-xa-p-ka eska jima jucheeri ireta-rhu kumichu ampe ja-ki anchi-kuarhi-kua jimpo=ksï uani jatsi-sï-ti para tamuisï nira-ni anchi-kua jiringa-ni
+ji=kxïni aianku-xa-p-ka eska jima juchaeri ireta-rhu kumichu ampe ja-ki anchi-kuarhe-kua jimpo=kxï uan- jatsi-sï-ti para tamu isï nira-ni anchi-kua jirinka-ni
+1SG =2PL.OBJ inform PROG PAST 1/2IND sight there 1PL.GEN town LOC Ocumicho NEG exist IRR work MID NMLZR INSTR =3PL many have AOR 3.IND for otherplace APPROX go INF work NMLZR lookfor INF
+look for
+
+
+Source: ref 6240 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima jimani nira-s-p-ti jini ireka-ni juata ma jimpo
+ka ima jimani nira-sï-p-ti jini ireka-ni juuata  ma jimpo
+and DEM.SG then go AOR PAST 3.IND there reside INF mount one INSTR
+And then he went to live in a mount
+
+
+Source: ref 101 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo=ksï ima jatsi-sï-ti para tamuisï nira-ni jiringa-ni anchi-kuarhi-kua
+jimpo=kxï ima jatsi-sï-ti para tamu isï nira-ni jirinka-ni anchi-kuarhe-kua
+INSTR =3PL DEM.SG have AOR 3.IND for otherplace APPROX go INF lookfor INF work MID NMLZR
+work
+
+
+Source: ref 105 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+peru ima enka ima gobiernu firmari-ka jucha ampe=te-ni u-ki atárantani-ta-ni jimpo-ka ima incha-ra-ka Estados Unidu uera-ti-ni komo tiriapu-ni ampe enka no xani jukapara-ka
+pero ima enka ima gobiernu firmari-ka jucha ampe=te-ni u-ki atárantani-ta-ni jimpo-ka ima incha-ra-ka Estados Unidu uera-ti-ni komo tiriapu-ni ampe enka no xani jukapara-ka
+but DEM.SG SUBORD DEM.SG government sign SBJNC 1PL NEG =already INF do IRR NONE CAUS INF INSTR 1/2IND DEM.SG enter CAUS 1/2IND united.states goout LOC.top INF como corn.cob OBJ something SUBORD no that expensive 1/2IND
+expensive
+
+
+Source: ref 106 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=ksï k'uiripu-echa tamuisï anapu ima=ksï masi u-sïn-ti=ksï ima Estados Unidu anapu tiriapu-ni pia-ni ka juchaeri tiriapu ima=ksï ampe=teru piá-ki ka jimpo=ksï ima-tu ampe=teru xani sesi pa=ksï imáni-ni dependeri-ni ja-tsi-ni
+ima=kxï k'uiripu-echa tamu isï anapu ima=kxï masi u-sïn-ti=kxï ima Estados Unidu anapu tiriapu-ni piá-ni ka juchaeri tiriapu ima=kxï ampe=teru piá-ki ka jimpo=kxï ima-tu ampe=teru xani sesi para=kxï imáni-ni dependeri-ni ja-tsi-ni
+DEM.SG =3PL people PL otherplace APPROX origin DEM.SG =3PL more do HAB 3.IND =3PL DEM.SG united.states origin corn.cob OBJ buy INF and 1PL.GEN corn.cob DEM.SG =3PL NEG =still buy IRR and INSTR =3PL DEM.SG DIM NEG =still that good for =3PL NONE INF depend OBJ exist FORM INF
+exist
+
+
+Source: ref 2154 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ha-ra-h-ni-ue ʃko ari-pʰe-pa wanta=tsʰï-ku-pʰe=ni himpo-ki tʃeni teka-nti-ŋka-ka
+ha-ra-sï-ni-we ʃko aɽi-pʰe-pa wanta=tsʰï-ku-pʰe=ni himpo-ki tʃeeni tekaa-nti-ŋka-ka
+exist FORM AOR INF 3.IMPRTV PRHB say ANTIPASS IMPRTV speak =2PL APPL.3 ANTIPASS =1SG.SBJ INSTR IRR how hard LOC.ear PASS SBJNC
+It is enough, I will not preach anymore because they are all hardened.
+
+
+Source: ref 119 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka-ni
+jimpo-ka-ni
+INSTR FORM OBJ
+INSTR
+
+
+Source: ref 6264 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji jinte-s-ka xumu maenka jama-ka ixu=sï ari-ni juata-ni jimpo
+ji jinte-sï-ka xumu ma enka jama-ka ixu=sï arhi-ni juuata -ni jimpo
+1SG DEM.SG AOR 1/2IND fog one SUBORD bearound 1/2IND here =FOC this OBJ mount OBJ INSTR
+I am the fog that is around here in this mount
+
+
+Source: ref 120 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucheni kasi=tsïni no uanta-pa-sïren-ti p'urhe jimpo
+jucheni kasi=kxïni no uanta-pa-sïren-ti p'urhe jimpo
+my.house almost =2PL.OBJ no speak CONT HAB.PST 3.IND P'urhepecha INSTR
+At home almost no one was speaking in P'urhepecha to me
+
+
+Source: ref 121 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kasi=tsïni puro turhi jimpo uanta-pa-sïren-ti
+kasi=kxïni puru turhi jimpo uanta-pa-sïren-ti
+almost =2PL.OBJ pure no.purhepecha INSTR speak CONT HAB.PST 3.IND
+Almost everyone was speaking Spanish with me
+
+
+Source: ref 124 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo
+isï jimpo
+APPROX INSTR
+Because
+
+
+Source: ref 6271 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima uatsï isï arhi-s-p-ti inchataru-kua-rhu jimpo
+ka ima uatsï isï arhi-sï-p-ti inchataru-kua-rhu jimpo
+and DEM.SG youngperson APPROX say AOR PAST 3.IND afternoon NMLZR LOC INSTR
+and the young lady told him in the afternoon
+
+
+Source: ref 129 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji saniisï jurhen-kuarhi-sï-ka p'urhe jimpo-ka
+ji sani isï juren-kuarhe-sï-ka p'urhe jimpo-ka
+1SG bit APPROX know RFLX AOR 1/2IND P'urhepecha INSTR 1/2IND
+I know a little P'urhe because
+
+
+Source: ref 130 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka-ni juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
+jimpo-ka-ni juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
+INSTR FORM OBJ 1PL.GEN mom elderly OBJ POSTP speak 1/2IND P'urhepecha
+Because I spoke P'urhe with my grandmother
+
+
+Source: ref 131 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo enka ima no uanta-ka turhi
+isï jimpo enka ima no uanta-ka turhi
+APPROX INSTR SUBORD DEM.SG no speak SBJNC no.purhepecha
+because she did not speak P'urhe
+
+
+Source: ref 133 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+p'urhe jimpo uanta-pa-ni ima-ni
+p'urhe jimpo uanta-pa-ni ima-ni
+P'urhepecha INSTR speak CONT OBJ DEM.SG OBJ
+Speak P'urhepecha with her
+
+
+Source: ref 134 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï jimpo=sï-ni sani u-ka jurhen-kuarhi-ni
+ka isï jimpo=sï-ni sani u-ka juren-kuarhe-ni
+and APPROX INSTR =FOC INF bit can SBJNC know RFLX INF
+And tha's why I was able to learn some
+
+
+Source: ref 137 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka enka-ni ji ixu motsi-p-ka Estados Unidu
+jimpo-ka enka-ni ji ixu motsi-p-ka Estados Unidu
+INSTR 1/2IND SUBORD OBJ 1SG here changelocation PAST 1/2IND united.states
+Because when I moved here to the United States
+
+
+Source: ref 139 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=chka ima juchaeri hermanu-echa=ksï
+jimpo-ka=chka ima juchaeri hermanu-echa=kxï
+INSTR 1/2IND =then DEM.SG 1PL.GEN broth PL =3PL
+Because my sibiligs
+
+
+Source: ref 140 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+puro inglesi jimpo uanta-sïren-ti
+puru inglesi jimpo uanta-sïren-ti
+pure English INSTR speak HAB.PST 3.IND
+They were only speaking English
+
+
+Source: ref 141 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka jucha-eri mama ka jucha-eri tati ima=ksï puru turhi jimpo uanta-sïren-ti
+ka jucha-eri mama ka jucha-eri tati ima=kxï puru turhi jimpo uanta-sïren-ti
+and 1PL GEN mom and 1PL GEN father DEM.SG =3PL pure no.purhepecha INSTR speak HAB.PST 3.IND
+
+
+
+Source: ref 145 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo
+isï jimpo
+APPROX INSTR
+That's why
+
+
+Source: ref 6291 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima acha-ma-sï unta-sï-ti nira-ni jini ireta-echa-rhu=k'u jimpo isï
+ka ima acha-ma-sï unta-sï-ti nira-ni jini ireta-echa-rhu=k'u jimpo isï
+and DEM.SG man one AOR begin AOR 3.IND go INF there town PL LOC =only INSTR APPROX
+and that man began only to the towns
+
+
+Source: ref 150 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka enka jucha no=teru jurhen-ta-sï-ka
+jimpo-ka enka jucha no=teru juren-ta-sï-ka
+INSTR 1/2IND SUBORD 1PL no =more know CAUS AOR 1/2IND
+Because if we don't teach them anymore
+
+
+Source: ref 154 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha-eri ireta-echa jimpo
+jucha-eri ireta-echa jimpo
+1PL GEN town PL INSTR
+in the towns
+
+
+Source: ref 160 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo ji sani
+isï jimpo ji sani
+APPROX INSTR 1SG bit
+That's why I am
+
+
+Source: ref 6307 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma=teru ireta jimpo uani-kua=na xanini jupi-na-s-p-ti ka ja-s-p-ti=na maia achati maia enka tarhe=e-p-kaia ka uanikua xanini p'iku-nia uani-kua
+ma=teru ireta jimpo uani-kua=na xanini jupi-na-sï-p-ti ka ja-sï-p-ti=na ma ia achati ma ia enka tarhe=e-p-ka ia ka uanikua xanini p'iku-ni a uani-kua
+one =more town INSTR much NMLZR =evidential corncob grab NONE AOR PAST 3.IND have exist AOR PAST 3.IND =evidential one already man one already SUBORD old =be PAST 1/2IND already have many corncob harvest OBJ cutted much NMLZR
+In the other town, they had a lot of corn cob and there was a man that was old and he harvested a lot of the corn cob, a lot
+
+
+Source: ref 167 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha-chi u-a-ka exe-ni jucha-eri Michoacani jimpo
+jucha-chi u-a-ka exe-ni jucha-eri Michoacan jimpo
+1PL APP.1/2 can FUT 1/2IND see INF 1PL GEN Michoacan INSTR
+We can see it in our Michoacan
+
+
+Source: ref 6311 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima uani-kua xanini eraku-nt'a-s-p-ti=ksï=na xanini tere-ri=ia uani-kua xanini tere-ri=ia eraku-nt'a-s-p-ti=ksï=na uankochi-cha jimpo
+ka ima uani-kua xanini eraku-nt'a-sï-p-ti=kxï=na xanini tere-ri=a uani-kua xanini tere-ri=a eraku-nt'a-sï-p-ti=kxï=na uankochi-cha jimpo
+and DEM.SG much NMLZR corncob select ITER AOR PAST 3.IND =3PL =evidential corncob rot PL.OBJ =already much NMLZR corncob rot PL.OBJ =already select ITER AOR PAST 3.IND =3PL =evidential bag bags INSTR
+And they selected a lot of corn cob, the rotten corn cob, a lot of rotten corn cob they selected, with the bags
+
+
+Source: ref 171 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo enka-chi
+isï jimpo enka-chi
+APPROX INSTR SUBORD APP.1/2
+For the reason that
+
+
+Source: ref 175 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka inte kanikua importanti-s-ti pa=ksï
+jimpo-ka inte kanikua importanti-sï-ti para=kxï
+INSTR 1/2IND DEM.SG much important AOR 3.IND for =3PL
+because that's really important
+
+
+Source: ref 6326 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima kauaru jimpo xana-rhu ma parhiku-tini a
+ima kauaru jimpo xana-rhu ma parhiku-tini a
+DEM.SG gully INSTR walk LOC one cross PART AUX
+"in that gully crossing a road"
+
+
+Source: ref 185 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï jimpo jucha jatsi-sï-ka
+ka isï jimpo jucha jatsi-sï-ka
+and APPROX INSTR 1PL have AOR 1/2IND
+and for this reason we have
+
+
+Source: ref 190 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï jimpo
+ka isï jimpo
+and APPROX INSTR
+and that's why
+
+
+Source: ref 6334 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+cha ampe=sï xani pa-ki inte xanchaki-echa-ni jimpo
+cha ampe=sï xani pa-ki inte chencheki-echa-ni jimpo
+2PL something =FOC that take INTER thatone donkey PL OBJ INSTR
+"what are you taking with those donkeys?"
+
+
+Source: ref 6367 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xasï ima achati arhi-s-ti=ia t'u sesi jimpo=sï uanta-ki
+xasï ima achati arhi-sï-ti=a t'u sesi jimpo=sï uanta-ki
+later DEM.SG man say AOR 3.IND =already 2SG good INSTR =FOC speak INTER
+Later that man said: Are you concious of what you are saying?"
+
+
+Source: ref 6368 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jo=chka ji=chka-ni sesi jimpo=sï uanta-ka a
+jo=chka ji=chka-ni sesi jimpo=sï uanta-ka a
+yes =then 1SG =then OBJ good INSTR =FOC speak 1/2IND AUX
+Yes, I am talking with conciousness
+
+
+Source: ref 6370 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima arhi-niia uatsi T'úrini=rini nomas incha-a-ta-a-ka jimaia ireta jimpo ka jima=k'u=rini jurhaku-a-kaia a
+ka ima arhi-ni ia uatsï T'úrini=rini nomas incha-a-ta-a-ka jima ia ireta jimpo ka jima=k'u=rini jurhaku-a-ka ia a
+and DEM.SG say OBJ already youngperson NONE =1SG.OBJ only enter CNTR CAUS FUT 1/2IND there already town INSTR and there =only =1SG.OBJ leave FUT 1/2IND already AUX
+and the young woman said: you will only make me enter in that town and you can just leave me there already
+
+
+Source: ref 6374 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima orheta ima-ni nira-s-p-ti=ia uatsï-ni pa-ni jiniia ireta jimpo ka jima=k'u=na jurhaku-s-p-tia uera-ni incha-a-nt'a-ni
+ka ima orheta ima-ni nira-sï-p-ti=a uatsï-ni pa-ni jini ia ireta jimpo ka jima=k'u=na jurhaku-sï-p-ti a uera-ni incha-a-nt'a-ni
+and DEM.SG first DEM.SG OBJ go AOR PAST 3.IND =already youngperson OBJ take INF there already town INSTR and there =only =evidential leave AOR PAST 3.IND left goout OBJ enter CNTR ITER INF
+and he first went to take the young woman there in the town and he left her just there outside, in the entrance
+
+
+Source: ref 6386 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xasï ima arhi-niia e-xe a eka-ni ji nira-ni ja-p-ka jiniia jima kauaru jimpo pari-nki-ni ke-nki-s-p-kaia ji a
+xasï ima arhi-ni ia e-xe a enka-ni ji nira-ni ja-p-ka jini ia jima kauaru jimpo pari-nki-ni ke-nki-sï-p-ka ia ji a
+later DEM.SG say OBJ already see FORM AUX SUBORD OBJ 1SG go OBJ exist PAST SBJNC there already there gully INSTR tocross SUB INF down SUB AOR PAST 1/2IND already 1SG AUX
+Later he said: "See, when I was going there in the gully to cross, I was going down
+
+
+Source: ref 6398 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xasï=na ima tempa arhi-s-ti=ia o ima ima=e-pia uitsintikua xanchaki-echa jimpo pa-nha-s-ti k'uani-ku-nha-ni
+xasï=na ima tempa arhi-sï-ti=a o ima ima=e-p ia uitsintekua chencheki-echa jimpo pa-nhka-sï-ti k'uani-ku-nhka-ni
+later =evidential DEM.SG wife say AOR 3.IND =already or DEM.SG DEM.SG =be PAST already yesterday donkey PL INSTR take PASS AOR 3.IND throw TRSLOC PASS OBJ
+Later the wife said: "or was that what was being taken be thrown away with the donkeys?
+
+
+Source: ref 6426 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nira-ni=ia kurhankuarhi-ni jini ireta jimpoia ka jima=isï kurhankuarhi-ni=ia no ma ja-s-ki ixu=sï uatsï ma
+nira-ni=a kurhamarhi-ni jini ireta jimpo ia ka jima isï kurhamarhi-ni=a no ma ja-sï-ki ixu=sï uatsï ma
+go OBJ =already ask INF there town INSTR already and there =APPROX ask OBJ =already no one exist AOR IRR here =FOC youngperson one
+He went to ask to the town and he asked: "there is not a young woman around here?"
+
+
+Source: ref 6431 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nia-s-ti=naia p'iku-kua=ia ka ima=t'u achati enka tarhe=e-p-kaia ima uéxurhini jimpo
+nya-sï-ti=na ia p'iku-kua=a ka ima=t'u achati enka tarhe=e-p-ka ia ima uexurini jimpo
+arrive AOR 3.IND =evidential already harvest NONE =already and DEM.SG =also man SUBORD old =be PAST SBJNC already DEM.SG year INSTR
+The harvest arrived and that man who was also old that year
+
+
+Source: ref 6437 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+joperu=na uani xanini jupi-nha-ni=ia ima ireta-ni jimpo
+pero=na uan- xanini jupi-nhka-ni=a ima ireta-ni jimpo
+but =evidential many corncob grab PASS INF =already DEM.SG town OBJ INSTR
+but they grabbed a lot of corn cob in tha town
+
+
+Source: ref 299 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tata himbo =e-sï-ti misa ari-h-ni
+tata himpo=e-sï-ti misa aɽini -sï-ni
+sir INSTR =be AOR 3.IND mass say AOR INF
+The father's job is to say mass
+
+
+Source: ref 300 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tata-ni himbo teruntʃe-ka
+tata-ni himpo teruntʃe-ka
+sir OBJ INSTR destine 1/2IND
+I am destined to serve the father
+
+
+Source: ref 301 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro-nhimbo hasï wanta hinteni himpo
+Pegru-n himpo hasï wanta hinteni himpo
+Pedro LNK INSTR PROHIB speak 1SG.OBJ INSTR
+Do not talk about me on behalf of Pedro.
+
+
+Source: ref 302 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsakapuhimpo atikʰua
+tsakapu himpo atikʰua
+stone INSTR throw.towards
+s/he threw a stone towards him/her
+
+
+Source: ref 6452 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka xani uani-kua k'uani-ku-ni jini pa-ni ima kauaru-ni jimpo a
+ka xani uani-kua k'uani-ku-ni jini pa-ni ima kauaru-ni jimpo a
+and thatmany much NMLZR throw APPL.3 OBJ there take OBJ DEM.SG gully OBJ INSTR AUX
+and he there out so much and took it in that gully
+
+
+Source: ref 6453 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo ima xanini tere-ri uatsï u-kuarhi-nt'a-s-p-ti ka motsi-s-p-ti
+jimpo ima xanini tere-ri uatsï u-kuarhe-nt'a-sï-p-ti ka motsi-sï-p-ti
+INSTR DEM.SG corncob rot PL.OBJ youngperson do RFLX ITER AOR PAST 3.IND and changelocation AOR PAST 3.IND
+that's why those rotten corn cobs became the young woman and moved
+
+
+Source: ref 6455 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo ixu jameri-s-ti i uanta-nt's-kua
+jimpo ixu jamperi-sï-ti i uanta-nt'a-kua
+INSTR here until AOR 3.IND this speak ITER NMLZR
+and this story comes until here
+
+
+Source: ref 6456 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i uanta-nt's-kua ima-echa=sï uanta-nt'a-xa-p-ti achati k'e-rha-ti-echa ioni-ki anapu-echa ka ji ima-echa-ni kurha-x-ka=chka-ni=ia isï uanta-nha-nt'a-ni=ia poki ioni-ki káni jup'iperanhaxaampka-nha-sin-p-ka uanta-nha-nt'a-ni uanta-kuacha jimpo-ni ka ji=t'u-ni jima kurha-x-p-ka ano
+i uanta-nt'a-kua ima-echa=sï uanta-nt'a-xa-p-ti achati k'e-rha-ti-echa yoni-ki anapu-echa ka ji ima-echa-ni kurha-sï-ka=chka-ni=a isï uanta-nhka-nt'a-ni=a porka yoni-ki kani jup'iperanhaxaampka-nhka-sïn-p-ka uanta-nhka-nt'a-ni uanta-kua cha jimpo-ni ka ji=t'u-ni jima kurha-sï-p-ka ano
+this speak ITER NMLZR DEM.SG PL =FOC speak ITER PROG PAST 3.IND man big APPL 3.IND PL long.time IRR origin PL and 1SG DEM.SG PL INF hear AOR 1/2IND =then OBJ =already likethis speak PASS ITER INF =already because long.time IRR very NONE PASS HAB PAST 1/2IND speak PASS ITER OBJ speak NMLZR stories INSTR OBJ and 1SG =also OBJ there request AOR PAST 1/2IND no
+This story was told by the older people from a long time a ago. And I Santiago Naranjo, I heard this story from them because long ago a lot of people jupiperanhaxampka to tell the stories that's why I also heard them, right?
+
+
+Source: ref 322 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro hukama-ku-ha-ti Juano-ni mimi-ʃe-kwa himpo
+Pegru hukama-ku-ʃa-ti Juanu-ni mimi-ʃe-kwa himpo
+Pedro outdo APPL.3 PROG 3.IND Juan OBJ brother FORM NMLZR INSTR
+
+
+
+Source: ref 4425 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka no-nhka k'uiripu komu nitama-pin-ti jimpo-ka iamu ampe u-pin-ka tarhe-xi-ni
+ka no-nhka k'uiripu komu nitama-pirin-ti jimpo-ka iamintu ampe u-pirin-ka tarhe-sï-ni
+and no PASS people poor pass COND 3.IND INSTR 1/2IND all something can COND 1/2IND plow AOR OBJ
+and people would not pass through poorness because everything would be able to be plowed
+
+
+Source: ref 6479 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+k'eri kusta-ti ma Krusi Jakobu Sïuina anapu u-nt'a-sï-ti ampake-ti kus-kua ma enka arhi-na-j-ka Leku-eri anta-kua ka isï jimpo no miri-ku-ta-ni Kasimiru Leku-ni iamindu k'uiripu-echa-ni ts'ïmaenka iasï ju-rha-ni ja-ka
+k'eri kusta-ri ma Krusi Jakobu Sïuina anapu u-nt'a-sï-ti ampake-ti kusta-kua ma enka arhi-na-sï-ka Leku-eri anta-kua ka isï jimpo no miri-ku-ta-ni Kasimiru Leku-ni iamintu k'uiripu-echa-ni ts'ïma enka iaxï ju-rha-ni ja-ka
+big play AGT one Cruz Jacob Sevina origin do ITER AOR 3.IND good 3.IND play NMLZR one SUBORD say PASS AOR 1/2IND leco GEN win NMLZR and APPROX INSTR no forget TRSLOC CAUS INF Casemiro leco OBJ everyone people PL OBJ 3PL SUBORD now come APPL INF exist SBJNC
+A great musician, Cruz Jacobo, from Sevina, wrote a beautiful song named “Leco’s victory” so new generations can’t forget about him.
+
+
+Source: ref 4434 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima-ni jimpo=ksï u-sïren-ti nitama-kuarhi-ni
+ka ima-ni jimpo=kxï u-sïren-ti nitama-kuarhe-ni
+and DEM.SG OBJ INSTR =3PL can HAB.PST 3.IND pass RFLX OBJ
+and with that they used to be able to survive
+
+
+Source: ref 4435 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=ksï maru=teru ireta-echa jinkoni motaku-sïren-ka
+jimpo-ka=kxï maru=teru ireta-echa jinkoni motaku-sïren-ka
+INSTR FORM =3PL some =more town PL POSTP exchange HAB.PST 1/2IND
+because they used to exchange with other towns
+
+
+Source: ref 4436 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka no jarha-sï-p-ti tumina ampe pa=ksï maia-p'i-ra-ni
+jimpo-ka no jarha-sï-p-ti tumina ampe para=kxï mayo-p'i-ra-ni
+INSTR 1/2IND no be AOR PAST 3.IND money something for =3PL pay BEN MED OBJ
+because there was no money to pay each other
+
+
+Source: ref 6488 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka no=teru nira-sïren-ti anchi-kuarhi-ni ka enka nira-ka ioni-echa-ni jimpo nira-sïren-ti
+ka no=teru nira-sïren-ti anchi-kuarhe-ni ka enka nira-ka yoni-echa-ni jimpo nira-sïren-ti
+and no =still go HAB.PST 3.IND work RFLX INF and SUBORD go SBJNC long.time PL OBJ INSTR go HAB.PST 3.IND
+and no more even went to work, and if went he retuned in long time.
+
+
+Source: ref 6489 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo=ksï=isï uap'a-echa ueka-ni ka no ueka-ni nira-n-ti anchi-kuarhi-ni najtuka=ksï ts'ïma sapi-ra-ti-p-ka
+jimpo=kxï isï uap'a-echa ueka-ni ka no ueka-ni nira-n-ti anchi-kuarhe-ni najtuka=kxï ts'ïma sapi-ra-ri-p-ka
+INSTR =3PL =APPROX son PL want OBJ and no want OBJ go LNK 3.IND work RFLX INF even =3PL DEM.PL little CAUS AGT PAST 1/2IND
+That's why the children wanting and not wanting went to work, even if they were little.
+
+
+Source: ref 4443 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo=ksï tan-kua-sïren-ka iapurhu isï anapu ireta-echa
+jimpo=kxï tana-kuarhe-sïren-ka iapurhu isï anapu ireta-echa
+INSTR =3PL collect RFLX HAB.PST FORM everywhere APPROX origin town PL
+That's why people from all the towns used to gather
+
+
+Source: ref 6492 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï=ksï jama-sïren-ti no=na ue-ch'u-ku-ni ini tsipi-kua-ni ixu ini parhakpini jimpo k'ama-ra-ni u-ni ima-echa-eri ts'ejpa-ra-ta esika tata Kuerajpi-ri=ri xani intsi-a-p-ka iamindu mantani ima-echa-ni
+ka isï=kxï jama-sïren-ti no=na ue-ch'u-ku-ni ini tsipi-kua-ni ixu ini parhakpini jimpo k'ama-ra-ni u-ni ima-echa-eri ts'ejpa-ra-ta exki tati kuerajpe-ri=ri xani intsï-a-p-ka iamintu mantani ima-echa-ni
+and likethis =3PL bearound HAB.PST 3.IND no =evidential goout down TRSLOC OBJ DEM.SG.ACC smile NMLZR OBJ here DEM.SG.ACC world INSTR finish VAL INF do INF DEM.SG PL GEN show.skills CAUS NMLZR SUBORD father create AGT =2SG alot give 3PL.OBJ PAST 1/2IND all each DEM.SG PL OBJ
+And they were like this, without getting out of this life here in this world, finishing doing what they knew as God gave everyone those skills.
+
+
+Source: ref 4445 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka motaku-n=ksï jimpo-ka no jarha-s-p-ka tumina jimajkani paru maia-n-p'i-ra-nhka-ni
+ka motaku-n=kxï jimpo-ka no jarha-sï-p-ka tumina jimajkani para mayo-n-p'i-ra-nhka-ni
+and exchange LNK =3PL INSTR 1/2IND no be AOR PAST 1/2IND money then to pay LNK BEN MED PASS OBJ
+and exchangee because there was no money then to pay each other
+
+
+Source: ref 6493 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isi=k'u jurhiata ma jimpo enka uarhi-ri-echa k'uinchi-pirin-ka ia jima=e-s-p-ti ia ma jurhia incha-ma-ni nobiembri-ni kutsï
+isï=k'u jurhiata ma jimpo enka uarhi-ri-echa k'uinchi-pirin-ka ia jima=e-sï-p-ti ia ma jurhia incha-ma-ni nobiembri-ni kutsï
+likethis =only day one INSTR SUBORD die AGT PL party COND SBJNC already there =be AOR PAST 3.IND already one day enter on.the.go INF november OBJ month
+Just one day, when one celebrates the dead, there it was a day entering the month of november.
+
+
+Source: ref 4447 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka no jarha-s-p-ka anchi-kuarhi-ta
+jimpo-ka no jarha-sï-p-ka anchi-kuarhe-ta
+INSTR 1/2IND no be AOR PAST 1/2IND work RFLX CAUS
+because there was no work
+
+
+Source: ref 4448 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo xarha-ra-s-p-ti inte u-ka-ta-echa
+isï jimpo xarha-ra-sï-p-ti inte u-ka-ta-echa
+APPROX INSTR appear MED AOR PAST 3.IND DEM.SG do FORM NMLZR PL
+and for that reason the work of art appeared
+
+
+Source: ref 6495 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka pauani-ti-kua-rhu uanta-tsi-kuarhi-pirin-ti ia najtuka enka jinte-ka ia ke-ts'ï-ta-kua=e-ni ima tsimani jurhia incha-ma-ni jimpo=e-sïn-ti ia ka i uarhi-ti orhe-ma-sï-p-ti ia ima jurhia-ti-kua
+ka pauani-ti-kua-rhu uanta-tsi-kuarhe-pirin-ti ia najtuka enka jinte-ka ia ke-ts'ï-ta-kua=e-ni ima tsimani jurhia incha-ma-ni jimpo=e-sïn-ti ia ka i uarhi-ti orhe-ma-sï-p-ti ia ima jurhia-ti-kua
+and tomorrow 3.IND NMLZR LOC speak down RFLX COND 3.IND already even SUBORD be SBJNC already place LOC.head CAUS NMLZR =be OBJ DEM.SG two day enter on.the.go INF INSTR =be HAB 3.IND already and DEM.SG woman 3.IND get.ahead FORM AOR PAST 3.IND already DEM.SG dawn 3.IND NMLZR
+The next day, she would pray for them even if it was the day of the offering, that is when the second day enters and this lady got ahead on that day.
+
+
+Source: ref 4454 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo achámasï ma exe-sïren-ti
+isï jimpo achámasï ma exe-sïren-ti
+APPROX INSTR gentleman one see HAB.PST 3.IND
+and a man used to see
+
+
+Source: ref 6502 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+asï isï pa k'uani-ku-ni inte-ni ampe jimpo t'u asï k'uani-ku
+asï isï pa k'uani-ku-ni inte-ni ampe jimpo t'u asï k'uani-ku
+PROHIB APPROX take throw APPL.3 OBJ DEM.SG OBJ something INSTR 2SG PROHIB throw APPL.3
+-Don’t thow those things like that, don’t throw it.
+
+
+Source: ref 6503 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima isï kura-j-chani iamindu ampe jamperi sani=teru no sesi jama-ni ima-ni ja-ts'ï-ta-kua ampe jata-ntu-rhi-nt'a-ni sesi ma mentku kuarha-ntu-rhi-nt'a-ni jimpo=na-ti=isï ima uarhi-ti no ma ampe kura-j-cha-ni isi=k'u paka-ra-p-ti ia
+ka ima isï kura-sï-chani iamintu ampe jamperi sani=teru no sesi jama-ni ima-ni ja-ts'ï-ta-kua ampe jata-ntu-rhi-nt'a-ni sesi ma mentku kuarha-ntu-rhi-nt'a-ni jimpo=na-ti isï ima uarhi-ti no ma ampe kura-sï-cha-ni isï=k'u paka-ra-p-ti ia
+and DEM.SG likethis listen AOR DIST everyone something until bit =more no good bearound INF DEM.SG OBJ exist LOC.top CAUS NMLZR something smash LOC.foot MID ITER OBJ good one suddenly break LOC.foot LOC.body ITER OBJ INSTR =evidential 3.IND =likethis DEM.SG woman 3.IND no one something listen AOR throat OBJ likethis =only remain CAUS PAST 3.IND already
+and he just listened all the things, an he was acting worst, he smashed the table with his feet, he completely broke it down with his feet that's why the woman didn't listen him and stayed doing nothing.
+
+
+Source: ref 4458 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka turhi=sï jimpo a-rhi-ka
+enka turhi=sï jimpo a-rhi-ka
+SUBORD no.purhepecha =FOC INSTR say MID 1/2IND
+that in spanish we call last name
+
+
+Source: ref 6507 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u=rini axa-chi ima-ni acha-ti-ni anti anti=isï isï jama-ki ima no ampake-ti jimpo nia ka axa-chi-tini jirejire=isï ji ero-a-ka-ni ja-ua-ka
+t'u=rini axa-chi ima-ni acha-ti-ni anti anti isï isï jama-ki ima no ampake-ti jimpo nya ka axa-chi-tini jire jire isï ji ero-a-ka-ni ja-a-ka
+2SG =1SG.OBJ send APP.1/2 DEM.SG OBJ man 3.IND OBJ why why =APPROX likethis bearound INTER DEM.SG no good 3.IND INSTR arrive and send APP.1/2 PART immediately immediately =APPROX 1SG wait FUT 1/2IND OBJ exist FUT 1/2IND
+-Send me that man here, why is he like this, he is bad, that's why arrive back home and send him to me immediatly, I will be waiting for him.
+
+
+Source: ref 4465 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ni-ua-ka=ri jini k'uinchi-kua ma jimpo ka jima-ni ke-p'a-ka
+ka ni-a-ka=ri jini k'uinchi-kua ma jimpo ka jima-ni ke-p'i-ka
+and go FUT FORM =2SG there party NMLZR one INSTR and there OBJ place floor 1/2IND
+and you are going there to a celebration and you are placing me in the floor
+
+
+Source: ref 4468 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo xarha-ra-s-p-ti inte ma=teru xa-sï
+isï jimpo xarha-ra-sï-p-ti inte ma=teru xa-sï
+APPROX INSTR appear FORM AOR PAST 3.IND DEM.SG one =more form type
+because of that appeared those other types
+
+
+Source: ref 6522 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï=na arhi-s-ti tata enka ue-nt'a-p-ka uanta-nt's-kuarhi-ni ka ima sani-tku ep'u ni-ts'ï-ni inak'i ima-ni jimpo arhi-ni jo joperu tatsikua sïpatikuarhu-rhu ampe che-ni aian-ku-ni arhi-s-p-ti
+isï=na arhi-sï-ti tata enka ue-nt'a-p-ka uanta-nt'a-kuarhe-ni ka ima sani-tku ep'u ni-ts'ï-ni i nak'i ima-ni jimpo arhi-ni jo pero tatsekua sïpatikuarhu-rhu ampe che-ni aian-ku-ni arhi-sï-p-ti
+likethis =evidential say AOR 3.IND sir SUBORD goout ITER PAST 1/2IND speak ITER RFLX INF and DEM.SG bit INTSFR head go LOC.head OBJ DEM.SG despite DEM.SG OBJ INSTR say INF yes but after NONE LOC something afraid INF inform APPL.3 INF say AOR PAST 3.IND
+The man replied; after he went back out from talking , and he just nodded his head a little t'enksatatini inakjki telling for that; but later, in secret inajki telling with fear, he said.
+
+
+Source: ref 4485 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka u-nkari-ku-ta-ni isï esïka ima na xa-nkari-p-ka tsanarhi-kua jimpo
+ka ukuarhint'a--ku-ta-ni isï exki ima na xa--p-ka tsanarhi-kua jimpo
+and make LOC.face APPL.3 CAUS OBJ APPROX SUBORD DEM.SG how form LOC.face PAST SBJNC dream NMLZR INSTR
+and making his face like it was in formed in the dream
+
+
+Source: ref 4487 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+k'e-rhi ma k'uinchi-kua u-kuarhi-sï-p-ti jurhia-ta ma jimpo
+k'e-rhi ma k'uinchi-kua u-kuarhe-sï-p-ti jurhia-ta ma jimpo
+big LOC.body one party NMLZR do RFLX AOR PAST 3.IND dawn NMLZR one INSTR
+a big celebration happened one day
+
+
+Source: ref 4491 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo-nhka uena-sï-p-ti u-ni-ka-ni inte enka-chi iasï a-rhi-ka u-ka-ta-echa
+isï jimpo-nhka uena-sï-p-ti ukuarhint'a-ni-ka-ni inte enka-chi iaxï a-rhi-ka u-ka-ta-echa
+APPROX INSTR PASS start AOR PAST 3.IND make OBJ FORM OBJ DEM.SG SUBORD APP.1/2 now say MID 1/2IND do FORM CAUS PL
+and because of that people begin to make those that now we call works
+
+
+Source: ref 6541 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tatsikua jimpo=isï jirikuarhi-p-ti ia
+tatsekua jimpo isï jirikuarhi-p-ti ia
+after INSTR =likethis hide.oneself PAST 3.IND already
+later that's why he hid himself already
+
+
+Source: ref 4494 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka inte u-ka-ta-echa etsa-kuarhi-sï-p-ti ma parhakpini
+jimpo-ka inte u-ka-ta-echa etsa-kuarhe-sï-p-ti ma parhakpini
+INSTR 1/2IND DEM.SG do FORM NMLZR PL spread RFLX AOR PAST 3.IND one world
+because those works spread in the world
+
+
+Source: ref 4495 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iamindu ireta k'e-ra-ti-echa jimpo
+iamintu ireta k'e-ra-ti-echa jimpo
+all town big FORM 3.IND PL INSTR
+in all of the big towns
+
+
+Source: ref 4497 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo uanta-ri-echa
+jimpo uanta-ri-echa
+INSTR speak AGT PL
+utusi speakers
+
+
+Source: ref 6557 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+k'uiripu uanta-sïren esika=ksï uarhi-ri-echa jurhia-ta eua-s-p-ka eska isï jimpo uarhi-p-ka isï-p-iia
+k'uiripu uanta-sïren exki=kxï uarhi-ri-echa jurhia-ta eua-sï-p-ka eska isï jimpo uarhi-p-ka isï-p-i ia
+people speak HAB.PST SUBORD =3PL die PAST PL dawn NMLZR take.away AOR PAST 1/2IND sight APPROX INSTR die PAST 1/2IND APPROX PAST PRED already
+people said that the dead took away his days, that is why he died, was it like this?
+
+
+Source: ref 6563 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka kani sesi arhi-p'era-sïren-p-ka tempu-ku-ri-ni ka iasï jandiajkuteru=k'u jama-sïren-p-ti eka ima-eri tempa uarhi-p-ka ia
+jimpo-ka kani sesi arhi--sïren-p-ka tempu-ku-ri-ni ka iaxï jandiajku teru=k'u jama-sïren-p-ti enka ima-eri tempa uarhi-p-ka ia
+INSTR 1/2IND much good say RECIP HAB.PST PAST 1/2IND marry APPL.3 AGT INF and now alone more =only bearound HAB.PST PAST 3.IND SUBORD DEM.SG GEN wife die PAST 1/2IND already
+because they had good communication tembungurhirini and now he was alone since his wife died already
+
+
+Source: ref 4518 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=ksï ataranta-sïren-ti k'uinchi-kua-echa-ni jimpo
+ima=kxï atarant'a-sïren-ti k'uinchi-kua-echa-ni jimpo
+DEM.SG =3PL sell HAB.PST 3.IND party NMLZR PL INF INSTR
+they used to sell  them in celebrations
+
+
+Source: ref 4519 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï u-kuarhe-nt'a-ka k'e-ra-ti ireta-echa jimpo
+enka=kxï u-kuarhe-nt'a-ka k'e-ra-ti ireta-echa jimpo
+SUBORD =3PL do RFLX ITER 1/2IND big FORM 3.IND town PL INSTR
+that happen in big towns
+
+
+Source: ref 4521 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=ksï ima a-rhi-nhka-sïren-ka o
+jimpo-ka=kxï ima a-rhi-nhka-sïren-ka o
+INSTR FORM =3PL DEM.SG say MID PASS HAB.PST 1/2IND or
+because they were called fair orr fairs
+
+
+Source: ref 4525 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï no uanta-ka turhi jimpo
+enka=kxï no uanta-ka turhi jimpo
+SUBORD =3PL no speak SBJNC spanish INSTR
+that don't speak spanish
+
+
+Source: ref 6575 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka xasï=na ementa jimpo=na k'e-ra-ti jani-sïren-p-ti
+ka xasï=na ementa jimpo=na k'e-ra-ti ja-sïren-p-ti
+and later =evidential rain.season INSTR =evidential big VAL 3.IND rain HAB.PST PAST 3.IND
+And later because of the rain season it was raining hard.
+
+
+Source: ref 4529 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï jimpo u-nhka-sïren-ti ima
+ka isï jimpo ukuarhint'a-nhka-sïren-ti ima
+and APPROX INSTR make PASS HAB.PST 3.IND DEM.SG
+and for that reason they used to make those
+
+
+Source: ref 4533 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka santeru xarha-ra-sï-p-ka anchi-kuarhi-ta ampe
+jimpo-ka santeru xarha-ra-sï-p-ka anchi-kuarhe-ta ampe
+INSTR 1/2IND more appear FORM AOR PAST 1/2IND work RFLX NMLZR something
+because more work appeared
+
+
+Source: ref 4535 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o ire-ta k'e-ra-ti-echa jimpo nira-ni jirinka-ni anchi-kuarhi-ta pa=ksï nitama-kuarhi-ni
+o ire-ta k'e-ra-ti-echa jimpo nira-ni jirinka-ni anchi-kuarhe-ta para=kxï nitama-kuarhe-ni
+or live NMLZR big FORM 3.IND PL INSTR go OBJ lookfor INF work RFLX CAUS for =3PL pass RFLX INF
+or they went to big towns to look for work to survice
+
+
+Source: ref 4536 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï jimpo no=teru xani uani ja-ra-s-ti k'uiripu
+ka isï jimpo no=teru xani uan- ja-ra-sï-ti k'uiripu
+and APPROX INSTR no =more that many exist FORM AOR 3.IND people
+and that's why there are not that many people anymore
+
+
+Source: ref 6586 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u anti no kueraku-j-ki inte-ni ia ka no xani kuaka-ni isï ka inte-ni juka-pirin-ka tisïkuari-ni t'u no jimpo-sï ka-p-ki
+t'u anti no kueraku-sï-ki inte-ni ia ka no xani kuaka-ni isï ka inte-ni juka-pirin-ka kapote-ni t'u no jimpo-sï ka-p-ki
+2SG why no untie AOR IRR DEM.SG OBJ already and no alot get.wet OBJ likethis and DEM.SG OBJ wear COND 1/2IND cape OBJ 2SG no INSTR AOR and PAST IRR
+why don't you untie it, and don't get wet like this and you would put that cape on, that's not why you have it?
+
+
+Source: ref 6588 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jo isï=k'u xepi-sï-p-ka kueraku-ni jimpo-sï-ni isï=k'u ka-p-ka apo-parha-ri-ni
+jo isï=k'u xepi-sï-p-ka kueraku-ni jimpo-sï-ni isï=k'u ka-p-ka apo-parha-ri-ni
+yes likethis =only lazy AOR PAST 1/2IND untie INF INSTR AOR OBJ likethis =only and PAST 1/2IND lie.horizontal LOC.side PAST OBJ
+-Yeah, I just got too lazy to untie it, that's why I have it just laying on the back
+
+
+Source: ref 4541 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=ksï santeru uani-kua jimpo a-rhi-a-sïn-ti ataranta-ni
+ima=kxï santeru uani-kua jimpo a-rhi-a-sïn-ti atarant'a-ni
+DEM.SG =3PL more much NMLZR INSTR say MID 3PL.OBJ HAB 3.IND sell OBJ
+they used to sell them for more
+
+
+Source: ref 6590 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xasï=na ima ima-ka karichi-echa-ni ia no janasïka-sïren-p-ti nena jimpo tisïkuari-ni erha-a-ku-pirin-ni exe-ni ampe jata-a-rha-p-i ima
+xasï=na ima ima-ka karichi-echa-ni ia no janasïka-sïren-p-ti nena jimpo kapote-ni erha-a-ku-pirin-ni exe-ni ampe jata-a-rha-p-i ima
+later =evidential DEM.SG DEM.SG NONE sheep PL OBJ already no think HAB.PST PAST 3.IND how INSTR cape OBJ see CNTR TRSLOC COND OBJ see INF what contain CNTR APPL PAST PRED DEM.SG
+Later he who the sheep minkuarhiampka couldn;t think how he would look inside the cape, to see what was inside that.
+
+
+Source: ref 6591 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xasï=na ima mi-ts'ï-nt'a-sï-p-ti ia jimpo-ka ima jini ireta-rhu=na uea-ku jatsi-a-sï-p-ka karichi-echa-ni no ireta-rhu ima-ni karichi-echa-ni
+xasï=na ima mi-ts'ï-nt'a-sï-p-ti ia jimpo-ka ima jini ireta-rhu=na uera-ku jatsi-a-sï-p-ka karichi-echa-ni no ireta-rhu ima-ni karichi-echa-ni
+later =evidential DEM.SG know LOC.head ITER AOR PAST 3.IND already INSTR 1/2IND DEM.SG there town LOC =evidential goout APPL.3 have 3PL.OBJ AOR PAST 1/2IND sheep PL OBJ no town LOC DEM.SG OBJ sheep PL OBJ
+Later he remember, because he had the sheeps in the outside of the town, not in the town those sheeps
+
+
+Source: ref 4544 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï=ksï atara-nt'a-sïn-ti uani-kua jimpo enka k'e-a-ka ima u-ka-ta
+isï=kxï atara-nt'a-sïn-ti uani-kua jimpo enka k'e-a-ka ima u-ka-ta
+likethis =3PL spend ITER HAB 3.IND much NMLZR INSTR SUBORD big CNTR 1/2IND DEM.SG do FORM NMLZR
+and they sell it for a lot if the work is big
+
+
+Source: ref 4545 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o enka no xani k'e-a-ka ima-ni no=ksï u-sïn uani-ka-ni jimpo pa-ni
+o enka no xani k'e-a-ka ima-ni no=kxï u-sïn uani-ka-ni jimpo pa-ni
+or SUBORD no that big 3PL.OBJ 1/2IND DEM.SG OBJ no =3PL can HAB much FORM OBJ INSTR take INF
+or if it's not too big, they can't sale those for a lot
+
+
+Source: ref 6594 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+joperu ima=na jimpo-sï isï arhi-p-ti jimpo-ka ueka-sïren-p-ka tisïkuari-ni erha-a-ku-ni ampe ima jata-a-rha-ta-sï anti-sï meni=tku nomeni jurajku-p-i ia
+pero ima=na jimpo-sï isï arhi-p-ti jimpo-ka ueka-sïren-p-ka kapote-ni erha-a-ku-ni ampe ima jata-a-rha-ta-sï anti-sï meni=tku no meni jurhaku-p-i ia
+but DEM.SG =evidential INSTR AOR likethis say PAST 3.IND INSTR 1/2IND want HAB.PST PAST 1/2IND cape OBJ see CNTR TRSLOC OBJ what DEM.SG contain CNTR APPL CAUS AOR why AOR one.time =still no one.time leave PAST PRED already
+But he told him that just because he wanted to see what he put inside the cape, and why he never left the cape
+
+
+Source: ref 4547 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma iumu ekuatsi jimpo
+ma iumu ekuatsi jimpo
+one five twenty INSTR
+for around 100
+
+
+Source: ref 4548 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o tempini ekuatsi jimpo tumina jimpo
+o tempini ekuatsi jimpo tumina jimpo
+or ten twenty INSTR money INSTR
+or two hundred pesos
+
+
+Source: ref 6599 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jo iasï iasï ju-nkua-a-ka ka inte-ni kanikua arhi-sïn-ka ji esïka=ri inte-ni tisïkuari-ni no jama-a-ka p'a-rhi-ni jimpo-ka no sesi u-kuarhi-a-ti eka t'u inte-ni tisïkuari-ni p'a-rhi-a-ka jimpo asï isï=k'u anta-rhi-a arhi-sï ia
+jo iaxï iaxï ju-nkua-a-ka ka inte-ni kanikua arhi-sïn-ka ji exki=ri inte-ni kapote-ni no jama-a-ka p'a-rhi-ni jimpo-ka no sesi u-kuarhe-a-ti enka t'u inte-ni kapote-ni p'a-rhi-a-ka jimpo asï isï=k'u anta-rhi-a arhi-sï ia
+yes now now come CENTR FUT 1/2IND and DEM.SG OBJ much say HAB 1/2IND 1SG SUBORD =2SG DEM.SG OBJ cape OBJ no bearound FUT 1/2IND touch LOC.body OBJ INSTR 1/2IND no good do RFLX FUT 3.IND SUBORD 2SG DEM.SG OBJ cape OBJ touch LOC.body FUT 1/2IND INSTR PROHIB likethis =only approach LOC.body FUT say AOR already
+-Yes, I will come soon, but I will warn you to not touch the cape because if you touch it bad things will happen, so don’t get close - he said.
+
+
+Source: ref 4559 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=ksï maia-p'i-sïn-ti tumina jimpo
+no=kxï mayo-p'i-sïn-ti tumina jimpo
+no =3PL trade BEN HAB 3.IND money INSTR
+they don't use money to pay
+
+
+Source: ref 6609 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=rini jimpo isï arhi-p-ti esïka-ni ji no jama-pirin jupi-ka-ni inte-ni ji iana-ta-rha-sï-ka ka ima ju-nkua ia iasï t'ire-ni ja-ki ka ji iana-ta-sï-ka ia xani uarha-ni
+ima=rini jimpo isï arhi-p-ti exki-ni ji no jama-pirin jupi-ka-ni inte-ni ji iana-ta-rha-sï-ka ka ima ju-nkua ia iaxï t'ire-ni ja-ki ka ji iana-ta-sï-ka ia xani uarha-ni
+DEM.SG =1SG.OBJ INSTR likethis say PAST 3.IND SUBORD OBJ 1SG no bearound COND grab 1/2IND OBJ DEM.SG OBJ 1SG get.tired LOC.thigh APPL AOR 1/2IND and DEM.SG come CENTR already now eat OBJ exist IRR and 1SG get.tired LOC.thigh AOR 1/2IND already alot dance OBJ
+Probably that's wy told me not to grab that; my legs are tired and when is he coming back, he is probably just eating now, and my legs are tired already from dancing so much
+
+
+Source: ref 6611 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mentku isi=teru=k'u era-ua-ni jarha-ni ia ireta-rhu uarha-pa-rini ero-nt'a-ni ima-ni karichi erha-ni esï-ka ima ank'u anha-xu-rhi-pirin-ka uarha-ni ia jimpo-ka ima iana-rha-sï-p-ti ia xani uarha-ni=na
+mentku isï=teru=k'u ira-a-ni jarha-ni ia ireta-rhu uarha-pa-rini ero-nt'a-ni ima-ni karichi erha-ni exki-ka ima ank'u anha-xu-rhi-pirin-ka uarha-ni ia jimpo-ka ima iana-rha-sï-p-ti ia xani uarha-ni=na
+always likethis =still =only look.distance 3PL.OBJ OBJ be OBJ already town LOC dance CONT PART wait ITER OBJ DEM.SG OBJ sheep see OBJ SUBORD 1/2IND DEM.SG then erect here LOC.body COND 1/2IND dance INF already INSTR 1/2IND DEM.SG get.tired APPL AOR PAST 3.IND already alot dance INF =evidential
+He was just looking ar them. He was looking while dancing towards the town waiting for him, the shepherd, that he would then....would stop him from dancing already because he was tired from dancing so much already
+
+
+Source: ref 6612 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ioni jimpo=na acha-ti karichi era era-ua-s-ti ia eka nia-nt'a-ni ja-p-ka ia
+yoni jimpo=na acha-ti karichi era ira-a-sï-ti ia enka nya-nt'a-ni ja-p-ka ia
+long.time INSTR =evidential man 3.IND sheep watcher round 3PL.OBJ AOR 3.IND already SUBORD arrive CENTR INF exist PAST 1/2IND already
+After a long time, the man, the shepherd, saw them when he was arriving back
+
+
+Source: ref 6617 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka ji sesimintu iana-ta-rha-sï-ka ia xani uarha-ni arhi-ni=na
+jimpo-ka ji sesi mintu iana-ta-rha-sï-ka ia xani uarha-ni arhi-ni=na
+INSTR 1/2IND 1SG good only get.tired LOC.thigh APPL AOR 1/2IND already alot dance OBJ say OBJ =evidential
+Because my legs are very tired after dancing so much, he said.
+
+
+Source: ref 4570 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka ioni-ki mama xasï ke-p'a-sïren-ka t'ire-kua ampe kurinta ampe
+jimpo-ka yoni-ki mama xasï ke-p'i-sïren-ka t'ire-kua ampe kurinta ampe
+INSTR 1/2IND long.time IRR mom type down fire HAB.PST SBJNC eat NMLZR something bread something
+because long time ago there was a lot of food and bread
+
+
+Source: ref 6619 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo=kini=isï arhi-ni ja-p-ka esïka=ri no p'ita-a-ku-pirin-ka inte tisïkuari-ni t'u inte-ni p'a-rhi-sï-ka ia ano
+jimpo=kini isï arhi-ni ja-p-ka exki=ri no p'ita-a-ku-pirin-ka inte kapote-ni t'u inte-ni p'a-rhi-sï-ka ia ano
+INSTR =2SG.OBJ =APPROX say OBJ exist PAST 1/2IND SUBORD =2SG no extract CNTR APPL.3 COND SBJNC DEM.SG cape OBJ 2SG DEM.SG OBJ touch LOC.body AOR 1/2IND already no
+-That’s why I was telling you that you would not get out that from the cape, you touched it, right?
+
+
+Source: ref 6623 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka inte uarha-sï-ka ia xani t'uini isï ia ka karichi-echa ima=t'u-sï kuatara-s-ti kani-kua anha-xu-s-ta-ua ia arhi-ni=na
+jimpo-ka inte uarha-sï-ka ia xani t'uini isï ia ka karichi-echa ima=t'u-sï kuatara-sï-ti kani-kua anha-xu-s-ta-a ia arhi-ni=na
+INSTR 1/2IND DEM.SG dance AOR 1/2IND already alot already APPROX already and sheep PL DEM.SG =also AOR get.tired AOR 3.IND much NMLZR stand.up here LINKER? CAUS 3PL.OBJ already say OBJ =evidential
+because the owner has danced for a long time, and the sheeps they are also really tired, stop them, he said.
+
+
+Source: ref 4582 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=ksï iasï jimpa-ki-echa miri-kurhi-ua-n=ksï ia
+jimpo-ka=kxï iaxï jimpa-ki-echa miri-kuarhe-a-n=kxï ia
+INSTR FORM =3PL now new NONE PL forget RFLX FUT LNK =3PL already
+because the new ones forget about them already
+
+
+Source: ref 4583 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=te=ksï ueka-ni uanta-ni jimpo
+no=te=kxï ueka-ni uanta-ni jimpo
+no =more =3PL want OBJ speak INF INSTR
+they don't want to speak Purhe anymore
+
+
+Source: ref 6630 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jini Eraxama isï jarha-sï-ti=ksï tempini ma ireta-cha ka jima=isï jarha-sï-ti=ksï tsimani ireta sapi-rha-ti-cha pinkurhi-tini enka=ksï arhi-kuarhe-ka Icha ka Takuru jima tata kuerajpe-ri ampake-ti ka sesi xasï ampe enka=ksï jimpo ts'ïma k'uiripu-echa u-pirin-ka sesi nitamakuarhini-ma-kuarhi-ni
+jini Eraxama isï jarha-sï-ti=kxï tempini ma ireta-cha ka jima isï jarha-sï-ti=kxï tsimani ireta sapi-rha-ti-cha pinkurhi-tini enka=kxï arhi-kuarhe-ka Icha ka Takuru jima tati kuerajpe-ri ampake-ti ka sesi xasï ampe enka=kxï jimpo ts'ïma k'uiripu-echa u-pirin-ka sesi nitamakuarhini-ma-kuarhe-ni
+there 11.valley.towns APPROX be AOR 3.IND =3PL ten one town NONE and there =APPROX be AOR 3.IND =3PL two town little APPL 3.IND small side.by.side PART SUBORD =3PL say RFLX 1/2IND Ichan and Tacuro there father create AGT good 3.IND and good later something SUBORD =3PL INSTR DEM.PL people PL do COND 1/2IND good NONE on.the.go RFLX INF
+Around the Gleng/Valley there are eleven towns, and around there you can find two towns neighboring each other, named Ichani and Takuru; There, God created a lot of of beautiful and good things for people to use to live.
+
+
+Source: ref 6632 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iamindu ini ampe jimpo juka-ri sesi janti-sï-ti isï eska mataru ireta-echa-rhu isï
+iamintu ini ampe jimpo juka-ri sesi janti-sï-ti isï eska ma taru ireta-echa-rhu isï
+everyone DEM.SG.ACC something INSTR have PAST good appereance.of.place AOR 3.IND APPROX sight one other town PL LOC APPROX
+For all of the things that grew in the town, it was beautiful, just like in the other towns
+
+
+Source: ref 6634 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i jinte-sï-ti=ksï kusta-ti-echa enka=ksï arhi-ra-ka mamaru jasï pire-kua-echa-ni ka uarha-kua-echa-ni enka=tsïni juchari tata k'e-ra-echa iontki anapu-echa jura-k'u-chi-ka eska ma enka andara-ka iapurhu isï ka nomeni uarhi-ni ka isï jimpo iamindu k'uiripu p'orhe-echa sesi pikuarhera-sïn-ti eka=ksï kura-j-ka juchari sonesi-tu-cha-ni k'uinchi-kua-echa-rhu
+i jinte-sï-ti=kxï kusta-ri-echa enka=kxï arhi-ra-ka mamari jasï pire-kua-echa-ni ka uarha-kua-echa-ni enka=kxïni juchaeri tati k'e-ra-echa yontki anapu-echa jura-k'u-chi-ka eska ma enka andara-ka iapurhu isï ka no meni uarhi-ni ka isï jimpo iamintu k'uiripu p'urhe-echa sesi pikuarhera-sïn-ti enka=kxï kura-sï-ka juchaeri sonesi-tu-cha-ni k'uinchi-kua-echa-rhu
+this DEM.SG AOR 3.IND =3PL play AGT PL SUBORD =3PL say CAUS 1/2IND differenttypes types sing NMLZR PL OBJ and dance NMLZR PL INF SUBORD =2PL.OBJ 1PL.GEN father big VAL PL long.time origin PL come FORM APP.1/2 1/2IND sight one SUBORD climb SBJNC everywhere APPROX and no one.time die INF and APPROX INSTR everyone people P'urhepecha PL good feel.oneself HAB 3.IND SUBORD =3PL listen AOR SBJNC 1PL.GEN sones DIM NONE INF party NMLZR PL LOC
+For instance, there are musicians who play many different songs and dancing songs that our ancestors left us as a seed that flourishes everyday and never dies, this is why all the P’urhepechas feel really proud when they hear their songs play at parties/celebrations.
+
+
+Source: ref 4589 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka tumpi-echa=ksï o tatachi-echa
+jimpo-ka tumpi-echa=kxï o tataka-echa
+INSTR 1/2IND young.man PL =3PL or boy PL
+because young men or boys
+
+
+Source: ref 6638 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nira-sïn-ka=ksïni aian-ku-ni ini kara-ta jimpo
+nira-sïn-ka=kxïni aian-ku-ni ini kara-ta jimpo
+go HAB 1/2IND =2PL.OBJ inform APPL.3 INF DEM.SG.ACC write NMLZR INSTR
+I’m going to tell you this story
+
+
+Source: ref 6642 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jima sesi sesi janti-sï-ti jimpo-ka jima uera-sïn-ka kani-kua itsï enka iamindu Eraxama anapu ireta-echa ka ma=tero-echa jamperi marhoa-ta-ka
+jima sesi sesi janti-sï-ti jimpo-ka jima uera-sïn-ka kani-kua itsï enka iamintu Eraxama anapu ireta-echa ka ma=tero-echa jamperi marhoa-ta-ka
+there good good appereance.of.place AOR 3.IND INSTR 1/2IND there goout HAB 1/2IND much NMLZR water SUBORD everyone 11.valley.towns origin town PL and one =other PL until utilize CAUS 1/2IND
+This area is beautiful because of the abundance of the crystal-clear water that all the people from the valley, and other towns use.
+
+
+Source: ref 6643 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eka=ri t'u ni-pirin-ka ma xarini-kua-rhu o inchatiru-kua-rhu jima=ri exe-a-pirin mamaru xasï parakata sapi-rha-ti ka k'e-ra-ti-echa-ni tsïpampi-ti urapi-ti xunapi-ti ka turhipi-ti-echa enka=ksï tsïtsïki-echa-ni itsu-a-j-ka jimpo-ka jima ja-rha-sï-ka tsïtsïki-echa rosasï klabeli kameliasï tulipani dalia ka uani-kua mataru jarha-ti-echa
+enka=ri t'u ni-pirin-ka ma xarini-kua-rhu o inchataru-kua-rhu jima=ri exe-a-pirin mamari xasï parakata sapi-rha-ti ka k'e-ra-ti-echa-ni tsïpambi-ti urapi-ti xunapi-ti ka turhipi-ti-echa enka=kxï tsïtsïki-echa-ni itsu-a-sï-ka jimpo-ka jima ja-rha-sï-ka tsïtsïki-echa rosasï klabeli kameliasï tulipani dalia ka uani-kua ma taru jarha-ti-echa
+SUBORD =2SG 2SG go COND SBJNC one early NMLZR LOC or afternoon NMLZR LOC there =2SG see FUT COND differenttypes favabeans butterfly little APPL 3.IND and big CAUS 3.IND PL INF yellow 3.IND white 3.IND green 3.IND and black 3.IND PL SUBORD =3PL flower PL OBJ feed 3PL.OBJ AOR SBJNC INSTR 1/2IND there exist APPL AOR 1/2IND flower PL rose carnation camellia tulip dahlia and much NMLZR one other be 3.IND PL
+If you went one morning or afternoon, you would see many different size butterflie. There are yellow, white, xunapiticha, and black butterflies feeding from the flowers because there are flowers around the place roses, carnations, (camelinas), tulips, dahlias, (charhangini) and many more.
+
+
+Source: ref 6644 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsipa ka inchateru-echa-ni jima=ksï sïuini u-kuarhi-sïn mamaru xasï kuini-tu-echa tsïponchecha-ch'a-echa k'uimu-ti-echa gorioni-cha ts'intsuni-cha tekari-echa ka ma=tero-echa enka=ksï sesi arhi-j-ka pire-ni ka isï jimpo tsipe-ra-a-ni acha-ma-sï ka uarhi-ma-sï-echa-ni enka=ksï jima=isï nitama-p-ka
+tsipa ka inchataru-echa-ni jima=kxï sïuini u-kuarhe-sïn mamari xasï kuini-tu-echa tsïponchecha-ch'a-echa k'uimu-ti-echa gorioni-cha ts'intsuni-cha tekari-echa ka ma=tero-echa enka=kxï sesi arhi-sï-ka pire-ni ka isï jimpo tsipe-ra-a-ni acha-ma-sï ka uarhi-ma-sï-echa-ni enka=kxï jima isï nitama-p-ka
+morning and afternoon PL INF there =3PL whirlwind do RFLX HAB differenttypes favabeans bird DIM PL NONE neck PL whistle 3.IND PL sparrow sparrow humming.bird humming.bird carpenter PL and one =other PL SUBORD =3PL good say AOR SBJNC sing INF and APPROX INSTR life CAUS 3PL.OBJ INF man one AOR and woman one AOR PL OBJ SUBORD =3PL there =APPROX pass PAST pass
+Every morning and afternoon there are different type of birds, yellow chestes, whistlers, sparrows, hummingbirds, woodpeckers, and other birds that everyday fill men and women that walk by with joy
+
+
+Source: ref 6645 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+itsï uera-ta kuineo ampake-ti jimpo-ka inte itsï enka xani sesi uera-ni ja-ka k'uiripu-echa ka tsipi-ti-cha marhoa-ta-sïn-ti itsï-ni ka mamajasï tarhe-ri-che-ri anchi-kuarhi-ta ka anatapu-echa enka=ksï jimpo jarhoa-ta-j-ka sontku t'arhe-xe-ra-ni ka intsi-ku-j-ka=ts'ïni juchari t'ire-kua
+itsï uera-ta kuineo ampake-ti jimpo-ka inte itsï enka xani sesi uera-ni ja-ka k'uiripu-echa ka tsipi-ti-cha marhoa-ta-sïn-ti itsï-ni ka mamari tarhe-ri-che-ri anchi-kuarhe-ta ka anhatapu-echa enka=kxï jimpo jarhoa-ta-sï-ka sontku t'arhe-xe-ra-ni ka intsï-k'u-sï-ka=ts'ïni juchaeri t'ire-kua
+water goout NMLZR kuineo good 3.IND INSTR 1/2IND DEM.SG water SUBORD alot good goout INF exist SBJNC people PL and live 3.IND livingthings utilize CAUS HAB 3.IND water INF and differenttypes old AGT me PL.OBJ work RFLX NMLZR and tree PL SUBORD =3PL INSTR help CAUS AOR SBJNC quick grow FORM CAUS INF and give LOC.hand AOR 1/2IND =1PL.OBJ 1PL.GEN eat NMLZR
+The “Kuineo” spring it’s really helpful because people, and animals use it as a source of drinkable water, and water that is used to irrigate the work completed by the elderly and also helps the fruit trees grow and provide us with food faster.
+
+
+Source: ref 6647 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xani isï nira-j-ti ia tsimani ekuatsi ka tempini uexurhini jimajkani notki incha-sku-na-sïren-p-ti tiamu-eri itsï iorheskutarakua-sku-tara-kua enka jimpo itsï pera-na-pirin-ka ireta-echa-rhu eska iasï na ja-ka
+xani isï nira-sï-ti ia tsimani ekuatsi ka tempini uexurini jimajkani notki incha-sku-na-sïren-p-ti tiamu-eri itsï iorheskutarakua-sku-tara-kua enka jimpo itsï pera-na-pirin-ka ireta-echa-rhu exki iaxï na ja-ka
+alot APPROX go AOR 3.IND already two twenty and ten year then not.yet enter towards.ground PASS HAB.PST PAST 3.IND metal GEN water NONE LOC.top CAUS NMLZR SUBORD INSTR water deliver PASS COND SBJNC town PL LOC SUBORD today how exist SBJNC
+It’s been around 50 years, when we didn’t have a metal water system that delivered the water to the towns like we do now.
+
+
+Source: ref 6651 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kani-kua tsipi-kua-sï-p-ti tumpi-echa nira-ni ima-ni xanaru jimpo jimaenka=ksï nitama-ka iurhitsïkiri-cha terekuarhi-ni kaxumbi-ti uache-cha sapi-rha-ti ka k'e-rha-ti-echa sesi=ksï p'a-ts'ï-nt'a ka tepe-kua-rhu mamaru xasï u-rhu-echa-ni ka jo-rhu-ta-kua-echa charapi-ti xunapi-ti ka ka mataru xasï ampe u-ts'ï-nt'a-ti-ni
+kani-kua tsipi-kua-sï-p-ti tumpi-echa nira-ni ima-ni xanaru jimpo jima enka=kxï nitama-ka iurhitsïkiri-cha terekuarhi-ni kaxumbi-ti uache-cha sapi-rha-ti ka k'e-rha-ti-echa sesi=kxï p'a-ts'ï-nt'a ka tepe-kua-rhu mamari xasï u-rhu-echa-ni ka jo-rhu-ta-kua-echa charapi-ti xunapi-ti ka ka ma taru xasï ampe u-ts'ï-nt'a-ti-ni
+much NMLZR smile NMLZR AOR PAST 3.IND lad PL go INF DEM.SG OBJ road INSTR there SUBORD =3PL pass 1/2IND lady ladies laugh OBJ be.educated 3.IND girl throat little APPL 3.IND and big APPL 3.IND PL very =3PL touch LOC.head ITER and braid NMLZR LOC differenttypes later do edge PL INF and tie edge CAUS NMLZR PL red 3.IND green 3.IND and and one other later something do LOC.head ITER 3.IND OBJ
+All of the young man were happy to go to the road where the girls passed by. There were a lot of well-educated girls, small or tall, with their hair well brushed, and braids with red and yellow ribbons, and diffent types of hairstyles.
+
+
+Source: ref 4603 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima-ni jimpo=ksï ampaki-nt'a-ni
+ka ima-ni jimpo=kxï ampaki-nt'a-ni
+and DEM.SG OBJ INSTR =3PL heal ITER OBJ
+and with that they heal up
+
+
+Source: ref 6652 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mantani xatini ima xanaru jinte-sï-p-ti ma jimpo jima exe-a-ni naki marikua sani=teru sesi xasï k'amukua Uantoo o P'atamu-rhu anapu jinkoni
+mantani xatini ima xanaru jinte-sï-p-ti ma jimpo jima exe-a-ni naki marikua sani=teru sesi xasï k'amukua Uantoo o P'atamu-rhu anapu jinkoni
+each evening DEM.SG time DEM.SG AOR PAST 3.IND one INSTR there see 3PL.OBJ INF which young.lady bit =more good type pitcher huancito or patamban LOC origin POSTP
+That route became like a big celebration because of the ladies; the young men went there to see who was more beautiful, the girls with the cantaros from Huancito or the ones with the cantaros de Patamban.
+
+
+Source: ref 4606 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï u-nt'a-ka k'uinchi-kua-echa jimpo
+enka=kxï ukuarhint'a-nt'a-ka k'uinchi-kua-echa jimpo
+SUBORD =3PL make ITER 1/2IND party NMLZR PL INSTR
+that they make in parties
+
+
+Source: ref 6655 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eka=ksï nira-ni ka ju-nkua-ni ja-p-ka iamindu marikua-echa no kuerata-sïren-p-ti maru tumpi-echa enka=ksï jirikuarhi-tini ja-p-ka ma anatapu-rhu ka iasï jimpo u-ni eraku-ni ma iurhitsïkiri-ni
+enka=kxï nira-ni ka ju-nkua-ni ja-p-ka iamintu marikua-echa no kuerata-sïren-p-ti maru tumpi-echa enka=kxï jirikuarhi-tini ja-p-ka ma anhatapu-rhu ka iaxï jimpo u-ni eraku-ni ma iurhitsïkiri-ni
+SUBORD =3PL go OBJ and come CENTR OBJ exist PAST 1/2IND all young.lady PL no lack HAB.PST PAST 3.IND some lad PL SUBORD =3PL hide.oneself PART exist PAST 1/2IND one tree LOC and now INSTR do INF select INF one lady INF
+While the all the ladies went and came, young men hiding behind the trees to pick up a lady were never missing.
+
+
+Source: ref 4610 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+cha-eri sesikua jimpo tata
+cha-eri sesikua jimpo tata
+2PL GEN permission INSTR sir
+With your permission sir
+
+
+Source: ref 6659 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jarha-sï-p-ti tumpi-echa-eri ma erha-tsi-kua jima nira-sïren-ti ima-ni tsïtsïki-echa-rhu jimpo eraku-ni ma iurhitsïkiri-ni uanta-j-pa-ni ka arhi-ni eska imeri mintsita na pikuarhe-p-ka
+jarha-sï-p-ti tumpi-echa-eri ma erha-tsi-kua jima nira-sïren-ti ima-ni tsïtsïki-echa-rhu jimpo eraku-ni ma iurhitsïkiri-ni uanta-sï-pa-ni ka arhi-ni exki imeri mintsita na pikuarhe-p-ka
+be AOR PAST 3.IND lad PL GEN one see FORM NMLZR there go HAB.PST 3.IND DEM.SG OBJ flower PL LOC INSTR select INF one lady OBJ speak AOR CONT INF and say OBJ SUBORD 3SG.POSS heart how feel PAST 1/2IND
+The young men had one idea: There, they went in the flowers to pick a lady, they would speak and tell her how their heart felt.
+
+
+Source: ref 6666 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uanta-nt's-kuarhi-sïren-ti=ksï pauani inchateru jimpo ka iamindu itsï p'ita-ri-echa ja-pa-rini tumpi arhi-sïren-ti
+uanta-nt'a-kuarhe-sïren-ti=kxï pauani inchataru jimpo ka iamintu itsï p'ita-ri-echa ja-pa-rini tumpi arhi-sïren-ti
+speak ITER RFLX HAB.PST 3.IND =3PL tomorrow afternoon INSTR and everyone water extract AGT PL exist CONT PART lad say HAB.PST 3.IND
+One afternoon they were talking with all the people that went to get water to the “Kuineo” present, he told her:
+
+
+Source: ref 6667 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+domingu jimpo=ksï intsi-pera-a-ka juchari uanta-kua ka uaxajta-ni juchari tempucha-kua enka=ksï xani ioni ueratini tsiti-ka t'u ka ji
+domingu jimpo=kxï intsï--a-ka juchaeri uanta-kua ka uaxajta-ni juchaeri tempu-kua enka=kxï xani yoni ueratini tsiti-ka t'u ka ji
+sunday INSTR =3PL give RECIP FUT 1/2IND 1PL.GEN speak NMLZR and settle INF 1PL.GEN marry NMLZR SUBORD =3PL alot long.time since like SBJNC 2SG and 1SG
+-Sunday, we will give each other our word, and cement the wedding that you and I have wanted for a long time.
+
+
+Source: ref 4622 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jinte-s-ti ireta p'urhe jimpo uanta-ka
+jinte-sï-ti ireta p'urhe jimpo uanta-ka
+DEM.SG AOR 3.IND town P'urhepecha INSTR speak SBJNC
+It's a town where people speak P'urhepecha
+
+
+Source: ref 6672 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima domingu jimpo tumpi pa-pirin-ti imeri ka-ts'ï-kua-rhu jatsi-nti-ku-tini ma sesi xasï u-ka-ta tsïtsïki gladiola-eri ka klabeli-ri jo-ku-kata listoni ma jimpo
+ka ima domingu jimpo tumpi pa-pirin-ti imeri ka-ts'ï-kua-rhu jatsi-nti-ku-tini ma sesi xasï u-ka-ta tsïtsïki gladiola-eri ka klabeli-ri jo-ku-kata listoni ma jimpo
+and DEM.SG sunday INSTR lad take COND 3.IND 3SG.POSS and LOC.head NMLZR LOC put LOC.ear APPL.3 PART one good looking do FORM NMLZR flower gladiola GEN and carnation ofcanartions tie APPL.3 PASS.PRT ribbon one INSTR
+And that sunday, the young man would take his hat with a beautiful work of art made of galdiolas and carnations tied with a ribbon on the ear/side of the hat. ​
+
+
+Source: ref 4625 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+k'e-s-ti ia ireta jimpo-ka ioni-sï-ki ia
+k'e-sï-ti ia ireta jimpo-ka yoni-sï-ki ia
+big AOR 3.IND already town INSTR 1/2IND long.time AOR IRR already
+It's big already because the town is really old
+
+
+Source: ref 4626 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka uanta-n=chka majku xasï p'urhepecha jimpo
+ka uanta-n=chka majku xasï p'urhepecha jimpo
+and speak LNK =then same type Purhepecha INSTR
+And they still speak P'urhepecha
+
+
+Source: ref 6675 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni xanaru-ni jimpo orheta niara-sïren-ti tumpi ka iapurhu isï eroka-ni imeri tempuna-ni erhakueka-ni eka antara-ri-na sesi xukuparha-tini ka k'amukua jimpa-ni k'ira-nti-tini
+ima-ni xanaru-ni jimpo orheta niara-sïren-ti tumpi ka iapurhu isï eroka-ni imeri tempucha-ni erha kueka-ni enka antara-ri-na sesi xukuparha-tini ka k'amukua jimpa-ni k'ira-nti-tini
+DEM.SG OBJ road OBJ INSTR first arrivethere HAB.PST 3.IND lad and everywhere APPROX wait OBJ 3SG.POSS bride OBJ see want INF SUBORD ascend PAST PASS good dress PART and pitcher new OBJ snuggle LOC.shoulder PART
+In that road, the young man arrived first, and the man looked everywhere waiting for his bride to come up, dressed beautifully with the new pitcher snuggled on her shoulder
+
+
+Source: ref 4629 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=ksï k'uiripu-echa anchi-kua-sïren-ka k'uma-ni sïkuiri-echa-ni
+jimpo-ka=kxï k'uiripu-echa anchi-kuarhe-sïren-ka k'uma-ni sïkuiri-echa-ni
+INSTR FORM =3PL people PL work RFLX HAB.PST SBJNC tanning OBJ leather PL OBJ
+Because people used to work tanning leathers
+
+
+Source: ref 6680 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Sasanisani arhi-ni ke-ni imeri k'amukua jurhintsi-kua-rhu jamperi ka tumpi t'ingui=-xurhi-sï-ti puti-rhi-ni ima-ni k'amukua-ni ka imeri tempuna kaxumbi-kua jinkoni tapo-ku-sï-ti jajki jimpo ima-ni itsï-ni
+Sasani sani arhi-ni ke-ni imeri k'amukua jurhintsi-kua-rhu jamperi ka tumpi t'ingui=-xurhi-sï-ti puti-rhi-ni ima-ni k'amukua-ni ka imeri tempucha kaxumbi-kua jinkoni tapo-k'u-sï-ti jajki jimpo ima-ni itsï-ni
+NONE bit say OBJ down INF 3SG.POSS pitcher crouch NMLZR LOC until and lad kneel= LOC.knee AOR 3.IND kiss LOC.body OBJ DEM.SG OBJ pitcher OBJ and 3SG.POSS bride be.educated NMLZR POSTP catch LOC.hand AOR 3.IND hand INSTR DEM.SG OBJ water OBJ
+The lady began to put down her pitcher up to her knees, and the young man kneeled down and kissed her picher , and he catched with his hands the pimbini jasi water.
+
+
+Source: ref 6682 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i jinte-sï-ti juchiti ka chiti uanta-kua ka intsï-rani=ksï ni-ra-sïn-ka enka=ksï jimpo nomeni jurajpe-ra-a-ka uarhi-kua-rhu jamperi
+i jinte-sï-ti jucheeti ka chiti uanta-kua ka intsï-rani=kxï ni-ra-sïn-ka enka=kxï jimpo no meni jurajpe-ra-a-ka uarhi-kua-rhu jamperi
+DEM.SG be AOR 3.IND 1SG.GEN and 2SG.POSS speak NMLZR and give MAX =3PL go FORM HAB 1/2IND SUBORD =3PL INSTR no one.time leave CAUS FUT 1/2IND die NMLZR LOC until
+-This is my and your words that we are going to give each other that we are never going to leave each other
+
+
+Source: ref 6683 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i uanta-kua aian-nt's-pera-kua kani jukaparha-sï-ti ts'ïma-eri tsimani mintsita-echa jimpo jimpo-ka meni isï tumpi uera-sïren-p-ti imeri tempucha-ni ka no eka no k'uanatsi-pirin
+i uanta-kua aian-nt'a--kua kani jukaparha-sï-ti ts'ïma-eri tsimani mintsita-echa jimpo jimpo-ka meni isï tumpi uera-sïren-p-ti imeri tempu-ni ka no enka no k'uanatsi-pirin
+this speak NMLZR inform ITER RECIP NMLZR much cost AOR 3.IND 3PL GEN two heart PL INSTR INSTR 1/2IND one.time APPROX lad goout HAB.PST PAST 3.IND 3SG.POSS marry INF and no SUBORD no return COND
+These words told between each other was worth a lot for the hearst of those two, because sometimes the young men used to go out his wife and no uambunani when he would return.
+
+
+Source: ref 6685 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo=ksï juchari sïrankua kani-kua k'e-sï-ti ka jukaparha-ni santeru eska juata-echa T'antsitarhu anapu
+jimpo=kxï juchaeri sïrankua kani-kua k'e-sï-ti ka jukaparha-ni santeru eska juuata -echa T'antsitarhu anapu
+INSTR =3PL 1PL.GEN root much NMLZR big AOR 3.IND and cost OBJ more sight mount PL Tancitaro origin
+because our roots are profound and are worth more than the mounts of Tancítaro
+
+
+Source: ref 4638 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=ksï anatapu-ni ma kua-sku-sï-p-ka
+jimpo-ka=kxï anhatapu-ni ma kua-sku-sï-p-ka
+INSTR FORM =3PL tree OBJ one fall towards.ground AOR PAST 1/2IND
+because they took down a tree
+
+
+Source: ref 548 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+himbo
+himpo
+INSTR
+
+
+
+Source: ref 4645 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+i kumichu uaxa-s-ta-nhka-s-p-ti tanimu irepita ka tempini ka iumu ekuatsi ka tempini ka tanimu ima uéxurhini jimpo uaxa-s-ta-s-p-ti i ireta
+i kumichu uaxa-sï-ta-nhka-sï-p-ti tanimu irepita ka tempini ka iumu ekuatsi ka tempini ka tanimu ima uexurini jimpo uaxa-s-ta-sï-p-ti i ireta
+this Ocumicho sit AOR CAUS PASS AOR PAST 3.IND three 20x20 and ten and five twenty and ten and three DEM.SG year INSTR sit LINKER? CAUS AOR PAST 3.IND this town
+Ocumicho was established on 1513
+
+
+Source: ref 4646 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=ksï i jinte=e-sï-p-ka ireta-echa enka=ksï uena-p-ka uaxa-s-ta-nhka-ni ka ire-nhka-ni
+jimpo-ka=kxï i jinte=e-sï-p-ka ireta-echa enka=kxï uena-p-ka uaxa-sï-ta-nhka-ni ka ire-nhka-ni
+INSTR FORM =3PL this 3SG =be AOR PAST 1/2IND town PL SUBORD =3PL start PAST 1/2IND sit AOR CAUS PASS OBJ and live PASS OBJ
+because these were one of the towns that began to established and where people lived
+
+
+Source: ref 6693 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka no uanta-ka inte-ni k'uinchi-kua enka juchari jimpo-ka
+enka no uanta-ka inte-ni k'uinchi-kua enka juchaeri jimpo-ka
+SUBORD no speak SBJNC DEM.SG OBJ party NMLZR SUBORD 1PL.GEN INSTR 1/2IND
+INSTR
+
+
+Source: ref 6696 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+naki jimpo
+naki jimpo
+which INSTR
+INSTR
+
+
+Source: ref 6697 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ni ji jucha-eri ireta jimpo Estados Unidu ji urhe-ta
+enka=ni ji jucha-eri ireta jimpo Estados Unidu ji orhe-ta
+SUBORD =1SG.SBJ 1SG 1PL GEN town INSTR united.states 1SG get.ahead CAUS
+first
+
+
+Source: ref 555 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kurinta hutʃaeri iski hutʃa hutʃaeri ka himbo
+kurinta hutʃaeri iski hutʃa hutʃaeri ka himpo
+bread 1PL.GEN that 1PL 1PL.GEN and INSTR
+
+
+
+Source: ref 556 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+himbo
+himpo
+INSTR
+
+
+
+Source: ref 6702 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï jimpo pa-ni ma exe-ni
+ka isï jimpo pa-ni ma exe-ni
+and APPROX INSTR take OBJ one see INF
+see
+
+
+Source: ref 6711 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka naki ireta jimpo
+ka naki ireta jimpo
+and which town INSTR
+INSTR
+
+
+Source: ref 4665 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esï-ka no-j=tsïni miri-kurhi-sï-ka jimpo-ka isï
+exki-ka no-sï=kxïni miri-kuarhe-sï-ka jimpo-ka isï
+SUBORD 1/2IND no AOR =2PL.OBJ forget RFLX AOR SBJNC INSTR FORM APPROX
+That they haven't forgetten us because this is what happened
+
+
+Source: ref 6714 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uanikua sani puru jima enka isï jucheeti ireta jimpo ka sani ima-ni ireta jimpo niara-ni
+uanikua sani puru jima enka isï jucheeti ireta jimpo ka sani ima-ni ireta jimpo niara-ni
+many bit pure there SUBORD APPROX 1SG.GEN town INSTR and bit DEM.SG OBJ town INSTR arrive INF
+arrive
+
+
+Source: ref 4668 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tanimu ata-kua-rhu isï kura-kuarhi-sï-p-ti esï-ka ioa-na-sïn-p-ka k'ui-tku majku jauara-sï-ti ka kaparhaku-ku mi-tsa-ta-sï-ti che-ra-kuarhi-ra-sï-p-ti jimpo-ka k'umanchi-kua jimaenka no ne-ma k'ui-na-ka k'ama-p'i-xa-p-ti kurhi-ni
+tanimu ata-kua-rhu isï kura-kuarhe-sï-p-ti exki-ka ioa-na-sïn-p-ka k'ui-tku majku jauara-sï-ti ka kaparhaku-ku mi-tsa-ta-sï-ti che-ra-kuarhe-ra-sï-p-ti jimpo-ka k'umanchi-kua jima enka no ne-ma k'ui-na-ka k'ama-p'i-xa-p-ti kurhi-ni
+three hit NMLZR LOC APPROX listen RFLX AOR PAST 3.IND SUBORD 1/2IND scream PASS HAB PAST 1/2IND sleep INTSFR same get.up AOR 3.IND and NONE APPL.3 open quickly CAUS AOR 3.IND afraid VAL RFLX FORM AOR PAST 3.IND INSTR 1/2IND put.oneself.shade NMLZR there SUBORD no who one sleep PASS 1/2IND finish fire PROG PAST 3.IND burn INF
+Around 3 am, one could hear people screaming; everyone one woke up still sleepy and they quickly opened the doors, people were scared, because the hosue, where no one sleeped was finishing to burn down.
+
+
+Source: ref 4671 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iamindu ampe kurhi-sï-ti xanini tsikata-echa tsïtsïki-echa xuma-ta-kua iauarhi-echa iamindu iamindu k'ama-p'i-sï-ti joperu acha Kuerajpi-ri maiamu-ku=e-sï-ti jimpo-ka no ma k'uiripu kurhi-ka iumu tsimani sapi-rha-ti-cha jarha-sï-p-ti enka ama-mpa ka tati jempa kamankari-a-ri-ti-ni peta-p-ka ima-ni=k'u-sï jankurhi-p-ti iauani pera-ni no juka-kua o ka-n-kuarhi-kua ampe
+iamintu ampe kurhi-sï-ti xanini tsikata-echa tsïtsïki-echa xuma-ta-kua iauarhi-echa iamintu iamintu k'ama-p'i-sï-ti pero acha kuerajpe-ri maiamu-ku=e-sï-ti jimpo-ka no ma k'uiripu kurhi-ka iumu tsimani sapi-rha-ti-cha jarha-sï-p-ti enka ama-mpa ka tati jempa kamankari-a-ri-ti-ni peta-p-ka ima-ni=k'u-sï jankurhi-p-ti iauani pera-ni no juka-kua o ka-n-kuarhe-kua ampe
+everyone something burn AOR 3.IND corncob hen PL flower PL grind CAUS NMLZR metate PL everyone everyone finish fire AOR 3.IND but man create PAST pay APPL.3 =be AOR 3.IND INSTR 1/2IND no one people burn 1/2IND five two little APPL 3.IND small be AOR PAST 3.IND SUBORD go 3.POSS and father 3.POSS hug 3PL.OBJ PAST 3.IND OBJ take.out PAST 1/2IND DEM.SG OBJ =only AOR hurry PAST 3.IND far put INF no wear NMLZR or have LNK RFLX NMLZR something
+Everything else burned down, the cobs, the chicken, the flowers, grinder(molcajate), (los metates); everything was burned down by the fire but thanks to God because no person was burned; there was seven children that were carried out by their mom; they only hurried to put them far away from the fire, not their clothes or belongings.
+
+
+Source: ref 4672 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tata jurhiata pirirama-sï-ti k'uiripu unta-sï-ti mi-ti-ni na enka ukurhipka-kurhi-p-ka maru uarhi-ti-echa unta-sï-ti uanta-kua etsa-tara-kua jimpo aian-p'i-ni ampe-maka u-kurhi-p-ka ka uanta-sïren-p-ti=ksï
+tata jurhiata pirirama-sï-ti k'uiripu unta-sï-ti mi-ti-ni na enka ukurhipka-kuarhe-p-ka maru uarhi-ti-echa unta-sï-ti uanta-kua etsa-tara-kua jimpo aian-p'i-ni ampe enka u-kuarhe-p-ka ka uanta-sïren-p-ti=kxï
+sun glare AOR 3.IND people begin AOR 3.IND know FORM INF how SUBORD NONE RFLX PAST SBJNC some die 3.IND PL begin AOR 3.IND speak NMLZR spread CAUS NMLZR INSTR inform BEN INF what SUBORD do RFLX PAST SBJNC and speak HAB.PST PAST 3.IND =3PL
+The sun glared; people began to know what happened, some women started to inform about what happened throug the megaphone, and they were speaking.
+
+
+Source: ref 4675 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tata pedru ixu ka ixu nira-sïren-p-ti ue-kua ixu ka ixu p'a-narhi-pa-ri-ni kuerajpe-ri maiamu-kua arhi-a-nt'a-ni k'uiripu-echa-ni ma jurhiata=k'u k'uiripu ni-ka-sï-ti tata pedru-ni ampe pampi=-ni ampe ka jarhoa-ta-na-ni ka isï jimpo jakajku-sïn-ka esï-ka jucha p'orhe-echa jarhoa-j-pera-sïn=ksï esïka=ksï majku-sï-ka iamindu ampe jimpo
+tati pedru ixu ka ixu nira-sïren-p-ti ue-kua ixu ka ixu p'a--pa-ri-ni kuerajpe-ri maiamu-kua arhi-a-nt'a-ni k'uiripu-echa-ni ma jurhiata=k'u k'uiripu ni-ka-sï-ti tata pedru-ni ampe pampi=-ni ampe ka jarhoa-ta-na-ni ka isï jimpo jakajku-sïn-ka exki-ka jucha p'urhe-echa jarhoa-sï--sïn=kxï exki=kxï majku-sï-ka iamintu ampe jimpo
+father Pedro here and here go HAB.PST PAST 3.IND sad NMLZR here and here touch LOC.face CONT PAST OBJ create AGT pay NMLZR say 3PL.OBJ ITER OBJ people PL OBJ one day =only people go FORM AOR 3.IND sir Pedro OBJ something accompany= INF something and help CAUS PASS OBJ and APPROX INSTR believe HAB 1/2IND SUBORD 1/2IND 1PL P'urhepecha PL help AOR RECIP HAB =3PL SUBORD =3PL same AOR SBJNC everyone something INSTR
+Mr. Pedro was moving from here to here, he was touching the tears that were on his face, he thanked every person. One day everyone took things to help Mr. Pedro, and this is why I believe that P’urhepechas help each other, that we become one for everything.
+
+
+Source: ref 4676 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Chatarhu tempini iumu tsimani jurhia incha-ma-ni uexurhini jimpo
+Chatarhu tempini iumu tsimani jurhia incha-ma-ni uexurini jimpo
+Pichataro ten five two day enter on.the.go INF year INSTR
+Chataro, day 17, of the year 1992.
+
+
+Source: ref 6724 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jo ima-ni jimpo-sï ima jima jini uanikua jarha-s-ti
+jo ima-ni jimpo-sï ima jima jini uanikua jarha-sï-ti
+yes DEM.SG OBJ INSTR AOR DEM.SG there there many be AOR 3.IND
+is
+
+
+Source: ref 6727 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jo ima ima jimpo jimpo-ka=ksï ima
+jo ima ima jimpo jimpo-ka=kxï ima
+yes DEM.SG DEM.SG INSTR INSTR FORM =3PL DEM.SG
+DEM.SG
+
+
+Source: ref 6738 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka jima ueratini ima-ni ireta jimpo enka
+ka jima ueratini ima-ni ireta jimpo enka
+and there since DEM.SG OBJ town INSTR SUBORD
+SUBORD
+
+
+Source: ref 4692 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima t'u tata ni arhi-ni jimpo
+ka ima t'u tata ni arhi-ni jimpo
+have DEM.SG 2SG sir go say INF INSTR
+And he told them: “ you Mr. Cirilo, go through this surka.
+
+
+Source: ref 6740 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka nena=ri jimpo anchi-kuarhi-kua jini
+ka nena=ri jimpo anchi-kuarhe-kua jini
+and how =2SG INSTR work MID NMLZR there
+there
+
+
+Source: ref 602 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+angel-ni himpo
+angel-ni himpo
+angel OBJ INSTR
+for the angel,  because of the angel
+
+
+Source: ref 607 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+angel -etʃa-ni himpo
+angel-etʃa -ni himpo
+angel PL OBJ INSTR
+for the angels, because of the angels
+
+
+Source: ref 6751 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o nena jimpo menteru
+o nena jimpo menteru
+or how INSTR again
+
+
+
+Source: ref 6753 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo ima-ni jimpo isï isï i
+jimpo ima-ni jimpo isï isï i
+INSTR DEM.SG OBJ INSTR APPROX APPROX DEM.SG
+
+
+
+Source: ref 630 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+himpo
+himpo
+INSTR
+
+
+
+Source: ref 635 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+-etʃa-ni himpo
+-etʃa -ni himpo
+PL OBJ INSTR
+
+
+
+Source: ref 4732 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pauani-ti jimpo juchiti tati-ni jinkoni ka arhi-ni
+pauani-ti jimpo jucheeti tati-ni jinkoni ka arhi-ni
+tomorrow 3.IND INSTR 1SG.GEN father INF POSTP and say INF
+The next morning, Susana and my dad came back and he told me:
+
+
+Source: ref 6782 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+naxani jimpo o
+naxani jimpo o
+how.much INSTR or
+
+
+
+Source: ref 6790 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucheeti jimpo no kani-kua jarha-s-ti ka ma in so
+jucheeti jimpo no kani-kua jarha-sï-ti ka ma in sani
+1SG.GEN INSTR no much NMLZR be AOR 3.IND and one DEM.SG.ACC bit
+
+
+
+Source: ref 6795 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni jucha jini jucheeti ireta jimpo i in
+ima-ni jucha jini jucheeti ireta jimpo i in
+DEM.SG OBJ 1PL there 1SG.GEN town INSTR DEM.SG DEM.SG.ACC
+
+
+
+Source: ref 652 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro tʃeni kámento hukama-ku-ha-ti Iuano-ni mimí=e-kwa himpo
+Pegru tʃeeni kámento hukama-ku-ʃa-ti Juanu-ni mimi=e-kwa himpo
+Pedro much alot outdo APPL.3 PROG 3.IND Juan OBJ wisdom =be NMLZR INSTR
+Pedro outdoes Juan in being wise.
+
+
+Source: ref 6801 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ni ji jini jucheeti ireta jimpo ueratini jini ma isï i i in i
+enka=ni ji jini jucheeti ireta jimpo ueratini jini ma isï i i in i
+SUBORD =1SG.SBJ 1SG there 1SG.GEN town INSTR since there one APPROX DEM.SG DEM.SG DEM.SG.ACC DEM.SG
+
+
+
+Source: ref 6802 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ixu isï ka ju-ni ka isï jimpo=sï-ni isï i me i
+ixu isï ka ju-ni ka isï jimpo=sï-ni isï i ma i
+here APPROX and come OBJ and APPROX INSTR =FOC INF APPROX DEM.SG one DEM.SG
+
+
+
+Source: ref 6804 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima=ksï ka sesi ka jimpo=sï-ni ixu isï exe-ni a =si ka mero so i as as
+ima=kxï ka sesi ka jimpo=sï-ni ixu isï exe-ni a=sï ka mero sani i asï asï
+DEM.SG =3PL and good and INSTR =FOC INF here APPROX see INF AUX =FOC and very bit DEM.SG PROHIB PROHIB
+
+
+
+Source: ref 663 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Pedro tʃeni kámento hukama-ku-ha-ti Iuaano-ni mimí-ʃe-kwa himpo
+Pegru tʃeeni kámento hukama-ku-ʃa-ti Juanu-ni mimi-ʃe-kwa himpo
+Pedro how alot outdo APPL.3 PROG 3.IND Juan OBJ wisdom FORM NMLZR INSTR
+Pedro very much outdoes Juan being wise
+
+
+Source: ref 6815 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka nena jimpo=ksï ima komo ixu jua-ni
+ka nena jimpo=kxï ima komo ixu jua-ni
+and how INSTR =3PL DEM.SG como here bring OBJ
+
+
+
+Source: ref 676 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hinteni himpo
+hinteni himpo
+1SG.OBJ INSTR
+for me
+
+
+Source: ref 4772 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka jo pareceka inte-eri jempa jimpo pera-ka inte-ni perasï-echa-ni
+ka jo pareceka inte-eri jempa jimpo pera-ka inte-ni perasï-echa-ni
+and yes seems.like DEM.SG GEN 3.POSS INSTR deliver 1/2IND DEM.SG OBJ pears PL OBJ
+and yes, it seems like he is taking those pears to his house
+
+
+Source: ref 680 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hutʃa=tsini himpo
+hutʃa=tsʰïni himpo
+1PL =1PL.OBJ INSTR
+for us
+
+
+Source: ref 6826 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anapu-echa=ksï uanta-sïn-ti enka=ksï ima jucha-eri ireta jimpo peru ima enka=ksï ixu ia sani turhi uanta-sïn-ti ka inglesi in
+anapu-echa=kxï uanta-sïn-ti enka=kxï ima jucha-eri ireta jimpo pero ima enka=kxï ixu ia sani turhi uanta-sïn-ti ka inglesi in
+origin PL =3PL speak HAB 3.IND SUBORD =3PL DEM.SG 1PL GEN town INSTR but DEM.SG SUBORD =3PL here already bit no.purhepecha speak HAB 3.IND and English DEM.SG.ACC
+
+
+
+Source: ref 4780 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo enka nanaka-ni exe-ni ja-p-ka
+isï jimpo enka nanaka-ni exe-ni ja-p-ka
+APPROX INSTR SUBORD young.woman OBJ see OBJ exist PAST SBJNC
+bcause the little boy was looking at her
+
+
+Source: ref 6828 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha-eri jimpo enka=ni ji ia komo in i
+jucha-eri jimpo enka=ni ji ia komo in i
+1PL GEN INSTR SUBORD =1SG.SBJ 1SG already como DEM.SG.ACC DEM.SG
+
+
+
+Source: ref 6830 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jucha sani jimpo pa=ksï ini ka k'uiripu-echa-ni jinkoni in so
+jucha sani jimpo para=kxï ini ka k'uiripu-echa-ni jinkoni in sani
+1PL bit INSTR for =3PL DEM.SG.ACC and people PL OBJ POSTP DEM.SG.ACC bit
+
+
+
+Source: ref 687 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=kʃïni himpo
+tʰu=kʃïni himpo
+2SG =2PL.OBJ INSTR
+for you
+
+
+Source: ref 4783 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka menteru=ksï materu tanimu tataka-echa xarha-nt'a-s-ti ini exe-kua-ni jimpo
+ka menteru=kxï máteru tanimu tataka-echa xarha-nt'a-sï-ti ini exe-kua-ni jimpo
+and again =3PL another three boy PL appear ITER AOR 3.IND DEM.SG.ACC see NMLZR OBJ INSTR
+and again another three boys appeared in this movie
+
+
+Source: ref 692 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu-tʃa=kʃïni himpo
+tʰu-etʃa =kʃïni himpo
+2SG PL =2PL.OBJ INSTR
+for/because of you guys
+
+
+Source: ref 4788 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pareceka tataka sapichu menteru segiri-ua-ka nira-ni ima-eri jimpo
+pareceka tataka sapi menteru segiri-a-ka nira-ni ima-eri jimpo
+seems.like boy little again continue FUT 1/2IND go OBJ DEM.SG GEN INSTR
+it seems like the little boy will continue going to his place again
+
+
+Source: ref 696 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+himpo
+himpo
+INSTR
+3SG + ABL
+
+
+Source: ref 6841 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eka=ksï jucha-eri ireta jimpo ka jini ima=chka=ksï ia peru i
+enka=kxï jucha-eri ireta jimpo ka jini ima=chka=kxï ia pero i
+SUBORD =3PL 1PL GEN town INSTR and there DEM.SG =then =3PL already but DEM.SG
+
+
+
+Source: ref 6845 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni ireta jimpo enka=ni ji ka jima no jarha-s-ti ireta-echa enka=ksï uanta-ki ia i p'urhepecha
+ima-ni ireta jimpo enka=ni ji ka jima no jarha-sï-ti ireta-echa enka=kxï uanta-ki ia i p'urhepecha
+DEM.SG OBJ town INSTR SUBORD =1SG.SBJ 1SG and there no be AOR 3.IND town PL SUBORD =3PL speak IRR already DEM.SG Purhepecha
+
+
+
+Source: ref 702 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hitʃani himpo
+hitʃani himpo
+3PL.ACC INSTR
+3PL.ABL
+
+
+Source: ref 6849 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=ksï ima uanta-ka p'urhe sani jimpo jini
+enka=kxï ima uanta-ka p'urhe sani jimpo jini
+SUBORD =3PL DEM.SG speak SBJNC P'urhepecha bit INSTR there
+
+
+
+Source: ref 4812 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tata niku isï p'inte-s-ti pauani pauani xarini-tku jauara-ni ima-ni pire-kua jimpo enka=ksï kuini-echa arhi-ku-n-p-ka tata niku-ni tsinarhi-ra-ni
+tata niku isï p'inte-sï-ti pauani pauani xarini-tku jauara-ni ima-ni pire-kua jimpo enka=kxï kuini-echa arhi-ku-n-p-ka tati niku-ni tsinharhi-ra-ni
+sir Nico APPROX accustom AOR 3.IND everyday early INTSFR get.up INF DEM.SG OBJ sing NMLZR INSTR SUBORD =3PL bird PL say APPL.3 LNK PAST SBJNC father Nico OBJ wake CAUS OBJ
+Mr. Nico was accustomed to getting up very early everyday with that son that the birds sang to Mr. Nico to wake him up
+
+
+Source: ref 6864 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima sani sani para jimpo ima ampe enka p'urhe in
+ima sani sani para jimpo ima ampe enka p'urhe in
+DEM.SG bit bit for INSTR DEM.SG something SUBORD P'urhepecha DEM.SG.ACC
+
+
+
+Source: ref 6867 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+purhu turhi jimpo komo esïka ji ia iasï xani jatiri-sï-ki ia masi jucha jimpo in
+purhu turhi jimpo komo exki ji ia iaxï xani jatiri-sï-ki ia masi jucha jimpo in
+pumpkin no.purhepecha INSTR como SUBORD 1SG already now that be.old AOR IRR already more 1PL INSTR DEM.SG.ACC
+
+
+
+Source: ref 6868 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ji no p'urhe jimpo arhi-nt'a-ni purhu enka=ni uanta-ni p'urhe in i in
+ka ji no p'urhe jimpo arhi-nt'a-ni purhu enka=ni uanta-ni p'urhe in i in
+and 1SG no P'urhepecha INSTR say ITER OBJ pumpkin SUBORD =1SG.SBJ speak INF P'urhepecha DEM.SG.ACC DEM.SG DEM.SG.ACC
+
+
+
+Source: ref 6869 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima ima=ksï p'urhe enka=ksï t'unkini che escuela jimpo
+ka ima ima=kxï p'urhe enka=kxï t'unkini che eskuela jimpo
+and DEM.SG DEM.SG =3PL P'urhepecha SUBORD =3PL 2SG.OBJ POSS school INSTR
+
+
+
+Source: ref 4823 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nak'i ima-ni no-ma tatse-ku-pa-sïren-p-ti ero-nu-rhi-ni jimpo-ka uanta-p-ka
+nak'i ima-ni no-ma tatse-ku-pa-sïren-p-ti ero-nu-rhi-ni jimpo-ka uanta-p-ka
+despite DEM.SG OBJ no one behind APPL.3 CONT HAB.PST PAST 3.IND wait patio MID OBJ INSTR 1/2IND speak PAST 1/2IND
+as if someone was behind him waiting, because he spoke
+
+
+Source: ref 6871 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jo ima=ksï p'urhe ka anti=ksï-sï no p'urhe jimpo ja-tsi-ni
+jo ima=kxï p'urhe ka anti=kxï-sï no p'urhe jimpo ja-tsi-ni
+yes DEM.SG =3PL P'urhepecha and why =3PL AOR no P'urhepecha INSTR exist FORM INF
+
+
+
+Source: ref 6873 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka ima enka=ksï libru ima=ksï purhu turhi in
+jimpo-ka ima enka=kxï libru ima=kxï purhu turhi in
+INSTR 1/2IND DEM.SG SUBORD =3PL book DEM.SG =3PL pumpkin no.purhepecha DEM.SG.ACC
+
+
+
+Source: ref 6897 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ts'ïma kani-kua sesi ireka-sïren-p-ti tsipi-kua jinkoni jimpo-ka=ksï kondenapka-p-ka sïruki sapichu-ni ma enka=ksï xani sesi xukuta-nt'a-p-ka
+ts'ïma kani-kua sesi ireka-sïren-p-ti tsipi-kua jinkoni jimpo-ka=kxï kondenapka-p-ka sïruki sapi-ni ma enka=kxï xani sesi xukuta-nt'a-p-ka
+DEM.PL much NMLZR good reside HAB.PST PAST 3.IND smile NMLZR POSTP INSTR FORM =3PL NONE PAST 1/2IND ant little OBJ one SUBORD =3PL alot good dress ITER PAST SBJNC
+They lived with a lot of happiness because they kondenapka a little ant that they dressed really well
+
+
+Source: ref 6899 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nanachi sïruki ni-pa sani ma kurucha-ni jupi-ma-a-ni nantiki=chka=ni sani ma kondenaaka-a-ka ka ima-ni jinkoni=ksï t'ire-a-ka ka materu=chka enka=ksï paka-mu-a-ka ni-ua-ka=ri maia-p'i-a-a-ni enka=ksï jimpo inte-ni sapi-ni xukuta-a-ka
+nanachi sïruki ni-pa sani ma kurucha-ni jupi-ma-a-ni nantiki=chka=ni sani ma kondenaaka-a-ka ka ima-ni jinkoni=kxï t'ire-a-ka ka máteru=chka enka=kxï paka-mu-a-ka ni-a-ka=ri mayo-p'i-a-a-ni enka=kxï jimpo inte-ni sapi-ni xukuta-a-ka
+Senora ant go CONT bit one fish OBJ grab liquid 3PL.OBJ OBJ maybe =then =1SG.SBJ bit one NONE FUT 1/2IND and DEM.SG OBJ POSTP =3PL eat FUT 1/2IND and another =then SUBORD =3PL remain LOC.mouth FUT SBJNC go FUT FORM =2SG trade BEN FUT 3PL.OBJ OBJ SUBORD =3PL INSTR DEM.SG OBJ little OBJ dress FUT 1/2IND
+Mrs. Ant i am going for a bit to grab a fish matbe then we kondenaaka and we are going to eat it and the other if we have left overs you are going to pay for those things that we are going to dress the little one
+
+
+Source: ref 6900 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï jimpo inte sesi k'uiripe-a-ka
+ka isï jimpo inte sesi k'uiripe-a-ka
+and APPROX INSTR DEM.SG good grow FUT 1/2IND
+and because of that he will grow fine
+
+
+Source: ref 4862 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka no=teru ts'ira-kuarhe-ka xarini jimpo
+enka no=teru ts'ira-kuarhe-ka xarini jimpo
+SUBORD no =still cold RFLX SBJNC early INSTR
+early when it's cold no more
+
+
+Source: ref 4867 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xukuparha-kua ampe pia-kuarhe-ni tata kristu-eri jimpo juka-nt'a-ni
+xukuparha-kua ampe piá-kuarhe-ni tata kristu-eri jimpo juka-nt'a-ni
+dress NMLZR something buy RFLX OBJ sir christ GEN INSTR wear ITER OBJ
+buying clothing for themselves that they are wearing during Christ's celebration
+
+
+Source: ref 6927 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kurucha-echa e-xe-n-ka teresmarhu-sïren-p-ti=ksï jimpo-ka isï ja-ma-ni ja-p-ka ts'ïma=chka no mi-s-p-ti ampe enka ima kani-kua sesi u-ni ja-ma-p-ka
+kurucha-echa e-xe-n-ka teresmarhu-sïren-p-ti=kxï jimpo-ka isï ja-ma-ni ja-p-ka ts'ïma=chka no mi-sï-p-ti ampe enka ima kani-kua sesi u-ni ja-ma-p-ka
+fish PL see FORM LNK 1/2IND laugh HAB.PST PAST 3.IND =3PL INSTR 1/2IND APPROX exist on.the.go INF exist PAST 1/2IND 3PL =then no know AOR PAST 3.IND what SUBORD DEM.SG much NMLZR good do OBJ exist on.the.go PAST 1/2IND
+The fish that saw him were laughing that he was acting like that, they did not know how much good he was doing
+
+
+Source: ref 4882 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï jimpo no=teru ampe jaakuarhe-pa-nt'a-ni
+ka isï jimpo no=teru ampe jaakuarhe-pa-nt'a-ni
+and likethis INSTR no =more something hurry CONT ITER OBJ
+and like this he won't be hurrying
+
+
+Source: ref 4886 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï jimpo ts'ïma u-ni eua-p'era-ni iamindu tumina ampe
+ka isï jimpo ts'ïma u-ni eua--ni iamintu tumina ampe
+and APPROX INSTR DEM.PL can OBJ take.away RECIP INF everyone money something
+so they can take away from each other all the money
+
+
+Source: ref 4890 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka tsima=ksï sesi pa-p'era-sïn-ti jimpo-ka ts'ïma isï jorhenta-na-s-ka
+ka tsima=ksï sesi pa--sïn-ti jimpo-ka ts'ïma isï jorhenta-na-sï-ka
+and two bothofthem good take RECIP HAB 3.IND INSTR 1/2IND 3PL APPROX teach PASS AOR 1/2IND
+and they got along fine because they were taught like that
+
+
+Source: ref 806 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi-tʃe-ni himpo =e-sï-ka pa-ni
+hi-tʃe-ni himpo=e-sï-ka pa-ni
+1SG me OBJ INSTR =be AOR 1/2IND take INF
+It is convenient for me to take.
+
+
+Source: ref 809 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+himbo =e-sï-ti pa-ni
+himpo=e-sï-ti pa-ni
+INSTR =be AOR 3.IND take INF
+it is convenient to take
+
+
+Source: ref 810 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iuan himbo =e-sï-ti wanta-tse-kwaɽe-ni
+Juanu himpo=e-sï-ti wanta-tse-kwaɽe-ni
+Juan INSTR =be AOR 3.IND speak down RFLX INF
+
+
+
+Source: ref 4925 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima-ni jimpo noampe mite-kuarhe-pirin-ka
+ka ima-ni jimpo no ampe mite-kuarhe-pirin-ka
+and DEM.SG OBJ INSTR no something know RFLX COND 1/2IND
+and with that he would not be recognized
+
+
+Source: ref 4927 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inchatiru jimpo
+inchataru jimpo
+afternoon INSTR
+In the afternoon
+
+
+Source: ref 4978 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpa-ni-s-p-ti=ksï jimpoisï no juka-ua-n-ti
+jimpa-ni-sï-p-ti=kxï jimpo isï no juka-a-n-ti
+new OBJ AOR PAST 3.IND =3PL INSTR likethis no wear 3PL.OBJ LNK 3.IND
+They were new, that’s why he wasn’t waering them.
+
+
+Source: ref 4985 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji tsipi-ni pikuarhe-s-ka jimpo-ka-ni e-xe-a-nt'a-s-p-ka uakasï-echa-ni tsipa jimpo=t'u
+ji tsipi-ni pikuarhe-sï-ka jimpo-ka-ni e-xe-a-nt'a-sï-p-ka uakasï-echa-ni tsipa jimpo=t'u
+1SG smile INF feel AOR 1/2IND INSTR FORM OBJ sight FORM 3PL.OBJ ITER AOR PAST 1/2IND ox PL OBJ morning INSTR =also
+I was feeling really hapy because I also found the oxen earlier
+
+
+Source: ref 897 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi tʃeni himbo =e-sï-ka pa-ŋka-ni
+hi tʃeeni himpo=e-sï-ka pa-ŋka-ni
+1SG how INSTR =be AOR 1/2IND take PASS INF
+it is convenient for me to be taken
+
+
+Source: ref 4996 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ma isï jámani-ni ma para p'urhe jimpo jurhen-ta-ni jarháni-ni
+ka ma isï jámani-ni ma para p'urhe jimpo juren-ta-ni jarháni-ni
+and one APPROX NONE INF one for P'urhepecha INSTR know CAUS INF NONE INF
+and because of our work, we also don't have enough time to teach our children P'urhepecha
+
+
+Source: ref 4997 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+o engari-ri p'urhe jimpo arhíauaka-a-ua-ka indéksïni-ni kurháchini-ni ia
+o engari-ri p'urhe jimpo arhíauaka-a-a-ka indéksïni-ni kurháchini-ni ia
+or NONE PAST P'urhepecha INSTR NONE FUT FUT 1/2IND NONE INF NONE INF already
+and when you try to talk to them in P'urepecha they can't even understand it anymore
+
+
+Source: ref 5002 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uanta-kua jimpo ampe
+uanta-kua jimpo ampe
+speak NMLZR INSTR something
+language, and our traditions too
+
+
+Source: ref 5008 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no jáka-ka jimpo-ka
+no jáka-ka jimpo-ka
+no NONE 1/2IND INSTR 1/2IND
+there is no way because
+
+
+Source: ref 5011 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inglesi jimpo uanta-ni ia o uanta-ni
+inglesi jimpo uanta-ni ia o uanta-ni
+English INSTR speak INF already or speak INF
+speak English or Spanish
+
+
+Source: ref 5012 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka p'urhe jimpo kasi
+ka p'urhe jimpo kasi
+and P'urhepecha INSTR almost
+and they barely
+
+
+Source: ref 5014 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo=sï-ni isï exe-ka pareceka no jáka-ka ixu
+jimpo=sï-ni isï exe-ka pareceka no jáka-ka ixu
+INSTR =FOC INF APPROX see SBJNC seems.like no NONE 1/2IND here
+that's why I think there is no possibility to save the language
+
+
+Source: ref 5020 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+p'urhe jimpo seguirini-ni uandákani-ka-ni
+p'urhe jimpo seguirini-ni uandákani-ka-ni
+P'urhepecha INSTR NONE INF NONE 1/2IND INF
+so they continue speaking P'urhepecha
+
+
+Source: ref 5021 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+nénachi-chi sani úpini-ni ampe úpini-ni úni-ni pari jini juchari iréta-ta jimpo enka ocumichuka-ka no k'amákurini-rini inte uanta-kua
+nénachi-chi sani úpini-ni ampe úpini-ni úni-ni para jini juchaeri iréta-ta jimpo enka ocumichuka-ka no k'amákurini-rini inte uanta-kua
+NONE APP.1/2 bit NONE INF something NONE INF NONE INF for there 1PL.GEN NONE CAUS INSTR SUBORD NONE 1/2IND no NONE PART DEM.SG speak NMLZR
+what could we do to prevent our language from disappearing in our town Ocumicho
+
+
+Source: ref 5038 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+uanta-pa-ni p'urhe jimpo jucha p'urhe utasi ia
+uanta-pa-ni p'urhe jimpo jucha p'urhe utaxï ia
+speak CONT OBJ P'urhepecha INSTR 1PL P'urhepecha still already
+to keep speaking P'urpecha with them or we speak P'urhepecha amongst each other  and the children are hearing the language
+
+
+Source: ref 5039 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+peru uanta-ni inte p'urhe jimpo
+pero uanta-ni inte p'urhe jimpo
+but speak INF DEM.SG P'urhepecha INSTR
+but they don't really speak it
+
+
+Source: ref 5043 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampe u-a ia contestarichindani-chi-ni jimpo-ka-ni ji
+ampe u-a ia contestarichindani-chi-ni jimpo-ka-ni ji
+something do FUT already NONE APP.1/2 INF INSTR FORM OBJ 1SG
+it's a difficult question and I can't really give you answer
+
+
+Source: ref 2999 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=kini himbo -ha-ka
+tʰu=kini himpo-ʃa-ka
+2SG =2SG.OBJ INSTR PROG 1/2IND
+
+
+
+Source: ref 3000 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+himbo
+himpo
+INSTR
+
+
+
+Source: ref 3001 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+dios himbo =e-ta-kwa ʃama-ha-ka
+diosï himpo=e-ta-kwa ʃama-ʃa-ka
+god INSTR =be CAUS NMLZR much PROG 1/2IND
+
+
+
+Source: ref 5052 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+p'urhepecha jimpo uanta-kua
+p'urhepecha jimpo uanta-kua
+Purhepecha INSTR speak NMLZR
+our language
+
+
+Source: ref 5053 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka i juchari uanta-kua ma repentku ixu ini ireta jimpo enka o ixu
+enka i juchaeri uanta-kua ma repenti ixu ini ireta jimpo enka o ixu
+SUBORD this 1PL.GEN speak NMLZR one suddenly here DEM.SG.ACC town INSTR SUBORD or here
+if suddenly our language disappears here in York or the United States
+
+
+Source: ref 3007 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tzacapu himbo
+tsakapu himpo
+stone INSTR
+
+
+
+Source: ref 3008 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʃukʰari himbo
+tʃukʰáɽi himpo
+wood INSTR
+
+
+
+Source: ref 5063 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Carolina jarha-s-ti ma=teru ireta jimpo anapu-echa
+Carolina jarha-sï-ti ma=teru ireta jimpo anapu-echa
+NorthCarolina be AOR 3.IND one =more town INSTR origin PL
+there are P'urepechas from other towns in North Carolina
+
+
+Source: ref 5070 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo
+jimpo
+INSTR
+How did you hear about them, who told you about them?
+
+
+Source: ref 5077 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka-chi jucha majku jimpo ixu anapu-echa uanikua ja-rha-sï-ka ini enka ja-ka ia
+enka-chi jucha majku jimpo ixu anapu-echa uanikua ja-rha-sï-ka ini enka ja-ka ia
+SUBORD APP.1/2 1PL same INSTR here origin PL many exist APPL AOR 1/2IND DEM.SG.ACC SUBORD exist 1/2IND already
+who many of us live come from the same town (ocumicho) and now we live here around the same area (York)
+
+
+Source: ref 5088 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jichani jucha-eri jimpo isï xésïngasï ia enka
+jichani jucha-eri jimpo isï xésïnga sï ia enka
+3PL.OBJ 1PL GEN INSTR APPROX NONE threads already SUBORD
+Well, I think that
+
+
+Source: ref 5091 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka meni=tku
+jimpo-ka meni=tku
+INSTR 1/2IND one.time =still
+because
+
+
+Source: ref 5094 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a pauani ka pauani kasi meni=tku jimpo-ka
+a pauani ka pauani kasi meni=tku jimpo-ka
+AUX tomorrow and tomorrow almost one.time =still INSTR 1/2IND
+let's say everyday our language continues to disappear
+
+
+Source: ref 5096 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte uap'a-echa-ni para p'urhe jimpo jurhen-ta-ni jarháni-ni
+inte uap'a-echa-ni para p'urhe jimpo juren-ta-ni jarháni-ni
+DEM.SG son PL OBJ for P'urhepecha INSTR know CAUS INF NONE INF
+they don't try to teach their children P'urepecha anymore
+
+
+Source: ref 5097 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+para p'urhe ma para p'urhe uanta-ni o nomasi jimpo-ka
+para p'urhe ma para p'urhe uanta-ni o nomas jimpo-ka
+for P'urhepecha one for P'urhepecha speak INF or only INSTR 1/2IND
+for someone to be consider P'urepecha, one has to speak the language
+
+
+Source: ref 5100 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte jucheeti ank'u jimpo
+inte jucheeti ank'u jimpo
+DEM.SG 1SG.GEN then INSTR
+I think that
+
+
+Source: ref 5101 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo ji isï xésïngasï p'urhe ma ima jimpo-ka p'urhe uanta-ka
+jimpo ji isï xésïnga sï p'urhe ma ima jimpo-ka p'urhe uanta-ka
+INSTR 1SG APPROX NONE threads P'urhepecha one DEM.SG INSTR 1/2IND P'urhepecha speak SBJNC
+what identifies a P'urepecha is the language
+
+
+Source: ref 5104 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji isï xésïngasï ia jucha-eri jimpo t'u
+ji isï xésïnga sï ia jucha-eri jimpo t'u
+1SG APPROX NONE threads already 1PL GEN INSTR 2SG
+that's what I think, what do you think?
+
+
+Source: ref 5106 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni ireta jimpo enka-chi jucha ia enka Ocumichuka-ka
+ima-ni ireta jimpo enka-chi jucha ia enka Ocumichuka-ka
+DEM.SG OBJ town INSTR SUBORD APP.1/2 1PL already SUBORD NONE 1/2IND
+where we grew up in Ocumicho
+
+
+Source: ref 5110 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+komo k'uiripi-ni ima-ni ireta jimpo
+komo k'uiripe-ni ima-ni ireta jimpo
+como grow OBJ DEM.SG OBJ town INSTR
+people growing up there in general
+
+
+Source: ref 5115 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iamu k'uiripu komu jimpo-ka
+iamintu k'uiripu komu jimpo-ka
+all people poor INSTR 1/2IND
+everyone really stuggled
+
+
+Source: ref 5122 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kani-kua jimpo-ka=chka
+kani-kua jimpo-ka=chka
+much NMLZR INSTR 1/2IND =then
+things really have changed
+
+
+Source: ref 5144 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka-ni sesi ji enka-ni ji uanikua
+jimpo-ka-ni sesi ji enka-ni ji uanikua
+INSTR FORM OBJ good 1SG SUBORD OBJ 1SG many
+and remember well is that
+
+
+Source: ref 5149 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka
+jimpo-ka
+INSTR 1/2IND
+it's different because
+
+
+Source: ref 5186 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ia jini mero kani-kua ia jimpo-ka
+ia jini mero kani-kua ia jimpo-ka
+already there very much NMLZR already INSTR 1/2IND
+it's really different compared to how scarce food was back then
+
+
+Source: ref 5189 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=chka no ia o
+jimpo-ka=chka no ia o
+INSTR 1/2IND =then no already or
+is because they don't have the desire to work
+
+
+Source: ref 5190 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no ueka-ni ia ánchikuari peru para iamindu jarha-s-ti ia jimpo-sï
+no ueka-ni ia ánchikuari pero para iamintu jarha-sï-ti ia jimpo-sï
+no want OBJ already work but for all be AOR 3.IND already INSTR AOR
+because there are jobs available here for everyone
+
+
+Source: ref 5192 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+para inte-ni escuela jurhen-kuarhi-ni jimpo-ka
+para inte-ni eskuela juren-kuarhe-ni jimpo-ka
+for DEM.SG OBJ school know RFLX INF INSTR 1/2IND
+when they go to school because
+
+
+Source: ref 5214 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u ampe jimpo esïka ixu
+t'u ampe jimpo exki ixu
+2SG something INSTR SUBORD here
+what is that makes you think
+
+
+Source: ref 5218 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni jimpo-ka
+ima-ni jimpo-ka
+DEM.SG OBJ INSTR 1/2IND
+because of the
+
+
+Source: ref 5231 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ampe jimpo
+ka ampe jimpo
+and something INSTR
+and what things make
+
+
+Source: ref 5236 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ireta-rhu arhi-ni juchari ireta jimpo
+ireta-rhu arhi-ni juchaeri ireta jimpo
+town LOC say INF 1PL.GEN town INSTR
+what makes our town
+
+
+Source: ref 3192 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka no himbo =e-ka tʰire-ni tʰu
+ka no himpo=e-ka tʰire-ni tʰu
+and no INSTR =be SBJNC eat INF 2SG
+
+
+
+Source: ref 5240 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jini no ma ampe jimpo
+jini no ma ampe jimpo
+there no one something INSTR
+is there anything
+
+
+Source: ref 5246 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka nira-ni ka sani jarha-s-ti jimpo-ka inte
+ka nira-ni ka sani jarha-sï-ti jimpo-ka inte
+and go INF and bit be AOR 3.IND INSTR 1/2IND DEM.SG
+to go around places and here it's a bit more complicated
+
+
+Source: ref 3202 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pablu we-ʃ-ti Mariani-ni himpo
+pablu we-sï-ti Mariani-ni himpo
+Pablo sad AOR 3.IND NONE OBJ INSTR
+Pablo has cried because of Maria.
+
+
+Source: ref 5252 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+juchari ireta jimpo u-sïn-ti u-ni
+juchaeri ireta jimpo u-sïn-ti u-ni
+1PL.GEN town INSTR do HAB 3.IND can INF
+and in our town one can
+
+
+Source: ref 5255 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni jatini jimpo juchiti tati a-rhi-j-ti=rini
+meni jatini jimpo jucheeti tati a-rhi-sï-ti=rini
+one.time time INSTR 1SG.GEN father say MID AOR 3.IND =1SG.OBJ
+One time,  my dad told me:
+
+
+Source: ref 5263 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+churi jimpo ji no káni sesi k'ui-sï-ka xani tsipi-ni ja-ra-ni enka=ni flecha jata-pirin-ka
+churi jimpo ji no kani sesi k'ui-sï-ka xani tsipi-ni ja-ra-ni enka=ni flecha jata-pirin-ka
+dusk INSTR 1SG no very good sleep AOR 1/2IND that happy INF exist VAL OBJ SUBORD =1SG.SBJ bus ride COND SBJNC
+At night, I couldn’t sleep well, because I was really happy that I would ride the bus.
+
+
+Source: ref 1211 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+dios himbo =e-ta-kwa u-sï-ka
+diosï himpo=e-ta-kwa u-sï-ka
+god INSTR =be CAUS NMLZR do AOR 1/2IND
+I did it for god.
+
+
+Source: ref 1212 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰutʃankʃïni himbo =e-ta-kwa
+tʰutʃankʃïni himpo=e-ta-kwa
+2PL.OBJ INSTR =be CAUS NMLZR
+
+
+
+Source: ref 5308 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+peka ni-nt'a-ka=ia jimpo-ka janikueka-sïn-ka=ia a-rhi-j-ti=tsïni jucha-eri tati
+peka ni-nt'a-ka=a jimpo-ka ja kueka-sïn-ka=a a-rhi-sï-ti=kxïni jucha-eri tati
+maybe go ITER SBJNC =already INSTR 1/2IND rain want HAB 1/2IND =already say MID AOR 3.IND =2PL.OBJ 1PL GEN father
+Maybe we are going back because it wants to rain already said to us my dad
+
+
+Source: ref 5317 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni jimpo juchiti tati arhi-j-ti=rini
+meni jimpo jucheeti tati arhi-s-ti=rini
+one.time INSTR 1SG.GEN father say AOR 3.IND =1SG.OBJ
+One time, xatini jimbo, my dad told me:
+
+
+Source: ref 5325 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+churi jimpo ji no káni sesi k'ui-s-ka xani tsipi-ni ja-ra-ni enka=ni flecha jata-pirin-ka
+churi jimpo ji no kani sesi k'ui-s-ka xani tsipi-ni ja-ra-ni enka=ni flecha jata-pirin-ka
+dusk INSTR 1SG no very good sleep AOR 1/2IND that smile INF exist VAL INF SUBORD =1SG.SBJ bus ride COND 1/2IND
+At night, I couldn’t sleep well, because I was really happy to ride a bus for the first time.
+
+
+Source: ref 1236 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+himbo
+himpo
+INSTR
+
+
+
+Source: ref 1239 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tata himbo =e-sï-ti misa aɽini
+tata himpo=e-sï-ti misa aɽini
+sir INSTR =be AOR 3.IND mass say
+The priest's occupation is to say mass.
+
+
+Source: ref 3289 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima kuɽa-tʃi-ʃ-tirini itʃuskuta ama-mpa-mpu
+ima kuɽa-tʃi-sï-ti=rini itʃuskuta ama-mpa-mpu
+DEM.SG request APP.1/2 AOR 3.IND 1SG.OBJ tortilla go 3.POSS INSTR
+Aquel me ha pedido tortillas por su madre
+
+
+Source: ref 1246 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+himbo =e-ta-kwa
+himpo=e-ta-kwa
+INSTR =be CAUS NMLZR
+
+
+
+Source: ref 1247 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hinteni himbo =e-ta-kwa
+hinteni himpo=e-ta-kwa
+1SG.OBJ INSTR =be CAUS NMLZR
+
+
+
+Source: ref 1248 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=kini himbo =e-ta-kwa
+tʰu=kini himpo=e-ta-kwa
+2SG =2SG.OBJ INSTR =be CAUS NMLZR
+
+
+
+Source: ref 1249 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+himbo =e-ta-kwa
+himpo=e-ta-kwa
+INSTR =be CAUS NMLZR
+
+
+
+Source: ref 1250 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tata-ni himpo teruntʃe-ha-ka
+tata-ni himpo teruntʃe-ʃa-ka
+sir OBJ INSTR destine PROG 1/2IND
+
+
+
+Source: ref 1253 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hasï wanta hinteni himbo
+hasï wanta hinteni himpo
+PROHIB speak NONE INSTR
+Do not talk about me.
+
+
+Source: ref 5370 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+peka=ksï ni-nt'a-ka=ia jimpo-ka janikueka-sïn-ka=ia arhi-j-ti=tsïni juchaeri tati
+peka=kxï ni-nt'a-ka=a jimpo-ka ja kueka-sïn-ka=a arhi-s-ti=kxïni juchaeri tati
+i.think =3PL go ITER 1/2IND =already INSTR 1/2IND rain want HAB 1/2IND =already say AOR 3.IND =2PL.OBJ 1PL.GEN father
+I think we have to go home because it’s about to rain, said my dad.
+
+
+Source: ref 5379 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ja-sï-p-ti meni jimpo ma turtuja ka ima mentku tsakapu-rhu jarha-sïren-ti tsatsinta
+ja-sï-p-ti meni jimpo ma turtuja ka ima mentku tsakapu-rhu jarha-sïren-ti tsatsinta
+exist AOR PAST 3.IND one.time INSTR one turtle and DEM.SG always stone LOC be HAB.PST 3.IND warm.up.under.sun
+Once upon a time there was a turtle that always was on the a rock waming up with the sun
+
+
+Source: ref 5403 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima kurhitsi ikia-s-ti jimpo ka ueka-ni p'ita-ma-nt'a-ni ka no u-ni
+ka ima kurhitsï  ikia-sï-ti jimpo ka ueka-ni p'ita-ma-nt'a-ni ka no u-ni
+and DEM.SG buzzard angry AOR 3.IND INSTR and want OBJ extract liquid ITER INF and no can INF
+And the buzzard got mad and wanted to get him out of the water but he couldn’t
+
+
+Source: ref 5407 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+juchiti nanti arhi-j-ti=rini ni pia-ni jimpo k'uiripita tata
+jucheeti nanti arhi-sï-ti=rini ni piá-ni jimpo k'uiripeta tati
+1SG.GEN mother say AOR 3.IND =1SG.OBJ go buy INF INSTR meat father
+My mom told me: “Go buy t’andumina jimbo meat at Mr. Miguel’s.”
+
+
+Source: ref 5425 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kaua-rhu o k'e-rhi jimpo
+kaua-rhu o k'e-rhi jimpo
+deep LOC or big LOC.body INSTR
+Through the ravine? Or through the main road?”
+
+
+Source: ref 5441 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ju kara-ma-ni ini sapichu-ni jimpo
+ju kara-ma-ni ini sapi-ni jimpo
+come ascend on.the.go INF DEM.SG.ACC little INF INSTR
+“Let’s go up the small hill.
+
+
+Source: ref 5481 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jarha-sï-p-ti=na ma acha-ti enka ni-p-ka t'upuri japu ata-nt'a-ni k'eri ireta ma jimpo
+jarha-sï-p-ti=na ma acha-ti enka ni-p-ka t'upuri japu ata-nt'a-ni k'eri ireta ma jimpo
+be AOR PAST 3.IND =evidential one man 3.IND SUBORD go PAST 1/2IND dust nixtamal sell ITER INF big town one INSTR
+There was a man that went to sell nixtamal ashes to a city
+
+
+Source: ref 5489 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+anti=ri=sï no ni-j-ki t'u t'upuri japu ata-nt'a-ni jini k'eri ireta jimpo
+anti=ri=sï no ni-sï-ki t'u t'upuri japu ata-nt'a-ni jini k'eri ireta jimpo
+why =2SG =FOC no go AOR INTER 2SG dust nixtamal sell ITER INF there big town INSTR
+-Why don’t you go sale nixtamal ash to the city?
+
+
+Source: ref 5495 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka isï no ionta-kua jimpo antara-ni jima=isï kuari ka arhi-ni=na
+ka isï no ionta-kua jimpo antara-ni jima isï kuari ka arhi-ni=na
+and APPROX no be.late NMLZR INSTR ascend OBJ there =APPROX keeper,guard and say OBJ =evidential
+and in a short time a guard went up around there and said
+
+
+Source: ref 5498 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni k'uani-ku-ni ka iasï k'oru asï=teru jama jua-ni jimpo-ka ji=kini ata-a-ka eka=kini menitaru ixu=isï e-xe-a-ka
+ni k'uani-ku-ni ka iaxï k'o asï=teru jama jua-ni jimpo-ka ji=kini ata-a-ka enka=kini meni taru ixu isï e-xe-a-ka
+go throw FORM INF and now yes.emphasized PROHIB =more bearound bring OBJ INSTR 1/2IND 1SG =2SG.OBJ beat FUT 1/2IND SUBORD =2SG.OBJ one.time other here =APPROX sight FORM FUT 1/2IND
+go throw it and now for sure don't be bringing that because I will beat you if I see you again around here
+
+
+Source: ref 5506 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ni-nt'a-ni ja-ni cheni no u-ni nia-nt'a-ni jimpo-ka churi-kua antanku-sï-p-ka ia
+ka ni-nt'a-ni ja-ni cheni no u-ni nya-nt'a-ni jimpo-ka churi-kua antanku-sï-p-ka ia
+and go ITER OBJ exist OBJ house no can OBJ arrive ITER INF INSTR 1/2IND dusk NMLZR reach AOR PAST 1/2IND already
+And going back to his house he couldn't arrive because the night reached him already
+
+
+Source: ref 5509 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni-pa ji anta-ni nantika=ksï kama-ni ja-ka a-kua ampe jimpo-ka-ni kani-kua k'arhima-xa-ka
+ni-pa ji anta-ni nantika=kxï kama-ni ja-ka a-kua ampe jimpo-ka-ni kani-kua k'arhima-xa-ka
+go CONT 1SG approach OBJ hopefully =3PL have OBJ exist 1/2IND eat NMLZR something INSTR FORM OBJ much NMLZR hungry PROG 1/2IND
+I am going to approach it, hopefully they have food because I am really hungry
+
+
+Source: ref 5514 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka=na k'ama-cha-ka t'ire-ni uanta-nt's-kuarhi-nt'a-xa-p-ti ia ima acha-ti-cha jinkoni ts'ïmaenka sïpa-ti-p-ka ka kani-kua churi-s-p-tia jimpo=ksï=isï iamintu-echa k'ui-p-ti ia
+enka=na k'ama-cha-ka t'ire-ni uanta-nt'a-kuarhe-nt'a-xa-p-ti ia ima acha-ti-cha jinkoni ts'ïma enka sïpa-ti-p-ka ka kani-kua churi-sï-p-ti a jimpo=kxï isï iamintu-echa k'ui-p-ti ia
+SUBORD =evidential finish throat 1/2IND eat INF speak ITER RFLX ITER PROG PAST 3.IND already DEM.SG man 3.IND men POSTP 3PL SUBORD steal 3.IND PAST 1/2IND and much NMLZR dusk AOR PAST 3.IND duskedalready INSTR =3PL =APPROX everyone PL sleep PAST 3.IND already
+When he finished to eat he was talking with the men, they were thieves, and it was very dark that's why everyone went to sleep
+
+
+Source: ref 5524 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka mentku=ksï=na kauaru ma jimpo ueka-nki-ni
+ka mentku=kxï=na kauaru ma jimpo ueka-nki-ni
+and suddenly =3PL =evidential gully one INSTR drop SUB OBJ
+and suddenly they fell in a gully
+
+
+Source: ref 1448 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+durasno tiri-ko-pʰi-ti tewetsapekwa himbo
+durasno tiri-ko-pʰi-ti tewetsapekwa himpo
+peach hang lean.down PST 3.IND weight INSTR
+
+
+
+Source: ref 5548 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïka=ri jimpo-sï no=teru jua-pirinia
+exki=ri jimpo-sï no=teru jua-pirin ia
+SUBORD =2SG INSTR AOR no =still bring COND already
+and that's why you would bring no more
+
+
+Source: ref 5552 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+acha-ti ma=na xani=na komu jama-sïren-p-ti joperu komu jama-ni kani-kua no sani=k'u isï =ia ka uani taki kangua-rhi-a-ni=na ka jimpo no=chka=na meni u-sïren-p-ti t'ire-ni k'uparha-ni jimpo-ka ts'ïma taki-echa eua-mu-ku-pa-sïren-p-ka
+acha-ti ma=na xani=na komu jama-sïren-p-ti pero komu jama-ni kani-kua no sani=k'u isï=a ka uani taki kankua-rhi-a-ni=na ka jimpo no=chka=na meni u-sïren-p-ti t'ire-ni k'uparha-ni jimpo-ka ts'ïma tataka-echa eua-mu-ku-pa-sïren-p-ka
+man 3.IND one =evidential alot =evidential suffer bearound HAB.PST PAST 3.IND but suffer bearound INF much NMLZR no bit =only APPROX =already and much child keep MID 3PL.OBJ OBJ =evidential and INSTR no =then =evidential one.time do HAB.PST PAST 3.IND eat INF stomach OBJ INSTR 1/2IND DEM.PL boy PL take.away LOC.mouth APPL.3 IMPRTV HAB.PST PAST 1/2IND
+There was a man that was poor, but really really poor, and if that was not enough, he also had many children and because of this he never had enough food to fill up his stomach.
+
+
+Source: ref 5553 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni=tku isï k'arhima-ni paka-sïren-p-ti jimpo-ka=chka taki-echa isï eua-mu-ku-pa-sïren-p-ka =ia
+meni=tku isï k'arhima-ni paka-sïren-p-ti jimpo-ka=chka tataka-echa isï eua-mu-ku-pa-sïren-p-ka=a
+one.time =still frequently hungry OBJ remain HAB.PST PAST 3.IND INSTR 1/2IND =then boy PL likethis take.away LOC.mouth APPL.3 CONT HAB.PST PAST 1/2IND =already
+He always remained hungry because his children always took away the food from his mouth.
+
+
+Source: ref 5564 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte-ni=t'u=rini jama-tara-kua ma jatsi-ra-chi enka=ni jimpo ji jini juuata -rhu andara-tini u-nt'a-kuarhi-a-ua-ka ia ka inte-ni k'auasï ka ts'urupsï sani usta-ntsï
+inte-ni=t'u=rini jama-tara-kua ma jatsi-ra-chi enka=ni jimpo ji jini juuata -rhu andara-tini u-nt'a-kuarhe-a-a-ka ia ka inte-ni k'auasï ka tsurupsï sani usta-ntsï
+DEM.SG OBJ =also =1SG.OBJ bearound CAUS NMLZR one put FORM APP.1/2 SUBORD =1SG.SBJ INSTR 1SG there mount LOC climb PART do ITER RFLX 3PL.OBJ FUT 1/2IND already and DEM.SG OBJ chile and onion bit cut LOC.head
+-And put me that cazuela that I will use to make food and cut some chiles and onions
+
+
+Source: ref 5571 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iasï-ka-ni ia ima-ni tsikata-echa-ni tanimu jatsi-ma-ua-sï-p-ti ia jimpo-ka ima isï=isï tsiti-mpa esï-ka sani ma xanaru k'uparha-nt'a-pirin-ka t'ire-ni ia
+iaxï-ka-ni ia ima-ni tsikata-echa-ni tanimu jatsi-ma-a-sï-p-ti ia jimpo-ka ima isï isï tsiti-mpa exki-ka sani ma xanaru k'uparha-nt'a-pirin-ka t'ire-ni ia
+now 1/2IND OBJ already DEM.SG OBJ hen PL INF three put on.the.go 3PL.OBJ AOR PAST 3.IND already INSTR 1/2IND DEM.SG likethis =APPROX like 3.POSS SUBORD 1/2IND bit one time stomach ITER COND SBJNC eat INF already
+he put the three chickens in the cazuela already, because that’s how he liked them. That this time he would fill the stomach after eating already
+
+
+Source: ref 5572 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka ioni no=teru k'uparha-sï-p-ka jimpo-ka uap'a-echa jukari kani eua-mu-ku-sïren-p-ka
+jimpo-ka yoni no=teru k'uparha-sï-p-ka jimpo-ka uap'a-echa jukari kani eua-mu-ku-sïren-p-ka
+INSTR 1/2IND long.time no =still stomach AOR PAST 1/2IND INSTR 1/2IND son PL too much take.away LOC.mouth APPL.3 HAB.PST PAST 1/2IND
+because in a long time he didn't fill his stomach because his children  took away food from his mouth too much
+
+
+Source: ref 5575 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+no=chka=na no-ma xarha-ra-ni jimpo-ka juuata -rhu andara-tini-sï-p-ka jimaenka no=teru no-ma jama-p-ka
+no=chka=na no-ma xarha-ra-ni jimpo-ka juuata -rhu andara-tini-sï-p-ka jima enka no=teru no-ma jama-p-ka
+no =then =evidential no one appear CAUS OBJ INSTR 1/2IND mount LOC climb PART AOR PAST 1/2IND there SUBORD no =more no one bearound PAST SBJNC
+And then no one appeared because he climbed in the mountain, there where no one else was
+
+
+Source: ref 5576 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka sesi e-ra-tsi-sï-p-ka jima nia-ra-ni t'ire-ni jimaenka nomeni=t'u=teru no-ma eua-mu-ku-pirin-ka ia
+jimpo-ka sesi e-ra-tsi-sï-p-ka jima nya-ra-ni t'ire-ni jima enka no meni=t'u=teru no-ma eua-mu-ku-pirin-ka ia
+INSTR 1/2IND good see CAUS down AOR PAST 1/2IND there arrive FORM OBJ eat INF there SUBORD no one.time =also =more no one take.away LOC.mouth APPL.3 COND SBJNC already
+because he thought good to arrive there to eat there where no else could take away his food
+
+
+Source: ref 5577 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xasï=na enka ima uanta-p-ka t'irekueka-ni ma=na imeri pexu jimpo kuarha-ku=rini=na
+xasï=na enka ima uanta-p-ka t'ire kueka-ni ma=na imeri pexu jimpo kuarha-ku=rini=na
+later =evidential SUBORD DEM.SG speak PAST 1/2IND eat want INF one =evidential 3SG.POSS Back INSTR break APPL.3 =1SG.OBJ =evidential
+Later when he said that he wanted to eat suddenly on his back siuiki broke "kuarhaasi"
+
+
+Source: ref 5588 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo ji iasï no intsï-p'i-a-ka
+jimpo ji iaxï no intsï-p'i-a-ka
+INSTR 1SG now no give BEN FUT 1/2IND
+That's why I will not gift him anything
+
+
+Source: ref 5597 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo ji=t'u=kini iasï no intsï-p'i-a-ka echusku-ta
+jimpo ji=t'u=kini iaxï no intsï-p'i-a-ka echusïku-ta
+INSTR 1SG =also =2SG.OBJ now no give BEN FUT 1/2IND make.tortillas NMLZR
+That's why I will not give you tortillas
+
+
+Source: ref 5636 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-sï sesi arhi-p-ti ia
+jimpo-sï sesi arhi-p-ti ia
+INSTR AOR good say PAST 3.IND already
+That's why he replied kindly
+
+
+Source: ref 5650 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka t'u=rini kani sesi t'ire-ra-sï-ka ia
+jimpo-ka t'u=rini kani sesi t'ire-ra-sï-ka ia
+INSTR 1/2IND 2SG =1SG.OBJ much good eat CAUS AOR 1/2IND already
+because you fed me really good
+
+
+Source: ref 5651 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka inte-ni t'ire-kua-ni jimpo iumu tsimani uexurhini=teru-ni chupe-a-ka t'u
+ka inte-ni t'ire-kua-ni jimpo iumu tsimani uexurini=teru-ni tekaa-a-ka t'u
+and DEM.SG OBJ eat NMLZR OBJ INSTR five two year =more OBJ hard FUT 1/2IND 2SG
+and because of that food you will be strong for seven more years
+
+
+Source: ref 3604 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima=rini arhi-ni ni-ua-ka=ri sani k'arha-ch'a-ta-ni tapanku-rhu jimpo-ka=na pauani p'iku-nha-nt'a-ka
+ka ima=rini arhi-ni ni-a-ka=ri sani k'arha-ch'a-ta-ni tapanku-rhu jimpo-ka=na pauani p'iku-nhka-nt'a-ka
+and DEM.SG =1SG.OBJ say INF go FUT FORM =2SG bit sweep LOC.between.ceiling.andwall CAUS OBJ tapanco LOC INSTR FORM =evidential tomorrow harvest PASS ITER 1/2IND
+And he told him: “go sweep the attic, because I am harvesting tomorrow.”
+
+
+Source: ref 5656 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka ji ioni komu a-rhi-kuarhi-sï-ka
+jimpo-ka ji yoni komu a-rhi-kuarhe-sï-ka
+INSTR 1/2IND 1SG long.time suffer say LOC.body RFLX AOR 1/2IND
+because I told him myself about my long suffering
+
+
+Source: ref 5658 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka ji ioni komu a-rhi-kuarhi-sï-ka ia
+jimpo-ka ji yoni komu a-rhi-kuarhe-sï-ka ia
+INSTR 1/2IND 1SG long.time suffer say LOC.body RFLX AOR 1/2IND already
+because I told him about my long suffering
+
+
+Source: ref 5662 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo ji no intsï-n-p'i-sï-ka
+jimpo ji no intsï-n-p'i-sï-ka
+INSTR 1SG no give LNK BEN AOR 1/2IND
+That's why I didn't gift him anything
+
+
+Source: ref 5663 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka cha-n=ksïni jimpo-sï intsï-ku-ka
+ka cha-n=kxïni jimpo-sï intsï-ku-ka
+and 2PL LNK =2PL.OBJ INSTR AOR give FORM 1/2IND
+That's why I gave you some
+
+
+Source: ref 5664 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka cha meni=tku iamindu jarha-ti pa-ua-nt'a-sïn-ka
+jimpo-ka cha meni=tku iamintu jarha-ti pa-a-nt'a-sïn-ka
+INSTR 1/2IND 2PL one.time =still everyone NONE 3.IND take 3PL.OBJ ITER HAB 1/2IND
+because you always take everyone back
+
+
+Source: ref 3619 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima a-a-j-ti t'u tata sirilu ni arhi-ni surka-ni jimpo
+ka ima a-a-sï-ti t'u tata sirilu ni arhi-ni surka-ni jimpo
+and DEM.SG say 3PL.OBJ AOR 3.IND 2SG sir Cirilo go this OBJ groove OBJ INSTR
+And he told them: “ you Mr. Cirilo, go through this groove.
+
+
+Source: ref 3622 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka t'u manu inte-ni surka-ni jimpo
+ka t'u manu inte-ni surka-ni jimpo
+and 2SG Manu DEM.SG OBJ groove OBJ INSTR
+And you Manu, go through that groove.”
+
+
+Source: ref 1576 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=na luego uarhi-pirin-ka eka jama-pirin-ka uanta-nt'a-ni
+jimpo-ka=na luego uarhi-pirin-ka enka jama-pirin-ka uanta-nt'a-ni
+INSTR FORM =evidential later die COND 1/2IND SUBORD bearound COND SBJNC speak ITER OBJ
+because he would die if he would be telling people
+
+
+Source: ref 1577 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-sï ima jandiajku-tu miti-pirin-ti iamindu animali-echa-eri uanta-kua ampe
+jimpo-sï ima jandiajku-tu miti-pirin-ti iamintu animali-echa-eri uanta-kua ampe
+INSTR AOR DEM.SG alone DIM know COND 3.IND all animal PL GEN speak NMLZR something
+That’s why only himself would know all of the animals' conversations
+
+
+Source: ref 1578 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni jimpo nitama-ni jama-ni korrali-rhu
+meni jimpo nitama-ni jama-ni korrali-rhu
+one.time INSTR pass OBJ bearound OBJ corral LOC
+One time he was passing by the corral
+
+
+Source: ref 1582 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+konti-kuarhi-sïren-ti jimpo-ka=na xani anchi-ta=na ka no sani sesi arhi=na-ni
+konti-kuarhe-sïren-ti jimpo-ka=na xani anchi-ta=na ka no sani sesi arhi=na-ni
+condole RFLX HAB.PST 3.IND INSTR 1/2IND =evidential that work CAUS =evidential and no bit good say =evidential OBJ
+(kondikuarisaramti) because he made him work a lot and talked to him badly
+
+
+Source: ref 5686 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hini peta-p-ti tsʰa-mpo
+hini peta-p-ti ta-mpu
+there take.out PAST 3.IND home INSTR
+She took her from her own house / Se la llevó de su propia casa
+
+
+Source: ref 5687 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka hini ma pa-ni ʃanaru himpo ima=ki Mehiki nira-an-ka
+ka hini ma pa-ni ʃanaru himpo ima=ki Mehiki nira-an-ka
+and there one take INF road INSTR DEM.SG =RELT Mexico go PAST SBJNC
+She took her to the road to Mexico / Se la llevó para el camino hacia México
+
+
+Source: ref 5693 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni-a=rimpo ʃanaru
+ni-a=ri himpo ʃanaru
+go FUT =2SG INSTR road
+Go down road.
+
+
+Source: ref 1598 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kuajpi-kuarhi sïuankua jimpo
+kuajpi-kuarhe sïuankua jimpo
+fend RFLX horn INSTR
+defend youself with your horns
+
+
+Source: ref 3657 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka menteru-ni ji k'ui-nt'a-s-ni ka ioni ioni jimpo kurha-s-ka-ni ma uanta-ni
+ka menteru-ni ji k'ui-nt'a-sï-ni ka yoni yoni jimpo kurha-sï-ka-ni ma uanta-ni
+and again OBJ 1SG sleep ITER AOR OBJ and long.time long.time INSTR hear AOR 1/2IND OBJ one speak OBJ
+Then I went back to sleep,  and after a long time I heard someone say:
+
+
+Source: ref 1610 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka sïuankua jimpo ueka-ni ata-ni
+ka sïuankua jimpo ueka-ni ata-ni
+and horn INSTR want OBJ hit INF
+and wanting to hit him with his horns
+
+
+Source: ref 3664 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pauani-ti tsipa jimpo ju-nkua-j-ti susana juchiti tati-ni jinkoni ka a-nti-ni
+pauani-ti tsipa jimpo ju-nkua-sï-ti susana jucheeti tati-ni jinkoni ka a-nti-ni
+tomorrow 3.IND morning INSTR come CENTR AOR 3.IND Susana 1SG.GEN father OBJ POSTP and say LOC.ear OBJ
+The next morning, Susana and my dad came back and he told me:
+
+
+Source: ref 1625 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+apénasi u-sïren-ti anha-ni xani kuatara-ni ka xani p'ame-rhi-kuarhi-ni jimpo-ka xani ata=na-sï-p-ka
+apénasi u-sïren-ti anha-ni xani kuatara-ni ka xani p'ame-rhi-kuarhe-ni jimpo-ka xani ata=na-sï-p-ka
+barely can HAB.PST 3.IND stand.up INF that get.tired OBJ and that pain LOC.body RFLX OBJ INSTR 1/2IND that hit =evidential AOR PAST 1/2IND
+He could barely stand because he was so tired and he was in pain because they hit him a lot
+
+
+Source: ref 3673 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima-ni tumina jimpo pia-ka uani-kua blankiiui-echa-ni tsikata-eri ka uaxa-ra-nt'a-ka ma tsikata-ni ka ima no ionta-ti p'ita-ni uani-kua pipisï-echa-ni
+ima-ni tumina jimpo piá-ka uani-kua blankiiui-echa-ni tsikata-eri ka uaxa-ra-nt'a-ka ma tsikata-ni ka ima no ionta-ti p'ita-ni uani-kua pipisï-echa-ni
+DEM.SG INF money INSTR buy SBJNC much NMLZR eggs PL INF hen GEN and sit VAL ITER 1/2IND one hen INF and DEM.SG no be.late 3.IND extract INF much NMLZR chicken PL OBJ
+“with the money I'm buying many hen eggs and I am making a hen sit on the egss and they will not take long to bring out many chickens
+
+
+Source: ref 3674 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ts'ïma pipisï-cha no ionta-ti k'e-ra-na-ni ka menteru-ni ji intsi-p'i-kuarhi-a-ua-ka uani tumina jimpo ka luego pia-ua-ka tsimani chibu-echa-ni ka ts'ïma tsimani chibu-echa ka-ua-ti uani-kua chibu sapi-rha-ti-echa-ni
+ts'ïma pipisï-cha no ionta-ti k'e-ra-na-ni ka menteru-ni ji intsï-p'i-kuarhe-a-a-ka uan- tumina jimpo ka luego piá-a-ka tsimani chibu-echa-ni ka ts'ïma tsimani chibu-echa ka-a-ti uani-kua chibu sapi-rha-ri-echa-ni
+3PL chicken chickens no be.late 3.IND grow CAUS PASS OBJ and again OBJ 1SG give BEN RFLX FUT FUT 1/2IND many money INSTR and later buy FUT 1/2IND two goat PL OBJ and 3PL two goat PL and FUT 3.IND much NMLZR goat little APPL AGT PL INF
+.Those chickes will not take long to grow and again I will sell them myself for a lot of money and after I will buy two goats and those two goats will have many little goats
+
+
+Source: ref 3675 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+xani sesi nitama-kuarhi-kua jatsi-a-ka jimpo-ka-ni xeáuaka-a-ua-ka juchiti chibu-echa-ni enka=ksï mentku isï jama-ni ja-ua-ka jini ka jini tsankuara-ni juata-rhu anta-ni isï
+xani sesi nitama-kuarhe-kua jatsi-a-ka jimpo-ka-ni xeáuaka-a-a-ka jucheeti chibu-echa-ni enka=kxï mentku isï jama-ni ja-a-ka jini ka jini tsankuara-ni juuata -rhu anta-ni isï
+that good pass RFLX NMLZR have FUT 1/2IND INSTR FORM OBJ NONE FUT FUT 1/2IND 1SG.GEN goat PL OBJ SUBORD =3PL always likethis bearound INF exist FUT 1/2IND there and there jump INF mount LOC approach INF likethis
+. I will have such a good time becauase I will be seeing my goats jumpig from here to here nonstop in the mount andachukuerani isi
+
+
+Source: ref 3678 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï u-kuarhi-sï-ti=ksï uarhi-ti-cha enka=ksï isï ma rati-tu jimpo iamindu ampe tsiti-ka ka ueka-n isï ja-tsi-ni ka isi=t'u ma rati-tu jimpo iamindu ampe k'ama-ra-sïn-ti
+isï u-kuarhe-sï-ti=kxï uarhi-ti-cha enka=kxï isï ma rati-tu jimpo iamintu ampe tsiti-ka ka ueka-n isï ja-tsi-ni ka isï=t'u ma rati-tu jimpo iamintu ampe k'ama-ra-sïn-ti
+likethis do RFLX AOR 3.IND =3PL woman 3.IND towomen SUBORD =3PL likethis one time DIM INSTR all something like NONE and want LNK likethis exist FORM INF and APPROX =also one time DIM INSTR all something finish VAL HAB 3.IND
+This is what happens to women that for a moment like everything and want to have all, and also just like this in a moment everything runs out
+
+
+Source: ref 1636 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+pori juchiti tontu-kua jimpo uarhi-kua ero-kuarhe-ni
+pori jucheeti tontu-kua jimpo uarhi-kua ero-kuarhe-ni
+for 1SG.GEN silly NMLZR INSTR die NMLZR wait RFLX OBJ
+for my sillyness I'm wating for death
+
+
+Source: ref 1638 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma tsipa jimpo ji chana-xa-p-ka juchiti amigu pedru=ni jinkoni
+ma tsipa jimpo ji chana-xa-p-ka jucheeti amigu pedru=ni jinkoni
+one morning INSTR 1SG play PROG PAST 1/2IND 1SG.GEN friend Pedro =1SG.SBJ POSTP
+One morning I was playing with my friend Pedro
+
+
+Source: ref 3695 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ju=chka inte k'uinchi-kua jimpo enka jinte-ka kinse
+ju=chka inte k'uinchi-kua jimpo enka jinte-ka kinse
+come =then DEM.SG party NMLZR INSTR SUBORD DEM.SG SBJNC fifteen
+“Yes, come then when there is the party of the fifteen.
+
+
+Source: ref 3697 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ji tsipi-ni tsipi-s-ka-ni jimpo-ka=ksï no meni ni-s-p-ka japonta-rhuisï
+ka ji tsipi-ni tsipi-sï-ka-ni jimpo-ka=kxï no meni ni-sï-p-ka japonta-rhu isï
+and 1SG smile INF smile AOR 1/2IND OBJ INSTR FORM =3PL no one.time go AOR PAST 1/2IND lake LOC APPROX
+And I smiled, and smiled, because I never went around the lake .
+
+
+Source: ref 3698 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka menteru jimpo susana arhi-j-ti=rini
+ka menteru jimpo susana arhi-sï-ti=rini
+and again INSTR Susana say AOR 3.IND =1SG.OBJ
+And Susana again said to me:
+
+
+Source: ref 3699 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+peka=ksï ni-ua-ka xanichuisï jimpo-ka nanti tana-xa-ka perasï ampe para intsi-p'i-kuarhi-ni
+peka=kxï ni-a-ka xanichu isï jimpo-ka nanti tana-xa-ka perasï ampe para intsï-p'i-kuarhe-ni
+i.think =3PL go FUT 1/2IND Janitzio APPROX INSTR FORM mother collect PROG 1/2IND pears something for give BEN RFLX INF
+“I think we are going to Janitzio, because mom is collecting  pears to give away erhonarhikuarhisi.”
+
+
+Source: ref 3704 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka pauani-ti jimpo juchiti nanti uanta-pa-j-ti nana martínani-ni xanichu anapu-ni
+ka pauani-ti jimpo jucheeti nanti uanta-pa-sï-ti nana martínani-ni xanichu anapu-ni
+and tomorrow 3.IND INSTR 1SG.GEN mother call CONT AOR 3.IND HON NONE INF Janitzio origin OBJ
+And the next day, my mom was calling Mrs. Martina, she was from Janitzio:
+
+
+Source: ref 3709 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+lunisï tsipku jimpo exe-a-nt'a-s-ka=ksï maru xanichu anapu-echa-ni chekakua jinkoni
+lunisï tsipku jimpo exe-a-nt'a-sï-ka=kxï maru xanichu anapu-echa-ni chek'akua jinkoni
+monday early INSTR see 3PL.OBJ ITER AOR FORM =3PL some Janitzio origin PL OBJ canoe POSTP
+Monday, really early,  we found a few people from Janitzio with their canoes.
+
+
+Source: ref 5762 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima aɽi-sï-p-ti niaɽini-ɽi-ni kʰwiripu-etʃa waɽi-ni himpo
+ka ima aɽi-sï-p-ti niaɽini-ɽi-ni kʰwiripu-etʃa  waɽi-ni himpo
+and DEM.SG name AOR PAST 3.IND NONE LOC.body INF people PL woman OBJ INSTR
+
+
+
+Source: ref 5785 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hini peta-p-ti tsʰa-mpo
+hini peta-p-ti ta-mpu
+there take PAST 3.IND home INSTR
+She took her from her own house / Se la llevó de su propia casa
+
+
+Source: ref 5786 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka hini ma pa-ni ʃanaru himpo ima=ki Mehiki nira-an-ka
+ka hini ma pa-ni ʃanaru himpo ima=ki Mehiki nira-an-ka
+and there one take INF road INSTR DEM.SG =RELT Mexico go PAST SBJNC
+She took her to the road to Mexico / Se la llevó para el camino hacia México
+
+
+Source: ref 5792 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni-a=rimpo ʃanaru
+ni-a=ri himpo ʃanaru
+go FUT =2SG INSTR road
+Go down road.
+
+
+Source: ref 3749 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-sï jankorhen-ti juuata -rhu isï nira-ni iui-kuarhe-ni ampe
+jimpo-sï jankurhi-ti juuata -rhu isï nira-ni iui-kuarhe-ni ampe
+INSTR AOR hurry 3.IND mount LOC APPROX go INF collect.firewood RFLX INF something
+That’s why he hurried to go to the mount to go collect firewood
+
+
+Source: ref 3750 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka mantani pauani nira-sïren-ka juuata -rhu
+jimpo-ka mantani pauani nira-sïren-ka juuata -rhu
+INSTR 1/2IND each tomorrow go HAB.PST SBJNC mount LOC
+arhimentani, because he went to the mount every day
+
+
+Source: ref 3761 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka iauani isï eskae-ra-s-p-ti ima-ni axuni jinkoni
+jimpo-ka iauani isï exki e-ra-sï-p-ti ima-ni axuni jinkoni
+INSTR 1/2IND far APPROX SUBORD see FORM AOR PAST 3.IND DEM.SG OBJ wild.animal POSTP
+because he saw that deer from far away
+
+
+Source: ref 3773 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka=ksï ima k'oru sontku uani=e-sïn-ka
+jimpo-ka=kxï ima k'o sontku uani=e-sïn-ka
+INSTR FORM =3PL DEM.SG yes.emphasized quick much =be HAB 1/2IND
+because they become many quick
+
+
+Source: ref 3782 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka mataru nema-ni axa-a-ka anche-ta-ni ia
+jimpo-ka ma taru nema-ni axa-a-ka anchi-ta-ni ia
+INSTR 1/2IND one other someone OBJ send FUT SBJNC work CAUS INF already
+Because I will send another person to work already
+
+
+Source: ref 3799 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo unta-s-ti konti-kuarhi-ni ka pikuarhe-ra-ni
+isï jimpo unta-s-ti konti-kuarhe-ni ka pikuarhe-ra-ni
+likethis INSTR begin AOR 3.IND condole RFLX INF and feel CAUS INF
+And for this reason he started to feel sad for himself and he felt like he wanted to cry
+
+
+Source: ref 3800 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni jimpo enka no burru unta-s-ti ka pori isï jandiajku
+meni jimpo enka no burru unta-s-ti ka pori isï jantiak'u
+one.time INSTR SUBORD no donkey begin AOR 3.IND and for likethis single
+One day when the owner didn’t take out the donkey anywhere, he began to think and lastly said to himself:
+
+
+Source: ref 3808 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka jimpo no sesi jimpo-ka isï no sesi
+ka jimpo no sesi jimpo-ka isï no sesi
+and INSTR no good INSTR 1/2IND likethis no good
+Then the owner and the visitors beat him with sticks very badly, because he had done wrong
+
+
+Source: ref 3809 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo no u-s-ti sesi paka-ni para sesi ka ampe esika ima na ueka-ni
+isï jimpo no u-s-ti sesi paka-ni para sesi ka ampe exki ima na ueka-ni
+likethis INSTR no do AOR 3.IND good remain INF for good and something SUBORD DEM.SG how want INF
+And for this the donkey couldn’t give a good impression, and win a positive view from everyone, and some kisses like he wanted to
+
+
+Source: ref 5861 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima aɽi-s-p-ti niaɽini-ɽi-ni kʰwiripu-etʃa waɽi-ni himpo
+ka ima aɽi-s-p-ti niaɽini-ɽi-ni kʰwiripu-etʃa  waɽi-ni himpo
+and DEM.SG name AOR PAST 3.IND NONE LOC.body INF people PL woman OBJ INSTR
+because
+
+
+Source: ref 3821 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka káma ja-p-ka ma ka jimpo ka no
+ka káma ja-p-ka ma ka jimpo ka no
+and use exist PAST 1/2IND one and INSTR and no
+And when the wolf was being so gentle with him, the donkey suddenly stood up and with its two back legs kicked the wolf that sent him flying, the wolf landed so badly that even when he landed he was still rolling around the grass.
+
+
+Source: ref 1777 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kwiripu-ni himbo
+kʰwiripu-ni himpo
+people OBJ INSTR
+
+
+
+Source: ref 3825 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ma enka ma meni jimpo sani imeri
+ma enka ma meni jimpo sani imeri
+one SUBORD one one.time INSTR bit 3SG.POSS
+Once upon a time there was a mouse who lived in the city that went to visit his cousin
+
+
+Source: ref 3829 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima anapu saniisï nomasi para no xani jarháni-ni tatsikua jimpo-ka no sani ima-ni xani
+ima anapu sani isï no masi para no xani jarháni-ni tatsekua jimpo-ka no sani ima-ni xani
+DEM.SG origin bit APPROX no more for no that NONE INF after INSTR 1/2IND no bit DEM.SG INF that
+The City Mouse ate just a little bit to avoid feeling too hungry later, because that humble meal was not good enough for him
+
+
+Source: ref 1782 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+kwiripu -etʃa-ni himpo
+kʰwiripu-etʃa -ni himpo
+people PL OBJ INSTR
+
+
+
+Source: ref 5881 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+materu jimpo wexurhini kani-kua k'e-s-p-ti ia
+máteru jimpo uexurini kani-kua k'e-sï-p-ti ia
+another INSTR year much NMLZR big AOR PAST 3.IND already
+and the next year it grew a lot
+
+
+Source: ref 1787 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsiuereti-ni himpo
+tsiwereti-ni himpo
+male OBJ INSTR
+
+
+
+Source: ref 1792 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsihuintsa-ni himpo
+tsiwintsa-ni himpo
+males OBJ INSTR
+
+
+
+Source: ref 3843 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sapi esika ima na jimpo-ka sani
+sapi exki ima na jimpo-ka sani
+little SUBORD DEM.SG how INSTR 1/2IND bit
+The little mouse quickly liked the idea of visiting as the frog told him because the frog knew how to swim
+
+
+Source: ref 3846 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+arhi-s-ti ma jinkoni ma jimpo u-ni
+arhi-s-ti ma jinkoni ma jimpo u-ni
+say AOR 3.IND one POSTP one INSTR do INF
+The frog told him: Of course, but we need to tie together your leg and my leg with a (p’atsimu) so I can help you
+
+
+Source: ref 5895 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo isï iki-a-p-ti anhatapu
+jimpo isï iki-a-p-ti anhatapu
+INSTR APPROX if,as CNTR PAST 3.IND fir
+That's why the tree got mad
+
+
+Source: ref 3850 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka jimpo
+enka jimpo
+SUBORD INSTR
+the frog was starting to untie the (p’atsimu- mustache) that he used to tie his legs
+
+
+Source: ref 3853 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo ka k'uiripita para t'ire-ni
+isï jimpo ka k'uiripeta para t'ire-ni
+likethis INSTR and meat for eat INF
+And just like that, the hawk captured fish and meat to eat
+
+
+Source: ref 3855 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+meni jimpo ma ka ka mentku
+meni jimpo ma ka ka mentku
+one.time INSTR one and and always
+Once upon a time a blind man fell into the water and he got stuck in the mud
+
+
+Source: ref 5903 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ementa-eri jimpo iwi-ri-echa nira-sïram-p-ti para ch'apa-ni
+ementa-eri jimpo iwi-ri-echa nira-sïram-p-ti para ch'apa-ni
+rain.season GEN INSTR lenar AGT PL go HAB.PST PAST 3.IND for cut INF
+In the rain season lumberjacks went to cut
+
+
+Source: ref 5907 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo enka jukari k'e-s-p-ka ia
+jimpo enka jukari k'e-sï-p-ka ia
+INSTR SUBORD too big AOR PAST SBJNC already
+because he was too big
+
+
+Source: ref 1817 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampaketi-ni himpo
+ampaketi-ni himpo
+good OBJ INSTR
+
+
+
+Source: ref 5916 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ima jimpo jurhia-kua enka tsïtsïki-echa tsïpa-nt'a-p-ka
+ima jimpo jurhia-kua enka tsïtsïki-echa tsïpa-nt'a-p-ka
+DEM.SG INSTR dawn NMLZR SUBORD flower PL bloom ITER PAST SBJNC
+in that day when the flowers bloomed again
+
+
+Source: ref 1823 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampa-ke-tʃa-ni himpo
+ampa-ke-etʃa -ni himpo
+clean hollow PL OBJ INSTR
+
+
+
+Source: ref 1827 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hinteni himpo
+hinteni himpo
+1SG.OBJ INSTR
+
+
+
+Source: ref 1828 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hintsʰini himpo
+hinteni himpo
+1SG.OBJ INSTR
+
+
+
+Source: ref 5927 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji arhi eska ts'ïma jinte-p-ka jimpo enka chk'ari
+ji arhi exki ts'ïma jinte-p-ka jimpo enka chk'ari
+1SG say SUBORD DEM.PL be PAST SBJNC INSTR SUBORD wood
+I say that those were them because jamarhanyrnhasirampka
+
+
+Source: ref 1832 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hutʃa=tsʰïni himpo
+hutʃa=tsʰïni himpo
+1PL =1PL.OBJ INSTR
+
+
+
+Source: ref 1838 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰu=kini himpo
+tʰu=kini himpo
+2SG =2SG.OBJ INSTR
+
+
+
+Source: ref 1839 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰunkʃïni himbo
+tʰunkini himpo
+2SG.OBJ INSTR
+
+
+
+Source: ref 1844 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tʰutʃa=kʃïni himbo
+tʰutʃa=kʃïni himpo
+2PL =2PL.OBJ INSTR
+
+
+
+Source: ref 1848 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+inte-ni himpo
+inte-ni himpo
+DEM.SG OBJ INSTR
+
+
+
+Source: ref 5945 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo enka ima=k'u-sï ero-korhe-ni ja-p-ka para jima uea-ku-ni
+jimpo enka ima=k'u-sï ero-kuarhe-ni ja-p-ka para jima uera-ku-ni
+INSTR SUBORD DEM.SG =only AOR wait RFLX OBJ exist PAST SBJNC for there goout TRSLOC OBJ
+that's why he was just waiting to get out of there
+
+
+Source: ref 1852 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+hi-tʃʰa-ni himpo
+hi-etʃa -ni himpo
+1SG PL OBJ INSTR
+
+
+
+Source: ref 5980 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka tatsekua sani=teru sesi ampe jano-a-ka sani=teru sesi ampe
+jimpo-ka tatsekua sani=teru sesi ampe jano-a-ka sani=teru sesi ampe
+INSTR 1/2IND after bit =more good NEG arrive FUT 1/2IND bit =more good NEG
+because later more nice things will arrive
+
+
+Source: ref 5982 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampe jimpo xani ampe ma
+ampe jimpo xani ampe ma
+NEG INSTR that NEG one
+why do they tiri/....
+
+
+Source: ref 5989 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsipe-korhe enka=ri xa=sï xunapi-kurha-ka ini jimpo auanta-rhu ke-tse
+tsipe-kuarhe enka=ri xa=sï xunapi-kurha-ka ini jimpo auanta-rhu ke-tse
+life RFLX SUBORD =2SG form =FOC green APPL.PL 1/2IND DEM.SG.ACC INSTR sky LOC down down
+be happy that you are so green here under the sky
+
+
+Source: ref 5993 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ni ementa jimpo ka ni inviernu jimpo
+ni ementa jimpo ka ni inviernu jimpo
+go rain.season INSTR and go winter INSTR
+neither in the rain season or in the winter
+
+
+Source: ref 6000 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ima anhatapu ma jimpo ichakuatsi-ni
+ka ima anhatapu ma jimpo ichakuatsi-ni
+and DEM.SG fir one INSTR fall.down OBJ
+and he fell down with a tree
+
+
+Source: ref 6001 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï jimpo p'ame-korhe-kua pirku-ra-ni ka miri-kurhi-ni
+isï jimpo p'ame-kuarhe-kua pirku-ra-ni ka miri-kuarhe-ni
+APPROX INSTR pain RFLX NMLZR take.out VAL OBJ and forget RFLX OBJ
+to take out and forget the pain
+
+
+Source: ref 6013 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka ts'ïma enka ima-eri jimpo k'umanchi-kua achati-eri anchi-korhe-p-ka
+ka ts'ïma enka ima-eri jimpo k'umanchi-kua achati-eri anchi-kuarhe-p-ka
+and 3PL SUBORD DEM.SG GEN INSTR put.oneself.shade NMLZR man GEN work RFLX PAST SBJNC
+and they, in the house of the man that worked
+
+
+Source: ref 6020 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka takusï xunhapiti jimpo=ksï irhi-ntu-ku-ni
+ka takusï xunhapiti jimpo=kxï irhi-ntu-ku-ni
+and clothing green INSTR =3PL tie LOC.foot APPL.3 OBJ
+and they tied a green piece of cloth around the feet
+
+
+Source: ref 6043 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ji ixu ja-ua iamintu inviernu ka ementa jimpo ini isï ampe tiri-korhe-rini
+ji ixu ja-a iamintu inviernu ka ementa jimpo ini isï ampe tiri-kuarhe-rini
+1SG here exist FUT all winter and rain.season INSTR DEM.SG.ACC likethis NEG hang RFLX PART
+will I be here the whole winter and rain season with things hanging from me
+
+
+Source: ref 6052 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo isï ma ichakua ueko-p-ti ka tixa-ta-ni anhatapu-ni
+jimpo isï ma ichakua ueko-p-ti ka tixa-ta-ni anhatapu-ni
+INSTR APPROX one long.thing fall PAST 3.IND and catch.fire CAUS OBJ fir OBJ
+and one little candle fell and made the tree catch fire
+
+
+Source: ref 6075 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+enka no jo-ta-kata ja-pirin-ka joskua tiripiti jimpo
+enka no jo-ta-kata ja-pirin-ka joskua tiripiti jimpo
+SUBORD no tie CAUS PASS.PRT exist COND SBJNC star gold INSTR
+if it wouldn't be tied to th red star
+
+
+Source: ref 6081 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+joperu jimpo=k'u=sï e-ra-rhi-p-ti para e-xe-ni noma paka-rhi-korhe-s-p-ti manzana o
+pero jimpo=k'u=sï e-ra-rhi-p-ti para e-xe-ni no ma paka-rhi-kuarhe-sï-p-ti manzana o
+but INSTR =only =FOC see VAL LOC.body PAST 3.IND for sight FORM OBJ no one remain LOC.body RFLX AOR PAST 3.IND apple or
+but she was only looking at her to see if an apple or higusi were left in the tree
+
+
+Source: ref 6111 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka acha-ti xa=sï uanta-nt'a-p-ka
+jimpo-ka acha-ti xa=sï uanta-nt'a-p-ka
+INSTR 1/2IND man 3.IND form =FOC speak ITER PAST 1/2IND
+because the man said it
+
+
+Source: ref 6115 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo-ka uanta-p-ka
+jimpo-ka uanta-p-ka
+INSTR 1/2IND speak PAST 1/2IND
+because he said
+
+
+Source: ref 6123 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+tsipa-eri jimpo niara-nha-s-p-ti ts'ïma enka jima anchi-korhe-p-ka
+tsipa-eri jimpo niara-nhka-sï-p-ti ts'ïma enka jima anchi-kuarhe-p-ka
+morning GEN INSTR arrivethere PASS AOR PAST 3.IND DEM.PL SUBORD there work RFLX PAST SBJNC
+in the morning, those who worked there arrived
+
+
+Source: ref 6141 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jimpo=tsïni=sï ixu patsa-s-ti primavereeri-eri jameri
+jimpo=kxïni=sï ixu patsa-sï-ti primavereeri-eri jamperi
+INSTR =2PL.OBJ =FOC here preserve AOR 3.IND NONE GEN until
+that's why they are saving me here, until the spring
+
+

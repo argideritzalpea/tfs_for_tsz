@@ -1,0 +1,300 @@
+Source: ref 4880 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esika=ksï isï jucha uanta-nt's-kuarhe-ni ja-p-ka
+exki=kxï isï jucha uanta-nt'a-kuarhe-ni ja-p-ka
+SUBORD =3PL likethis 1PL speak ITER RFLX OBJ exist PAST 1/2IND
+that we were talking like this
+
+
+Source: ref 6032 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+Móniicha-echa isi carharansïrampti-sïram-p-ti esika k'uiripu-echa
+Móniicha-echa isï carharansïrampti-sïram-p-ti exki k'uiripu-echa
+NONE PL APPROX NONE HAB.PST PAST 3.IND SUBORD person PL
+and dolls climbed jus like people
+
+
+Source: ref 6038 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ueka-pirin-ka-ni esika churi-pirin-ka ia
+ueka-pirin-ka-ni exki churi-pirin-ka ia
+want COND 1/2IND OBJ SUBORD dusk COND SBJNC already
+I would want that it would become night already
+
+
+Source: ref 6039 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esika tixatapirinka-pirin-ka ia kokani eraku-tara-kua-echa-ni
+exki tixatapirinka-pirin-ka ia kokani eraku-tara-kua-echa-ni
+SUBORD NONE COND 1/2IND already early select CAUS NMLZR PL OBJ
+that tixatapirinka quick the selcters already
+
+
+Source: ref 5659 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esï-ki=rini kondi-pirin-ka ampe ma sani
+exki-ki=rini kondi-pirin-ka ampe ma sani
+SUBORD IRR =1SG.OBJ sympathize COND SBJNC something one bit
+that he would sympathize a little with me
+
+
+Source: ref 4637 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïka i ireta uaxa-s-ta-nhka-sï ixu
+exki i ireta uaxa-s-ta-nhka-sï ixu
+SUBORD this town sit LINKER? CAUS PASS AOR here
+that this town was established here
+
+
+Source: ref 1573 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esika u-pirin-ka kura-kua-ni animali-echa-eri uanta-kua-echa-ni
+exki u-pirin-ka kura-kua-ni animali-echa-eri uanta-kua-echa-ni
+SUBORD can COND SBJNC listen NMLZR OBJ animal PL GEN speak NMLZR PL OBJ
+that he could understand the animals' conversations
+
+
+Source: ref 5548 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïka=ri jimpo-sï no=teru jua-pirinia
+exki=ri jimpo-sï no=teru jua-pirin ia
+SUBORD =2SG INSTR AOR no =still bring COND already
+and that's why you would bring no more
+
+
+Source: ref 4661 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïkamintu sïruki-echa na=ksï nira-j-ka
+exki mintu sïruki-echa na=kxï nira-sï-ka
+SUBORD only ant PL how =3PL go AOR SBJNC
+just as the ants go
+
+
+Source: ref 4664 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïka-j=tsïni no jurajku-sï-ka
+exki-sï=kxïni no jurhaku-sï-ka
+SUBORD AOR =2PL.OBJ no leave AOR SBJNC
+that they did not leave us
+
+
+Source: ref 1592 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eska=ri isï a-rhi-nha-ka
+exki=ri isï a-rhi-nhka-ka
+SUBORD =2SG likethis AUX LOC.body PASS 1/2IND
+that they call you like that
+
+
+Source: ref 4665 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esï-ka no-j=tsïni miri-kurhi-sï-ka jimpo-ka isï
+exki-ka no-sï=kxïni miri-kuarhe-sï-ka jimpo-ka isï
+SUBORD 1/2IND no AOR =2PL.OBJ forget RFLX AOR SBJNC INSTR FORM APPROX
+That they haven't forgetten us because this is what happened
+
+
+Source: ref 6844 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+jo xésïngasï esïka jo
+jo xésïnga sï exki jo
+yes NONE threads SUBORD yes
+
+
+
+Source: ref 4416 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïka buenu jarha-s-p-ka
+exki buenu jarha-sï-p-ka
+SUBORD good be AOR PAST 1/2IND
+Then it was good
+
+
+Source: ref 5056 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esï-ka na ia
+exki-ka na ia
+SUBORD 1/2IND how already
+beause people follow
+
+
+Source: ref 1606 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka aianku-s-ti esika isï u-pirin-ka
+ka aianku-sï-ti exki isï u-pirin-ka
+and inform AOR 3.IND SUBORD APPROX do COND SBJNC
+and he told him that would do that
+
+
+Source: ref 6477 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+isï mi-ti-kuarhe-sï-ti esï-ka
+isï mi-ti-kuarhe-sï-ti exki-ka
+APPROX know FORM RFLX AOR 3.IND SUBORD 1/2IND
+Since then that day is known as:
+
+
+Source: ref 1614 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ka a-tsï-kuarhi-ni komoeska p'ame-ni-cha-ti-echa
+ka a-tsï-kuarhe-ni komo exki p'ame-ni-cha-ri-echa
+and say MID RFLX OBJ como SUBORD pain FORM cha AGT PL
+and acting like the sick
+
+
+Source: ref 1616 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+iamindu esika na exe-p-ka
+iamintu exki na exe-p-ka
+all SUBORD how see PAST SBJNC
+all the things he saw
+
+
+Source: ref 1619 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+a-rhi-sï-ti esika jurajku-pirin-ka uakasï-ni
+a-rhi-sï-ti exki jurhaku-pirin-ka uakasï-ni
+say MID AOR 3.IND SUBORD leave COND SBJNC ox OBJ
+said to him that he would leave the ox
+
+
+Source: ref 5204 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u e-xe-sï-ni esïka ixu
+t'u e-xe-sï-ni exki ixu
+2SG sight FORM AOR OBJ SUBORD here
+do you think that it's better
+
+
+Source: ref 1622 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+sino esika ata-pirin-ka
+sino exki ata-pirin-ka
+if.not SUBORD hit COND SBJNC
+and that he should hit him
+
+
+Source: ref 3805 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+burru isï u-s-ti esika na
+burru isï u-s-ti exki na
+donkey likethis do AOR 3.IND SUBORD how
+The poor donkey, did everything as he planned
+
+
+Source: ref 5214 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u ampe jimpo esïka ixu
+t'u ampe jimpo exki ixu
+2SG something INSTR SUBORD here
+what is that makes you think
+
+
+Source: ref 5086 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u e-xe-sï-ni esï-ka
+t'u e-xe-sï-ni exki-ka
+2SG sight FORM AOR OBJ SUBORD 1/2IND
+do you think that the P'urepechas will disappear along with the language?
+
+
+Source: ref 5601 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esï-ka ima no jama-pirin-ka k'uanatsi-nt'a-ni
+exki-ka ima no jama-pirin-ka k'uanatsi-nt'a-ni
+SUBORD 1/2IND DEM.SG no bearound COND SBJNC return ITER OBJ
+so that he wouldn't return back
+
+
+Source: ref 4455 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+esïka komu nitama-nhka-sïren-ti k'uiripu-echa
+exki komu nitama-nhka-sïren-ti k'uiripu-echa
+SUBORD poor pass PASS HAB.PST 3.IND people PL
+that people used to pass through suffering
+
+
+Source: ref 5225 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ia esïka
+ia exki
+already SUBORD
+guaranteed that they will find a job after graduating
+
+
+Source: ref 5230 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+mentku esïka ma
+mentku exki ma
+always SUBORD one
+it's guaranteed that one will get a job
+
+
+Source: ref 6397 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+eska=na ima=na uitsintikua k'uani-ku-nha-s-ka a
+exki=na ima=na uitsintekua k'uani-ku-nhka-sï-ka a
+SUBORD =evidential DEM.SG =evidential yesterday throw TRSLOC PASS AOR 1/2IND AUX
+that she was thrown away yesterday
+
+
