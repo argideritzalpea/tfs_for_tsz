@@ -351,7 +351,7 @@ Judgement: g
 Phenomena: case
 hatsi-ku-ø namunitu itukwa-ni
 hatsi-ku-ø namunitu itukwa-ni
-have-APPL.3-IMPRTV2 few salt-INF
+have-APPL.3-IMPRTV2 few salt-OBJ
 Intended: 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
 
 
