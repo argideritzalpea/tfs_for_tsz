@@ -384,17 +384,6 @@ hi wera-ka-ni k'uta-rhu puerta-rhu
 1SG goout-1/2IND-INF house-LOC door-LOC
 I go out of the house by the door
 
-#39
-Source: The Tarascan Language - Foster, pg. 184
-Vetted: s
-Judgement: g
-Phenomena: adverbial clausal modifiers
-jima ni-e-nt'a-ni=kxï menteru
-jima ni-e-nt'a-ni=kxï menteru
-there go-VOC-ITER-INF=3PL again
-There we arrived again at the house.
-
-
 #40
 Source: The Tarascan Language - Foster, pg. 183
 Vetted: s
@@ -415,15 +404,80 @@ hi ka=na-s-ka-ni oktubre-mpu
 1SG and=evidential-AOR-1/2IND-INF October-INSTR
 I was born in October. (shortened)
 
+Source: 2015 dissertation, 7.2-5
+Vetted: s
+Judgement: g
+Phenomena: complement clauses
+ji ariaka eskirini t'u jurark'uchika
+ji ari-a-ka eski=rini t'u jurhaku-chi-∅-∅-ka
+1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-SBJNC
+Yo le diré que tu me lo dejaste
+
+Source: 2015 dissertation, 7.2-5
+Vetted: s
+Judgement: u
+Phenomena: complement clauses
+ji ariaka eskirini t'u jurark'uchika
+ji ari-a-ka eski=rini t'u jurhaku-chi-∅-∅-ki
+1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-INTER
+intended : Yo le diré que tu me lo dejaste
+
+Source: 2015 dissertation, 7.2-15
+Vetted: s
+Judgement: g
+Phenomena: complement clauses
+ji wekapirinka eskiksï ixu japirinka
+ji ueka-pirin-ka exki=ksï ixu ja-pirin-ka
+1SG want-COND-1/2IND SUBORD=3PL here exist-COND-SUBJ
+I would want that they be here
+
+Source: 2015 dissertation, 7.2-15
+Vetted: s
+Judgement: u
+Phenomena: complement clauses
+ji wekapirinka eskiksï ixu japirinka
+ji ueka-pirin-ka exki=ksï ixu ja-pirin-k'a
+1SG want-COND-1/2IND SUBORD=3PL here exist-COND-EXCL
+intended : I would want that they be here
+
+Source: 2015 dissertation, 7.2-15
+Vetted: s
+Judgement: u
+Phenomena: complement clauses
+ji wekapirinka eskiksï ixu japirinka
+ji ueka-pirin-ka exki=ksï ixu ja-pirin-ki
+1SG want-COND-1/2IND SUBORD=3PL here exist-COND-INTER
+intended : I would want that they be here
+
+Source: 2015 dissertation, 7.2-15
+Vetted: s
+Judgement: u
+Phenomena: complement clauses
+ji wekapirinka eskiksï ixu japirinka
+ji ueka-pirin-ka exki=ksï ixu ja-pirin
+1SG want-COND-1/2IND SUBORD=3PL here exist-COND
+intended : I would want that they be here
+
+
 #42
 Source: ref 6038 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: complement clauses
-ueka-pirin-ka-ni esika churi-pirin-ka ia
-ueka-pirin-ka-ni exki churi-pirin-ka ia
-want-COND-1/2IND-INF SUBORD dusk-COND-SBJNC already
-I would want that it would become night already
+ueka-pirin-ka-ni esika churi-pirin-ka
+ueka-pirin-ka-ni exki churi-pirin-ka
+want-1/2IND-INF SUBORD dusk-COND-SBJNC
+I would want that it would become night
+
+#42
+Source: ref 6038 in tsz_toolbox
+Vetted: s
+Judgement: u
+Phenomena: complement clauses
+ueka-ka-ni esika churi-pirin
+ueka-ka-ni exki churi-pirin
+want-1/2IND-INF SUBORD dusk-COND
+I would want that it would become night
 
 #43
 Source: ref 1619 in tsz_toolbox
@@ -433,7 +487,7 @@ Phenomena: complement clauses
 a-rhi-sï-ti esika jurajku-pirin-ka uakasï-ni
 a-rhi-sï-ti exki jurhaku-pirin-ka uakasï-ni
 say-MID-AOR-3.IND SUBORD leave-COND-SBJNC ox -NF
-said to him that he would leave the ox
+He said to him that he would leave the ox
 
 #44
 Source: ref 3805 in tsz_toolbox
@@ -444,16 +498,6 @@ burru isï u-s-ti esika na
 burru isï u-s-ti exki na
 donkey likethis do-AOR-3.IND SUBORD how
 The poor donkey, did everything as he planned
-
-#45
-Source: ref 5994 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: complement clauses
-kuirhipu-echa enka=ksï exe-p-ka a-rhi-sïren-p-ti=ksï
-k'uiripu-echa enka=kxï exe-p-ka a-rhi-sïren-p-ti=kxï
-people-PL SUBORD=3PL see-PAST-SBJNC say-MID-HAB.PST-PAST-3.IND=3PL
-the people who saw him used to say
 
 #45
 Source: modded ref 130 in tsz_toolbox
