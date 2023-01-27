@@ -573,10 +573,10 @@ Source: Chamoreau # 64 (e)
 Vetted: f
 Judgement: g
 Phenomena: possessive
-jupi-ka-x-ti juchi kawayu-ni
-jupi-ka-x-ti juchi kawayu-ni
-take-FUT-AOR-3.IND 1SG.POSS horse-OBJ
-our customs and language will be lost
+jupika-x-ti juchi kawayu-ni
+jupika-x-ti juchi kawayu-ni
+take-AOR-3.IND 1SG.POSS horse-OBJ
+He took my horse
 
 #53
 Source: ref 4885 in tsz_toolbox
