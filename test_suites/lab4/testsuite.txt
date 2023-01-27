@@ -335,17 +335,17 @@ wait-PROG-FORM-3.IND
 He/they are waiting
 
 #34
-Source: ref 4101 in tsz_toolbox
+Source: ref 4102 in tsz_toolbox
 Vetted: s
 Judgement: u
 Phenomena: case
-hatsi-ku-ø namunitu itukwa
-hatsi-ku-ø namunitu itukwa
-have-APPL.3-IMPRTV2 few salt
+hatsi-ku-ø namunitu itukwa tʃuɽipu
+hatsi-ku-ø namunitu itukwa tʃuɽipu
+have-APPL.3-IMPRTV2 few salt 
 Intended: 'Have a little salt in the soup' (needs ni after the IO)
 
 #35
-Source: ref 4101 in tsz_toolbox, 
+Source: ref 4102 in tsz_toolbox, 
 Vetted: s
 Judgement: g
 Phenomena: case
@@ -369,9 +369,9 @@ Source: ref 130 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: adverbial clausal modifiers
-nira-sï-ka jimpoka-ni uanta-ka p'urhe
-nira-sï-ka jimpoka-ni uanta-ka p'urhe
-go-AOR-1/2IND because-FORM-OBJ speak-1/2IND P'urhepecha
+nira-sï-ka jimpoka=ni uanta-ka p'urhe
+nira-sï-ka jimpoka=ni uanta-ka p'urhe
+go-AOR-1/2IND SUB=1SG.SBJ speak-1/2IND P'urhepecha
 I went because I spoke P'urhe 
 
 #38
@@ -432,7 +432,7 @@ Judgement: g
 Phenomena: complement clauses
 a-rhi-sï-ti esika jurajku-pirin-ka uakasï-ni
 a-rhi-sï-ti exki jurhaku-pirin-ka uakasï-ni
-say MID AOR 3.IND SUBORD leave COND SBJNC ox INF
+say-MID-AOR-3.IND SUBORD leave-COND-SBJNC ox -NF
 said to him that he would leave the ox
 
 #44
@@ -442,7 +442,7 @@ Judgement: g
 Phenomena: complement clauses
 burru isï u-s-ti esika na
 burru isï u-s-ti exki na
-donkey likethis do AOR 3.IND SUBORD how
+donkey likethis do-AOR-3.IND SUBORD how
 The poor donkey, did everything as he planned
 
 #45
@@ -452,7 +452,7 @@ Judgement: g
 Phenomena: complement clauses
 kuirhipu-echa enka=ksï exe-p-ka a-rhi-sïren-p-ti=ksï
 k'uiripu-echa enka=kxï exe-p-ka a-rhi-sïren-p-ti=kxï
-people PL SUBORD =3PL see PAST SBJNC say MID HAB.PST PAST 3.IND =3PL
+people-PL SUBORD=3PL see-PAST-SBJNC say-MID-HAB.PST-PAST-3.IND=3PL
 the people who saw him used to say
 
 #45
@@ -462,7 +462,7 @@ Judgement: g
 Phenomena: possessive
 juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
 juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
-1PL.GEN mom elderly OBJ POSTP speak 1/2IND P'urhepecha
+1PL.GEN mom elderly-OBJ POSTP speak-1/2IND-P'urhepecha
 I spoke P'urhe with my grandmother
 
 #46
@@ -472,7 +472,7 @@ Judgement: g
 Phenomena: possessive
 juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
 juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
-1PL.GEN mom elderly OBJ POSTP speak 1/2IND P'urhepecha
+1PL.GEN-mom elderly-OBJ POSTP speak-1/2IND P'urhepecha
 I spoke P'urhe with my grandmother
 
 #47
@@ -481,7 +481,7 @@ Vetted: s
 Judgement: g
 Phenomena: possessive
 jucheeti mintsita tsipe -sï -p -ti
-1SG.GEN heart be.happy AOR PAST 3.IND
+1SG.GEN heart be.happy AOR-PAST-3.IND
 My heart was happy
 
 #48
@@ -523,3 +523,23 @@ inte jucha-eri pinte-kua tsï-nchi-a-ti
 inte jucha-eri p'inte-kua tsïta-nchi-a-ti
 DEM.SG 1PL-GEN accustom NMLZR lose-up-FUT-3.IND
 our customs and language will be lost
+
+#52
+Source: Chamoreau # 64 (e)
+Vetted: f
+Judgement: g
+Phenomena: possessive
+jupi-ka-x-ti juchi kawayu-ni
+jupi-ka-x-ti juchi kawayu-ni
+take-FUT-AOR-3.IND 1SG.POSS horse-OBJ
+our customs and language will be lost
+
+#53
+Source: ref 4885 in tsz_toolbox
+Vetted: s
+Judgement: g
+Phenomena: possessive
+ima-eri uap'a jempa-echa ero-nt'a-xa-ti
+ima-eri uap'a jempa-echa ero-nt'a-xa-ti
+DEM.SG-GEN son 3.POSS-PL wait-ITER-PROG-3.IND
+His sons are wating for me
