@@ -215,7 +215,87 @@ hinkonikwa-ti-etʃa tʰire-sïn-ti
 sister-2.POSS-PL eat-HAB-3.IND
 Your sisters eat
 
-#22
+#22 - AOR
+Source: toolbox ref 3555 (but with subject because argument optionality not working right now)
+Vetted: s
+Judgment: g
+Phenomena: aspect
+piri-ʃ-ti pirikwa-ni
+piri-sï-ti pirikwa-ni 
+sing-AOR-3.IND song-OBJ 
+[She/he/it] is singing (about to sing or continuing to sing) (Yo sigo cantando (estoy a punto de cantar y continuo cantando))
+
+#23 - PROG - original: "Jwanu u-xa-ø-ti ma waxantsïkwa" but had to eliminate words due to edge limit (revisit)
+Source: Dominguez dissertation p. 196, ex. 5.5-13
+Vetted: s
+Judgment: g
+Phenomena: aspect
+uxati waxantsïkwa
+u-xa-ti waʃantsïkwa
+do-PROG-3.IND seat
+[He/she/it] is making a seat/bench (Está haciendo una silla)
+
+#25 - HAB
+Source: toolbox ref 3484 (edited)
+Vetted: s
+Judgment: g
+Phenomena: aspect
+piri-ʃïn-ti
+piri-sïn-ti
+sing-HAB-3.IND
+He sings (habitually, commonly). ('El canta/el tiene la costumbre de cantar')
+
+#26 - CONT
+Source: toolbox ref 3555 (but with subject because argument optionality not working right now)
+Vetted: s
+Judgment: g
+Phenomena: aspect
+ji pirixamka
+ji piri-ʃam-ka
+1SG sing-CONT-1/2IND
+I am singing. (about to sing or continuing to sing) (Yo sigo cantando (estoy a punto de cantar y continuo cantando))
+
+#27 - AOR/PAST
+Source: p. 54 (3.1-5) Dominguez (spelling changed)
+Vetted: s
+Judgment: g
+Phenomena: tam
+erokaspti
+ero-ka-sï-p-ti
+wait-FORM-PERF-PASS-3ASER
+[He/she/it] had waited (for it) ('lo había esperado')
+
+#28 - CONT/NONPST (bipartite)
+Source: toolbox ref 3876 (no null morpheme)
+Vetted: s
+Judgment: g
+Phenomena: tam
+ero-ka-ʃa-ka=ksï
+ero-ka-ʃa-ka=kʃï 
+wait-FORM-PROG-1/2IND=1PL.EX.SBJ 
+We are waiting
+
+#28 - CONT/NONPST (bipartite)
+Source: toolbox ref 3876 (no null morpheme)
+Vetted: s
+Judgment: u
+Phenomena: tam
+ero-ka-ʃa-ka=ksï
+ero-ka-ʃa-ka=kʃï 
+wait-FORM-PROG-1/2IND=1PL.EX.SBJ 
+Intended:'We are waiting'
+
+#29 - AOR/PAST
+Source: toolbox ref 1633
+Vetted: s
+Judgment: g
+Phenomena: tam
+ji sesi ireka-sï-p-ka
+ji sesi ireka-sï-p-ka
+1SG good reside-AOR-PAST-1/2IND 
+I lived well
+
+#30
 Source: ref 5686 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -225,16 +305,7 @@ hini peta-p-ti ta-mpu
 there take.out-PAST-3.IND home-INSTR
 She took her from her own house / Se la llevó de su propia casa
 
-#23
-Source: ref 2999 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: case
-tʰu=kini himbo-ha-ka
-tʰu=kini himpo-ʃa-ka
-2SG=2SG.OBJ INSTR-PROG-1/2IND
-
-#24
+#31
 Source: ref 5052 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -244,7 +315,7 @@ p'urhepecha jimpo uanta-kua
 Purhepecha INSTR speak-NMLZR
 our language
 
-#25
+#32
 Source: ref 5122 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -254,7 +325,7 @@ kani-kua jimpo-ka=chka
 much-NMLZR INSTR-1/2IND=then
 things really have changed
 
-#26
+#33
 Source: ref 6639 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -264,7 +335,7 @@ sesi t'uchaeueri kutsïkua-echa-ni
 good 2PL.GEN ear-PL-OBJ
 so open up your ears.
 
-#27
+#34
 Source: modded ref 6639 in tsz_toolbox
 Vetted: s
 Judgement: u
@@ -274,7 +345,7 @@ sesi t'uchaeueri kutsïkua-ni-echa
 good 2PL.GEN ear-OBJ-PL
 so open up your ears. (ni must follow echa (pl))
 
-#28
+#35
 Source: ref 3602 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -284,17 +355,17 @@ arhi-sï-ti=ni jucheeti tati
 say-AOR-3.IND=1SG.SBJ 1SG.GEN father
 My dad said to me
 
-#29
-Source: ref 4294 in tsz_toolbox
+#36
+Source: modded ref 4294 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: case
-inte hutʃeeti
-inte hutʃeeti
-DEM.SG 1SG.GEN
-My horse is black
+inte kawaju hutʃeeti kʰeri -sï -ti =a
+inte kawaju hutʃeeti kʰeri -sï -ti =a
+DEM.SG 1SG.GEN big AOR 3.IND =already
+My horse is big 
 
-#30
+#37
 Source: ref 4287 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -304,57 +375,47 @@ nompe weka-sïn-ka-ni
 NEG want-HAB-1/2IND-INF
 I don't want anything
 
-#31
+#38
 Source: modded ref 200 in tsz_toolbox
 Vetted: s
 Judgement: u
 Phenomena: agreement
 o documentu-echa-ni u-ni-a
 o documentu-echa-ni u-ni-a
-or document-PL-OBJ do-INF-3PL.OBJ
+or document-PL-OBJ do-OBJ-3PL.OBJ
 or making documents (switched -ni and -a positions)
 
-#32
+#39
 Source: ref 200 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: agreement
 o documentu-echa-ni u-a-ni
 o documentu-echa-ni u-a-ni
-or document-PL-OBJ do-3PL.OBJ-INF
+or document-PL-OBJ do-3PL.OBJ-OBJ
 or making documents (switched -ni and -a positions)
 
-#33
-Source: ref 3882 in tsz_toolbox.txt
-Vetted: s
-Judgment: g
-Phenomena: agreement
-ero-ʃa-ka-ti
-ero-ʃa-ka-ti
-wait-PROG-FORM-3.IND
-He/they are waiting
-
-#34
-Source: ref 4102 in tsz_toolbox
-Vetted: s
-Judgement: u
-Phenomena: case
-hatsi-ku-ø namunitu itukwa tʃuɽipu
-hatsi-ku-ø namunitu itukwa tʃuɽipu
-have-APPL.3-IMPRTV2 few salt 
-Intended: 'Have a little salt in the soup' (needs ni after the IO)
-
-#35
+#40
 Source: ref 4102 in tsz_toolbox, 
 Vetted: s
 Judgement: g
 Phenomena: case
-hatsi-ku-ø namunitu itukwa-ni
-hatsi-ku-ø namunitu itukwa-ni
-have-APPL.3-IMPRTV2 few salt-OBJ
-Intended: 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
+hatsi-ku-ø sani-titu itukwa tʃuripu
+hatsi-ku-ø sani-tu itukwa tʃuɽipu
+have-APPL.3-IMPRTV2 little-DIM salt soup
+'Put a little salt in the soup'  (needs ni after the IO)
 
-#36
+#41
+Source: ref 4102 in tsz_toolbox, 
+Vetted: s
+Judgement: u
+Phenomena: case
+hatsi-ku-ø sani-titu itukwa tʃuripu-ni
+hatsi-ku-ø sani-tu itukwa tʃuɽipu-ni 
+have-APPL.3-IMPRTV2 little-DIM salt soup-OBJ
+'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
+
+#42
 Source: modified 2023 Chamoreau (ex. 50)
 Vetted: s
 Judgement: g
@@ -364,7 +425,7 @@ ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
 go-ITER-AOR-PAST-3.IND=S3PL SUB=3PL eat-INF exist-PAST-SBJNC
 They went because they were eating
 
-#37
+#43
 Source: ref 130 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -374,7 +435,7 @@ nira-sï-ka jimpoka=ni uanta-ka p'urhe
 go-AOR-1/2IND SUB=1SG.SBJ speak-1/2IND P'urhepecha
 I went because I spoke P'urhe 
 
-#38
+#44
 Source: The Tarascan Language - Foster, pg. 184
 Vetted: s
 Judgement: g
@@ -384,7 +445,7 @@ hi wera-ka-ni k'uta-rhu puerta-rhu
 1SG goout-1/2IND-INF house-LOC door-LOC
 I go out of the house by the door
 
-#40
+#45
 Source: The Tarascan Language - Foster, pg. 183
 Vetted: s
 Judgement: g
@@ -394,7 +455,7 @@ ni-a-ka=kxï jurhia-kwa
 go-FUT1/2IND=3PL dawn-NMLZR
 Let's go by day.
 
-#41
+#46
 Source: The Tarascan Language - Foster, pg. 184
 Vetted: s
 Judgement: g
@@ -404,6 +465,7 @@ hi ka=na-s-ka-ni oktubre-mpu
 1SG and=evidential-AOR-1/2IND-INF October-INSTR
 I was born in October. (shortened)
 
+#47
 Source: 2015 dissertation, 7.2-5
 Vetted: s
 Judgement: g
@@ -413,6 +475,7 @@ ji ari-a-ka eski=rini t'u jurhaku-chi-∅-∅-ka
 1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-SBJNC
 Yo le diré que tu me lo dejaste
 
+#48
 Source: 2015 dissertation, 7.2-5
 Vetted: s
 Judgement: u
@@ -422,6 +485,7 @@ ji ari-a-ka eski=rini t'u jurhaku-chi-∅-∅-ki
 1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-INTER
 intended : Yo le diré que tu me lo dejaste
 
+#49
 Source: 2015 dissertation, 7.2-15
 Vetted: s
 Judgement: g
@@ -431,6 +495,7 @@ ji ueka-pirin-ka exki=ksï ixu ja-pirin-ka
 1SG want-COND-1/2IND SUBORD=3PL here exist-COND-SUBJ
 I would want that they be here
 
+#50
 Source: 2015 dissertation, 7.2-15
 Vetted: s
 Judgement: u
@@ -440,6 +505,7 @@ ji ueka-pirin-ka exki=ksï ixu ja-pirin-k'a
 1SG want-COND-1/2IND SUBORD=3PL here exist-COND-EXCL
 intended : I would want that they be here
 
+#51
 Source: 2015 dissertation, 7.2-15
 Vetted: s
 Judgement: u
@@ -449,6 +515,7 @@ ji ueka-pirin-ka exki=ksï ixu ja-pirin-ki
 1SG want-COND-1/2IND SUBORD=3PL here exist-COND-INTER
 intended : I would want that they be here
 
+#52
 Source: 2015 dissertation, 7.2-15
 Vetted: s
 Judgement: u
@@ -458,8 +525,7 @@ ji ueka-pirin-ka exki=ksï ixu ja-pirin
 1SG want-COND-1/2IND SUBORD=3PL here exist-COND
 intended : I would want that they be here
 
-
-#42
+#53
 Source: ref 6038 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -469,7 +535,7 @@ ueka-pirin-ka-ni exki churi-pirin-ka
 want-1/2IND-INF SUBORD dusk-COND-SBJNC
 I would want that it would become night
 
-#42
+#54
 Source: ref 6038 in tsz_toolbox
 Vetted: s
 Judgement: u
@@ -479,7 +545,7 @@ ueka-ka-ni exki churi-pirin
 want-1/2IND-INF SUBORD dusk-COND
 I would want that it would become night
 
-#43
+#55
 Source: ref 1619 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -489,7 +555,7 @@ a-rhi-sï-ti exki jurhaku-pirin-ka uakasï-ni
 say-MID-AOR-3.IND SUBORD leave-COND-SBJNC ox -NF
 He said to him that he would leave the ox
 
-#44
+#56
 Source: ref 3805 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -499,7 +565,7 @@ burru isï u-s-ti exki na
 donkey likethis do-AOR-3.IND SUBORD how
 The poor donkey, did everything as he planned
 
-#45
+#57
 Source: modded ref 130 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -509,7 +575,7 @@ juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
 1PL.GEN mom elderly-OBJ POSTP speak-1/2IND-P'urhepecha
 I spoke P'urhe with my grandmother
 
-#46
+#58
 Source: modded ref 130 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -519,7 +585,7 @@ juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
 1PL.GEN-mom elderly-OBJ POSTP speak-1/2IND P'urhepecha
 I spoke P'urhe with my grandmother
 
-#47
+#59
 Source: modded ref 6679 in tsz_toolbox
 Vetted: s
 Judgement: g
@@ -528,7 +594,7 @@ jucheeti mintsita tsipe -sï -p -ti
 1SG.GEN heart be.happy AOR-PAST-3.IND
 My heart was happy
 
-#48
+#60
 Source: ref 46 in tsz_toolbox
 Vetted: s
 Judgement: g
@@ -538,7 +604,7 @@ ima-eri primu-mpa juuata -rhu ireka -sï -p -ti
 DEM.SG-GEN cousin-3.POSS mount-LOC reside-AOR-PAST-3.IND
 His cousin lived on the mount
 
-#49
+#61
 Source: ref 4216 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -548,7 +614,7 @@ inte atʃati hutʃeeti itsʰuti-sïn-ti
 DEM.SG man 1SG.GEN smoker-HAB-3.IND
 My husband smokes
 
-#50
+#62
 Source: ref 4250 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -558,7 +624,7 @@ tʰu mite-sï ima-ni watsï hutʃeeti-ni
 2SG be.acquainted-AOR DEM.SG-OBJ son/daughter 1SG.GEN-OBJ
 You know my son
 
-#51
+#63
 Source: modded ref 164 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -568,7 +634,7 @@ inte jucha-eri p'inte-kua tsïta-nchi-a-ti
 DEM.SG 1PL-GEN accustom NMLZR lose-up-FUT-3.IND
 our customs and language will be lost
 
-#52
+#64
 Source: Chamoreau # 64 (e)
 Vetted: f
 Judgement: g
@@ -578,7 +644,7 @@ jupika-x-ti juchi kawayu-ni
 take-AOR-3.IND 1SG.POSS horse-OBJ
 He took my horse
 
-#53
+#65
 Source: ref 4885 in tsz_toolbox
 Vetted: s
 Judgement: g
