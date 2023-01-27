@@ -43,6 +43,23 @@ nom-acc-acc-case-name=acc
   case12_name=com
 
 section=adnom-poss
+  poss-pron1_type=non-affix
+  poss-pron1_agr=non-agree
+  poss-pron1_mod-spec=spec
+  poss-pron1_order=head-final
+    poss-pron1_instance1_name=juchi
+    poss-pron1_instance1_orth=juchi
+      poss-pron1_instance1_feat1_name=number
+      poss-pron1_instance1_feat1_value=sg
+      poss-pron1_instance1_feat2_name=person
+      poss-pron1_instance1_feat2_value=1st
+    poss-pron1_instance2_name=jempa
+    poss-pron1_instance2_orth=jempa
+      poss-pron1_instance2_feat1_name=number
+      poss-pron1_instance2_feat1_value=pl
+      poss-pron1_instance2_feat2_name=person
+      poss-pron1_instance2_feat2_value=3rd
+  poss-pron1_possessum-mark=no
 
 section=direct-inverse
 
@@ -84,6 +101,8 @@ tense-definition=build
     mood5_supertype5_name=mood
   mood6_name=cond
     mood6_supertype6_name=mood
+  mood7_name=subj
+    mood7_supertype1_name=mood
 
 section=evidentials
 
@@ -137,6 +156,15 @@ section=nominalclause
 section=clausal-comp
 
 section=clausalmods
+  cms1_position=either
+  cms1_modifier-attach=either
+  cms1_subordinator=free
+  cms1_subposition=before
+  cms1_subordinator-type=head
+    cms1_freemorph1_orth=jimpoka
+    cms1_freemorph1_pred=_because_subord_rel
+    cms1_feat1_name=form
+    cms1_feat1_value=form
 
 section=lexicon
   noun2_name=noun2
@@ -6776,15 +6804,12 @@ section=morphology
       verb-pc159_lrt3_feat1_head=verb
       verb-pc159_lrt3_lri1_inflecting=yes
       verb-pc159_lrt3_lri1_orth=-sï
-    verb-pc159_lrt4_name=continuative-inchoative
-      verb-pc159_lrt4_name=verb-pc159_lrt4
+    verb-pc159_lrt4_name=verb-pc159_lrt4
       verb-pc159_lrt4_feat1_name=aspect
       verb-pc159_lrt4_feat1_value=cont
       verb-pc159_lrt4_feat1_head=verb
       verb-pc159_lrt4_lri1_inflecting=yes
       verb-pc159_lrt4_lri1_orth=-xam
-      verb-pc159_lrt4_lri2_inflecting=yes
-      verb-pc159_lrt4_lri2_orth=-ʃam
       verb-pc159_lrt4_lri2_inflecting=yes
       verb-pc159_lrt4_lri2_orth=-hampi
   verb-pc160_name=verb-pc160
