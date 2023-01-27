@@ -281,7 +281,7 @@ Judgement: g
 Phenomena: case
 arhi-j-ti=ni juchiti tati
 arhi-sï-ti=ni jucheeti tati
-say AOR 3.IND =1SG.SBJ 1SG.GEN father
+say-AOR-3.IND=1SG.SBJ 1SG.GEN father
 My dad said to me
 
 #29
@@ -339,10 +339,10 @@ Source: ref 4101 in tsz_toolbox
 Vetted: s
 Judgement: u
 Phenomena: case
-hatsi-ku-ø namunitu itukwa tʃuripu
-hatsi-ku-ø namunitu itukwa tʃuɽipu
-have APPL.3 IMPRTV2 few salt soup
-Intended: 'Put a little salt in the soup' (needs ni after the IO)
+hatsi-ku-ø namunitu itukwa
+hatsi-ku-ø namunitu itukwa
+have-APPL.3-IMPRTV2 few salt
+Intended: 'Have a little salt in the soup' (needs ni after the IO)
 
 #35
 Source: ref 4101 in tsz_toolbox, 
@@ -354,18 +354,27 @@ hatsi-ku-ø namunitu itukwa-ni
 have-APPL.3-IMPRTV2 few salt-OBJ
 Intended: 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
 
-
-#39
+#36
 Source: modified 2023 Chamoreau (ex. 50)
 Vetted: s
 Judgement: g
 Phenomena: adverbial clausal modifiers
 ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
 ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
-go ITER AOR PAST 3.IND INSTR =3PL eat INF exist PAST SBJNC
+go-ITER-AOR-PAST-3.IND=S3PL SUB=3PL eat-INF exist-PAST-SBJNC
 They went because they were eating
 
-#40
+#37
+Source: ref 130 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: adverbial clausal modifiers
+nira-sï-ka jimpoka-ni uanta-ka p'urhe
+nira-sï-ka jimpoka-ni uanta-ka p'urhe
+go-AOR-1/2IND because-FORM-OBJ speak-1/2IND P'urhepecha
+I went because I spoke P'urhe 
+
+#38
 Source: The Tarascan Language - Foster, pg. 184
 Vetted: s
 Judgement: g
@@ -375,7 +384,7 @@ hi wera-ka-ni k'uta-rhu puerta-rhu
 1SG goout-1/2IND-INF house-LOC door-LOC
 I go out of the house by the door
 
-#42
+#39
 Source: The Tarascan Language - Foster, pg. 184
 Vetted: s
 Judgement: g
@@ -386,7 +395,7 @@ there go-VOC-ITER-INF=3PL again
 There we arrived again at the house.
 
 
-#43
+#40
 Source: The Tarascan Language - Foster, pg. 183
 Vetted: s
 Judgement: g
@@ -396,7 +405,7 @@ ni-a-ka=kxï jurhia-kwa
 go-FUT1/2IND=3PL dawn-NMLZR
 Let's go by day.
 
-#44
+#41
 Source: The Tarascan Language - Foster, pg. 184
 Vetted: s
 Judgement: g
@@ -406,17 +415,17 @@ hi ka=na-s-ka-ni oktubre-mpu
 1SG and=evidential-AOR-1/2IND-INF October-INSTR
 I was born in October. (shortened)
 
-#51
+#42
 Source: ref 6038 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: complement clauses
 ueka-pirin-ka-ni esika churi-pirin-ka ia
 ueka-pirin-ka-ni exki churi-pirin-ka ia
-want COND 1/2IND INF SUBORD dusk COND SBJNC already
+want-COND-1/2IND-INF SUBORD dusk-COND-SBJNC already
 I would want that it would become night already
 
-#52
+#43
 Source: ref 1619 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -426,7 +435,7 @@ a-rhi-sï-ti exki jurhaku-pirin-ka uakasï-ni
 say MID AOR 3.IND SUBORD leave COND SBJNC ox INF
 said to him that he would leave the ox
 
-#53
+#44
 Source: ref 3805 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -436,7 +445,7 @@ burru isï u-s-ti exki na
 donkey likethis do AOR 3.IND SUBORD how
 The poor donkey, did everything as he planned
 
-#54
+#45
 Source: ref 5994 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -445,3 +454,72 @@ kuirhipu-echa enka=ksï exe-p-ka a-rhi-sïren-p-ti=ksï
 k'uiripu-echa enka=kxï exe-p-ka a-rhi-sïren-p-ti=kxï
 people PL SUBORD =3PL see PAST SBJNC say MID HAB.PST PAST 3.IND =3PL
 the people who saw him used to say
+
+#45
+Source: modded ref 130 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: possessive
+juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
+juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
+1PL.GEN mom elderly OBJ POSTP speak 1/2IND P'urhepecha
+I spoke P'urhe with my grandmother
+
+#46
+Source: modded ref 130 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: possessive
+juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
+juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
+1PL.GEN mom elderly OBJ POSTP speak 1/2IND P'urhepecha
+I spoke P'urhe with my grandmother
+
+#47
+Source: modded ref 6679 in tsz_toolbox
+Vetted: s
+Judgement: g
+Phenomena: possessive
+jucheeti mintsita tsipe -sï -p -ti
+1SG.GEN heart be.happy AOR PAST 3.IND
+My heart was happy
+
+#48
+Source: ref 46 in tsz_toolbox
+Vetted: s
+Judgement: g
+Phenomena: possessive
+ima-eri primu-mpa juata-rhu ireka-s-p-ti
+ima-eri primu-mpa juuata -rhu ireka -sï -p -ti
+DEM.SG-GEN cousin-3.POSS mount-LOC reside-AOR-PAST-3.IND
+His cousin lived on the mount
+
+#49
+Source: ref 4216 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: possessive
+inte atʃati hutʃeeti itsʰuti-ʃin-ti
+inte atʃati hutʃeeti itsʰuti-sïn-ti
+DEM.SG man 1SG.GEN smoker-HAB-3.IND
+My husband smokes
+
+#50
+Source: ref 4250 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: possessive
+tʰu mite-sï ima-ni watsï hutʃeeti-ni
+tʰu mite-sï ima-ni watsï hutʃeeti-ni
+2SG be.acquainted-AOR DEM.SG-OBJ son/daughter 1SG.GEN-OBJ
+You know my son
+
+#51
+Source: modded ref 164 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: possessive
+inte jucha-eri pinte-kua tsï-nchi-a-ti
+inte jucha-eri p'inte-kua tsïta-nchi-a-ti
+DEM.SG 1PL-GEN accustom NMLZR lose-up-FUT-3.IND
+our customs and language will be lost
