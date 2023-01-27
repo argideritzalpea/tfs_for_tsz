@@ -361,8 +361,8 @@ Vetted: f
 Judgement: g
 Phenomena: case
 inte kawaju hutʃeeti kʰeri -sï -ti =a
-inte kawaju hutʃeeti kʰeri -sï -ti =a
-DEM.SG 1SG.GEN big AOR 3.IND =already
+inte kawaju hutʃeeti kʰeri-sï-ti=a
+DEM.SG horse 1SG.GEN big-AOR-3.IND=already
 My horse is big 
 
 #37
@@ -452,7 +452,7 @@ Judgement: g
 Phenomena: adverbial clausal modifiers
 ni-a-ka=kxï jurhia-kwa
 ni-a-ka=kxï jurhia-kwa
-go-FUT1/2IND=3PL dawn-NMLZR
+go-FUT-1/2IND=3PL dawn-NMLZR
 Let's go by day.
 
 #46
@@ -472,7 +472,7 @@ Judgement: g
 Phenomena: complement clauses
 ji ariaka eskirini t'u jurark'uchika
 ji ari-a-ka eski=rini t'u jurhaku-chi-∅-∅-ka
-1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-SBJNC
+1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-PERF-NP-SBJNC
 Yo le diré que tu me lo dejaste
 
 #48
@@ -482,7 +482,7 @@ Judgement: u
 Phenomena: complement clauses
 ji ariaka eskirini t'u jurark'uchika
 ji ari-a-ka eski=rini t'u jurhaku-chi-∅-∅-ki
-1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-INTER
+1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-PERF-NP-INTER
 intended : Yo le diré que tu me lo dejaste
 
 #49
@@ -526,17 +526,17 @@ ji ueka-pirin-ka exki=ksï ixu ja-pirin
 intended : I would want that they be here
 
 #53
-Source: ref 6038 in tsz_toolbox
+Source: ref 6040 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: complement clauses
 ueka-pirin-ka-ni esika churi-pirin-ka
 ueka-pirin-ka-ni exki churi-pirin-ka
-want-1/2IND-INF SUBORD dusk-COND-SBJNC
+want-COND-1/2IND-INF SUBORD dusk-COND-SBJNC
 I would want that it would become night
 
 #54
-Source: ref 6038 in tsz_toolbox
+Source: ref 6040 in tsz_toolbox
 Vetted: s
 Judgement: u
 Phenomena: complement clauses
@@ -552,18 +552,18 @@ Judgement: g
 Phenomena: complement clauses
 a-rhi-sï-ti esika jurajku-pirin-ka uakasï-ni
 a-rhi-sï-ti exki jurhaku-pirin-ka uakasï-ni
-say-MID-AOR-3.IND SUBORD leave-COND-SBJNC ox -NF
+say-MID-AOR-3.IND SUBORD leave-COND-SBJNC ox-NF
 He said to him that he would leave the ox
 
 #56
-Source: ref 3805 in tsz_toolbox
+Source: modded ref 3805 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: complement clauses
 burru isï u-s-ti esika na
 burru isï u-s-ti exki na
 donkey likethis do-AOR-3.IND SUBORD how
-The poor donkey, did everything as he planned
+The donkey, did everything like this
 
 #57
 Source: modded ref 130 in tsz_toolbox
@@ -572,7 +572,7 @@ Judgement: g
 Phenomena: possessive
 juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
 juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
-1PL.GEN mom elderly-OBJ POSTP speak-1/2IND-P'urhepecha
+1PL.GEN mom elderly-OBJ POSTP speak-1/2IND P'urhepecha
 I spoke P'urhe with my grandmother
 
 #58
@@ -582,7 +582,7 @@ Judgement: g
 Phenomena: possessive
 juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
 juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
-1PL.GEN-mom elderly-OBJ POSTP speak-1/2IND P'urhepecha
+1PL.GEN mom elderly-OBJ POSTP speak-1/2IND P'urhepecha
 I spoke P'urhe with my grandmother
 
 #59
@@ -590,8 +590,9 @@ Source: modded ref 6679 in tsz_toolbox
 Vetted: s
 Judgement: g
 Phenomena: possessive
-jucheeti mintsita tsipe -sï -p -ti
-1SG.GEN heart be.happy AOR-PAST-3.IND
+jucheeti mintsita tsipe-sï-p-ti
+jucheeti mintsita tsipe-sï-p-ti
+1SG.GEN heart be.happy-AOR-PAST-3.IND
 My heart was happy
 
 #60
@@ -600,7 +601,7 @@ Vetted: s
 Judgement: g
 Phenomena: possessive
 ima-eri primu-mpa juata-rhu ireka-s-p-ti
-ima-eri primu-mpa juuata -rhu ireka -sï -p -ti
+ima-eri primu-mpa juuata-rhu ireka-sï-p-ti
 DEM.SG-GEN cousin-3.POSS mount-LOC reside-AOR-PAST-3.IND
 His cousin lived on the mount
 
@@ -631,7 +632,7 @@ Judgement: g
 Phenomena: possessive
 inte jucha-eri pinte-kua tsï-nchi-a-ti
 inte jucha-eri p'inte-kua tsïta-nchi-a-ti
-DEM.SG 1PL-GEN accustom NMLZR lose-up-FUT-3.IND
+DEM.SG 1PL-GEN accustom-NMLZR lose-up-FUT-3.IND
 our customs and language will be lost
 
 #64
@@ -647,7 +648,7 @@ He took my horse
 #65
 Source: ref 4885 in tsz_toolbox
 Vetted: s
-Judgement: g
+Judgement: g 
 Phenomena: possessive
 ima-eri uap'a jempa-echa ero-nt'a-xa-ti
 ima-eri uap'a jempa-echa ero-nt'a-xa-ti
