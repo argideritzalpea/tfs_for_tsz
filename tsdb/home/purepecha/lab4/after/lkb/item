@@ -1,0 +1,65 @@
+1@ref 3291 in tsz_toolbox.txt@@@1@c@ima kuɽa-tʃi-ʃ-tirini itʃuskuta ama-mpa-mpu@@@@1@4@DEM.SG request-APP.1/2-AOR-3.IND=1SG.OBJ tortilla mother-3.POSS-INSTRAquel me ha pedido tortillas por su madre@chris haberland and abhinav patil@january 13, 2023
+2@ref 2671 in tsz_toolbox.txt@@@1@tense@tʃeni ma-ku-ra-ha-ka@@@@1@2@how one-APPL.3-VAL-PROG-1/2INDI give a lot.@chris haberland and abhinav patil@january 13, 2023
+3@ref 2672 in tsz_toolbox.txt@@@1@tense@tʃeni maku-ra-ha-ka@@@@1@2@how give-VAL-PROG-1/2INDI used to give a lot.@chris haberland and abhinav patil@january 13, 2023
+4@ref 2673 in tsz_toolbox.txt@@@1@tense@tʃeni maku-ra-ka@@@@1@2@much give-VAL-1/2INDI gave a lot.@chris haberland and abhinav patil@january 13, 2023
+5@ref 2674 in tsz_toolbox.txt@@@1@tense@tʃeni maku-ra-pi-h-ka@@@@1@2@much give-VAL-PST-AOR-1/2INDI had given a lot.@chris haberland and abhinav patil@january 13, 2023
+6@ref 3545 in tsz_toolbox.txt@@@1@aspect@waɽi-ʃ-ti@@@@1@1@die-AOR-3.INDEl esta muerto.@chris haberland and abhinav patil@january 13, 2023
+7@ref 3600 in tsz_toolbox.txt@@@1@aspect@hu-ɽa-ʃ-ti@@@@1@1@come-FORM-AOR-3.INDunknown/unvetted ((He has come))@chris haberland and abhinav patil@january 13, 2023
+8@ref 3626 in tsv_toolbox@@@1@aspect@a-sï-ka@@@@1@1@say-AOR-1/2INDI said@chris haberland and abhinav patil@january 13, 2023
+9@ref 3814 in tsv_toolbox@@@1@aspect@isï unta-s-ti@@@@1@2@APPROX begin-AOR-3.INDso the donkey started to limp@chris haberland and abhinav patil@january 13, 2023
+10@ref 3987 in tsv_toolbox@@@1@aspect@yuɽiɽi etʃu-nu-h-ti@@@@1@2@blood CL.flat-patio-AOR-3.INDContext: I found some drops of blood on the patio. Intended:'There are drops of blood lying on the patio'/'There is blood on the patio'@chris haberland and abhinav patil@january 13, 2023
+11@ref 3291 in tsz_toolbox.txt@@@1@c@ama-mpa-mpu@@@@1@1@mother-3.POSS-INSTRpor su madre@chris haberland and abhinav patil@january 13, 2023
+12@ref 3911 in tsz_toolbox.txt, reduced@@@1@agr@Pegru aɽa-h-ø-ti@@@@1@2@Pedro eat-AOR-PRES-3.INDPedro ate@chris haberland and abhinav patil@january 13, 2023
+13@ref 3911 in tsz_toolbox.txt + our own informed judgement@@@1@agr@Pegru aɽa-h-ø-ka@@@@0@2@Pedro eat-AOR-PRES-1/2INDPedro ate@chris haberland and abhinav patil@january 13, 2023
+14@ref 3362 in tsz_toolbox.txt@@@1@agr@ekwatsi-i-ʃ-ti=kʃï@@@@1@1@twenty-PRED-AOR-3.IND=3PLIt is twenty@chris haberland and abhinav patil@january 13, 2023
+15@ref 3467 in tsz_toolbox.txt@@@1@agr@piri-ʃa-ti@@@@1@1@sing-PROG-3.INDHe is singing@chris haberland and abhinav patil@january 13, 2023
+16@ref 3546 in tsz_toolbox.txt@@@1@agr@ni-ʃa-ka kwʰiripita-ni@@@@1@2@cook-PROG-1/2IND meat-OBJI am cooking the meat@chris haberland and abhinav patil@january 13, 2023
+17@ref 3546 in tsz_toolbox.txt  + our own informed judgement@@@1@agr@ni-ʃa-ti kwʰiripita-ni@@@@0@2@cook-PROG-3IND meat-OBJI am cooking the meat@chris haberland and abhinav patil@january 13, 2023
+18@ref 3545 in tsz_toolbox.txt@@@1@agr@waɽi-ʃ-ti@@@@1@1@die-AOR-3.INDHe is dead@chris haberland and abhinav patil@january 13, 2023
+19@ref 3881 in tsz_toolbox.txt@@@1@agr@ero-ka-ʃa-ka@@@@1@1@wait-FORM-PROG-1/2INDI/you/we/you(pl.) are waiting@chris haberland and abhinav patil@january 13, 2023
+20@ref 3882 in tsz_toolbox.txt@@@1@agr@ero-ka-ʃa-ti@@@@1@1@wait-FORM-PROG-3.INDHe/they are waiting@chris haberland and abhinav patil@january 13, 2023
+21@ref 3421 in tsz_toolbox.txt@@@1@agr@hinkonikwa-ti-itʃa tʰiri-ʃïn-ti@@@@1@2@sister-2.POSS-PL eat-HAB-3.INDYour sisters eat@chris haberland and abhinav patil@january 13, 2023
+22@toolbox ref 3555 (but with subject because argument optionality not working right now)@@@1@aspect@piri-ʃ-ti pirikwa-ni@@@@1@2@sing-AOR-3.IND song-OBJ[She/he/it] is singing (about to sing or continuing to sing) (Yo sigo cantando (estoy a punto de cantar y continuo cantando))@chris haberland and abhinav patil@january 13, 2023
+23@dominguez dissertation p. 196, ex. 5.5-13@@@1@aspect@uxati waxantsïkwa@@@@1@2@do-PROG-3.IND seat[He/she/it] is making a seat/bench (Está haciendo una silla)@chris haberland and abhinav patil@january 13, 2023
+24@toolbox ref 3484 (edited)@@@1@aspect@piri-ʃïn-ti@@@@1@1@sing-HAB-3.INDHe sings (habitually, commonly). ('El canta/el tiene la costumbre de cantar')@chris haberland and abhinav patil@january 13, 2023
+25@toolbox ref 3555 (but with subject because argument optionality not working right now)@@@1@aspect@ji pirixamka@@@@1@2@1SG sing-CONT-1/2INDI am singing. (about to sing or continuing to sing) (Yo sigo cantando (estoy a punto de cantar y continuo cantando))@chris haberland and abhinav patil@january 13, 2023
+26@p. 54 (3.1-5) dominguez (spelling changed)@@@1@tam@erokaspti@@@@1@1@wait-FORM-PERF-PASS-3ASER[He/she/it] had waited (for it) ('lo había esperado')@chris haberland and abhinav patil@january 13, 2023
+27@toolbox ref 3876 (no null morpheme)@@@1@tam@ero-ka-ʃa-ka=ksï@@@@1@1@wait-FORM-PROG-1/2IND=1PL.EX.SBJWe are waiting@chris haberland and abhinav patil@january 13, 2023
+28@toolbox ref 3876 (no null morpheme)@@@1@tam@ero-ka-ʃa-ka=ksï@@@@0@1@wait-FORM-PROG-1/2IND=1PL.EX.SBJIntended:'We are waiting'@chris haberland and abhinav patil@january 13, 2023
+29@toolbox ref 1633@@@1@tam@ji sesi ireka-sï-p-ka@@@@1@3@1SG good reside-AOR-PAST-1/2INDI lived well@chris haberland and abhinav patil@january 13, 2023
+30@ref 5686 in tsz_toolbox@@@1@c@hini peta-p-ti tsʰa-mpo@@@@1@3@there take.out-PAST-3.IND home-INSTRShe took her from her own house / Se la llevó de su propia casa@chris haberland and abhinav patil@january 13, 2023
+31@ref 5052 in tsz_toolbox@@@1@c@p'urhepecha jimpo uanta-kua@@@@1@3@Purhepecha INSTR speak-NMLZRour language@chris haberland and abhinav patil@january 13, 2023
+32@ref 5122 in tsz_toolbox@@@1@c@kani-kua jimpo-ka=chka@@@@1@2@much-NMLZR INSTR-1/2IND=thenthings really have changed@chris haberland and abhinav patil@january 13, 2023
+33@ref 6639 in tsz_toolbox@@@1@c@sesi chaari kutsïkua-echa-ni@@@@1@3@good 2PL.GEN ear-PL-OBJso open up your ears.@chris haberland and abhinav patil@january 13, 2023
+34@modded ref 6639 in tsz_toolbox@@@1@c@sesi chaari kutsïkua-ni-echa@@@@0@3@good 2PL.GEN ear-OBJ-PLso open up your ears. (ni must follow echa (pl))@chris haberland and abhinav patil@january 13, 2023
+35@ref 3602 in tsz_toolbox@@@1@c@arhi-j-ti=ni juchiti tati@@@@1@3@say-AOR-3.IND=1SG.SBJ 1SG.GEN fatherMy dad said to me@chris haberland and abhinav patil@january 13, 2023
+36@modded ref 4294 in tsz_toolbox@@@1@c@inte kawaju hutʃeeti kʰeri -sï -ti =a@@@@1@7@DEM.SG horse 1SG.GEN big-AOR-3.IND=alreadyMy horse is big@chris haberland and abhinav patil@january 13, 2023
+37@ref 4287 in tsz_toolbox@@@1@agr@nompe we-ʃïn-ka-ni@@@@1@2@NEG want-HAB-1/2IND-INFI don't want anything@chris haberland and abhinav patil@january 13, 2023
+38@modded ref 200 in tsz_toolbox@@@1@agr@o documentu-echa-ni u-ni-a@@@@0@3@or document-PL-OBJ do-OBJ-3PL.OBJor making documents (switched -ni and -a positions)@chris haberland and abhinav patil@january 13, 2023
+39@ref 200 in tsz_toolbox@@@1@agr@o documentu-echa-ni u-a-ni@@@@1@3@or document-PL-OBJ do-3PL.OBJ-OBJor making documents (switched -ni and -a positions)@chris haberland and abhinav patil@january 13, 2023
+40@ref 4102 in tsz_toolbox,@@@1@c@hatsi-ku-ø sani-titu itukwa tʃuripu@@@@1@4@have-APPL.3-IMPRTV2 little-DIM salt soup'Put a little salt in the soup'  (needs ni after the IO)@chris haberland and abhinav patil@january 13, 2023
+41@ref 4102 in tsz_toolbox,@@@1@c@hatsi-ku-ø sani-titu itukwa tʃuripu-ni@@@@0@4@have-APPL.3-IMPRTV2 little-DIM salt soup-OBJ'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))@chris haberland and abhinav patil@january 13, 2023
+42@modified 2023 chamoreau (ex. 50)@@@1@adverbialclausalmodifiers@ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka@@@@1@4@go-ITER-AOR-PAST-3.IND=S3PL SUB=3PL eat-INF exist-PAST-SBJNCThey went because they were eating@chris haberland and abhinav patil@january 13, 2023
+43@ref 130 in tsz_toolbox@@@1@adverbialclausalmodifiers@nira-sï-ka jimpoka=ni uanta-ka p'urhe@@@@1@4@go-AOR-1/2IND SUB=1SG.SBJ speak-1/2IND P'urhepechaI went because I spoke P'urhe@chris haberland and abhinav patil@january 13, 2023
+44@the tarascan language - foster, pg. 184@@@1@adverbialclausalmodifiers@hi wera-ka-ni k'uta-rhu puerta-rhu@@@@1@4@1SG goout-1/2IND-INF house-LOC door-LOCI go out of the house by the door@chris haberland and abhinav patil@january 13, 2023
+45@the tarascan language - foster, pg. 183@@@1@adverbialclausalmodifiers@ni-a-ka=kxï jurhia-kwa@@@@1@2@go-FUT-1/2IND=3PL dawn-NMLZRLet's go by day.@chris haberland and abhinav patil@january 13, 2023
+46@the tarascan language - foster, pg. 184@@@1@adverbialclausalmodifiers@hi ka=na-s-ka-ni oktubre-mpu@@@@1@3@1SG and=evidential-AOR-1/2IND-INF October-INSTRI was born in October. (shortened)@chris haberland and abhinav patil@january 13, 2023
+47@2015 dissertation, 7.2-5@@@1@complementclauses@ji ariaka eskirini t'u jurark'uchika@@@@1@5@1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-PERF-NP-SBJNCYo le diré que tu me lo dejaste@chris haberland and abhinav patil@january 13, 2023
+48@2015 dissertation, 7.2-5@@@1@complementclauses@ji ariaka eskirini t'u jurark'uchika@@@@0@5@1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-PERF-NP-INTERintended : Yo le diré que tu me lo dejaste@chris haberland and abhinav patil@january 13, 2023
+49@2015 dissertation, 7.2-15@@@1@complementclauses@ji wekapirinka eskiksï ixu japirinka@@@@1@5@1SG want-COND-1/2IND SUBORD=3PL here exist-COND-SUBJI would want that they be here@chris haberland and abhinav patil@january 13, 2023
+50@2015 dissertation, 7.2-15@@@1@complementclauses@ji wekapirinka eskiksï ixu japirinka@@@@0@5@1SG want-COND-1/2IND SUBORD=3PL here exist-COND-EXCLintended : I would want that they be here@chris haberland and abhinav patil@january 13, 2023
+51@2015 dissertation, 7.2-15@@@1@complementclauses@ji wekapirinka eskiksï ixu japirinka@@@@0@5@1SG want-COND-1/2IND SUBORD=3PL here exist-COND-INTERintended : I would want that they be here@chris haberland and abhinav patil@january 13, 2023
+52@2015 dissertation, 7.2-15@@@1@complementclauses@ji wekapirinka eskiksï ixu japirinka@@@@0@5@1SG want-COND-1/2IND SUBORD=3PL here exist-CONDintended : I would want that they be here@chris haberland and abhinav patil@january 13, 2023
+53@ref 6040 in tsz_toolbox@@@1@complementclauses@ueka-pirin-ka-ni esika churi-pirin-ka@@@@1@3@want-COND-1/2IND-INF SUBORD dusk-COND-SBJNCI would want that it would become night@chris haberland and abhinav patil@january 13, 2023
+54@ref 6040 in tsz_toolbox@@@1@complementclauses@ueka-ka-ni esika churi-pirin@@@@0@3@want-1/2IND-INF SUBORD dusk-CONDI would want that it would become night@chris haberland and abhinav patil@january 13, 2023
+55@ref 1619 in tsz_toolbox@@@1@complementclauses@a-rhi-sï-ti esika jurajku-pirin-ka uakasï-ni@@@@1@4@say-MID-AOR-3.IND SUBORD leave-COND-SBJNC ox-NFHe said to him that he would leave the ox@chris haberland and abhinav patil@january 13, 2023
+56@modded ref 3805 in tsz_toolbox@@@1@complementclauses@burru isï u-s-ti esika na@@@@1@5@donkey likethis do-AOR-3.IND SUBORD howThe donkey, did everything like this@chris haberland and abhinav patil@january 13, 2023
+57@modded ref 130 in tsz_toolbox@@@1@possessive@juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe@@@@1@6@1PL.GEN mom elderly-OBJ POSTP speak-1/2IND P'urhepechaI spoke P'urhe with my grandmother@chris haberland and abhinav patil@january 13, 2023
+58@modded ref 130 in tsz_toolbox@@@1@possessive@juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe@@@@1@6@1PL.GEN mom elderly-OBJ POSTP speak-1/2IND P'urhepechaI spoke P'urhe with my grandmother@chris haberland and abhinav patil@january 13, 2023
+59@modded ref 6679 in tsz_toolbox@@@1@possessive@jucheeti mintsita tsipe-sï-p-ti@@@@1@3@1SG.GEN heart be.happy-AOR-PAST-3.INDMy heart was happy@chris haberland and abhinav patil@january 13, 2023
+60@ref 46 in tsz_toolbox@@@1@possessive@ima-eri primu-mpa juata-rhu ireka-s-p-ti@@@@1@4@DEM.SG-GEN cousin-3.POSS mount-LOC reside-AOR-PAST-3.INDHis cousin lived on the mount@chris haberland and abhinav patil@january 13, 2023
+61@ref 4216 in tsz_toolbox@@@1@possessive@inte atʃati hutʃeeti itsʰuti-ʃin-ti@@@@1@4@DEM.SG man 1SG.GEN smoker-HAB-3.INDMy husband smokes@chris haberland and abhinav patil@january 13, 2023
+62@ref 4250 in tsz_toolbox@@@1@possessive@tʰu mite-sï ima-ni watsï hutʃeeti-ni@@@@1@5@2SG be.acquainted-AOR DEM.SG-OBJ son/daughter 1SG.GEN-OBJYou know my son@chris haberland and abhinav patil@january 13, 2023
+63@modded ref 164 in tsz_toolbox@@@1@possessive@inte jucha-eri pinte-kua tsï-nchi-a-ti@@@@1@4@DEM.SG 1PL-GEN accustom-NMLZR lose-up-FUT-3.INDour customs and language will be lost@chris haberland and abhinav patil@january 13, 2023
+64@chamoreau # 64 (e)@@@1@possessive@jupika-x-ti juchi kawayu-ni@@@@1@3@take-AOR-3.IND 1SG.POSS horse-OBJHe took my horse@chris haberland and abhinav patil@january 13, 2023
+65@ref 4885 in tsz_toolbox@@@1@possessive@ima-eri uap'a jempa-echa ero-nt'a-xa-ti@@@@1@4@DEM.SG-GEN son 3.POSS-PL wait-ITER-PROG-3.INDHis sons are wating for me@chris haberland and abhinav patil@january 13, 2023

@@ -813,7 +813,7 @@ ima_1 := noun84-noun-lex &
   [ STEM < "ima" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dem.sg_n_rel" ].
 
-eska := noun84-noun-lex &
+eska_1 := noun84-noun-lex &
   [ STEM < "eska" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sight_n_rel" ].
 
@@ -2693,7 +2693,7 @@ iki_2 := noun218-noun-lex &
   [ STEM < "iki" >,
     SYNSEM.LKEYS.KEYREL.PRED "_if,as_n_rel" ].
 
-iski := noun218-noun-lex &
+iski_1 := noun218-noun-lex &
   [ STEM < "iski" >,
     SYNSEM.LKEYS.KEYREL.PRED "_that_n_rel" ].
 
@@ -7123,6 +7123,14 @@ yorki_7E := verb755-verb-lex &
   [ STEM < "ʃïpíru~" >,
     SYNSEM.LKEYS.KEYREL.PRED "_smell_v_rel" ].
 
+ueka_6 := verb756-verb-lex &
+  [ STEM < "ueka" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_want_v_rel" ].
+
+ari := verb756-verb-lex &
+  [ STEM < "ari" >,
+    SYNSEM.LKEYS.KEYREL.PRED "say_v_rel" ].
+
 ;;; Auxiliaries
 
 u_7 := aux1-aux-lex &
@@ -7464,6 +7472,12 @@ jimpo_2 := aux115-aux-lex &
 
 ;;; Adverbs
 
+juchi-noun := juchi-noun-lex &
+  [ STEM < "juchi" > ].
+
+jempa-noun := jempa-noun-lex &
+  [ STEM < "jempa" > ].
+
 ka1 := conj-lex &
   [ STEM < "ka" >,
     SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
@@ -7488,3 +7502,27 @@ ka_3Dri5 := conj-lex &
   [ STEM < "ka=ri" >,
     SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
     CFORM "5" ].
+
+jimpoka := form-clause-init-subord-lex-item &
+  [ STEM < "jimpoka" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_because_subord_rel" ].
+
+;;; Complementizers
+
+exki_4 := comps1-complementizer-lex-item &
+  [ STEM < "exki" > ].
+
+exka := comps1-complementizer-lex-item &
+  [ STEM < "exka" > ].
+
+eski := comps1-complementizer-lex-item &
+  [ STEM < "eski" > ].
+
+eska_2 := comps1-complementizer-lex-item &
+  [ STEM < "eska" > ].
+
+iski_2 := comps1-complementizer-lex-item &
+  [ STEM < "iski" > ].
+
+iska := comps1-complementizer-lex-item &
+  [ STEM < "iska" > ].
