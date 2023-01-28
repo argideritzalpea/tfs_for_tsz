@@ -420,20 +420,10 @@ Source: modified 2023 Chamoreau (ex. 50)
 Vetted: s
 Judgement: g
 Phenomena: adverbial clausal modifiers
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-k'a
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-k'a
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-ka
 go-ITER-AOR-PAST-3.IND=S3PL SUB=3PL eat-INF exist-PAST-SBJNC
 They went because they were eating
-
-#42
-Source: modified 2023 Chamoreau (ex. 50)
-Vetted: s
-Judgement: u
-Phenomena: adverbial clausal modifiers
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p
-ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p
-go-ITER-AOR-PAST-3.IND=S3PL SUB=3PL eat-INF exist-PAST
-intended : They went because they were eating
 
 #43
 Source: ref 130 in tsz_toolbox
@@ -443,37 +433,37 @@ Phenomena: adverbial clausal modifiers
 nira-sï-ka jimpoka=ni uanta-ka p'urhe
 nira-sï-ka jimpoka=ni uanta-ka p'urhe
 go-AOR-1/2IND SUB=1SG.SBJ speak-1/2IND P'urhepecha
-I went because I spoke P'urhe
+I went because I spoke P'urhe 
 
 #44
-Source: ref 130 in tsz_toolbox
-Vetted: f
-Judgement: u
-Phenomena: adverbial clausal modifiers
-nira-sï-ka uanta-ka p'urhe jimpoka=ni
-nira-sï-ka uanta-ka p'urhe jimpoka=ni
-go-AOR-1/2IND speak-1/2IND P'urhepecha SUB=1SG.SBJ
-I went because I spoke P'urhe
-
-#45
-Source: dissertation 7.3-2 b
+Source: The Tarascan Language - Foster, pg. 184
 Vetted: s
 Judgement: g
 Phenomena: adverbial clausal modifiers
-mientraskini jampera irekani jawaka jichkani ini anchikuriakani
-mientras-ke=ni jampera ireka-ni ja-wa-ka ji=chka=ni i-ni anchikuri-a-ka=ni
-while that=1SG.S until live-INF live-DEON-SUBJ I=well=1SG.S this-OBJ work-DEON-1/2IND=1SG.S
-While I am living, well, I will work in that
+hi wera-ka-ni k'uta-rhu puerta-rhu
+hi wera-ka-ni k'uta-rhu puerta-rhu
+1SG goout-1/2IND-INF house-LOC door-LOC
+I go out of the house by the door
+
+#45
+Source: The Tarascan Language - Foster, pg. 183
+Vetted: s
+Judgement: g
+Phenomena: adverbial clausal modifiers
+ni-a-ka=kxï jurhia-kwa
+ni-a-ka=kxï jurhia-kwa
+go-FUT-1/2IND=3PL dawn-NMLZR
+Let's go by day.
 
 #46
-Source: modded dissertation 7.3-2 b
+Source: The Tarascan Language - Foster, pg. 184
 Vetted: s
-Judgement: u
+Judgement: g
 Phenomena: adverbial clausal modifiers
-mientraskini jampera irekani jawa jichkani ini anchikuriakani
-mientras-ke=ni jampera ireka-ni ja-wa ji=chka=ni i-ni anchikuri-a-ka=ni
-while that=1SG.S until live-INF live-DEON I=well=1SG.S this-OBJ work-DEON-1/2IND=1SG.S
-While I am living, well, I will work in that
+hi ka=na-s-ka-ni oktubre-mpu
+hi ka=na-s-ka-ni oktubre-mpu
+1SG and=evidential-AOR-1/2IND-INF October-INSTR
+I was born in October. (shortened)
 
 #47
 Source: 2015 dissertation, 7.2-5
@@ -586,6 +576,16 @@ juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
 I spoke P'urhe with my grandmother
 
 #58
+Source: modded ref 130 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: possessive
+juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
+juchaeri mama k'eri-ni jinkoni uanta-ka p'urhe
+1PL.GEN mom elderly-OBJ POSTP speak-1/2IND P'urhepecha
+I spoke P'urhe with my grandmother
+
+#59
 Source: modded ref 6679 in tsz_toolbox
 Vetted: s
 Judgement: g
@@ -595,7 +595,7 @@ jucheeti mintsita tsipe-sï-p-ti
 1SG.GEN heart be.happy-AOR-PAST-3.IND
 My heart was happy
 
-#59
+#60
 Source: ref 46 in tsz_toolbox
 Vetted: s
 Judgement: g
@@ -605,7 +605,7 @@ ima-eri primu-mpa juuata-rhu ireka-sï-p-ti
 DEM.SG-GEN cousin-3.POSS mount-LOC reside-AOR-PAST-3.IND
 His cousin lived on the mount
 
-#60
+#61
 Source: ref 4216 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -615,7 +615,7 @@ inte atʃati hutʃeeti itsʰuti-sïn-ti
 DEM.SG man 1SG.GEN smoker-HAB-3.IND
 My husband smokes
 
-#61
+#62
 Source: ref 4250 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -625,7 +625,7 @@ tʰu mite-sï ima-ni watsï hutʃeeti-ni
 2SG be.acquainted-AOR DEM.SG-OBJ son/daughter 1SG.GEN-OBJ
 You know my son
 
-#62
+#63
 Source: modded ref 164 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -635,7 +635,7 @@ inte jucha-eri p'inte-kua tsïta-nchi-a-ti
 DEM.SG 1PL-GEN accustom-NMLZR lose-up-FUT-3.IND
 our customs and language will be lost
 
-#63
+#64
 Source: Chamoreau # 64 (e)
 Vetted: f
 Judgement: g
@@ -645,7 +645,7 @@ jupika-x-ti juchi kawayu-ni
 take-AOR-3.IND 1SG.POSS horse-OBJ
 He took my horse
 
-#64
+#65
 Source: ref 4885 in tsz_toolbox
 Vetted: s
 Judgement: g 

@@ -1,0 +1,122 @@
+Lab 4
+Abhinav Patil
+Chris Haberland
+
+
+This week, we focused on three phenomena:
+
+1. Possessives:
+There are two paradigms for possessives in Purepecha. In the first, an independent pronoun that agrees with Person and Number of the possessor and precedes a noun. The second paradigm is for kinship relations and appears as a suffix on the noun that agrees with Person. We added several examples of each of these in the testsuite file.
+
+Here is an example of the first paradigm:
+jucheeti mintsita tsipe-sï-p-ti
+1SG.GEN heart be.happy-AOR-PAST-3.IND
+My heart was happy
+
+I also provide an example of the second paradigm:
+ima-eri primu-mpa juuata-rhu ireka-sï-p-ti
+DEM.SG-GEN cousin-3.POSS mount-LOC reside-AOR-PAST-3.IND
+His cousin lived on the mount
+
+Here is the relevant change to the choices file:
+section=adnom-poss
+  poss-pron1_type=non-affix
+  poss-pron1_agr=non-agree
+  poss-pron1_mod-spec=spec
+  poss-pron1_order=head-final
+    poss-pron1_instance1_name=juchi
+    poss-pron1_instance1_orth=juchi
+      poss-pron1_instance1_feat1_name=number
+      poss-pron1_instance1_feat1_value=sg
+      poss-pron1_instance1_feat2_name=person
+      poss-pron1_instance1_feat2_value=1st
+    poss-pron1_instance2_name=jempa
+    poss-pron1_instance2_orth=jempa
+      poss-pron1_instance2_feat1_name=number
+      poss-pron1_instance2_feat1_value=pl
+      poss-pron1_instance2_feat2_name=person
+      poss-pron1_instance2_feat2_value=3rd
+  poss-pron1_possessum-mark=no
+
+So far we have only implemented a change to reflect the 1st person and 3rd person SG possessive pronouns of the non-kinship independent pronouns. We note that our toolbox has considerable orthographical and dialectal disparities with other resources that we collect. Notably, the ‘jempa’ pronoun (3SG.gen) in our toolbox is variously “iri, interi, imeri” in Chamoreau. However, ‘jempa’ may be an older dialect, as it seems the toolbox data was mostly created from older corpora. 
+
+2. Adverbial clausal modifiers
+We add support for a particular set of adverbial clausal modifiers, such as “jimpoka” and “mientraske”. These adverbial clausal modifiers go either before or after the matrix clause. The modifier is a free subordinate morpheme. 
+
+We also added 6 examples of ACM to the test suite 3 grammatical, 3 ungrammatical. The ungrammatical examples ensure the subjunctive marker ‘-ka’s absence is noticed such as the one in the grammatical example below:
+
+ni-nt'a-s-p-ti=kxï jimpoka=kxï t'ire-ni ja-p-k'a
+go-ITER-AOR-PAST-3.IND=S3PL SUB=3PL eat-INF exist-PAST-SBJNC
+They went because they were eating
+And that the correct order of the ACM is tested:
+
+nira-sï-ka jimpoka=ni uanta-ka p'urhe
+go-AOR-1/2IND SUB=1SG.SBJ speak-1/2IND P'urhepecha
+I went because I spoke P'urhe
+
+(not below):
+nira-sï-ka uanta-ka p'urhe jimpoka=ni
+go-AOR-1/2IND speak-1/2IND P'urhepecha SUB=1SG.SBJ
+I went because I spoke P'urhe
+
+The relevant choices file change was to create one clausal modifier strategy (cms1) in which the clausal modifier freely is allowed before or after the matrix clause, and is modeled as a free subordinator morpheme. We require further evidence to preclude attachment to either VP or an S.
+section=clausalmods
+  cms1_position=either
+  cms1_modifier-attach=either
+  cms1_subordinator=free
+  cms1_subposition=before
+  cms1_subordinator-type=head
+    cms1_freemorph1_orth=jimpoka
+    cms1_freemorph1_pred=_because_subord_rel
+
+
+3. Embedded clausal
+The subordinator ‘iski’ (with several allomorphs / alternative presentations) is an independent complementizer that connects a matrix clause to an embedded clause, which usually doesn’t coordinate with the matrix (according to Chamoreau). The embedded clause always carries a subjunctive mood, which presents as a suffix (-k’a/ka) on the verb of the embedded clause. 
+We added several test items for the suite for this phenomenon:
+
+ji ari-a-ka eski=rini t'u jurhaku-chi-∅-∅-ka
+1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-PERF-NP-SBJNC
+Yo le diré que tu me lo dejaste
+
+Another example is:
+ji ueka-pirin-ka exki=ksï ixu ja-pirin-ka
+1SG want-COND-1/2IND SUBORD=3PL here exist-COND-SUBJ
+
+I would want that they be here
+We are still researching the interplay between mood / irrealis / conditionality in these constructions and have not opted to shorten the verbal sequences considerably. However, we may plan to shorten these test items in the future.
+
+To provide ungrammatical examples, we can, however, simply swap in another mood morpheme in place of the obligatory “-ka / SBJNC” morpheme:
+ji ari-a-ka eski=rini t'u jurhaku-chi-∅-∅-ki
+1SG say-FUT-1/2IND SUBORD=1SG.OBJ 2SG leave-APP.1/2-PERF-NP-INTER
+intended : Yo le diré que tu me lo dejaste
+
+
+To support these constructions, I added a verbal lexical class that supported the comps1 strategy (iski):
+
+
+verb756_name=verb756
+  verb756_valence=trans,comps1
+    verb756_stem1_orth=ueka
+    verb756_stem1_pred=_want_v_rel
+    verb756_stem2_orth=ari
+    verb756_stem2_pred=say_v_rel
+
+
+Further work will be required to search for examples in which ditransitives are present in embedded clauses, and verify that that will not require additional verb classes.
+We added the actual strategy in the following block:
+section=clausal-comp
+  comps1_clause-pos-same=on
+  comps1_ques=prop
+  comps1_comp-pos-before=on
+  comps1_comp=oblig
+    comps1_stem1_orth=exki
+    comps1_stem2_orth=exka
+    comps1_stem3_orth=eski
+    comps1_stem4_orth=eska
+    comps1_stem5_orth=iski
+    comps1_stem6_orth=iska
+  comps1_cformvalue=finite
+    comps1_feat1_name=mood
+    comps1_feat1_value=subj
+
+I did not identify any irregularities of the automatically generated choices file after my changes.
