@@ -459,7 +459,7 @@ Let's go by day.
 Source: The Tarascan Language - Foster, pg. 184
 Vetted: s
 Judgement: g
-Phenomena: adverbial clausal modifiers
+Phenomena: evidential
 hi ka=na-s-ka-ni oktubre-mpu
 hi ka=na-s-ka-ni oktubre-mpu
 1SG and=evidential-AOR-1/2IND-INF October-INSTR
