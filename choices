@@ -110,6 +110,10 @@ section=wh-q
 section=info-str
 
 section=arg-opt
+subj-drop=subj-drop-all
+subj-mark-drop=subj-mark-drop-opt
+subj-mark-no-drop=subj-mark-no-drop-opt
+subj-con=subj-con-always
 
 section=nominalclause
 
@@ -5116,6 +5120,7 @@ section=lexicon
     aux115_compfeature1_name=form
     aux115_compfeature1_value=finite
     aux115_stem1_orth=jimpo
+
 section=morphology
   noun-pc1_name=case
   noun-pc1_obligatory=on
@@ -6610,9 +6615,8 @@ section=morphology
       verb-pc159_lrt4_lri1_orth=-xam
       verb-pc159_lrt4_lri2_inflecting=yes
       verb-pc159_lrt4_lri2_orth=-ʃam
-      verb-pc159_lrt4_lri2_inflecting=yes
-      verb-pc159_lrt4_lri3_orth=-hampi
       verb-pc159_lrt4_lri3_inflecting=yes
+      verb-pc159_lrt4_lri3_orth=-hampi
   verb-pc160_name=verb-pc160
   verb-pc160_order=suffix
   verb-pc160_inputs=verb42, verb310
