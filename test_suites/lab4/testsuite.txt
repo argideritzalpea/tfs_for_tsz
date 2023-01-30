@@ -296,54 +296,54 @@ ji sesi ireka-sï-p-ka
 I lived well
 
 #30
-Source: ref 5686 in tsz_toolbox
+Source: adapted from Chamoreau 2023 p. 19 ex. 52(b) - trans v + NOM subhect, OBJ (ACC) case object
 Vetted: f
 Judgement: g
 Phenomena: case
-hini peta-p-ti tsʰa-mpo
-hini peta-p-ti ta-mpu
-there take.out-PST-3.IND home-INSTR
-She took her from her own house / Se la llevó de su propia casa
+Pegru wantikuxti tsikatani
+Pegru uantiku-x-ti tsikata-ni
+Pedro kill-AOR-3.IND chicken-OBJ
+"Pedro killed the chicken."
 
 #31
-Source: ref 5052 in tsz_toolbox
+Source: adapted from Chamoreau 2023 p. 19 ex. 52(b) - trans v +  OBJ (ACC) case subject and object
 Vetted: f
-Judgement: g
-Phenomena: case
-p'urhepecha jimpo uanta-kua
-p'urhepecha jimpo uanta-kua
-Purhepecha INSTR speak-NMLZR
-Purhepecha speech
-
-#32
-Source: ref 5122 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: case
-kani-kua jimpo-ka=chka
-kani-kua jimpo-ka=chka
-much-NMLZR INSTR-1/2.IND=then
-things really have changed
-
-#33
-Source: ref 6639 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: case
-sesi chaari kutsïkua-echa-ni
-sesi t'uchaeueri kutsïkua-echa-ni
-good 2PL.GEN ear-PL-OBJ
-so open up your ears.
-
-#34
-Source: modded ref 6639 in tsz_toolbox
-Vetted: s
 Judgement: u
 Phenomena: case
-sesi chaari kutsïkua-ni-echa
-sesi t'uchaeueri kutsïkua-ni-echa
-good 2PL.GEN ear-OBJ-PL
-so open up your ears. (ni must follow echa (pl))
+Pegruni wantikuxti tsikatani
+Pegru-ni uantiku-x-ti tsikata-ni
+Pedro-OBJ kill-AOR-3.IND chicken-OBJ
+Intended: "Pedro killed the chicken.""
+
+#32
+Source: adapted from Chamoreau 2023 p. 19 ex. 52(b) - trans v + NOM case subject and object
+Vetted: f
+Judgement: u
+Phenomena: case
+Pegruni wantikuxti tsikatani
+Pegru uantiku-x-ti tsikata
+Pedro kill-AOR-3.IND chicken
+Intended: "Pedro killed the chicken."
+
+#33
+Source: adapted from toolbox 3485 - intrans v + NOM subject
+Vetted: f
+Judgement: g
+Phenomena: case
+Pegru pirixka
+Pegru piri-x-ti
+Pedro think-AOR-3.IND
+"Pedro thought."
+
+#34
+Source: adapted from toolbox 3485 - intrans v + NOM subject
+Vetted: f
+Judgement: u
+Phenomena: case
+Pegruni pirixka
+Pegru-ni piri-x-ti
+Pedro-OBJ think-AOR-3.IND
+"Pedro thought."
 
 #35
 Source: ref 3602 in tsz_toolbox
@@ -401,7 +401,7 @@ Vetted: s
 Judgement: g
 Phenomena: poss
 jintesti wámpa Mariaeri
-jinte-sï-ti uampa Maria-eri
+jinte-x-ti uampa Maria-eri
 be-AOR-3.IND husband María-GEN
 He is Maria’s husband.
 
@@ -411,7 +411,7 @@ Vetted: f
 Judgement: g
 Phenomena: poss
 jintesti Mariaeri wámpa
-jinte-sï-ti Maria-eri uampa
+jinte-x-ti Maria-eri uampa
 be-AOR-3.IND María-GEN husband
 He is Maria’s husband.
 
@@ -421,7 +421,7 @@ Vetted: f
 Judgement: u
 Phenomena: poss
 jintesti wámpa Maria
-jinte-sï-ti uampa Maria
+jinte-x-ti uampa Maria
 be-AOR-3.IND husband María
 Intended: "He is Maria’s husband."
 
@@ -431,7 +431,7 @@ Vetted: s
 Judgement: g
 Phenomena: poss
 jupikaxti juchi kawayuni
-jupi-ka-sï-ti juchi kawayu-ni
+jupi-ka-x-ti juchi kawayu-ni
 take-FORM-AOR-3.IND 1SG.GEN horse-OBJ
 "He/she took my horse."
 
@@ -441,7 +441,7 @@ Vetted: f
 Judgement: u
 Phenomena: poss
 jupikaxti ji kawayuni
-jupi-ka-sï-ti ji kawayu-ni
+jupi-ka-x-ti ji kawayu-ni
 take-FORM-AOR-3.IND 1SG horse-OBJ
 Intended: "He/she took my horse."
 
@@ -451,7 +451,7 @@ Vetted: f
 Judgement: u
 Phenomena: poss
 jupikaxti jiri kawayuni
-jupi-ka-sï-ti ji-eri kawayu-ni
+jupi-ka-x-ti ji-eri kawayu-ni
 take-FORM-AOR-3.IND 1SG-GEN horse-OBJ
 Intended: "He/she took my horse."
 
@@ -546,14 +546,14 @@ DEM.PL-GEN horse white-AOR-3.IND
 "His/her horse is white."
 
 #55 SUB: 'eska'
-Source: Dominguez dissertation p. 59 (3.1-14a)
+Source: adapted from Dominguez dissertation p. 59 (3.1-14a)
 Vetted: s
 Judgement: g
 Phenomena: emb-d
-wekaskani eskari pireaka
-ueka-sï-ka=ni eska=ri pire-a-ka
-want-AOR-1/2.IND=SUBJ.1SG SUB=SUBJ.2SG sing-IRR.DEONT-SUBJ
-I have wanted you to sing [that you sing] (he querido que cantes)
+Pegru wekasti eska Maria pireaka
+Pegru ueka-x-ti eska Maria pire-a-ka
+Pedro want-AOR-3.IND SUB Maria sing-IRR.DEONT-SUBJ
+Pedro has wanted Maria to sing [that Maria sings] (ha querido que cante)
 
 #56 SUB: 'eska' - can head a CC of a non-finite verb (original: ueka-s-ø-ka=ni eska=ri pire-a-ka (has -ø for non-past))
 Source: Dominguez dissertation p. 361 (8.4-23a)
@@ -672,7 +672,7 @@ Judgement: g
 Phenomena: cl-mod
 Pegru wantikuati tsikatani ekari jupirinka
 Pegru uantiku-a-ti tsikata-ni eka=ri ju-pirin-ka
-Pedro kill-IRR.DEONT-3.IND chicken-OBJ SUB=S2SG come-COND-SBJV
+Pedro kill-IRR.DEONT-3.IND chicken-OBJ SUB=S2SG come-IRR.EPIS-SBJV
 "Pedro will slaughter the chicken if you would come."
 
 #68 SUB: 'eki'/'eka' - "if"/when"/"while" (adverbial-temporal/condition)

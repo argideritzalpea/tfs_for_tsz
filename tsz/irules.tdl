@@ -1,9 +1,37 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
 ;;; Inflecting Lexical Rule Instances
 
-noun-pc1_lrt1-suffix :=
+case_acc-suffix :=
 %suffix (* -ni)
-noun-pc1_lrt1-lex-rule.
+case_acc-lex-rule.
+
+case_gen-suffix1 :=
+%suffix (* -eri)
+case_gen-lex-rule.
+
+case_gen-suffix2 :=
+%suffix (* -iri)
+case_gen-lex-rule.
+
+case_loc-suffix1 :=
+%suffix (* -rhu)
+case_loc-lex-rule.
+
+case_loc-suffix2 :=
+%suffix (* -ɽu)
+case_loc-lex-rule.
+
+case_loc-suffix3 :=
+%suffix (* -o)
+case_loc-lex-rule.
+
+case_com-suffix :=
+%suffix (* -nkuni)
+case_com-lex-rule.
+
+case_ins-suffix :=
+%suffix (* -mpu)
+case_ins-lex-rule.
 
 noun-pc2_lrt1-suffix1 :=
 %suffix (* -pa)
@@ -69,10 +97,6 @@ noun-pc2_lrt2-suffix2 :=
 %suffix (* -tʃani)
 noun-pc2_lrt2-lex-rule.
 
-noun-pc2_lrt4-suffix :=
-%suffix (* -p'i)
-noun-pc2_lrt4-lex-rule.
-
 noun-pc3_lrt1-suffix1 :=
 %suffix (* =kutʃʰe)
 noun-pc3_lrt1-lex-rule.
@@ -89,14 +113,6 @@ noun-pc4_lrt1-suffix :=
 %suffix (* -echa)
 noun-pc4_lrt1-lex-rule.
 
-noun-pc5_lrt1-suffix :=
-%suffix (* -eri)
-noun-pc5_lrt1-lex-rule.
-
-noun-pc5_lrt3-suffix :=
-%suffix (* -mpu)
-noun-pc5_lrt3-lex-rule.
-
 noun-pc6_lrt1-suffix :=
 %suffix (* -etʃa)
 noun-pc6_lrt1-lex-rule.
@@ -105,25 +121,13 @@ noun-pc7_lrt1-suffix :=
 %suffix (* -mpa)
 noun-pc7_lrt1-lex-rule.
 
-noun-pc10_lrt1-suffix :=
-%suffix (* -e)
+noun-pc10_lrt1-suffix1 :=
+%suffix (* =kʰu)
 noun-pc10_lrt1-lex-rule.
 
-noun-pc10_lrt3-suffix :=
-%suffix (* -ewe)
-noun-pc10_lrt3-lex-rule.
-
-noun-pc10_lrt4-suffix1 :=
-%suffix (* =kʰu)
-noun-pc10_lrt4-lex-rule.
-
-noun-pc10_lrt4-suffix2 :=
+noun-pc10_lrt1-suffix2 :=
 %suffix (* -tu)
-noun-pc10_lrt4-lex-rule.
-
-noun-pc10_lrt5-suffix :=
-%suffix (* -o)
-noun-pc10_lrt5-lex-rule.
+noun-pc10_lrt1-lex-rule.
 
 noun-pc11_lrt1-suffix :=
 %suffix (* -ra)
@@ -169,10 +173,6 @@ noun-pc19_lrt1-suffix :=
 %suffix (* -ta)
 noun-pc19_lrt1-lex-rule.
 
-noun-pc21_lrt1-suffix :=
-%suffix (* -rhu)
-noun-pc21_lrt1-lex-rule.
-
 noun-pc23_lrt1-suffix :=
 %suffix (* =na)
 noun-pc23_lrt1-lex-rule.
@@ -180,10 +180,6 @@ noun-pc23_lrt1-lex-rule.
 noun-pc25_lrt1-suffix :=
 %suffix (* =rini)
 noun-pc25_lrt1-lex-rule.
-
-noun-pc26_lrt1-suffix :=
-%suffix (* -ɽu)
-noun-pc26_lrt1-lex-rule.
 
 noun-pc27_lrt1-suffix :=
 %suffix (* -cha)
@@ -197,21 +193,13 @@ noun-pc29_lrt1-suffix2 :=
 %suffix (* =chka)
 noun-pc29_lrt1-lex-rule.
 
-noun-pc31_lrt1-suffix1 :=
+noun-pc31_lrt1-suffix :=
 %suffix (* -mpa)
-noun-pc31_lrt1-lex-rule.
-
-noun-pc31_lrt1-suffix2 :=
-%suffix (* -ni)
 noun-pc31_lrt1-lex-rule.
 
 noun-pc31_lrt2-suffix :=
 %suffix (* -echa)
 noun-pc31_lrt2-lex-rule.
-
-noun-pc31_lrt3-suffix :=
-%suffix (* -rhu)
-noun-pc31_lrt3-lex-rule.
 
 noun-pc32_lrt1-suffix :=
 %suffix (* -ti)
@@ -272,10 +260,6 @@ noun-pc40_lrt1-lex-rule.
 noun-pc42_lrt1-suffix :=
 %suffix (* -tʃe)
 noun-pc42_lrt1-lex-rule.
-
-noun-pc48_lrt1-suffix :=
-%suffix (* -nkuni)
-noun-pc48_lrt1-lex-rule.
 
 noun-pc50_lrt1-suffix :=
 %suffix (* -tʃi)
@@ -341,25 +325,9 @@ noun-pc80_lrt1-suffix :=
 %suffix (* -echa)
 noun-pc80_lrt1-lex-rule.
 
-noun-pc80_lrt2-suffix :=
-%suffix (* -echa)
-noun-pc80_lrt2-lex-rule.
-
 noun-pc81_lrt1-suffix :=
 %suffix (* -tska)
 noun-pc81_lrt1-lex-rule.
-
-noun-pc83_lrt1-suffix :=
-%suffix (* -nki)
-noun-pc83_lrt1-lex-rule.
-
-noun-pc86_lrt1-suffix :=
-%suffix (* -rhu)
-noun-pc86_lrt1-lex-rule.
-
-noun-pc87_lrt1-suffix :=
-%suffix (* -rhu)
-noun-pc87_lrt1-lex-rule.
 
 noun-pc88_lrt1-suffix :=
 %suffix (* -parha)
@@ -1113,17 +1081,33 @@ verb-pc159_lrt2-suffix3 :=
 %suffix (* =sï)
 verb-pc159_lrt2-lex-rule.
 
-verb-pc159_lrt3-suffix :=
+aorist-suffix1 :=
+%suffix (* -x)
+aorist-lex-rule.
+
+aorist-suffix2 :=
+%suffix (* -ʃ)
+aorist-lex-rule.
+
+aorist-suffix3 :=
+%suffix (* -s)
+aorist-lex-rule.
+
+aorist-suffix4 :=
 %suffix (* -sï)
-verb-pc159_lrt3-lex-rule.
+aorist-lex-rule.
 
-verb-pc159_lrt4-suffix1 :=
+continuative-inchoative-suffix1 :=
 %suffix (* -xam)
-verb-pc159_lrt4-lex-rule.
+continuative-inchoative-lex-rule.
 
-verb-pc159_lrt4-suffix2 :=
+continuative-inchoative-suffix2 :=
+%suffix (* -ʃam)
+continuative-inchoative-lex-rule.
+
+continuative-inchoative-suffix3 :=
 %suffix (* -hampi)
-verb-pc159_lrt4-lex-rule.
+continuative-inchoative-lex-rule.
 
 verb-pc160_lrt1-suffix1 :=
 %suffix (* -punkua)
@@ -1184,10 +1168,6 @@ verb-pc176_lrt1-lex-rule.
 verb-pc179_lrt1-suffix :=
 %suffix (* -kwa)
 verb-pc179_lrt1-lex-rule.
-
-verb-pc185_lrt1-suffix :=
-%suffix (* =ri)
-verb-pc185_lrt1-lex-rule.
 
 verb-pc188_lrt1-suffix :=
 %suffix (* -tʃata)

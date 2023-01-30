@@ -1,36 +1,6 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
 ;;; Semantically Empty Lexical Entries
 
-on-marker_ja-ma-ni_gr_1 := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG1 individual & #i ] >,
-    FLAGS [ SUBSUME < #i >,
-            TRIGGER "on-marker_ja-ma-ni" ] ].
-
-on-marker_ja-ma-ni_gr_2 := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG2 individual & #i ] >,
-    FLAGS [ SUBSUME < #i >,
-            TRIGGER "on-marker_ja-ma-ni" ] ].
-
-on-marker_ja-ma-ni_gr_3 := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG3 individual & #i ] >,
-    FLAGS [ SUBSUME < #i >,
-            TRIGGER "on-marker_ja-ma-ni" ] ].
-
-in-marker_jata-ni_gr_1 := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG1 individual & #i ] >,
-    FLAGS [ SUBSUME < #i >,
-            TRIGGER "in-marker_jata-ni" ] ].
-
-in-marker_jata-ni_gr_2 := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG2 individual & #i ] >,
-    FLAGS [ SUBSUME < #i >,
-            TRIGGER "in-marker_jata-ni" ] ].
-
-in-marker_jata-ni_gr_3 := arg0e_gtr &
-  [ CONTEXT.RELS.LIST < [ ARG3 individual & #i ] >,
-    FLAGS [ SUBSUME < #i >,
-            TRIGGER "in-marker_jata-ni" ] ].
-
 juka_5_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
     FLAGS.TRIGGER "juka_5" ].
@@ -43,15 +13,15 @@ pire_4_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT pfv ] >,
     FLAGS.TRIGGER "pire_4" ].
 
-tʰu_3_gr := arg0e_gtr &
+tʰu_2_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "tʰu_3" ].
+    FLAGS.TRIGGER "tʰu_2" ].
 
-u_8_gr := arg0e_gtr & 
-  [ CONTEXT.RELS.LIST < [ ARG0.E [ TENSE fut, 
-                                   ASPECT hab, 
-                                   MOOD ind ] ] >, 
-   FLAGS.TRIGGER "u_8" ].
+u_8_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG0.E [ TENSE fut,
+                                   ASPECT hab,
+                                   MOOD ind ] ] >,
+    FLAGS.TRIGGER "u_8" ].
 
 piri_5_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ ARG0.E.MOOD ind ] >,
@@ -89,9 +59,9 @@ keske_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT cmpl ] >,
     FLAGS.TRIGGER "keske" ].
 
-inki_2_gr := arg0e_gtr &
+inki_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT rel ] >,
-    FLAGS.TRIGGER "inki_2" ].
+    FLAGS.TRIGGER "inki" ].
 
 çacura_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
@@ -157,6 +127,6 @@ inki_2_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
     FLAGS.TRIGGER "çacuni" ].
 
-jimpo_2_gr := arg0e_gtr &
+jimpo_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
-    FLAGS.TRIGGER "jimpo_2" ].
+    FLAGS.TRIGGER "jimpo" ].

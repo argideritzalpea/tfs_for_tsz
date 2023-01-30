@@ -14,14 +14,6 @@
 \eng The donkey quickly probed what the wolf wanted,
 \id 2
 
-\ref 3 ## IPA ##
-\tph isï jimpo unta-sï-ti renhgérenhgétskani-tska-ni
-\mph isï jimpo unta -sï -ti renhgérenhgétskani -tska -ni 
-\mgl APPROX INSTR begin AOR 3.IND NONE LOC.buttocks INF 
-\ps NotSure NotSure v v:ASP Attachestoanycategory NONE Attachestoanycategory v:Any 
-\eng  so the donkey started to limp
-\id 3
-
 \ref 4 ## LATIN ##
 \tph anta-rhi-rha-s-ti jiuatsï burru-ni ka a-rhi-ni
 \mph anta -rhi -rha -sï -ti jiuatsï burru -ni ka a -rhi -ni 
@@ -37,14 +29,6 @@
 \ps NotSure NotSure v vv v:ASP Attachestoanycategory 
 \eng What happened to you?
 \id 5
-
-\ref 6 ## IPA ##
-\tph anti=ri=sï isï ja-ni ja-ki renhgérenhgétskani-tska-ni
-\mph anti =ri =sï isï ja -ni ja -ki renhgérenhgétskani -tska -ni 
-\mgl why =2SG =FOC likethis exist INF exist INTER NONE LOC.buttocks OBJ 
-\ps NotSure NotSure NotSure NotSure NotSure v:Any NotSure Attachestoanycategory NONE Attachestoanycategory n:Any 
-\eng Why are you limping like this?
-\id 6
 
 \ref 7
 \tph ka burru moku-ku-sï-ti cheka-ntu-s-ka=ni
@@ -2358,14 +2342,6 @@
 \eng angel DAT/ACC
 \id 295
 
-\ref 296
-\tph angel-e
-\mph angel -e 
-\mgl angel VOC 
-\ps n[sp] NotSure 
-\eng VOC
-\id 296
-
 \ref 297
 \tph angel
 \mph angel 
@@ -2389,14 +2365,6 @@
 \ps n[sp] n:Any 
 \eng angels + DAT/ACC
 \id 299
-
-\ref 300 ## IPA ##
-\tph angel-etʃa-e
-\mph angel -etʃa  -e 
-\mgl angel PL VOC 
-\ps n[sp] n:Any NotSure 
-\eng  ‎‎angels + VOC
-\id 300
 
 \ref 301 ## IPA ##
 \tph tata himbo =e-sï-ti misa ari-h-ni
@@ -2423,7 +2391,7 @@
 \id 303
 
 \ref 304 ## IPA ##
-\tph tsakapuhimpo atik'ua
+\tph tsakapu-himpo atik'ua
 \mph tsakapu himpo atik'ua 
 \mgl stone INSTR throw.towards 
 \ps n NotSure v 
@@ -3037,14 +3005,6 @@
 \ps pers 
 \eng 2PL.DAT/ACC
 \id 380
-
-\ref 381 ## IPA ##
-\tph t'utʃa
-\mph t'utʃa 
-\mgl 2PL 
-\ps NONE 
-\eng 2PL.VOC
-\id 381
 
 \ref 382
 \tph hinte
@@ -4814,14 +4774,6 @@
 \eng angel DAT/ACC
 \id 602
 
-\ref 603
-\tph angel-e
-\mph angel -e 
-\mgl angel VOC 
-\ps n[sp] NotSure 
-\eng angel
-\id 603
-
 \ref 604
 \tph angel-ni himpo
 \mph angel -ni himpo 
@@ -4853,14 +4805,6 @@
 \ps n[sp] n:Any n:Any 
 \eng OBJ
 \id 607
-
-\ref 608 ## IPA ##
-\tph angel -etʃa-e
-\mph angel -etʃa  -e 
-\mgl angel PL VOC 
-\ps n[sp] n:Any NotSure 
-\eng PL + VOC 
-\id 608
 
 \ref 609 ## IPA ##
 \tph angel -etʃa-ni himpo
@@ -6376,7 +6320,7 @@
 
 \ref 798 ## IPA ##
 \tph jenkokware-ha-ka
-\mph jenkokware -ʃa -ka 
+\mph ienkokware -ʃa -ka 
 \mgl hope PROG 1/2IND 
 \ps NotSure v:ASP v:SBJ.AGR 
 \eng I hope
@@ -7152,7 +7096,7 @@
 
 \ref 895 ## IPA ##
 \tph jenkokware-ha-ka iskini pawani pa-nhka-wa-ka
-\mph jenkokware -ʃa -ka iski =ni pawani paku -nhka -a -ka 
+\mph ienkokware -ʃa -ka iski =ni pawani paku -nhka -a -ka 
 \mgl hope PROG 1/2IND that 1SG.SBJ tomorrow take PASS FUT SBJNC 
 \ps NotSure v:ASP v:SBJ.AGR NotSure NotSure NotSure NotSure Verb v:Any v:Any 
 \eng I hope to be taken tomorrow.
@@ -9832,7 +9776,7 @@
 
 \ref 1230 ## IPA ##
 \tph tʃeti kawajo
-\mph tʃ'éti kawaju 
+\mph tʃ'éti kawaiu 
 \mgl tail horse 
 \ps n n 
 \eng horse tail
@@ -12560,7 +12504,7 @@
 
 \ref 1571 ## IPA ##
 \tph hura-sï-kawanta-p'e-joka-ni
-\mph hu -sï -ka wanta -p'e -joka -ni 
+\mph hu -sï -ka wanta -p'e -ioka -ni 
 \mgl come AOR 1/2IND speak ANTIPASS come INF 
 \ps NotSure v:ASP v:SBJ.AGR NotSure vv Attachestoanycategory v:Any 
 \eng    
@@ -13704,7 +13648,7 @@
 
 \ref 1714 ## IPA ##
 \tph jek'ama-ni
-\mph jek'ama -ni 
+\mph iek'ama -ni 
 \mgl lie INF 
 \ps NotSure v:Any 
 \eng to lie
@@ -14214,14 +14158,6 @@
 \eng 
 \id 1777
 
-\ref 1778 ## IPA ##
-\tph kwiripu-e
-\mph k'wiripu -e 
-\mgl person VOC 
-\ps NotSure NotSure 
-\eng 
-\id 1778
-
 \ref 1779 ## IPA ##
 \tph kwiripu-ni himbo
 \mph k'wiripu -ni himpo 
@@ -14253,14 +14189,6 @@
 \ps n n:Any n:Any 
 \eng 
 \id 1782
-
-\ref 1783 ## IPA ##
-\tph kwiripu -etʃa-e
-\mph k'wiripu -etʃa  -e 
-\mgl person PL VOC 
-\ps NotSure n:Any NotSure 
-\eng 
-\id 1783
 
 \ref 1784 ## IPA ##
 \tph kwiripu -etʃa-ni himpo
@@ -14294,14 +14222,6 @@
 \eng 
 \id 1787
 
-\ref 1788
-\tph tsihuereti-je
-\mph tsiwereti -e 
-\mgl male VOC 
-\ps NotSure NotSure 
-\eng 
-\id 1788
-
 \ref 1789
 \tph tsiuereti-ni himpo
 \mph tsiwereti -ni himpo 
@@ -14334,14 +14254,6 @@
 \eng 
 \id 1792
 
-\ref 1793
-\tph tsihuintsa-je
-\mph tsiwintsa -e 
-\mgl males VOC 
-\ps NotSure NotSure 
-\eng 
-\id 1793
-
 \ref 1794
 \tph tsihuintsa-ni himpo
 \mph tsiwintsa -ni himpo 
@@ -14368,7 +14280,7 @@
 
 \ref 1797 ## IPA ##
 \tph jurits-ke-ri
-\mph jurhiri -ke -ri 
+\mph iurhiri -ke -ri 
 \mgl blood hollow AGT 
 \ps n Attachestoanycategory Attachestoanycategory 
 \eng 
@@ -14376,7 +14288,7 @@
 
 \ref 1798 ## IPA ##
 \tph jurits-ke-tʃa
-\mph jurhiri -ke -etʃa  
+\mph iurhiri -ke -etʃa  
 \mgl blood hollow PL 
 \ps n Attachestoanycategory n:Any 
 \eng 
@@ -14534,14 +14446,6 @@
 \eng 
 \id 1817
 
-\ref 1818
-\tph ampaketi-je
-\mph ampaketi -e 
-\mgl good VOC 
-\ps adj NotSure 
-\eng 
-\id 1818
-
 \ref 1819
 \tph ampaketi-ni himpo
 \mph ampaketi -ni himpo 
@@ -14581,14 +14485,6 @@
 \ps NotSure Attachestoanycategory n:Any n:Any 
 \eng 
 \id 1823
-
-\ref 1824 ## IPA ##
-\tph ampa-ke-tʃa-je
-\mph ampa -ke -etʃa  -e 
-\mgl clean hollow PL VOC 
-\ps NotSure Attachestoanycategory n:Any NotSure 
-\eng 
-\id 1824
 
 \ref 1825 ## IPA ##
 \tph ampa-ke-tʃa-ni himpo
@@ -14749,14 +14645,6 @@
 \ps NotSure n:Any pro-form 
 \eng 
 \id 1844
-
-\ref 1845 ## IPA ##
-\tph t'u-tʃa-je
-\mph t'u -etʃa  -e 
-\mgl 2SG PL VOC 
-\ps NotSure n:Any NotSure 
-\eng 
-\id 1845
 
 \ref 1846 ## IPA ##
 \tph t'utʃa=kʃïni himbo
@@ -15072,7 +14960,7 @@
 
 \ref 1885 ## IPA ##
 \tph t'win huren-p'e-ka ka=re janani hu-nkwa
-\mph t'win huren -p'e -ka ka =ri janani hu -nkwa 
+\mph t'win huren -p'e -ka ka =ri ianani hu -nkwa 
 \mgl before know ANTIPASS 1/2IND and 2SG later come CENTR 
 \ps NotSure NotSure vv v:SBJ.AGR NotSure NotSure adv NotSure Attachestoanycategory 
 \eng I had already taught and then you came.
@@ -15288,7 +15176,7 @@
 
 \ref 1912 ## IPA ##
 \tph huren-p'e-pa hi janani
-\mph huren -p'e -pa hi janani 
+\mph huren -p'e -pa hi ianani 
 \mgl know ANTIPASS IMPRTV 1SG later 
 \ps NotSure vv Attachestoanycategory pers adv 
 \eng 
@@ -15296,7 +15184,7 @@
 
 \ref 1913 ## IPA ##
 \tph huren-p'e t'u janani
-\mph huren -p'e t'u janani 
+\mph huren -p'e t'u ianani 
 \mgl know ANTIPASS 2SG later 
 \ps NotSure vv NotSure adv 
 \eng 
@@ -15304,7 +15192,7 @@
 
 \ref 1914 ## IPA ##
 \tph huren-p'e-we janani
-\mph huren -p'e -we janani 
+\mph huren -p'e -we ianani 
 \mgl know ANTIPASS 3.IMPRTV later 
 \ps NotSure vv Attachestoanycategory adv 
 \eng 
@@ -15312,7 +15200,7 @@
 
 \ref 1915 ## IPA ##
 \tph huren-p'e-pa=kutʃ'e janani
-\mph huren -p'e -pa =kutʃ'e janani 
+\mph huren -p'e -pa =kutʃ'e ianani 
 \mgl know ANTIPASS IMPRTV =1PL.SBJ later 
 \ps NotSure vv Attachestoanycategory pro-form adv 
 \eng 
@@ -15320,7 +15208,7 @@
 
 \ref 1916 ## IPA ##
 \tph huren-p'e-e janani
-\mph huren -p'e -i janani 
+\mph huren -p'e -i ianani 
 \mgl know ANTIPASS IMPRTV.2PL later 
 \ps NotSure vv v:Any adv 
 \eng Teach later.
@@ -15328,7 +15216,7 @@
 
 \ref 1917 ## IPA ##
 \tph huren-p'e-we=kʃï janani
-\mph huren -p'e -we =kʃï janani 
+\mph huren -p'e -we =kʃï ianani 
 \mgl know ANTIPASS 3.IMPRTV =3PL later 
 \ps NotSure vv Attachestoanycategory NotSure adv 
 \eng 
@@ -15552,7 +15440,7 @@
 
 \ref 1945 ## IPA ##
 \tph ahuj huren-p'e-pirinikatʃunte-ni
-\mph ahujh huren -p'e -pirin katʃunte -ni 
+\mph ahuih huren -p'e -pirin katʃunte -ni 
 \mgl alas know ANTIPASS COND subjunctive INF 
 \ps interj NotSure vv Attachestoanycategory adv v:Any 
 \eng If I taught / I would like to teach.
@@ -15560,7 +15448,7 @@
 
 \ref 1946 ## IPA ##
 \tph ahuj huren-p'e-pirinikatʃunte
-\mph ahujh huren -p'e -pirin katʃunte 
+\mph ahuih huren -p'e -pirin katʃunte 
 \mgl alas know ANTIPASS COND optative 
 \ps interj NotSure vv Attachestoanycategory adv 
 \eng If you taught./You would like to teach.
@@ -15568,7 +15456,7 @@
 
 \ref 1947 ## IPA ##
 \tph ahuj huren-p'e-pirin-titʃunte
-\mph ahujh huren -p'e -pirin -ti katʃunte 
+\mph ahuih huren -p'e -pirin -ti katʃunte 
 \mgl alas know ANTIPASS COND 3.IND optative 
 \ps interj NotSure vv Attachestoanycategory Attachestoanycategory adv 
 \eng If s/he taught./S/he would like to teach.
@@ -15576,7 +15464,7 @@
 
 \ref 1948 ## IPA ##
 \tph ahuj huren-p'e-piri-ka=kutʃ'etʃunte
-\mph ahujh huren -p'e -pirin -ka =kutʃ'e katʃunte 
+\mph ahuih huren -p'e -pirin -ka =kutʃ'e katʃunte 
 \mgl alas know ANTIPASS COND 1/2IND =1PL.SBJ subjunctive 
 \ps interj NotSure vv Attachestoanycategory v:SBJ.AGR pro-form adv 
 \eng If we taught./We would like to teach.
@@ -15584,7 +15472,7 @@
 
 \ref 1949 ## IPA ##
 \tph ahuj huren-p'e-piri-ka=ts'ï
-\mph ahujh huren -p'e -pirin -ka =ts'ï 
+\mph ahuih huren -p'e -pirin -ka =ts'ï 
 \mgl alas know ANTIPASS COND 1/2IND =2PL 
 \ps interj NotSure vv Attachestoanycategory v:SBJ.AGR NotSure 
 \eng If you taught./You would like to teach.
@@ -15592,7 +15480,7 @@
 
 \ref 1950 ## IPA ##
 \tph ahuj huren-p'e-piri-ti=kʃï
-\mph ahujh huren -p'e -pirin -ti =kʃï 
+\mph ahuih huren -p'e -pirin -ti =kʃï 
 \mgl alas know ANTIPASS COND 3.IND =3PL 
 \ps interj NotSure vv Attachestoanycategory Attachestoanycategory NotSure 
 \eng If they taught./They would like to teach.
@@ -15600,7 +15488,7 @@
 
 \ref 1951 ## IPA ##
 \tph huj ja=tikini huren-p'e-piri-ka
-\mph huj ja =ti -ki =ni huren -p'e -pirin -ka 
+\mph hui ia =ti -ki =ni huren -p'e -pirin -ka 
 \mgl INTRJC already =PARTICIPIO IRR 1SG.SBJ know ANTIPASS COND 1/2IND 
 \ps NotSure NotSure NotSure Attachestoanycategory NotSure NotSure vv Attachestoanycategory v:SBJ.AGR 
 \eng I should teach.
@@ -15608,7 +15496,7 @@
 
 \ref 1952 ## IPA ##
 \tph huj ja=re=ti-ki huren-pe-piri-ka
-\mph huj ja =ri =ti -ki huren -p'e -pirin -ka 
+\mph hui ia =ri =ti -ki huren -p'e -pirin -ka 
 \mgl INTRJC already 2SG =PARTICIPIO IRR know ANTIPASS COND 1/2IND 
 \ps NotSure NotSure NotSure NotSure Attachestoanycategory NotSure vv Attachestoanycategory v:SBJ.AGR 
 \eng You should teach.
@@ -15616,7 +15504,7 @@
 
 \ref 1953 ## IPA ##
 \tph huj ja=tiki huren-p'e-piri-ti
-\mph huj ja =ti -ki huren -p'e -pirin -ti 
+\mph hui ia =ti -ki huren -p'e -pirin -ti 
 \mgl INTRJC already =PARTICIPIO IRR know ANTIPASS COND 3.IND 
 \ps NotSure NotSure NotSure Attachestoanycategory NotSure vv Attachestoanycategory Attachestoanycategory 
 \eng S/he should teach.
@@ -15624,7 +15512,7 @@
 
 \ref 1954 ## IPA ##
 \tph huj jakutʃ'e=tiki huren-p'e-piri-ka
-\mph huj ja =kutʃ'e =ti -ki huren -p'e -pirin -ka 
+\mph hui ia =kutʃ'e =ti -ki huren -p'e -pirin -ka 
 \mgl INTRJC already 1PL.SBJ =PARTICIPIO IRR know ANTIPASS COND 1/2IND 
 \ps NotSure NotSure pro-form NotSure Attachestoanycategory NotSure vv Attachestoanycategory v:SBJ.AGR 
 \eng We should teach.
@@ -15632,7 +15520,7 @@
 
 \ref 1955 ## IPA ##
 \tph huj ja=ts'ï=tiki huren-p'e-piri-ka
-\mph huj ja =ts'ï =ti -ki huren -p'e -pirin -ka 
+\mph hui ia =ts'ï =ti -ki huren -p'e -pirin -ka 
 \mgl INTRJC already =2PL =PARTICIPIO IRR know ANTIPASS COND 1/2IND 
 \ps NotSure NotSure NotSure NotSure Attachestoanycategory NotSure vv Attachestoanycategory v:SBJ.AGR 
 \eng You should teach.
@@ -15640,7 +15528,7 @@
 
 \ref 1956 ## IPA ##
 \tph huj ja=kʃï=tiki huren-p'e-piri-ti
-\mph huj ja =kʃï =ti -ki huren -p'e -pirin -ti 
+\mph hui ia =kʃï =ti -ki huren -p'e -pirin -ti 
 \mgl INTRJC already =3PL =PARTICIPIO IRR know ANTIPASS COND 3.IND 
 \ps NotSure NotSure NotSure NotSure Attachestoanycategory NotSure vv Attachestoanycategory Attachestoanycategory 
 \eng They should teach.
@@ -16192,7 +16080,7 @@
 
 \ref 2025 ## IPA ##
 \tph ikini t'win u-piri-ka ja-mu huren-p'e-ni
-\mph iki =ni t'win u -pirin -ka ja -mu huren -p'e -ni 
+\mph iki =ni t'win u -pirin -ka ia -mu huren -p'e -ni 
 \mgl if,as 1SG.SBJ before do COND SBJNC already NONE know ANTIPASS INF 
 \ps adv NotSure NotSure v Attachestoanycategory v:Any NotSure NONE NotSure vv v:Any 
 \eng If I had taught.
@@ -16200,7 +16088,7 @@
 
 \ref 2026 ## IPA ##
 \tph iki=re t'win u-piri-ka ja-mu huren-p'e-ni
-\mph iki =ri t'win u -pirin -ka ja -mu huren -p'e -ni 
+\mph iki =ri t'win u -pirin -ka ia -mu huren -p'e -ni 
 \mgl if,as 2SG before do COND SBJNC already NONE know ANTIPASS INF 
 \ps adv NotSure NotSure v Attachestoanycategory v:Any NotSure NONE NotSure vv v:Any 
 \eng I you had taught.
@@ -16208,7 +16096,7 @@
 
 \ref 2027 ## IPA ##
 \tph iki t'win u-piri-ka ja-mu huren-p'e-ni
-\mph iki t'win u -pirin -ka ja -mu huren -p'e -ni 
+\mph iki t'win u -pirin -ka ia -mu huren -p'e -ni 
 \mgl if,as before do COND SBJNC already NONE know ANTIPASS INF 
 \ps adv NotSure v Attachestoanycategory v:Any NotSure NONE NotSure vv v:Any 
 \eng If s/he had taught.
@@ -16216,7 +16104,7 @@
 
 \ref 2028 ## IPA ##
 \tph ikikutʃ'e t'win u-piri-ka ja-mu huren-p'e-ni
-\mph iki =kutʃ'e t'win u -pirin -ka ja -mu huren -p'e -ni 
+\mph iki =kutʃ'e t'win u -pirin -ka ia -mu huren -p'e -ni 
 \mgl if,as 1PL.SBJ before do COND SBJNC already NONE know ANTIPASS INF 
 \ps adv pro-form NotSure v Attachestoanycategory v:Any NotSure NONE NotSure vv v:Any 
 \eng If we had taught.
@@ -16224,7 +16112,7 @@
 
 \ref 2029 ## IPA ##
 \tph iki=ts'ï t'win u-piri-ka ja-mu huren-p'e-ni
-\mph iki =ts'ï t'win u -pirin -ka ja -mu huren -p'e -ni 
+\mph iki =ts'ï t'win u -pirin -ka ia -mu huren -p'e -ni 
 \mgl if,as =2PL before do COND SBJNC already NONE know ANTIPASS INF 
 \ps adv NotSure NotSure v Attachestoanycategory v:Any NotSure NONE NotSure vv v:Any 
 \eng If you had taught.
@@ -16232,7 +16120,7 @@
 
 \ref 2030 ## IPA ##
 \tph iki=kʃï t'win u-piri-ka ja-mu huren-p'e-ni
-\mph iki =kʃï t'win u -pirin -ka ja -mu huren -p'e -ni 
+\mph iki =kʃï t'win u -pirin -ka ia -mu huren -p'e -ni 
 \mgl if,as =3PL before do COND SBJNC already NONE know ANTIPASS INF 
 \ps adv NotSure NotSure v Attachestoanycategory v:Any NotSure NONE NotSure vv v:Any 
 \eng If they had taught.
@@ -16456,7 +16344,7 @@
 
 \ref 2058 ## IPA ##
 \tph huren-p'era-ka-ue jananani
-\mph huren -p'era -ka -we janani 
+\mph huren -p'era -ka -we ianani 
 \mgl know RECIP FORM 3.IMPRTV later 
 \ps NotSure Attachestoanycategory vv Attachestoanycategory adv 
 \eng 
@@ -16496,7 +16384,7 @@
 
 \ref 2063 ## IPA ##
 \tph ahuj huren-p'era-ka-pirini-titʃunte
-\mph ahujh huren -p'era -ka -pirin -ti katʃunte 
+\mph ahuih huren -p'era -ka -pirin -ti katʃunte 
 \mgl exclamation know RECIP 1/2IND COND 3.IND subjunctive 
 \ps NotSure NotSure Attachestoanycategory v:SBJ.AGR Attachestoanycategory Attachestoanycategory adv 
 \eng 
@@ -16504,7 +16392,7 @@
 
 \ref 2064 ## IPA ##
 \tph ahuj ja=tiki huren-p'era-ka-pirini-ti
-\mph ahujh ja =ti -ki huren -p'era -ka -pirin -ti 
+\mph ahuih ia =ti -ki huren -p'era -ka -pirin -ti 
 \mgl alas already =PARTICIPIO IRR know RECIP FORM COND 3.IND 
 \ps interj NotSure NotSure Attachestoanycategory NotSure Attachestoanycategory vv Attachestoanycategory Attachestoanycategory 
 \eng 
@@ -16600,7 +16488,7 @@
 
 \ref 2076 ## IPA ##
 \tph i=ki t'win ja-mu u-piri-ka huren-p'era-nhka-ni
-\mph i =ki t'win ja -mu u -pirin -ka huren -p'era -nhka -ni 
+\mph i =ki t'win ia -mu u -pirin -ka huren -p'era -nhka -ni 
 \mgl DEM.SG =RELT before already NONE do COND SBJNC know RECIP PASS INF 
 \ps NotSure NotSure NotSure NotSure NONE v Attachestoanycategory v:Any NotSure Attachestoanycategory Verb v:Any 
 \eng 
@@ -17096,7 +16984,7 @@
 
 \ref 2138 ## IPA ##
 \tph hure-ta-nhka-pa janani
-\mph hure -ta -nhka -pa janani 
+\mph hure -ta -nhka -pa ianani 
 \mgl heat CAUS PASS IMPRTV later 
 \ps NotSure Attachestoanycategory Verb Attachestoanycategory adv 
 \eng 
@@ -17104,7 +16992,7 @@
 
 \ref 2139 ## IPA ##
 \tph hure-ta-nhka janani
-\mph hure -ta -nhka janani 
+\mph hure -ta -nhka ianani 
 \mgl heat CAUS PASS later 
 \ps NotSure Attachestoanycategory Verb adv 
 \eng 
@@ -17128,7 +17016,7 @@
 
 \ref 2142 ## IPA ##
 \tph hure-ta-nhka-he janani
-\mph hure -ta -nhka -i janani 
+\mph hure -ta -nhka -i ianani 
 \mgl heat CAUS PASS IMPRTV.2PL later 
 \ps NotSure Attachestoanycategory Verb v:Any adv 
 \eng 
@@ -17136,7 +17024,7 @@
 
 \ref 2143 ## IPA ##
 \tph hure-ta-nhka-ue=kʃï janani
-\mph hure -ta -nhka -we =kʃï janani 
+\mph hure -ta -nhka -we =kʃï ianani 
 \mgl heat CAUS PASS 3.IMPRTV =3PL later 
 \ps NotSure Attachestoanycategory Verb Attachestoanycategory NotSure adv 
 \eng 
@@ -17320,7 +17208,7 @@
 
 \ref 2166 ## IPA ##
 \tph ahuj hure-ta-nhka-pirini-katʃunte=ni
-\mph ahujh hure -ta -nhka -pirin -ka katʃunte =ni 
+\mph ahuih hure -ta -nhka -pirin -ka katʃunte =ni 
 \mgl alas heat CAUS PASS COND 1/2IND subjunctive =1SG.SBJ 
 \ps interj NotSure Attachestoanycategory Verb Attachestoanycategory v:SBJ.AGR adv NotSure 
 \eng 
@@ -17328,7 +17216,7 @@
 
 \ref 2167 ## IPA ##
 \tph ahuj hure-ta-nhka-pirini-ka=retʃunte
-\mph ahujh hure -ta -nhka -pirin -ka =ri katʃunte 
+\mph ahuih hure -ta -nhka -pirin -ka =ri katʃunte 
 \mgl alas heat CAUS PASS COND 1/2IND =2SG optative 
 \ps interj NotSure Attachestoanycategory Verb Attachestoanycategory v:SBJ.AGR NotSure adv 
 \eng 
@@ -17336,7 +17224,7 @@
 
 \ref 2168 ## IPA ##
 \tph ahuj hure-ta-nhka-pirini-titʃunde
-\mph ahujh hure -ta -nhka -pirin -ti katʃunte 
+\mph ahuih hure -ta -nhka -pirin -ti katʃunte 
 \mgl alas heat CAUS PASS COND 3.IND subjunctive 
 \ps interj NotSure Attachestoanycategory Verb Attachestoanycategory Attachestoanycategory adv 
 \eng 
@@ -17344,7 +17232,7 @@
 
 \ref 2169 ## IPA ##
 \tph ahuj hure-ta-nhka-pirini-ka=kutʃ'etʃunte
-\mph ahujh hure -ta -nhka -pirin -ka =kutʃ'e katʃunte 
+\mph ahuih hure -ta -nhka -pirin -ka =kutʃ'e katʃunte 
 \mgl alas heat CAUS PASS COND SBJNC =1PL.SBJ subjunctive 
 \ps interj NotSure Attachestoanycategory Verb Attachestoanycategory v:Any pro-form adv 
 \eng 
@@ -17352,7 +17240,7 @@
 
 \ref 2170 ## IPA ##
 \tph ahuj hure-ta-nhka-pirini-ka=ts'ïtʃunte
-\mph ahujh hure -ta -nhka -pirin -ka =ts'ï katʃunte 
+\mph ahuih hure -ta -nhka -pirin -ka =ts'ï katʃunte 
 \mgl alas heat CAUS PASS COND SBJNC =2PL subjunctive 
 \ps interj NotSure Attachestoanycategory Verb Attachestoanycategory v:Any NotSure adv 
 \eng 
@@ -17360,7 +17248,7 @@
 
 \ref 2171 ## IPA ##
 \tph ahuj hure-ta-nhka-pirini-ti=kʃïtʃunte
-\mph ahujh hure -ta -nhka -pirin -ti =kʃï katʃunte 
+\mph ahuih hure -ta -nhka -pirin -ti =kʃï katʃunte 
 \mgl alas heat CAUS PASS COND 3.IND =3PL subjunctive 
 \ps interj NotSure Attachestoanycategory Verb Attachestoanycategory Attachestoanycategory NotSure adv 
 \eng 
@@ -17368,7 +17256,7 @@
 
 \ref 2172 ## IPA ##
 \tph ahuj ja-ti-ha=kini hure-ta-nhka-pirini-ka
-\mph ahujh ja -ti -ʃa =kini hure -ta -nhka -pirin -ka 
+\mph ahuih ia -ti -ʃa =kini hure -ta -nhka -pirin -ka 
 \mgl alas already FORM PROG =2SG.OBJ heat CAUS PASS COND SBJNC 
 \ps interj NotSure Attachestoanycategory v:ASP NotSure NotSure Attachestoanycategory Verb Attachestoanycategory v:Any 
 \eng 
@@ -17376,7 +17264,7 @@
 
 \ref 2173 ## IPA ##
 \tph ahuj jare-ti-ha-ki hure-ta-nhka-pirini-ka
-\mph ahujh ja =ri -ti -ʃa -ki hure -ta -nhka -pirin -ka 
+\mph ahuih ia =ri -ti -ʃa -ki hure -ta -nhka -pirin -ka 
 \mgl alas already 2SG FORM PROG IRR heat CAUS PASS COND SBJNC 
 \ps interj NotSure NotSure Attachestoanycategory v:ASP Attachestoanycategory NotSure Attachestoanycategory Verb Attachestoanycategory v:Any 
 \eng 
@@ -17384,7 +17272,7 @@
 
 \ref 2174 ## IPA ##
 \tph ahuj ja-ti-h-ki hure-ta-nhka-pirini-ti
-\mph ahujh ja -ti -ʃa -ki hure -ta -nhka -pirin -ti 
+\mph ahuih ia -ti -ʃa -ki hure -ta -nhka -pirin -ti 
 \mgl alas already FORM PROG IRR heat CAUS PASS COND 3.IND 
 \ps interj NotSure Attachestoanycategory v:ASP Attachestoanycategory NotSure Attachestoanycategory Verb Attachestoanycategory Attachestoanycategory 
 \eng 
@@ -17392,7 +17280,7 @@
 
 \ref 2175 ## IPA ##
 \tph ahuj ja=kutʃ'e-ti-h-ki hure-ta-nhka-pirini-ka
-\mph ahujh ja =kutʃ'e -ti -sï -ki hure -ta -nhka -pirin -ka 
+\mph ahuih ia =kutʃ'e -ti -sï -ki hure -ta -nhka -pirin -ka 
 \mgl alas already =1PL.SBJ FORM AOR IRR heat CAUS PASS COND SBJNC 
 \ps interj NotSure pro-form Attachestoanycategory v:ASP Attachestoanycategory NotSure Attachestoanycategory Verb Attachestoanycategory v:Any 
 \eng 
@@ -17400,7 +17288,7 @@
 
 \ref 2176 ## IPA ##
 \tph ahuj ja=ts'ï-ti-ha-ki hure-ta-nhka-pirin-ka
-\mph ahujh ja =ts'ï -ti -ʃa -ki hure -ta -nhka -pirin -ka 
+\mph ahuih ia =ts'ï -ti -ʃa -ki hure -ta -nhka -pirin -ka 
 \mgl alas already =2PL FORM PROG IRR heat CAUS PASS COND SBJNC 
 \ps interj NotSure NotSure Attachestoanycategory v:ASP Attachestoanycategory NotSure Attachestoanycategory Verb Attachestoanycategory v:Any 
 \eng 
@@ -17408,7 +17296,7 @@
 
 \ref 2177 ## IPA ##
 \tph ahuj ja=kʃï-ti-h-ki hure-ta-nhka-pirini-ti
-\mph ahujh ja =kʃï -ti -sï -ki hure -ta -nhka -pirin -ti 
+\mph ahuih ia =kʃï -ti -sï -ki hure -ta -nhka -pirin -ti 
 \mgl alas already =3PL FORM AOR IRR heat CAUS PASS COND 3.IND 
 \ps interj NotSure NotSure Attachestoanycategory v:ASP Attachestoanycategory NotSure Attachestoanycategory Verb Attachestoanycategory Attachestoanycategory 
 \eng 
@@ -17944,7 +17832,7 @@
 
 \ref 2244 ## IPA ##
 \tph ikini t'win u-pirini-ka ja-mu hure-ta-nhka-ni
-\mph iki =ni t'win u -pirin -ka ja -mu hure -ta -nhka -ni 
+\mph iki =ni t'win u -pirin -ka ia -mu hure -ta -nhka -ni 
 \mgl if,as 1SG.SBJ before do COND SBJNC already NONE heat CAUS PASS INF 
 \ps adv NotSure NotSure v Attachestoanycategory v:Any NotSure NONE NotSure Attachestoanycategory Verb v:Any 
 \eng 
@@ -17952,7 +17840,7 @@
 
 \ref 2245 ## IPA ##
 \tph iki=re t'win u-piri-ka ja-mu hure-ta-nhka-ni
-\mph iki =ri t'win u -pirin -ka ja -mu hure -ta -nhka -ni 
+\mph iki =ri t'win u -pirin -ka ia -mu hure -ta -nhka -ni 
 \mgl if,as 2SG before do COND SBJNC already NONE heat CAUS PASS INF 
 \ps adv NotSure NotSure v Attachestoanycategory v:Any NotSure NONE NotSure Attachestoanycategory Verb v:Any 
 \eng 
@@ -17960,7 +17848,7 @@
 
 \ref 2246 ## IPA ##
 \tph i=ki t'win u-piri-ka ja-mu hure-ta-nhka-ni
-\mph i =ki t'win u -pirin -ka ja -mu hure -ta -nhka -ni 
+\mph i =ki t'win u -pirin -ka ia -mu hure -ta -nhka -ni 
 \mgl DEM.SG =RELT before do COND SBJNC already NONE heat CAUS PASS INF 
 \ps NotSure NotSure NotSure v Attachestoanycategory v:Any NotSure NONE NotSure Attachestoanycategory Verb v:Any 
 \eng 
@@ -17968,7 +17856,7 @@
 
 \ref 2247 ## IPA ##
 \tph ikikutʃ'e t'win u-piri-ka ja-mu hure-ta-nhka-ni
-\mph iki =kutʃ'e t'win u -pirin -ka ja -mu hure -ta -nhka -ni 
+\mph iki =kutʃ'e t'win u -pirin -ka ia -mu hure -ta -nhka -ni 
 \mgl if,as 1PL.SBJ before do COND SBJNC already NONE heat CAUS PASS INF 
 \ps adv pro-form NotSure v Attachestoanycategory v:Any NotSure NONE NotSure Attachestoanycategory Verb v:Any 
 \eng 
@@ -17976,7 +17864,7 @@
 
 \ref 2248 ## IPA ##
 \tph iki=ts'ï t'win u-piri-ka ja-mu hure-ta-nhka-ni
-\mph iki =ts'ï t'win u -pirin -ka ja -mu hure -ta -nhka -ni 
+\mph iki =ts'ï t'win u -pirin -ka ia -mu hure -ta -nhka -ni 
 \mgl if,as =2PL before do COND SBJNC already NONE heat CAUS PASS INF 
 \ps adv NotSure NotSure v Attachestoanycategory v:Any NotSure NONE NotSure Attachestoanycategory Verb v:Any 
 \eng 
@@ -17984,7 +17872,7 @@
 
 \ref 2249 ## IPA ##
 \tph iki=kʃï t'win u-piri-ka ja-mu hure-ta-nhka-ni
-\mph iki =kʃï t'win u -pirin -ka ja -mu hure -ta -nhka -ni 
+\mph iki =kʃï t'win u -pirin -ka ia -mu hure -ta -nhka -ni 
 \mgl if,as =3PL before do COND SBJNC already NONE heat CAUS PASS INF 
 \ps adv NotSure NotSure v Attachestoanycategory v:Any NotSure NONE NotSure Attachestoanycategory Verb v:Any 
 \eng 
@@ -18688,7 +18576,7 @@
 
 \ref 2337 ## IPA ##
 \tph janani=kutʃ'e =e-pa
-\mph janani =kutʃ'e =e -pa 
+\mph ianani =kutʃ'e =e -pa 
 \mgl later =1PL.SBJ =be IMPRTV 
 \ps adv pro-form cop Attachestoanycategory 
 \eng 
@@ -18696,7 +18584,7 @@
 
 \ref 2338 ## IPA ##
 \tph janani =e-he
-\mph janani =e -i 
+\mph ianani =e -i 
 \mgl later =be IMPRTV.2PL 
 \ps adv cop v:Any 
 \eng 
@@ -18704,7 +18592,7 @@
 
 \ref 2339 ## IPA ##
 \tph janani=kʃï =e-ue
-\mph janani =kʃï =e -we 
+\mph ianani =kʃï =e -we 
 \mgl later =3PL =be 3.IMPRTV 
 \ps adv NotSure cop Attachestoanycategory 
 \eng 
@@ -18856,7 +18744,7 @@
 
 \ref 2358 ## IPA ##
 \tph ahuj =e-pirinikatʃunte=ni
-\mph ahujh =e -pirin katʃunte =ni 
+\mph ahuih =e -pirin katʃunte =ni 
 \mgl alas =be COND subjunctive =1SG.SBJ 
 \ps interj cop Attachestoanycategory adv NotSure 
 \eng 
@@ -18864,7 +18752,7 @@
 
 \ref 2359 ## IPA ##
 \tph ahuj =e-pirini-karetʃunte
-\mph ahujh =e -pirin -ka =ri katʃunte 
+\mph ahuih =e -pirin -ka =ri katʃunte 
 \mgl alas =be COND 1/2IND 2SG subjunctive 
 \ps interj cop Attachestoanycategory v:SBJ.AGR NotSure adv 
 \eng 
@@ -18872,7 +18760,7 @@
 
 \ref 2360 ## IPA ##
 \tph ahuj =e-pirini-titʃunte
-\mph ahujh =e -pirin -ti katʃunte 
+\mph ahuih =e -pirin -ti katʃunte 
 \mgl alas =be COND 3.IND subjunctive 
 \ps interj cop Attachestoanycategory Attachestoanycategory adv 
 \eng 
@@ -18880,7 +18768,7 @@
 
 \ref 2361 ## IPA ##
 \tph ahuj =e-pirini-ka=kutʃ'etʃunte
-\mph ahujh =e -pirin -ka =kutʃ'e katʃunte 
+\mph ahuih =e -pirin -ka =kutʃ'e katʃunte 
 \mgl alas =be COND 1/2IND =1PL.SBJ subjunctive 
 \ps interj cop Attachestoanycategory v:SBJ.AGR pro-form adv 
 \eng 
@@ -18888,7 +18776,7 @@
 
 \ref 2362 ## IPA ##
 \tph ahuj =e-pirini-ka=ts'ïtʃunte
-\mph ahujh =e -pirin -ka =ts'ï katʃunte 
+\mph ahuih =e -pirin -ka =ts'ï katʃunte 
 \mgl alas =be COND 1/2IND =2PL subjunctive 
 \ps interj cop Attachestoanycategory v:SBJ.AGR NotSure adv 
 \eng 
@@ -18896,7 +18784,7 @@
 
 \ref 2363 ## IPA ##
 \tph ahuj =e-pirini-ti=kʃïtʃunte
-\mph ahujh =e -pirin -ti =kʃï katʃunte 
+\mph ahuih =e -pirin -ti =kʃï katʃunte 
 \mgl alas =be COND 3.IND =3PL subjunctive 
 \ps interj cop Attachestoanycategory Attachestoanycategory NotSure adv 
 \eng 
@@ -18904,7 +18792,7 @@
 
 \ref 2364 ## IPA ##
 \tph ahuj ja-ti-ha-ki=ni =e-pirini-ka
-\mph ahujh ja -ti -ʃa -ki =ni =e -pirin -ka 
+\mph ahuih ia -ti -ʃa -ki =ni =e -pirin -ka 
 \mgl alas already FORM PROG IRR =1SG.SBJ =be COND SBJNC 
 \ps interj NotSure Attachestoanycategory v:ASP Attachestoanycategory NotSure cop Attachestoanycategory v:Any 
 \eng 
@@ -18912,7 +18800,7 @@
 
 \ref 2365 ## IPA ##
 \tph ahuj jare-ti-ha-ki =e-pirini-ka
-\mph ahujh ja =ri -ti -ʃa -ki =e -pirin -ka 
+\mph ahuih ia =ri -ti -ʃa -ki =e -pirin -ka 
 \mgl alas already 2SG FORM PROG IRR =be COND SBJNC 
 \ps interj NotSure NotSure Attachestoanycategory v:ASP Attachestoanycategory cop Attachestoanycategory v:Any 
 \eng 
@@ -18920,7 +18808,7 @@
 
 \ref 2366 ## IPA ##
 \tph ahuj ja-ti-h-ki =e-pirini-ti
-\mph ahujh ja -ti -ʃa -ki =e -pirin -ti 
+\mph ahuih ia -ti -ʃa -ki =e -pirin -ti 
 \mgl alas already FORM PROG IRR =be COND 3.IND 
 \ps interj NotSure Attachestoanycategory v:ASP Attachestoanycategory cop Attachestoanycategory Attachestoanycategory 
 \eng 
@@ -18928,7 +18816,7 @@
 
 \ref 2367 ## IPA ##
 \tph ahuj ja=kutʃ'e-ti-h-ki =e-pirini-ka
-\mph ahujh ja =kutʃ'e -ti -sï -ki =e -pirin -ka 
+\mph ahuih ia =kutʃ'e -ti -sï -ki =e -pirin -ka 
 \mgl alas already =1PL.SBJ FORM AOR IRR =be COND 1/2IND 
 \ps interj NotSure pro-form Attachestoanycategory v:ASP Attachestoanycategory cop Attachestoanycategory v:SBJ.AGR 
 \eng 
@@ -18936,7 +18824,7 @@
 
 \ref 2368 ## IPA ##
 \tph ahuj ja=ts'ï-ti-ha-ki =e-pirini-ka
-\mph ahujh ja =ts'ï -ti -ʃa -ki =e -pirin -ka 
+\mph ahuih ia =ts'ï -ti -ʃa -ki =e -pirin -ka 
 \mgl alas already =2PL FORM PROG IRR =be COND SBJNC 
 \ps interj NotSure NotSure Attachestoanycategory v:ASP Attachestoanycategory cop Attachestoanycategory v:Any 
 \eng 
@@ -18944,7 +18832,7 @@
 
 \ref 2369 ## IPA ##
 \tph ahuj ja=kʃï-ti-ha-ki =e-pirini-ti
-\mph ahujh ja =kʃï -ti -ʃa -ki =e -pirin -ti 
+\mph ahuih ia =kʃï -ti -ʃa -ki =e -pirin -ti 
 \mgl alas already =3PL FORM PROG IRR =be COND 3.IND 
 \ps interj NotSure NotSure Attachestoanycategory v:ASP Attachestoanycategory cop Attachestoanycategory Attachestoanycategory 
 \eng 
@@ -19840,7 +19728,7 @@
 
 \ref 2481 ## IPA ##
 \tph jenkokware-ha-ka =e-ka=ni
-\mph jenkokware -ʃa -ka =e -ka =ni 
+\mph ienkokware -ʃa -ka =e -ka =ni 
 \mgl hope PROG 1/2IND =be 1/2IND =1SG.SBJ 
 \ps NotSure v:ASP v:SBJ.AGR cop v:SBJ.AGR NotSure 
 \eng I have hope to be.
@@ -19976,7 +19864,7 @@
 
 \ref 2498 ## IPA ##
 \tph ahuj =e-nhka-pirini-titʃunte
-\mph ahujh =e -nhka -pirin -ti katʃunte 
+\mph ahuih =e -nhka -pirin -ti katʃunte 
 \mgl alas =be PASS COND 3.IND subjunctive 
 \ps interj cop Verb Attachestoanycategory Attachestoanycategory adv 
 \eng 
@@ -19984,7 +19872,7 @@
 
 \ref 2499 ## IPA ##
 \tph ahuj ja-ti-h-ki =e-nhka-pirini-ti
-\mph ahujh ja -ti -ʃa -ki =e -nhka -pirin -ti 
+\mph ahuih ia -ti -ʃa -ki =e -nhka -pirin -ti 
 \mgl alas already FORM PROG IRR =be PASS COND 3.IND 
 \ps interj NotSure Attachestoanycategory v:ASP Attachestoanycategory cop Verb Attachestoanycategory Attachestoanycategory 
 \eng 
@@ -20152,7 +20040,7 @@
 
 \ref 2520 ## IPA ##
 \tph jenko-kwarhe-n-ka-ha-ti =e-ka-kweka-ni
-\mph jenko -kwarhe -n -ka -ʃa -ti =e -ka -s weka -ni 
+\mph ienko -kwarhe -n -ka -ʃa -ti =e -ka -s weka -ni 
 \mgl hope RFLX LNK FORM PROG 3.IND =be FORM LINKER? want INF 
 \ps NotSure NONE Attachestoanycategory vv v:ASP Attachestoanycategory cop vv Attachestoanycategory NotSure v:Any 
 \eng 
@@ -20376,7 +20264,7 @@
 
 \ref 2548 ## IPA ##
 \tph ka=ni janani hara ni-a
-\mph ka =ni janani harháni ni -a 
+\mph ka =ni ianani harháni ni -a 
 \mgl and =1SG.SBJ later be go FUT 
 \ps NotSure NotSure adv v NotSure v:Any 
 \eng 
@@ -20384,7 +20272,7 @@
 
 \ref 2549 ## IPA ##
 \tph ka=re janani hara ni-a
-\mph ka =ri janani harháni ni -a 
+\mph ka =ri ianani harháni ni -a 
 \mgl and 2SG later be go FUT 
 \ps NotSure NotSure adv v NotSure v:Any 
 \eng 
@@ -20392,7 +20280,7 @@
 
 \ref 2550 ## IPA ##
 \tph ka janani hara ni-
-\mph ka janani harháni ni -a 
+\mph ka ianani harháni ni -a 
 \mgl and later be go FUT 
 \ps NotSure adv v NotSure v:Any 
 \eng 
@@ -20456,7 +20344,7 @@
 
 \ref 2558 ## IPA ##
 \tph ahuj hara-nitʃunte=ni ni-pirini-ka
-\mph ahujh harháni -ni katʃunte =ni ni -pirin -ka 
+\mph ahuih harháni -ni katʃunte =ni ni -pirin -ka 
 \mgl alas be INF subjunctive =1SG.SBJ go COND SBJNC 
 \ps interj v v:Any adv NotSure NotSure Attachestoanycategory v:Any 
 \eng 
@@ -20672,7 +20560,7 @@
 
 \ref 2585 ## IPA ##
 \tph a-pa janani
-\mph a -pa janani 
+\mph a -pa ianani 
 \mgl AUX IMPRTV later 
 \ps NotSure Attachestoanycategory adv 
 \eng 
@@ -20680,7 +20568,7 @@
 
 \ref 2586 ## IPA ##
 \tph a t'u janani
-\mph a t'u janani 
+\mph a t'u ianani 
 \mgl AUX 2SG later 
 \ps NotSure NotSure adv 
 \eng 
@@ -20736,7 +20624,7 @@
 
 \ref 2593 ## IPA ##
 \tph ahuj a-pirinkatʃunte=ni
-\mph ahujh arha -pirin katʃunte =ni 
+\mph ahuih arha -pirin katʃunte =ni 
 \mgl alas eat COND subjunctive =1SG.SBJ 
 \ps interj v Attachestoanycategory adv NotSure 
 \eng 
@@ -20744,7 +20632,7 @@
 
 \ref 2594 ## IPA ##
 \tph ahuj ja-ti-ha-ki=ni a-pirin-ka
-\mph ahujh ja -ti -ʃa -ki =ni a -pirin -ka 
+\mph ahuih ia -ti -ʃa -ki =ni a -pirin -ka 
 \mgl alas already FORM PROG IRR =1SG.SBJ AUX COND SBJNC 
 \ps interj NotSure Attachestoanycategory v:ASP Attachestoanycategory NotSure NotSure Attachestoanycategory v:Any 
 \eng 
@@ -20872,7 +20760,7 @@
 
 \ref 2610 ## IPA ##
 \tph jenkokware-ha-ka akweka-ni
-\mph jenkokware -ʃa -ka a weka -ni 
+\mph ienkokware -ʃa -ka a weka -ni 
 \mgl hope PROG SBJNC AUX want INF 
 \ps NotSure v:ASP v:Any NotSure NotSure v:Any 
 \eng 
@@ -21120,7 +21008,7 @@
 
 \ref 2641 ## IPA ##
 \tph jenkokware-ha-ka tʃeni macucuecania-kuweka-ni
-\mph jenkokware -ʃa -ka tʃeeni macucuecani a -ku weka -ni 
+\mph ienkokware -ʃa -ka tʃeeni macucuecani a -ku weka -ni 
 \mgl hope PROG 1/2IND much NONE AUX APPL.3 want INF 
 \ps NotSure v:ASP v:SBJ.AGR NotSure NONE NotSure vv v v:Any 
 \eng 
@@ -21712,7 +21600,7 @@
 
 \ref 2715 ## IPA ##
 \tph puki -etʃa=kʃï a-n-sï-ti ma kawajo
-\mph puki -etʃa  =kʃï a -n -sï -ti ma kawaju 
+\mph puki -etʃa  =kʃï a -n -sï -ti ma kawaiu 
 \mgl tiger PL =3PL eat LNK AOR 3.IND one horse 
 \ps NotSure n:Any NotSure NotSure Attachestoanycategory v:ASP Attachestoanycategory NotSure n 
 \eng Lions ate or have eaten a horse. 
@@ -21720,7 +21608,7 @@
 
 \ref 2716 ## IPA ##
 \tph a-hu-an-sï-ti=kʃï tsimani kawajo -etʃa-ni
-\mph a -s u -an -sï -ti =kʃï tsimani kawaju -etʃa  -ni 
+\mph a -s u -an -sï -ti =kʃï tsimani kawaiu -etʃa  -ni 
 \mgl eat LINKER? do PAST AOR 3.IND =3PL two horse PL OBJ 
 \ps NotSure Attachestoanycategory v v:Any v:ASP Attachestoanycategory NotSure NotSure n n:Any n:Any 
 \eng Intended: The lions ate two horses.
@@ -21728,7 +21616,7 @@
 
 \ref 2717 ## IPA ##
 \tph a-pe-ns-tʃa=kʃï a-hu-an-sï-ti tsimani kawajo
-\mph a -p'e -nt'a -etʃa  =kʃï a -s u -an -sï -ti tsimani kawaju 
+\mph a -p'e -nt'a -etʃa  =kʃï a -s u -an -sï -ti tsimani kawaiu 
 \mgl AUX ANTIPASS ITER PL =3PL eat LINKER? do PAST AOR 3.IND two horse 
 \ps NotSure vv Verb n:Any NotSure NotSure Attachestoanycategory v v:Any v:ASP Attachestoanycategory NotSure n 
 \eng The lions ate two horses.
@@ -21736,7 +21624,7 @@
 
 \ref 2718 ## IPA ##
 \tph ma kawajo
-\mph ma kawaju 
+\mph ma kawaiu 
 \mgl one horse 
 \ps NotSure n 
 \eng 
@@ -21800,7 +21688,7 @@
 
 \ref 2726 ## IPA ##
 \tph jurits-ke-ri
-\mph jurhiri -ke -ri 
+\mph iurhiri -ke -ri 
 \mgl blood hollow AGT 
 \ps n Attachestoanycategory Attachestoanycategory 
 \eng 
@@ -21808,7 +21696,7 @@
 
 \ref 2727 ## IPA ##
 \tph jurits-ke-tʃa
-\mph jurhiri -ke -etʃa  
+\mph iurhiri -ke -etʃa  
 \mgl blood hollow PL 
 \ps n Attachestoanycategory n:Any 
 \eng 
@@ -22080,7 +21968,7 @@
 
 \ref 2761 ## IPA ##
 \tph no kani jo-ra-tʃa
-\mph no kani jo -ra -tʃa 
+\mph no kani io -ra -tʃa 
 \mgl no much long VAL body 
 \ps NotSure NotSure NotSure Attachestoanycategory NotSure 
 \eng 
@@ -22176,7 +22064,7 @@
 
 \ref 2773 ## IPA ##
 \tph jo-ra-tʃa
-\mph jo -ra -etʃa  
+\mph io -ra -etʃa  
 \mgl long VAL PL 
 \ps NotSure Attachestoanycategory n:Any 
 \eng large or with a high bodies
@@ -22240,7 +22128,7 @@
 
 \ref 2781 ## IPA ##
 \tph josti kurutʃa
-\mph josti kurutʃa 
+\mph iosti kurutʃa 
 \mgl long fish 
 \ps NotSure n 
 \eng big, long fish
@@ -22280,7 +22168,7 @@
 
 \ref 2786 ## IPA ##
 \tph jo-ra-ti kurutʃa
-\mph jo -ra -ti kurutʃa 
+\mph io -ra -ti kurutʃa 
 \mgl long VAL 3.IND fish 
 \ps NotSure Attachestoanycategory Attachestoanycategory n 
 \eng big, long fish
@@ -22632,7 +22520,7 @@
 
 \ref 2830 ## IPA ##
 \tph josti tʃuk'ari
-\mph josti tʃuk'árhi 
+\mph iosti tʃuk'árhi 
 \mgl long stick 
 \ps NotSure NotSure 
 \eng long wood stick
@@ -22640,7 +22528,7 @@
 
 \ref 2831 ## IPA ##
 \tph jo-ra-ti tʃuk'ari
-\mph jo -ra -ti tʃuk'árhi 
+\mph io -ra -ti tʃuk'árhi 
 \mgl long VAL 3.IND wood 
 \ps NotSure Attachestoanycategory Attachestoanycategory n 
 \eng long wood sticks
@@ -22648,7 +22536,7 @@
 
 \ref 2832 ## IPA ##
 \tph ampa-ra-ri kawajo
-\mph ampa -ra -ri kawaju 
+\mph ampa -ra -ri kawaiu 
 \mgl good VAL AGT horse 
 \ps NotSure Attachestoanycategory Attachestoanycategory n 
 \eng 
@@ -23472,7 +23360,7 @@
 
 \ref 2935 ## IPA ##
 \tph juresï
-\mph juresï 
+\mph iuresï 
 \mgl spoon 
 \ps NotSure 
 \eng spoon
@@ -23816,7 +23704,7 @@
 
 \ref 2978 ## IPA ##
 \tph kawajo tʃeti
-\mph kawaju tʃ'éti 
+\mph kawaiu tʃ'éti 
 \mgl horse tail 
 \ps n n 
 \eng 
@@ -23960,7 +23848,7 @@
 
 \ref 2996 ## IPA ##
 \tph hi pampsï-ka-ha-ka hutʃewe kawajo
-\mph hi pampsï -ka -ʃa -ka hutʃeeti kawaju 
+\mph hi pampsï -ka -ʃa -ka hutʃeeti kawaiu 
 \mgl 1SG love FORM PROG 1/2IND 1SG.GEN horse 
 \ps pers NotSure vv v:ASP v:SBJ.AGR poss n 
 \eng 
@@ -24640,7 +24528,7 @@
 
 \ref 3081 ## IPA ##
 \tph ts'imi =e-ti kawajo
-\mph ts'imi =e -ti kawaju 
+\mph ts'imi =e -ti kawaiu 
 \mgl DEM.PL =be 3.IND horse 
 \ps det cop Attachestoanycategory n 
 \eng 
@@ -25632,7 +25520,7 @@
 
 \ref 3205 ## IPA ##
 \tph atʃati-itʃa nja-nt'a-ʃïn-ti=kʃï
-\mph atʃati -etʃa  nja -nt'a -sïn -ti =kʃï 
+\mph atʃati -etʃa  nia -nt'a -sïn -ti =kʃï 
 \mgl man PL arrive CENTR HAB 3.IND =3PL 
 \ps n n:Any NotSure Verb v:ASP Attachestoanycategory NotSure 
 \eng Men come back.
@@ -26630,14 +26518,6 @@
 \eng Su arbol (de usted)
 \id 3329
 
-\ref 3330 ## IPA ##
-\tph ts'ï-e anhatapu
-\mph ts'ï -e anhatapu 
-\mgl DEM.PL VOC tree 
-\ps NotSure NotSure n 
-\eng su arbol (de estos)
-\id 3330
-
 \ref 3331 ## IPA ##
 \tph tsïmi-iri anhatapu
 \mph tsïmi-eri anhatapu 
@@ -27416,7 +27296,7 @@
 
 \ref 3428 ## IPA ##
 \tph itʃuskuta-itʃa kurhi-ʃ-ti=kʃï ja
-\mph itʃuskuta -etʃa  kurhi -sï -ti =kʃï ja 
+\mph itʃuskuta -etʃa  kurhi -sï -ti =kʃï ia 
 \mgl tortilla PL burn AOR 3.IND =3PL already 
 \ps n n:Any NotSure v:ASP Attachestoanycategory NotSure NotSure 
 \eng 'The tortiilas burnt already' / 'Las tortillas ya se quemaron'
@@ -27720,7 +27600,7 @@
 
 \ref 3466 ## IPA ##
 \tph ka kurhitsï arhini -ni ja
-\mph ka kurhitsï  arhini  -ni ja 
+\mph ka kurhitsï  arhini  -ni ia 
 \mgl and buzzard say INF already 
 \ps NotSure n v v:Any NotSure 
 \eng 'And the zopilote says' / 'Y el zopilote dice' 
@@ -28272,7 +28152,7 @@
 
 \ref 3535 ## IPA ##
 \tph ka -a-ʃ-ka hama-ʃ-ti ja
-\mph ka eʃe -a -sï -ka hama -sï -ti ja 
+\mph ka eʃe -a -sï -ka hama -sï -ti ia 
 \mgl and see 3PL.OBJ AOR SBJNC bearound AOR 3.IND already 
 \ps NotSure NotSure v:Any v:ASP v:Any NotSure v:ASP Attachestoanycategory NotSure 
 \eng 'And when I saw them they were well already' / 'Y cuando los he visto, ya andaban bien'
@@ -28312,7 +28192,7 @@
 
 \ref 3540 ## IPA ##
 \tph hutʃi kawaju urapi-ʃ-ti
-\mph hutʃi kawaju urapi -sï -ti 
+\mph hutʃi kawaiu urapi -sï -ti 
 \mgl 1SG.POSS horse white AOR 3.IND 
 \ps NotSure n v v:ASP Attachestoanycategory 
 \eng 'My horse is white' / 'Mi caballo es blanco'
@@ -28688,7 +28568,7 @@
 
 \ref 3587 ## IPA ##
 \tph Selia tataka sapi-etʃa -ni we-ka ima ja
-\mph Selia tataka sapi -etʃa  -ni we -ka ima ja 
+\mph Selia tataka sapi -etʃa  -ni we -ka ima ia 
 \mgl Celia boy little PL OBJ sad SBJNC DEM.SG already 
 \ps NotSure NotSure NotSure n:Any n:Any NotSure v:Any NotSure NotSure 
 \eng 
@@ -28728,7 +28608,7 @@
 
 \ref 3592 ## IPA ##
 \tph yaʃï mikakwa iʃu ha-rha-ʃ-ti
-\mph jaʃï mikwa iʃu ha -ra -sï -ti 
+\mph iaʃï mikwa iʃu ha -ra -sï -ti 
 \mgl now door here exist FORM AOR 3.IND 
 \ps NotSure NotSure NotSure NotSure NotSure v:ASP Attachestoanycategory 
 \eng 
@@ -30944,7 +30824,7 @@
 
 \ref 3869 ## IPA ##
 \tph terhu-nharhi-ta-p'e-jara-ni
-\mph terhu -nharhi -ta -p'e -jara -ni 
+\mph terhu -nharhi -ta -p'e -iara -ni 
 \mgl cross LOC.face ACT ANTIPASS MOV INF 
 \ps NotSure v:LOC Verb vv Verb v:Any 
 \eng 'to put something in front of others upon arrival'
@@ -31304,7 +31184,7 @@
 
 \ref 3914 ## IPA ##
 \tph eʃe-sï-ka=ni t'a-porhu jurhiri
-\mph eʃe -sï -ka =ni t'amu -porhu jurhiri 
+\mph eʃe -sï -ka =ni t'amu -porhu iurhiri 
 \mgl see AOR 1/2IND =1SG.SBJ four DIST.LOC blood 
 \ps NotSure v:ASP v:SBJ.AGR NotSure NotSure Attachestoanycategory n 
 \eng 'I saw blood in four places/I saw four stains of blood'
@@ -31352,7 +31232,7 @@
 
 \ref 3920 ## IPA ##
 \tph ihtsï iamindu huat-itʃa hukska-kata harha-h-ti
-\mph itsï jamintu huuata -etʃa  hukska -kata ha -sï -ti 
+\mph itsï iamintu huuata -etʃa  hukska -kata ha -sï -ti 
 \mgl DEM.PL all mount PL sow PASS.PRT exist AOR 3.IND 
 \ps NotSure NotSure n n:Any NotSure v??? NotSure v:ASP Attachestoanycategory 
 \eng 'All these hills are sown (with corn)'
@@ -31520,7 +31400,7 @@
 
 \ref 3941 ## IPA ##
 \tph Pedro aw-a-h-ti iamindu itʃakwa -ni
-\mph Pegru arha -a -sï -ti jamintu itʃakwa -ni 
+\mph Pegru arha -a -sï -ti iamintu itʃakwa -ni 
 \mgl Pedro eat 3PL.OBJ AOR 3.IND all long.thing OBJ 
 \ps NotSure v v:Any v:ASP Attachestoanycategory NotSure ??? n:Any 
 \eng Intended: 'Pedro ate all the fish'
@@ -31528,7 +31408,7 @@
 
 \ref 3942 ## IPA ##
 \tph Pedro aw-a-h-ti iamindu
-\mph Pegru arha -a -sï -ti jamintu 
+\mph Pegru arha -a -sï -ti iamintu 
 \mgl Pedro eat 3PL.OBJ AOR 3.IND all 
 \ps NotSure v v:Any v:ASP Attachestoanycategory NotSure 
 \eng 'Pedro ate all the fish'
@@ -31544,7 +31424,7 @@
 
 \ref 3944 ## IPA ##
 \tph hi juaskani-sï-ka=ni maru taru parhe
-\mph hi juaskani -sï -ka =ni maru taru parhe 
+\mph hi iuaskani -sï -ka =ni maru taru parhe 
 \mgl 1SG NONE AOR 1/2IND =1SG.SBJ some other cactus 
 \ps pers NONE v:ASP v:SBJ.AGR NotSure NotSure NotSure NotSure 
 \eng 'I brought some more cactus leaves'
@@ -31888,7 +31768,7 @@
 
 \ref 3987 ## IPA ##
 \tph yurhirhi etʃu-nu-h-ti
-\mph jurhiri etʃu -nu -sï -ti 
+\mph iurhiri etʃu -nu -sï -ti 
 \mgl blood CL.flat patio AOR 3.IND 
 \ps n NotSure Attachestoanycategory v:ASP Attachestoanycategory 
 \eng Context: I found some drops of blood on the patio. Intended:'There are drops of blood lying on the patio'/'There is blood on the patio' 
@@ -31928,7 +31808,7 @@
 
 \ref 3992 ## IPA ##
 \tph ʃu teronukwa hanurha-h-ti jurhiri
-\mph iʃu teronukwa hanurha -sï -ti jurhiri 
+\mph iʃu teronukwa hanurha -sï -ti iurhiri 
 \mgl here patio be.at AOR 3.IND blood 
 \ps NotSure n NotSure v:ASP Attachestoanycategory n 
 \eng 'There is blood here on the patio'
@@ -32216,7 +32096,7 @@
 
 \ref 4028 ## IPA ##
 \tph hini Tijuana nompi ha-ki anhatapu-itʃa ireta-rhu
-\mph hini Tijuana noompi ha -ki anhatapu -etʃa  ireta -rhu 
+\mph hini Tiiuana noompi ha -ki anhatapu -etʃa  ireta -rhu 
 \mgl there Tijuana NEG exist IRR tree PL town LOC 
 \ps NotSure NotSure NotSure NotSure Attachestoanycategory n n:Any n n:Any 
 \eng 'Up here in Tijuana there are no trees in the city'
@@ -32224,7 +32104,7 @@
 
 \ref 4029 ## IPA ##
 \tph hini Tijuana nompi ha-ki anhatapu ireta-rhu
-\mph hini Tijuana noompi ha -ki anhatapu ireta -rhu 
+\mph hini Tiiuana noompi ha -ki anhatapu ireta -rhu 
 \mgl there Tijuana NEG exist IRR tree town LOC 
 \ps NotSure NotSure NotSure NotSure Attachestoanycategory n n n:Any 
 \eng Intended: 'Up there in Tijuana there are no trees in the city'
@@ -32320,7 +32200,7 @@
 
 \ref 4041 ## IPA ##
 \tph sejs hiwatsï-itʃa
-\mph sejs hiwatsï -etʃa  
+\mph seis hiwatsï -etʃa  
 \mgl six coyote PL 
 \ps NotSure NotSure n:Any 
 \eng 'Six coyotes'
@@ -32336,7 +32216,7 @@
 
 \ref 4043 ## IPA ##
 \tph sejs hiwatsï-itʃa
-\mph sejs hiwatsï -etʃa  
+\mph seis hiwatsï -etʃa  
 \mgl six coyote PL 
 \ps NotSure NotSure n:Any 
 \eng Intended: 'Six coyotes'
@@ -32368,7 +32248,7 @@
 
 \ref 4047 ## IPA ##
 \tph iamindu-itʃa tsikata-itʃa turhipit-itʃa tirhe-h-tiia
-\mph jamintu -etʃa  tsikata -etʃa  turhipiti -etʃa  t'ire -sï -ti =a 
+\mph iamintu -etʃa  tsikata -etʃa  turhipiti -etʃa  t'ire -sï -ti =a 
 \mgl all PL hen PL black PL eat AOR 3.IND already 
 \ps NotSure n:Any n n:Any NotSure n:Any NotSure v:ASP Attachestoanycategory NotSure 
 \eng 'All the black hens have eaten already'
@@ -32496,7 +32376,7 @@
 
 \ref 4063 ## IPA ##
 \tph Cesar ka Nelo hupakuri-h-ti iamindu-itʃa-ni ts'ï- eri ʃukuparhakwa-ni
-\mph Cesari ka Nelo hupakuri -sï -ti jamintu -etʃa  -ni ts'ï-eri ʃukuparhakwa -ni 
+\mph Cesari ka Nelo hupakuri -sï -ti iamintu -etʃa  -ni ts'ï-eri ʃukuparhakwa -ni 
 \mgl Cesar and Nelo wash AOR 3.IND all PL OBJ DEM.PL GEN clothing OBJ 
 \ps NotSure NotSure NotSure NotSure v:ASP Attachestoanycategory NotSure n:Any n:Any NotSure n:Any n n:Any 
 \eng 'Cesar and Nelo washed all of their clothes'
@@ -32632,7 +32512,7 @@
 
 \ref 4080 ## IPA ##
 \tph iamindu-itʃa tsuntsu-itʃa harha-h-ti mesa-rhu
-\mph jamintu -etʃa  tsuntsu -etʃa  ha -sï -ti mesa -rhu 
+\mph iamintu -etʃa  tsuntsu -etʃa  ha -sï -ti mesa -rhu 
 \mgl all PL pot PL exist AOR 3.IND table LOC 
 \ps NotSure n:Any n n:Any NotSure v:ASP Attachestoanycategory NotSure n:Any 
 \eng 'All the pots are on the table' Context: There are a lot of pots in the house. All of them are on the table. 
@@ -32648,7 +32528,7 @@
 
 \ref 4082 ## IPA ##
 \tph iamindu-perarani tsuntsu-itʃa harha-h-ti mesa-rhu
-\mph jamintu -perarani tsuntsu -etʃa  ha -sï -ti mesa -rhu 
+\mph iamintu -perarani tsuntsu -etʃa  ha -sï -ti mesa -rhu 
 \mgl all MAX pot PL exist AOR 3.IND table LOC 
 \ps NotSure Attachestoanycategory n n:Any NotSure v:ASP Attachestoanycategory NotSure n:Any 
 \eng Intended: 'All the pots are on the table'
@@ -33480,7 +33360,7 @@
 
 \ref 4186 ## IPA ##
 \tph Alisia p'a-ma-t'i jorhe-kwa-ni
-\mph Alisia p'a -ma -t'i jorhe -kwa -ni 
+\mph Alisia p'a -ma -t'i iorhe -kwa -ni 
 \mgl Alice touch liquid 3.IND stream NMLZR OBJ 
 \ps nprop NotSure Attachestoanycategory v:SBJ.AGR NotSure Attachestoanycategory n:Any 
 \eng Alice touched the surface of the river. / Alicia tocó el río en la superficie.
@@ -33488,7 +33368,7 @@
 
 \ref 4187 ## IPA ##
 \tph Alisia p'ó-ma-t'i jorhe-kwa-ni
-\mph Alisia p'ó -ma -t'i jorhe -kwa -ni 
+\mph Alisia p'ó -ma -t'i iorhe -kwa -ni 
 \mgl Alice depth liquid 3.IND stream NMLZR OBJ 
 \ps nprop NotSure Attachestoanycategory v:SBJ.AGR NotSure Attachestoanycategory n:Any 
 \eng Alice depth her hand into the water. / Alicia metió la mano en el río. 
@@ -33544,7 +33424,7 @@
 
 \ref 4194 ## IPA ##
 \tph purhetʃitʃ' jáasï horhépi-ʃa-ti
-\mph purhetʃitʃ' jaʃï horhépi -ʃa -ti 
+\mph purhetʃitʃ' iaʃï horhépi -ʃa -ti 
 \mgl pot now heat PROG 3.IND 
 \ps n NotSure NotSure v:ASP Attachestoanycategory 
 \eng La olla apenas se está calentando
@@ -34504,7 +34384,7 @@
 
 \ref 4314 ## IPA ##
 \tph inte te-ʃa-ti ja
-\mph inte te -ʃa -ti ja 
+\mph inte te -ʃa -ti ia 
 \mgl DEM.SG sweet PROG 3.IND already 
 \ps dem NotSure v:ASP Attachestoanycategory NotSure 
 \eng The pineapple is becoming ripe
@@ -34720,7 +34600,7 @@
 
 \ref 4341 ## IPA ##
 \tph hutʃa antes purhepetʃa wanta pero ja noteria
-\mph hutʃa antes purhepetʃa wanta pero ja noteria 
+\mph hutʃa antes purhepetʃa wanta pero ia noteria 
 \mgl 1PL before Purhepecha speak but already no.longer 
 \ps pers NotSure NotSure NotSure NotSure NotSure NotSure 
 \eng We used to speak Purepecha but we don't do it any longer
@@ -34736,7 +34616,7 @@
 
 \ref 4343 ## IPA ##
 \tph antes iʃu Comanja anapuetʃa-etʃa purhepetʃa wanta k'wiripu-etʃa
-\mph antes iʃu Comanja anapuetʃa -etʃa  purhepetʃa wanta k'wiripu -etʃa  
+\mph antes iʃu Comania anapuetʃa -etʃa  purhepetʃa wanta k'wiripu -etʃa  
 \mgl before here Comanja NONE PL Purhepecha speak people PL 
 \ps NotSure NotSure NotSure NONE n:Any NotSure NotSure n n:Any 
 \eng People from Comanja used to speak Purepecha
@@ -34744,7 +34624,7 @@
 
 \ref 4344 ## IPA ##
 \tph jontki kw'irip-etʃa Comanja anapuetʃa-etʃa wanta-ni
-\mph jontki k'wiripu -etʃa  Comanja anapuetʃa -etʃa  wanta -ni 
+\mph iontki k'wiripu -etʃa  Comania anapuetʃa -etʃa  wanta -ni 
 \mgl long.time people PL Comanja NONE PL speak OBJ 
 \ps NotSure n n:Any NotSure NONE n:Any NotSure n:Any 
 \eng Before, people from Comanja used to speak Purepecha
@@ -34752,7 +34632,7 @@
 
 \ref 4345 ## IPA ##
 \tph nomeni k'wiripu Comanja anapuetʃa-etʃa purhepetʃa wanta
-\mph nomeni k'wiripu Comanja anapuetʃa -etʃa  purhepetʃa wanta 
+\mph nomeni k'wiripu Comania anapuetʃa -etʃa  purhepetʃa wanta 
 \mgl never people Comanja NONE PL Purhepecha speak 
 \ps adv n NotSure NONE n:Any NotSure NotSure 
 \eng People have never spoken Purepecha in Comanja
@@ -34800,7 +34680,7 @@
 
 \ref 4351 ## IPA ##
 \tph u inte-ni arhini -ni ha-ka jaʃï
-\mph u inte -ni arhini  -ni ha -ka jaʃï 
+\mph u inte -ni arhini  -ni ha -ka iaʃï 
 \mgl do DEM.SG OBJ say INF exist SBJNC now 
 \ps v dem n:Any v v:Any NotSure v:Any NotSure 
 \eng Do now what I'm telling you
@@ -35286,7 +35166,7 @@
 \eng Oh, I feel shame of going out with this lad
 \id 4411
 
-\ref 4412
+\ref 4412 ## IPA ##
 \tph hi noompi=ni inte nira-ni tumpi
 \mph hi noompi =ni inte nira -ni tumpi 
 \mgl 1SG NEG =1SG.SBJ DEM.SG go INF lad 
@@ -38757,14 +38637,6 @@
 \ps v vv NotSure rel NotSure NotSure NotSure NotSure v:Any v:Any 
 \eng take as much as you will want
 \id 4845
-
-\ref 4846
-\tph kuerajpi-ri=kini maiamu-e
-\mph kuerajpe -ri =kini maiamu -e 
-\mgl create AGT =2SG.OBJ pay VOC 
-\ps v Attachestoanycategory NotSure v NotSure 
-\eng God will pay you 
-\id 4846
 
 \ref 4847
 \tph tata niku
@@ -45480,7 +45352,7 @@
 
 \ref 5686 ## IPA ##
 \tph ima hu-rha-sï-p-ti nana juliʃi Cueravaperi Ucareo
-\mph ima hu -ra -sï -p -ti nana juliʃi Cueravaperi Ucareo 
+\mph ima hu -ra -sï -p -ti nana iuliʃi Cueravaperi Ucareo 
 \mgl DEM.SG come MED AOR PAST 3.IND HON virgin Cueravaperi Ucareo 
 \ps NotSure NotSure NotSure v:ASP v:TNS Attachestoanycategory NotSure n n n 
 \eng The goddess Cueravaperi came to Ucareo 
@@ -45520,7 +45392,7 @@
 
 \ref 5691 ## IPA ##
 \tph ka ima nana juliʃi itsï ima-ni
-\mph ka ima nana juliʃi itsï ima -ni 
+\mph ka ima nana iuliʃi itsï ima -ni 
 \mgl and DEM.SG HON virgin water DEM.SG OBJ 
 \ps NotSure NotSure NotSure n n NotSure n:Any 
 \eng The goddess prepared a beverage
@@ -45728,7 +45600,7 @@
 
 \ref 5717 ## IPA ##
 \tph ima jamintu
-\mph ima jamintu 
+\mph ima iamintu 
 \mgl DEM.SG all 
 \ps NotSure NotSure 
 \eng 
@@ -45752,7 +45624,7 @@
 
 \ref 5720 ## IPA ##
 \tph iʃu a-ti-ni ima-nki tsa jamintu na
-\mph iʃu a -ti -ni ima -nki tsa jamintu na 
+\mph iʃu a -ti -ni ima -nki tsa iamintu na 
 \mgl here AUX 3.IND INF DEM.SG SUB they all how 
 \ps NotSure NotSure Attachestoanycategory v:Any NotSure Attachestoanycategory n NotSure NotSure 
 \eng 
@@ -45976,7 +45848,7 @@
 
 \ref 5748 ## IPA ##
 \tph ima jamintu wanta-nta-p-ti ima tsa-ni tata
-\mph ima jamintu wanta -nt'a -p -ti ima tsa -ni tata 
+\mph ima iamintu wanta -nt'a -p -ti ima tsa -ni tata 
 \mgl DEM.SG all speak ITER PAST 3.IND DEM.SG they OBJ sir 
 \ps NotSure NotSure NotSure Verb v:TNS Attachestoanycategory NotSure n n:Any n 
 \eng 
@@ -46008,7 +45880,7 @@
 
 \ref 5752 ## IPA ##
 \tph tata kuretʃa jamintu tʃa hu-ka
-\mph tata kuretʃa jamintu tʃa hu -ka 
+\mph tata kuretʃa iamintu tʃa hu -ka 
 \mgl sir priest all 2PL come SBJNC 
 \ps n n NotSure pers NotSure v:Any 
 \eng 
@@ -46272,7 +46144,7 @@
 
 \ref 5785 ## IPA ##
 \tph ima hu-rha-s-p-ti nana juliʃi Cueravaperi Ucareo
-\mph ima hu -ra -s -p -ti nana juliʃi Cueravaperi Ucareo 
+\mph ima hu -ra -s -p -ti nana iuliʃi Cueravaperi Ucareo 
 \mgl DEM.SG come MED AOR PAST 3.IND HON virgin Cueravaperi Ucareo 
 \ps NotSure NotSure NotSure v:ASP v:TNS Attachestoanycategory NotSure n n n 
 \eng The goddess Cueravaperi came to Ucareo 
@@ -46312,7 +46184,7 @@
 
 \ref 5790 ## IPA ##
 \tph ka ima nana juliʃi itsï ima-ni
-\mph ka ima nana juliʃi itsï ima -ni 
+\mph ka ima nana iuliʃi itsï ima -ni 
 \mgl and DEM.SG HON virgin water DEM.SG OBJ 
 \ps NotSure NotSure NotSure n n NotSure n:Any 
 \eng The goddess prepared a beverage
@@ -46520,7 +46392,7 @@
 
 \ref 5816 ## IPA ##
 \tph ima jámintu
-\mph ima jámintu 
+\mph ima iámintu 
 \mgl DEM.SG all 
 \ps NotSure NotSure 
 \eng all
@@ -46544,7 +46416,7 @@
 
 \ref 5819 ## IPA ##
 \tph iʃu a-ti-ni ima-nki tsa jámintu na
-\mph iʃu a -ti -ni ima -nki tsa jámintu na 
+\mph iʃu a -ti -ni ima -nki tsa iámintu na 
 \mgl here AUX 3.IND INF DEM.SG SUB they all how 
 \ps NotSure NotSure Attachestoanycategory v:Any NotSure Attachestoanycategory n NotSure NotSure 
 \eng how
@@ -46768,7 +46640,7 @@
 
 \ref 5847 ## IPA ##
 \tph ima jámintu wanta-nta-p-ti ima tsa-ni tata
-\mph ima jámintu wanta -nt'a -p -ti ima tsa -ni tata 
+\mph ima iámintu wanta -nt'a -p -ti ima tsa -ni tata 
 \mgl DEM.SG all speak ITER PAST 3.IND DEM.SG they OBJ sir 
 \ps NotSure NotSure NotSure Verb v:TNS Attachestoanycategory NotSure n n:Any n 
 \eng man
@@ -46800,7 +46672,7 @@
 
 \ref 5851 ## IPA ##
 \tph tata kuretʃa jámintu tʃa hu-ka
-\mph tata kuretʃa jámintu tʃa hu -ka 
+\mph tata kuretʃa iámintu tʃa hu -ka 
 \mgl sir priest all 2PL come SBJNC 
 \ps n n NotSure pers NotSure v:Any 
 \eng come
@@ -47926,14 +47798,6 @@
 \eng be happy that you are so green here under the sky 
 \id 5991
 
-\ref 5992 ## LATIN ##
-\tph joperu ima anhatapu no mak'u-e-ni era-sïram-p-ti
-\mph pero ima anhatapu no majku -e -ni ira -sïram -p -ti 
-\mgl but DEM.SG fir no same VOC OBJ look.distance HAB.PST PAST 3.IND 
-\ps NotSure NotSure nclf NotSure NotSure NotSure n:Any v Attachestoanycategory v:TNS Attachestoanycategory 
-\eng but the tree didn't use to think the same 
-\id 5992
-
 \ref 5993 ## LATIN ##
 \tph ima chunku-ma-sïram-p-ti k'e-ni
 \mph ima chunku -ma -sïram -p -ti k'e -ni 
@@ -48902,14 +48766,6 @@
 \eng because the man said it 
 \id 6113
 
-\ref 6114 ## LATIN ##
-\tph na mite-e
-\mph na mite -e 
-\mgl what know VOC 
-\ps NotSure NotSure NotSure 
-\eng who knows 
-\id 6114
-
 \ref 6115 ## LATIN ##
 \tph nantika-ni escalerarhu-rhu isï ueko-rhi-a-ka ka princesani-ni ma paka-ra-korhe-ni
 \mph nantika -ni escalerarhu -rhu isï ueko -rhi -a -ka ka princesani -ni ma paka -ra -kuarhe -ni 
@@ -49253,14 +49109,6 @@
 \ps NotSure NotSure NotSure vv v:ASP Attachestoanycategory NotSure 
 \eng but you have it well here 
 \id 6157
-
-\ref 6158 ## LATIN ##
-\tph o no anhatapu-e t'arhe-p'i-ti
-\mph o no anhatapu -e t'arhe -p'i -ti 
-\mgl or no tree VOC grow BEN 3.IND 
-\ps NotSure NotSure n NotSure v Attachestoanycategory Attachestoanycategory 
-\eng or not you old tree 
-\id 6158
 
 \ref 6159 ## LATIN ##
 \tph ji no t'arhe-p'i-ti arhi-s-p-ti anhatapu

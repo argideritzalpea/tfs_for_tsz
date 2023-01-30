@@ -1,23 +1,5 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
-noun-pc2-synth-adp-lex := noun-pc2-synth-adp-lex-rule.
-
-noun-pc5-synth-adp-lex := noun-pc5-synth-adp-lex-rule.
-
-noun-pc10-synth-adp-lex := noun-pc10-synth-adp-lex-rule.
-
-noun-pc21-synth-adp-lex := noun-pc21-synth-adp-lex-rule.
-
-noun-pc26-synth-adp-lex := noun-pc26-synth-adp-lex-rule.
-
-noun-pc31-synth-adp-lex := noun-pc31-synth-adp-lex-rule.
-
-noun-pc48-synth-adp-lex := noun-pc48-synth-adp-lex-rule.
-
-noun-pc80-synth-adp-lex := noun-pc80-synth-adp-lex-rule.
-
-noun-pc83-synth-adp-lex := noun-pc83-synth-adp-lex-rule.
-
-noun-pc86-synth-adp-lex := noun-pc86-synth-adp-lex-rule.
+case_nom-lex := case_nom-lex-rule.
 
 verb-pc8_lrt2-lex := verb-pc8_lrt2-lex-rule.
 
