@@ -1236,3 +1236,7 @@ verb-pc209_lrt1-lex-rule.
 verb-pc211_lrt1-suffix :=
 %suffix (* -ka)
 verb-pc211_lrt1-lex-rule.
+
+verb-pc250_imp2nd_lr-prefix :=
+%prefix (* -ø)
+verb-pc250_imp2nd_lr-lex-rule.
