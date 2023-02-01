@@ -85,9 +85,7 @@ tense-definition=build
     mood7_supertype1_name=mood
 
 section=evidentials
-evidential-definition=choose
-nonfirsthand=on
-  evidential1_name=non_firsthand
+evidential-definition=noevid
 
 section=other-features
 form-fin-nf=on
@@ -5316,9 +5314,6 @@ section=morphology
   noun-pc23_order=suffix
   noun-pc23_inputs=noun2, noun-pc12, noun84, noun-pc29, noun330, noun331, noun332, noun340, noun341, noun342, noun345, noun346, noun347, noun348, noun352, noun353, noun354, noun356, noun357, noun358, noun359, noun360
     noun-pc23_lrt1_name=noun-pc23_lrt1
-      noun-pc23_lrt1_feat1_name=evidential
-      noun-pc23_lrt1_feat1_value=nonfirsthand
-      noun-pc23_lrt1_feat1_head=itself
       noun-pc23_lrt1_lri1_inflecting=yes
       noun-pc23_lrt1_lri1_orth==na
   noun-pc25_name=noun-pc25
@@ -5594,9 +5589,6 @@ section=morphology
   verb-pc5_order=suffix
   verb-pc5_inputs=verb31, verb32, verb176, verb304, verb-pc7, verb-pc60, verb-pc62, verb-pc74, verb-pc104
     verb-pc5_lrt1_name=verb-pc5_lrt1
-      verb-pc5_lrt1_feat1_name=evidential
-      verb-pc5_lrt1_feat1_value=nonfirsthand
-      verb-pc5_lrt1_feat1_head=verb
       verb-pc5_lrt1_lri1_inflecting=yes
       verb-pc5_lrt1_lri1_orth==na
   verb-pc6_name=verb-pc6
@@ -6667,9 +6659,6 @@ section=morphology
   verb-pc171_order=suffix
   verb-pc171_inputs=verb-pc142, verb-pc46, verb-pc159
     verb-pc171_lrt1_name=verb-pc171_lrt1
-      verb-pc171_lrt1_feat1_name=evidential
-      verb-pc171_lrt1_feat1_value=nonfirsthand
-      verb-pc171_lrt1_feat1_head=verb
       verb-pc171_lrt1_lri1_inflecting=yes
       verb-pc171_lrt1_lri1_orth==na
     verb-pc171_lrt2_name=verb-pc171_lrt2
