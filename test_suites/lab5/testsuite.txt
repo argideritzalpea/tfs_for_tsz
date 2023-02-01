@@ -700,9 +700,9 @@ Source: eng.txt
 Vetted: s
 Judgement: g
 Phenomena: (translate)
-uichu-echa k'ui-xïn-ti=kxï
-uichu-echa k'ui-xïn-ti=kxï
-dog-PL sleep-HAB-3.ASS=3PL.S
+uichu-echa k'ui-xïn-ti
+uichu-echa k'ui-xïn-ti
+dog-PL sleep-HAB-3.ASS
 Dogs sleep
 
 #71 lab5 - translation #2
@@ -710,9 +710,9 @@ Source: eng.txt
 Vetted: s
 Judgement: g
 Phenomena: (translate)
-uichu-echa antanku-a-xïn-ti=kxï motsitaɽakwa-echa-ni
-uichu-echa antanku-a-xïn-ti=kxï motsitaɽakwa-echa-ni
-dog-PL chase-3PL.OBJ-HAB-3.ASS-3PL.S car-PL-OBJ
+uichu-echa antanku-xïn-ti motsitaɽakwa-echa-ni
+uichu-echa antanku-xïn-ti motsitaɽakwa-echa-ni
+dog-PL chase-HAB-3.ASS car-PL-OBJ
 Dogs chase cars
 
 #72 lab5 - translation #3 (referred to ref 711, 1.1-2)
@@ -720,7 +720,7 @@ Source: eng.txt
 Vetted: s
 Judgement: g
 Phenomena: (translate)
-hi=ki-ni antanku-chi-sïn-ø-ka
-hi=ki-ni antanku-chi-sïn-ø-ka
-I=2SG.OBJ-OBJ chase-2.APL-HAB-NP-1/2ASS
+hi=ki antanku-chi-sïn-ø-ka
+hi=ki antanku-chi-sïn-ø-ka
+I=2SG.OBJ chase-2.APL-HAB-NP-1/2ASS
 I chase you
