@@ -52,7 +52,6 @@ PNG.GEND : PNG.GEND
   * <> *
 
 E.TENSE : E.TENSE
-  fut <> fut
   pst <> pst
   pres <> pres
   * <> *
@@ -70,11 +69,11 @@ E.ASPECT : E.ASPECT
   * <> *
 
 E.MOOD : E.MOOD
-  opt <> opt
+  imp <> imp
   recip <> recip
-  intt <> intt
-  irr <> irr
+  int <> int
+  irrdeon <> irrdeon
   ind <> ind
-  cond <> cond
+  irrepis <> irrepis
   sbjv <> sbjv
   * <> *
