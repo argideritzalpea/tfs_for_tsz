@@ -700,27 +700,28 @@ Source: eng.txt
 Vetted: s
 Judgement: g
 Phenomena: (translate)
-uichu-echa k'ui-xïn-ti
-uichu-echa k'ui-xïn-ti
-dog-PL sleep-HAB-3.ASS
+uichuecha k'uixti
+uichu-echa k'ui-x-ti
+dog-PL sleep-AOR.NP-3.ASS
 Dogs sleep
 
-#71 lab5 - translation #2
+#71 lab5 - translation #2; n.b.: word for chase literally means "running to reach [someone]" - requires infinitival complement. refer to toolbox 4956; also, should we maybe break up car into  motsi -tara -kua : change.location.v -CAUS -NMLZR (see toolbox ref 3776) ?
 Source: eng.txt
 Vetted: s
 Judgement: g
 Phenomena: (translate)
-uichu-echa antanku-xïn-ti motsitaɽakwa-echa-ni
-uichu-echa antanku-xïn-ti motsitaɽakwa-echa-ni
-dog-PL chase-HAB-3.ASS car-PL-OBJ
+uiri -sï -ti antanku -ni
+uichuecha uirisïnti antankuni motsitarhakwechani
+uichu-echa uiri-sïn-ti antanku-ni motsitaɽakwa-echa-ni
+dog-PL run-HAB.NP-3.IND reach-INF car-PL-OBJ
 Dogs chase cars
 
-#72 lab5 - translation #3 (referred to ref 711, 1.1-2)
+#72 lab5 - translation #3 (referred to ref 711, 1.1-2); not sure if O2SG enclitic optional or required- leaving it for now; n.b.: word for chase literally means "walking/running to reach [someone]"
 Source: eng.txt
 Vetted: s
 Judgement: g
 Phenomena: (translate)
-hi=ki antanku-chi-sïn-ø-ka
-hi=ki antanku-chi-sïn-ø-ka
-I=2SG.OBJ chase-2.APL-HAB-NP-1/2ASS
+jikini uirixka antankuni
+ji=kini uiri-x-ka antanku-ni
+I=O2SG run-AOR.NP-3.IND reach-INF
 I chase you
