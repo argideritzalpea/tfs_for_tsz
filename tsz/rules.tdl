@@ -1,6 +1,10 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
 decl-head-opt-subj := decl-head-opt-subj-phrase.
 
+non-event-subj-head := non-event-subj-head-phrase.
+
+non-event-head-subj := non-event-head-subj-phrase.
+
 poss-1-head-initial := poss-phrase-1-head-initial.
 
 poss-1-head-final := poss-phrase-1-head-final.

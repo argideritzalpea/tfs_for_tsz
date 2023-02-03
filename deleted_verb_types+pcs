@@ -1,5 +1,5 @@
-verb-pc(5|20|33|35|4([2-4]|[67])|104|179)\b
-verb(513|622)\b
+verb-pc(5|16|20|21|33|35|4([2-4]|[67])|104|142|149|158|171|179|189|192|193)\b
+verb(18|304|457|478|513|536|622)\b
 
 
 
@@ -15,41 +15,70 @@ to
 
 ==========================
 
-verb513_name=verb513
-  verb513_feat1_name=case
-  verb513_feat1_value=nom
-  verb513_feat1_head=subj
-  verb513_feat2_name=case
-  verb513_feat2_value=acc
-  verb513_feat2_head=obj
-verb513_valence=trans
-  verb513_stem1_orth=peka
-  verb513_stem1_pred=_think_v_rel
-  verb513_stem2_orth=tsʰimi
-  verb513_stem2_pred=_dem_v_rel
-  verb513_stem3_orth=uera
-  verb513_stem3_pred=_cry_v_rel
+Verbs
+  verb304_stem130_orth=niara
+  verb304_stem130_pred=_arrive-or-arrivethere_v_rel
+  verb304_stem137_orth=nya
+  verb304_stem137_pred=_arrive_v_rel
 
-verb622_name=verb622
-  verb622_feat1_name=case
-  verb622_feat1_value=nom
-  verb622_feat1_head=subj
-verb622_valence=intrans
-  verb622_stem1_orth=tsipe
-  verb622_stem1_pred=_life_v_rel
-  verb622_stem2_orth=kʰwi
-  verb622_stem2_pred=_sleep_v_rel
-  verb622_stem3_orth=wekoɽe
-  verb622_stem3_pred=_fall_v_rel
-  verb622_stem4_orth=pʰampska
-  verb622_stem4_pred=_love_v_rel
+  verb457_name=verb457
+  verb457_valence=trans
+    verb457_stem1_orth=nja~
+    verb457_stem1_pred=_arrive_v_rel
 
+  verb478_name=verb478
+  verb478_valence=trans
+    verb478_stem1_orth=p'iku~
+    verb478_stem1_pred=_iter_v_rel
+
+  verb513_name=verb513
+    verb513_feat1_name=case
+    verb513_feat1_value=nom
+    verb513_feat1_head=subj
+    verb513_feat2_name=case
+    verb513_feat2_value=acc
+    verb513_feat2_head=obj
+  verb513_valence=trans
+    verb513_stem1_orth=peka
+    verb513_stem1_pred=_think_v_rel
+    verb513_stem2_orth=tsʰimi
+    verb513_stem2_pred=_dem_v_rel
+    verb513_stem3_orth=uera
+    verb513_stem3_pred=_cry_v_rel
+
+  verb536_name=verb536
+  verb536_valence=trans
+    verb536_stem1_orth=piri~
+    verb536_stem1_pred=_aor_v_rel
+
+  verb622_name=verb622
+    verb622_feat1_name=case
+    verb622_feat1_value=nom
+    verb622_feat1_head=subj
+  verb622_valence=intrans
+    verb622_stem1_orth=tsipe
+    verb622_stem1_pred=_life_v_rel
+    verb622_stem2_orth=kʰwi
+    verb622_stem2_pred=_sleep_v_rel
+    verb622_stem3_orth=wekoɽe
+    verb622_stem3_pred=_fall_v_rel
+    verb622_stem4_orth=pʰampska
+    verb622_stem4_pred=_love_v_rel
+
+Verb PC's
 verb-pc5_name=verb-pc5
 verb-pc5_order=suffix
 verb-pc5_inputs=verb31, verb32, verb176, verb304, verb-pc7, verb-pc62, verb-pc74, verb-pc104
   verb-pc5_lrt1_name=verb-pc5_lrt1
     verb-pc5_lrt1_lri1_inflecting=yes
     verb-pc5_lrt1_lri1_orth==na
+
+verb-pc16_name=verb-pc16
+verb-pc16_order=suffix
+verb-pc16_inputs=verb257, verb-pc15, verb304
+  verb-pc16_lrt1_name=verb-pc16_lrt1
+    verb-pc16_lrt1_lri1_inflecting=yes
+    verb-pc16_lrt1_lri1_orth=-s
 
 verb-pc20_name=verb-pc20
 verb-pc20_order=suffix
@@ -67,6 +96,19 @@ verb-pc20_inputs=verb387, verb-pc10, verb12, verb304
     verb-pc20_lrt2_feat1_head=verb
     verb-pc20_lrt2_lri1_inflecting=yes
     verb-pc20_lrt2_lri1_orth=-n
+
+verb-pc21_name=verb-pc21
+verb-pc21_order=suffix
+verb-pc21_inputs=verb385, verb-pc10, verb21, verb27, verb-pc28, verb-pc30, verb-pc37, verb304, verb750, verb626, verb-pc117
+  verb-pc21_lrt1_name=verb-pc21_lrt1
+    verb-pc21_lrt1_feat1_name=tense
+    verb-pc21_lrt1_feat1_value=past
+    verb-pc21_lrt1_feat1_head=verb
+    verb-pc21_lrt1_lri1_inflecting=yes
+    verb-pc21_lrt1_lri1_orth=-ri
+  verb-pc21_lrt2_name=verb-pc21_lrt2
+    verb-pc21_lrt2_lri1_inflecting=yes
+    verb-pc21_lrt2_lri1_orth=-ri
 
 verb-pc33_name=verb-pc33
 verb-pc33_obligatory=on
@@ -228,6 +270,59 @@ verb-pc122_inputs=verb-pc34, verb-pc10, verb-pc11, verb-pc14, verb-pc20, verb154
     verb-pc122_lrt1_lri1_inflecting=yes
     verb-pc122_lrt1_lri1_orth=-ø
 
+verb-pc142_name=verb-pc142
+verb-pc142_order=suffix
+verb-pc142_inputs=verb-pc131
+  verb-pc142_lrt1_name=verb-pc142_lrt1
+    verb-pc142_lrt1_feat1_name=aspect
+    verb-pc142_lrt1_feat1_value=prog
+    verb-pc142_lrt1_feat1_head=verb
+    verb-pc142_lrt1_lri1_inflecting=yes
+    verb-pc142_lrt1_lri1_orth=-ʃa
+    verb-pc142_lrt1_lri2_inflecting=yes
+    verb-pc142_lrt1_lri2_orth=-xa
+
+verb-pc146_name=verb-pc146
+verb-pc146_order=suffix
+verb-pc146_inputs=verb304, verb536
+  verb-pc146_lrt1_name=verb-pc146_lrt1
+    verb-pc146_lrt1_lri1_inflecting=yes
+    verb-pc146_lrt1_lri1_orth=-sï
+
+
+verb-pc149_name=verb-pc149
+verb-pc149_order=suffix
+verb-pc149_inputs=verb-pc2, verb-pc7, verb304, verb243, verb21, verb-pc25, verb-pc29
+  verb-pc149_lrt1_name=verb-pc149_lrt1
+    verb-pc149_lrt1_lri1_inflecting=yes
+    verb-pc149_lrt1_lri1_orth==chka
+
+verb-pc158_name=verb-pc158
+verb-pc158_order=suffix
+verb-pc158_inputs=verb358, verb750, verb272, verb21
+  verb-pc158_lrt1_name=verb-pc158_lrt1
+    verb-pc158_lrt1_lri1_inflecting=yes
+    verb-pc158_lrt1_lri1_orth=-sku
+
+verb-pc171_name=verb-pc171
+verb-pc171_order=suffix
+verb-pc171_inputs=verb-pc142
+  verb-pc171_lrt1_name=verb-pc171_lrt1
+    verb-pc171_lrt1_lri1_inflecting=yes
+    verb-pc171_lrt1_lri1_orth==na
+  verb-pc171_lrt2_name=verb-pc171_lrt2
+    verb-pc171_lrt2_feat1_name=tense
+    verb-pc171_lrt2_feat1_value=past
+    verb-pc171_lrt2_feat1_head=verb
+    verb-pc171_lrt2_lri1_inflecting=yes
+    verb-pc171_lrt2_lri1_orth=-p
+  verb-pc171_lrt3_name=verb-pc171_lrt3
+    verb-pc171_lrt3_feat1_name=mood
+    verb-pc171_lrt3_feat1_value=int
+    verb-pc171_lrt3_feat1_head=verb
+    verb-pc171_lrt3_lri1_inflecting=yes
+    verb-pc171_lrt3_lri1_orth=-ki
+
 verb-pc172_name=verb-pc172
 verb-pc172_order=suffix
 verb-pc172_inputs=verb60
@@ -236,3 +331,30 @@ verb-pc172_inputs=verb60
     verb-pc172_lrt1_lri1_orth=-ch'a
     verb-pc172_lrt1_lri2_inflecting=yes
     verb-pc172_lrt1_lri2_orth=-echa
+
+verb-pc189_name=verb-pc189
+verb-pc189_order=suffix
+verb-pc189_inputs=verb457
+  verb-pc189_lrt1_name=verb-pc189_lrt1
+    verb-pc189_lrt1_lri1_inflecting=yes
+    verb-pc189_lrt1_lri1_orth=-ntʰa
+
+verb-pc192_name=verb-pc192
+verb-pc192_order=suffix
+verb-pc192_inputs=verb478
+  verb-pc192_lrt1_name=verb-pc192_lrt1
+    verb-pc192_lrt1_feat1_name=aspect
+    verb-pc192_lrt1_feat1_value=pfv
+    verb-pc192_lrt1_feat1_head=verb
+    verb-pc192_lrt1_lri1_inflecting=yes
+    verb-pc192_lrt1_lri1_orth=-nt'a
+
+verb-pc193_name=verb-pc193
+verb-pc193_order=suffix
+verb-pc193_inputs=verb-pc192
+  verb-pc193_lrt1_name=verb-pc193_lrt1
+    verb-pc193_lrt1_feat1_name=tense
+    verb-pc193_lrt1_feat1_value=past
+    verb-pc193_lrt1_feat1_head=verb
+    verb-pc193_lrt1_lri1_inflecting=yes
+    verb-pc193_lrt1_lri1_orth=-sï

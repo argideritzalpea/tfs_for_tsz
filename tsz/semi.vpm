@@ -52,20 +52,20 @@ PNG.GEND : PNG.GEND
   * <> *
 
 E.TENSE : E.TENSE
-  pst <> pst
-  pres <> pres
+  past <> past
+  nonpast <> nonpast
+  tensed <> tensed
+  tenseless <> tenseless
   * <> *
 
 E.ASPECT : E.ASPECT
-  prog <> prog
-  pot <> pot
-  iter <> iter
+  aor <> aor
   hab <> hab
-  mom <> mom
-  pfv <> pfv
+  prog <> prog
   cont <> cont
-  cmpl <> cmpl
-  rel <> rel
+  asp <> asp
+  no-asp <> no-asp
+  iter <> iter
   * <> *
 
 E.MOOD : E.MOOD
@@ -75,5 +75,4 @@ E.MOOD : E.MOOD
   irrdeon <> irrdeon
   ind <> ind
   irrepis <> irrepis
-  sbjv <> sbjv
   * <> *
