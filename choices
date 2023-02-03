@@ -75,6 +75,8 @@ nonpast=on
     mood6_supertype6_name=mood
   mood7_name=sbjv
     mood7_supertype1_name=mood
+  mood8_name=excl
+    mood8_supertype1_name=mood
 
 section=evidentials
 evidential-definition=noevid
