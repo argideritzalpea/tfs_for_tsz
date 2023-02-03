@@ -2,7 +2,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Grammar of Purepecha
 ;;; created at:
-;;;     Fri Feb 03 15:53:51 UTC 2023
+;;;     Fri Feb 03 16:45:23 UTC 2023
 ;;; based on Matrix customization system version of:
 ;;;     Fri 10 Jun 2022 12:58:58 AM UTC
 ;;;
@@ -122,8 +122,8 @@ bottom-coord-phrase :+ [ SYNSEM.LOCAL.CAT [ HEAD.POSSESSOR #possessor,
 person := *top*.
 3rd := person.
 non-3rd := person.
-2nd := non-3rd.
 1st := non-3rd.
+2nd := non-3rd.
 
 ;;; Number
 
@@ -170,13 +170,14 @@ nonpast := tensed.
 
 asp := aspect.
 no-asp := aspect.
-prog := asp.
 iter := aspect.
 hab+aor := asp.
-hab := hab+aor & hab+cont.
-aor := hab+aor.
-hab+cont := asp.
-cont := hab+cont.
+hab := hab+aor & cont+hab.
+aor := hab+aor & aor+prog.
+aor+prog := asp.
+prog := aor+prog.
+cont+hab := asp.
+cont := cont+hab.
 
 ;;; Mood
 
@@ -977,144 +978,144 @@ low-nmz-subjid-compsid-lex-rule := low-nominalization-lex-rule &
 
 ;;; Intermediate rule types
 
-verb-pc165-rule-dtr := word-or-lexrule.
-noun-pc19-rule-dtr := word-or-lexrule.
-verb-pc200-rule-dtr := word-or-lexrule.
-verb-pc64-rule-dtr := word-or-lexrule.
-verb-pc50-rule-dtr := word-or-lexrule.
-verb-pc96-rule-dtr := word-or-lexrule.
-verb-pc77-rule-dtr := word-or-lexrule.
-verb-pc136-rule-dtr := word-or-lexrule.
-verb-pc56-rule-dtr := word-or-lexrule.
-noun-pc60-rule-dtr := word-or-lexrule.
-verb-pc120-rule-dtr := word-or-lexrule.
-verb-pc138-rule-dtr := word-or-lexrule.
-verb-pc116-rule-dtr := word-or-lexrule.
-verb-pc194-rule-dtr := word-or-lexrule.
-noun-pc18-rule-dtr := word-or-lexrule.
-verb-pc80-rule-dtr := word-or-lexrule.
-verb-pc38-rule-dtr := word-or-lexrule.
-noun-pc13-rule-dtr := word-or-lexrule.
-noun-pc88-rule-dtr := word-or-lexrule.
-verb-pc13-rule-dtr := word-or-lexrule.
-noun-pc29-rule-dtr := word-or-lexrule.
-verb-pc94-rule-dtr := word-or-lexrule.
-verb-pc18-rule-dtr := word-or-lexrule.
-verb-pc55-rule-dtr := word-or-lexrule.
-verb-pc117-rule-dtr := word-or-lexrule.
-verb-pc73-rule-dtr := word-or-lexrule.
-verb-pc57-rule-dtr := word-or-lexrule.
-verb-pc131-rule-dtr := word-or-lexrule.
-verb-pc128-rule-dtr := word-or-lexrule.
-noun-pc92-rule-dtr := word-or-lexrule.
-noun-pc27-rule-dtr := word-or-lexrule.
-verb-pc118-rule-dtr := word-or-lexrule.
-verb-pc211-rule-dtr := word-or-lexrule.
-noun-pc38-rule-dtr := word-or-lexrule.
-verb-pc89-rule-dtr := word-or-lexrule.
-verb-pc48-rule-dtr := word-or-lexrule.
-verb-pc25-rule-dtr := word-or-lexrule.
-noun-pc7-rule-dtr := word-or-lexrule.
-verb-pc68-rule-dtr := word-or-lexrule.
-verb-pc58-rule-dtr := word-or-lexrule.
-noun-pc96-rule-dtr := word-or-lexrule.
-verb-pc15-rule-dtr := word-or-lexrule.
-verb-pc135-rule-dtr := word-or-lexrule.
-verb-pc6-rule-dtr := word-or-lexrule.
-verb-pc92-rule-dtr := word-or-lexrule.
-verb-pc65-rule-dtr := word-or-lexrule.
-verb-pc14-rule-dtr := word-or-lexrule.
-verb-pc71-rule-dtr := word-or-lexrule.
-verb-pc160-rule-dtr := word-or-lexrule.
-verb-pc250-rule-dtr := word-or-lexrule.
-noun-pc64-rule-dtr := word-or-lexrule.
-verb-pc67-rule-dtr := word-or-lexrule.
-verb-pc99-rule-dtr := word-or-lexrule.
-verb-pc98-rule-dtr := word-or-lexrule.
-verb-pc102-rule-dtr := word-or-lexrule.
-noun-pc4-rule-dtr := word-or-lexrule.
-verb-pc164-rule-dtr := word-or-lexrule.
-verb-pc27-rule-dtr := word-or-lexrule.
-noun-pc81-rule-dtr := word-or-lexrule.
 verb-pc129-rule-dtr := word-or-lexrule.
-verb-pc2-rule-dtr := word-or-lexrule.
-verb-pc144-rule-dtr := word-or-lexrule.
-verb-pc88-rule-dtr := word-or-lexrule.
-noun-pc94-rule-dtr := word-or-lexrule.
-verb-pc61-rule-dtr := word-or-lexrule.
-voice-rule-dtr := word-or-lexrule.
-verb-pc51-rule-dtr := word-or-lexrule.
-verb-pc109-rule-dtr := word-or-lexrule.
-tam1-rule-dtr := word-or-lexrule.
-noun-pc11-rule-dtr := word-or-lexrule.
-noun-pc59-rule-dtr := word-or-lexrule.
-verb-pc62-rule-dtr := word-or-lexrule.
-verb-pc141-rule-dtr := word-or-lexrule.
-verb-pc30-rule-dtr := word-or-lexrule.
-noun-pc40-rule-dtr := word-or-lexrule.
-verb-pc163-rule-dtr := word-or-lexrule.
-verb-pc37-rule-dtr := word-or-lexrule.
-noun-pc23-rule-dtr := word-or-lexrule.
-verb-pc11-rule-dtr := word-or-lexrule.
-nominalize_kwa-rule-dtr := word-or-lexrule.
-noun-pc57-rule-dtr := word-or-lexrule.
-verb-pc1-rule-dtr := word-or-lexrule.
-noun-pc6-rule-dtr := word-or-lexrule.
-verb-pc124-rule-dtr := word-or-lexrule.
-noun-pc61-rule-dtr := word-or-lexrule.
-noun-pc12-rule-dtr := word-or-lexrule.
-noun-pc95-rule-dtr := word-or-lexrule.
-noun-pc16-rule-dtr := word-or-lexrule.
-verb-pc45-rule-dtr := word-or-lexrule.
-noun-pc91-rule-dtr := word-or-lexrule.
-verb-pc54-rule-dtr := word-or-lexrule.
-verb-pc152-rule-dtr := word-or-lexrule.
+verb-pc18-rule-dtr := word-or-lexrule.
 verb-pc74-rule-dtr := word-or-lexrule.
 verb-pc195-rule-dtr := word-or-lexrule.
-noun-pc75-rule-dtr := word-or-lexrule.
-noun-pc39-rule-dtr := word-or-lexrule.
-verb-pc63-rule-dtr := word-or-lexrule.
-verb-pc93-rule-dtr := word-or-lexrule.
-verb-pc28-rule-dtr := word-or-lexrule.
-verb-pc153-rule-dtr := word-or-lexrule.
-verb-pc101-rule-dtr := word-or-lexrule.
-case-rule-dtr := word-or-lexrule.
-verb-pc91-rule-dtr := word-or-lexrule.
-noun-pc14-rule-dtr := word-or-lexrule.
-verb-pc10-rule-dtr := word-or-lexrule.
-tam2-rule-dtr := word-or-lexrule.
-verb-pc7-rule-dtr := word-or-lexrule.
-noun-pc17-rule-dtr := word-or-lexrule.
+verb-pc11-rule-dtr := word-or-lexrule.
 noun-pc32-rule-dtr := word-or-lexrule.
-verb-pc41-rule-dtr := word-or-lexrule.
+verb-pc94-rule-dtr := word-or-lexrule.
+verb-pc88-rule-dtr := word-or-lexrule.
+verb-pc164-rule-dtr := word-or-lexrule.
+verb-pc10-rule-dtr := word-or-lexrule.
+verb-pc55-rule-dtr := word-or-lexrule.
+verb-pc45-rule-dtr := word-or-lexrule.
+verb-pc102-rule-dtr := word-or-lexrule.
+verb-pc51-rule-dtr := word-or-lexrule.
+verb-pc14-rule-dtr := word-or-lexrule.
+verb-pc57-rule-dtr := word-or-lexrule.
+verb-pc1-rule-dtr := word-or-lexrule.
+verb-pc50-rule-dtr := word-or-lexrule.
+noun-pc95-rule-dtr := word-or-lexrule.
+verb-pc13-rule-dtr := word-or-lexrule.
+verb-pc40-rule-dtr := word-or-lexrule.
+noun-pc40-rule-dtr := word-or-lexrule.
+verb-pc91-rule-dtr := word-or-lexrule.
+noun-pc59-rule-dtr := word-or-lexrule.
+case-rule-dtr := word-or-lexrule.
+verb-pc37-rule-dtr := word-or-lexrule.
+verb-pc27-rule-dtr := word-or-lexrule.
+noun-pc35-rule-dtr := word-or-lexrule.
+verb-pc101-rule-dtr := word-or-lexrule.
+verb-pc7-rule-dtr := word-or-lexrule.
+noun-pc10-rule-dtr := word-or-lexrule.
+verb-pc2-rule-dtr := word-or-lexrule.
+noun-pc23-rule-dtr := word-or-lexrule.
+verb-pc38-rule-dtr := word-or-lexrule.
+noun-pc61-rule-dtr := word-or-lexrule.
+noun-pc6-rule-dtr := word-or-lexrule.
+noun-pc13-rule-dtr := word-or-lexrule.
+verb-pc68-rule-dtr := word-or-lexrule.
+verb-pc106-rule-dtr := word-or-lexrule.
+verb-pc12-rule-dtr := word-or-lexrule.
+verb-pc58-rule-dtr := word-or-lexrule.
+verb-pc92-rule-dtr := word-or-lexrule.
+verb-pc30-rule-dtr := word-or-lexrule.
+verb-pc144-rule-dtr := word-or-lexrule.
+verb-pc71-rule-dtr := word-or-lexrule.
+noun-pc88-rule-dtr := word-or-lexrule.
+verb-pc141-rule-dtr := word-or-lexrule.
+tam2-rule-dtr := word-or-lexrule.
+noun-pc96-rule-dtr := word-or-lexrule.
+verb-pc156-rule-dtr := word-or-lexrule.
+noun-pc75-rule-dtr := word-or-lexrule.
+verb-pc120-rule-dtr := word-or-lexrule.
+verb-pc153-rule-dtr := word-or-lexrule.
+verb-pc67-rule-dtr := word-or-lexrule.
+verb-pc126-rule-dtr := word-or-lexrule.
+verb-pc201-rule-dtr := word-or-lexrule.
+verb-pc34-rule-dtr := word-or-lexrule.
+verb-pc25-rule-dtr := word-or-lexrule.
+verb-pc96-rule-dtr := word-or-lexrule.
+verb-pc54-rule-dtr := word-or-lexrule.
+noun-pc91-rule-dtr := word-or-lexrule.
+verb-pc200-rule-dtr := word-or-lexrule.
+noun-pc12-rule-dtr := word-or-lexrule.
+verb-pc89-rule-dtr := word-or-lexrule.
+noun-pc92-rule-dtr := word-or-lexrule.
+verb-pc99-rule-dtr := word-or-lexrule.
+noun-pc57-rule-dtr := word-or-lexrule.
+verb-pc19-rule-dtr := word-or-lexrule.
+verb-pc211-rule-dtr := word-or-lexrule.
+noun-pc25-rule-dtr := word-or-lexrule.
+noun-pc94-rule-dtr := word-or-lexrule.
+verb-pc131-rule-dtr := word-or-lexrule.
+verb-pc62-rule-dtr := word-or-lexrule.
+verb-pc135-rule-dtr := word-or-lexrule.
+verb-pc80-rule-dtr := word-or-lexrule.
+noun-pc17-rule-dtr := word-or-lexrule.
+verb-pc136-rule-dtr := word-or-lexrule.
+verb-pc65-rule-dtr := word-or-lexrule.
+noun-pc7-rule-dtr := word-or-lexrule.
+tam3-rule-dtr := word-or-lexrule.
+verb-pc56-rule-dtr := word-or-lexrule.
+noun-pc18-rule-dtr := word-or-lexrule.
+verb-pc163-rule-dtr := word-or-lexrule.
+verb-pc6-rule-dtr := word-or-lexrule.
+nominalize_kwa-rule-dtr := word-or-lexrule.
+verb-pc64-rule-dtr := word-or-lexrule.
+verb-pc124-rule-dtr := word-or-lexrule.
+noun-pc29-rule-dtr := word-or-lexrule.
+noun-pc39-rule-dtr := word-or-lexrule.
+noun-pc31-rule-dtr := word-or-lexrule.
+voice-rule-dtr := word-or-lexrule.
+noun-pc60-rule-dtr := word-or-lexrule.
+verb-pc26-rule-dtr := word-or-lexrule.
 verb-pc83-rule-dtr := word-or-lexrule.
+verb-pc95-rule-dtr := word-or-lexrule.
+noun-pc16-rule-dtr := word-or-lexrule.
+verb-pc165-rule-dtr := word-or-lexrule.
+noun-pc81-rule-dtr := word-or-lexrule.
+verb-pc109-rule-dtr := word-or-lexrule.
+noun-pc4-rule-dtr := word-or-lexrule.
+verb-pc152-rule-dtr := word-or-lexrule.
+verb-pc138-rule-dtr := word-or-lexrule.
+noun-pc15-rule-dtr := word-or-lexrule.
+verb-pc73-rule-dtr := word-or-lexrule.
+verb-pc128-rule-dtr := word-or-lexrule.
+verb-pc117-rule-dtr := word-or-lexrule.
+verb-pc85-rule-dtr := word-or-lexrule.
+verb-pc250-rule-dtr := word-or-lexrule.
+verb-pc3-rule-dtr := word-or-lexrule.
+verb-pc112-rule-dtr := word-or-lexrule.
+verb-pc194-rule-dtr := word-or-lexrule.
+noun-pc3-rule-dtr := word-or-lexrule.
+noun-pc80-rule-dtr := word-or-lexrule.
+verb-pc116-rule-dtr := word-or-lexrule.
+verb-pc98-rule-dtr := word-or-lexrule.
+tam1-rule-dtr := word-or-lexrule.
+verb-pc151-rule-dtr := word-or-lexrule.
+verb-pc118-rule-dtr := word-or-lexrule.
+noun-pc11-rule-dtr := word-or-lexrule.
+verb-pc4-rule-dtr := word-or-lexrule.
+verb-pc28-rule-dtr := word-or-lexrule.
+verb-pc29-rule-dtr := word-or-lexrule.
+noun-pc27-rule-dtr := word-or-lexrule.
 verb-pc176-rule-dtr := word-or-lexrule.
 noun-pc2-rule-dtr := word-or-lexrule.
-noun-pc10-rule-dtr := word-or-lexrule.
-verb-pc29-rule-dtr := word-or-lexrule.
-verb-pc151-rule-dtr := word-or-lexrule.
-verb-pc3-rule-dtr := word-or-lexrule.
-verb-pc201-rule-dtr := word-or-lexrule.
-verb-pc126-rule-dtr := word-or-lexrule.
-noun-pc31-rule-dtr := word-or-lexrule.
-verb-pc34-rule-dtr := word-or-lexrule.
-verb-pc4-rule-dtr := word-or-lexrule.
-verb-pc26-rule-dtr := word-or-lexrule.
-verb-pc112-rule-dtr := word-or-lexrule.
-verb-pc95-rule-dtr := word-or-lexrule.
-noun-pc3-rule-dtr := word-or-lexrule.
-noun-pc25-rule-dtr := word-or-lexrule.
-verb-pc106-rule-dtr := word-or-lexrule.
-tam3-rule-dtr := word-or-lexrule.
-noun-pc35-rule-dtr := word-or-lexrule.
-verb-pc12-rule-dtr := word-or-lexrule.
+verb-pc160-rule-dtr := word-or-lexrule.
+verb-pc48-rule-dtr := word-or-lexrule.
 verb-pc86-rule-dtr := word-or-lexrule.
-noun-pc80-rule-dtr := word-or-lexrule.
-verb-pc85-rule-dtr := word-or-lexrule.
-noun-pc15-rule-dtr := word-or-lexrule.
-verb-pc156-rule-dtr := word-or-lexrule.
-verb-pc19-rule-dtr := word-or-lexrule.
-verb-pc40-rule-dtr := word-or-lexrule.
+verb-pc15-rule-dtr := word-or-lexrule.
+verb-pc41-rule-dtr := word-or-lexrule.
+verb-pc63-rule-dtr := word-or-lexrule.
+verb-pc77-rule-dtr := word-or-lexrule.
+verb-pc93-rule-dtr := word-or-lexrule.
+noun-pc14-rule-dtr := word-or-lexrule.
+verb-pc61-rule-dtr := word-or-lexrule.
+noun-pc19-rule-dtr := word-or-lexrule.
+noun-pc64-rule-dtr := word-or-lexrule.
+noun-pc38-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 
@@ -1630,7 +1631,7 @@ tam2-lex-rule-super := add-only-no-ccont-rule & tam3-rule-dtr &
 
 hab-or-cont-past-mc-tam2-lex-rule := past-tam2-lex-rule & tam2-mc-lex-rule &
   [ DTR.INFLECTED.HABITUAL-PAST-FORM-SIREN-FLAG na,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT hab+cont ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT cont+hab ].
 
 hab-past-subord-tam2-lex-rule := past-tam2-lex-rule & tam2-subord-tensed-lex-rule &
   [ DTR.INFLECTED.HABITUAL-PAST-FORM-SIREN-FLAG na,
@@ -1664,7 +1665,7 @@ nonpast-mc-tam2-lex-rule := nonpast-tam2-lex-rule & tam2-mc-lex-rule.
 nonpast-subord-tam2-lex-rule := nonpast-tam2-lex-rule & tam2-subord-tensed-lex-rule.
 
 aor-or-prog-past-mc-tam2-lex-rule := past-tam2-lex-rule & tam2-mc-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT hab+aor ].
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT aor+prog ].
 
 aor-past-subord-tam2-lex-rule := past-tam2-lex-rule & tam2-subord-tensed-lex-rule &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT aor ].
