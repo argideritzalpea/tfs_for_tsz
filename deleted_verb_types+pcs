@@ -1,0 +1,238 @@
+verb-pc(5|20|33|35|4([2-4]|[67])|104|179)\b
+verb(513|622)\b
+
+
+
+
+
+
+==========================
+
+changed verb-pc159_inputs=verb21, verb154, verb304, verb340, verb-pc3, verb-pc7, verb-pc41, verb-pc10, verb-pc138, verb-pc45, verb-pc141
+
+to
+
+
+==========================
+
+verb513_name=verb513
+  verb513_feat1_name=case
+  verb513_feat1_value=nom
+  verb513_feat1_head=subj
+  verb513_feat2_name=case
+  verb513_feat2_value=acc
+  verb513_feat2_head=obj
+verb513_valence=trans
+  verb513_stem1_orth=peka
+  verb513_stem1_pred=_think_v_rel
+  verb513_stem2_orth=tsʰimi
+  verb513_stem2_pred=_dem_v_rel
+  verb513_stem3_orth=uera
+  verb513_stem3_pred=_cry_v_rel
+
+verb622_name=verb622
+  verb622_feat1_name=case
+  verb622_feat1_value=nom
+  verb622_feat1_head=subj
+verb622_valence=intrans
+  verb622_stem1_orth=tsipe
+  verb622_stem1_pred=_life_v_rel
+  verb622_stem2_orth=kʰwi
+  verb622_stem2_pred=_sleep_v_rel
+  verb622_stem3_orth=wekoɽe
+  verb622_stem3_pred=_fall_v_rel
+  verb622_stem4_orth=pʰampska
+  verb622_stem4_pred=_love_v_rel
+
+verb-pc5_name=verb-pc5
+verb-pc5_order=suffix
+verb-pc5_inputs=verb31, verb32, verb176, verb304, verb-pc7, verb-pc62, verb-pc74, verb-pc104
+  verb-pc5_lrt1_name=verb-pc5_lrt1
+    verb-pc5_lrt1_lri1_inflecting=yes
+    verb-pc5_lrt1_lri1_orth==na
+
+verb-pc20_name=verb-pc20
+verb-pc20_order=suffix
+verb-pc20_inputs=verb387, verb-pc10, verb12, verb304
+  verb-pc20_lrt1_name=verb-pc20_lrt1
+    verb-pc20_lrt1_lri1_inflecting=yes
+    verb-pc20_lrt1_lri1_orth=-rani
+    verb-pc20_lrt1_lri2_inflecting=yes
+    verb-pc20_lrt1_lri2_orth=-tspe
+    verb-pc20_lrt1_lri3_inflecting=yes
+    verb-pc20_lrt1_lri3_orth=-tʃi
+  verb-pc20_lrt2_name=verb-pc20_lrt2
+    verb-pc20_lrt2_feat1_name=tense
+    verb-pc20_lrt2_feat1_value=pst
+    verb-pc20_lrt2_feat1_head=verb
+    verb-pc20_lrt2_lri1_inflecting=yes
+    verb-pc20_lrt2_lri1_orth=-n
+
+verb-pc33_name=verb-pc33
+verb-pc33_obligatory=on
+verb-pc33_order=suffix
+verb-pc33_inputs=verb-pc193, verb-pc20, verb-pc15
+  verb-pc33_lrt1_name=verb-pc33_lrt1
+    verb-pc33_lrt1_feat1_name=number
+    verb-pc33_lrt1_feat1_value=pl
+    verb-pc33_lrt1_feat1_head=subj
+    verb-pc33_lrt1_lri1_inflecting=yes
+    verb-pc33_lrt1_lri1_orth=-etʃa
+  verb-pc33_lrt2_name=verb-pc33_lrt2
+    verb-pc33_lrt2_feat1_name=number
+    verb-pc33_lrt2_feat1_value=sg
+    verb-pc33_lrt2_feat1_head=subj
+    verb-pc33_lrt2_lri1_inflecting=no
+  verb-pc33_lrt3_name=verb-pc33_lrt3
+    verb-pc33_lrt3_lri1_inflecting=yes
+    verb-pc33_lrt3_lri1_orth=-p
+
+verb-pc35_name=verb-pc35
+verb-pc35_order=suffix
+verb-pc35_inputs=verb-pc2, verb513, verb257, verb-pc6, verb-pc7, verb-pc18, verb-pc19, verb21, verb-pc28, verb-pc29, verb-pc31, verb-pc171, verb304, verb-pc49, verb-pc88
+  verb-pc35_lrt1_name=verb-pc35_lrt1
+    verb-pc35_lrt1_lri1_inflecting=yes
+    verb-pc35_lrt1_lri1_orth==ni
+    verb-pc35_lrt1_lri2_inflecting=yes
+    verb-pc35_lrt1_lri2_orth==kʃï
+  verb-pc35_lrt2_name=verb-pc35_lrt2
+    verb-pc35_lrt2_feat1_name=person
+    verb-pc35_lrt2_feat1_value=2nd
+    verb-pc35_lrt2_feat1_head=subj
+    verb-pc35_lrt2_feat2_name=number
+    verb-pc35_lrt2_feat2_value=sg
+    verb-pc35_lrt2_feat2_head=subj
+    verb-pc35_lrt2_lri1_inflecting=yes
+    verb-pc35_lrt2_lri1_orth==ri
+  verb-pc35_lrt3_name=verb-pc35_lrt3
+    verb-pc35_lrt3_feat1_name=person
+    verb-pc35_lrt3_feat1_value=3rd
+    verb-pc35_lrt3_feat1_head=subj
+    verb-pc35_lrt3_feat2_name=number
+    verb-pc35_lrt3_feat2_value=pl
+    verb-pc35_lrt3_feat2_head=subj
+    verb-pc35_lrt3_lri1_inflecting=yes
+    verb-pc35_lrt3_lri1_orth==kʃï
+  verb-pc35_lrt4_name=verb-pc35_lrt4
+    verb-pc35_lrt4_feat1_name=person
+    verb-pc35_lrt4_feat1_value=2nd
+    verb-pc35_lrt4_feat1_head=subj
+    verb-pc35_lrt4_lri1_inflecting=no
+    
+verb-pc42_name=verb-pc42
+verb-pc42_obligatory=on
+verb-pc42_order=suffix
+verb-pc42_inputs=verb513, verb42, verb176, verb304, verb-pc20, verb21, verb-pc25, verb-pc28, verb-pc30
+  verb-pc42_lrt1_name=verb-pc42_lrt1
+    verb-pc42_lrt1_feat1_name=person
+    verb-pc42_lrt1_feat1_value=3rd
+    verb-pc42_lrt1_feat1_head=subj
+    verb-pc42_lrt1_feat2_name=number
+    verb-pc42_lrt1_feat2_value=pl
+    verb-pc42_lrt1_feat2_head=subj
+    verb-pc42_lrt1_lri1_inflecting=yes
+    verb-pc42_lrt1_lri1_orth==kxï
+  verb-pc42_lrt2_name=verb-pc42_lrt2
+    verb-pc42_lrt2_feat1_name=person
+    verb-pc42_lrt2_feat1_value=2nd
+    verb-pc42_lrt2_feat1_head=subj
+    verb-pc42_lrt2_lri1_inflecting=no
+  verb-pc42_lrt3_name=verb-pc42_lrt3
+    verb-pc42_lrt3_feat1_name=number
+    verb-pc42_lrt3_feat1_value=sg
+    verb-pc42_lrt3_feat1_head=subj
+    verb-pc42_lrt3_lri1_inflecting=no
+
+
+verb-pc46_name=verb-pc46
+verb-pc46_order=suffix
+verb-pc46_inputs=verb-pc1, verb-pc2, verb-pc195, verb-pc6, verb-pc7, verb-pc10, verb-pc18, verb-pc21, verb-pc25, verb-pc92, verb304, verb-pc56, verb-pc122, verb-pc62
+  verb-pc46_lrt1_name=verb-pc46_lrt1
+    verb-pc46_lrt1_lri1_inflecting=yes
+    verb-pc46_lrt1_lri1_orth==rini
+    verb-pc46_lrt1_lri2_inflecting=yes
+    verb-pc46_lrt1_lri2_orth==kini
+    verb-pc46_lrt1_lri3_inflecting=yes
+    verb-pc46_lrt1_lri3_orth==kʃïni
+    verb-pc46_lrt1_lri4_inflecting=yes
+    verb-pc46_lrt1_lri4_orth==tsʰïni
+  verb-pc46_lrt2_name=verb-pc46_lrt2
+    verb-pc46_lrt2_feat1_name=aspect
+    verb-pc46_lrt2_feat1_value=pfv
+    verb-pc46_lrt2_feat1_head=verb
+    verb-pc46_lrt2_lri1_inflecting=yes
+    verb-pc46_lrt2_lri1_orth=-sï
+  verb-pc46_lrt3_name=verb-pc46_lrt3
+    verb-pc46_lrt3_feat1_name=aspect
+    verb-pc46_lrt3_feat1_value=iter
+    verb-pc46_lrt3_feat1_head=verb
+    verb-pc46_lrt3_lri1_inflecting=yes
+    verb-pc46_lrt3_lri1_orth=-nt'a
+
+
+verb-pc47_name=verb-pc47
+verb-pc47_order=suffix
+verb-pc47_inputs=verb-pc2, verb-pc3, verb-pc67, verb-pc131, verb-pc6, verb-pc7, verb-pc68, verb-pc35, verb-pc74, verb-pc49, verb-pc18, verb-pc152, verb-pc61
+  verb-pc47_lrt1_name=verb-pc47_lrt1
+    verb-pc47_lrt1_feat1_name=person
+    verb-pc47_lrt1_feat1_value=3rd
+    verb-pc47_lrt1_feat1_head=subj
+    verb-pc47_lrt1_feat2_name=number
+    verb-pc47_lrt1_feat2_value=pl
+    verb-pc47_lrt1_feat2_head=subj
+    verb-pc47_lrt1_lri1_inflecting=yes
+    verb-pc47_lrt1_lri1_orth==kxï
+  verb-pc47_lrt2_name=verb-pc47_lrt2
+    verb-pc47_lrt2_lri1_inflecting=yes
+    verb-pc47_lrt2_lri1_orth==a
+
+
+verb-pc49_name=verb-pc49
+verb-pc49_order=suffix
+verb-pc49_inputs=verb257, verb-pc135, verb8, verb-pc16, verb149, verb-pc21, verb-pc29, verb-pc38, verb-pc43, verb176, verb304, verb-pc67, verb-pc195, verb-pc77
+  verb-pc49_lrt1_name=verb-pc49_lrt1
+    verb-pc49_lrt1_lri1_inflecting=yes
+    verb-pc49_lrt1_lri1_orth==e
+
+
+verb-pc60_name=verb-pc60
+verb-pc60_obligatory=on
+verb-pc60_order=suffix
+verb-pc60_inputs=verb-pc67, verb-pc7, verb-pc104, verb-pc43, verb176, verb-pc21, verb-pc54, verb662
+  verb-pc60_lrt1_name=verb-pc60_lrt1
+    verb-pc60_lrt1_feat1_name=number
+    verb-pc60_lrt1_feat1_value=pl
+    verb-pc60_lrt1_feat1_head=subj
+    verb-pc60_lrt1_lri1_inflecting=yes
+    verb-pc60_lrt1_lri1_orth=-echa
+  verb-pc60_lrt2_name=verb-pc60_lrt2
+    verb-pc60_lrt2_feat1_name=number
+    verb-pc60_lrt2_feat1_value=sg
+    verb-pc60_lrt2_feat1_head=subj
+    verb-pc60_lrt2_lri1_inflecting=no
+
+  verb-pc77_lrt4_name=verb-pc77_lrt4
+    verb-pc77_lrt4_feat1_name=person
+    verb-pc77_lrt4_feat1_value=2nd
+    verb-pc77_lrt4_feat1_head=subj
+    verb-pc77_lrt4_feat2_name=number
+    verb-pc77_lrt4_feat2_value=pl
+    verb-pc77_lrt4_feat2_head=subj
+    verb-pc77_lrt4_lri1_inflecting=yes
+    verb-pc77_lrt4_lri1_orth==ts'ï
+
+verb-pc122_name=verb-pc122
+verb-pc122_order=suffix
+verb-pc122_inputs=verb-pc34, verb-pc10, verb-pc11, verb-pc14, verb-pc20, verb154
+  verb-pc122_lrt1_name=verb-pc122_lrt1
+    verb-pc122_lrt1_lri1_inflecting=yes
+    verb-pc122_lrt1_lri1_orth=-ø
+
+verb-pc172_name=verb-pc172
+verb-pc172_order=suffix
+verb-pc172_inputs=verb60
+  verb-pc172_lrt1_name=verb-pc172_lrt1
+    verb-pc172_lrt1_lri1_inflecting=yes
+    verb-pc172_lrt1_lri1_orth=-ch'a
+    verb-pc172_lrt1_lri2_inflecting=yes
+    verb-pc172_lrt1_lri2_orth=-echa
