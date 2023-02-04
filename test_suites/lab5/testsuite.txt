@@ -106,16 +106,87 @@ blood CL.flat-patio-AOR-3.IND
 Context: I found some drops of blood on the patio. Intended:'There are drops of blood lying on the patio'/'There is blood on the patio'
 
 #11
-Source: ref 3291 in tsz_toolbox.txt
+Source: ref 1646 in tsz_toolbox.txt + 60b in Chamorea
 Vetted: s
 Judgment: g
 Phenomena: case
-ama-mpa-mpu
-ama-mpa-mpu
-mother-3.POSS-INSTR
-por su madre
+ni-a-ka ichorita-mpu
+ni-a-ka ichorita-mpu
+go-DEON-1/2ASS canoe-INSTR
+I will go by canoe.
 
 #12
+Source: ref 1646 in tsz_toolbox.txt + 60b in Chamorea
+Vetted: s
+Judgment: g
+Phenomena: case
+ni-a-ka ichorita jimpo
+ni-a-ka ichorita jimpo
+go-DEON-1/2ASS canoe INSTR
+I will go by canoe.
+
+#13
+Source: ref 1646 in tsz_toolbox.txt + 60b in Chamorea
+Vetted: s
+Judgment: u
+Phenomena: case
+ni-a-ka jimpo ichorita
+ni-a-ka jimpo ichorita
+go-DEON-1/2ASS INSTR canoe
+intended : I will go by canoe.
+
+#14
+Source: Abhinav
+Vetted: s
+Judgment: g
+Phenomena: case
+Maria ni-ra-a Pegru-nkuni
+Maria ni-ra-a Pegru-nkuni
+Maria go-FT-IRR.INT Pedro-COM
+Maria will go with Pedro
+
+#15
+Source: Abhinav
+Vetted: s
+Judgment: g
+Phenomena: case
+Maria ni-ra-a Pegru jinkoni
+Maria ni-ra-a Pegru jinkoni
+Maria go-FT-IRR.INT Pedro COM
+Maria will go with Pedro
+
+#16
+Source: Abhinav
+Vetted: s
+Judgment: u
+Phenomena: case
+Maria ni-ra-a jinkoni Pegru
+Maria ni-ra-a jinkoni Pegru
+Maria go-FT-IRR.INT COM Pedro
+intended : Maria will go with Pedro
+
+#17
+Source: 61a in Chamoreau
+Vetted: s
+Judgment: g
+Phenomena: case
+jinte-s-ti wampa Maria-eri
+jinte-s-ti wampa Maria-eri
+be-AOR-ASS3S husband María-GEN
+‘He is Maria’s husband.’
+
+#18
+Source: 61b in Chamoreau
+Vetted: s
+Judgment: g
+Phenomena: case
+nanaka-echa-eri jawiri sesi ja-rha-x-ti
+nanaka-echa-eri jawiri sesi ja-rha-x-ti
+girl-PL-GEN hair well be_there-FT-AOR-ASS3S
+‘The girls’ hair is beautiful.’
+
+
+#19
 Source: ref 3911 in tsz_toolbox.txt, reduced
 Vetted: s
 Judgment: g
@@ -125,7 +196,7 @@ Pegru aɽa-sï-ti
 Pedro eat-AOR-3.IND
 Pedro ate
 
-#13
+#20
 Source: ref 3911 in tsz_toolbox.txt + our own informed judgement
 Vetted: s
 Judgment: u
@@ -135,7 +206,7 @@ Pegru aɽa-sï-ka
 Pedro eat-AOR-1/2.IND
 Pedro ate
 
-#14
+#21
 Source: ref 3362 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
@@ -145,7 +216,7 @@ ekwatsi-i-sï-ti=kʃï
 twenty-PRED-AOR-3.IND=3PL
 It is twenty
 
-#15
+#22
 Source: ref 3467 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
@@ -155,7 +226,7 @@ piri-ʃa-ti
 sing-PROG-3.IND
 He is singing
 
-#16
+#23
 Source: ref 3546 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
@@ -165,7 +236,7 @@ ni-ʃa-ka kʰwiripeta-ni
 cook-PROG-1/2.IND meat-OBJ
 I am cooking the meat
 
-#17
+#24
 Source: ref 3546 in tsz_toolbox.txt  + our own informed judgement
 Vetted: s
 Judgment: u
@@ -175,7 +246,7 @@ ni-ʃa-ti kʰwiripeta-ni
 cook-PROG-3.IND meat-OBJ
 I am cooking the meat
 
-#18
+#25
 Source: ref 3545 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
@@ -185,7 +256,7 @@ waɽi-sï-ti
 die-AOR-3.IND
 He is dead
 
-#19
+#26
 Source: ref 3881 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
@@ -195,7 +266,7 @@ ero-ka-ʃa-ka
 wait-FORM-PROG-1/2.IND
 I/you/we/you(pl.) are waiting
 
-#20
+#27
 Source: ref 3882 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
@@ -205,7 +276,7 @@ ero-ka-ʃa-ti
 wait-FORM-PROG-3.IND
 He/they are waiting
 
-#21
+#28
 Source: ref 3421 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
@@ -215,7 +286,7 @@ hinkonikwa-ti-etʃa tʰire-sïn-ti
 sister-2.POSS-PL eat-HAB-3.IND
 Your sisters eat
 
-#22 - AOR
+#29 - AOR
 Source: toolbox ref 3530 (but with noun because argument optionality not working right now)
 Vetted: s
 Judgment: g
@@ -225,7 +296,7 @@ piri-sï-ti pirikwa-ni
 sing-AOR-3.IND song-OBJ
 [She/he/it] has sung the sung.
 
-#23 - PROG - original: "Jwanu u-xa-ø-ti ma waxantsïkwa" but had to eliminate words due to edge limit (revisit)
+#30 - PROG - original: "Jwanu u-xa-ø-ti ma waxantsïkwa" but had to eliminate words due to edge limit (revisit)
 Source: Dominguez dissertation p. 196, ex. 5.5-13
 Vetted: s
 Judgment: g
@@ -235,7 +306,7 @@ u-xa-ti waʃantsïkwa
 do-PROG-3.IND seat
 [He/she/it] is making a seat/bench (Está haciendo una silla)
 
-#24 - HAB
+#31 - HAB
 Source: toolbox ref 3484 (edited)
 Vetted: s
 Judgment: g
@@ -245,7 +316,7 @@ piri-sïn-ti
 sing-HAB-3.IND
 He sings (habitually, commonly). ('El canta/el tiene la costumbre de cantar')
 
-#25 - CONT
+#32 - CONT
 Source: toolbox ref 3555 (but with subject because argument optionality not working right now)
 Vetted: s
 Judgment: g
@@ -255,7 +326,7 @@ ji piri-ʃam-ka
 1SG sing-CONT-1/2.IND
 I am singing. (about to sing or continuing to sing) (Yo sigo cantando (estoy a punto de cantar y continuo cantando))
 
-#26 - AOR/PAST
+#33 - AOR/PAST
 Source: p. 54 (3.1-5) Dominguez (spelling changed)
 Vetted: s
 Judgment: g
@@ -265,7 +336,7 @@ ero-ka-sï-p-ti
 wait-FORM-PERF-PST-3ASER
 [He/she/it] had waited (for it) ('lo había esperado')
 
-#27 - CONT/NONPST (bipartite)
+#34 - CONT/NONPST (bipartite)
 Source: toolbox ref 3876 (no null morpheme)
 Vetted: s
 Judgment: g
@@ -275,7 +346,7 @@ ero-ka-ʃa-ka=kʃï
 wait-FORM-PROG-1/2.IND=1PL.EX.SBJ
 We are waiting
 
-#28 - CONT/NONPST (bipartite) - order of mood switched with aspect
+#35 - CONT/NONPST (bipartite) - order of mood switched with aspect
 Source: toolbox ref 3876 (no null morpheme)
 Vetted: s
 Judgment: u
@@ -285,7 +356,7 @@ ero-ka-ka-ʃa=kʃï
 wait-FORM-1/2.IND-PROG=1PL.EX.SBJ
 Intended:'We are waiting'
 
-#29 - AOR/PAST
+#36 - AOR/PAST
 Source: toolbox ref 1633
 Vetted: s
 Judgment: g
@@ -295,7 +366,7 @@ ji sesi ireka-sï-p-ka
 1SG good reside-AOR-PST-1/2.IND
 I lived well
 
-#30
+#37
 Source: adapted from Chamoreau 2023 p. 19 ex. 52(b) - trans v + NOM subhect, OBJ (ACC) case object
 Vetted: f
 Judgement: g
@@ -305,7 +376,7 @@ Pegru uantiku-x-ti tsikata-ni
 Pedro kill-AOR-3.IND chicken-OBJ
 "Pedro killed the chicken."
 
-#31
+#38
 Source: adapted from Chamoreau 2023 p. 19 ex. 52(b) - trans v +  OBJ (ACC) case subject and object
 Vetted: f
 Judgement: u
@@ -315,7 +386,7 @@ Pegru-ni uantiku-x-ti tsikata-ni
 Pedro-OBJ kill-AOR-3.IND chicken-OBJ
 Intended: "Pedro killed the chicken.""
 
-#32
+#39
 Source: adapted from Chamoreau 2023 p. 19 ex. 52(b) - trans v + NOM case subject and object
 Vetted: f
 Judgement: u
@@ -325,7 +396,7 @@ Pegru uantiku-x-ti tsikata
 Pedro kill-AOR-3.IND chicken
 Intended: "Pedro killed the chicken."
 
-#33
+#40
 Source: adapted from toolbox 3485 - intrans v + NOM subject
 Vetted: f
 Judgement: g
@@ -335,7 +406,7 @@ Pegru piri-x-ti
 Pedro think-AOR-3.IND
 "Pedro thought."
 
-#34
+#41
 Source: adapted from toolbox 3485 - intrans v + NOM subject
 Vetted: f
 Judgement: u
@@ -345,7 +416,7 @@ Pegru-ni piri-x-ti
 Pedro-OBJ think-AOR-3.IND
 "Pedro thought."
 
-#35
+#42
 Source: ref 3602 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -355,17 +426,17 @@ arhi-sï-ti=ni jucheeti tati
 say-AOR-3.IND=1SG.SBJ 1SG.GEN father
 My dad said to me
 
-#36
+#43
 Source: ref 4294 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: case
-inte hutʃeeti
-inte hutʃeeti
-DEM.SG 1SG.GEN
-My horse is black
+juchiti kawaju kʰeri-sï-ti
+juchiti kawaju kʰeri-sï-ti
+1SG.GEN horse big-AOR-3.IND
+My horse is big
 
-#37
+#44
 Source: ref 4287 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -375,7 +446,7 @@ nompe ueka-sïn-ka-ni
 NEG want-HAB-1/2.IND-OBJ
 I don't want anything
 
-#38
+#45
 Source: ref 4102 in tsz_toolbox
 Vetted: s
 Judgement: g
@@ -385,7 +456,7 @@ hatsi-ku-ø sani-tu itukwa tʃuɽipu
 have-APPL.3O-IMPRTV2 little-DIM salt soup
 'Put a little salt in the soup'  (needs ni after the IO)
 
-#39
+#46
 Source: ref 4102 in tsz_toolbox
 Vetted: s
 Judgement: u
@@ -395,7 +466,7 @@ hatsi-ku-ø sani-tu itukwa tʃuɽipu-ni
 have-APPL.3O-IMPRTV2 little-DIM salt soup-OBJ
 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
 
-#40 Regular genitive adnominal possession (possessum + possesor-GEN)
+#47 Regular genitive adnominal possession (possessum + possesor-GEN)
 Source: Chamoreau 2023 61 (a)
 Vetted: s
 Judgement: g
@@ -405,7 +476,7 @@ jinte-x-ti uampa Maria-eri
 be-AOR-3.IND husband María-GEN
 He is Maria’s husband.
 
-#41 Regular genitive adnominal possession (possesor-GEN + possessum)
+#48 Regular genitive adnominal possession (possesor-GEN + possessum)
 Source: Chamoreau 2023 61 (a) (edited)
 Vetted: f
 Judgement: g
@@ -415,7 +486,7 @@ jinte-x-ti Maria-eri uampa
 be-AOR-3.IND María-GEN husband
 He is Maria’s husband.
 
-#42 Regular genitive adnominal possession (missing genitive)
+#49 Regular genitive adnominal possession (missing genitive)
 Source: Chamoreau 2023 61 (a)
 Vetted: f
 Judgement: u
@@ -425,7 +496,7 @@ jinte-x-ti uampa Maria
 be-AOR-3.IND husband María
 Intended: "He is Maria’s husband."
 
-#43 1SG ("my") adnominal possession
+#50 1SG ("my") adnominal possession
 Source: Chamoreau 2023 64 (e)
 Vetted: s
 Judgement: g
@@ -435,7 +506,7 @@ jupi-ka-x-ti juchi kawayu-ni
 take-FORM-AOR-3.IND 1SG.GEN horse-OBJ
 "He/she took my horse."
 
-#44 1SG ("my") adnominal possession - personal pron. instead of poss. pron
+#51 1SG ("my") adnominal possession - personal pron. instead of poss. pron
 Source: Chamoreau 2023 64 (e) (edited)
 Vetted: f
 Judgement: u
@@ -445,7 +516,7 @@ jupi-ka-x-ti ji kawayu-ni
 take-FORM-AOR-3.IND 1SG horse-OBJ
 Intended: "He/she took my horse."
 
-#45 1SG ("my") adnominal possession - personal pron. + regular GEN suffix instead of poss. pron
+#52 1SG ("my") adnominal possession - personal pron. + regular GEN suffix instead of poss. pron
 Source: Chamoreau 2023 64 (e) (edited)
 Vetted: f
 Judgement: u
@@ -455,7 +526,7 @@ jupi-ka-x-ti ji-eri kawayu-ni
 take-FORM-AOR-3.IND 1SG-GEN horse-OBJ
 Intended: "He/she took my horse."
 
-#46 1PL ("our") adnominal possession
+#53 1PL ("our") adnominal possession
 Source: toolbox ref 6687 (edited)
 Vetted: s
 Judgement: g
@@ -465,7 +536,7 @@ juchaeri sïrankua kani-kua k'e-sï-ti
 1PL.GEN root much-NMLZR big-AOR-3.IND
 "Our roots are profound (very big)."
 
-#47 1PL ("our") adnominal possession - personal pron. instead of poss. pron
+#54 1PL ("our") adnominal possession - personal pron. instead of poss. pron
 Source: toolbox ref 6687 (edited)
 Vetted: f
 Judgement: u
@@ -475,7 +546,7 @@ jucha sïrankua kani-kua k'e-sï-ti
 1PL root much-NMLZR big-AOR-3.IND
 Intended: "Our roots are profound (very big)."
 
-#48 2SG ("your") adnominal possession
+#55 2SG ("your") adnominal possession
 Source: adapted from toolbox ref 3321,3540 (edited)
 Vetted: f
 Judgement: g
@@ -485,7 +556,7 @@ chi kawayu urapi-sï-ti
 2SG.GEN horse white-AOR-3.IND
 "Your horse is white."
 
-#49 2SG ("your") adnominal possession - personal pron. instead of poss. pron
+#56 2SG ("your") adnominal possession - personal pron. instead of poss. pron
 Source: adapted from toolbox ref 3321,3540 (edited)
 Vetted: f
 Judgement: u
@@ -495,7 +566,7 @@ t'u kawayu urapi-sï-ti
 2SG horse white-AOR-3.IND
 Intended: "Your horse is white."
 
-#50 2SG ("your") adnominal possession - personal pron. + regular GEN suffix instead of poss. pron
+#57 2SG ("your") adnominal possession - personal pron. + regular GEN suffix instead of poss. pron
 Source: adapted from toolbox ref 3321,3540 (edited)
 Vetted: f
 Judgement: u
@@ -505,7 +576,7 @@ t'u-eri kawayu urapi-sï-ti
 2SG-GEN horse white-AOR-3.IND
 Intended: "Your horse is white."
 
-#51 2PL ("y'all's"/"vuestro/a") adnominal possession
+#58 2PL ("y'all's"/"vuestro/a") adnominal possession
 Source: adapted from toolbox ref 6641,3540
 Vetted: f
 Judgement: g
@@ -515,7 +586,7 @@ chari kawayu urapi-sï-ti
 2PL.GEN horse white-AOR-3.IND
 "Your (y'all's) horse is white."
 
-#52 2PL ("y'all's"/"vuestro/a") adnominal possession - personal pron. instead of poss. pron
+#59 2PL ("y'all's"/"vuestro/a") adnominal possession - personal pron. instead of poss. pron
 Source: adapted from toolbox ref 6641,3540
 Vetted: f
 Judgement: u
@@ -525,7 +596,7 @@ cha kawayu urapi-sï-ti
 2PL horse white-AOR-3.IND
 Intended: "Your (y'all's) horse is white."
 
-#53 3SG ("his/her.SG") adnominal possession
+#60 3SG ("his/her.SG") adnominal possession
 Source: adapted from toolbox ref 3540
 Vetted: s
 Judgement: g
@@ -535,7 +606,7 @@ ima-eri kawayu urapi-sï-ti
 DEM.SG-GEN horse white-AOR-3.IND
 "His/her horse is white."
 
-#54 3PL ("his/her.PL") adnominal possession
+#61 3PL ("his/her.PL") adnominal possession
 Source: adapted from toolbox ref 3540,3332
 Vetted: s
 Judgement: g
@@ -545,7 +616,7 @@ tsïmi-eri kawayu urapi-sï-ti
 DEM.PL-GEN horse white-AOR-3.IND
 "His/her horse is white."
 
-#55 SUB: 'eska'
+#62 SUB: 'eska'
 Source: adapted from Dominguez dissertation p. 59 (3.1-14a)
 Vetted: s
 Judgement: g
@@ -555,7 +626,7 @@ Pegru ueka-x-ti eska Maria pire-a-ka
 Pedro want-AOR-3.IND SUB Maria sing-IRR.DEONT-SUBJ
 Pedro has wanted Maria to sing [that Maria sings] (ha querido que cante)
 
-#56 SUB: 'eska' - can head a CC of a non-finite verb (original: ueka-s-ø-ka=ni eska=ri pire-a-ka (has -ø for non-past))
+#63 SUB: 'eska' - can head a CC of a non-finite verb (original: ueka-s-ø-ka=ni eska=ri pire-a-ka (has -ø for non-past))
 Source: Dominguez dissertation p. 361 (8.4-23a)
 Vetted: s
 Judgement: g
@@ -565,7 +636,7 @@ arhi-a-ni eska=ksï maiamu-a-pirin-ka
 say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-IRR.EPIS-SBJV
 He told them that he would pay them (les dijo que les pagarían)
 
-#57 SUB: 'eska' - IND mood suffix instead of SBJV
+#64 SUB: 'eska' - IND mood suffix instead of SBJV
 Source: Dominguez dissertation p. 362 (8.4-24b)
 Vetted: s
 Judgement: u
@@ -575,7 +646,7 @@ arhi-a-ni eska=ksï maiamu-a-pirin-ti
 say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-IRR.EPIS-3.IND
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
-#58 SUB: 'eska' - INT mood suffix instead of SBJV
+#65 SUB: 'eska' - INT mood suffix instead of SBJV
 Source: adapted from Dominguez dissertation p. 362 (8.4-24b)
 Vetted: f
 Judgement: u
@@ -585,7 +656,7 @@ arhi-a-ni eska=ksï maiamu-a-pirin-ki
 say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-IRR.EPIS-INT
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
-#59 SUB: 'eska' - IMP.PL mood suffix instead of SBJV
+#66 SUB: 'eska' - IMP.PL mood suffix instead of SBJV
 Source: adapted from Dominguez dissertation p. 362 (8.4-24b)
 Vetted: f
 Judgement: u
@@ -595,7 +666,7 @@ arhi-a-ni eska=ksï maiamu-a-pirin-e
 say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-IRR.EPIS-IMP.PL
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
-#60 SUB: 'eska' - no mood suffix (or IMP.SG - null morpheme) instead of SBJV
+#67 SUB: 'eska' - no mood suffix (or IMP.SG - null morpheme) instead of SBJV
 Source: adapted from Dominguez dissertation p. 362 (8.4-24b)
 Vetted: f
 Judgement: u
@@ -605,7 +676,7 @@ arhi-a-ni eska=ksï maiamu-a-pirin
 say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-IRR.EPIS
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
-#61 SUB: 'eska' - tense-mood reduction in subordinate clauses: AOR.NP -sï -> -ø
+#68 SUB: 'eska' - tense-mood reduction in subordinate clauses: AOR.NP -sï -> -ø
 Source: adapted from toolbox ref 3530
 Vetted: f
 Judgement: g
@@ -615,7 +686,7 @@ arhi-a-ni eska Maria pirikwa-ni piri-ka
 say-3PL.OBJ-INF SUB Maria song-OBJ sing-SBJV
 He says that Maria sings a song.
 
-#62 SUB: 'eska' - tense-aspect reduction in subordinate clauses: AOR.PST -sï-p -> -p
+#69 SUB: 'eska' - tense-aspect reduction in subordinate clauses: AOR.PST -sï-p -> -p
 Source: adapted from toolbox ref 3530
 Vetted: f
 Judgement: g
@@ -625,7 +696,7 @@ arhi-a-ni eska Maria pirikwa-ni piri-p-ka
 say-3PL.OBJ-INF SUB Maria song-OBJ sing-AOR.PST-SBJV
 He says that Maria sang a song.
 
-#63 SUB: 'eska' - T/A reduction in subordinate clauses: PROG is expressed analytically with 'be' AUX + INF, not via -xa, and SBJV takes -k'a form
+#70 SUB: 'eska' - T/A reduction in subordinate clauses: PROG is expressed analytically with 'be' AUX + INF, not via -xa, and SBJV takes -k'a form
 Source: adapted from Dominguez dissertation p. 196, ex. 5.5-13 and toolbox ref 4945
 Vetted: f
 Judgement: g
@@ -635,7 +706,7 @@ arhi-xa-ti eska Maria pirikwa-ni piri-ni ja-k'a
 say-PROG-3.IND SUB Maria song-OBJ sing-INF AUX-SBJV
 "[He/she/it] is saying that Maria is singing a song."
 
-#64 SUB: 'eska' - T/A reduction in subordinate clauses: ungrammatical counterpart of previous test
+#71 SUB: 'eska' - T/A reduction in subordinate clauses: ungrammatical counterpart of previous test
 Source: adapted from Dominguez dissertation p. 196, ex. 5.5-13 and toolbox ref 4945
 Vetted: f
 Judgement: u
@@ -645,7 +716,7 @@ arhi-xa-ti eska Maria pirikwa-ni piri-xa-ka
 say-PROG-3.IND SUB Maria song-OBJ sing-PROG-SBJV
 Intended: "[He/she/it] is saying that Maria is singing a song."
 
-#65 SUB: 'eska' - T/A reduction in subordinate clauses: PROG-PST is expressed analytically with 'be' AUX + INF, not via -xa-p, and SBJV takes -k'a form
+#72 SUB: 'eska' - T/A reduction in subordinate clauses: PROG-PST is expressed analytically with 'be' AUX + INF, not via -xa-p, and SBJV takes -k'a form
 Source: adapted from Dominguez dissertation p. 196, ex. 5.5-13 and toolbox ref 4945
 Vetted: f
 Judgement: g
@@ -655,7 +726,7 @@ arhi-xa-p-ti eska Maria pirikwa-ni piri-ni ja-p-k'a
 do-PROG-PST-3.IND SUB Maria song-OBJ sing-INF AUX-AOR.PST-SBJV
 "[He/she/it] was saying that Maria had been singing a song."
 
-#66 SUB: 'eki'/'eka' - "if"/when"/"while" (adverbial-temporal/condition)
+#73 SUB: 'eki'/'eka' - "if"/when"/"while" (adverbial-temporal/condition)
 Source: adapted from Dominguez dissertation p. 196, ex. 5.5-13 and toolbox ref 4945
 Vetted: f
 Judgement: g
@@ -665,7 +736,7 @@ u-xa-p-ti waʃantsïkwa eki Maria pirikwa-ni piri-ni ja-p-k'a
 do-PROG-PST-3.IND seat SUB Maria song-OBJ sing-INF AUX-AOR.PST-SBJV
 "[He/she/it] was making a seat/bench while Maria was singing a song."
 
-#67 SUB: 'eki'/'eka' - "if"/when"/"while" (adverbial-temporal/condition) (note: uanti+ku?)
+#74 SUB: 'eki'/'eka' - "if"/when"/"while" (adverbial-temporal/condition) (note: uanti+ku?)
 Source: adapted from Chamoreau 2023 p. 19 ex. 52(b)
 Vetted: s
 Judgement: g
@@ -675,7 +746,7 @@ Pegru uantiku-a-ti tsikata-ni eka=ri ju-pirin-ka
 Pedro kill-IRR.DEONT-3.IND chicken-OBJ SUB=S2SG come-IRR.EPIS-SBJV
 "Pedro will slaughter the chicken if you would come."
 
-#68 SUB: 'eki'/'eka' - "if"/when"/"while" (adverbial-temporal/condition)
+#75 SUB: 'eki'/'eka' - "if"/when"/"while" (adverbial-temporal/condition)
 Source: adapted from Dominguez dissertation p. 352, (8.4-8 and 9)
 Vetted: f
 Judgement: g
@@ -685,7 +756,7 @@ ima ju-ra-sï-p-ti eka ue-ka-a-ka
 DEM.SG come-FORM-AOR-PST-3ASER cuando want-FORM-IRR.DEONT-SBJV
 "He came when(ever)/if he wanted." ("el vino cuando quiera/si quiere")
 
-#69 SUB: 'jimpoka' - "because" (adverbial-reason)
+#76 SUB: 'jimpoka' - "because" (adverbial-reason)
 Source: adapted from Chamoreau 2019 p. 4 ex. 4(b)
 Vetted: s
 Judgement: g
@@ -695,7 +766,7 @@ jwata tsakapu k'uani-ku-xa-p-ti jimpoka jinche-p-ka
 hill stone throw-APPL3O-PROG-PST-ASS3S SUB earthquake-AOR.PST-SBJV
 "The hill was throwing stones because the earth trembled."
 
-#70 lab5 - translation #1
+#77 lab5 - translation #1
 Source: eng.txt
 Vetted: s
 Judgement: g
@@ -705,7 +776,7 @@ uichu-echa k'ui-x-ti
 dog-PL sleep-AOR.NP-3.ASS
 Dogs sleep
 
-#71 lab5 - translation #2; n.b.: word for chase literally means "running to reach [someone]" - requires infinitival complement. refer to toolbox 4956; also, should we maybe break up car into  motsi -tara -kua : change.location.v -CAUS -NMLZR (see toolbox ref 3776) ?
+#78 lab5 - translation #2; n.b.: word for chase literally means "running to reach [someone]" - requires infinitival complement. refer to toolbox 4956; also, should we maybe break up car into  motsi -tara -kua : change.location.v -CAUS -NMLZR (see toolbox ref 3776) ?
 Source: eng.txt
 Vetted: s
 Judgement: g
@@ -716,7 +787,7 @@ uichu-echa uiri-sïn-ti anta-ku-ni motsitaɽakwa-echa-ni
 dog-PL run-HAB.NP-3.IND reach-APPL.3O-INF car-PL-OBJ
 Dogs chase cars
 
-#72 lab5 - translation #3 (referred to ref 711, 1.1-2); not sure if O2SG enclitic optional or required- leaving it for now; n.b.: word for chase literally means "walking/running to reach [someone]"
+#79 lab5 - translation #3 (referred to ref 711, 1.1-2); not sure if O2SG enclitic optional or required- leaving it for now; n.b.: word for chase literally means "walking/running to reach [someone]"
 Source: eng.txt
 Vetted: s
 Judgement: g
