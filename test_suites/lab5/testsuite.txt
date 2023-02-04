@@ -781,7 +781,6 @@ Source: eng.txt
 Vetted: s
 Judgement: g
 Phenomena: (translate)
-uiri -sï -ti antanku -ni
 uichuecha uirisïnti antankuni motsitarhakwechani
 uichu-echa uiri-sïn-ti anta-ku-ni motsitaɽakwa-echa-ni
 dog-PL run-HAB.NP-3.IND reach-APPL.3O-INF car-PL-OBJ
