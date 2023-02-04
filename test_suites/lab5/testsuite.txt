@@ -712,8 +712,8 @@ Judgement: g
 Phenomena: (translate)
 uiri -sï -ti antanku -ni
 uichuecha uirisïnti antankuni motsitarhakwechani
-uichu-echa uiri-sïn-ti antanku-ni motsitaɽakwa-echa-ni
-dog-PL run-HAB.NP-3.IND reach-INF car-PL-OBJ
+uichu-echa uiri-sïn-ti anta-ku-ni motsitaɽakwa-echa-ni
+dog-PL run-HAB.NP-3.IND reach-APPL.3O-INF car-PL-OBJ
 Dogs chase cars
 
 #72 lab5 - translation #3 (referred to ref 711, 1.1-2); not sure if O2SG enclitic optional or required- leaving it for now; n.b.: word for chase literally means "walking/running to reach [someone]"
@@ -721,7 +721,7 @@ Source: eng.txt
 Vetted: s
 Judgement: g
 Phenomena: (translate)
-jikini uirixka antankuni
-ji=kini uiri-x-ka antanku-ni
-I=O2SG run-AOR.NP-3.IND reach-INF
+jikini uirixka antanchini
+ji=kini uiri-x-ka anta-chi-ni
+I=O2SG run-AOR.NP-3.IND reach-APPL.2O-INF
 I chase you
