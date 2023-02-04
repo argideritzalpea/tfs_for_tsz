@@ -377,10 +377,6 @@ verb-pc4_lrt1-suffix :=
 %suffix (* -a)
 verb-pc4_lrt1-lex-rule.
 
-verb-pc6_lrt1-suffix :=
-%suffix (* -sï)
-verb-pc6_lrt1-lex-rule.
-
 verb-pc7_lrt1-suffix :=
 %suffix (* -ti)
 verb-pc7_lrt1-lex-rule.
@@ -396,6 +392,34 @@ indicative_non3rd-lex-rule.
 indicative_3rd-suffix :=
 %suffix (* -ti)
 indicative_3rd-lex-rule.
+
+interrogative1-suffix1 :=
+%suffix (* -ki)
+interrogative1-lex-rule.
+
+interrogative1-suffix2 :=
+%suffix (* -i)
+interrogative1-lex-rule.
+
+imperative_pl-suffix1 :=
+%suffix (* -e)
+imperative_pl-lex-rule.
+
+imperative_pl-suffix2 :=
+%suffix (* -je)
+imperative_pl-lex-rule.
+
+imperative_pl-suffix3 :=
+%suffix (* -i)
+imperative_pl-lex-rule.
+
+exclamative-suffix1 :=
+%suffix (* -k'a)
+exclamative-lex-rule.
+
+exclamative-suffix2 :=
+%suffix (* -kʰa)
+exclamative-lex-rule.
 
 verb-pc10_lrt1-suffix :=
 %suffix (* -ku)
@@ -558,12 +582,8 @@ verb-pc56_lrt1-suffix :=
 verb-pc56_lrt1-lex-rule.
 
 verb-pc57_lrt1-suffix :=
-%suffix (* =te)
-verb-pc57_lrt1-lex-rule.
-
-verb-pc57_lrt2-suffix :=
 %suffix (* -pʰi)
-verb-pc57_lrt2-lex-rule.
+verb-pc57_lrt1-lex-rule.
 
 verb-pc58_lrt1-suffix :=
 %suffix (* -s)
@@ -622,12 +642,8 @@ verb-pc73_lrt1-suffix :=
 verb-pc73_lrt1-lex-rule.
 
 verb-pc74_lrt1-suffix :=
-%suffix (* =ti)
-verb-pc74_lrt1-lex-rule.
-
-verb-pc74_lrt2-suffix :=
 %suffix (* -pa)
-verb-pc74_lrt2-lex-rule.
+verb-pc74_lrt1-lex-rule.
 
 verb-pc77_lrt1-suffix1 :=
 %suffix (* -nti)
@@ -676,10 +692,6 @@ verb-pc88_lrt1-lex-rule.
 verb-pc89_lrt1-suffix :=
 %suffix (* -kwaɽe)
 verb-pc89_lrt1-lex-rule.
-
-verb-pc91_lrt1-suffix :=
-%suffix (* -pʰera)
-verb-pc91_lrt1-lex-rule.
 
 verb-pc92_lrt1-suffix :=
 %suffix (* -chi)
@@ -914,12 +926,8 @@ verb-pc153_lrt1-suffix2 :=
 verb-pc153_lrt1-lex-rule.
 
 verb-pc153_lrt2-suffix :=
-%suffix (* -pʰera)
-verb-pc153_lrt2-lex-rule.
-
-verb-pc153_lrt3-suffix :=
 %suffix (* -xa)
-verb-pc153_lrt3-lex-rule.
+verb-pc153_lrt2-lex-rule.
 
 verb-pc156_lrt1-suffix1 :=
 %suffix (* -nhka)
@@ -1072,10 +1080,6 @@ verb-pc209_lrt1-lex-rule.
 verb-pc211_lrt1-suffix :=
 %suffix (* -ka)
 verb-pc211_lrt1-lex-rule.
-
-verb-pc250_imp2nd_lr-prefix :=
-%prefix (* -ø)
-verb-pc250_imp2nd_lr-lex-rule.
 
 v_nom_kwa_lrt1-suffix1 :=
 %suffix (* -kua)

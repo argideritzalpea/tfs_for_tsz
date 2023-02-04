@@ -54,8 +54,8 @@ PNG.GEND : PNG.GEND
 E.TENSE : E.TENSE
   past <> past
   nonpast <> nonpast
-  tensed <> tensed
-  tenseless <> tenseless
+  tense+ <> tense+
+  tense- <> tense-
   * <> *
 
 E.ASPECT : E.ASPECT
@@ -63,16 +63,33 @@ E.ASPECT : E.ASPECT
   hab <> hab
   prog <> prog
   cont <> cont
-  asp <> asp
-  no-asp <> no-asp
+  asp+ <> asp+
+  asp- <> asp-
   iter <> iter
   * <> *
 
 E.MOOD : E.MOOD
-  imp <> imp
-  recip <> recip
-  int <> int
-  irrdeon <> irrdeon
+  ind_irr+ <> ind_irr+
+  ind_irr- <> ind_irr-
   ind <> ind
-  irrepis <> irrepis
+  int_irr+ <> int_irr+
+  int_irr- <> int_irr-
+  int <> int
+  ind+int <> ind+int
+  imp <> imp
+  excl <> excl
+  imp+excl <> imp+excl
+  mood+ <> mood+
+  mood- <> mood-
+  ind_irr+ <> ind_irr+
+  int_irr+ <> int_irr+
+  deon <> deon
+  epis <> epis
+  irr+ <> irr+
+  imp <> imp
+  excl <> excl
+  imp+excl <> imp+excl
+  ind_irr- <> ind_irr-
+  int_irr- <> int_irr-
+  irr- <> irr-
   * <> *

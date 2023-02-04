@@ -1705,10 +1705,6 @@ migeli := noun84-noun-lex &
   [ STEM < "migeli" >,
     SYNSEM.LKEYS.KEYREL.PRED "_miguel_n_rel" ].
 
-mimi_1 := noun84-noun-lex &
-  [ STEM < "mimi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_brother_n_rel" ].
-
 mintsita := noun84-noun-lex &
   [ STEM < "mintsita" >,
     SYNSEM.LKEYS.KEYREL.PRED "_heart_n_rel" ].
@@ -2617,7 +2613,7 @@ kuerata_1 := noun157-noun-lex &
   [ STEM < "kuerata" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lack_n_rel" ].
 
-mimi_2 := noun180-noun-lex &
+mimi_1 := noun180-noun-lex &
   [ STEM < "mimi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_wisdom_n_rel" ].
 
@@ -2705,10 +2701,6 @@ uane := noun233-noun-lex &
   [ STEM < "uane" >,
     SYNSEM.LKEYS.KEYREL.PRED "_many_n_rel" ].
 
-uanta_2 := noun233-noun-lex &
-  [ STEM < "uanta" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_nmlzr_n_rel" ].
-
 xarini := noun233-noun-lex &
   [ STEM < "xarini" >,
     SYNSEM.LKEYS.KEYREL.PRED "_early_n_rel" ].
@@ -2769,17 +2761,9 @@ duenu := noun235-noun-lex &
   [ STEM < "duenu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_owner_n_rel" ].
 
-mimembecha := noun235-noun-lex &
-  [ STEM < "mimembecha" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_none_n_rel" ].
-
-mimenbecha := noun235-noun-lex &
-  [ STEM < "mimenbecha" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_none_n_rel" ].
-
-pirembecha := noun235-noun-lex &
-  [ STEM < "pirembecha" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_none_n_rel" ].
+mimi_2 := noun235-noun-lex &
+  [ STEM < "mimi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_brother_n_rel" ].
 
 primu := noun235-noun-lex &
   [ STEM < "primu" >,
@@ -2801,10 +2785,6 @@ charhapiti := noun235-noun-lex &
   [ STEM < "charhapiti" >,
     SYNSEM.LKEYS.KEYREL.PRED "_red_n_rel" ].
 
-chekeruchani := noun235-noun-lex &
-  [ STEM < "chekeruchani" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_none_n_rel" ].
-
 chencheki := noun235-noun-lex &
   [ STEM < "chencheki" >,
     SYNSEM.LKEYS.KEYREL.PRED "_donkey_n_rel" ].
@@ -2821,21 +2801,13 @@ echeri_2 := noun235-noun-lex &
   [ STEM < "echeri" >,
     SYNSEM.LKEYS.KEYREL.PRED "_earth_n_rel" ].
 
-eranchichani := noun235-noun-lex &
-  [ STEM < "eranchichani" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_none_n_rel" ].
-
 golondrina := noun235-noun-lex &
   [ STEM < "golondrina" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_golondrina_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_sparrow_n_rel" ].
 
 hermanu := noun235-noun-lex &
   [ STEM < "hermanu" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_broth_n_rel" ].
-
-hijuchaksï := noun235-noun-lex &
-  [ STEM < "hijuchaksï" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_none_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_brother_n_rel" ].
 
 k_27uiiusï := noun235-noun-lex &
   [ STEM < "k'uiiusï" >,
@@ -3278,6 +3250,24 @@ imecheri := pl3_pron_gen-noun-lex &
     SYNSEM.LKEYS.KEYREL.PRED "_pron_n_rel" ].
 
 ;;; Adjectives
+
+;;; Case-marking adpositions
+
+ins-marker_jimpo := case-marking-adp-lex &
+  [ STEM < "jimpo" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD [ CASE ins,
+                              CASE-MARKED + ] ] ].
+
+com-marker_jinkoni := case-marking-adp-lex &
+  [ STEM < "jinkoni" >,
+    SYNSEM.LOCAL [ CONT [ HOOK [ ICONS-KEY.IARG1 #clause,
+                                 CLAUSE-KEY #clause ],
+                          ICONS.LIST < > ],
+                   CAT.HEAD [ CASE com,
+                              CASE-MARKED + ] ] ].
 
 ;;; Verbs
 
@@ -3981,7 +3971,7 @@ tʰire_1 := verb21-verb-lex &
   [ STEM < "tʰire" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
-uanta_3 := verb21-verb-lex &
+uanta_2 := verb21-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say-or-speak_v_rel" ].
 
@@ -4577,7 +4567,7 @@ uini_2 := verb27-verb-lex &
   [ STEM < "uini" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fill_v_rel" ].
 
-uanta_4 := verb27-verb-lex &
+uanta_3 := verb27-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_call_v_rel" ].
 
@@ -4857,7 +4847,7 @@ arhi_4 := verb32-verb-lex &
   [ STEM < "arhi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say_v_rel" ].
 
-uanta_5 := verb32-verb-lex &
+uanta_4 := verb32-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say-or-speak_v_rel" ].
 
@@ -4877,7 +4867,7 @@ arhi_5 := verb32-verb-lex &
   [ STEM < "arhi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say_v_rel" ].
 
-uanta_6 := verb32-verb-lex &
+uanta_5 := verb32-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say-or-speak_v_rel" ].
 
@@ -4917,7 +4907,7 @@ teru_2 := verb42-verb-lex &
   [ STEM < "teru" >,
     SYNSEM.LKEYS.KEYREL.PRED "_more_v_rel" ].
 
-uanta_7 := verb42-verb-lex &
+uanta_6 := verb42-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say_v_rel" ].
 
@@ -5233,7 +5223,7 @@ tʰire_3 := verb257-verb-lex &
   [ STEM < "tʰire" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
-uanta_8 := verb257-verb-lex &
+uanta_7 := verb257-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_speak_v_rel" ].
 
@@ -6021,7 +6011,7 @@ tsiti_1 := verb304-verb-lex &
   [ STEM < "tsiti" >,
     SYNSEM.LKEYS.KEYREL.PRED "_like_v_rel" ].
 
-uanta_9 := verb304-verb-lex &
+uanta_8 := verb304-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_speak_v_rel" ].
 
@@ -6325,7 +6315,7 @@ kuaka := verb352-verb-lex &
   [ STEM < "kuaka" >,
     SYNSEM.LKEYS.KEYREL.PRED "_get.wet_v_rel" ].
 
-uanta_10 := verb352-verb-lex &
+uanta_9 := verb352-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_talk_v_rel" ].
 
@@ -6757,7 +6747,7 @@ tʰire_5 := verb620-verb-lex &
   [ STEM < "tʰire" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
-uanta_11 := verb620-verb-lex &
+uanta_10 := verb620-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_speak_v_rel" ].
 
@@ -6833,7 +6823,7 @@ ketsi_2 := verb621-verb-lex &
   [ STEM < "ketsi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_descend_v_rel" ].
 
-uanta_12 := verb621-verb-lex &
+uanta_11 := verb621-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_talk_v_rel" ].
 
@@ -7084,6 +7074,18 @@ ka1 := conj-lex &
   [ STEM < "ka" >,
     SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
     CFORM "1" ].
+
+jimpoka := --because-clause-init-adv-subord-lex-item &
+  [ STEM < "jimpoka" > ].
+
+jimpoki := --because-clause-init-adv-subord-lex-item &
+  [ STEM < "jimpoki" > ].
+
+eka := --if-or-when-or-while-clause-init-adv-subord-lex-item &
+  [ STEM < "eka" > ].
+
+eki := --if-or-when-or-while-clause-init-adv-subord-lex-item &
+  [ STEM < "eki" > ].
 
 ;;; Complementizers
 

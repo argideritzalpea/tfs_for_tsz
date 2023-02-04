@@ -1,6 +1,52 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
 ;;; Semantically Empty Lexical Entries
 
+ins-marker_jimpo_gr_1 := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG1 individual & #i ] >,
+    FLAGS [ SUBSUME < #i >,
+            TRIGGER "ins-marker_jimpo" ] ].
+
+ins-marker_jimpo_gr_2 := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG2 individual & #i ] >,
+    FLAGS [ SUBSUME < #i >,
+            TRIGGER "ins-marker_jimpo" ] ].
+
+ins-marker_jimpo_gr_3 := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG3 individual & #i ] >,
+    FLAGS [ SUBSUME < #i >,
+            TRIGGER "ins-marker_jimpo" ] ].
+
+com-marker_jinkoni_gr_1 := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG1 individual & #i ] >,
+    FLAGS [ SUBSUME < #i >,
+            TRIGGER "com-marker_jinkoni" ] ].
+
+com-marker_jinkoni_gr_2 := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG2 individual & #i ] >,
+    FLAGS [ SUBSUME < #i >,
+            TRIGGER "com-marker_jinkoni" ] ].
+
+com-marker_jinkoni_gr_3 := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG3 individual & #i ] >,
+    FLAGS [ SUBSUME < #i >,
+            TRIGGER "com-marker_jinkoni" ] ].
+
 _3Dni_gr := arg0e_gtr &
   [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
     FLAGS.TRIGGER "_3Dni" ].
+
+jimpoka_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "_because_subord_rel" ] >,
+    FLAGS.TRIGGER "jimpoka" ].
+
+jimpoki_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "_because_subord_rel" ] >,
+    FLAGS.TRIGGER "jimpoki" ].
+
+eka_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "_if-or-when-or-while_subord_rel" ] >,
+    FLAGS.TRIGGER "eka" ].
+
+eki_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "_if-or-when-or-while_subord_rel" ] >,
+    FLAGS.TRIGGER "eki" ].

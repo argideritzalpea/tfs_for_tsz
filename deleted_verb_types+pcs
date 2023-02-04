@@ -1,4 +1,4 @@
-verb-pc(5|6|16|20|21|33|35|4([2-4]|[67])|104|142|149|158|171|179|189|192|193)\b
+verb-pc(5|6|16|20|21|33|35|4([2-4]|[67])|91|104|142|149|158|171|179|189|192|193)\b
 verb(18|304|457|478|513|536|622)\b
 
 22 PC's
@@ -279,6 +279,16 @@ Verb PC's
       verb-pc77_lrt4_lri1_inflecting=yes
       verb-pc77_lrt4_lri1_orth==ts'ï
 
+  verb-pc91_name=verb-pc91
+  verb-pc91_order=suffix
+  verb-pc91_inputs=verb163, verb362, verb-pc203, verb304, verb-pc188, verb157
+    verb-pc91_lrt1_name=verb-pc91_lrt1
+      verb-pc91_lrt1_feat1_name=mood
+      verb-pc91_lrt1_feat1_value=recip
+      verb-pc91_lrt1_feat1_head=verb
+      verb-pc91_lrt1_lri1_inflecting=yes
+      verb-pc91_lrt1_lri1_orth=-pʰera
+  
   verb-pc122_name=verb-pc122
   verb-pc122_order=suffix
   verb-pc122_inputs=verb-pc34, verb-pc10, verb-pc11, verb-pc14, verb-pc20, verb154

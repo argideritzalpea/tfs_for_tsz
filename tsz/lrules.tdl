@@ -1,6 +1,12 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
 case_nom-lex := case_nom-lex-rule.
 
+case-synth-adp-lex := case-synth-adp-lex-rule.
+
+imperative_sg-lex := imperative_sg-lex-rule.
+
+interrogative2-lex := interrogative2-lex-rule.
+
 tam2-no-asp-tense-lex := tam2-no-asp-tense-lex-rule.
 
 nonpast-mc-tam2-lex := nonpast-mc-tam2-lex-rule.
@@ -10,8 +16,6 @@ nonpast-subord-tam2-lex := nonpast-subord-tam2-lex-rule.
 verb-pc77_lrt5-lex := verb-pc77_lrt5-lex-rule.
 
 verb-pc116_lrt3-lex := verb-pc116_lrt3-lex-rule.
-
-tam1-no-asp-tense-lex := tam1-no-asp-tense-lex-rule.
 
 aorist-subord-lex := aorist-subord-lex-rule.
 

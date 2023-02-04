@@ -32,3 +32,13 @@ vp1-bottom-coord := vp1-bottom-coord-rule.
 vp2-top-coord := vp2-top-coord-rule.
 
 vp2-bottom-coord := vp2-bottom-coord-rule.
+
+adj-head-scop := adj-head-scop-phrase.
+
+head-adj-scop := head-adj-scop-phrase.
+
+adj-head-int := adj-head-int-phrase.
+
+because-modifying-clause := because-modifying-clause-phrase.
+
+if-or-when-or-while-modifying-clause := if-or-when-or-while-modifying-clause-phrase.
