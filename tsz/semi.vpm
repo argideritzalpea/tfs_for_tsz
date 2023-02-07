@@ -37,28 +37,28 @@ COG-ST : COG-ST
   * <> *
 
 
-PNG.PER : PNG.PER
+PNG.PER : PER
   3rd <> 3rd
   2nd <> 2nd
   1st <> 1st
   * <> *
 
-PNG.NUM : PNG.NUM
+PNG.NUM : NUM
   sg <> sg
   pl <> pl
   * <> *
 
-PNG.GEND : PNG.GEND
+PNG.GEND : GEND
   * <> *
 
-E.TENSE : E.TENSE
+E.TENSE : TENSE
   past <> past
   nonpast <> nonpast
   tense+ <> tense+
   tense- <> tense-
   * <> *
 
-E.ASPECT : E.ASPECT
+E.ASPECT : ASPECT
   aor <> aor
   hab <> hab
   prog <> prog
@@ -68,7 +68,7 @@ E.ASPECT : E.ASPECT
   iter <> iter
   * <> *
 
-E.MOOD : E.MOOD
+E.MOOD : MOOD
   ind_irr+ <> ind_irr+
   ind_irr- <> ind_irr-
   ind <> ind
