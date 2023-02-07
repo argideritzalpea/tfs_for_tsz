@@ -772,8 +772,8 @@ Vetted: s
 Judgement: g
 Phenomena: (translate)
 uichuecha k'uixti
-uichu-echa k'ui-xam-ti
-dog-PL sleep-CONT.NP-3.ASS
+uichu-echa k'ui-x-ti
+dog-PL sleep-AOR.NP-3.ASS
 Dogs sleep
 
 #78 lab5 - translation #2; n.b.: word for chase literally means "running to reach [someone]" - requires infinitival complement. refer to toolbox 4956; also, should we maybe break up car into  motsi -tara -kua : change.location.v -CAUS -NMLZR (see toolbox ref 3776) ?
@@ -782,8 +782,8 @@ Vetted: s
 Judgement: g
 Phenomena: (translate)
 uichuecha uirisïnti antankuni motsitarhakwechani
-uichu-echa uiri-xam-ti anta-ku-ni motsitaɽakwa-echa-ni
-dog-PL run-CONT.NP-3.IND reach-APPL.3O-INF car-PL-OBJ
+uichu-echa uiri-sïn-ti anta-ku-ni motsitaɽakwa-echa-ni
+dog-PL run-HAB.NP-3.IND reach-APPL.3O-INF car-PL-OBJ
 Dogs chase cars
 
 #79 lab5 - translation #3 (referred to ref 711, 1.1-2); not sure if O2SG enclitic optional or required- leaving it for now; n.b.: word for chase literally means "walking/running to reach [someone]" (Continuative aspect? See 3.2.1.1 Cham)
@@ -792,8 +792,8 @@ Vetted: s
 Judgement: g
 Phenomena: (translate)
 jikini uirixka antanchini
-ji=kini uiri-xam-ka anta-chi-ni
-I=O2SG run-CONT.NP-3.IND reach-APPL.2O-INF
+ji=kini uiri-x-ka anta-chi-ni
+I=O2SG run-AOR.NP-3.IND reach-APPL.2O-INF
 I chase you
 
 #80 lab6 - translation #18 - DRAFT
@@ -802,8 +802,8 @@ Vetted: s
 Judgement: g
 Phenomena: (translate - possession)
 uichueri motsitaɽakwa k'uixti
-uichu-eri motsitaɽakwa k'ui-xam-ti
-dog-GEN car sleep-CONT.NP-3.ASS
+uichu-eri motsitaɽakwa k'ui-x-ti
+dog-GEN car sleep-AOR.NP-3.ASS
 The dog s car sleeps
 
 #81 lab6 - translation #19 - DRAFT
@@ -812,8 +812,8 @@ Vetted: s
 Judgement: g
 Phenomena: (translate - possession)
 juchi uichuecha k'uixti
-juchi uichu-echa k'ui-xam-ti
-1SG.GEN dog-PL sleep-CONT.NP-3.ASS
+juchi uichu-echa k'ui-x-ti
+1SG.GEN dog-PL sleep-AOR.NP-3.ASS
 My dogs sleep
 
 #82 lab6 - translation #6 - DRAFT
@@ -821,7 +821,7 @@ Source: eng.txt
 Vetted: s
 Judgement: g
 Phenomena: (translate - clausal complemens)
-ji eratsixamka eskiri mitixka eska uichuecha uirixïnka antakuni motsitaɽakwaechani
-ji eratsi-xam-ka eski=ri miti-x-ka eska uichu-echa uiri-xïn-ka anta-ku-ni motsitaɽakwa-echa-ni
-S1SG think-CONT.NP-1/2ASS SUB=S2SG know-AOR-SUBJ SUB dog-PL run-HAB.NP-SUBJ reach-APPL.3O-INF car-PL-OBJ
+ji eratsixka eskiri mitixka eska uichuecha uirixïnka antakuni motsitaɽakwaechani
+ji eratsi-x-ka eski=ri miti-x-ka eska uichu-echa uiri-xïn-ka anta-ku-ni motsitaɽakwa-echa-ni
+S1SG think-AOR.NP-1/2ASS SUB=S2SG know-AOR-SUBJ SUB dog-PL run-HAB.NP-SUBJ reach-APPL.3O-INF car-PL-OBJ
 I think that you know that dogs chase cars
