@@ -56,7 +56,8 @@ E.TENSE : TENSE
   nonpast <> nonpast
   tense+ <> tense+
   tense- <> tense-
-  * <> *
+  * >> nonpast
+  nonpast << [e]
 
 E.ASPECT : ASPECT
   aor <> aor
@@ -66,7 +67,8 @@ E.ASPECT : ASPECT
   asp+ <> asp+
   asp- <> asp-
   iter <> iter
-  * <> *
+  * >> no-aspect
+  no-aspect << [e]
 
 E.MOOD : MOOD
   ind_irr+ <> ind_irr+
