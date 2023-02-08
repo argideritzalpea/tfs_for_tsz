@@ -21,6 +21,6 @@ tam2-nonpast-mc-tam2-lex := tam2-nonpast-mc-tam2-lex-rule.
 
 tam2-nonpast-subord-lex := tam2-nonpast-subord-lex-rule.
 
-tam3-imperative_sg-lex := tam3-imperative_sg-lex-rule.
+tam3-interrogative_-zero-lex := tam3-interrogative_-zero-lex-rule.
 
-tam3-interrogative2-lex := tam3-interrogative2-lex-rule.
+tam3-imperative_sg-lex := tam3-imperative_sg-lex-rule.

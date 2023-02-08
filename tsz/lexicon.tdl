@@ -3247,23 +3247,23 @@ com-marker_jinkoni := case-marking-adp-lex &
 
 ;;; Verbs
 
-ero_2 := -ka-bistem-itv-verb-lex &
+ero_2 := intrans_bipart-stem_form-ka-verb-lex &
   [ STEM < "ero" >,
     SYNSEM.LKEYS.KEYREL.PRED "_wait_v_rel" ].
 
-tepa := -ka-bistem-itv-verb-lex &
+tepa := intrans_bipart-stem_form-ka-verb-lex &
   [ STEM < "tepa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_wide_v_rel" ].
 
-waʃa := -ka-bistem-itv-verb-lex &
+waʃa := intrans_bipart-stem_form-ka-verb-lex &
   [ STEM < "waʃa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sit_v_rel" ].
 
-uaxa := -ka-bistem-itv-verb-lex &
+uaxa := intrans_bipart-stem_form-ka-verb-lex &
   [ STEM < "uaxa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sit_v_rel" ].
 
-ue_2 := -ka-bistem-tv-verb-lex &
+ue_2 := trans_bipart-stem_form-ka-verb-lex &
   [ STEM < "ue" >,
     SYNSEM.LKEYS.KEYREL.PRED "_want_v_rel" ].
 
@@ -4722,10 +4722,6 @@ arhi_5 := verb32-verb-lex &
 uanta_5 := verb32-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say-or-speak_v_rel" ].
-
-aianku_4 := verb32-verb-lex &
-  [ STEM < "aianku" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_inform_v_rel" ].
 
 anti_2 := verb42-verb-lex &
   [ STEM < "anti" >,

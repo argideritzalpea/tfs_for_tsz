@@ -2,7 +2,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Grammar of Purepecha
 ;;; created at:
-;;;     Tue Feb 07 23:16:33 UTC 2023
+;;;     Wed Feb 08 21:22:59 UTC 2023
 ;;; based on Matrix customization system version of:
 ;;;     unknown time
 ;;;
@@ -47,27 +47,25 @@ unary-bottom-coord-rule :+ [ SYNSEM [ LOCAL.CAT.HEAD.NMZ #nmz,
     ARGS < [ SYNSEM [ LOCAL.CAT.HEAD.NMZ #nmz,
                       SUBORDINATED #subord ] ] > ].
 
-inflected :+ [ CASE-OR-TAM3-FLAG luk,
-    TAM1-HABITUAL-PAST-FORM_SIREN-FLAG luk,
-    TAM3-FLAG luk,
-    NOUN-NUMBER-OR-V-3PL-OBJ-FLAG luk,
+inflected :+ [ TAM1-HABITUAL-PAST-FORM_SIREN-FLAG luk,
     CASE-FLAG luk,
+    INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG luk,
+    TAM3-FLAG luk,
     NOUN-NUMBER-FLAG luk,
-    BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG luk,
     V-STEM-FLAG luk,
-    -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG luk,
-    V-3PL-OBJ-FLAG luk ].
+    NOUN-NUMBER-OR-V-3PL-OBJ-FLAG luk,
+    V-3PL-OBJ-FLAG luk,
+    CASE-OR-TAM3-FLAG luk ].
 
-infl-satisfied :+ [ CASE-OR-TAM3-FLAG na-or-+,
-    TAM1-HABITUAL-PAST-FORM_SIREN-FLAG na-or-+,
-    TAM3-FLAG na-or-+,
-    NOUN-NUMBER-OR-V-3PL-OBJ-FLAG na-or-+,
+infl-satisfied :+ [ TAM1-HABITUAL-PAST-FORM_SIREN-FLAG na-or-+,
     CASE-FLAG na-or-+,
+    INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-+,
+    TAM3-FLAG na-or-+,
     NOUN-NUMBER-FLAG na-or-+,
-    BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG na-or-+,
     V-STEM-FLAG na-or-+,
-    -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-+,
-    V-3PL-OBJ-FLAG na-or-+ ].
+    NOUN-NUMBER-OR-V-3PL-OBJ-FLAG na-or-+,
+    V-3PL-OBJ-FLAG na-or-+,
+    CASE-OR-TAM3-FLAG na-or-+ ].
 
 png :+ [ PER person,
     NUM number ].
@@ -233,12 +231,13 @@ asp+ := aspect.
 asp- := aspect.
 iter := aspect.
 hab+aor := asp+.
-hab := hab+aor & hab+cont.
+hab := hab+aor & cont+hab.
 aor := hab+aor & prog+aor.
-prog+aor := asp+.
 prog := prog+aor.
-hab+cont := asp+.
-cont := hab+cont.
+cont+hab := asp+.
+cont := cont+hab & cont+prog+aor.
+cont+prog+aor := asp+.
+prog+aor := cont+prog+aor.
 
 ;;; Mood
 
@@ -246,18 +245,22 @@ mood+ := mood.
 mood- := mood.
 irr+ := mood.
 irr- := mood.
+mood+_irr+ := mood+ & irr+.
+mood+_irr- := mood+ & irr-.
 ind+int := mood+.
-imp+excl := mood+ & irr-.
+imp+excl := mood+_irr-.
 ind := ind+int.
 int := ind+int.
 imp := imp+excl.
 excl := imp+excl.
-ind_irr+ := ind & irr+.
-ind_irr- := ind & irr-.
-int_irr+ := int & irr+.
-int_irr- := int & irr-.
 deon := irr+.
 epis := irr+.
+ind_deon := ind & deon.
+ind_epis := ind & epis.
+ind_irr- := ind & irr-.
+int_deon := int & deon.
+int_epis := int & epis.
+int_irr- := int & irr-.
 
 ;;;;;;;;;;;;;;;;;;;
 ;;; Lexical Types
@@ -693,7 +696,7 @@ main-verb-lex := verb-lex & basic-verb-lex & basic-non-wh-word-lex &
 aux-lex := verb-lex & basic-icons-lex-item &
   [ SYNSEM [ LOCAL.CAT.HEAD.AUX +,
              L-QUE - ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 intransitive-verb-lex := main-verb-lex & intransitive-lex-item &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS < >,
@@ -709,8 +712,7 @@ transitive-verb-lex := main-verb-lex & transitive-lex-item &
                          [ VAL [ SPR < >,
                                  COMPS < > ],
                            HEAD +np &
-                                [ CASE real-case ] ] ] >,
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+                                [ CASE real-case ] ] ] > ].
 
 clausal-verb-lex := main-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
@@ -739,23 +741,16 @@ clausal-nom-verb-lex := clausal-verb-lex &
                                 [ CASE nom ],
     SYNSEM.LOCAL.CAT.VAL.SUBJ < [ LOCAL.CAT.HEAD.CASE-MARKED + ] > ].
 
-bistem_nom_itv-verb-lex := nom-intransitive-verb-lex &
-  [ INFLECTED [ BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG +,
-                -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ] ].
+intrans_bipart-stem_form-ka-verb-lex := nom-intransitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG + ].
 
-bistem_nom-acc_tv-verb-lex := nom-acc-transitive-verb-lex &
-  [ INFLECTED.BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG + ].
-
--ka-bistem-itv-verb-lex := bistem_nom_itv-verb-lex &
-  [ INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG + ].
-
--ka-bistem-tv-verb-lex := bistem_nom-acc_tv-verb-lex &
-  [ INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG + ].
+trans_bipart-stem_form-ka-verb-lex := nom-acc-transitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG + ].
 
 verb7-verb-lex := intransitive-verb-lex & verb-pc29-rule-dtr & verb-pc38-rule-dtr & verb-pc71-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb8-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
@@ -763,38 +758,42 @@ verb8-verb-lex := transitive-verb-lex &
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
                                                         CASE-MARKED + ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
+                CASE-FLAG -,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ] ].
 
 verb9-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb12-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb21-verb-lex := intransitive-verb-lex & verb-pc112-rule-dtr & verb-pc120-or-verb-pc55-rule-dtr & verb-pc128-rule-dtr & verb-pc29-rule-dtr & verb-pc38-rule-dtr & verb-pc71-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr & verb-pc96-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb27-verb-lex := transitive-verb-lex & verb-pc38-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb31-verb-lex := transitive-verb-lex & verb-pc101-rule-dtr & verb-pc156-rule-dtr & verb-pc29-rule-dtr & verb-pc38-rule-dtr & verb-pc54-rule-dtr & verb-pc71-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr & verb-pc96-rule-dtr & verb-pc98-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb32-verb-lex := clausal-nom-verb-lex & verb-pc101-rule-dtr & verb-pc156-rule-dtr & verb-pc29-rule-dtr & verb-pc38-rule-dtr & verb-pc54-rule-dtr & verb-pc71-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr & verb-pc96-rule-dtr & verb-pc98-rule-dtr & clausal-second-arg-trans-lex-item &
-  [ INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or--,
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or--,
     SYNSEM [ LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                          CASE-MARKED + ],
                              COMPS < [ LOCAL [ CAT [ HEAD comp &
@@ -808,25 +807,28 @@ verb42-verb-lex := transitive-verb-lex & verb-pc160-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb60-verb-lex := transitive-verb-lex & verb-pc156-rule-dtr & verb-pc29-rule-dtr & verb-pc38-rule-dtr & verb-pc71-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
-verb75-verb-lex := transitive-verb-lex.
+verb75-verb-lex := transitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb102-verb-lex := intransitive-verb-lex & verb-pc101-rule-dtr & verb-pc156-rule-dtr & verb-pc29-rule-dtr & verb-pc38-rule-dtr & verb-pc71-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr & verb-pc98-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb105-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb124-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
@@ -834,135 +836,151 @@ verb124-verb-lex := transitive-verb-lex &
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
                                                         CASE-MARKED + ] ],
     INFLECTED [ V-3PL-OBJ-FLAG -,
-                TAM3-FLAG - ] ].
+                TAM3-FLAG -,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ] ].
 
 verb126-verb-lex := transitive-verb-lex &
   [ INFLECTED [ V-3PL-OBJ-FLAG -,
-                TAM3-FLAG - ] ].
+                TAM3-FLAG -,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ] ].
 
 verb149-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb154-verb-lex := transitive-verb-lex & verb-pc128-rule-dtr & verb-pc29-rule-dtr & verb-pc38-rule-dtr & verb-pc71-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb157-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb159-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb163-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb167-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb176-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb183-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb229-verb-lex := intransitive-verb-lex & verb-pc38-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb243-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
-verb252-verb-lex := transitive-verb-lex.
+verb252-verb-lex := transitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb257-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb272-verb-lex := intransitive-verb-lex & verb-pc128-rule-dtr & verb-pc156-rule-dtr & verb-pc29-rule-dtr & verb-pc38-rule-dtr & verb-pc71-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr & verb-pc98-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb282-verb-lex := transitive-verb-lex & verb-pc73-rule-dtr & verb-pc89-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb286-verb-lex := intransitive-verb-lex & verb-pc176-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb304-verb-lex := transitive-verb-lex & verb-pc120-or-verb-pc55-rule-dtr & verb-pc128-rule-dtr & verb-pc136-rule-dtr & verb-pc156-rule-dtr & verb-pc29-rule-dtr & verb-pc38-rule-dtr & verb-pc54-rule-dtr & verb-pc71-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr & verb-pc96-rule-dtr & verb-pc98-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
-verb310-verb-lex := transitive-verb-lex & verb-pc160-rule-dtr.
+verb310-verb-lex := transitive-verb-lex & verb-pc160-rule-dtr &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb312-verb-lex := intransitive-verb-lex & verb-pc156-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb317-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb340-verb-lex := transitive-verb-lex &
   [ INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
+                CASE-FLAG -,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ] ].
 
 verb352-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb358-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb362-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb373-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb385-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
@@ -970,102 +988,118 @@ verb385-verb-lex := transitive-verb-lex &
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
                                                         CASE-MARKED + ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
+                CASE-FLAG -,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ] ].
 
-verb386-verb-lex := transitive-verb-lex.
+verb386-verb-lex := transitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
-verb387-verb-lex := transitive-verb-lex.
+verb387-verb-lex := transitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb402-verb-lex := transitive-verb-lex & verb-pc136-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb410-verb-lex := transitive-verb-lex &
   [ INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
+                CASE-FLAG -,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ] ].
 
 verb419-verb-lex := intransitive-verb-lex & verb-pc156-rule-dtr & verb-pc176-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr & verb-pc98-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb420-verb-lex := transitive-verb-lex & verb-pc176-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb430-verb-lex := intransitive-verb-lex & verb-pc96-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb432-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb436-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb485-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb552-verb-lex := transitive-verb-lex & verb-pc112-rule-dtr & verb-pc73-rule-dtr & verb-pc89-rule-dtr &
   [ INFLECTED [ V-3PL-OBJ-FLAG -,
-                TAM3-FLAG - ] ].
+                TAM3-FLAG -,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ] ].
 
 verb568-verb-lex := transitive-verb-lex & verb-pc38-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
-verb595-verb-lex := transitive-verb-lex.
+verb595-verb-lex := transitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
-verb599-verb-lex := transitive-verb-lex.
+verb599-verb-lex := transitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
-verb604-verb-lex := transitive-verb-lex.
+verb604-verb-lex := transitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb620-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb621-verb-lex := intransitive-verb-lex & verb-pc176-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb626-verb-lex := intransitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                      CASE-MARKED + ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG -,
-                -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ] ].
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ] ].
 
 verb662-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 verb750-verb-lex := transitive-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                        CASE-MARKED + ],
                            COMPS.FIRST.LOCAL.CAT.HEAD [ CASE acc,
-                                                        CASE-MARKED + ] ] ].
+                                                        CASE-MARKED + ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
-verb753-verb-lex := transitive-verb-lex.
+verb753-verb-lex := transitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
-verb755-verb-lex := transitive-verb-lex.
+verb755-verb-lex := transitive-verb-lex &
+  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 ;;; Auxiliaries
 
@@ -1102,7 +1136,7 @@ subj-raise-aux-no-pred := subj-raise-aux & raise-sem-lex-item &
 s1sg_pronom_enclitic-aux-lex := subj-raise-aux-no-pred &
   [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg,
                            COMPS.FIRST.LOCAL.CAT.HEAD.FORM finite ],
-    INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG na-or-- ].
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 ;;;;;;;;;;;;;;;;;;;
 ;;; Subordinators
@@ -1267,73 +1301,73 @@ low-nmz-subjid-compsid-lex-rule := low-nominalization-lex-rule &
 
 ;;; Intermediate rule types
 
-verb-pc29-rule-dtr := word-or-lexrule.
-verb-pc126-or-verb-pc67-or-verb-pc74-or-verb-pc95-rule-dtr := word-or-lexrule.
-verb-pc176-rule-dtr := word-or-lexrule.
-noun-pc7-rule-dtr := word-or-lexrule.
-noun-pc35-rule-dtr := word-or-lexrule.
-verb-pc38-rule-dtr := word-or-lexrule.
-noun-pc96-rule-dtr := word-or-lexrule.
-verb-pc94-rule-dtr := word-or-lexrule.
-noun-pc40-rule-dtr := word-or-lexrule.
-noun-pc81-rule-dtr := word-or-lexrule.
-verb-pc65-rule-dtr := word-or-lexrule.
-verb-pc101-rule-dtr := word-or-lexrule.
-v-desiderative-pc-rule-dtr := word-or-lexrule.
-v-3pl-obj-rule-dtr := word-or-lexrule.
-verb-pc28-rule-dtr := word-or-lexrule.
-v-deriv-adverbial-rule-dtr := word-or-lexrule.
-verb-pc112-rule-dtr := word-or-lexrule.
-verb-pc62-rule-dtr := word-or-lexrule.
-verb-pc163-rule-dtr := word-or-lexrule.
-verb-pc71-rule-dtr := word-or-lexrule.
-verb-pc50-rule-dtr := word-or-lexrule.
-verb-pc156-rule-dtr := word-or-lexrule.
-noun-pc27-rule-dtr := word-or-lexrule.
-noun-pc75-rule-dtr := word-or-lexrule.
-verb-pc85-rule-dtr := word-or-lexrule.
-verb-pc77-rule-dtr := word-or-lexrule.
-verb-pc92-rule-dtr := word-or-lexrule.
-noun-number-rule-dtr := word-or-lexrule.
-noun-pc88-rule-dtr := word-or-lexrule.
-noun-pc32-rule-dtr := word-or-lexrule.
-noun-pc19-rule-dtr := word-or-lexrule.
-verb-pc129-rule-dtr := word-or-lexrule.
-verb-pc136-rule-dtr := word-or-lexrule.
-verb-pc99-rule-dtr := word-or-lexrule.
-verb-pc120-or-verb-pc55-rule-dtr := word-or-lexrule.
-tam2-rule-dtr := word-or-lexrule.
-verb-pc56-rule-dtr := word-or-lexrule.
-verb-pc128-rule-dtr := word-or-lexrule.
-tam3-rule-dtr := word-or-lexrule.
-verb-pc96-rule-dtr := word-or-lexrule.
-verb-pc144-rule-dtr := word-or-lexrule.
-verb-pc37-rule-dtr := word-or-lexrule.
-verb-pc54-rule-dtr := word-or-lexrule.
-verb-pc118-rule-dtr := word-or-lexrule.
-noun-pc16-rule-dtr := word-or-lexrule.
-verb-pc14-rule-dtr := word-or-lexrule.
-verb-pc98-rule-dtr := word-or-lexrule.
-verb-pc89-rule-dtr := word-or-lexrule.
-noun-pc2-rule-dtr := word-or-lexrule.
-tam1-rule-dtr := word-or-lexrule.
-verb-pc195-rule-dtr := word-or-lexrule.
-verb-pc88-rule-dtr := word-or-lexrule.
-verb-pc164-rule-dtr := word-or-lexrule.
-noun-pc39-rule-dtr := word-or-lexrule.
-noun-pc91-rule-dtr := word-or-lexrule.
-verb-pc63-rule-dtr := word-or-lexrule.
-verb-pc73-rule-dtr := word-or-lexrule.
-noun-pc95-rule-dtr := word-or-lexrule.
-verb-pc106-rule-dtr := word-or-lexrule.
-nominalize_kwa-rule-dtr := word-or-lexrule.
-noun-pc18-rule-dtr := word-or-lexrule.
-verb-pc160-rule-dtr := word-or-lexrule.
-noun-pc60-rule-dtr := word-or-lexrule.
-verb-pc10-rule-dtr := word-or-lexrule.
 voice1-rule-dtr := word-or-lexrule.
+verb-pc94-rule-dtr := word-or-lexrule.
+verb-pc85-rule-dtr := word-or-lexrule.
+verb-pc195-rule-dtr := word-or-lexrule.
+verb-pc37-rule-dtr := word-or-lexrule.
+verb-pc89-rule-dtr := word-or-lexrule.
 case-rule-dtr := word-or-lexrule.
+verb-pc50-rule-dtr := word-or-lexrule.
+verb-pc92-rule-dtr := word-or-lexrule.
+verb-pc14-rule-dtr := word-or-lexrule.
+verb-pc128-rule-dtr := word-or-lexrule.
+noun-pc19-rule-dtr := word-or-lexrule.
+noun-pc88-rule-dtr := word-or-lexrule.
+v-deriv-adverbial-rule-dtr := word-or-lexrule.
+verb-pc54-rule-dtr := word-or-lexrule.
+verb-pc77-rule-dtr := word-or-lexrule.
+verb-pc118-rule-dtr := word-or-lexrule.
+verb-pc144-rule-dtr := word-or-lexrule.
+noun-pc39-rule-dtr := word-or-lexrule.
+verb-pc156-rule-dtr := word-or-lexrule.
+verb-pc160-rule-dtr := word-or-lexrule.
+verb-pc10-rule-dtr := word-or-lexrule.
+verb-pc120-or-verb-pc55-rule-dtr := word-or-lexrule.
+noun-pc75-rule-dtr := word-or-lexrule.
+verb-pc163-rule-dtr := word-or-lexrule.
+v-desiderative-pc-rule-dtr := word-or-lexrule.
+verb-pc126-or-verb-pc67-or-verb-pc74-or-verb-pc95-rule-dtr := word-or-lexrule.
+noun-pc40-rule-dtr := word-or-lexrule.
+noun-number-rule-dtr := word-or-lexrule.
+noun-pc35-rule-dtr := word-or-lexrule.
+verb-pc73-rule-dtr := word-or-lexrule.
+verb-pc88-rule-dtr := word-or-lexrule.
+tam3-rule-dtr := word-or-lexrule.
+verb-pc112-rule-dtr := word-or-lexrule.
+noun-pc7-rule-dtr := word-or-lexrule.
+verb-pc71-rule-dtr := word-or-lexrule.
+verb-pc136-rule-dtr := word-or-lexrule.
+noun-pc95-rule-dtr := word-or-lexrule.
+verb-pc164-rule-dtr := word-or-lexrule.
+verb-pc62-rule-dtr := word-or-lexrule.
+noun-pc81-rule-dtr := word-or-lexrule.
+noun-pc91-rule-dtr := word-or-lexrule.
+verb-pc38-rule-dtr := word-or-lexrule.
+noun-pc27-rule-dtr := word-or-lexrule.
+noun-pc60-rule-dtr := word-or-lexrule.
+verb-pc99-rule-dtr := word-or-lexrule.
+noun-pc96-rule-dtr := word-or-lexrule.
+verb-pc98-rule-dtr := word-or-lexrule.
+verb-pc176-rule-dtr := word-or-lexrule.
+noun-pc18-rule-dtr := word-or-lexrule.
+tam2-rule-dtr := word-or-lexrule.
+verb-pc63-rule-dtr := word-or-lexrule.
+verb-pc106-rule-dtr := word-or-lexrule.
+noun-pc2-rule-dtr := word-or-lexrule.
+verb-pc65-rule-dtr := word-or-lexrule.
+nominalize_kwa-rule-dtr := word-or-lexrule.
+verb-pc96-rule-dtr := word-or-lexrule.
+verb-pc29-rule-dtr := word-or-lexrule.
 noun-pc11-rule-dtr := word-or-lexrule.
+tam1-rule-dtr := word-or-lexrule.
+verb-pc56-rule-dtr := word-or-lexrule.
+verb-pc101-rule-dtr := word-or-lexrule.
+noun-pc16-rule-dtr := word-or-lexrule.
+verb-pc129-rule-dtr := word-or-lexrule.
+v-3pl-obj-rule-dtr := word-or-lexrule.
+noun-pc32-rule-dtr := word-or-lexrule.
+verb-pc28-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 
@@ -1341,21 +1375,19 @@ case-lex-rule-super := add-only-no-ccont-rule &
   [ INFLECTED [ CASE-FLAG +,
                 CASE-OR-TAM3-FLAG +,
                 TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                 TAM3-FLAG #tam3,
-                NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
-                NOUN-NUMBER-FLAG #noun-number,
-                BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
                 V-STEM-FLAG #v-stem,
-                -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb,
+                NOUN-NUMBER-FLAG #noun-number,
+                NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
                 V-3PL-OBJ-FLAG #v-3pl-obj ],
     DTR case-rule-dtr &
         [ INFLECTED [ TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                       TAM3-FLAG #tam3,
-                      NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
-                      NOUN-NUMBER-FLAG #noun-number,
-                      BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
                       V-STEM-FLAG #v-stem,
-                      -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb,
+                      NOUN-NUMBER-FLAG #noun-number,
+                      NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
                       V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
 
 case_nom-lex-rule := case-lex-rule-super & const-lex-rule &
@@ -1398,23 +1430,21 @@ noun-pc2_lrt2-lex-rule := noun-pc2-lex-rule-super.
 noun-number-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr &
   [ INFLECTED [ NOUN-NUMBER-FLAG +,
                 NOUN-NUMBER-OR-V-3PL-OBJ-FLAG +,
-                CASE-OR-TAM3-FLAG #case-or-tam3,
                 TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
-                TAM3-FLAG #tam3,
                 CASE-FLAG #case,
-                BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                TAM3-FLAG #tam3,
                 V-STEM-FLAG #v-stem,
-                -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb,
-                V-3PL-OBJ-FLAG #v-3pl-obj ],
+                V-3PL-OBJ-FLAG #v-3pl-obj,
+                CASE-OR-TAM3-FLAG #case-or-tam3 ],
     DTR noun-number-rule-dtr &
-        [ INFLECTED [ CASE-OR-TAM3-FLAG #case-or-tam3,
-                      TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
-                      TAM3-FLAG #tam3,
+        [ INFLECTED [ TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
                       CASE-FLAG #case,
-                      BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      TAM3-FLAG #tam3,
                       V-STEM-FLAG #v-stem,
-                      -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb,
-                      V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
+                      V-3PL-OBJ-FLAG #v-3pl-obj,
+                      CASE-OR-TAM3-FLAG #case-or-tam3 ] ] ].
 
 noun-plural-suffix-lex-rule := infl-lex-rule & noun-number-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
@@ -1627,58 +1657,48 @@ noun-pc97_lrt1-lex-rule := noun-pc97-lex-rule-super.
 
 v-stem-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & nominalize_kwa-rule-dtr & noun-number-rule-dtr & tam1-rule-dtr & tam2-rule-dtr & tam3-rule-dtr & v-3pl-obj-rule-dtr & v-deriv-adverbial-rule-dtr & v-desiderative-pc-rule-dtr & verb-pc10-rule-dtr & verb-pc106-rule-dtr & verb-pc118-rule-dtr & verb-pc126-or-verb-pc67-or-verb-pc74-or-verb-pc95-rule-dtr & verb-pc129-rule-dtr & verb-pc14-rule-dtr & verb-pc144-rule-dtr & verb-pc163-rule-dtr & verb-pc164-rule-dtr & verb-pc195-rule-dtr & verb-pc28-rule-dtr & verb-pc37-rule-dtr & verb-pc50-rule-dtr & verb-pc56-rule-dtr & verb-pc62-rule-dtr & verb-pc63-rule-dtr & verb-pc65-rule-dtr & verb-pc77-rule-dtr & verb-pc85-rule-dtr & verb-pc88-rule-dtr & verb-pc92-rule-dtr & verb-pc94-rule-dtr & verb-pc99-rule-dtr & voice1-rule-dtr &
   [ INFLECTED [ V-STEM-FLAG +,
-                CASE-OR-TAM3-FLAG #case-or-tam3,
                 TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
-                TAM3-FLAG #tam3,
-                NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
                 CASE-FLAG #case,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                TAM3-FLAG #tam3,
                 NOUN-NUMBER-FLAG #noun-number,
-                BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
-                -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb,
-                V-3PL-OBJ-FLAG #v-3pl-obj ],
+                NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
+                V-3PL-OBJ-FLAG #v-3pl-obj,
+                CASE-OR-TAM3-FLAG #case-or-tam3 ],
     DTR verb-lex &
-        [ INFLECTED [ CASE-OR-TAM3-FLAG #case-or-tam3,
-                      TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
-                      TAM3-FLAG #tam3,
-                      NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
+        [ INFLECTED [ TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
                       CASE-FLAG #case,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      TAM3-FLAG #tam3,
                       NOUN-NUMBER-FLAG #noun-number,
-                      BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
-                      -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb,
-                      V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
+                      NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
+                      V-3PL-OBJ-FLAG #v-3pl-obj,
+                      CASE-OR-TAM3-FLAG #case-or-tam3 ] ] ].
 
 v-stem-simple-lex-rule := const-lex-rule & v-stem-lex-rule-super &
-  [ DTR.INFLECTED.BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG na ].
+  [ DTR.INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na ].
 
-v-stem-bipartite-ka-lex-rule := v-stem-bipartite-regular-lex-rule &
-  [ DTR.INFLECTED.-KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG + ].
-
-v-stem-bipartite-lex-rule := v-stem-lex-rule-super.
-
-v-stem-bipartite-regular-lex-rule := infl-lex-rule & v-stem-bipartite-lex-rule.
-
-v-stem-bipartite-irregular-lex-rule := v-stem-bipartite-lex-rule.
+v-stem-bipart+ka-lex-rule := infl-lex-rule & v-stem-lex-rule-super &
+  [ DTR.INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG + ].
 
 v-3pl-obj-lex-rule-super := add-only-no-ccont-rule & tam1-rule-dtr & tam2-rule-dtr & tam3-rule-dtr &
   [ INFLECTED [ NOUN-NUMBER-OR-V-3PL-OBJ-FLAG +,
                 V-3PL-OBJ-FLAG +,
-                CASE-OR-TAM3-FLAG #case-or-tam3,
                 TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
+                CASE-FLAG #case,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                 TAM3-FLAG #tam3,
                 NOUN-NUMBER-FLAG #noun-number,
-                CASE-FLAG #case,
-                BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
                 V-STEM-FLAG #v-stem,
-                -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb ],
+                CASE-OR-TAM3-FLAG #case-or-tam3 ],
     DTR v-3pl-obj-rule-dtr &
-        [ INFLECTED [ CASE-OR-TAM3-FLAG #case-or-tam3,
-                      TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
+        [ INFLECTED [ TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
+                      CASE-FLAG #case,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                       TAM3-FLAG #tam3,
                       NOUN-NUMBER-FLAG #noun-number,
-                      CASE-FLAG #case,
-                      BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
                       V-STEM-FLAG #v-stem,
-                      -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb ] ] ].
+                      CASE-OR-TAM3-FLAG #case-or-tam3 ] ] ].
 
 v-3pl-obj-suffix-lex-rule := infl-lex-rule & v-3pl-obj-lex-rule-super &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
@@ -1687,25 +1707,23 @@ v-3pl-obj-suffix-lex-rule := infl-lex-rule & v-3pl-obj-lex-rule-super &
 v-3pl-obj-skip-lex-rule := const-lex-rule & v-3pl-obj-lex-rule-super.
 
 tam1-lex-rule-super := add-only-no-ccont-rule & tam2-rule-dtr & tam3-rule-dtr &
-  [ INFLECTED [ CASE-OR-TAM3-FLAG #case-or-tam3,
+  [ INFLECTED [ CASE-FLAG #case,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                 TAM3-FLAG #tam3,
-                NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
-                CASE-FLAG #case,
                 NOUN-NUMBER-FLAG #noun-number,
-                BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
                 V-STEM-FLAG #v-stem,
-                -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb,
-                V-3PL-OBJ-FLAG #v-3pl-obj ],
+                NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
+                V-3PL-OBJ-FLAG #v-3pl-obj,
+                CASE-OR-TAM3-FLAG #case-or-tam3 ],
     DTR tam1-rule-dtr &
-        [ INFLECTED [ CASE-OR-TAM3-FLAG #case-or-tam3,
+        [ INFLECTED [ CASE-FLAG #case,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                       TAM3-FLAG #tam3,
-                      NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
-                      CASE-FLAG #case,
                       NOUN-NUMBER-FLAG #noun-number,
-                      BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
                       V-STEM-FLAG #v-stem,
-                      -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb,
-                      V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
+                      NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
+                      V-3PL-OBJ-FLAG #v-3pl-obj,
+                      CASE-OR-TAM3-FLAG #case-or-tam3 ] ] ].
 
 tam1-habitual-past-form_siren-lex-rule := infl-lex-rule & tam1-hab-check-lex-rule &
   [ INFLECTED.TAM1-HABITUAL-PAST-FORM_SIREN-FLAG +,
@@ -1769,7 +1787,7 @@ tam2-lex-rule-super := add-only-no-ccont-rule & tam3-rule-dtr &
 
 tam2-hab-or-cont-past-mc-lex-rule := tam2-mc-check-lex-rule & tam2-past-lex-rule &
   [ DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_SIREN-FLAG na,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT hab+cont ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT cont+hab ].
 
 tam2-hab-past-subord-lex-rule := tam2-past-lex-rule & tam2-subord-tensed-check-lex-rule &
   [ DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_SIREN-FLAG na,
@@ -1812,21 +1830,19 @@ tam3-lex-rule-super := add-only-no-ccont-rule &
   [ INFLECTED [ CASE-OR-TAM3-FLAG +,
                 TAM3-FLAG +,
                 TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
-                NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
                 CASE-FLAG #case,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                 NOUN-NUMBER-FLAG #noun-number,
-                BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
                 V-STEM-FLAG #v-stem,
-                -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb,
+                NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
                 V-3PL-OBJ-FLAG #v-3pl-obj ],
     DTR tam3-rule-dtr &
         [ INFLECTED [ TAM1-HABITUAL-PAST-FORM_SIREN-FLAG #tam1-habitual-past-form_siren,
-                      NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
                       CASE-FLAG #case,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                       NOUN-NUMBER-FLAG #noun-number,
-                      BISTEM_NOM-ACC_TV-VERB-OR-BISTEM_NOM_ITV-VERB-FLAG #bistem_nom-acc_tv-verb-or-bistem_nom_itv-verb,
                       V-STEM-FLAG #v-stem,
-                      -KA-BISTEM-ITV-VERB-OR--KA-BISTEM-TV-VERB-FLAG #-ka-bistem-itv-verb-or--ka-bistem-tv-verb,
+                      NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
                       V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
 
 tam3-mc-check-lex-rule := tam3-lex-rule-super &
@@ -1839,7 +1855,8 @@ tam3-subord-check-lex-rule := infl-lex-rule & tam3-lex-rule-super &
 
 tam3-asp-tense-check-lex-rule := tam3-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ ASPECT asp+,
-                                     TENSE tense+ ] ].
+                                     TENSE tense+,
+                                     MOOD irr- ] ].
 
 tam3-no-asp-tense-check-lex-rule := tam3-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ ASPECT asp-,
@@ -1854,14 +1871,31 @@ tam3-irr-_check-lex-rule := tam3-lex-rule-super &
 tam3-indicative-check-lex-rule := infl-lex-rule & tam3-mc-check-lex-rule &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD ind ].
 
+tam3-interrogative-check-lex-rule := tam3-mc-check-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD int ].
+
 tam3-indicative_non3rd-lex-rule := tam3-indicative-check-lex-rule &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER non-3rd ].
 
 tam3-indicative_3rd-lex-rule := tam3-indicative-check-lex-rule &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
-tam3-interrogative1-lex-rule := infl-lex-rule & tam3-mc-check-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD int ].
+tam3-interrogative_-ki-lex-rule := infl-lex-rule & tam3-interrogative-check-lex-rule & tam3-irr-_check-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ ASPECT cont+prog+aor,
+                                     TENSE nonpast ] ].
+
+tam3-interrogative_-i_1-lex-rule := infl-lex-rule & tam3-interrogative-check-lex-rule & tam3-irr-_check-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ ASPECT hab,
+                                     TENSE nonpast ] ].
+
+tam3-interrogative_-i_2-lex-rule := infl-lex-rule & tam3-interrogative-check-lex-rule & tam3-irr-_check-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE past ].
+
+tam3-interrogative_-i_3-lex-rule := infl-lex-rule & tam3-interrogative-check-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD epis ].
+
+tam3-interrogative_-zero-lex-rule := const-lex-rule & tam3-interrogative-check-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD deon ].
 
 tam3-imp+excl-check-lex-rule := tam3-irr-_check-lex-rule & tam3-mc-check-lex-rule & tam3-no-asp-tense-check-lex-rule &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD imp+excl ].
@@ -1878,9 +1912,6 @@ tam3-imperative_pl-lex-rule := infl-lex-rule & tam3-imp-check-lex-rule &
 
 tam3-exclamative-lex-rule := infl-lex-rule & tam3-imp+excl-check-lex-rule &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD excl ].
-
-tam3-interrogative2-lex-rule := const-lex-rule & tam3-mc-check-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD int ].
 
 verb-pc10-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & nominalize_kwa-rule-dtr & noun-number-rule-dtr & tam1-rule-dtr & tam2-rule-dtr & tam3-rule-dtr & v-3pl-obj-rule-dtr & v-deriv-adverbial-rule-dtr & v-desiderative-pc-rule-dtr & verb-pc106-rule-dtr & verb-pc118-rule-dtr & verb-pc129-rule-dtr & verb-pc14-rule-dtr & verb-pc144-rule-dtr & verb-pc195-rule-dtr & verb-pc37-rule-dtr & verb-pc50-rule-dtr & verb-pc62-rule-dtr & verb-pc63-rule-dtr & verb-pc65-rule-dtr & verb-pc85-rule-dtr & verb-pc88-rule-dtr & verb-pc92-rule-dtr & verb-pc94-rule-dtr & verb-pc99-rule-dtr & voice1-rule-dtr &
   [ INFLECTED #infl,

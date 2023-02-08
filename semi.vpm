@@ -37,28 +37,29 @@ COG-ST : COG-ST
   * <> *
 
 
-PNG.PER : PNG.PER
-  3rd <> 3rd
-  2nd <> 2nd
-  1st <> 1st
+PNG.PER : PER
+  3rd <> third
+  2nd <> second
+  1st <> first
   * <> *
 
-PNG.NUM : PNG.NUM
+PNG.NUM : NUM
   sg <> sg
   pl <> pl
   * <> *
 
-PNG.GEND : PNG.GEND
+PNG.GEND : GEND
   * <> *
 
-E.TENSE : E.TENSE
+E.TENSE : TENSE
   past <> past
   nonpast <> nonpast
-  tense+ <> tense+
-  tense- <> tense-
-  * <> *
+  tense+ <> tensed
+  tense- <> untensed
+  * >> nonpast
+  nonpast << [e]
 
-E.ASPECT : E.ASPECT
+E.ASPECT : ASPECT
   aor <> aor
   hab <> hab
   prog <> prog
@@ -66,37 +67,30 @@ E.ASPECT : E.ASPECT
   asp+ <> asp+
   asp- <> asp-
   iter <> iter
-  * <> *
+  * >> asp-
+  asp- << [e]
 
-E.MOOD : E.MOOD
-  mood+_irr+ <> mood+_irr+
-  imp <> imp
-  excl <> excl
-  imp+excl <> imp+excl
-  mood+_irr- <> mood+_irr-
-  ind_deon <> ind_deon
-  ind_epis <> ind_epis
+E.MOOD : MOOD
+  ind_irr+ <> ind_irr+
   ind_irr- <> ind_irr-
   ind <> ind
-  int_deon <> int_deon
-  int_epis <> int_epis
+  int_irr+ <> int_irr+
   int_irr- <> int_irr-
   int <> int
   ind+int <> ind+int
+  imp <> imp
+  excl <> excl
+  imp+excl <> imp+excl
   mood+ <> mood+
   mood- <> mood-
-  mood+_irr+ <> mood+_irr+
-  ind_deon <> ind_deon
-  int_deon <> int_deon
+  ind_irr+ <> ind_irr+
+  int_irr+ <> int_irr+
   deon <> deon
-  ind_epis <> ind_epis
-  int_epis <> int_epis
   epis <> epis
   irr+ <> irr+
   imp <> imp
   excl <> excl
   imp+excl <> imp+excl
-  mood+_irr- <> mood+_irr-
   ind_irr- <> ind_irr-
   int_irr- <> int_irr-
   irr- <> irr-

@@ -213,9 +213,9 @@ noun-pc97_lrt1-suffix :=
 %suffix (* -kwaɽo)
 noun-pc97_lrt1-lex-rule.
 
-v-stem-bipartite-ka-suffix :=
+v-stem-bipart+ka-suffix :=
 %suffix (* -ka)
-v-stem-bipartite-ka-lex-rule.
+v-stem-bipart+ka-lex-rule.
 
 v-3pl-obj-suffix-suffix :=
 %suffix (* -a)
@@ -309,32 +309,28 @@ tam3-indicative_3rd-suffix :=
 %suffix (* -ti)
 tam3-indicative_3rd-lex-rule.
 
-tam3-interrogative1-suffix1 :=
+tam3-interrogative_-ki-suffix :=
 %suffix (* -ki)
-tam3-interrogative1-lex-rule.
+tam3-interrogative_-ki-lex-rule.
 
-tam3-interrogative1-suffix2 :=
+tam3-interrogative_-i_1-suffix :=
 %suffix (* -i)
-tam3-interrogative1-lex-rule.
+tam3-interrogative_-i_1-lex-rule.
 
-tam3-imperative_pl-suffix1 :=
+tam3-interrogative_-i_2-suffix :=
+%suffix (* -i)
+tam3-interrogative_-i_2-lex-rule.
+
+tam3-interrogative_-i_3-suffix :=
+%suffix (* -i)
+tam3-interrogative_-i_3-lex-rule.
+
+tam3-imperative_pl-suffix :=
 %suffix (* -e)
 tam3-imperative_pl-lex-rule.
 
-tam3-imperative_pl-suffix2 :=
-%suffix (* -je)
-tam3-imperative_pl-lex-rule.
-
-tam3-imperative_pl-suffix3 :=
-%suffix (* -i)
-tam3-imperative_pl-lex-rule.
-
-tam3-exclamative-suffix1 :=
+tam3-exclamative-suffix :=
 %suffix (* -k'a)
-tam3-exclamative-lex-rule.
-
-tam3-exclamative-suffix2 :=
-%suffix (* -kʰa)
 tam3-exclamative-lex-rule.
 
 verb-pc10_lrt1-suffix :=

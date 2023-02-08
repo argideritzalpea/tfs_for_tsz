@@ -1,3 +1,11 @@
+\ref 63
+\tph pero agustu a-sïn-ka ka no esika ixu enka ambákiti ampe ja-ka ka no u-ni agustu t'ire-ni jimpo-ka xani peligru ja-s-ka
+\mph pero agustu a -sïn -ka ka no exki ixu enka ambákiti ampe ja -ka ka no u -ni agustu t'ire -ni jimpo -ka xani peligru ja -sï -ka 
+\mgl but comfortable eat HAB 1/2IND and no SUBORD here SUBORD bueno something exist 1/2IND and no can INF comfortable eat INF INSTR 1/2IND that danger exist AOR 1/2IND 
+\ps NotSure adj NotSure v:ASP v:SBJ.AGR NotSure NotSure NotSure NotSure rel adj NotSure NotSure v:SBJ.AGR NotSure NotSure v v:Any adj NotSure v:Any NotSure v:SBJ.AGR adv nclf NotSure v:ASP v:SBJ.AGR 
+\eng And I eat in peace and not like here where there are a lot of delicious things but no peace to eat because it’s too dangerous
+\id 63
+
 \ref 3709
 \tph ka juchiti nanti a-j-ti sani aianku je esika=ksï jucha pauani ju-ua-ka
 \mph ka jucheeti nanti a -sï -ti sani aianku je exki =kxï jucha pauani ju -a -ka 
@@ -85,3 +93,27 @@
 \ps NotSure NotSure NotSure Verb v:SBJ.AGR NotSure NotSure v:SBJ.AGR v NotSure v:ASP v:SBJ.AGR NotSure NotSure v:ASP Attachestoanycategory pro-form poss n 
 \eng  I think we have to go home because it’s about to rain, said my dad.
 \id 5372
+
+\ref 5596
+\tph no=chka=kini ji ioni komu arhi-kuarhi-sï esï-ka=rini t'u kondi-pirin-ka
+\mph no =chka =kini ji yoni komu arhi -kuarhe -sï exki -ka =rini t'u kondi -pirin -ka 
+\mgl no =then =2SG.OBJ 1SG long.time suffer say RFLX AOR SUBORD 1/2IND =1SG.OBJ 2SG sympathize COND SBJNC 
+\ps NotSure NotSure NotSure pers adv v NotSure vv NONE NotSure v:SBJ.AGR NotSure NotSure v Attachestoanycategory v:Any 
+\eng I suffered a long time and asked that you would sympathize with me
+\id 5596
+
+\ref 6587
+\tph ka xasï=na ima karichi miguarhiri-rhi-ri kurhamarhi-sïren-p-ti arhi-ni=na
+\mph ka xasï =na ima karichi miguarhiri -rhi -ri kurhamarhi -sïren -p -ti arhi -ni =na 
+\mgl and later =evidential DEM.SG sheep NONE LOC.body PAST ask HAB.PST PAST 3.IND say INF =evidential 
+\ps NotSure NotSure NotSure NotSure n NONE v:LOC Attachestoanycategory v v:Any v:TNS Attachestoanycategory NotSure v:Any NotSure 
+\eng  And later the sheep owner asked him, and said:
+\id 6587
+
+\ref 6588
+\tph t'u anti no kueraku-j-ki inte-ni ia ka no xani kuaka-ni isï ka inte-ni juka-pirin-ka tisïkuari-ni t'u no jimpo-sï ka-p-ki
+\mph t'u anti no kueraku -sï -ki inte -ni ia ka no xani kuaka -ni isï ka inte -ni juka -pirin -ka kapote -ni t'u no jimpo -sï ka -p -ki 
+\mgl 2SG why no untie AOR IRR DEM.SG OBJ already and no alot get.wet OBJ likethis and DEM.SG OBJ wear COND 1/2IND cape OBJ 2SG no INSTR AOR and PAST IRR 
+\ps NotSure NotSure NotSure v v:ASP Attachestoanycategory dem n:Any NotSure NotSure NotSure adv v n:Any NotSure NotSure dem n:Any NotSure Attachestoanycategory v:SBJ.AGR n n:Any NotSure NotSure NotSure NONE NotSure v:TNS Attachestoanycategory 
+\eng  why don't you untie it, and don't get wet like this and you would put that cape on, that's not why you have it?
+\id 6588
