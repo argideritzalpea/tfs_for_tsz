@@ -67,8 +67,8 @@ E.ASPECT : ASPECT
   asp+ <> asp+
   asp- <> asp-
   iter <> iter
-  * >> no-aspect
-  no-aspect << [e]
+  * >> asp-
+  asp- << [e]
 
 E.MOOD : MOOD
   ind_irr+ <> ind_irr+
