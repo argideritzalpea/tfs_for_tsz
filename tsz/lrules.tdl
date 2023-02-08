@@ -3,20 +3,24 @@ case_nom-lex := case_nom-lex-rule.
 
 case-synth-adp-lex := case-synth-adp-lex-rule.
 
-imperative_sg-lex := imperative_sg-lex-rule.
+noun-singular-lex := noun-singular-lex-rule.
 
-interrogative2-lex := interrogative2-lex-rule.
+v-stem-simple-lex := v-stem-simple-lex-rule.
 
-tam2-no-asp-tense-lex := tam2-no-asp-tense-lex-rule.
+v-3pl-obj-skip-lex := v-3pl-obj-skip-lex-rule.
 
-nonpast-mc-tam2-lex := nonpast-mc-tam2-lex-rule.
+tam1-no-asp-tense-check-lex := tam1-no-asp-tense-check-lex-rule.
 
-nonpast-subord-tam2-lex := nonpast-subord-tam2-lex-rule.
+tam1-aorist-subord-lex := tam1-aorist-subord-lex-rule.
 
-verb-pc77_lrt5-lex := verb-pc77_lrt5-lex-rule.
+tam1-habitual-past-subord-form-reduced-lex := tam1-habitual-past-subord-form-reduced-lex-rule.
 
-verb-pc116_lrt3-lex := verb-pc116_lrt3-lex-rule.
+tam2-no-asp-tense-skip-lex := tam2-no-asp-tense-skip-lex-rule.
 
-aorist-subord-lex := aorist-subord-lex-rule.
+tam2-nonpast-mc-tam2-lex := tam2-nonpast-mc-tam2-lex-rule.
 
-habitual-past-form-reduced-lex := habitual-past-form-reduced-lex-rule.
+tam2-nonpast-subord-lex := tam2-nonpast-subord-lex-rule.
+
+tam3-imperative_sg-lex := tam3-imperative_sg-lex-rule.
+
+tam3-interrogative2-lex := tam3-interrogative2-lex-rule.
