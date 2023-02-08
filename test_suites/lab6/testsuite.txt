@@ -136,38 +136,38 @@ go-DEON-1/2ASS INSTR canoe
 intended : I will go by canoe.
 
 #14
-Source: Abhinav
-Vetted: s
+Source: Ourselves
+Vetted: f
 Judgment: g
 Phenomena: case
-Maria ni-ra-a Pegru-nkuni
-Maria ni-ra-a Pegru-nkuni
-Maria go-FT-IRR.INT Pedro-COM
+Maria ni-a Pegru-nkuni
+Maria ni-a Pegru-nkuni
+Maria go-DEON Pedro-COM
 Maria will go with Pedro
 
 #15
-Source: Abhinav
-Vetted: s
+Source: Ourselves
+Vetted: f
 Judgment: g
 Phenomena: case
-Maria ni-ra-a Pegru jinkoni
-Maria ni-ra-a Pegru jinkoni
-Maria go-FT-IRR.INT Pedro COM
+Maria ni-a Pegru jinkoni
+Maria ni-a Pegru jinkoni
+Maria go-DEON Pedro COM
 Maria will go with Pedro
 
 #16
-Source: Abhinav
-Vetted: s
+Source: Ourselves
+Vetted: f
 Judgment: u
 Phenomena: case
-Maria ni-ra-a jinkoni Pegru
-Maria ni-ra-a jinkoni Pegru
-Maria go-FT-IRR.INT COM Pedro
-intended : Maria will go with Pedro
+Maria ni-a jinkoni Pegru
+Maria ni-a jinkoni Pegru
+Maria go-DEON COM Pedro
+Intended : Maria will go with Pedro
 
 #17
 Source: 61a in Chamoreau
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: case
 jinte-s-ti wampa Maria-eri
@@ -182,9 +182,8 @@ Judgment: g
 Phenomena: case
 nanaka-echa-eri jawiri sesi ja-rha-x-ti
 nanaka-echa-eri jawiri sesi ja-rha-x-ti
-girl-PL-GEN hair well be_there-FT-AOR-ASS3S
+girl-PL-GEN hair well be_there-FORM-AOR-ASS3S
 ‘The girls’ hair is beautiful.’
-
 
 #19
 Source: ref 3911 in tsz_toolbox.txt, reduced
@@ -623,7 +622,7 @@ Judgement: g
 Phenomena: emb-d
 Pegru wekasti eska Maria pireaka
 Pegru ueka-x-ti eska Maria pire-a-ka
-Pedro want-AOR-3.IND SUB Maria sing-IRR.DEONT-SUBJ
+Pedro want-AOR-3.IND SUB Maria sing-DEON-SBJV
 Pedro has wanted Maria to sing [that Maria sings] (ha querido que cante)
 
 #63 SUB: 'eska' - can head a CC of a non-finite verb (original: ueka-s-ø-ka=ni eska=ri pire-a-ka (has -ø for non-past))
@@ -633,7 +632,7 @@ Judgement: g
 Phenomena: emb-d
 arhiani eskaksï mayamuapirinka
 arhi-a-ni eska=ksï maiamu-a-pirin-ka
-say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-IRR.EPIS-SBJV
+say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-EPIS-SBJV
 He told them that he would pay them (les dijo que les pagarían)
 
 #64 SUB: 'eska' - IND mood suffix instead of SBJV
@@ -643,7 +642,7 @@ Judgement: u
 Phenomena: emb-d
 arhiani eskaksï mayamuapirinti
 arhi-a-ni eska=ksï maiamu-a-pirin-ti
-say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-IRR.EPIS-3.IND
+say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-EPIS-3.IND
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
 #65 SUB: 'eska' - INT mood suffix instead of SBJV
@@ -653,7 +652,7 @@ Judgement: u
 Phenomena: emb-d
 arhiani eskaksï mayamuapirinki
 arhi-a-ni eska=ksï maiamu-a-pirin-ki
-say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-IRR.EPIS-INT
+say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-EPIS-INT
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
 #66 SUB: 'eska' - IMP.PL mood suffix instead of SBJV
@@ -663,7 +662,7 @@ Judgement: u
 Phenomena: emb-d
 arhiani eskaksï mayamuapirine
 arhi-a-ni eska=ksï maiamu-a-pirin-e
-say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-IRR.EPIS-IMP.PL
+say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-EPIS-IMP.PL
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
 #67 SUB: 'eska' - no mood suffix (or IMP.SG - null morpheme) instead of SBJV
@@ -673,7 +672,7 @@ Judgement: u
 Phenomena: emb-d
 arhiani eskaksï mayamuapirin
 arhi-a-ni eska=ksï maiamu-a-pirin
-say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-IRR.EPIS
+say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-EPIS
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
 #68 SUB: 'eska' - tense-mood reduction in subordinate clauses: AOR.NP -sï -> -ø
@@ -743,7 +742,7 @@ Judgement: g
 Phenomena: cl-mod
 Pegru wantikuati tsikatani ekari jupirinka
 Pegru uantiku-a-ti tsikata-ni eka=ri ju-pirin-ka
-Pedro kill-IRR.DEONT-3.IND chicken-OBJ SUB=S2SG come-IRR.EPIS-SBJV
+Pedro kill-DEON-3.IND chicken-OBJ SUB=S2SG come-EPIS-SBJV
 "Pedro will slaughter the chicken if you would come."
 
 #75 SUB: 'eki'/'eka' - "if"/when"/"while" (adverbial-temporal/condition)
@@ -753,7 +752,7 @@ Judgement: g
 Phenomena: cl-mod
 imá huráspti éka wékaka
 ima ju-ra-sï-p-ti eka ue-ka-a-ka
-DEM.SG come-FORM-AOR-PST-3ASER cuando want-FORM-IRR.DEONT-SBJV
+DEM.SG come-FORM-AOR-PST-3ASER cuando want-FORM-DEON-SBJV
 "He came when(ever)/if he wanted." ("el vino cuando quiera/si quiere")
 
 #76 SUB: 'jimpoka' - "because" (adverbial-reason)
@@ -768,17 +767,17 @@ hill stone throw-APPL3O-PROG-PST-ASS3S SUB earthquake-AOR.PST-SBJV
 
 #77 lab5 - translation #1
 Source: eng.txt
-Vetted: s
+Vetted: f
 Judgement: g
 Phenomena: (translate)
 uichuecha k'uixti
 uichu-echa k'ui-x-ti
-dog-PL sleep-AOR.NP-3.ASS
+dog-PL sleep-AOR.NP-3.IND
 Dogs sleep
 
 #78 lab5 - translation #2; n.b.: word for chase literally means "running to reach [someone]" - requires infinitival complement. refer to toolbox 4956; also, should we maybe break up car into  motsi -tara -kua : change.location.v -CAUS -NMLZR (see toolbox ref 3776) ?
 Source: eng.txt
-Vetted: s
+Vetted: ff
 Judgement: g
 Phenomena: (translate)
 uichuecha uirisïnti antankuni motsitarhakwechani
@@ -788,7 +787,7 @@ Dogs chase cars
 
 #79 lab5 - translation #3 (referred to ref 711, 1.1-2); not sure if O2SG enclitic optional or required- leaving it for now; n.b.: word for chase literally means "walking/running to reach [someone]" (Continuative aspect? See 3.2.1.1 Cham)
 Source: eng.txt
-Vetted: s
+Vetted: f
 Judgement: g
 Phenomena: (translate)
 jikini uirixka antanchini
@@ -798,30 +797,30 @@ I chase you
 
 #80 lab6 - translation #18 - DRAFT
 Source: eng.txt
-Vetted: s
+Vetted: f
 Judgement: g
 Phenomena: (translate - possession)
 uichueri motsitaɽakwa k'uixti
 uichu-eri motsitaɽakwa k'ui-x-ti
-dog-GEN car sleep-AOR.NP-3.ASS
+dog-GEN car sleep-AOR.NP-3.IND
 The dog s car sleeps
 
 #81 lab6 - translation #19 - DRAFT
 Source: eng.txt
-Vetted: s
+Vetted: f
 Judgement: g
 Phenomena: (translate - possession)
 juchi uichuecha k'uixti
 juchi uichu-echa k'ui-x-ti
-1SG.GEN dog-PL sleep-AOR.NP-3.ASS
+1SG.GEN dog-PL sleep-AOR.NP-3.IND
 My dogs sleep
 
-#82 lab6 - translation #6 - DRAFT
+#82 lab6 - translation #6 - DRAFT; notes: formative suffix and tense-mood reduction in subordinate clauses: mi -ti -x -ka => mi -ka
 Source: eng.txt
-Vetted: s
+Vetted: f
 Judgement: g
-Phenomena: (translate - clausal complemens)
-ji eratsixka eskiri mitixka eska uichuecha uirixïnka antakuni motsitaɽakwaechani
-ji eratsi-x-ka eski=ri miti-x-ka eska uichu-echa uiri-xïn-ka anta-ku-ni motsitaɽakwa-echa-ni
-S1SG think-AOR.NP-1/2ASS SUB=S2SG know-AOR-SUBJ SUB dog-PL run-HAB.NP-SUBJ reach-APPL.3O-INF car-PL-OBJ
+Phenomena: (translate - clausal complements)
+ji eratsixka eskiri mika eska uichuecha uirixïnka antakuni motsitaɽakwaechani
+ji eratsi-x-ka eski=ri mi-ka eska uichu-echa uiri-xïn-ka anta-ku-ni motsitaɽakwa-echa-ni
+S1SG think-AOR.NP-1/2.IND SUB=S2SG know-AOR.NP.SBJV SUB dog-PL run-HAB.NP-SBJV reach-APPL.3O-INF car-PL-OBJ
 I think that you know that dogs chase cars
