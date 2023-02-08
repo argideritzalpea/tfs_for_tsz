@@ -1,0 +1,87 @@
+\ref 3709
+\tph ka juchiti nanti a-j-ti sani aianku je esika=ksï jucha pauani ju-ua-ka
+\mph ka jucheeti nanti a -sï -ti sani aianku je exki =kxï jucha pauani ju -a -ka 
+\mgl and 1SG.GEN mother AUX AOR 3.IND bit inform IMPRTV SUBORD =3PL 1PL tomorrow come FUT SBJNC 
+\ps NotSure poss n NotSure v:ASP Attachestoanycategory adv v NotSure NotSure NotSure pers NotSure NotSure v:Any v:Any 
+\eng  And my mom said: “Can you let him know that we will be coming tomorrow. ?”
+\id 3709
+
+\ref 4672
+\tph tata pedru enka exe-p-ka ia esï-ka no u-pirin-ka pa-ta-ni incha-p-chu-ku-sï-ti enka ima k'ui-n-ka ka tsunapikua-kua jinkoni peta-sï-p-ti sununta-echa-ni
+\mph tati pedru enka exe -p -ka ia exki -ka no u -pirin -ka pa -ta -ni incha -p -chu -ku -sï -ti enka ima k'ui -n -ka ka tsunapikua -kua jinkoni peta -sï -p -ti sununta -echa -ni 
+\mgl father Pedro SUBORD see PAST 1/2IND already SUBORD 1/2IND no do COND 1/2IND shut.down CAUS OBJ enter PAST abajo APPL.3 AOR 3.IND SUBORD DEM.SG sleep LNK 1/2IND and NONE NMLZR POSTP take.out AOR PAST 3.IND wool PL OBJ 
+\ps n NotSure rel NotSure v:TNS v:SBJ.AGR NotSure NotSure v:SBJ.AGR NotSure v Attachestoanycategory v:SBJ.AGR NotSure Attachestoanycategory n:Any v v:TNS Attachestoanycategory Attachestoanycategory v:ASP Attachestoanycategory rel NotSure NotSure Attachestoanycategory v:SBJ.AGR NotSure NONE Attachestoanycategory NotSure NotSure NONE v:TNS Attachestoanycategory n n:Any n:Any 
+\eng  When Mr. Pedro saw that they wouldn’t be able to put down the fire, he went inside where he sleeped with his (tsunapikua) he took out the wools.
+\id 4672
+
+\ref 6193
+\tph ima churi-kua jimpo enka-ni xani sesi joperu jienka-ni no enka-ni xani
+\mph ima churi -kua jimpo enka -ni xani sesi pero ji enka -ni no enka -ni xani 
+\mgl DEM.SG dusk NMLZR INSTR SUBORD OBJ that good but 1SG SUBORD OBJ no SUBORD OBJ that 
+\ps NotSure v Attachestoanycategory NotSure rel n:Any adv NotSure NotSure pers rel n:Any NotSure rel n:Any adv 
+\eng 
+\id 6193
+
+\ref 6220
+\tph ima anhatapu esika tsïtsïki-echa na xani sesi ja-p-ka ja enka sesi iamintu ampe ka enka i ima na uanta-s-p-ti eska jima enka ja-p-ka
+\mph ima anhatapu exki tsïtsïki -echa na xani sesi ja -p -ka ja enka sesi iamintu ampe ka enka i ima na uanta -sï -p -ti exki jima enka ja -p -ka 
+\mgl DEM.SG fir SUBORD flower PL how that good exist PAST SBJNC exist SUBORD good all NEG and SUBORD DEM.SG DEM.SG how speak AOR PAST 3.IND SUBORD there SUBORD exist PAST SBJNC 
+\ps NotSure nclf NotSure n n:Any NotSure adv NotSure NotSure v:TNS v:Any NotSure rel NotSure NotSure NotSure NotSure rel NotSure NotSure NotSure NotSure v:ASP v:TNS Attachestoanycategory NotSure NotSure rel NotSure v:TNS v:Any 
+\eng 
+\id 6220
+
+\ref 6221
+\tph enka jini enka xani jimpo ka enka xani sesi uanta-nt's-kua
+\mph enka jini enka xani jimpo ka enka xani sesi uanta -nt'a -kua 
+\mgl SUBORD there SUBORD that INSTR and SUBORD that good speak ITER NMLZR 
+\ps rel NotSure rel adv NotSure NotSure rel adv NotSure NotSure Verb Attachestoanycategory 
+\eng 
+\id 6221
+
+\ref 6636
+\tph i jinte-sï-ti=ksï kusta-ti-echa enka=ksï arhi-ra-ka mamaru jasï pire-kua-echa-ni ka uarha-kua-echa-ni enka=tsïni juchari tata k'e-ra-echa iontki anapu-echa jura-k'u-chi-ka eska ma enka andara-ka iapurhu isï ka nomeni uarhi-ni ka isï jimpo iamindu k'uiripu p'orhe-echa sesi pikuarhera-sïn-ti eka=ksï kura-j-ka juchari sonesi-tu-cha-ni k'uinchi-kua-echa-rhu
+\mph i jinte -sï -ti =kxï kusta -ri -echa enka =kxï arhi -ra -ka mamari jasï pire -kua -echa -ni ka uarha -kua -echa -ni enka =kxïni juchaeri tati k'e -ra -echa yontki anapu -echa jura -k'u -chi -ka eska ma enka andara -ka iapurhu isï ka no meni uarhi -ni ka isï jimpo iamintu k'uiripu p'urhe -echa sesi pikuarhera -sïn -ti enka =kxï kura -sï -ka juchaeri sonesi -tu -cha -ni k'uinchi -kua -echa -rhu 
+\mgl this DEM.SG AOR 3.IND =3PL play AGT PL SUBORD =3PL say CAUS 1/2IND differenttypes types sing NMLZR PL OBJ and dance NMLZR PL INF SUBORD =2PL.OBJ 1PL.GEN father big VAL PL long.time origin PL come FORM APP.1/2 1/2IND sight one SUBORD climb SBJNC everywhere APPROX and no one.time die INF and APPROX INSTR everyone people P'urhepecha PL good feel.oneself HAB 3.IND SUBORD =3PL listen AOR SBJNC 1PL.GEN sones DIM NONE INF party NMLZR PL LOC 
+\ps dem dem v:ASP Attachestoanycategory NotSure v NONE n:Any rel NotSure NotSure NotSure v:SBJ.AGR NotSure NotSure NotSure Attachestoanycategory n:Any n:Any NotSure v Attachestoanycategory n:Any v:Any rel pro-form poss n NotSure Attachestoanycategory n:Any NotSure n n:Any v Attachestoanycategory Attachestoanycategory v:SBJ.AGR NotSure NotSure rel v v:Any adv NotSure NotSure NotSure adj NotSure v:Any NotSure NotSure NotSure adj n NotSure n:Any NotSure v v:ASP Attachestoanycategory rel NotSure NotSure v:ASP v:Any poss NotSure Attachestoanycategory NONE v:Any v Attachestoanycategory n:Any n:Any 
+\eng    For instance, there are musicians who play many different songs and dancing songs that our ancestors left us as a seed that flourishes everyday and never dies, this is why all the P’urhepechas feel really proud when they hear their songs play at parties/celebrations.
+\id 6636
+
+\ref 6678
+\tph ka jurajku-sï-ti eka ni-pirin-ka itsï p'ita-ni jini kuineo nitama-sï-ti maruteru-echa eka marikua k'uanatsi-ka enka tumpi ja-ka sontku jauara-sï-ti ka arhi-ni
+\mph ka jurhaku -sï -ti enka ni -pirin -ka itsï p'ita -ni jini kuineo nitama -sï -ti maru teru -echa enka marikua k'uanatsi -ka enka tumpi ja -ka sontku jauara -sï -ti ka arhi -ni 
+\mgl and leave AOR 3.IND SUBORD go COND SBJNC water extract INF there kuineo pass AOR 3.IND some more PL SUBORD young.lady return SBJNC SUBORD lad exist SBJNC quick get.up AOR 3.IND and say OBJ 
+\ps NotSure NotSure v:ASP Attachestoanycategory rel NotSure Attachestoanycategory v:Any n NotSure v:Any NotSure n v v:ASP Attachestoanycategory NotSure NotSure n:Any rel NotSure v v:Any rel n NotSure v:Any NotSure v v:ASP Attachestoanycategory NotSure NotSure n:Any 
+\eng and he left the pitcher she would use to go extract water from the kuineo. And others passed by when the youn lady returned where the you man was. He stood up quickly and said.
+\id 6678
+
+\ref 5269
+\tph peka=ksï xarhinku jauara-ka paraka=ksï sesi=k'u anta-rhi-a-ka flecha jata-ni
+\mph peka =kxï xarhintku jauara -ka paraka =kxï sesi =k'u anta -rhi -a -ka flecha jata -ni 
+\mgl maybe =3PL early get.up SBJNC so.that =3PL very =only approach MID FUT SBJNC bus get.in INF 
+\ps NotSure NotSure adv v v:Any NotSure NotSure NotSure NotSure NotSure Attachestoanycategory v:Any v:Any NotSure v v:Any 
+\eng  “I think that they are waking up early so that they will approach to ride the bus on time.”
+\id 5269
+
+\ref 5331
+\tph peka=ksï xarhinku jauara-ka paraka=ksï sesi-ku anta-rhi-a-ka flecha jata-ni
+\mph peka =kxï xarhintku jauara -ka para ka =kxï sesi -ku anta -rhi -a -ka flecha jata -ni 
+\mgl i.think =3PL early get.up 1/2IND for that =3PL very APPL.3 approach LOC.body FUT 1/2IND bus get.in INF 
+\ps NotSure NotSure adv v v:SBJ.AGR NotSure NotSure NotSure NotSure Attachestoanycategory NotSure v:LOC v:Any v:SBJ.AGR NotSure v v:Any 
+\eng  “I think that everyone will wake up early to board the bus on time.”
+\id 5331
+
+\ref 5328
+\tph ji ari=isï era-tsi-xa-p-ka jandiajku
+\mph ji arhi isï ira -tsi -xa -p -ka jantiak'u 
+\mgl 1SG say =APPROX round down PROG PAST 1/2IND single 
+\ps pers NotSure NotSure NotSure Attachestoanycategory v:ASP v:TNS v:SBJ.AGR NotSure 
+\eng    I was thinking to myself:
+\id 5328
+
+\ref 5372
+\tph peka=ksï ni-nt'a-ka=ia jimpo-ka janikueka-sïn-ka=ia arhi-j-ti=tsïni juchaeri tati
+\mph peka =kxï ni -nt'a -ka =a jimpo -ka ja kueka -sïn -ka =a arhi -s -ti =kxïni juchaeri tati 
+\mgl i.think =3PL go ITER 1/2IND =already INSTR 1/2IND rain want HAB 1/2IND =already say AOR 3.IND =2PL.OBJ 1PL.GEN father 
+\ps NotSure NotSure NotSure Verb v:SBJ.AGR NotSure NotSure v:SBJ.AGR v NotSure v:ASP v:SBJ.AGR NotSure NotSure v:ASP Attachestoanycategory pro-form poss n 
+\eng  I think we have to go home because it’s about to rain, said my dad.
+\id 5372
