@@ -10,9 +10,9 @@ Source: ref 3291 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: case
-ima kuɽa-tʃi-ʃ-tirini itʃuskuta ama-mpa-mpu
-ima kuɽa-tʃi-sï-ti=rini itʃuskuta ama-mpa-mpu
-DEM.SG request-APP.1/2-AOR-3.IND=1SG.OBJ tortilla mother-3.POSS-INSTR
+ima kurha-chi-x-tirini ichuskuta ama-mpa-mpu
+ima kurha-chi-x-ti =rini ichuskuta ama-mpa-mpu
+DEM.SG request-APP.1/2-AOR-3.IND =1SG.OBJ tortilla mother-3.POSS-INSTR
 Aquel me ha pedido tortillas por su madre
 
 #2
@@ -20,8 +20,8 @@ Source: ref 2671 in tsz_toolbox.txt
 Vetted: f
 Judgment: g
 Phenomena: tense
-tʃeni ma-ku-ra-ha-ka
-tʃeeni ma-ku-ra-ʃa-ka
+cheni ma-ku-ra-xa-ka
+cheeni ma-ku-ra-xa-ka
 how one-APPL.3O-VAL-PROG-1/2.IND
 I give a lot.
 
@@ -30,8 +30,8 @@ Source: ref 2672 in tsz_toolbox.txt
 Vetted: f
 Judgment: g
 Phenomena: tense
-tʃeni maku-ra-ha-ka
-tʃeeni mata-ra-ʃa-ka
+cheni maku-ra-xa-ka
+cheeni mata-ra-xa-ka
 how give-VAL-PROG-1/2.IND
 I used to give a lot.
 
@@ -40,8 +40,8 @@ Source: ref 2673 in tsz_toolbox.txt
 Vetted: f
 Judgment: g
 Phenomena: tense
-tʃeni maku-ra-ka
-tʃeeni mata-ra-ka
+cheni maku-ra-ka
+cheeni mata-ra-ka
 much give-VAL-1/2.IND
 I gave a lot.
 
@@ -50,8 +50,8 @@ Source: ref 2674 in tsz_toolbox.txt
 Vetted: f
 Judgment: g
 Phenomena: tense
-tʃeni maku-ra-pi-h-ka
-tʃeeni mata-ra-pʰi-sï-ka
+cheni maku-ra-pi-h-ka
+cheeni mata-ra-p'i-x-ka
 much give-VAL-PST-AOR-1/2.IND
 I had given a lot.
 
@@ -60,8 +60,8 @@ Source: ref 3545 in tsz_toolbox.txt
 Vetted: f
 Judgment: g
 Phenomena: aspect
-waɽi-ʃ-ti
-waɽi-sï-ti
+uarhi-x-ti
+uarhi-x-ti
 die-AOR-3.IND
 El esta muerto.
 
@@ -70,8 +70,8 @@ Source: ref 3600 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: aspect
-hu-ɽa-ʃ-ti
-hu-ra-sï-ti
+hu-rha-x-ti
+hu-ra-x-ti
 come-FORM-AOR-3.IND
 unknown/unvetted ((He has come))
 
@@ -80,8 +80,8 @@ Source: ref 3626 in tsv_toolbox
 Vetted: s
 Judgment: g
 Phenomena: aspect
-a-sï-ka
-a-sï-ka
+a-x-ka
+a-x-ka
 say-AOR-1/2.IND
 I said
 
@@ -90,8 +90,8 @@ Source: ref 3814 in tsv_toolbox
 Vetted: f
 Judgment: g
 Phenomena: aspect
-isï unta-s-ti
-isï unta-s-ti
+isï unta-x-ti
+isï unta-x-ti
 APPROX begin-AOR-3.IND
 so the donkey started to limp
 
@@ -100,8 +100,8 @@ Source: ref 3987 in tsv_toolbox
 Vetted: f
 Judgment: g
 Phenomena: aspect
-yuɽiɽi etʃu-nu-h-ti
-juɽiri etʃu-nu-sï-ti
+yurhirhi echu-nu-x-ti
+yurhiri echu-nu-x-ti
 blood CL.flat-patio-AOR-3.IND
 Context: I found some drops of blood on the patio. Intended:'There are drops of blood lying on the patio'/'There is blood on the patio'
 
@@ -170,8 +170,8 @@ Source: 61a in Chamoreau
 Vetted: f
 Judgment: g
 Phenomena: case
-jinte-s-ti wampa Maria-eri
-jinte-s-ti wampa Maria-eri
+jinte-s-ti uampa Maria-eri
+jinte-s-ti uampa Maria-eri
 be-AOR-ASS3S husband María-GEN
 ‘He is Maria’s husband.’
 
@@ -180,8 +180,8 @@ Source: 61b in Chamoreau
 Vetted: s
 Judgment: g
 Phenomena: case
-nanaka-echa-eri jawiri sesi ja-rha-x-ti
-nanaka-echa-eri jawiri sesi ja-rha-x-ti
+nanaka-echa-eri jauiri sesi ja-rha-x-ti
+nanaka-echa-eri jauiri sesi ja-rha-x-ti
 girl-PL-GEN hair well be_there-FORM-AOR-ASS3S
 ‘The girls’ hair is beautiful.’
 
@@ -190,8 +190,8 @@ Source: ref 3911 in tsz_toolbox.txt, reduced
 Vetted: s
 Judgment: g
 Phenomena: agreement
-Pegru aɽa-h-ti
-Pegru aɽa-sï-ti
+Pegru arha-x-ti
+Pegru arha-x-ti
 Pedro eat-AOR-3.IND
 Pedro ate
 
@@ -200,8 +200,8 @@ Source: ref 3911 in tsz_toolbox.txt + our own informed judgement
 Vetted: s
 Judgment: u
 Phenomena: agreement
-Pegru aɽa-h-ka
-Pegru aɽa-sï-ka
+Pegru arha-x-ka
+Pegru arha-x-ka
 Pedro eat-AOR-1/2.IND
 Pedro ate
 
@@ -210,9 +210,9 @@ Source: ref 3362 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: agreement
-ekwatsi-i-ʃ-ti=kʃï
-ekwatsi-i-sï-ti=kʃï
-twenty-PRED-AOR-3.IND=3PL
+ekuatsi-i-x-ti =kxï
+ekuatsi-i-x-ti =kxï
+twenty-PRED-AOR-3.IND =3PL
 It is twenty
 
 #22
@@ -220,8 +220,8 @@ Source: ref 3467 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: agreement
-piri-ʃa-ti
-piri-ʃa-ti
+piri-xa-ti
+piri-xa-ti
 sing-PROG-3.IND
 He is singing
 
@@ -230,8 +230,8 @@ Source: ref 3546 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: agreement
-ni-ʃa-ka kwʰiripita-ni
-ni-ʃa-ka kʰwiripeta-ni
+ni-xa-ka k'uiripita-ni
+ni-xa-ka k'uiripeta-ni
 cook-PROG-1/2.IND meat-OBJ
 I am cooking the meat
 
@@ -240,8 +240,8 @@ Source: ref 3546 in tsz_toolbox.txt  + our own informed judgement
 Vetted: s
 Judgment: u
 Phenomena: agreement
-ni-ʃa-ti kwʰiripita-ni
-ni-ʃa-ti kʰwiripeta-ni
+ni-xa-ti k'uiripita-ni
+ni-xa-ti k'uiripeta-ni
 cook-PROG-3.IND meat-OBJ
 I am cooking the meat
 
@@ -250,8 +250,8 @@ Source: ref 3545 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: agreement
-waɽi-ʃ-ti
-waɽi-sï-ti
+uarhi-x-ti
+uarhi-x-ti
 die-AOR-3.IND
 He is dead
 
@@ -260,8 +260,8 @@ Source: ref 3881 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: agreement
-ero-ka-ʃa-ka
-ero-ka-ʃa-ka
+ero-ka-xa-ka
+ero-ka-xa-ka
 wait-FORM-PROG-1/2.IND
 I/you/we/you(pl.) are waiting
 
@@ -270,8 +270,8 @@ Source: ref 3882 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: agreement
-ero-ka-ʃa-ti
-ero-ka-ʃa-ti
+ero-ka-xa-ti
+ero-ka-xa-ti
 wait-FORM-PROG-3.IND
 He/they are waiting
 
@@ -280,8 +280,8 @@ Source: ref 3421 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: agreement
-hinkonikwa-ti-itʃa tʰiri-xïn-ti
-hinkonikwa-ti-etʃa tʰire-xïn-ti
+hinkonikua-ti-icha t'iri-xïn-ti
+hinkonikua-ti-echa t'ire-xïn-ti
 sister-2.POSS-PL eat-HAB-3.IND
 Your sisters eat
 
@@ -290,8 +290,8 @@ Source: toolbox ref 3530 (but with noun because argument optionality not working
 Vetted: s
 Judgment: g
 Phenomena: aspect
-piri-ʃ-ti pirikwa-ni
-piri-sï-ti pirikwa-ni
+piri-x-ti pirikua-ni
+piri-x-ti pirikua-ni
 sing-AOR-3.IND song-OBJ
 [She/he/it] has sung the sung.
 
@@ -300,8 +300,8 @@ Source: Dominguez dissertation p. 196, ex. 5.5-13
 Vetted: s
 Judgment: g
 Phenomena: aspect
-uxati waxantsïkwa
-u-xa-ti waʃantsïkwa
+uxati uaxantsïkua
+u-xa-ti uaxantsïkua
 do-PROG-3.IND seat
 [He/she/it] is making a seat/bench (Está haciendo una silla)
 
@@ -321,7 +321,7 @@ Vetted: s
 Judgment: g
 Phenomena: aspect
 ji pirixamka
-ji piri-ʃam-ka
+ji piri-xam-ka
 1SG sing-CONT-1/2.IND
 I am singing. (about to sing or continuing to sing) (Yo sigo cantando (estoy a punto de cantar y continuo cantando))
 
@@ -330,8 +330,8 @@ Source: p. 54 (3.1-5) Dominguez (spelling changed)
 Vetted: s
 Judgment: g
 Phenomena: tam
-erokaspti
-ero-ka-sï-p-ti
+erokaxpti
+ero-ka-x-p-ti
 wait-FORM-PERF-PST-3ASER
 [He/she/it] had waited (for it) ('lo había esperado')
 
@@ -340,9 +340,9 @@ Source: toolbox ref 3876 (no null morpheme)
 Vetted: s
 Judgment: g
 Phenomena: tam
-ero-ka-ʃa-ka=ksï
-ero-ka-ʃa-ka=kʃï
-wait-FORM-PROG-1/2.IND=1PL.EX.SBJ
+ero-ka-xa-ka =ksï
+ero-ka-xa-ka =kxï
+wait-FORM-PROG-1/2.IND =1PL.EX.SBJ
 We are waiting
 
 #35 - CONT/NONPST (bipartite) - order of mood switched with aspect
@@ -350,9 +350,9 @@ Source: toolbox ref 3876 (no null morpheme)
 Vetted: s
 Judgment: u
 Phenomena: tam
-ero-ka-ka-ʃa=ksï
-ero-ka-ka-ʃa=kʃï
-wait-FORM-1/2.IND-PROG=1PL.EX.SBJ
+ero-ka-ka-xa =kxï
+ero-ka-ka-xa =kxï
+wait-FORM-1/2.IND-PROG =1PL.EX.SBJ
 Intended:'We are waiting'
 
 #36 - AOR/PAST
@@ -360,8 +360,8 @@ Source: toolbox ref 1633
 Vetted: s
 Judgment: g
 Phenomena: tam
-ji sesi ireka-sï-p-ka
-ji sesi ireka-sï-p-ka
+ji sesi ireka-x-p-ka
+ji sesi ireka-x-p-ka
 1SG good reside-AOR-PST-1/2.IND
 I lived well
 
@@ -370,7 +370,7 @@ Source: adapted from Chamoreau 2023 p. 19 ex. 52(b) - trans v + NOM subhect, OBJ
 Vetted: f
 Judgement: g
 Phenomena: case
-Pegru wantikuxti tsikatani
+Pegru uantikuxti tsikatani
 Pegru uantiku-x-ti tsikata-ni
 Pedro kill-AOR-3.IND chicken-OBJ
 "Pedro killed the chicken."
@@ -380,7 +380,7 @@ Source: adapted from Chamoreau 2023 p. 19 ex. 52(b) - trans v +  OBJ (ACC) case 
 Vetted: f
 Judgement: u
 Phenomena: case
-Pegruni wantikuxti tsikatani
+Pegruni uantikuxti tsikatani
 Pegru-ni uantiku-x-ti tsikata-ni
 Pedro-OBJ kill-AOR-3.IND chicken-OBJ
 Intended: "Pedro killed the chicken.""
@@ -390,7 +390,7 @@ Source: adapted from Chamoreau 2023 p. 19 ex. 52(b) - trans v + NOM case subject
 Vetted: f
 Judgement: u
 Phenomena: case
-Pegruni wantikuxti tsikatani
+Pegruni uantikuxti tsikatani
 Pegru uantiku-x-ti tsikata
 Pedro kill-AOR-3.IND chicken
 Intended: "Pedro killed the chicken."
@@ -420,9 +420,9 @@ Source: ref 3602 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: case
-arhi-j-ti=ni juchiti tati
-arhi-sï-ti=ni jucheeti tati
-say-AOR-3.IND=1SG.SBJ 1SG.GEN father
+arhi-x-ti =ni juchiti tati
+arhi-x-ti =ni jucheeti tati
+say-AOR-3.IND =1SG.SBJ 1SG.GEN father
 My dad said to me
 
 #43
@@ -430,8 +430,8 @@ Source: ref 4294 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: case
-juchiti kawaju kʰeri-sï-ti
-juchiti kawaju kʰeri-sï-ti
+juchiti kauaiu k'eri-x-ti
+juchiti kauaiu k'eri-x-ti
 1SG.GEN horse big-AOR-3.IND
 My horse is big
 
@@ -440,9 +440,9 @@ Source: ref 4287 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: agreement
-nompe we-xïn-ka-ni
-nompe ueka-xïn-ka-ni
-NEG want-HAB-1/2.IND-OBJ
+nompe we-ka-xïn-ka-ni
+nompe ue-ka-xïn-ka-ni
+NEG want-FORM-HAB-1/2.IND-OBJ
 I don't want anything
 
 #45
@@ -450,8 +450,8 @@ Source: ref 4102 in tsz_toolbox
 Vetted: s
 Judgement: g
 Phenomena: case
-hatsi-ku-ø sani-titu itukwa tʃuripu
-hatsi-ku-ø sani-tu itukwa tʃuɽipu
+hatsi-ku-ø sani-titu itukwa churipu
+hatsi-ku-ø sani-tu itukua churhipu
 have-APPL.3O-IMPRTV2 little-DIM salt soup
 'Put a little salt in the soup'  (needs ni after the IO)
 
@@ -460,8 +460,8 @@ Source: ref 4102 in tsz_toolbox
 Vetted: s
 Judgement: u
 Phenomena: case
-hatsi-ku-ø sani-titu itukwa tʃuripu-ni
-hatsi-ku-ø sani-tu itukwa tʃuɽipu-ni
+hatsi-ku-ø sani-titu itukwa churipu-ni
+hatsi-ku-ø sani-tu itukua churhipu-ni
 have-APPL.3O-IMPRTV2 little-DIM salt soup-OBJ
 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
 
@@ -501,7 +501,7 @@ Vetted: s
 Judgement: g
 Phenomena: poss
 jupikaxti juchi kawayuni
-jupi-ka-x-ti juchi kawayu-ni
+jupi-ka-x-ti juchi kauaiu-ni
 take-FORM-AOR-3.IND 1SG.GEN horse-OBJ
 "He/she took my horse."
 
@@ -511,7 +511,7 @@ Vetted: f
 Judgement: u
 Phenomena: poss
 jupikaxti ji kawayuni
-jupi-ka-x-ti ji kawayu-ni
+jupi-ka-x-ti ji kauaiu-ni
 take-FORM-AOR-3.IND 1SG horse-OBJ
 Intended: "He/she took my horse."
 
@@ -521,7 +521,7 @@ Vetted: f
 Judgement: u
 Phenomena: poss
 jupikaxti jiri kawayuni
-jupi-ka-x-ti ji-eri kawayu-ni
+jupi-ka-x-ti ji-eri kauaiu-ni
 take-FORM-AOR-3.IND 1SG-GEN horse-OBJ
 Intended: "He/she took my horse."
 
@@ -530,8 +530,8 @@ Source: toolbox ref 6687 (edited)
 Vetted: s
 Judgement: g
 Phenomena: poss
-juchari sïrankua kanikua k'esïti
-juchaeri sïrankua kani-kua k'e-sï-ti
+juchari sïrankua kanikua k'exti
+juchaeri sïrankua kani-kua k'e-x-ti
 1PL.GEN root much-NMLZR big-AOR-3.IND
 "Our roots are profound (very big)."
 
@@ -540,8 +540,8 @@ Source: toolbox ref 6687 (edited)
 Vetted: f
 Judgement: u
 Phenomena: poss
-jucha sïrankua kanikua k'esïti
-jucha sïrankua kani-kua k'e-sï-ti
+jucha sïrankua kanikua k'exti
+jucha sïrankua kani-kua k'e-x-ti
 1PL root much-NMLZR big-AOR-3.IND
 Intended: "Our roots are profound (very big)."
 
@@ -551,7 +551,7 @@ Vetted: f
 Judgement: g
 Phenomena: poss
 chi kawayu urapixti
-chi kawayu urapi-sï-ti
+chi kauaiu urapi-x-ti
 2SG.GEN horse white-AOR-3.IND
 "Your horse is white."
 
@@ -561,7 +561,7 @@ Vetted: f
 Judgement: u
 Phenomena: poss
 t'u kawayu urapixti
-t'u kawayu urapi-sï-ti
+t'u kauaiu urapi-x-ti
 2SG horse white-AOR-3.IND
 Intended: "Your horse is white."
 
@@ -571,7 +571,7 @@ Vetted: f
 Judgement: u
 Phenomena: poss
 t'ueri kawayu urapixti
-t'u-eri kawayu urapi-sï-ti
+t'u-eri kauaiu urapi-x-ti
 2SG-GEN horse white-AOR-3.IND
 Intended: "Your horse is white."
 
@@ -581,7 +581,7 @@ Vetted: f
 Judgement: g
 Phenomena: poss
 chari kawayu urapixti
-chari kawayu urapi-sï-ti
+chari kauaiu urapi-x-ti
 2PL.GEN horse white-AOR-3.IND
 "Your (y'all's) horse is white."
 
@@ -591,7 +591,7 @@ Vetted: f
 Judgement: u
 Phenomena: poss
 cha kawayu urapixti
-cha kawayu urapi-sï-ti
+cha kauaiu urapi-x-ti
 2PL horse white-AOR-3.IND
 Intended: "Your (y'all's) horse is white."
 
@@ -601,7 +601,7 @@ Vetted: s
 Judgement: g
 Phenomena: poss
 imeri kawayu urapixti
-ima-eri kawayu urapi-sï-ti
+ima-eri kauaiu urapi-x-ti
 DEM.SG-GEN horse white-AOR-3.IND
 "His/her horse is white."
 
@@ -611,7 +611,7 @@ Vetted: s
 Judgement: g
 Phenomena: poss
 tsïmeri kawayu urapixti
-tsïmi-eri kawayu urapi-sï-ti
+tsïmi-eri kauaiu urapi-x-ti
 DEM.PL-GEN horse white-AOR-3.IND
 "His/her horse is white."
 
@@ -620,7 +620,7 @@ Source: adapted from Dominguez dissertation p. 59 (3.1-14a)
 Vetted: s
 Judgement: g
 Phenomena: emb-d
-Pegru wekasti eska Maria pireaka
+Pegru wekaxti eska Maria pireaka
 Pegru ueka-x-ti eska Maria pire-a-ka
 Pedro want-AOR-3.IND SUB Maria sing-DEON-SBJV
 Pedro has wanted Maria to sing [that Maria sings] (ha querido que cante)
@@ -631,8 +631,8 @@ Vetted: s
 Judgement: g
 Phenomena: emb-d
 arhiani eskaksï mayamuapirinka
-arhi-a-ni eska=ksï maiamu-a-pirin-ka
-say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-EPIS-SBJV
+arhi-a-ni eska =ksï maiamu-a-pirin-ka
+say-3PL.OBJ-INF SUB =S1PL pay-3PL.OBJ-EPIS-SBJV
 He told them that he would pay them (les dijo que les pagarían)
 
 #64 SUB: 'eska' - IND mood suffix instead of SBJV
@@ -641,8 +641,8 @@ Vetted: s
 Judgement: u
 Phenomena: emb-d
 arhiani eskaksï mayamuapirinti
-arhi-a-ni eska=ksï maiamu-a-pirin-ti
-say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-EPIS-3.IND
+arhi-a-ni eska =ksï maiamu-a-pirin-ti
+say-3PL.OBJ-INF SUB =S1PL pay-3PL.OBJ-EPIS-3.IND
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
 #65 SUB: 'eska' - INT mood suffix instead of SBJV
@@ -651,8 +651,8 @@ Vetted: f
 Judgement: u
 Phenomena: emb-d
 arhiani eskaksï mayamuapirinki
-arhi-a-ni eska=ksï maiamu-a-pirin-ki
-say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-EPIS-INT
+arhi-a-ni eska =ksï maiamu-a-pirin-ki
+say-3PL.OBJ-INF SUB =S1PL pay-3PL.OBJ-EPIS-INT
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
 #66 SUB: 'eska' - IMP.PL mood suffix instead of SBJV
@@ -661,8 +661,8 @@ Vetted: f
 Judgement: u
 Phenomena: emb-d
 arhiani eskaksï mayamuapirine
-arhi-a-ni eska=ksï maiamu-a-pirin-e
-say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-EPIS-IMP.PL
+arhi-a-ni eska =ksï maiamu-a-pirin-e
+say-3PL.OBJ-INF SUB =S1PL pay-3PL.OBJ-EPIS-IMP.PL
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
 #67 SUB: 'eska' - no mood suffix (or IMP.SG - null morpheme) instead of SBJV
@@ -671,8 +671,8 @@ Vetted: f
 Judgement: u
 Phenomena: emb-d
 arhiani eskaksï mayamuapirin
-arhi-a-ni eska=ksï maiamu-a-pirin
-say-3PL.OBJ-INF SUB=S1PL pay-3PL.OBJ-EPIS
+arhi-a-ni eska =ksï maiamu-a-pirin
+say-3PL.OBJ-INF SUB =S1PL pay-3PL.OBJ-EPIS
 Intended: He told them that he would pay them (les dijo que les pagarían)
 
 #68 SUB: 'eska' - tense-mood reduction in subordinate clauses: AOR.NP -sï -> -ø
@@ -681,7 +681,7 @@ Vetted: f
 Judgement: g
 Phenomena: emb-d
 arhiani eska Maria pirikwani pirika
-arhi-a-ni eska Maria pirikwa-ni piri-ka
+arhi-a-ni eska Maria pirikua-ni piri-ka
 say-3PL.OBJ-INF SUB Maria song-OBJ sing-SBJV
 He says that Maria sings a song.
 
@@ -691,7 +691,7 @@ Vetted: f
 Judgement: g
 Phenomena: emb-d
 arhiani eska Maria pirikwani piripka
-arhi-a-ni eska Maria pirikwa-ni piri-p-ka
+arhi-a-ni eska Maria pirikua-ni piri-p-ka
 say-3PL.OBJ-INF SUB Maria song-OBJ sing-AOR.PST-SBJV
 He says that Maria sang a song.
 
@@ -701,7 +701,7 @@ Vetted: f
 Judgement: g
 Phenomena: emb-d
 arhixati eska Maria pirikwani piri ni jak'a
-arhi-xa-ti eska Maria pirikwa-ni piri-ni ja-k'a
+arhi-xa-ti eska Maria pirikua-ni piri-ni ja-k'a
 say-PROG-3.IND SUB Maria song-OBJ sing-INF AUX-SBJV
 "[He/she/it] is saying that Maria is singing a song."
 
@@ -711,7 +711,7 @@ Vetted: f
 Judgement: u
 Phenomena: emb-d
 arhixati eska Maria pirikwani pirixaka
-arhi-xa-ti eska Maria pirikwa-ni piri-xa-ka
+arhi-xa-ti eska Maria pirikua-ni piri-xa-ka
 say-PROG-3.IND SUB Maria song-OBJ sing-PROG-SBJV
 Intended: "[He/she/it] is saying that Maria is singing a song."
 
@@ -721,7 +721,7 @@ Vetted: f
 Judgement: g
 Phenomena: emb-d
 arhixapti eska Maria pirikwani pirini japk'a
-arhi-xa-p-ti eska Maria pirikwa-ni piri-ni ja-p-k'a
+arhi-xa-p-ti eska Maria pirikua-ni piri-ni ja-p-k'a
 do-PROG-PST-3.IND SUB Maria song-OBJ sing-INF AUX-AOR.PST-SBJV
 "[He/she/it] was saying that Maria had been singing a song."
 
@@ -731,7 +731,7 @@ Vetted: f
 Judgement: g
 Phenomena: cl-mod
 uxapti waxantsïkwa eki Maria pirikwani pirini japk'a
-u-xa-p-ti waʃantsïkwa eki Maria pirikwa-ni piri-ni ja-p-k'a
+u-xa-p-ti uaxantsïkua eki Maria pirikua-ni piri-ni ja-p-k'a
 do-PROG-PST-3.IND seat SUB Maria song-OBJ sing-INF AUX-AOR.PST-SBJV
 "[He/she/it] was making a seat/bench while Maria was singing a song."
 
@@ -741,8 +741,8 @@ Vetted: s
 Judgement: g
 Phenomena: cl-mod
 Pegru wantikuati tsikatani ekari jupirinka
-Pegru uantiku-a-ti tsikata-ni eka=ri ju-pirin-ka
-Pedro kill-DEON-3.IND chicken-OBJ SUB=S2SG come-EPIS-SBJV
+Pegru uantiku-a-ti tsikata-ni eka =ri ju-pirin-ka
+Pedro kill-DEON-3.IND chicken-OBJ SUB =S2SG come-EPIS-SBJV
 "Pedro will slaughter the chicken if you would come."
 
 #75 SUB: 'eki'/'eka' - "if"/when"/"while" (adverbial-temporal/condition)
@@ -750,8 +750,8 @@ Source: adapted from Dominguez dissertation p. 352, (8.4-8 and 9)
 Vetted: f
 Judgement: g
 Phenomena: cl-mod
-imá huráspti éka wékaka
-ima ju-ra-sï-p-ti eka ue-ka-a-ka
+imá huráxpti éka wékaka
+ima ju-ra-x-p-ti eka ue-ka-a-ka
 DEM.SG come-FORM-AOR-PST-3ASER cuando want-FORM-DEON-SBJV
 "He came when(ever)/if he wanted." ("el vino cuando quiera/si quiere")
 
@@ -761,7 +761,7 @@ Vetted: s
 Judgement: g
 Phenomena: cl-mod
 jwata tsakapu kw'ani-ku-xa-p-ti jimpoka jinche-p-ka
-jwata tsakapu k'uani-ku-xa-p-ti jimpoka jinche-p-ka
+juata tsakapu k'uani-ku-xa-p-ti jimpoka jinche-p-ka
 hill stone throw-APPL3O-PROG-PST-ASS3S SUB earthquake-AOR.PST-SBJV
 "The hill was throwing stones because the earth trembled."
 
@@ -770,7 +770,7 @@ Source: eng.txt
 Vetted: f
 Judgement: g
 Phenomena: (translate)
-uichuecha k'uixti
+wichuecha k'wixti
 uichu-echa k'ui-x-ti
 dog-PL sleep-AOR.NP-3.IND
 Dogs sleep
@@ -781,7 +781,7 @@ Vetted: f
 Judgement: g
 Phenomena: (translate)
 uichuecha uirixïnti antankuni motsitarhakwechani
-uichu-echa uiri-xïn-ti anta-ku-ni motsitaɽakwa-echa-ni
+uichu-echa uiri-xïn-ti anta-ku-ni motsitarhakua-echa-ni
 dog-PL run-HAB.NP-3.IND reach-APPL.3O-INF car-PL-OBJ
 Dogs chase cars
 
@@ -790,9 +790,9 @@ Source: eng.txt
 Vetted: f
 Judgement: g
 Phenomena: (translate)
-jikini uirixka antanchini
-ji=kini uiri-x-ka anta-chi-ni
-I=O2SG run-AOR.NP-3.IND reach-APPL.2O-INF
+jikini wirixka antanchini
+ji =kini uiri-x-ka anta-chi-ni
+I =O2SG run-AOR.NP-3.IND reach-APPL.2O-INF
 I chase you
 
 #80 lab6 - translation #18 - DRAFT
@@ -800,8 +800,8 @@ Source: eng.txt
 Vetted: f
 Judgement: g
 Phenomena: (translate - possession)
-uichueri motsitaɽakwa k'uixti
-uichu-eri motsitaɽakwa k'ui-x-ti
+wichueri motsitarhakwa k'wixti
+uichu-eri motsitarhakua k'ui-x-ti
 dog-GEN car sleep-AOR.NP-3.IND
 The dog s car sleeps
 
@@ -810,7 +810,7 @@ Source: eng.txt
 Vetted: f
 Judgement: g
 Phenomena: (translate - possession)
-juchi uichuecha k'uixti
+juchi wichuecha k'wixti
 juchi uichu-echa k'ui-x-ti
 1SG.GEN dog-PL sleep-AOR.NP-3.IND
 My dogs sleep
@@ -820,7 +820,7 @@ Source: eng.txt
 Vetted: f
 Judgement: g
 Phenomena: (translate - clausal complements)
-ji eratsixka eskiri mika eska uichuecha uirixïnka antakuni motsitaɽakwaechani
-ji eratsi-x-ka eski=ri mi-ka eska uichu-echa uiri-xïn-ka anta-ku-ni motsitaɽakwa-echa-ni
-S1SG think-AOR.NP-1/2.IND SUB=S2SG know-AOR.NP.SBJV SUB dog-PL run-HAB.NP-SBJV reach-APPL.3O-INF car-PL-OBJ
+ji eratsixka eskiri mika eska wichuecha wirixïnka antakuni motsitarhakwaechani
+ji eratsi-x-ka eski =ri mi-ka eska uichu-echa uiri-xïn-ka anta-ku-ni motsitarhakua-echa-ni
+S1SG think-AOR.NP-1/2.IND SUB =S2SG know-AOR.NP.SBJV SUB dog-PL run-HAB.NP-SBJV reach-APPL.3O-INF car-PL-OBJ
 I think that you know that dogs chase cars
