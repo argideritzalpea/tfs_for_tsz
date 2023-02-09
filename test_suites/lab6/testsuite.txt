@@ -101,7 +101,7 @@ Vetted: f
 Judgment: g
 Phenomena: aspect
 yurhirhi echu-nu-x-ti
-jurhiri echu-nu-x-ti
+yurhiri echu-nu-x-ti
 blood CL.flat-patio-AOR-3.IND
 Context: I found some drops of blood on the patio. Intended:'There are drops of blood lying on the patio'/'There is blood on the patio'
 
