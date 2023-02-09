@@ -280,8 +280,8 @@ Source: ref 3421 in tsz_toolbox.txt
 Vetted: s
 Judgment: g
 Phenomena: agreement
-hinkonikwa-ti-itʃa tʰiri-ʃïn-ti
-hinkonikwa-ti-etʃa tʰire-sïn-ti
+hinkonikwa-ti-itʃa tʰiri-xïn-ti
+hinkonikwa-ti-etʃa tʰire-xïn-ti
 sister-2.POSS-PL eat-HAB-3.IND
 Your sisters eat
 
@@ -310,8 +310,8 @@ Source: toolbox ref 3484 (edited)
 Vetted: s
 Judgment: g
 Phenomena: aspect
-piri-ʃïn-ti
-piri-sïn-ti
+piri-xïn-ti
+piri-xïn-ti
 sing-HAB-3.IND
 He sings (habitually, commonly). ('El canta/el tiene la costumbre de cantar')
 
@@ -440,8 +440,8 @@ Source: ref 4287 in tsz_toolbox
 Vetted: f
 Judgement: g
 Phenomena: agreement
-nompe we-ʃïn-ka-ni
-nompe ueka-sïn-ka-ni
+nompe we-xïn-ka-ni
+nompe ueka-xïn-ka-ni
 NEG want-HAB-1/2.IND-OBJ
 I don't want anything
 
@@ -777,11 +777,11 @@ Dogs sleep
 
 #78 lab5 - translation #2; n.b.: word for chase literally means "running to reach [someone]" - requires infinitival complement. refer to toolbox 4956; also, should we maybe break up car into  motsi -tara -kua : change.location.v -CAUS -NMLZR (see toolbox ref 3776) ?
 Source: eng.txt
-Vetted: ff
+Vetted: f
 Judgement: g
 Phenomena: (translate)
-uichuecha uirisïnti antankuni motsitarhakwechani
-uichu-echa uiri-sïn-ti anta-ku-ni motsitaɽakwa-echa-ni
+uichuecha uirixïnti antankuni motsitarhakwechani
+uichu-echa uiri-xïn-ti anta-ku-ni motsitaɽakwa-echa-ni
 dog-PL run-HAB.NP-3.IND reach-APPL.3O-INF car-PL-OBJ
 Dogs chase cars
 
