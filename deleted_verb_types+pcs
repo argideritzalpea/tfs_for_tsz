@@ -1,5 +1,5 @@
-verb-pc(5|6|16|20|21|33|35|4([2-4]|[67])|91|104|142|149|158|171|179|189|192|193)\b
-verb(18|304|457|478|513|536|622)\b
+verb-pc(5|6|13|16|20|21|25|27|33|35|40|42|43|44|46|47|49|51|57|60|61|80|83|86|91|102|104|116|12[1-4]|131|142|149|151|152|158|165|171|179|188|189|192|193|200|201|203|206|209)\b
+verb(18|24|138|455|457|478|494|513|536|622)\b
 
 22 PC's
 38 LRTs
@@ -18,10 +18,31 @@ verb-pc159_inputs=verb8, verb12, verb21, verb27, verb31, verb32, verb42, verb60,
 ==========================
 
 Verbs
-  verb304_stem130_orth=niara
-  verb304_stem130_pred=_arrive-or-arrivethere_v_rel
-  verb304_stem137_orth=nya
-  verb304_stem137_pred=_arrive_v_rel
+  verb24_name=verb24
+  verb24_valence=trans
+    verb24_stem1_orth=ampe~
+    verb24_stem1_pred=_neg_v_rel
+
+  verb138_name=verb138
+    verb138_feat1_name=case
+    verb138_feat1_value=nom
+    verb138_feat1_head=subj
+    verb138_feat2_name=case
+    verb138_feat2_value=acc
+    verb138_feat2_head=obj
+  verb138_valence=trans
+    verb138_stem1_orth=haka
+    verb138_stem1_pred=_believe_v_rel
+
+    verb304_stem130_orth=niara
+    verb304_stem130_pred=_arrive-or-arrivethere_v_rel
+      verb304_stem137_orth=nya
+      verb304_stem137_pred=_arrive_v_rel
+
+  verb455_name=verb455
+  verb455_valence=trans
+    verb455_stem1_orth=niyachataperanshe~
+    verb455_stem1_pred=_none_v_rel
 
   verb457_name=verb457
   verb457_valence=trans
@@ -32,6 +53,33 @@ Verbs
   verb478_valence=trans
     verb478_stem1_orth=p'iku~
     verb478_stem1_pred=_iter_v_rel
+
+  verb494_name=verb494
+    verb494_feat1_name=case
+    verb494_feat1_value=nom
+    verb494_feat1_head=subj
+    verb494_feat2_name=case
+    verb494_feat2_value=acc
+    verb494_feat2_head=obj
+  verb494_valence=trans
+    verb494_stem1_orth=pame
+    verb494_stem1_pred=_sick_v_rel
+    verb494_stem2_orth=vecatzenchamani
+    verb494_stem2_pred=_none_v_rel
+    verb494_stem3_orth=tsʰiumpe
+    verb494_stem3_pred=_pointy_v_rel
+    verb494_stem4_orth=hatsi
+    verb494_stem4_pred=_put_v_rel
+    verb494_stem5_orth=namuni
+    verb494_stem5_pred=_how.many_v_rel
+    verb494_stem6_orth=sonesi
+    verb494_stem6_pred=_sones_v_rel
+    verb494_stem7_orth=tseta
+    verb494_stem7_pred=_hurt_v_rel
+    verb494_stem8_orth=hopo
+    verb494_stem8_pred=_wash_v_rel
+    verb494_stem9_orth=tseka
+    verb494_stem9_pred=_dig_v_rel
 
   verb513_name=verb513
     verb513_feat1_name=case
@@ -89,6 +137,16 @@ Verb PC's
       verb-pc6_lrt1_lri1_inflecting=yes
       verb-pc6_lrt1_lri1_orth=-sï
 
+  verb-pc13_name=verb-pc13
+  verb-pc13_order=suffix
+  verb-pc13_inputs=verb-pc10, verb-pc14, verb304, verb-pc50, verb-pc117, verb21
+  verb-pc13_lrt1_name=verb-pc13_lrt1
+    verb-pc13_lrt1_feat1_name=tense
+    verb-pc13_lrt1_feat1_value=past
+    verb-pc13_lrt1_feat1_head=verb
+    verb-pc13_lrt1_lri1_inflecting=yes
+    verb-pc13_lrt1_lri1_orth=-pʰi
+
   verb-pc16_name=verb-pc16
   verb-pc16_order=suffix
   verb-pc16_inputs=verb257, verb-pc15, verb304
@@ -125,6 +183,13 @@ Verb PC's
     verb-pc21_lrt2_name=verb-pc21_lrt2
       verb-pc21_lrt2_lri1_inflecting=yes
       verb-pc21_lrt2_lri1_orth=-ri
+
+  verb-pc25_name=verb-pc25
+  verb-pc25_order=suffix
+  verb-pc25_inputs=verb385, verb21, verb-pc30, verb-pc38, verb42, verb304, verb-pc51, verb-pc89, verb-pc101, verb-pc118
+    verb-pc25_lrt1_name=verb-pc25_lrt1
+      verb-pc25_lrt1_lri1_inflecting=yes
+      verb-pc25_lrt1_lri1_orth=-n
 
   verb-pc33_name=verb-pc33
   verb-pc33_obligatory=on
@@ -176,7 +241,17 @@ Verb PC's
       verb-pc35_lrt4_feat1_value=2nd
       verb-pc35_lrt4_feat1_head=subj
       verb-pc35_lrt4_lri1_inflecting=no
-      
+
+  verb-pc40_name=verb-pc40
+  verb-pc40_order=suffix
+  verb-pc40_inputs=verb-pc2, verb-pc67, verb-pc68, verb-pc153, verb-pc77, verb-pc85, verb-pc86, verb-pc151, verb-pc57
+    verb-pc40_lrt1_name=verb-pc40_lrt1
+      verb-pc40_lrt1_feat1_name=aspect
+      verb-pc40_lrt1_feat1_value=aor
+      verb-pc40_lrt1_feat1_head=verb
+      verb-pc40_lrt1_lri1_inflecting=yes
+      verb-pc40_lrt1_lri1_orth=-sï
+
   verb-pc42_name=verb-pc42
   verb-pc42_obligatory=on
   verb-pc42_order=suffix
@@ -252,6 +327,22 @@ Verb PC's
       verb-pc49_lrt1_lri1_inflecting=yes
       verb-pc49_lrt1_lri1_orth==e
 
+  verb-pc51_name=verb-pc51
+  verb-pc51_order=suffix
+  verb-pc51_inputs=verb21, verb31, verb32, verb272, verb304, verb595, verb621, verb-pc14
+    verb-pc51_lrt1_name=verb-pc51_lrt1
+      verb-pc51_lrt1_lri1_inflecting=yes
+      verb-pc51_lrt1_lri1_orth=-tsi
+
+  verb-pc57_name=verb-pc57
+  verb-pc57_order=suffix
+  verb-pc57_inputs=verb24, verb-pc31
+  verb-pc57_lrt1_name=verb-pc57_lrt1
+    verb-pc57_lrt1_feat1_name=tense
+    verb-pc57_lrt1_feat1_value=past
+    verb-pc57_lrt1_feat1_head=verb
+    verb-pc57_lrt1_lri1_inflecting=yes
+    verb-pc57_lrt1_lri1_orth=-pʰi
 
   verb-pc60_name=verb-pc60
   verb-pc60_obligatory=on
@@ -269,6 +360,17 @@ Verb PC's
       verb-pc60_lrt2_feat1_head=subj
       verb-pc60_lrt2_lri1_inflecting=no
 
+  verb-pc61_name=verb-pc61
+  verb-pc61_order=suffix
+  verb-pc61_inputs=verb-pc1, verb-pc4, verb-pc10, verb-pc14, verb21, verb-pc26, verb-pc156, verb-pc29, verb-pc30, verb-pc28, verb27, verb-pc37, verb-pc38, verb304, verb436, verb-pc56, verb-pc62, verb-pc63, verb-pc68, verb-pc98, verb621
+    verb-pc61_lrt1_name=verb-pc61_lrt1
+      verb-pc61_lrt1_lri1_inflecting=yes
+      verb-pc61_lrt1_lri1_orth=-san
+      verb-pc61_lrt1_lri2_inflecting=yes
+      verb-pc61_lrt1_lri2_orth=-sïram
+      verb-pc61_lrt1_lri3_inflecting=yes
+      verb-pc61_lrt1_lri3_orth=-sïren
+
     verb-pc77_lrt4_name=verb-pc77_lrt4
       verb-pc77_lrt4_feat1_name=person
       verb-pc77_lrt4_feat1_value=2nd
@@ -279,6 +381,41 @@ Verb PC's
       verb-pc77_lrt4_lri1_inflecting=yes
       verb-pc77_lrt4_lri1_orth==ts'ï
 
+    verb-pc77_lrt2_name=verb-pc77_lrt2
+      verb-pc77_lrt2_feat1_name=mood
+      verb-pc77_lrt2_feat1_value=epis
+      verb-pc77_lrt2_feat1_head=verb
+      verb-pc77_lrt2_lri1_inflecting=yes
+      verb-pc77_lrt2_lri1_orth=-pirin
+    verb-pc77_lrt3_name=verb-pc77_lrt3
+      verb-pc77_lrt3_feat1_name=aspect
+      verb-pc77_lrt3_feat1_value=hab
+      verb-pc77_lrt3_feat1_head=verb
+      verb-pc77_lrt3_lri1_inflecting=yes
+      verb-pc77_lrt3_lri1_orth=-sïn
+    verb-pc77_lrt5_name=verb-pc77_lrt5
+      verb-pc77_lrt5_feat1_name=number
+      verb-pc77_lrt5_feat1_value=sg
+      verb-pc77_lrt5_feat1_head=subj
+      verb-pc77_lrt5_lri1_inflecting=no
+
+  verb-pc83_name=verb-pc83
+  verb-pc83_order=suffix
+  verb-pc83_inputs=verb-pc7, verb-pc201
+    verb-pc83_lrt1_name=verb-pc83_lrt1
+      verb-pc83_lrt1_feat1_name=tense
+      verb-pc83_lrt1_feat1_value=past
+      verb-pc83_lrt1_feat1_head=verb
+      verb-pc83_lrt1_lri1_inflecting=yes
+      verb-pc83_lrt1_lri1_orth=-p
+
+  verb-pc86_name=verb-pc86
+  verb-pc86_order=suffix
+  verb-pc86_inputs=verb105, verb154, verb304, verb-pc14, verb-pc31, verb-pc34
+    verb-pc86_lrt1_name=verb-pc86_lrt1
+      verb-pc86_lrt1_lri1_inflecting=yes
+      verb-pc86_lrt1_lri1_orth=-i
+
   verb-pc91_name=verb-pc91
   verb-pc91_order=suffix
   verb-pc91_inputs=verb163, verb362, verb-pc203, verb304, verb-pc188, verb157
@@ -288,13 +425,91 @@ Verb PC's
       verb-pc91_lrt1_feat1_head=verb
       verb-pc91_lrt1_lri1_inflecting=yes
       verb-pc91_lrt1_lri1_orth=-pʰera
-  
+
+  verb-pc102_name=v-desiderative-pc
+  verb-pc102_order=suffix
+  verb-pc102_inputs=verb-pc31
+    verb-pc102_lrt1_name=v-desiderative-suffix
+      verb-pc102_lrt1_lri1_inflecting=yes
+      verb-pc102_lrt1_lri1_orth=-ncha
+
+  verb-pc104_name=verb-pc104
+  verb-pc104_order=suffix
+  verb-pc104_inputs=verb-pc7, verb-pc77, verb-pc152, verb-pc57, verb410, verb-pc27, verb-pc156, verb-pc62
+    verb-pc104_lrt1_name=verb-pc104_lrt1
+      verb-pc104_lrt1_lri1_inflecting=yes
+      verb-pc104_lrt1_lri1_orth=-kua
+      verb-pc104_lrt1_lri2_inflecting=yes
+      verb-pc104_lrt1_lri2_orth=-a
+      verb-pc104_lrt1_lri3_inflecting=yes
+      verb-pc104_lrt1_lri3_orth==teru
+
+  verb-pc116_name=verb-pc116
+  verb-pc116_order=suffix
+  verb-pc116_inputs=verb-pc2, verb-pc11, verb620, verb304, verb-pc18, verb-pc85, verb-pc29
+    verb-pc116_lrt1_name=verb-pc116_lrt1
+      verb-pc116_lrt1_lri1_inflecting=yes
+      verb-pc116_lrt1_lri1_orth==kutʃʰe
+    verb-pc116_lrt2_name=verb-pc116_lrt2
+      verb-pc116_lrt2_feat1_name=person
+      verb-pc116_lrt2_feat1_value=2nd
+      verb-pc116_lrt2_feat1_head=subj
+      verb-pc116_lrt2_feat2_name=number
+      verb-pc116_lrt2_feat2_value=pl
+      verb-pc116_lrt2_feat2_head=subj
+      verb-pc116_lrt2_lri1_inflecting=yes
+      verb-pc116_lrt2_lri1_orth==tsʰï
+    verb-pc116_lrt3_name=verb-pc116_lrt3
+      verb-pc116_lrt3_feat1_name=number
+      verb-pc116_lrt3_feat1_value=sg
+      verb-pc116_lrt3_feat1_head=subj
+      verb-pc116_lrt3_lri1_inflecting=no
+
+  verb-pc121_name=verb-pc121
+  verb-pc121_order=suffix
+  verb-pc121_inputs=verb138
+    verb-pc121_lrt1_name=verb-pc121_lrt1
+      verb-pc121_lrt1_lri1_inflecting=yes
+      verb-pc121_lrt1_lri1_orth=-kʰu
+
   verb-pc122_name=verb-pc122
   verb-pc122_order=suffix
   verb-pc122_inputs=verb-pc34, verb-pc10, verb-pc11, verb-pc14, verb-pc20, verb154
     verb-pc122_lrt1_name=verb-pc122_lrt1
       verb-pc122_lrt1_lri1_inflecting=yes
       verb-pc122_lrt1_lri1_orth=-ø
+
+  verb-pc123_name=verb-pc123
+  verb-pc123_order=suffix
+  verb-pc123_inputs=verb494
+    verb-pc123_lrt1_name=verb-pc123_lrt1
+      verb-pc123_lrt1_lri1_inflecting=yes
+      verb-pc123_lrt1_lri1_orth=-tʃʰu
+      verb-pc123_lrt1_lri2_inflecting=yes
+      verb-pc123_lrt1_lri2_orth=-tu
+
+  verb-pc124_name=verb-pc124
+  verb-pc124_order=suffix
+  verb-pc124_inputs=verb304, verb159
+    verb-pc124_lrt1_name=verb-pc124_lrt1
+      verb-pc124_lrt1_lri1_inflecting=yes
+      verb-pc124_lrt1_lri1_orth==re
+
+  verb-pc131_name=verb-pc131
+  verb-pc131_order=suffix
+  verb-pc131_inputs=verb-pc7, verb-pc141, verb-pc45, verb-pc83, verb-pc116
+    verb-pc131_lrt1_name=verb-pc131_lrt1
+      verb-pc131_lrt1_feat1_name=person
+      verb-pc131_lrt1_feat1_value=3rd
+      verb-pc131_lrt1_feat1_head=subj
+      verb-pc131_lrt1_feat2_name=number
+      verb-pc131_lrt1_feat2_value=sg
+      verb-pc131_lrt1_feat2_head=subj
+      verb-pc131_lrt1_feat3_name=mood
+      verb-pc131_lrt1_feat3_value=ind
+      verb-pc131_lrt1_feat3_head=verb
+      verb-pc131_lrt1_lri1_inflecting=yes
+      verb-pc131_lrt1_lri1_orth=-ti
 
   verb-pc142_name=verb-pc142
   verb-pc142_order=suffix
@@ -323,12 +538,40 @@ Verb PC's
       verb-pc149_lrt1_lri1_inflecting=yes
       verb-pc149_lrt1_lri1_orth==chka
 
+    verb-pc153_lrt2_name=verb-pc153_lrt2
+      verb-pc153_lrt2_feat1_name=aspect
+      verb-pc153_lrt2_feat1_value=prog
+      verb-pc153_lrt2_feat1_head=verb
+      verb-pc153_lrt2_lri1_inflecting=yes
+      verb-pc153_lrt2_lri1_orth=-xa
+    verb-pc153_lrt2_name=verb-pc153_lrt2
+      verb-pc153_lrt2_feat1_name=mood
+      verb-pc153_lrt2_feat1_value=recip
+      verb-pc153_lrt2_feat1_head=verb
+      verb-pc153_lrt2_lri1_inflecting=yes
+      verb-pc153_lrt2_lri1_orth=-pʰera
+
+  verb-pc152_name=verb-pc152
+  verb-pc152_order=suffix
+  verb-pc152_inputs=verb-pc62
+    verb-pc152_lrt1_name=verb-pc152_lrt1
+      verb-pc152_lrt1_lri1_inflecting=yes
+      verb-pc152_lrt1_lri1_orth=-n
+
   verb-pc158_name=verb-pc158
   verb-pc158_order=suffix
   verb-pc158_inputs=verb358, verb750, verb272, verb21
     verb-pc158_lrt1_name=verb-pc158_lrt1
       verb-pc158_lrt1_lri1_inflecting=yes
       verb-pc158_lrt1_lri1_orth=-sku
+
+  (combined with 164)
+  verb-pc165_name=verb-pc165
+  verb-pc165_order=suffix
+  verb-pc165_inputs=verb-pc51
+    verb-pc165_lrt1_name=verb-pc165_lrt1
+      verb-pc165_lrt1_lri1_inflecting=yes
+      verb-pc165_lrt1_lri1_orth=-mu
 
   verb-pc171_name=verb-pc171
   verb-pc171_order=suffix
@@ -358,6 +601,13 @@ Verb PC's
       verb-pc172_lrt1_lri2_inflecting=yes
       verb-pc172_lrt1_lri2_orth=-echa
 
+  verb-pc188_name=verb-pc188
+  verb-pc188_order=suffix
+  verb-pc188_inputs=verb455
+    verb-pc188_lrt1_name=verb-pc188_lrt1
+      verb-pc188_lrt1_lri1_inflecting=yes
+      verb-pc188_lrt1_lri1_orth=-tʃata
+
   verb-pc189_name=verb-pc189
   verb-pc189_order=suffix
   verb-pc189_inputs=verb457
@@ -384,3 +634,34 @@ Verb PC's
       verb-pc193_lrt1_feat1_head=verb
       verb-pc193_lrt1_lri1_inflecting=yes
       verb-pc193_lrt1_lri1_orth=-sï
+  
+  verb-pc200
+
+  verb-pc201_name=verb-pc201
+  verb-pc201_order=suffix
+  verb-pc201_inputs=verb-pc141
+    verb-pc201_lrt1_name=verb-pc201_lrt1
+      verb-pc201_lrt1_lri1_inflecting=yes
+      verb-pc201_lrt1_lri1_orth=-sïren
+
+
+  verb-pc203_name=verb-pc203
+  verb-pc203_order=suffix
+  verb-pc203_inputs=verb27
+    verb-pc203_lrt1_name=verb-pc203_lrt1
+      verb-pc203_lrt1_lri1_inflecting=yes
+      verb-pc203_lrt1_lri1_orth=-pesï
+
+  verb-pc206_name=verb-pc206
+  verb-pc206_order=suffix
+  verb-pc206_inputs=verb604
+    verb-pc206_lrt1_name=verb-pc206_lrt1
+      verb-pc206_lrt1_lri1_inflecting=yes
+      verb-pc206_lrt1_lri1_orth=-xa
+
+  verb-pc209_name=verb-pc209
+  verb-pc209_order=suffix
+  verb-pc209_inputs=verb494
+    verb-pc209_lrt1_name=verb-pc209_lrt1
+      verb-pc209_lrt1_lri1_inflecting=yes
+      verb-pc209_lrt1_lri1_orth=-tʃʰa
