@@ -40,8 +40,8 @@ PNG.PER : PER
   3rd <> third
   2nd <> second
   1st <> first
-  * <> *
-  ! << *
+  * >> *
+  ! <> *
 
 PNG.NUM : NUM
   sg <> sg
