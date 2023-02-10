@@ -824,3 +824,14 @@ ji eratsixka eskiri mika eska wichuecha wirixïnka antakuni motsitarhakwaechani
 ji eratsi-x-ka eski =ri mi-ka eska wichu-echa wiri-xïn-ka anta-ku-ni motsitarhakwa-echa-ni
 S1SG think-AOR.NP-1/2.IND SUB =S2SG know-AOR.NP.SBJV SUB dog-PL run-HAB.NP-SBJV reach-APPL.3O-INF car-PL-OBJ
 I think that you know that dogs chase cars
+
+
+#83 lab6 - embedded interrogative, converted from Foster
+Source: Foster, pg.57
+Vetted: f
+Judgement: g
+Phenomena: emb-d
+ka ixu =tsïni kurhamarhi-ni aberi na=ksï uera-pi k'wintse-ni
+ka ixu =tsïni kurhamarhi-ni aberi na=ksï uera-pi k'wintse-ni
+CONJ here =O1PL ask-INF to.see how=S1PL go.out-INTER party-INF
+And here asking us about how we went out partying.
