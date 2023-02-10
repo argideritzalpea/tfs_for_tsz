@@ -54,16 +54,6 @@ PNG.NUM : NUM
 PNG.GEND : GEND
   * <> *
 
-E.TENSE : TENSE
-  past <> past
-  nonpast <> nonpast
-  nonpast << present
-  nonpast << future
-  tense+ <> tensed
-  tense- <> untensed
-  * >> nonpast
-  nonpast << [e]
-
 E.ASPECT : ASPECT
   aor <> aor
   hab <> hab
@@ -78,34 +68,35 @@ E.ASPECT : ASPECT
   aor << *
   * >> asp-
 
-E.MOOD : MOOD
-  ind_irr+ <> ind_irr+
-  ind_irr- <> ind_irr-
-  ind <> ind
-  int_irr+ <> int_irr+
-  int_irr- <> int_irr-
-  int <> int
-  ind+int <> ind+int
-  imp <> imp
-  excl <> excl
-  imp+excl <> imp+excl
-  mood+ <> mood+
-  mood- <> mood-
-  ind_irr+ <> ind_irr+
-  int_irr+ <> int_irr+
-  deon <> deon
-  epis <> epis
-  irr+ <> irr+
-  imp <> imp
-  excl <> excl
-  imp+excl <> imp+excl
-  ind_irr- <> ind_irr-
-  int_irr- <> int_irr-
-  irr- <> irr-
-  * <> *
-
 E.TENSE E.MOOD : TENSE MOOD
 nonpast deon <> future *
-nonpast * << present *
-past * <> past *
+* ind_irr+ <> * ind_irr+
+* ind_irr- <> * ind_irr-
+* ind <> * ind
+* int_irr+ <> * int_irr+
+* int_irr- <> * int_irr-
+* int <> * int
+* ind+int <> * ind+int
+* imp <> * imp
+* excl <> * excl
+* imp+excl <> * imp+excl
+* mood+ <> * mood+
+* mood- <> * mood-
+* ind_irr+ <> * ind_irr+
+* int_irr+ <> * int_irr+
+* deon <> * deon
+* epis <> * epis
+* irr+ <> * irr+
+* imp <> * imp
+* excl <> * excl
+* imp+excl <> * imp+excl
+* ind_irr- <> * ind_irr-
+* int_irr- <> * int_irr-
+* irr- <> * irr-
+nonpast mood- << present *
+past mood- << past *
+nonpast mood- << [e] *
+nonpast * >> present *
+past * >> past *
+nonpast * >> [e] *
 * * <> * *
