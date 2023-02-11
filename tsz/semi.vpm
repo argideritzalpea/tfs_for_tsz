@@ -60,9 +60,14 @@ E.ASPECT : ASPECT
 
 E.MOOD E.TENSE : MOOD TENSE
 deon nonpast <> * future
+deon tense+ <> * future
+deon tense <> * future
 
 E.TENSE : TENSE
 nonpast << present
 past <> past
 nonpast << [e]
+nonpast <> nonpast
+tense+ <> tense+
+tense <> tense
 * <> *

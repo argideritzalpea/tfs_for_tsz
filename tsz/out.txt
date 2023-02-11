@@ -1,0 +1,5 @@
+user@0fd31f5133a1:~/mmt$ ./translate-line.sh tsz eng 1
+NOTE: 2 readings, added 59 / 32 edges to chart (12 fully instantiated, 9 actives used, 5 passives used)	RAM: 725k
+atomic_dg: no such type as `tense+'
+NOTE: parsed 1 / 1 sentences, avg 725k, time 0.01476s
+NOTE: transfer did 0 successful unifies and 0 failed ones
