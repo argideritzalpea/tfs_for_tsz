@@ -71,7 +71,7 @@ Vetted: s
 Judgment: g
 Phenomena: aspect
 hu-rha-x-ti
-hu-ra-x-ti
+ju-ra-x-ti
 come-FORM-AOR-3.IND
 unknown/unvetted ((He has come))
 
@@ -281,7 +281,7 @@ Vetted: s
 Judgment: g
 Phenomena: agreement
 hinkonikua-ti-icha t'iri-xïn-ti
-hinkonikua-ti-echa t'ire-xïn-ti
+jinkonikua-ti-echa t'ire-xïn-ti
 sister-2.POSS-PL eat-HAB-3.IND
 Your sisters eat
 
@@ -402,8 +402,8 @@ Judgement: g
 Phenomena: case
 Pegru pirixka
 Pegru piri-x-ti
-Pedro think-AOR-3.IND
-"Pedro thought."
+Pedro sing-AOR-3.IND
+"Pedro sings."
 
 #41
 Source: adapted from toolbox 3485 - intrans v + NOM subject
@@ -412,8 +412,8 @@ Judgement: u
 Phenomena: case
 Pegruni pirixka
 Pegru-ni piri-x-ti
-Pedro-OBJ think-AOR-3.IND
-"Pedro thought."
+Pedro-OBJ sing-AOR-3.IND
+"Pedro sung."
 
 #42
 Source: ref 3602 in tsz_toolbox
@@ -450,9 +450,9 @@ Source: ref 4102 in tsz_toolbox
 Vetted: s
 Judgement: g
 Phenomena: case
-hatsi-ku-ø sani-titu itukwa churipu
-hatsi-ku-ø sani-tu itukua churhipu
-have-APPL.3O-IMPRTV2 little-DIM salt soup
+hatsi-ku sani-titu itukwa churipu
+jatsi-ku sani-tu itukua churhipu
+have-APPL.3O.IMP little-DIM salt soup
 'Put a little salt in the soup'  (needs ni after the IO)
 
 #46
@@ -461,7 +461,7 @@ Vetted: s
 Judgement: u
 Phenomena: case
 hatsi-ku-ø sani-titu itukwa churipu-ni
-hatsi-ku-ø sani-tu itukua churhipu-ni
+jatsi-ku-ø sani-tu itukua churhipu-ni
 have-APPL.3O-IMPRTV2 little-DIM salt soup-OBJ
 'Put a little salt in the soup' (DObj -ni is optional in free variation if not ditransitive (Foster pg.71))
 
@@ -621,9 +621,9 @@ Vetted: s
 Judgement: g
 Phenomena: emb-d
 Pegru wekaxti eska Maria pireaka
-Pegru ueka-x-ti eska Maria pire-a-ka
-Pedro want-AOR-3.IND SUB Maria sing-DEON-SBJV
-Pedro has wanted Maria to sing [that Maria sings] (ha querido que cante)
+Pegru ue-ka-x-ti eska Maria pire-a-ka
+Pedro want-FORM-AOR-3.IND SUB Maria sing-DEON-SBJV
+Pedro (has) wanted Maria to sing [that Maria sings] (ha querido que cante)
 
 #63 SUB: 'eska' - can head a CC of a non-finite verb (original: ueka-s-ø-ka=ni eska=ri pire-a-ka (has -ø for non-past))
 Source: Dominguez dissertation p. 361 (8.4-23a)
