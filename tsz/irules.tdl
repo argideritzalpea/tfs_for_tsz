@@ -18,10 +18,6 @@ case_loc-suffix1 :=
 case_loc-lex-rule.
 
 case_loc-suffix2 :=
-%suffix (* -ɽu)
-case_loc-lex-rule.
-
-case_loc-suffix3 :=
 %suffix (* -o)
 case_loc-lex-rule.
 
@@ -65,12 +61,8 @@ noun-pc2_lrt2-suffix2 :=
 %suffix (* -tʃani)
 noun-pc2_lrt2-lex-rule.
 
-noun-plural-suffix-suffix1 :=
+noun-plural-suffix-suffix :=
 %suffix (* -echa)
-noun-plural-suffix-lex-rule.
-
-noun-plural-suffix-suffix2 :=
-%suffix (* -etʃa)
 noun-plural-suffix-lex-rule.
 
 noun-pc7_lrt1-suffix :=
@@ -101,10 +93,6 @@ noun-pc32_lrt1-suffix :=
 %suffix (* -ti)
 noun-pc32_lrt1-lex-rule.
 
-noun-pc34_lrt1-suffix :=
-%suffix (* -kwa)
-noun-pc34_lrt1-lex-rule.
-
 noun-pc35_lrt1-suffix1 :=
 %suffix (* -nchi)
 noun-pc35_lrt1-lex-rule.
@@ -112,10 +100,6 @@ noun-pc35_lrt1-lex-rule.
 noun-pc35_lrt1-suffix2 :=
 %suffix (* -tsi)
 noun-pc35_lrt1-lex-rule.
-
-noun-pc37_lrt1-suffix :=
-%suffix (* -xe)
-noun-pc37_lrt1-lex-rule.
 
 noun-pc39_lrt1-suffix1 :=
 %suffix (* -nu)
@@ -197,10 +181,6 @@ noun-pc91_lrt1-suffix :=
 %suffix (* -hku)
 noun-pc91_lrt1-lex-rule.
 
-noun-pc93_lrt1-suffix :=
-%suffix (* -k'u)
-noun-pc93_lrt1-lex-rule.
-
 noun-pc95_lrt1-prefix :=
 %prefix (* wan-)
 noun-pc95_lrt1-lex-rule.
@@ -208,10 +188,6 @@ noun-pc95_lrt1-lex-rule.
 noun-pc96_lrt1-suffix :=
 %suffix (* -sï)
 noun-pc96_lrt1-lex-rule.
-
-noun-pc97_lrt1-suffix :=
-%suffix (* -kwaɽo)
-noun-pc97_lrt1-lex-rule.
 
 v-stem-bipart+ka-suffix :=
 %suffix (* -ka)
@@ -237,33 +213,33 @@ tam1-aorist-mc-suffix4 :=
 %suffix (* -sï)
 tam1-aorist-mc-lex-rule.
 
-tam1-habitual-form_sin-suffix1 :=
+tam1-habitual-form_xin-suffix1 :=
 %suffix (* -xïn)
-tam1-habitual-form_sin-lex-rule.
+tam1-habitual-form_xin-lex-rule.
 
-tam1-habitual-form_sin-suffix2 :=
+tam1-habitual-form_xin-suffix2 :=
 %suffix (* -ʃïn)
-tam1-habitual-form_sin-lex-rule.
+tam1-habitual-form_xin-lex-rule.
 
-tam1-habitual-form_sin-suffix3 :=
+tam1-habitual-form_xin-suffix3 :=
 %suffix (* -sïn)
-tam1-habitual-form_sin-lex-rule.
+tam1-habitual-form_xin-lex-rule.
 
-tam1-habitual-past-form_siren-suffix1 :=
+tam1-habitual-past-form_xiren-suffix1 :=
 %suffix (* -xïren)
-tam1-habitual-past-form_siren-lex-rule.
+tam1-habitual-past-form_xiren-lex-rule.
 
-tam1-habitual-past-form_siren-suffix2 :=
+tam1-habitual-past-form_xiren-suffix2 :=
 %suffix (* -ʃïren)
-tam1-habitual-past-form_siren-lex-rule.
+tam1-habitual-past-form_xiren-lex-rule.
 
-tam1-habitual-past-form_siren-suffix3 :=
+tam1-habitual-past-form_xiren-suffix3 :=
 %suffix (* -sïren)
-tam1-habitual-past-form_siren-lex-rule.
+tam1-habitual-past-form_xiren-lex-rule.
 
-tam1-habitual-past-form_siren-suffix4 :=
+tam1-habitual-past-form_xiren-suffix4 :=
 %suffix (* -sïram)
-tam1-habitual-past-form_siren-lex-rule.
+tam1-habitual-past-form_xiren-lex-rule.
 
 tam1-progressive-mc-suffix1 :=
 %suffix (* -xa)
@@ -297,9 +273,17 @@ tam2-hab-past-subord-suffix :=
 %suffix (* -am)
 tam2-hab-past-subord-lex-rule.
 
-tam3-subord-check-suffix :=
+tam2-deon-suffix :=
+%suffix (* -a)
+tam2-deon-lex-rule.
+
+tam2-epis-suffix :=
+%suffix (* -pirin)
+tam2-epis-lex-rule.
+
+tam3-fin-subord-suffix :=
 %suffix (* -ka)
-tam3-subord-check-lex-rule.
+tam3-fin-subord-lex-rule.
 
 tam3-indicative_non3rd-suffix :=
 %suffix (* -ka)
@@ -332,6 +316,10 @@ tam3-imperative_pl-lex-rule.
 tam3-exclamative-suffix :=
 %suffix (* -k'a)
 tam3-exclamative-lex-rule.
+
+tam3-nonfin-suffix :=
+%suffix (* -ni)
+tam3-nonfin-lex-rule.
 
 verb-pc10_lrt1-suffix :=
 %suffix (* -ku)
@@ -686,18 +674,14 @@ verb-pc176_lrt1-suffix :=
 verb-pc176_lrt1-lex-rule.
 
 verb-pc195_lrt1-suffix1 :=
-%suffix (* -kwaɽo)
-verb-pc195_lrt1-lex-rule.
-
-verb-pc195_lrt1-suffix2 :=
 %suffix (* -rata)
 verb-pc195_lrt1-lex-rule.
 
-verb-pc195_lrt1-suffix3 :=
+verb-pc195_lrt1-suffix2 :=
 %suffix (* -tska)
 verb-pc195_lrt1-lex-rule.
 
-verb-pc195_lrt1-suffix4 :=
+verb-pc195_lrt1-suffix3 :=
 %suffix (* -tsï)
 verb-pc195_lrt1-lex-rule.
 

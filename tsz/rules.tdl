@@ -1,5 +1,9 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
-decl-head-opt-subj := decl-head-opt-subj-phrase.
+context1-decl-head-opt-subj := context1-decl-head-opt-subj-phrase.
+
+context2-decl-head-opt-subj := context2-decl-head-opt-subj-phrase.
+
+context3-decl-head-opt-subj := context3-decl-head-opt-subj-phrase.
 
 non-event-subj-head := non-event-subj-head-phrase.
 
@@ -23,15 +27,21 @@ comp-head-2 := comp-head-phrase-2.
 
 bare-np := bare-np-phrase.
 
-vp1-top-coord := vp1-top-coord-rule.
+n1-top-coord := n1-top-coord-rule.
 
-vp1-mid-coord := vp1-mid-coord-rule.
+n1-bottom-coord := n1-bottom-coord-rule.
+
+np1-top-coord := np1-top-coord-rule.
+
+np1-bottom-coord := np1-bottom-coord-rule.
+
+vp1-top-coord := vp1-top-coord-rule.
 
 vp1-bottom-coord := vp1-bottom-coord-rule.
 
-vp2-top-coord := vp2-top-coord-rule.
+s1-top-coord := s1-top-coord-rule.
 
-vp2-bottom-coord := vp2-bottom-coord-rule.
+s1-bottom-coord := s1-bottom-coord-rule.
 
 adj-head-scop := adj-head-scop-phrase.
 
