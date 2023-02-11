@@ -22,6 +22,7 @@
 (
 ((:path . "matrix") (:content . "matrix: A test suite created automatically from the test sentences given in the Grammar Matrix questionnaire."))
 ((:path . "corpus") (:content . "IGT provided by the linguist"))
+((:path . "lab6") (:content . "Lab 6"))
 ((:path . "lab5") (:content . "Lab 5"))
 ((:path . "lab4") (:content . "Lab 4"))
 ((:path . "lab3") (:content . "Lab 3"))
