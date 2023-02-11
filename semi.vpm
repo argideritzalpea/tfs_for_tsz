@@ -40,63 +40,29 @@ PNG.PER : PER
   3rd <> third
   2nd <> second
   1st <> first
-  * >> *
-  ! <> *
+  * <> *
 
 PNG.NUM : NUM
   sg <> sg
   pl <> pl
   pl << du
   pl << non-sg
-  * >> *
-  ! << *
+  * <> *
 
 PNG.GEND : GEND
   * <> *
 
 E.ASPECT : ASPECT
-  aor <> aor
-  hab <> hab
   prog <> prog
   prog <> progressive
-  cont <> cont
-  asp+ <> asp+
   asp+ << aspect
-  asp- <> asp-
-  iter <> iter
-  aor << [e]
   aor << *
-  * >> asp-
 
-E.TENSE E.MOOD : TENSE MOOD
-nonpast deon <> future *
-* ind_irr+ <> * ind_irr+
-* ind_irr- <> * ind_irr-
-* ind <> * ind
-* int_irr+ <> * int_irr+
-* int_irr- <> * int_irr-
-* int <> * int
-* ind+int <> * ind+int
-* imp <> * imp
-* excl <> * excl
-* imp+excl <> * imp+excl
-* mood+ <> * mood+
-* mood- <> * mood-
-* ind_irr+ <> * ind_irr+
-* int_irr+ <> * int_irr+
-* deon <> * deon
-* epis <> * epis
-* irr+ <> * irr+
-* imp <> * imp
-* excl <> * excl
-* imp+excl <> * imp+excl
-* ind_irr- <> * ind_irr-
-* int_irr- <> * int_irr-
-* irr- <> * irr-
-nonpast mood- << present *
-past mood- << past *
-nonpast mood- << [e] *
-nonpast * >> present *
-past * >> past *
-nonpast * >> [e] *
-* * <> * *
+E.MOOD E.TENSE : MOOD TENSE
+deon nonpast <> * future
+
+E.TENSE : TENSE
+nonpast << present
+past <> past
+nonpast << [e]
+* <> *
