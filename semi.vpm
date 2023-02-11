@@ -55,7 +55,11 @@ PNG.GEND : GEND
 E.ASPECT : ASPECT
   prog <> prog
   prog <> progressive
-  asp+ << aspect
+  hab <> hab
+  cont <> cont
+  iter <> iter
+  asp+ <> asp+
+  asp- <> asp-
   aor << *
 
 E.MOOD E.TENSE : MOOD TENSE
