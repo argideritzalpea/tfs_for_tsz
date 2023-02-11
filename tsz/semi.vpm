@@ -59,10 +59,15 @@ E.ASPECT : ASPECT
   aor << *
 
 E.MOOD E.TENSE : MOOD TENSE
+deon tense <> * future
+deon tense+ <> * future
 deon nonpast <> * future
 
 E.TENSE : TENSE
 nonpast << present
 past <> past
 nonpast << [e]
+tense <> tense
+tense+ <> tense+
+nonpast <> nonpast
 * <> *

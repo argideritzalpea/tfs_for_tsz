@@ -1,0 +1,24 @@
+user@0fd31f5133a1:~/mmt$ ./translate-line.sh tsz eng 1
+NOTE: 2 readings, added 59 / 32 edges to chart (12 fully instantiated, 9 actives used, 5 passives used)	RAM: 725k
+NOTE: parsed 1 / 1 sentences, avg 725k, time 0.05380s
+NOTE: 1 transfer results	RAM: 14k
+NOTE: 1 transfer results	RAM: 14k
+NOTE: transfered 0 / 2 sentences, avg 14k, time 0.00873s
+Dogs will sleep
+The dogs sleep
+Dogs slept
+The dogs will sleep
+Dogs sleep
+The dogs slept
+NOTE: 39 passive, 222 active edges in final generation chart; built 43 passives total. [6 results]
+
+Dogs will sleep
+The dogs will sleep
+The dogs slept
+The dogs sleep
+Dogs sleep
+Dogs slept
+NOTE: 39 passive, 222 active edges in final generation chart; built 43 passives total. [6 results]
+
+NOTE: generated 2 / 2 sentences, avg 2478k, time 0.03130s
+NOTE: transfer did 4 successful unifies and 4 failed ones
