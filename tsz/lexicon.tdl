@@ -1662,7 +1662,7 @@ morelusi := noun84-noun-lex &
     SYNSEM.LKEYS.KEYREL.PRED "_morelos_n_rel" ].
 
 motsitarhakua := noun84-noun-lex &
-  [ STEM < "motsitaɽakwa" >,
+  [ STEM < "motsitarhakua" >,
     SYNSEM.LKEYS.KEYREL.PRED "_car_n_rel" ].
 
 métru := noun84-noun-lex &
