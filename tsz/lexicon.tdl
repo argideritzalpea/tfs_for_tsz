@@ -189,8 +189,8 @@ pera_1 := noun2-noun-lex &
   [ STEM < "pera" >,
     SYNSEM.LKEYS.KEYREL.PRED "_pear_n_rel" ].
 
-pirikwa := noun2-noun-lex &
-  [ STEM < "pirikwa" >,
+pirikua := noun2-noun-lex &
+  [ STEM < "pirikua" >,
     SYNSEM.LKEYS.KEYREL.PRED "_song_n_rel" ].
 
 pirúakwa := noun2-noun-lex &
@@ -1661,7 +1661,7 @@ morelusi := noun84-noun-lex &
   [ STEM < "morelusi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_morelos_n_rel" ].
 
-motsitaɽakwa := noun84-noun-lex &
+motsitarhakua := noun84-noun-lex &
   [ STEM < "motsitaɽakwa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_car_n_rel" ].
 
