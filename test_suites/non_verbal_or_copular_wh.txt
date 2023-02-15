@@ -112,3 +112,54 @@ na xani=ksï k'e-ra-ka o=ksï sapi-ra-ni
 na xani=kxï k'e-ra-ka o=kxï sapi-ra-ni
 how alot =3PL big MED 1/2IND or =3PL little MED OBJ
 how big or small they are
+
+Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
+Vetted: f
+Judgement: g
+Phenomena: 
+Na jaxispki Marieri xukúparhakwa
+na jaxi-s-p-ki Mari-eri xukuparakwa
+how color-AOR-PAS-INTER Maria-GEN-ropa
+‘¿Cómo era el color del traje de María?
+
+Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/8/8
+Vetted: f
+Judgement: g
+Phenomena: 
+Í karáratakwa turípitisti
+i kararatakwa turipiti-i-s-ø-ti
+DEM lápiz negro-PRED-AOS-NP-3S.IND
+‘Este lápiz es negro.’
+
+
+Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
+Vetted: f
+Judgement: g
+Phenomena: 
+¿Néskiri, t'ueskiri jucheti uátsïti?
+
+
+Who are you, my son?”
+
+
+
+Source: https://www.bible.com/bible/3546/EST.6.BI-PURHE
+Vetted: f
+Judgement: g
+Phenomena: 
+¿Nésï jámki ekuarhu?
+
+
+“Who is in the courtyard?”
+
+
+
+
+Source: https://www.bible.com/bible/3546/EXO.32.BI-PURHE
+Vetted: f
+Judgement: g
+Phenomena: 
+¿Ne ACHA jinkuni jarhaski?
+
+
+Who is on the Lord's side?
