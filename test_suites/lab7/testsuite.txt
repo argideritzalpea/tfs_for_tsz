@@ -1012,5 +1012,5 @@ Judgement: u
 Phenomena: wh non-verbal pred
 ¿Ne ACHA jinkuni ja-rhas?
 ne acha jinkuni ja-rha-x?
-who lord COM be-FORM-AOR
+who lord COM be-FORM-AOR.INTER
 Intended: Who is on the Lord's side?
