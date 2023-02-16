@@ -11,19 +11,19 @@ Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de A
 Vetted: f
 Judgement: g
 Phenomena: wh-question
-“ mama , naní jarháski riata ?” 
- mama nani jarha-sï-ki riata 
- mom where be-AOR-IRR riata 
-“mom where is the riata”? 
+mama, naní jarháski riata?
+mama nani jarha-sï-ki riata 
+mom where be-AOR-IRR riata 
+Mom where is the riata”? 
 
 Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de Alfabetizacion entre los Tarascos Monolingues - No. 4 - 1949 Iuini
 Vetted: f
 Judgement: g
 Phenomena: wh-question
-“ naníri jámasïrambi ?” 
- nani-=ri jama-sïren-p-i 
- where-=2SG be around-HAB.PST-PAST-QM 
-“Where were you?” 
+naníri jámasïrambi?
+nani =ri jama-sïren-p-i 
+where =2SG be.around-HAB.PST-PAST-INTER 
+Where were you?
 
 Source: our gloss - P’urhepecha / Hablemos purepecha [3] (flextext)
 Vetted: f
@@ -119,7 +119,7 @@ Judgement: g
 Phenomena: 
 Na jaxispki Marieri xukúparhakwa
 na jaxi-s-p-ki Mari-eri xukuparakwa
-how color-AOR-PAS-INTER Maria-GEN-ropa
+how color-AOR-PAS-INTER Maria-GEN ropa
 ‘¿Cómo era el color del traje de María?
 
 Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/8/8
@@ -131,35 +131,38 @@ i kararatakwa turipiti-i-s-ø-ti
 DEM lápiz negro-PRED-AOS-NP-3S.IND
 ‘Este lápiz es negro.’
 
-
 Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
-Vetted: f
+Vetted: t
 Judgement: g
 Phenomena: 
 ¿Néskiri, t'ueskiri jucheti uátsïti?
-
-
+ne-x-ki =ri t'u eski =ri jucheti uatsï-ti
+who-AOR-INTER =2SG.S 2SG SUB =2SG.S 1SG.GEN youngperson-3.IND
 Who are you, my son?”
 
-
-
 Source: https://www.bible.com/bible/3546/EST.6.BI-PURHE
-Vetted: f
+Vetted: t
 Judgement: g
 Phenomena: 
 ¿Nésï jámki ekuarhu?
-
-
+ne =sï ja-xam-ki ekua-rhu
+who FOC exist-CONT-INTER courtyard-LOC
 “Who is in the courtyard?”
 
-
-
-
 Source: https://www.bible.com/bible/3546/EXO.32.BI-PURHE
-Vetted: f
+Vetted: t
 Judgement: g
 Phenomena: 
 ¿Ne ACHA jinkuni jarhaski?
-
-
+ne acha jinkuni jarha-x-ki?
+who lord COM be-AOR-IRR
 Who is on the Lord's side?
+
+Source: Foster, page 82
+Vetted: f
+Judgement: g
+Phenomena: 
+náati?
+na-a-ti
+how-PRED.DEON-3.IND
+At what time will it be?
