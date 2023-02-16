@@ -36,37 +36,68 @@ COG-ST : COG-ST
   activ-or-less <> activ-or-less
   * <> *
 
-PNG.PER : PER
-  3rd <> third
-  2nd <> second
-  1st <> first
+
+PNG.PER : PNG.PER
+  3rd <> 3rd
+  2nd <> 2nd
+  1st <> 1st
   * <> *
 
-PNG.NUM : NUM
+PNG.NUM : PNG.NUM
   sg <> sg
   pl <> pl
-  pl << du
-  pl << non-sg
   * <> *
 
-PNG.GEND : GEND
+PNG.GEND : PNG.GEND
   * <> *
 
-E.ASPECT : ASPECT
-  prog <> prog
-  prog <> progressive
+E.TENSE : E.TENSE
+  past <> past
+  nonpast <> nonpast
+  tense+ <> tense+
+  tense- <> tense-
+  * <> *
+
+E.ASPECT : E.ASPECT
+  aor <> aor
   hab <> hab
+  prog <> prog
   cont <> cont
-  iter <> iter
   asp+ <> asp+
   asp- <> asp-
-  aor << *
+  iter <> iter
+  * <> *
 
-E.MOOD E.TENSE : MOOD TENSE
-deon nonpast <> * future
-
-E.TENSE : TENSE
-nonpast << present
-past <> past
-nonpast << [e]
-* <> *
+E.MOOD : E.MOOD
+  mood+_irr+ <> mood+_irr+
+  imp <> imp
+  excl <> excl
+  imp+excl <> imp+excl
+  mood+_irr- <> mood+_irr-
+  ind_deon <> ind_deon
+  ind_epis <> ind_epis
+  ind_irr- <> ind_irr-
+  ind <> ind
+  int_deon <> int_deon
+  int_epis <> int_epis
+  int_irr- <> int_irr-
+  int <> int
+  ind+int <> ind+int
+  mood+ <> mood+
+  mood- <> mood-
+  mood+_irr+ <> mood+_irr+
+  ind_deon <> ind_deon
+  int_deon <> int_deon
+  deon <> deon
+  ind_epis <> ind_epis
+  int_epis <> int_epis
+  epis <> epis
+  irr+ <> irr+
+  imp <> imp
+  excl <> excl
+  imp+excl <> imp+excl
+  mood+_irr- <> mood+_irr-
+  ind_irr- <> ind_irr-
+  int_irr- <> int_irr-
+  irr- <> irr-
+  * <> *

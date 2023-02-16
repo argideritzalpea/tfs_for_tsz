@@ -7,8 +7,6 @@ noun-singular-lex := noun-singular-lex-rule.
 
 v-stem-simple-lex := v-stem-simple-lex-rule.
 
-v-3pl-obj-skip-lex := v-3pl-obj-skip-lex-rule.
-
 tam1-no-asp-tense-lex := tam1-no-asp-tense-lex-rule.
 
 tam1-aorist-subord-lex := tam1-aorist-subord-lex-rule.
