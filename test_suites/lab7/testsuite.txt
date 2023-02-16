@@ -845,7 +845,7 @@ uichu-echa k'arhima-xa-ti
 dog-PL hungry-PROG-3.IND
 The dogs are hungry
 
-#85 lab7 - translation #16 
+#85 lab7 - translation #16
 Source: eng.txt
 Vetted: f
 Judgement: g
@@ -855,7 +855,7 @@ uichu-echa ja+rha-x-ti ekua-rhu
 dog-PL be-AOR-3.IND patio-LOC
 The dogs are in the park
 
-#86 lab6 - translation #17 
+#86 lab6 - translation #17
 Source: eng.txt
 Vetted: f
 Judgement: g
@@ -875,7 +875,7 @@ nani ja-ki Pegru
 where exist-NP.INTER Pedro
 Where is Pedro?
 
-#87 lab6
+#88 lab6
 Source: ref 992 in tsz_toolbox
 Vetted: f
 Judgement: u
@@ -885,7 +885,17 @@ nani ja Pegru
 where exist Pedro
 Intended: Where is Pedro?
 
-#88 lab6
+#89 lab6
+Source: ref 992 in tsz_toolbox
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+nani jaki Pedro
+nani ja-e-ki Pegru
+where exist-COP-INTER Pedro
+Intended: Where is Pedro?
+
+#90 lab6
 Source: ref 4359 in tsz_toolbox
 Vetted: f
 Judgement: g
@@ -895,7 +905,7 @@ na =ri ja-x-i
 how =2SG exist-AOR-INTER
 How are you?
 
-#88 lab6
+#91 lab6
 Source: ref 4359 in tsz_toolbox
 Vetted: f
 Judgement: u
@@ -905,17 +915,17 @@ na =ri ja-x-ka
 how =2SG exist-AOR-1/2IND
 Intended: How are you?
 
-#88 lab6
+#92 lab6
 Source: ref 4359 in tsz_toolbox
 Vetted: f
 Judgement: u
 Phenomena: wh non-verbal pred
-nari hasïka
+nari hasï
 na =ri ja-x
 how =2SG exist-AOR
 Intended: How are you?
 
-#89 lab6
+#93 lab6
 Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
 Vetted: f
 Judgement: g
@@ -925,7 +935,7 @@ na jaxi =e-s-p-ki
 how color =COP-AOR-PAS-INTER
 How was the color / type?
 
-#89 lab6
+#94 lab6
 Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
 Vetted: f
 Judgement: u
@@ -935,7 +945,7 @@ na jaxi-s-p-ki
 how color-AOR-PAS-INTER
 Intended: How was the color / type?
 
-#90 lab6
+#95 lab6
 Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
 Vetted: t
 Judgement: g
@@ -945,7 +955,7 @@ ne =e-x-ki =ri
 who =COP-AOR-INTER =2SG.S
 Who are you?”
 
-#90 lab6
+#96 lab6
 Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
 Vetted: t
 Judgement: u
@@ -955,7 +965,7 @@ ne-x-ki =ri
 who-AOR-INTER =2SG.S
 Intended: Who are you?”
 
-#91 lab6
+#97 lab6
 Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
 Vetted: t
 Judgement: g
@@ -965,7 +975,7 @@ t'u =e-x-ki=ri jucheti uatsï-ti?
 2SG =COP-AOR-INTER =2SG.S 1SG.GEN youngperson-FORM
 You are my son?
 
-#92 lab6
+#98 lab6
 Source: https://www.bible.com/bible/3546/EST.6.BI-PURHE
 Vetted: t
 Judgement: g
@@ -975,7 +985,7 @@ ne ja-xam-ki ekua-rhu
 who exist-CONT-INTER courtyard-LOC
 Who is in the courtyard?
 
-#92 lab6
+#99 lab6
 Source: https://www.bible.com/bible/3546/EST.6.BI-PURHE
 Vetted: t
 Judgement: u
@@ -985,7 +995,7 @@ ne ja-xam ekua-rhu
 who exist-CONT courtyard-LOC
 Intended: Who is in the courtyard?
 
-#93 lab6
+#100 lab6
 Source: https://www.bible.com/bible/3546/EXO.32.BI-PURHE
 Vetted: t
 Judgement: g
@@ -995,7 +1005,7 @@ ne acha jinkuni ja-rha-x-ki?
 who lord COM be-FORM-AOR-INTER
 Who is on the Lord's side?
 
-#93 lab6
+#101 lab6
 Source: https://www.bible.com/bible/3546/EXO.32.BI-PURHE
 Vetted: t
 Judgement: u
