@@ -872,8 +872,18 @@ Judgement: g
 Phenomena: wh non-verbal pred
 nani ja-ki Pedro
 nani ja-ki Pegru
-where exist-INTER Pedro
+where exist-NP.INTER Pedro
 Where is Pedro?
+
+#87 lab6
+Source: ref 992 in tsz_toolbox
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+nani ja Pedro
+nani ja Pegru
+where exist Pedro
+Intended: Where is Pedro?
 
 #88 lab6
 Source: ref 4359 in tsz_toolbox
@@ -881,19 +891,49 @@ Vetted: f
 Judgement: g
 Phenomena: wh non-verbal pred
 nari hasï
-na =ri ha-x-i
-how =2SG exist-AOR.INTER
+na =ri ja-x-i
+how =2SG exist-AOR-INTER
 How are you?
+
+#88 lab6
+Source: ref 4359 in tsz_toolbox
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+nari hasïka
+na =ri ja-x-ka
+how =2SG exist-AOR-1/2IND
+Intended: How are you?
+
+#88 lab6
+Source: ref 4359 in tsz_toolbox
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+nari hasïka
+na =ri ja-x
+how =2SG exist-AOR
+Intended: How are you?
 
 #89 lab6
 Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
 Vetted: f
 Judgement: g
 Phenomena: wh non-verbal pred
-Na jaxispki 
-na jaxi =i-s-p-ki
+na jaxispki?
+na jaxi =e-s-p-ki
 how color =COP-AOR-PAS-INTER
 How was the color / type?
+
+#89 lab6
+Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+na jaxispki?
+na jaxi-s-p-ki
+how color-AOR-PAS-INTER
+Intended: How was the color / type?
 
 #90 lab6
 Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
@@ -901,9 +941,19 @@ Vetted: t
 Judgement: g
 Phenomena: wh non-verbal pred
 ¿Néskiri?
+ne =e-x-ki =ri
+who =COP-AOR-INTER =2SG.S
+Who are you?”
+
+#90 lab6
+Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
+Vetted: t
+Judgement: u
+Phenomena: wh non-verbal pred
+¿Néskiri?
 ne-x-ki =ri
 who-AOR-INTER =2SG.S
-Who are you?”
+Intended: Who are you?”
 
 #91 lab6
 Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
@@ -925,6 +975,16 @@ ne ja-xam-ki ekua-rhu
 who exist-CONT-INTER courtyard-LOC
 Who is in the courtyard?
 
+#92 lab6
+Source: https://www.bible.com/bible/3546/EST.6.BI-PURHE
+Vetted: t
+Judgement: u
+Phenomena: wh non-verbal pred
+¿Né jám ekuarhu?
+ne ja-xam ekua-rhu
+who exist-CONT courtyard-LOC
+Intended: Who is in the courtyard?
+
 #93 lab6
 Source: https://www.bible.com/bible/3546/EXO.32.BI-PURHE
 Vetted: t
@@ -932,5 +992,15 @@ Judgement: g
 Phenomena: wh non-verbal pred
 ¿Ne ACHA jinkuni ja-rhaski?
 ne acha jinkuni ja-rha-x-ki?
-who lord COM be-FORM-AOR-IRR
+who lord COM be-FORM-AOR-INTER
 Who is on the Lord's side?
+
+#93 lab6
+Source: https://www.bible.com/bible/3546/EXO.32.BI-PURHE
+Vetted: t
+Judgement: u
+Phenomena: wh non-verbal pred
+¿Ne ACHA jinkuni ja-rhas?
+ne acha jinkuni ja-rha-x?
+who lord COM be-FORM-AOR
+Intended: Who is on the Lord's side?

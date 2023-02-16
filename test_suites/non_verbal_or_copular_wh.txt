@@ -2,7 +2,7 @@ Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de A
 Vetted: f
 Judgement: g
 Phenomena: wh-question
-" mama ,” arhíska jí : ” jindé iá juchíti uíchu , tumbí ?”
+"mama ,” arhíska jí : ” jindé iá juchíti uíchu , tumbí ?”
  mama arhi-sï-ka ji jinte ia juchiti uichu tumpi
  mom say-AOR-1/2IND 1SG DEM.SG already 1SG.GEN dog young
 “mom,” I said: “Where is my dog, young?”
@@ -60,19 +60,19 @@ ampe isï ja-ki ia o ampe=rini isï ueka-sï-ki sani u-ra-ni
 what =APPROX exist INTER already or what =1SG.OBJ =APPROX want AOR INTER bit do CAUS OBJ
 What is it or why did you want me to do?
 
-Source: ref 6420 in tsz_toolbox
+Source: modified ref 6420 in tsz_toolbox
 Vetted: f
 Judgement: g
-Phenomena: 
-nani=na ja-kiia
-nani=na ja-ki ia
-where =evidential exist INTER already
-where is she now?
+Phenomena: wh non-verbal pred
+nani ja-ki
+nani ja-ki
+where exist-INTER
+where is she?
 
 Source: ref 992 in tsz_toolbox
 Vetted: f
 Judgement: g
-Phenomena: 
+Phenomena: wh non-verbal pred
 nani ha-ki Pedro
 nani ha-ki Pegru
 where exist INTER Pedro
@@ -93,25 +93,8 @@ Judgement: g
 Phenomena: 
 na=ri ha-sï
 na=ri ha-sï
-how =2SG exist AOR
+how =2SG exist AOR.INTER
 How are you?
-
-Source: ref 2825 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: 
-nah ha-ʃ=e
-na ha-s=e
-how exist LINKER? =be
-
-Source: ref 4543 in tsz_toolbox
-Vetted: f
-Judgement: g
-Phenomena: 
-na xani=ksï k'e-ra-ka o=ksï sapi-ra-ni
-na xani=kxï k'e-ra-ka o=kxï sapi-ra-ni
-how alot =3PL big MED 1/2IND or =3PL little MED OBJ
-how big or small they are
 
 Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
 Vetted: f
@@ -127,8 +110,8 @@ Vetted: f
 Judgement: g
 Phenomena: 
 Í karáratakwa turípitisti
-i kararatakwa turipiti-i-s-ø-ti
-DEM lápiz negro-PRED-AOS-NP-3S.IND
+i kararatakwa turipiti =i-s-ø-ti
+DEM lápiz negro =COP-AOS-NP-3S.IND
 ‘Este lápiz es negro.’
 
 Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
