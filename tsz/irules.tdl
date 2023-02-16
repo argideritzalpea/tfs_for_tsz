@@ -29,165 +29,17 @@ case_ins-suffix :=
 %suffix (* -mpu)
 case_ins-lex-rule.
 
-noun-pc2_lrt1-suffix1 :=
-%suffix (* -pa)
-noun-pc2_lrt1-lex-rule.
-
-noun-pc2_lrt1-suffix2 :=
-%suffix (* -ke)
-noun-pc2_lrt1-lex-rule.
-
-noun-pc2_lrt1-suffix3 :=
-%suffix (* -rani)
-noun-pc2_lrt1-lex-rule.
-
-noun-pc2_lrt1-suffix4 :=
-%suffix (* -me)
-noun-pc2_lrt1-lex-rule.
-
-noun-pc2_lrt1-suffix5 :=
-%suffix (* -tʃu)
-noun-pc2_lrt1-lex-rule.
-
-noun-pc2_lrt1-suffix6 :=
-%suffix (* -empa)
-noun-pc2_lrt1-lex-rule.
-
-noun-pc2_lrt2-suffix1 :=
-%suffix (* -ntani)
-noun-pc2_lrt2-lex-rule.
-
-noun-pc2_lrt2-suffix2 :=
-%suffix (* -tʃani)
-noun-pc2_lrt2-lex-rule.
-
 noun-plural-suffix-suffix :=
 %suffix (* -echa)
 noun-plural-suffix-lex-rule.
 
-noun-pc7_lrt1-suffix :=
-%suffix (* -mpa)
-noun-pc7_lrt1-lex-rule.
-
-noun-pc11_lrt1-suffix :=
-%suffix (* -ra)
-noun-pc11_lrt1-lex-rule.
-
-noun-pc16_lrt1-suffix :=
-%suffix (* -ka)
-noun-pc16_lrt1-lex-rule.
-
-noun-pc18_lrt1-suffix :=
-%suffix (* -kuarhe)
-noun-pc18_lrt1-lex-rule.
-
-noun-pc19_lrt1-suffix :=
-%suffix (* -ta)
-noun-pc19_lrt1-lex-rule.
-
-noun-pc27_lrt1-suffix :=
-%suffix (* -cha)
-noun-pc27_lrt1-lex-rule.
-
-noun-pc32_lrt1-suffix :=
+kinship-possessum-2per-possessor-suffix :=
 %suffix (* -ti)
-noun-pc32_lrt1-lex-rule.
+kinship-possessum-2per-possessor-lex-rule.
 
-noun-pc35_lrt1-suffix1 :=
-%suffix (* -nchi)
-noun-pc35_lrt1-lex-rule.
-
-noun-pc35_lrt1-suffix2 :=
-%suffix (* -tsi)
-noun-pc35_lrt1-lex-rule.
-
-noun-pc39_lrt1-suffix1 :=
-%suffix (* -nu)
-noun-pc39_lrt1-lex-rule.
-
-noun-pc39_lrt1-suffix2 :=
-%suffix (* -nto)
-noun-pc39_lrt1-lex-rule.
-
-noun-pc39_lrt1-suffix3 :=
-%suffix (* -ts'ï)
-noun-pc39_lrt1-lex-rule.
-
-noun-pc40_lrt1-suffix1 :=
-%suffix (* -kwaɽe)
-noun-pc40_lrt1-lex-rule.
-
-noun-pc40_lrt1-suffix2 :=
-%suffix (* -po)
-noun-pc40_lrt1-lex-rule.
-
-noun-pc40_lrt1-suffix3 :=
-%suffix (* -pu)
-noun-pc40_lrt1-lex-rule.
-
-noun-pc42_lrt1-suffix :=
-%suffix (* -tʃe)
-noun-pc42_lrt1-lex-rule.
-
-noun-pc50_lrt1-suffix :=
-%suffix (* -tʃi)
-noun-pc50_lrt1-lex-rule.
-
-noun-pc60_lrt1-suffix :=
-%suffix (* -ri)
-noun-pc60_lrt1-lex-rule.
-
-noun-pc62_lrt1-suffix :=
-%suffix (* -ki)
-noun-pc62_lrt1-lex-rule.
-
-noun-pc63_lrt1-suffix :=
-%suffix (* -nkua)
-noun-pc63_lrt1-lex-rule.
-
-noun-pc65_lrt1-suffix :=
-%suffix (* -kwatʰa)
-noun-pc65_lrt1-lex-rule.
-
-noun-pc66_lrt1-suffix :=
-%suffix (* -ncha)
-noun-pc66_lrt1-lex-rule.
-
-noun-pc74_lrt1-suffix :=
-%suffix (* -ʃe)
-noun-pc74_lrt1-lex-rule.
-
-noun-pc75_lrt1-suffix1 :=
-%suffix (* -ma)
-noun-pc75_lrt1-lex-rule.
-
-noun-pc75_lrt1-suffix2 :=
-%suffix (* -ku)
-noun-pc75_lrt1-lex-rule.
-
-noun-pc79_lrt1-suffix :=
-%suffix (* -rhi)
-noun-pc79_lrt1-lex-rule.
-
-noun-pc81_lrt1-suffix :=
-%suffix (* -tska)
-noun-pc81_lrt1-lex-rule.
-
-noun-pc88_lrt1-suffix :=
-%suffix (* -parha)
-noun-pc88_lrt1-lex-rule.
-
-noun-pc91_lrt1-suffix :=
-%suffix (* -hku)
-noun-pc91_lrt1-lex-rule.
-
-noun-pc95_lrt1-prefix :=
-%prefix (* wan-)
-noun-pc95_lrt1-lex-rule.
-
-noun-pc96_lrt1-suffix :=
-%suffix (* -sï)
-noun-pc96_lrt1-lex-rule.
+kinship-possessum-3per-possessor-suffix :=
+%suffix (* -mpa)
+kinship-possessum-3per-possessor-lex-rule.
 
 v-stem-bipart+ka-suffix :=
 %suffix (* -ka)
@@ -321,382 +173,382 @@ tam3-nonfin-suffix :=
 %suffix (* -ni)
 tam3-nonfin-lex-rule.
 
-; verb-pc10_lrt1-suffix :=
-; %suffix (* -ku)
-; verb-pc10_lrt1-lex-rule.
-; 
-; verb-pc14_lrt1-suffix :=
-; %suffix (* -ra)
-; verb-pc14_lrt1-lex-rule.
-; 
-; verb-pc15_lrt1-suffix1 :=
-; %suffix (* -nt'a)
-; verb-pc15_lrt1-lex-rule.
-; 
-; verb-pc15_lrt1-suffix2 :=
-; %suffix (* -ntʰa)
-; verb-pc15_lrt1-lex-rule.
-; 
-; verb-pc28_lrt1-suffix :=
-; %suffix (* -pa)
-; verb-pc28_lrt1-lex-rule.
-; 
-; verb-pc29_lrt1-suffix1 :=
-; %suffix (* -po)
-; verb-pc29_lrt1-lex-rule.
-; 
-; verb-pc29_lrt1-suffix2 :=
-; %suffix (* -kʰa)
-; verb-pc29_lrt1-lex-rule.
-; 
-; verb-pc29_lrt1-suffix3 :=
-; %suffix (* -nkua)
-; verb-pc29_lrt1-lex-rule.
-; 
-; verb-pc29_lrt1-suffix4 :=
-; %suffix (* -ɽa)
-; verb-pc29_lrt1-lex-rule.
-; 
-; voice1-reflexive-middle-suffix1 :=
-; %suffix (* -kuri)
-; voice1-reflexive-middle-lex-rule.
-; 
-; voice1-reflexive-middle-suffix2 :=
-; %suffix (* -kuarhe)
-; voice1-reflexive-middle-lex-rule.
-; 
-; voice1-reflexive-middle-suffix3 :=
-; %suffix (* -kurha)
-; voice1-reflexive-middle-lex-rule.
-; 
-; voice1-reflexive-middle-suffix4 :=
-; %suffix (* -kuɽa)
-; voice1-reflexive-middle-lex-rule.
-; 
-; voice1-reciprocal-suffix1 :=
-; %suffix (* -p'era)
-; voice1-reciprocal-lex-rule.
-; 
-; voice1-reciprocal-suffix2 :=
-; %suffix (* -pʰera)
-; voice1-reciprocal-lex-rule.
-; 
-; voice1-passive-suffix1 :=
-; %suffix (* -na)
-; voice1-passive-lex-rule.
-; 
-; voice1-passive-suffix2 :=
-; %suffix (* -nha)
-; voice1-passive-lex-rule.
-; 
-; voice1-passive-suffix3 :=
-; %suffix (* -nhka)
-; voice1-passive-lex-rule.
-; 
-; voice1-passive-suffix4 :=
-; %suffix (* -ŋka)
-; voice1-passive-lex-rule.
-; 
-; voice1-antipassive-suffix1 :=
-; %suffix (* -pʰe)
-; voice1-antipassive-lex-rule.
-; 
-; voice1-antipassive-suffix2 :=
-; %suffix (* -p'e)
-; voice1-antipassive-lex-rule.
-; 
-; voice1-appl-3rd-obj-suffix :=
-; %suffix (* -ku)
-; voice1-appl-3rd-obj-lex-rule.
-; 
-; voice1-appl-non3rd-obj-suffix :=
-; %suffix (* -chi)
-; voice1-appl-non3rd-obj-lex-rule.
-; 
-; verb-pc37_lrt1-suffix :=
-; %suffix (* -rha)
-; verb-pc37_lrt1-lex-rule.
-; 
-; verb-pc38_lrt1-suffix :=
-; %suffix (* -rhi)
-; verb-pc38_lrt1-lex-rule.
-; 
-; verb-pc50_lrt1-suffix :=
-; %suffix (* -ŋka)
-; verb-pc50_lrt1-lex-rule.
-; 
-; verb-pc54_lrt1-suffix :=
-; %suffix (* -rhu)
-; verb-pc54_lrt1-lex-rule.
-; 
-; verb-pc55_lrt1-suffix1 :=
-; %suffix (* -tsire)
-; verb-pc55_lrt1-lex-rule.
-; 
-; verb-pc55_lrt1-suffix2 :=
-; %suffix (* -me)
-; verb-pc55_lrt1-lex-rule.
-; 
-; verb-pc56_lrt1-suffix :=
-; %suffix (* -ma)
-; verb-pc56_lrt1-lex-rule.
-; 
-; verb-pc62_lrt1-suffix :=
-; %suffix (* -ta)
-; verb-pc62_lrt1-lex-rule.
-; 
-; verb-pc63_lrt1-suffix :=
-; %suffix (* -na)
-; verb-pc63_lrt1-lex-rule.
-; 
-; verb-pc65_lrt1-suffix :=
-; %suffix (* -tini)
-; verb-pc65_lrt1-lex-rule.
-; 
-; verb-pc66_lrt1-suffix :=
-; %suffix (* -xu)
-; verb-pc66_lrt1-lex-rule.
-; 
-; verb-pc67_lrt1-suffix :=
-; %suffix (* -ta)
-; verb-pc67_lrt1-lex-rule.
-; 
-; verb-pc71_lrt1-suffix :=
-; %suffix (* -nu)
-; verb-pc71_lrt1-lex-rule.
-; 
-; verb-pc73_lrt1-suffix :=
-; %suffix (* -ntʃa)
-; verb-pc73_lrt1-lex-rule.
-; 
-; verb-pc74_lrt1-suffix :=
-; %suffix (* -pa)
-; verb-pc74_lrt1-lex-rule.
-; 
-; verb-pc77_lrt1-suffix1 :=
-; %suffix (* -nti)
-; verb-pc77_lrt1-lex-rule.
-; 
-; verb-pc77_lrt1-suffix2 :=
-; %suffix (* -tini)
-; verb-pc77_lrt1-lex-rule.
-; 
-; verb-pc77_lrt1-suffix3 :=
-; %suffix (* -tara)
-; verb-pc77_lrt1-lex-rule.
-; 
-; verb-pc85_lrt1-suffix :=
-; %suffix (* -pa)
-; verb-pc85_lrt1-lex-rule.
-; 
-; verb-pc88_lrt1-suffix :=
-; %suffix (* -we)
-; verb-pc88_lrt1-lex-rule.
-; 
-; verb-pc89_lrt1-suffix :=
-; %suffix (* -kwaɽe)
-; verb-pc89_lrt1-lex-rule.
-; 
-; verb-pc92_lrt1-suffix :=
-; %suffix (* -chi)
-; verb-pc92_lrt1-lex-rule.
-; 
-; verb-pc93_lrt1-suffix :=
-; %suffix (* -ncha)
-; verb-pc93_lrt1-lex-rule.
-; 
-; verb-pc94_lrt1-suffix1 :=
-; %suffix (* -rhi)
-; verb-pc94_lrt1-lex-rule.
-; 
-; verb-pc94_lrt1-suffix2 :=
-; %suffix (* -pu)
-; verb-pc94_lrt1-lex-rule.
-; 
-; verb-pc94_lrt1-suffix3 :=
-; %suffix (* -a)
-; verb-pc94_lrt1-lex-rule.
-; 
-; verb-pc94_lrt1-suffix4 :=
-; %suffix (* -tse)
-; verb-pc94_lrt1-lex-rule.
-; 
-; verb-pc95_lrt1-suffix :=
-; %suffix (* -ra)
-; verb-pc95_lrt1-lex-rule.
-; 
-; verb-pc96_lrt1-suffix :=
-; %suffix (* -cha)
-; verb-pc96_lrt1-lex-rule.
-; 
-; verb-pc98_lrt1-suffix :=
-; %suffix (* -p'i)
-; verb-pc98_lrt1-lex-rule.
-; 
-; verb-pc99_lrt1-suffix1 :=
-; %suffix (* -ku)
-; verb-pc99_lrt1-lex-rule.
-; 
-; verb-pc99_lrt1-suffix2 :=
-; %suffix (* -kwaɽe)
-; verb-pc99_lrt1-lex-rule.
-; 
-; verb-pc99_lrt1-suffix3 :=
-; %suffix (* -mo)
-; verb-pc99_lrt1-lex-rule.
-; 
-; verb-pc99_lrt1-suffix4 :=
-; %suffix (* -ma)
-; verb-pc99_lrt1-lex-rule.
-; 
-; verb-pc101_lrt1-suffix :=
-; %suffix (* -xe)
-; verb-pc101_lrt1-lex-rule.
-; 
-; verb-pc106_lrt1-suffix :=
-; %suffix (* -ri)
-; verb-pc106_lrt1-lex-rule.
-; 
-; verb-pc111_lrt1-suffix :=
-; %suffix (* -p'i)
-; verb-pc111_lrt1-lex-rule.
-; 
-; verb-pc112_lrt1-suffix1 :=
-; %suffix (* -ntʃi)
-; verb-pc112_lrt1-lex-rule.
-; 
-; verb-pc112_lrt1-suffix2 :=
-; %suffix (* -tʃe)
-; verb-pc112_lrt1-lex-rule.
-; 
-; verb-pc117_lrt1-suffix :=
-; %suffix (* -ke)
-; verb-pc117_lrt1-lex-rule.
-; 
-; verb-pc118_lrt1-suffix :=
-; %suffix (* -ha)
-; verb-pc118_lrt1-lex-rule.
-; 
-; verb-pc120_lrt1-suffix :=
-; %suffix (* -wa)
-; verb-pc120_lrt1-lex-rule.
-; 
-; v-loc-abdomen-central_area-suffix :=
-; %suffix (* -a)
-; v-loc-abdomen-central_area-lex-rule.
-; 
-; v-loc-throat-large_narrow_area-suffix :=
-; %suffix (* -tʃa)
-; v-loc-throat-large_narrow_area-lex-rule.
-; 
-; v-loc-arm-hand-extremity_area-suffix :=
-; %suffix (* -kʰu)
-; v-loc-arm-hand-extremity_area-lex-rule.
-; 
-; v-loc-nose-projected_area-suffix :=
-; %suffix (* -ɽu)
-; v-loc-nose-projected_area-lex-rule.
-; 
-; v-loc-lower-area-suffix :=
-; %suffix (* -tsi)
-; v-loc-lower-area-lex-rule.
-; 
-; verb-pc128_lrt1-suffix1 :=
-; %suffix (* -nkwa)
-; verb-pc128_lrt1-lex-rule.
-; 
-; verb-pc128_lrt1-suffix2 :=
-; %suffix (* -nhe)
-; verb-pc128_lrt1-lex-rule.
-; 
-; verb-pc128_lrt1-suffix3 :=
-; %suffix (* -ɽa)
-; verb-pc128_lrt1-lex-rule.
-; 
-; verb-pc128_lrt1-suffix4 :=
-; %suffix (* -pe)
-; verb-pc128_lrt1-lex-rule.
-; 
-; verb-pc128_lrt1-suffix5 :=
-; %suffix (* -tse)
-; verb-pc128_lrt1-lex-rule.
-; 
-; verb-pc129_lrt1-suffix :=
-; %suffix (* -rini)
-; verb-pc129_lrt1-lex-rule.
-; 
-; verb-pc136_lrt1-suffix :=
-; %suffix (* -mi)
-; verb-pc136_lrt1-lex-rule.
-; 
-; verb-pc144_lrt1-suffix1 :=
-; %suffix (* -ch'u)
-; verb-pc144_lrt1-lex-rule.
-; 
-; verb-pc144_lrt1-suffix2 :=
-; %suffix (* -k'u)
-; verb-pc144_lrt1-lex-rule.
-; 
-; verb-pc156_lrt1-suffix1 :=
-; %suffix (* -nhka)
-; verb-pc156_lrt1-lex-rule.
-; 
-; verb-pc156_lrt1-suffix2 :=
-; %suffix (* -nchi)
-; verb-pc156_lrt1-lex-rule.
-; 
-; verb-pc160_lrt1-suffix1 :=
-; %suffix (* -punkua)
-; verb-pc160_lrt1-lex-rule.
-; 
-; verb-pc160_lrt1-suffix2 :=
-; %suffix (* -tku)
-; verb-pc160_lrt1-lex-rule.
-; 
-; verb-pc162_lrt1-suffix :=
-; %suffix (* -wina)
-; verb-pc162_lrt1-lex-rule.
-; 
-; verb-pc163_lrt1-suffix :=
-; %suffix (* -tʰi)
-; verb-pc163_lrt1-lex-rule.
-; 
-; verb-pc164_lrt1-suffix :=
-; %suffix (* -mu)
-; verb-pc164_lrt1-lex-rule.
-; 
-; verb-pc175_lrt1-suffix :=
-; %suffix (* -tʃu)
-; verb-pc175_lrt1-lex-rule.
-; 
-; verb-pc176_lrt1-suffix :=
-; %suffix (* -tsa)
-; verb-pc176_lrt1-lex-rule.
-; 
-; verb-pc195_lrt1-suffix1 :=
-; %suffix (* -rata)
-; verb-pc195_lrt1-lex-rule.
-; 
-; verb-pc195_lrt1-suffix2 :=
-; %suffix (* -tska)
-; verb-pc195_lrt1-lex-rule.
-; 
-; verb-pc195_lrt1-suffix3 :=
-; %suffix (* -tsï)
-; verb-pc195_lrt1-lex-rule.
-; 
-; verb-pc199_lrt1-suffix :=
-; %suffix (* -wara)
-; verb-pc199_lrt1-lex-rule.
-; 
-; verb-pc205_lrt1-suffix :=
-; %suffix (* -karihma)
-; verb-pc205_lrt1-lex-rule.
-; 
-; v_nom_kwa_lrt1-suffix1 :=
-; %suffix (* -kua)
-; v_nom_kwa_lrt1-lex-rule.
-; 
-; v_nom_kwa_lrt1-suffix2 :=
-; %suffix (* -kwa)
-; v_nom_kwa_lrt1-lex-rule.
+verb-pc10_lrt1-suffix :=
+%suffix (* -ku)
+verb-pc10_lrt1-lex-rule.
+
+verb-pc14_lrt1-suffix :=
+%suffix (* -ra)
+verb-pc14_lrt1-lex-rule.
+
+verb-pc15_lrt1-suffix1 :=
+%suffix (* -nt'a)
+verb-pc15_lrt1-lex-rule.
+
+verb-pc15_lrt1-suffix2 :=
+%suffix (* -ntʰa)
+verb-pc15_lrt1-lex-rule.
+
+verb-pc28_lrt1-suffix :=
+%suffix (* -pa)
+verb-pc28_lrt1-lex-rule.
+
+verb-pc29_lrt1-suffix1 :=
+%suffix (* -po)
+verb-pc29_lrt1-lex-rule.
+
+verb-pc29_lrt1-suffix2 :=
+%suffix (* -kʰa)
+verb-pc29_lrt1-lex-rule.
+
+verb-pc29_lrt1-suffix3 :=
+%suffix (* -nkua)
+verb-pc29_lrt1-lex-rule.
+
+verb-pc29_lrt1-suffix4 :=
+%suffix (* -ɽa)
+verb-pc29_lrt1-lex-rule.
+
+voice1-reflexive-middle-suffix1 :=
+%suffix (* -kuri)
+voice1-reflexive-middle-lex-rule.
+
+voice1-reflexive-middle-suffix2 :=
+%suffix (* -kuarhe)
+voice1-reflexive-middle-lex-rule.
+
+voice1-reflexive-middle-suffix3 :=
+%suffix (* -kurha)
+voice1-reflexive-middle-lex-rule.
+
+voice1-reflexive-middle-suffix4 :=
+%suffix (* -kuɽa)
+voice1-reflexive-middle-lex-rule.
+
+voice1-reciprocal-suffix1 :=
+%suffix (* -p'era)
+voice1-reciprocal-lex-rule.
+
+voice1-reciprocal-suffix2 :=
+%suffix (* -pʰera)
+voice1-reciprocal-lex-rule.
+
+voice1-passive-suffix1 :=
+%suffix (* -na)
+voice1-passive-lex-rule.
+
+voice1-passive-suffix2 :=
+%suffix (* -nha)
+voice1-passive-lex-rule.
+
+voice1-passive-suffix3 :=
+%suffix (* -nhka)
+voice1-passive-lex-rule.
+
+voice1-passive-suffix4 :=
+%suffix (* -ŋka)
+voice1-passive-lex-rule.
+
+voice1-antipassive-suffix1 :=
+%suffix (* -pʰe)
+voice1-antipassive-lex-rule.
+
+voice1-antipassive-suffix2 :=
+%suffix (* -p'e)
+voice1-antipassive-lex-rule.
+
+voice1-appl-3rd-obj-suffix :=
+%suffix (* -ku)
+voice1-appl-3rd-obj-lex-rule.
+
+voice1-appl-non3rd-obj-suffix :=
+%suffix (* -chi)
+voice1-appl-non3rd-obj-lex-rule.
+
+verb-pc37_lrt1-suffix :=
+%suffix (* -rha)
+verb-pc37_lrt1-lex-rule.
+
+verb-pc38_lrt1-suffix :=
+%suffix (* -rhi)
+verb-pc38_lrt1-lex-rule.
+
+verb-pc50_lrt1-suffix :=
+%suffix (* -ŋka)
+verb-pc50_lrt1-lex-rule.
+
+verb-pc54_lrt1-suffix :=
+%suffix (* -rhu)
+verb-pc54_lrt1-lex-rule.
+
+verb-pc55_lrt1-suffix1 :=
+%suffix (* -tsire)
+verb-pc55_lrt1-lex-rule.
+
+verb-pc55_lrt1-suffix2 :=
+%suffix (* -me)
+verb-pc55_lrt1-lex-rule.
+
+verb-pc56_lrt1-suffix :=
+%suffix (* -ma)
+verb-pc56_lrt1-lex-rule.
+
+verb-pc62_lrt1-suffix :=
+%suffix (* -ta)
+verb-pc62_lrt1-lex-rule.
+
+verb-pc63_lrt1-suffix :=
+%suffix (* -na)
+verb-pc63_lrt1-lex-rule.
+
+verb-pc65_lrt1-suffix :=
+%suffix (* -tini)
+verb-pc65_lrt1-lex-rule.
+
+verb-pc66_lrt1-suffix :=
+%suffix (* -xu)
+verb-pc66_lrt1-lex-rule.
+
+verb-pc67_lrt1-suffix :=
+%suffix (* -ta)
+verb-pc67_lrt1-lex-rule.
+
+verb-pc71_lrt1-suffix :=
+%suffix (* -nu)
+verb-pc71_lrt1-lex-rule.
+
+verb-pc73_lrt1-suffix :=
+%suffix (* -ntʃa)
+verb-pc73_lrt1-lex-rule.
+
+verb-pc74_lrt1-suffix :=
+%suffix (* -pa)
+verb-pc74_lrt1-lex-rule.
+
+verb-pc77_lrt1-suffix1 :=
+%suffix (* -nti)
+verb-pc77_lrt1-lex-rule.
+
+verb-pc77_lrt1-suffix2 :=
+%suffix (* -tini)
+verb-pc77_lrt1-lex-rule.
+
+verb-pc77_lrt1-suffix3 :=
+%suffix (* -tara)
+verb-pc77_lrt1-lex-rule.
+
+verb-pc85_lrt1-suffix :=
+%suffix (* -pa)
+verb-pc85_lrt1-lex-rule.
+
+verb-pc88_lrt1-suffix :=
+%suffix (* -we)
+verb-pc88_lrt1-lex-rule.
+
+verb-pc89_lrt1-suffix :=
+%suffix (* -kwaɽe)
+verb-pc89_lrt1-lex-rule.
+
+verb-pc92_lrt1-suffix :=
+%suffix (* -chi)
+verb-pc92_lrt1-lex-rule.
+
+verb-pc93_lrt1-suffix :=
+%suffix (* -ncha)
+verb-pc93_lrt1-lex-rule.
+
+verb-pc94_lrt1-suffix1 :=
+%suffix (* -rhi)
+verb-pc94_lrt1-lex-rule.
+
+verb-pc94_lrt1-suffix2 :=
+%suffix (* -pu)
+verb-pc94_lrt1-lex-rule.
+
+verb-pc94_lrt1-suffix3 :=
+%suffix (* -a)
+verb-pc94_lrt1-lex-rule.
+
+verb-pc94_lrt1-suffix4 :=
+%suffix (* -tse)
+verb-pc94_lrt1-lex-rule.
+
+verb-pc95_lrt1-suffix :=
+%suffix (* -ra)
+verb-pc95_lrt1-lex-rule.
+
+verb-pc96_lrt1-suffix :=
+%suffix (* -cha)
+verb-pc96_lrt1-lex-rule.
+
+verb-pc98_lrt1-suffix :=
+%suffix (* -p'i)
+verb-pc98_lrt1-lex-rule.
+
+verb-pc99_lrt1-suffix1 :=
+%suffix (* -ku)
+verb-pc99_lrt1-lex-rule.
+
+verb-pc99_lrt1-suffix2 :=
+%suffix (* -kwaɽe)
+verb-pc99_lrt1-lex-rule.
+
+verb-pc99_lrt1-suffix3 :=
+%suffix (* -mo)
+verb-pc99_lrt1-lex-rule.
+
+verb-pc99_lrt1-suffix4 :=
+%suffix (* -ma)
+verb-pc99_lrt1-lex-rule.
+
+verb-pc101_lrt1-suffix :=
+%suffix (* -xe)
+verb-pc101_lrt1-lex-rule.
+
+verb-pc106_lrt1-suffix :=
+%suffix (* -ri)
+verb-pc106_lrt1-lex-rule.
+
+verb-pc111_lrt1-suffix :=
+%suffix (* -p'i)
+verb-pc111_lrt1-lex-rule.
+
+verb-pc112_lrt1-suffix1 :=
+%suffix (* -ntʃi)
+verb-pc112_lrt1-lex-rule.
+
+verb-pc112_lrt1-suffix2 :=
+%suffix (* -tʃe)
+verb-pc112_lrt1-lex-rule.
+
+verb-pc117_lrt1-suffix :=
+%suffix (* -ke)
+verb-pc117_lrt1-lex-rule.
+
+verb-pc118_lrt1-suffix :=
+%suffix (* -ha)
+verb-pc118_lrt1-lex-rule.
+
+verb-pc120_lrt1-suffix :=
+%suffix (* -wa)
+verb-pc120_lrt1-lex-rule.
+
+v-loc-abdomen-central_area-suffix :=
+%suffix (* -a)
+v-loc-abdomen-central_area-lex-rule.
+
+v-loc-throat-large_narrow_area-suffix :=
+%suffix (* -tʃa)
+v-loc-throat-large_narrow_area-lex-rule.
+
+v-loc-arm-hand-extremity_area-suffix :=
+%suffix (* -kʰu)
+v-loc-arm-hand-extremity_area-lex-rule.
+
+v-loc-nose-projected_area-suffix :=
+%suffix (* -ɽu)
+v-loc-nose-projected_area-lex-rule.
+
+v-loc-lower-area-suffix :=
+%suffix (* -tsi)
+v-loc-lower-area-lex-rule.
+
+verb-pc128_lrt1-suffix1 :=
+%suffix (* -nkwa)
+verb-pc128_lrt1-lex-rule.
+
+verb-pc128_lrt1-suffix2 :=
+%suffix (* -nhe)
+verb-pc128_lrt1-lex-rule.
+
+verb-pc128_lrt1-suffix3 :=
+%suffix (* -ɽa)
+verb-pc128_lrt1-lex-rule.
+
+verb-pc128_lrt1-suffix4 :=
+%suffix (* -pe)
+verb-pc128_lrt1-lex-rule.
+
+verb-pc128_lrt1-suffix5 :=
+%suffix (* -tse)
+verb-pc128_lrt1-lex-rule.
+
+verb-pc129_lrt1-suffix :=
+%suffix (* -rini)
+verb-pc129_lrt1-lex-rule.
+
+verb-pc136_lrt1-suffix :=
+%suffix (* -mi)
+verb-pc136_lrt1-lex-rule.
+
+verb-pc144_lrt1-suffix1 :=
+%suffix (* -ch'u)
+verb-pc144_lrt1-lex-rule.
+
+verb-pc144_lrt1-suffix2 :=
+%suffix (* -k'u)
+verb-pc144_lrt1-lex-rule.
+
+verb-pc156_lrt1-suffix1 :=
+%suffix (* -nhka)
+verb-pc156_lrt1-lex-rule.
+
+verb-pc156_lrt1-suffix2 :=
+%suffix (* -nchi)
+verb-pc156_lrt1-lex-rule.
+
+verb-pc160_lrt1-suffix1 :=
+%suffix (* -punkua)
+verb-pc160_lrt1-lex-rule.
+
+verb-pc160_lrt1-suffix2 :=
+%suffix (* -tku)
+verb-pc160_lrt1-lex-rule.
+
+verb-pc162_lrt1-suffix :=
+%suffix (* -wina)
+verb-pc162_lrt1-lex-rule.
+
+verb-pc163_lrt1-suffix :=
+%suffix (* -tʰi)
+verb-pc163_lrt1-lex-rule.
+
+verb-pc164_lrt1-suffix :=
+%suffix (* -mu)
+verb-pc164_lrt1-lex-rule.
+
+verb-pc175_lrt1-suffix :=
+%suffix (* -tʃu)
+verb-pc175_lrt1-lex-rule.
+
+verb-pc176_lrt1-suffix :=
+%suffix (* -tsa)
+verb-pc176_lrt1-lex-rule.
+
+verb-pc195_lrt1-suffix1 :=
+%suffix (* -rata)
+verb-pc195_lrt1-lex-rule.
+
+verb-pc195_lrt1-suffix2 :=
+%suffix (* -tska)
+verb-pc195_lrt1-lex-rule.
+
+verb-pc195_lrt1-suffix3 :=
+%suffix (* -tsï)
+verb-pc195_lrt1-lex-rule.
+
+verb-pc199_lrt1-suffix :=
+%suffix (* -wara)
+verb-pc199_lrt1-lex-rule.
+
+verb-pc205_lrt1-suffix :=
+%suffix (* -karihma)
+verb-pc205_lrt1-lex-rule.
+
+v_nom_kwa_lrt1-suffix1 :=
+%suffix (* -kua)
+v_nom_kwa_lrt1-lex-rule.
+
+v_nom_kwa_lrt1-suffix2 :=
+%suffix (* -kwa)
+v_nom_kwa_lrt1-lex-rule.

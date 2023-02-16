@@ -2,7 +2,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Grammar of Purepecha
 ;;; created at:
-;;;     Sat Feb 11 05:01:37 UTC 2023
+;;;     Thu Feb 16 21:34:04 UTC 2023
 ;;; based on Matrix customization system version of:
 ;;;     unknown time
 ;;;
@@ -48,32 +48,32 @@ unary-bottom-coord-rule :+ [ SYNSEM [ LOCAL.CAT.HEAD.NMZ #nmz,
                       SUBORDINATED #subord ] ] > ].
 
 inflected :+ [ TAM1-FLAG luk,
+    CASE-OR-TAM3-FLAG luk,
     NOUN-NUMBER-FLAG luk,
     TAM3-FLAG luk,
-    TAM2-FLAG luk,
+    CASE-OR-TAM1-FLAG luk,
     NOUN-NUMBER-OR-V-3PL-OBJ-FLAG luk,
     CASE-OR-TAM2-FLAG luk,
-    TAM1-HABITUAL-PAST-FORM_XIREN-FLAG luk,
     V-STEM-FLAG luk,
+    CASE-FLAG luk,
+    TAM2-FLAG luk,
+    TAM1-HABITUAL-PAST-FORM_XIREN-FLAG luk,
     INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG luk,
-    V-3PL-OBJ-FLAG luk,
-    CASE-OR-TAM1-FLAG luk,
-    CASE-OR-TAM3-FLAG luk,
-    CASE-FLAG luk ].
+    V-3PL-OBJ-FLAG luk ].
 
 infl-satisfied :+ [ TAM1-FLAG na-or-+,
+    CASE-OR-TAM3-FLAG na-or-+,
     NOUN-NUMBER-FLAG na-or-+,
     TAM3-FLAG na-or-+,
-    TAM2-FLAG na-or-+,
+    CASE-OR-TAM1-FLAG na-or-+,
     NOUN-NUMBER-OR-V-3PL-OBJ-FLAG na-or-+,
     CASE-OR-TAM2-FLAG na-or-+,
-    TAM1-HABITUAL-PAST-FORM_XIREN-FLAG na-or-+,
     V-STEM-FLAG na-or-+,
+    CASE-FLAG na-or-+,
+    TAM2-FLAG na-or-+,
+    TAM1-HABITUAL-PAST-FORM_XIREN-FLAG na-or-+,
     INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-+,
-    V-3PL-OBJ-FLAG na-or-+,
-    CASE-OR-TAM1-FLAG na-or-+,
-    CASE-OR-TAM3-FLAG na-or-+,
-    CASE-FLAG na-or-+ ].
+    V-3PL-OBJ-FLAG na-or-+ ].
 
 png :+ [ PER person,
     NUM number ].
@@ -231,14 +231,14 @@ nonpast := tense+.
 asp+ := aspect.
 asp- := aspect.
 iter := aspect.
-hab+aor := asp+.
-hab := hab+aor & cont+hab.
-aor := hab+aor & prog+aor.
+aor+hab := asp+.
+aor := aor+hab & prog+aor.
+hab := aor+hab & cont+hab.
 prog := prog+aor.
 cont+hab := asp+.
-cont := cont+hab & cont+prog+aor.
-cont+prog+aor := asp+.
-prog+aor := cont+prog+aor.
+cont := cont+hab & prog+aor+cont.
+prog+aor+cont := asp+.
+prog+aor := prog+aor+cont.
 
 ;;; Mood
 
@@ -278,27 +278,25 @@ noun-lex := basic-noun-lex & basic-non-wh-word-lex & non-local-none-lex-item & n
                              SPEC < > ],
                        HEAD.NMZ - ] ].
 
-noun2-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc91-rule-dtr &
+noun2-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun7-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc16-rule-dtr & noun-pc18-rule-dtr & noun-pc19-rule-dtr &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
+noun7-noun-lex := noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
 noun14-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun20-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc2-rule-dtr & noun-pc60-rule-dtr &
+noun20-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun23-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc27-rule-dtr &
+noun23-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
@@ -306,67 +304,52 @@ noun23-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc27-r
 noun28-noun-lex := noun-lex &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
-noun63-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
+noun63-noun-lex := noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
 noun67-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun70-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
+noun70-noun-lex := noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
 noun82-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun84-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun84-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun103-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc60-rule-dtr &
+noun104-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun104-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc19-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr &
+noun133-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun133-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc35-rule-dtr &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
+noun139-noun-lex := noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
-noun139-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
+noun157-noun-lex := noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
-noun157-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
-
-noun180-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
+noun180-noun-lex := noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
 noun188-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun218-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc2-rule-dtr & noun-pc60-rule-dtr &
+noun218-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
@@ -376,33 +359,18 @@ noun233-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun235-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc32-rule-dtr & noun-pc7-rule-dtr &
+noun235-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun245-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc96-rule-dtr &
+noun245-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun278-noun-lex := noun-lex & noun-pc88-rule-dtr &
+noun278-noun-lex := noun-lex &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
-
-noun330-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc81-rule-dtr & noun-pc88-rule-dtr & noun-pc91-rule-dtr & noun-pc96-rule-dtr &
-  [ SYNSEM.LOCAL.CAT.HEAD.PRON +,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
-
-noun331-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc81-rule-dtr & noun-pc88-rule-dtr & noun-pc91-rule-dtr & noun-pc96-rule-dtr &
-  [ SYNSEM.LOCAL.CAT.HEAD.PRON +,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
-
-noun332-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc81-rule-dtr & noun-pc88-rule-dtr & noun-pc91-rule-dtr & noun-pc96-rule-dtr &
-  [ SYNSEM.LOCAL.CAT.HEAD.PRON +,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
 
 noun334-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CAT.HEAD.PRON +,
@@ -416,17 +384,12 @@ noun335-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun336-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc2-rule-dtr & noun-pc60-rule-dtr &
+noun336-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CAT.HEAD.PRON +,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun337-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc2-rule-dtr & noun-pc60-rule-dtr &
-  [ SYNSEM.LOCAL.CAT.HEAD.PRON +,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
-
-noun338-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc35-rule-dtr &
+noun338-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.PNG [ PER 1st,
                                          NUM pl ],
                    CAT.HEAD [ PRON +,
@@ -442,61 +405,61 @@ noun339-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun340-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun340-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CAT.HEAD.PRON +,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun341-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun341-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 2nd,
                                          NUM pl ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun345-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun345-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 3rd,
                                          NUM sg ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun346-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun346-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 1st,
                                          NUM sg ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun347-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun347-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 1st,
                                          NUM pl ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun348-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun348-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 1st,
                                          NUM pl ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun352-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun352-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 1st,
                                          NUM sg ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun353-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun353-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 1st,
                                          NUM pl ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun354-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun354-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.PNG [ PER 1st,
                                          NUM pl ],
                    CAT.HEAD [ PRON +,
@@ -505,33 +468,33 @@ noun354-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun356-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun356-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 3rd,
                                          NUM pl ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun357-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun357-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL.CAT.HEAD.PRON +,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun358-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun358-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 3rd,
                                          NUM pl ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun359-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun359-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 3rd,
                                          NUM pl ] ],
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
 
-noun360-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc16-rule-dtr & noun-pc2-rule-dtr & noun-pc27-rule-dtr & noun-pc32-rule-dtr & noun-pc35-rule-dtr & noun-pc39-rule-dtr & noun-pc40-rule-dtr & noun-pc60-rule-dtr & noun-pc7-rule-dtr & noun-pc75-or-noun-pc95-rule-dtr &
+noun360-noun-lex := noun-lex & case-rule-dtr & kinship-possessum-rule-dtr & noun-number-rule-dtr &
   [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
                    CONT.HOOK.INDEX.PNG [ PER 2nd,
                                          NUM pl ] ],
@@ -539,31 +502,6 @@ noun360-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc11-
                 CASE-FLAG - ] ].
 
 noun361-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
-  [ SYNSEM.LOCAL.CAT.HEAD.PRON +,
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
-
-noun364-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
-  [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
-                   CONT.HOOK.INDEX.PNG.NUM sg ],
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
-
-noun365-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
-  [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
-                   CONT.HOOK.INDEX.PNG [ PER 2nd,
-                                         NUM sg ] ],
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
-
-noun366-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr &
-  [ SYNSEM.LOCAL [ CAT.HEAD.PRON +,
-                   CONT.HOOK.INDEX.PNG [ PER 2nd,
-                                         NUM pl ] ],
-    INFLECTED [ NOUN-NUMBER-FLAG -,
-                CASE-FLAG - ] ].
-
-noun367-noun-lex := noun-lex & case-rule-dtr & noun-number-rule-dtr & noun-pc96-rule-dtr &
   [ SYNSEM.LOCAL.CAT.HEAD.PRON +,
     INFLECTED [ NOUN-NUMBER-FLAG -,
                 CASE-FLAG - ] ].
@@ -777,7 +715,8 @@ verb32-verb-lex := clausal-nom-verb-lex & verb-pc101-rule-dtr & verb-pc156-rule-
   [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or--,
     SYNSEM [ LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                          CASE-MARKED + ],
-                             COMPS < [ LOCAL [ CAT [ HEAD comp,
+                             COMPS < [ LOCAL [ CAT [ HEAD comp &
+                                                          [ MAIN_CLAUSE - ],
                                                      WH.BOOL - ],
                                                CONT.HOOK.INDEX [ E.MOOD mood-,
                                                                  SF prop ] ] ] > ],
@@ -1074,9 +1013,6 @@ verb750-verb-lex := transitive-verb-lex &
                                                         CASE-MARKED + ] ],
     INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
-verb753-verb-lex := transitive-verb-lex &
-  [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
-
 verb755-verb-lex := transitive-verb-lex &
   [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
@@ -1129,13 +1065,14 @@ adverb-subord-lex-item := no-rels-hcons-lex-item & basic-icons-lex-item &
                        HEAD adv &
                             [ MOD < [ SUBORDINATED none,
                                       LOCAL intersective-mod &
-                                            [ CONT.HOOK.INDEX.E.MOOD mood-,
-                                              CAT [ MC -,
+                                            [ CAT [ MC -,
                                                     HEAD verb ] ] ] > ] ] ].
 
 --because-clause-init-adv-subord-lex-item := adverb-subord-lex-item &
   [ SYNSEM [ LOCAL.CAT [ POSTHEAD -,
-                         HEAD.MOD < [ LOCAL.CAT.VAL.COMPS < > ] > ],
+                         HEAD [ MAIN_CLAUSE #feat,
+                                MOD < [ LOCAL.CAT [ HEAD.MAIN_CLAUSE #feat & -,
+                                                    VAL.COMPS < > ] ] > ] ],
              SUBORDINATED because ] ].
 
 --if-or-when-or-while-clause-init-adv-subord-lex-item := adverb-subord-lex-item &
@@ -1204,7 +1141,8 @@ complementizer-lex-item := raise-sem-lex-item & non-local-none-lex-item & basic-
 
 comps1-complementizer-lex-item := complementizer-lex-item & basic-non-wh-word-lex &
   [ SYNSEM.LOCAL [ CAT [ MC na-or--,
-                         VAL.COMPS.FIRST.LOCAL [ CAT.MC - ,
+                         VAL.COMPS.FIRST.LOCAL [ CAT [ MC -,
+                                                       HEAD.MAIN_CLAUSE - ],
                                                  CONT.HOOK.INDEX.E.MOOD mood- ] ],
                    CONT.HOOK.INDEX.SF prop ] ].
 
@@ -1278,72 +1216,56 @@ low-nmz-subjid-compsid-lex-rule := low-nominalization-lex-rule &
 
 ;;; Intermediate rule types
 
-verb-pc38-rule-dtr := word-or-lexrule.
-noun-pc27-rule-dtr := word-or-lexrule.
-noun-pc19-rule-dtr := word-or-lexrule.
-noun-pc91-rule-dtr := word-or-lexrule.
-noun-pc96-rule-dtr := word-or-lexrule.
-verb-pc96-rule-dtr := word-or-lexrule.
-verb-pc98-rule-dtr := word-or-lexrule.
-verb-pc99-rule-dtr := word-or-lexrule.
-noun-pc81-rule-dtr := word-or-lexrule.
-verb-pc144-rule-dtr := word-or-lexrule.
-noun-pc39-rule-dtr := word-or-lexrule.
-verb-pc120-or-verb-pc55-rule-dtr := word-or-lexrule.
-verb-pc164-rule-dtr := word-or-lexrule.
-verb-pc92-rule-dtr := word-or-lexrule.
-tam2-rule-dtr := word-or-lexrule.
-v-deriv-adverbial-rule-dtr := word-or-lexrule.
-verb-pc54-rule-dtr := word-or-lexrule.
-noun-pc32-rule-dtr := word-or-lexrule.
-v-3pl-obj-rule-dtr := word-or-lexrule.
-verb-pc163-rule-dtr := word-or-lexrule.
-verb-pc126-or-verb-pc67-or-verb-pc74-or-verb-pc95-rule-dtr := word-or-lexrule.
-noun-pc60-rule-dtr := word-or-lexrule.
-verb-pc112-rule-dtr := word-or-lexrule.
-verb-pc63-rule-dtr := word-or-lexrule.
-noun-pc75-or-noun-pc95-rule-dtr := word-or-lexrule.
-verb-pc89-rule-dtr := word-or-lexrule.
-noun-pc88-rule-dtr := word-or-lexrule.
-case-rule-dtr := word-or-lexrule.
-voice1-rule-dtr := word-or-lexrule.
-verb-pc56-rule-dtr := word-or-lexrule.
-tam3-rule-dtr := word-or-lexrule.
-verb-pc29-rule-dtr := word-or-lexrule.
-verb-pc101-rule-dtr := word-or-lexrule.
-v-desiderative-pc-rule-dtr := word-or-lexrule.
-verb-pc176-rule-dtr := word-or-lexrule.
-noun-pc35-rule-dtr := word-or-lexrule.
-tam1-rule-dtr := word-or-lexrule.
-verb-pc94-rule-dtr := word-or-lexrule.
-verb-pc106-rule-dtr := word-or-lexrule.
-verb-pc85-rule-dtr := word-or-lexrule.
-verb-pc88-rule-dtr := word-or-lexrule.
-verb-pc14-rule-dtr := word-or-lexrule.
-verb-pc71-rule-dtr := word-or-lexrule.
-verb-pc73-rule-dtr := word-or-lexrule.
-verb-pc129-rule-dtr := word-or-lexrule.
-verb-pc195-rule-dtr := word-or-lexrule.
-noun-pc18-rule-dtr := word-or-lexrule.
-nominalize_kwa-rule-dtr := word-or-lexrule.
-verb-pc118-rule-dtr := word-or-lexrule.
-verb-pc136-rule-dtr := word-or-lexrule.
-verb-pc65-rule-dtr := word-or-lexrule.
-noun-pc11-rule-dtr := word-or-lexrule.
-verb-pc62-rule-dtr := word-or-lexrule.
 verb-pc77-rule-dtr := word-or-lexrule.
-verb-pc160-rule-dtr := word-or-lexrule.
-noun-pc7-rule-dtr := word-or-lexrule.
-noun-pc40-rule-dtr := word-or-lexrule.
-verb-pc28-rule-dtr := word-or-lexrule.
-verb-pc50-rule-dtr := word-or-lexrule.
-verb-pc128-rule-dtr := word-or-lexrule.
-noun-number-rule-dtr := word-or-lexrule.
-noun-pc2-rule-dtr := word-or-lexrule.
-verb-pc37-rule-dtr := word-or-lexrule.
+verb-pc129-rule-dtr := word-or-lexrule.
 verb-pc156-rule-dtr := word-or-lexrule.
+verb-pc14-rule-dtr := word-or-lexrule.
+tam1-rule-dtr := word-or-lexrule.
+verb-pc28-rule-dtr := word-or-lexrule.
+verb-pc120-or-verb-pc55-rule-dtr := word-or-lexrule.
+verb-pc126-or-verb-pc67-or-verb-pc74-or-verb-pc95-rule-dtr := word-or-lexrule.
+verb-pc73-rule-dtr := word-or-lexrule.
+voice1-rule-dtr := word-or-lexrule.
+verb-pc62-rule-dtr := word-or-lexrule.
+verb-pc195-rule-dtr := word-or-lexrule.
+verb-pc92-rule-dtr := word-or-lexrule.
+verb-pc71-rule-dtr := word-or-lexrule.
+verb-pc99-rule-dtr := word-or-lexrule.
+verb-pc101-rule-dtr := word-or-lexrule.
+verb-pc106-rule-dtr := word-or-lexrule.
+verb-pc128-rule-dtr := word-or-lexrule.
+nominalize_kwa-rule-dtr := word-or-lexrule.
 verb-pc10-rule-dtr := word-or-lexrule.
-noun-pc16-rule-dtr := word-or-lexrule.
+verb-pc89-rule-dtr := word-or-lexrule.
+case-rule-dtr := word-or-lexrule.
+verb-pc112-rule-dtr := word-or-lexrule.
+verb-pc176-rule-dtr := word-or-lexrule.
+verb-pc63-rule-dtr := word-or-lexrule.
+verb-pc37-rule-dtr := word-or-lexrule.
+v-deriv-adverbial-rule-dtr := word-or-lexrule.
+tam2-rule-dtr := word-or-lexrule.
+verb-pc144-rule-dtr := word-or-lexrule.
+verb-pc96-rule-dtr := word-or-lexrule.
+verb-pc56-rule-dtr := word-or-lexrule.
+verb-pc164-rule-dtr := word-or-lexrule.
+verb-pc160-rule-dtr := word-or-lexrule.
+tam3-rule-dtr := word-or-lexrule.
+verb-pc88-rule-dtr := word-or-lexrule.
+kinship-possessum-rule-dtr := word-or-lexrule.
+v-3pl-obj-rule-dtr := word-or-lexrule.
+verb-pc65-rule-dtr := word-or-lexrule.
+v-desiderative-pc-rule-dtr := word-or-lexrule.
+verb-pc50-rule-dtr := word-or-lexrule.
+verb-pc118-rule-dtr := word-or-lexrule.
+verb-pc163-rule-dtr := word-or-lexrule.
+verb-pc85-rule-dtr := word-or-lexrule.
+verb-pc98-rule-dtr := word-or-lexrule.
+noun-number-rule-dtr := word-or-lexrule.
+verb-pc38-rule-dtr := word-or-lexrule.
+verb-pc94-rule-dtr := word-or-lexrule.
+verb-pc29-rule-dtr := word-or-lexrule.
+verb-pc136-rule-dtr := word-or-lexrule.
+verb-pc54-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 
@@ -1353,25 +1275,25 @@ case-lex-rule-super := add-only-no-ccont-rule &
                 CASE-OR-TAM2-FLAG +,
                 CASE-OR-TAM3-FLAG +,
                 TAM1-FLAG #tam1,
-                TAM2-FLAG #tam2,
                 TAM3-FLAG #tam3,
+                NOUN-NUMBER-FLAG #noun-number,
                 NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
-                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                 V-STEM-FLAG #v-stem,
+                TAM2-FLAG #tam2,
+                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                 INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                V-3PL-OBJ-FLAG #v-3pl-obj,
-                NOUN-NUMBER-FLAG #noun-number ],
+                V-3PL-OBJ-FLAG #v-3pl-obj ],
     DTR case-rule-dtr &
         [ INFLECTED [ TAM1-FLAG #tam1,
-                      TAM2-FLAG #tam2,
                       TAM3-FLAG #tam3,
+                      NOUN-NUMBER-FLAG #noun-number,
                       NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
+                      V-STEM-FLAG #v-stem,
+                      TAM2-FLAG #tam2,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                       TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                      V-STEM-FLAG #v-stem,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      V-3PL-OBJ-FLAG #v-3pl-obj,
-                      NOUN-NUMBER-FLAG #noun-number ] ] ].
+                      V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
 
 case_nom-lex-rule := case-lex-rule-super & const-lex-rule &
   [ SYNSEM.LOCAL.CAT.HEAD [ CASE nom,
@@ -1401,42 +1323,33 @@ case-synth-adp-lex-rule := case-lex-rule-super & const-lex-rule &
   [ SYNSEM.LOCAL.CAT.HEAD [ CASE com+ins,
                             CASE-MARKED - ] ].
 
-noun-pc2-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr & noun-pc60-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc2-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc2_lrt1-lex-rule := noun-pc2-lex-rule-super.
-
-noun-pc2_lrt2-lex-rule := noun-pc2-lex-rule-super.
-
 noun-number-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr &
   [ INFLECTED [ NOUN-NUMBER-FLAG +,
                 NOUN-NUMBER-OR-V-3PL-OBJ-FLAG +,
                 TAM1-FLAG #tam1,
-                TAM3-FLAG #tam3,
-                TAM2-FLAG #tam2,
-                CASE-OR-TAM2-FLAG #case-or-tam2,
-                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                V-STEM-FLAG #v-stem,
-                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                V-3PL-OBJ-FLAG #v-3pl-obj,
-                CASE-OR-TAM1-FLAG #case-or-tam1,
                 CASE-OR-TAM3-FLAG #case-or-tam3,
-                CASE-FLAG #case ],
+                TAM3-FLAG #tam3,
+                CASE-OR-TAM1-FLAG #case-or-tam1,
+                CASE-OR-TAM2-FLAG #case-or-tam2,
+                V-STEM-FLAG #v-stem,
+                CASE-FLAG #case,
+                TAM2-FLAG #tam2,
+                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                V-3PL-OBJ-FLAG #v-3pl-obj ],
     DTR noun-number-rule-dtr &
         [ INFLECTED [ TAM1-FLAG #tam1,
+                      CASE-OR-TAM3-FLAG #case-or-tam3,
                       TAM3-FLAG #tam3,
+                      CASE-OR-TAM1-FLAG #case-or-tam1,
+                      CASE-OR-TAM2-FLAG #case-or-tam2,
+                      V-STEM-FLAG #v-stem,
+                      CASE-FLAG #case,
                       TAM2-FLAG #tam2,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      CASE-OR-TAM2-FLAG #case-or-tam2,
                       TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                      V-STEM-FLAG #v-stem,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      V-3PL-OBJ-FLAG #v-3pl-obj,
-                      CASE-OR-TAM1-FLAG #case-or-tam1,
-                      CASE-OR-TAM3-FLAG #case-or-tam3,
-                      CASE-FLAG #case ] ] ].
+                      V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
 
 noun-plural-suffix-lex-rule := infl-lex-rule & noun-number-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
@@ -1444,209 +1357,43 @@ noun-plural-suffix-lex-rule := infl-lex-rule & noun-number-lex-rule-super &
 noun-singular-lex-rule := const-lex-rule & noun-number-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
 
-noun-pc7-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
+kinship-possessum-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
   [ INFLECTED #infl,
-    DTR noun-pc7-rule-dtr &
+    DTR kinship-possessum-rule-dtr &
         [ INFLECTED #infl ] ].
 
-noun-pc7_lrt1-lex-rule := noun-pc7-lex-rule-super.
+kinship-possessum-2per-possessor-lex-rule := kinship-possessum-lex-rule-super.
 
-noun-pc11-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr & noun-pc35-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc11-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc11_lrt1-lex-rule := noun-pc11-lex-rule-super.
-
-noun-pc16-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc16-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc16_lrt1-lex-rule := noun-pc16-lex-rule-super.
-
-noun-pc18-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr & noun-pc16-rule-dtr & noun-pc19-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc18-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc18_lrt1-lex-rule := noun-pc18-lex-rule-super.
-
-noun-pc19-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc19-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc19_lrt1-lex-rule := noun-pc19-lex-rule-super.
-
-noun-pc27-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc27-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc27_lrt1-lex-rule := noun-pc27-lex-rule-super.
-
-noun-pc32-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc32-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc32_lrt1-lex-rule := noun-pc32-lex-rule-super.
-
-noun-pc35-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc35-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc35_lrt1-lex-rule := noun-pc35-lex-rule-super.
-
-noun-pc39-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr & noun-pc40-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc39-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc39_lrt1-lex-rule := noun-pc39-lex-rule-super.
-
-noun-pc40-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc40-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc40_lrt1-lex-rule := noun-pc40-lex-rule-super.
-
-noun-pc42-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun63-noun-lex &
-        [ INFLECTED #infl ] ].
-
-noun-pc42_lrt1-lex-rule := noun-pc42-lex-rule-super.
-
-noun-pc50-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun70-noun-lex &
-        [ INFLECTED #infl ] ].
-
-noun-pc50_lrt1-lex-rule := noun-pc50-lex-rule-super.
-
-noun-pc60-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc60-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc60_lrt1-lex-rule := noun-pc60-lex-rule-super.
-
-noun-pc62-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
-  [ INFLECTED #infl,
-    DTR noun103-noun-lex &
-        [ INFLECTED #infl ] ].
-
-noun-pc62_lrt1-lex-rule := noun-pc62-lex-rule-super.
-
-noun-pc63-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun103-noun-lex &
-        [ INFLECTED #infl ] ].
-
-noun-pc63_lrt1-lex-rule := noun-pc63-lex-rule-super.
-
-noun-pc65-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun139-noun-lex &
-        [ INFLECTED #infl ] ].
-
-noun-pc65_lrt1-lex-rule := noun-pc65-lex-rule-super.
-
-noun-pc66-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun157-noun-lex &
-        [ INFLECTED #infl ] ].
-
-noun-pc66_lrt1-lex-rule := noun-pc66-lex-rule-super.
-
-noun-pc74-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun180-noun-lex &
-        [ INFLECTED #infl ] ].
-
-noun-pc74_lrt1-lex-rule := noun-pc74-lex-rule-super.
-
-noun-pc75-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc75-or-noun-pc95-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc75_lrt1-lex-rule := noun-pc75-lex-rule-super.
-
-noun-pc79-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr & noun-pc16-rule-dtr & noun-pc18-rule-dtr & noun-pc19-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun7-noun-lex &
-        [ INFLECTED #infl ] ].
-
-noun-pc79_lrt1-lex-rule := noun-pc79-lex-rule-super.
-
-noun-pc81-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc81-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc81_lrt1-lex-rule := noun-pc81-lex-rule-super.
-
-noun-pc88-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
-  [ INFLECTED #infl,
-    DTR noun-pc88-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc88_lrt1-lex-rule := noun-pc88-lex-rule-super.
-
-noun-pc91-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr & noun-pc11-rule-dtr & noun-pc35-rule-dtr &
-  [ INFLECTED #infl,
-    DTR noun-pc91-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc91_lrt1-lex-rule := noun-pc91-lex-rule-super.
-
-noun-pc95-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
-  [ INFLECTED #infl,
-    DTR noun-pc75-or-noun-pc95-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc95_lrt1-lex-rule := noun-pc95-lex-rule-super.
-
-noun-pc96-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
-  [ INFLECTED #infl,
-    DTR noun-pc96-rule-dtr &
-        [ INFLECTED #infl ] ].
-
-noun-pc96_lrt1-lex-rule := noun-pc96-lex-rule-super.
+kinship-possessum-3per-possessor-lex-rule := kinship-possessum-lex-rule-super.
 
 v-stem-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & nominalize_kwa-rule-dtr & noun-number-rule-dtr & tam1-rule-dtr & tam2-rule-dtr & tam3-rule-dtr & v-3pl-obj-rule-dtr & v-deriv-adverbial-rule-dtr & v-desiderative-pc-rule-dtr & verb-pc10-rule-dtr & verb-pc106-rule-dtr & verb-pc118-rule-dtr & verb-pc126-or-verb-pc67-or-verb-pc74-or-verb-pc95-rule-dtr & verb-pc129-rule-dtr & verb-pc14-rule-dtr & verb-pc144-rule-dtr & verb-pc163-rule-dtr & verb-pc164-rule-dtr & verb-pc195-rule-dtr & verb-pc28-rule-dtr & verb-pc37-rule-dtr & verb-pc50-rule-dtr & verb-pc56-rule-dtr & verb-pc62-rule-dtr & verb-pc63-rule-dtr & verb-pc65-rule-dtr & verb-pc77-rule-dtr & verb-pc85-rule-dtr & verb-pc88-rule-dtr & verb-pc92-rule-dtr & verb-pc94-rule-dtr & verb-pc99-rule-dtr & voice1-rule-dtr &
   [ INFLECTED [ V-STEM-FLAG +,
                 TAM1-FLAG #tam1,
+                CASE-OR-TAM3-FLAG #case-or-tam3,
                 NOUN-NUMBER-FLAG #noun-number,
                 TAM3-FLAG #tam3,
-                TAM2-FLAG #tam2,
+                CASE-OR-TAM1-FLAG #case-or-tam1,
                 NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
                 CASE-OR-TAM2-FLAG #case-or-tam2,
+                CASE-FLAG #case,
+                TAM2-FLAG #tam2,
                 TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                 INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                V-3PL-OBJ-FLAG #v-3pl-obj,
-                CASE-OR-TAM1-FLAG #case-or-tam1,
-                CASE-OR-TAM3-FLAG #case-or-tam3,
-                CASE-FLAG #case ],
+                V-3PL-OBJ-FLAG #v-3pl-obj ],
     DTR verb-lex &
         [ INFLECTED [ TAM1-FLAG #tam1,
+                      CASE-OR-TAM3-FLAG #case-or-tam3,
                       NOUN-NUMBER-FLAG #noun-number,
                       TAM3-FLAG #tam3,
-                      TAM2-FLAG #tam2,
+                      CASE-OR-TAM1-FLAG #case-or-tam1,
                       NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                       CASE-OR-TAM2-FLAG #case-or-tam2,
+                      CASE-FLAG #case,
+                      TAM2-FLAG #tam2,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                       TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      V-3PL-OBJ-FLAG #v-3pl-obj,
-                      CASE-OR-TAM1-FLAG #case-or-tam1,
-                      CASE-OR-TAM3-FLAG #case-or-tam3,
-                      CASE-FLAG #case ] ] ].
+                      V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
 
 v-stem-simple-lex-rule := const-lex-rule & v-stem-lex-rule-super &
   [ DTR.INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na ].
@@ -1658,29 +1405,29 @@ v-3pl-obj-lex-rule-super := add-only-no-ccont-rule & tam1-rule-dtr & tam2-rule-d
   [ INFLECTED [ NOUN-NUMBER-OR-V-3PL-OBJ-FLAG +,
                 V-3PL-OBJ-FLAG +,
                 TAM1-FLAG #tam1,
+                CASE-OR-TAM3-FLAG #case-or-tam3,
                 NOUN-NUMBER-FLAG #noun-number,
                 TAM3-FLAG #tam3,
-                TAM2-FLAG #tam2,
-                CASE-OR-TAM2-FLAG #case-or-tam2,
-                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                V-STEM-FLAG #v-stem,
-                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                 CASE-OR-TAM1-FLAG #case-or-tam1,
-                CASE-OR-TAM3-FLAG #case-or-tam3,
-                CASE-FLAG #case ],
+                CASE-OR-TAM2-FLAG #case-or-tam2,
+                V-STEM-FLAG #v-stem,
+                CASE-FLAG #case,
+                TAM2-FLAG #tam2,
+                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb ],
     DTR v-3pl-obj-rule-dtr &
         [ INFLECTED [ TAM1-FLAG #tam1,
+                      CASE-OR-TAM3-FLAG #case-or-tam3,
                       NOUN-NUMBER-FLAG #noun-number,
                       TAM3-FLAG #tam3,
+                      CASE-OR-TAM1-FLAG #case-or-tam1,
+                      CASE-OR-TAM2-FLAG #case-or-tam2,
+                      V-STEM-FLAG #v-stem,
+                      CASE-FLAG #case,
                       TAM2-FLAG #tam2,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      CASE-OR-TAM2-FLAG #case-or-tam2,
                       TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                      V-STEM-FLAG #v-stem,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      CASE-OR-TAM1-FLAG #case-or-tam1,
-                      CASE-OR-TAM3-FLAG #case-or-tam3,
-                      CASE-FLAG #case ] ] ].
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb ] ] ].
 
 v-3pl-obj-suffix-lex-rule := infl-lex-rule & v-3pl-obj-lex-rule-super &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
@@ -1688,40 +1435,31 @@ v-3pl-obj-suffix-lex-rule := infl-lex-rule & v-3pl-obj-lex-rule-super &
 
 v-3pl-obj-skip-lex-rule := const-lex-rule & v-3pl-obj-lex-rule-super.
 
-fin-lex-rule := lex-rule &
-  [ SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
-
-fin-mc-lex-rule := fin-lex-rule &
-  [ SYNSEM.LOCAL.CAT.MC + ].
-
-fin-subord-lex-rule := fin-lex-rule &
-  [ SYNSEM.LOCAL.CAT.MC - ].
-
 tam1-lex-rule-super := add-only-no-ccont-rule & tam2-rule-dtr & tam3-rule-dtr &
   [ INFLECTED [ CASE-OR-TAM1-FLAG +,
                 TAM1-FLAG +,
-                CASE-FLAG #case,
                 CASE-OR-TAM3-FLAG #case-or-tam3,
-                TAM2-FLAG #tam2,
                 TAM3-FLAG #tam3,
+                NOUN-NUMBER-FLAG #noun-number,
                 NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
-                V-STEM-FLAG #v-stem,
-                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                V-3PL-OBJ-FLAG #v-3pl-obj,
                 CASE-OR-TAM2-FLAG #case-or-tam2,
-                NOUN-NUMBER-FLAG #noun-number ],
+                V-STEM-FLAG #v-stem,
+                CASE-FLAG #case,
+                TAM2-FLAG #tam2,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                V-3PL-OBJ-FLAG #v-3pl-obj ],
     DTR tam1-rule-dtr &
-        [ INFLECTED [ CASE-FLAG #case,
-                      CASE-OR-TAM3-FLAG #case-or-tam3,
-                      TAM2-FLAG #tam2,
+        [ INFLECTED [ CASE-OR-TAM3-FLAG #case-or-tam3,
                       TAM3-FLAG #tam3,
+                      NOUN-NUMBER-FLAG #noun-number,
                       NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      V-STEM-FLAG #v-stem,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      V-3PL-OBJ-FLAG #v-3pl-obj,
                       CASE-OR-TAM2-FLAG #case-or-tam2,
-                      NOUN-NUMBER-FLAG #noun-number ] ] ].
+                      V-STEM-FLAG #v-stem,
+                      CASE-FLAG #case,
+                      TAM2-FLAG #tam2,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
 
 tam1-habitual-past-form_xiren-lex-rule := infl-lex-rule & tam1-hab-check-lex-rule &
   [ INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG +,
@@ -1751,13 +1489,17 @@ tam1-continuative-mc-lex-rule := tam1-asp-tense-check-lex-rule & tam1-fin-mc-che
     DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
     SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT cont ].
 
-tam1-fin-mc-check-lex-rule := infl-lex-rule & tam1-lex-rule-super & fin-mc-lex-rule &
+tam1-fin-mc-check-lex-rule := infl-lex-rule & tam1-lex-rule-super &
   [ INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-    DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren].
+    DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
+    SYNSEM.LOCAL.CAT.HEAD [ MAIN_CLAUSE +,
+                            FORM finite ] ].
 
-tam1-fin-subord-check-lex-rule := const-lex-rule & tam1-lex-rule-super & fin-subord-lex-rule &
+tam1-fin-subord-check-lex-rule := const-lex-rule & tam1-lex-rule-super &
   [ INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-    DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren ].
+    DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
+    SYNSEM.LOCAL.CAT.HEAD [ MAIN_CLAUSE -,
+                            FORM finite ] ].
 
 tam1-no-asp-tense-lex-rule := const-lex-rule & tam1-lex-rule-super &
   [ INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
@@ -1780,29 +1522,29 @@ tam2-lex-rule-super := add-only-no-ccont-rule & tam3-rule-dtr &
   [ INFLECTED [ CASE-OR-TAM2-FLAG +,
                 TAM2-FLAG +,
                 TAM1-FLAG #tam1,
+                CASE-OR-TAM3-FLAG #case-or-tam3,
                 NOUN-NUMBER-FLAG #noun-number,
                 TAM3-FLAG #tam3,
-                NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
-                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                V-STEM-FLAG #v-stem,
-                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                V-3PL-OBJ-FLAG #v-3pl-obj,
                 CASE-OR-TAM1-FLAG #case-or-tam1,
-                CASE-OR-TAM3-FLAG #case-or-tam3,
-                CASE-FLAG #case ],
+                NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
+                V-STEM-FLAG #v-stem,
+                CASE-FLAG #case,
+                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                V-3PL-OBJ-FLAG #v-3pl-obj ],
     DTR tam2-rule-dtr &
         [ INFLECTED [ TAM1-FLAG #tam1,
+                      CASE-OR-TAM3-FLAG #case-or-tam3,
                       NOUN-NUMBER-FLAG #noun-number,
                       TAM3-FLAG #tam3,
+                      CASE-OR-TAM1-FLAG #case-or-tam1,
                       NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
+                      V-STEM-FLAG #v-stem,
+                      CASE-FLAG #case,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                       TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                      V-STEM-FLAG #v-stem,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      V-3PL-OBJ-FLAG #v-3pl-obj,
-                      CASE-OR-TAM1-FLAG #case-or-tam1,
-                      CASE-OR-TAM3-FLAG #case-or-tam3,
-                      CASE-FLAG #case ] ] ].
+                      V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
 
 tam2-hab-or-cont-past-mc-lex-rule := tam2-fin-mc-check-lex-rule & tam2-past-lex-rule &
   [ DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG na,
@@ -1815,9 +1557,13 @@ tam2-hab-past-subord-lex-rule := tam2-past-lex-rule & tam2-subord-tensed-check-l
 tam2-habitual-past-form_xiren-lex-rule := const-lex-rule & tam2-asp-tense-check-lex-rule &
   [ DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG + ].
 
-tam2-fin-mc-check-lex-rule := tam2-lex-rule-super & fin-mc-lex-rule.
+tam2-fin-mc-check-lex-rule := tam2-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD [ MAIN_CLAUSE +,
+                            FORM finite ] ].
 
-tam2-fin-subord-check-lex-rule := tam2-lex-rule-super & fin-subord-lex-rule.
+tam2-fin-subord-check-lex-rule := tam2-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD [ MAIN_CLAUSE -,
+                            FORM finite ] ].
 
 tam2-asp-tense-check-lex-rule := tam2-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ ASPECT asp+,
@@ -1828,7 +1574,7 @@ tam2-no-asp-tense-lex-rule := tam2-lex-rule-super &
                                      TENSE tense- ] ].
 
 tam2-subord-tensed-check-lex-rule := tam2-asp-tense-check-lex-rule & tam2-fin-subord-check-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT hab+aor ].
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT aor+hab ].
 
 tam2-past-lex-rule := infl-lex-rule & tam2-asp-tense-check-lex-rule &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE past ].
@@ -1860,34 +1606,38 @@ tam3-lex-rule-super := add-only-no-ccont-rule &
                 TAM3-FLAG +,
                 TAM1-FLAG #tam1,
                 NOUN-NUMBER-FLAG #noun-number,
-                TAM2-FLAG #tam2,
+                CASE-OR-TAM1-FLAG #case-or-tam1,
                 NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
                 CASE-OR-TAM2-FLAG #case-or-tam2,
-                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                 V-STEM-FLAG #v-stem,
+                CASE-FLAG #case,
+                TAM2-FLAG #tam2,
+                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                 INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                V-3PL-OBJ-FLAG #v-3pl-obj,
-                CASE-OR-TAM1-FLAG #case-or-tam1,
-                CASE-FLAG #case ],
+                V-3PL-OBJ-FLAG #v-3pl-obj ],
     DTR tam3-rule-dtr &
         [ INFLECTED [ TAM1-FLAG #tam1,
                       NOUN-NUMBER-FLAG #noun-number,
-                      TAM2-FLAG #tam2,
-                      NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      CASE-OR-TAM2-FLAG #case-or-tam2,
-                      TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                      V-STEM-FLAG #v-stem,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      V-3PL-OBJ-FLAG #v-3pl-obj,
                       CASE-OR-TAM1-FLAG #case-or-tam1,
-                      CASE-FLAG #case ] ] ].
+                      NOUN-NUMBER-OR-V-3PL-OBJ-FLAG #noun-number-or-v-3pl-obj,
+                      CASE-OR-TAM2-FLAG #case-or-tam2,
+                      V-STEM-FLAG #v-stem,
+                      CASE-FLAG #case,
+                      TAM2-FLAG #tam2,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      V-3PL-OBJ-FLAG #v-3pl-obj ] ] ].
 
-tam3-fin-mc-check-lex-rule := tam3-lex-rule-super & fin-mc-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD mood+ ].
+tam3-fin-mc-check-lex-rule := tam3-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD mood+,
+                   CAT.HEAD [ MAIN_CLAUSE +,
+                              FORM finite ] ] ].
 
-tam3-fin-subord-lex-rule := infl-lex-rule & tam3-lex-rule-super & fin-subord-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD mood- ].
+tam3-fin-subord-lex-rule := infl-lex-rule & tam3-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD mood-,
+                   CAT.HEAD [ MAIN_CLAUSE -,
+                              FORM finite ] ] ].
 
 tam3-asp-tense-check-lex-rule := tam3-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ ASPECT asp+,
@@ -1917,7 +1667,7 @@ tam3-indicative_3rd-lex-rule := tam3-indicative-check-lex-rule &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
 tam3-interrogative_-ki-lex-rule := infl-lex-rule & tam3-interrogative-check-lex-rule & tam3-irr-_check-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ ASPECT cont+prog+aor,
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ ASPECT prog+aor+cont,
                                      TENSE nonpast ] ].
 
 tam3-interrogative_-i_1-lex-rule := infl-lex-rule & tam3-interrogative-check-lex-rule & tam3-irr-_check-lex-rule &
