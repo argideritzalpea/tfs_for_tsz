@@ -2561,6 +2561,10 @@ tʃpiri := noun233-noun-lex &
   [ STEM < "tʃpiri" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fire_n_rel" ].
 
+uaxantsïkua := noun233-noun-lex &
+  [ STEM < "uaxantsïkua" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bench_n_rel" ].
+
 waʃantsïkwa := noun233-noun-lex &
   [ STEM < "waʃantsïkwa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_bench_n_rel" ].
