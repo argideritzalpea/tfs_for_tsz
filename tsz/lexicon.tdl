@@ -2485,10 +2485,6 @@ xanto := noun133-noun-lex &
   [ STEM < "xanto" >,
     SYNSEM.LKEYS.KEYREL.PRED "_time_n_rel" ].
 
-kirakuatani := noun139-noun-lex &
-  [ STEM < "kirakuatani" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_none_n_rel" ].
-
 kuerata_1 := noun157-noun-lex &
   [ STEM < "kuerata" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lack_n_rel" ].
