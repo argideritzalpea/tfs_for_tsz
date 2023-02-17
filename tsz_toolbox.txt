@@ -399,8 +399,8 @@
 \id 50
 
 \ref 51
-\tph ima jeiaki siuda-rhu anapu saniisï t'ire-s-ti nomasi para no xani k'arhi-ni ja-ni tatsikua jimpo-ka no sani jeiápanhintaska-s-ka ima-ni t'ire-kua-ni xani pobri
-\mph ima jayáki siuda -rhu anapu sani isï t'ire -sï -ti no masi para no xani k'arhi -ni ja -ni tatsekua jimpo -ka no sani jeiápanhintaska -sï -ka ima -ni t'ire -kua -ni xani pobri 
+\tph ima jeiaki siuda-rhu anapu saniisï t'ire-s-ti nomasi para no xani k'arhímani ja-ni tatsikua jimpo-ka no sani jeiápanhintaska-s-ka ima-ni t'ire-kua-ni xani pobri
+\mph ima jayáki siuda -rhu anapu sani isï t'ire -sï -ti no masi para no xani k'arhima -ni ja -ni tatsekua jimpo -ka no sani jeiápanhintaska -sï -ka ima -ni t'ire -kua -ni xani pobri 
 \mgl DEM.SG mouse city LOC origin bit APPROX eat AOR 3.IND no more for no that dry.up INF exist INF after INSTR 1/2IND no bit NONE AOR 1/2IND DEM.SG INF eat NMLZR OBJ that poor 
 \ps NotSure n nclf n:Any n adv NotSure NotSure v:ASP Attachestoanycategory NotSure NotSure NotSure NotSure adv NotSure v:Any NotSure v:Any adv NotSure v:SBJ.AGR NotSure adv NONE v:ASP v:SBJ.AGR NotSure v:Any NotSure Attachestoanycategory n:Any adv n 
 \eng The City Mouse ate just a little bit to avoid feeling too hungry later, because that humble meal was not good enough for him
@@ -27619,7 +27619,7 @@
 \mph katʃʰu -ku -pu -ʃa -ti 
 \mgl cut APPL.3 CENTR PROG 3.IND 
 \ps NotSure vv Attachestoanycategory v:ASP Attachestoanycategory 
-\eng 'Pablo is cutting the wood' / 'Pablo viene cortando la madera'
+\eng 'Pablo comes cutting the wood' / 'Pablo viene cortando la madera'
 \id 3453
 
 \ref 3454
@@ -30367,9 +30367,9 @@
 \id 3796
 
 \ref 3797
-\tph uichu sapi sesi agustu jini ka jini no sani
-\mph uichu sapi sesi agustu jini ka jini no sani 
-\mgl dog little good comfortable there and there no bit 
+\tph Uíchu sapí k'óru sési irékaspti agústu, jiní ka jiní uiríni no sáni uandánhiaparini
+\mph uichu sapi k'oru sesi ireka -s -p -ti agustu jini ka jini uiri -ni no sani 
+\mgl dog little NONE good live AOR PAST 3.IND comfortable there and there run INF no bit 
 \ps n NotSure NotSure adj NotSure NotSure NotSure NotSure adv 
 \eng The little dog had a really good calm life, running back and forth around the place without any worries. 
 \id 3797
@@ -30415,8 +30415,8 @@
 \id 3802
 
 \ref 3803
-\tph xani sesi inte uichu enka xani ka
-\mph xani sesi inte uichu enka xani ka 
+\tph ¿ andísï xani sesi kánki inte uichu enka xani xépika ka nómbe újka ?
+\mph anti isï xani sesi ka=nki (?) inte uichu enka xani xepi =ka ka nompe u-ka
 \mgl that good DEM.SG dog SUBORD that and 
 \ps adv NotSure NotSure n rel adv NotSure 
 \eng Why does he treat that lazy dog so well if he does not do anything?
@@ -33751,25 +33751,25 @@
 \id 4219
 
 \ref 4220
-\tph kʰwiripu kare
-\mph kʰwiripu kare 
-\mgl people fly 
+\tph kʰwiripu noompi kare-ki
+\mph kʰwiripu noompi kare -ki
+\mgl people NEG fly INT?
 \ps n NotSure 
 \eng People do not fly
 \id 4220
 
 \ref 4221
-\tph itsï paharu-etʃa pire-h itsï we-ʃïn-ti
-\mph itsï paharu -etʃa  pire -sï itsï we -sïn -ti 
-\mgl DEM.PL bird PL sing AOR water sad HAB 3.IND 
+\tph itsï paharu-etʃa noompi pire-h-ki itsï we-ʃïn-ti
+\mph itsï paharu -etʃa noompi pire -sï -ki itsï we -ra -sïn -ti 
+\mgl DEM.PL bird PL NEG sing AOR water sad CAUS HAB 3.IND 
 \ps NotSure n n:Any NotSure v:ASP n NotSure v:ASP Attachestoanycategory 
 \eng Birds do not sing, birds cry
 \id 4221
 
 \ref 4222
-\tph inte Maria tsipe ha ka ni tsipe-ni ha-ti
-\mph inte Maria tsipe ha ka ni tsipe -ni ha -ti 
-\mgl DEM.SG Maria live exist and neither tolive INF exist 3.IND 
+\tph inte Maria tsipe ha ka ni tsipe-ni ha-ti Juan noompi
+\mph inte Maria tsipe ha ka ni tsipe -ni ha -ti Juan noompi
+\mgl DEM.SG Maria live exist and neither tolive INF exist 3.IND Juan NEG
 \ps dem NotSure v NotSure NotSure NotSure v v:Any NotSure Attachestoanycategory 
 \eng Maria was not happy and Juan was not happy either
 \id 4222
@@ -33831,10 +33831,10 @@
 \id 4229
 
 \ref 4230
-\tph inte Maria iʃu ha-h-ti ta-ɽu
-\mph inte Maria iʃu ha -sï -ti ta -ɽu 
-\mgl DEM.SG Maria here exist AOR 3.IND home LOC 
-\ps dem NotSure NotSure NotSure v:ASP Attachestoanycategory NotSure n:Any 
+\tph inte Maria iʃu ha-ɽa-h-ti ta-ɽu
+\mph inte Maria iʃu ha -ɽa -sï -ti ta -ɽu 
+\mgl DEM.SG Maria here exist FORM AOR 3.IND home LOC 
+\ps dem NotSure NotSure NotSure NotSure v:ASP Attachestoanycategory NotSure n:Any 
 \eng Maria is in the house
 \id 4230
 
@@ -33855,33 +33855,33 @@
 \id 4232
 
 \ref 4233
-\tph hi pensari-ʃin-ka ka iski inte no tsipe-ha-ka
-\mph hi pensari -sïn -ka ka iski inte no tsipe -ʃa -ka 
-\mgl 1SG think HAB 1/2IND and that DEM.SG no live PROG 1/2IND 
-\ps pers NotSure v:ASP v:SBJ.AGR NotSure NotSure dem NotSure v v:ASP v:SBJ.AGR 
+\tph hi pensari-ʃin-ka ka iski inte Macarena no tsipeni haka
+\mph hi pensari -sïn -ka ka iski inte Macarena no tsipe -ʃa -ka 
+\mgl 1SG think HAB 1/2IND and that DEM.SG Macarena no live PROG 1/2IND 
+\ps pers NotSure v:ASP v:SBJ.AGR NotSure NotSure dem NotSure NotSure v v:ASP v:SBJ.AGR 
 \eng I think Macarena is not happy
 \id 4233
 
 \ref 4234
-\tph penkini=ni inte tsipe-ʃa-ka
-\mph penkini =ni inte tsipe -ʃa -ka 
-\mgl NONE =1SG.SBJ DEM.SG life PROG 1/2IND 
-\ps NONE NotSure dem NotSure v:ASP v:SBJ.AGR 
+\tph penki=ni inte Macarena tsipe-ʃa-ka
+\mph penki =ni inte Macarena  tsipe -ʃa -ka 
+\mgl NONE =1SG.SBJ DEM.SG Macarena life PROG 1/2IND 
+\ps NONE NotSure dem NotSure NotSure v:ASP v:SBJ.AGR 
 \eng I think Macarena is happy 
 \id 4234
 
 \ref 4235
-\tph mehore inte hu-rini
-\mph mehore inte hu -rini 
-\mgl better DEM.SG come PART 
+\tph mehore inte noompi hu-rini
+\mph mehore inte noompi hu -rini 
+\mgl better DEM.SG NEG come PART 
 \ps NotSure dem NotSure Attachestoanycategory 
 \eng It would have been better if he had not come
 \id 4235
 
 \ref 4236
-\tph mehore hu-ti
-\mph mehore hu -ti 
-\mgl better come 3.IND 
+\tph mehore hupirinti
+\mph mehore hu -pirin -ti
+\mgl better come COND 3.IND 
 \ps NotSure NotSure Attachestoanycategory 
 \eng It would have been better if he had come
 \id 4236
@@ -43543,11 +43543,11 @@
 \id 5443
 
 \ref 5444
-\tph abersika tsïtsïki ka ampe
-\mph abersika tsïtsïki ka ampe 
-\mgl to.see.if flower and something 
+\tph abersika jukáka tsïtsïki ka nurhítini ampe
+\mph abersika ju -ka tsïtsïki ka nurhítini ampe
+\mgl to.see.if come SBJNC flower and nurhítini something 
 \ps NotSure n NotSure NotSure 
-\eng Let’s see if there are any flowers or nurhitini.” 
+\eng to see if there are any flowers or nurhitini.” 
 \id 5444
 
 \ref 5445
@@ -47071,9 +47071,9 @@
 \id 5884
 
 \ref 5885
-\tph anti-sï-ni no xani k'e iska maru=teru-echa
-\mph anti -sï -ni no xani k'e iska maru =teru -echa 
-\mgl why AOR OBJ no that grow like some =more PL 
+\tph anti-sï=ni no xani k'e iska maru=teru-echa
+\mph anti -sï =ni no xani k'e iska maru =teru -echa 
+\mgl why AOR SG1SUBJ no that grow like some =more PL 
 \ps NotSure v:ASP n:Any NotSure adv v NotSure NotSure NotSure n:Any 
 \eng why didn't I grow like the others?
 \id 5885
@@ -50967,10 +50967,10 @@
 \id 6371
 
 \ref 6372
-\tph ka ima arhi-niia uatsi T'úrini=rini nomas incha-a-ta-a-ka jimaia ireta jimpo ka jima=k'u=rini jurhaku-a-kaia a
-\mph ka ima arhi -ni ia uatsï T'úrini =rini nomas incha -a -ta -a -ka jima ia ireta jimpo ka jima =k'u =rini jurhaku -a -ka ia a 
-\mgl and DEM.SG say OBJ already youngperson NONE =1SG.OBJ only enter CNTR CAUS FUT 1/2IND there already town INSTR and there =only =1SG.OBJ leave FUT 1/2IND already AUX 
-\ps NotSure NotSure NotSure n:Any NotSure NotSure NONE NotSure NotSure v Attachestoanycategory Attachestoanycategory v:Any v:SBJ.AGR NotSure NotSure n NotSure NotSure NotSure NotSure NotSure NotSure v:Any v:SBJ.AGR NotSure NotSure 
+\tph ka ima arhi-niia uatsi T'u=rini nomas incha-a-ta-a-ka jimaia ireta jimpo ka jima=k'u=rini jurhaku-a-kaia a
+\mph ka ima arhi -ni ia uatsï T'u =rini nomas incha -a -ta -a -ka jima ia ireta jimpo ka jima =k'u =rini jurhaku -a -ka ia a 
+\mgl and DEM.SG say OBJ already youngperson =1SG.OBJ only enter CNTR CAUS FUT 1/2IND there already town INSTR and there =only =1SG.OBJ leave FUT 1/2IND already AUX 
+\ps NotSure NotSure NotSure n:Any NotSure NotSure NotSure NotSure v Attachestoanycategory Attachestoanycategory v:Any v:SBJ.AGR NotSure NotSure n NotSure NotSure NotSure NotSure NotSure NotSure v:Any v:SBJ.AGR NotSure NotSure 
 \eng and the young woman said: you will only make me enter in that town and you can just leave me there already
 \id 6372
 
@@ -53943,11 +53943,11 @@
 \id 6743
 
 \ref 6744
-\tph ji ja-p-ka ima-ni enka=ni no ji komo santeru sani enka=ni no jinkoni
+\tph engákini ji aiánkuni ja-p-ka ima-ni enka=ni no jatíripkani ji tratarisïrenga komo efectivu andáni santeru sani enka=ni ánchikuahringa porkini no úsïrenga compañiani jinkoni
 \mph ji ja -p -ka ima -ni enka =ni no ji komo santeru sani enka =ni no jinkoni 
 \mgl 1SG exist PAST 1/2IND DEM.SG OBJ SUBORD =1SG.SBJ no 1SG como more bit SUBORD =1SG.SBJ no POSTP 
 \ps pers NotSure v:TNS v:SBJ.AGR NotSure n:Any rel NotSure NotSure pers n adv adv rel NotSure NotSure NotSure 
-\eng POSTP
+\eng [BOTCHED, SEE FLEXTEXT] When I was telling you about the time when I was not old enough, I tried to work where they paid me cash because I couldn't find work with like a company
 \id 6744
 
 \ref 6745
