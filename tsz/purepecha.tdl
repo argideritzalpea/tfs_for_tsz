@@ -952,13 +952,31 @@ cop-lex := basic-verb-lex-super & trans-first-arg-raising-lex-item-2 & non-mod-l
                                                     HEAD noun &
                                                          [ CASE real-case ] ] ] ] > ] ] ].
 
+; copula-verb-lex := verb-lex-supertype & trans-first-arg-raising-lex-item-2 &
+;   [ SYNSEM.LOCAL [ CONT.HOOK.XARG #xarg,
+;                    CAT.VAL [ COMPS < #comps >,
+;                              SPEC < >
+;                              SUBJ < #subj >,
+;                              SPR < > ] ],
+;     ARG-ST < #subj &
+;              [ LOCAL [ CONT.HOOK.INDEX #xarg,
+;                        CAT [ VAL [ SPR < >,
+;                                    COMPS < > ],
+;                              HEAD noun ] ] ],
+;              #comps &
+;              [ LOCAL.CAT [ VAL [ COMPS < > ],
+;                            HEAD +jp ] ] > ].
+
 ; Copula type taking adjectival complements.
 ; Need to define more for additional complement types.
+
+pp-comp-copula-verb-lex := cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adp ].
 
 adj-comp-copula-verb-lex := cop-lex &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adj ].
 
-loc+com-pred-copula-cop-lex := adj-comp-copula-verb-lex &
+loc+com-pred-copula-cop-lex := pp-comp-copula-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD [ CASE loc+ins,
                                                       CASE-MARKED + ] ].
 
