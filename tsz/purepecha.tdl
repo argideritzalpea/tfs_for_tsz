@@ -2,7 +2,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Grammar of Purepecha
 ;;; created at:
-;;;     Fri Feb 17 22:15:04 UTC 2023
+;;;     Sat Feb 18 01:05:20 UTC 2023
 ;;; based on Matrix customization system version of:
 ;;;     unknown time
 ;;;
@@ -47,25 +47,25 @@ unary-bottom-coord-rule :+ [ SYNSEM [ LOCAL.CAT.HEAD.NMZ #nmz,
     ARGS < [ SYNSEM [ LOCAL.CAT.HEAD.NMZ #nmz,
                       SUBORDINATED #subord ] ] > ].
 
-inflected :+ [ V-STEM-FLAG luk,
-    KINSHIP-POSSESSUM-FLAG luk,
+inflected :+ [ KINSHIP-POSSESSUM-FLAG luk,
     TAM1-HABITUAL-PAST-FORM_XIREN-FLAG luk,
-    CASE-OR-TAM2-FLAG luk,
     CASE-OR-TAM3-FLAG luk,
-    INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG luk,
-    CASE-FLAG luk,
     NOUN-NUMBER-OR-TAM1-FLAG luk,
-    NOUN-NUMBER-FLAG luk ].
+    V-STEM-FLAG luk,
+    INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG luk,
+    NOUN-NUMBER-FLAG luk,
+    CASE-OR-TAM2-FLAG luk,
+    CASE-FLAG luk ].
 
-infl-satisfied :+ [ V-STEM-FLAG na-or-+,
-    KINSHIP-POSSESSUM-FLAG na-or-+,
+infl-satisfied :+ [ KINSHIP-POSSESSUM-FLAG na-or-+,
     TAM1-HABITUAL-PAST-FORM_XIREN-FLAG na-or-+,
-    CASE-OR-TAM2-FLAG na-or-+,
     CASE-OR-TAM3-FLAG na-or-+,
-    INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-+,
-    CASE-FLAG na-or-+,
     NOUN-NUMBER-OR-TAM1-FLAG na-or-+,
-    NOUN-NUMBER-FLAG na-or-+ ].
+    V-STEM-FLAG na-or-+,
+    INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-+,
+    NOUN-NUMBER-FLAG na-or-+,
+    CASE-OR-TAM2-FLAG na-or-+,
+    CASE-FLAG na-or-+ ].
 
 png :+ [ PER person,
     NUM number ].
@@ -173,8 +173,8 @@ add-only-rule :+ same-subordinated-lex-rule.
 person := *top*.
 3rd := person.
 non-3rd := person.
-1st := non-3rd.
 2nd := non-3rd.
+1st := non-3rd.
 
 ;;; Number
 
@@ -197,10 +197,11 @@ possessum-1 := possessum & possessive-1.
 
 case := *top*.
 real-case := case.  ; intermediate case type for all real cases
-nom := real-case.  ; nom
 acc := real-case.  ; acc
-gen := real-case.  ; gen
 loc := real-case.  ; loc
+nom+gen := real-case.
+nom := nom+gen.
+gen := nom+gen.
 com+ins := real-case.
 com := com+ins.
 ins := com+ins.
@@ -223,27 +224,26 @@ nonpast := tense+.
 asp+ := aspect.
 asp- := aspect.
 iter := aspect.
-hab+aor := asp+.
-hab := hab+aor & hab+cont.
-aor := hab+aor & prog+aor.
+aor+hab := asp+.
+aor := aor+hab & prog+aor.
+hab := aor+hab & cont+hab.
 prog := prog+aor.
-hab+cont := asp+.
-cont := hab+cont & prog+aor+cont.
+cont+hab := asp+.
+cont := cont+hab & prog+aor+cont.
 prog+aor+cont := asp+.
 prog+aor := prog+aor+cont.
 
 ;;; Mood
 
 mood+ := mood.
-mood- := mood.
 irr+ := mood.
 irr- := mood.
 mood+_irr+ := mood+ & irr+.
 mood+_irr- := mood+ & irr-.
 ind+int := mood+.
 imp+excl := mood+_irr-.
-ind := ind+int.
-int := ind+int.
+ind := ind+int & ind+int+mood-.
+int := ind+int & ind+int+mood-.
 imp := imp+excl.
 excl := imp+excl.
 deon := irr+.
@@ -254,6 +254,8 @@ ind_irr- := ind & irr-.
 int_deon := int & deon.
 int_epis := int & epis.
 int_irr- := int & irr-.
+ind+int+mood- := mood.
+mood- := ind+int+mood-.
 
 ;;;;;;;;;;;;;;;;;;;
 ;;; Lexical Types
@@ -550,6 +552,13 @@ clausal-nom-verb-lex := clausal-verb-lex &
   [ ARG-ST.FIRST.LOCAL.CAT.HEAD noun &
                                 [ CASE nom ],
     SYNSEM.LOCAL.CAT.VAL.SUBJ < [ LOCAL.CAT.HEAD.CASE-MARKED + ] > ].
+
+np_pred_copular_clitic-verb-lex := transitive-verb-lex &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom+gen,
+                                                       CASE-MARKED + ],
+                   CONT.HOOK.INDEX.E [ ASPECT aor,
+                                       MOOD ind+int+mood- ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 intrans_bipart-stem_form-ka-verb-lex := nom-intransitive-verb-lex &
   [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG + ].
@@ -1085,13 +1094,13 @@ low-nmz-subjid-compsid-lex-rule := low-nominalization-lex-rule &
 
 ;;; Intermediate rule types
 
-case-rule-dtr := word-or-lexrule.
-tam3-rule-dtr := word-or-lexrule.
-voice-rule-dtr := word-or-lexrule.
-tam2-rule-dtr := word-or-lexrule.
 nominalize_kwa-or-v-3pl-obj-rule-dtr := word-or-lexrule.
-tam1-rule-dtr := word-or-lexrule.
+case-rule-dtr := word-or-lexrule.
 noun-number-rule-dtr := word-or-lexrule.
+tam1-rule-dtr := word-or-lexrule.
+voice-rule-dtr := word-or-lexrule.
+tam3-rule-dtr := word-or-lexrule.
+tam2-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 
@@ -1099,18 +1108,18 @@ case-lex-rule-super := add-only-no-ccont-rule &
   [ INFLECTED [ CASE-FLAG +,
                 CASE-OR-TAM2-FLAG +,
                 CASE-OR-TAM3-FLAG +,
-                V-STEM-FLAG #v-stem,
-                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                 KINSHIP-POSSESSUM-FLAG #kinship-possessum,
-                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                 NOUN-NUMBER-OR-TAM1-FLAG #noun-number-or-tam1,
+                V-STEM-FLAG #v-stem,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                 NOUN-NUMBER-FLAG #noun-number ],
     DTR case-rule-dtr &
-        [ INFLECTED [ V-STEM-FLAG #v-stem,
+        [ INFLECTED [ KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                       TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                      KINSHIP-POSSESSUM-FLAG #kinship-possessum,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                       NOUN-NUMBER-OR-TAM1-FLAG #noun-number-or-tam1,
+                      V-STEM-FLAG #v-stem,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
                       NOUN-NUMBER-FLAG #noun-number ] ] ].
 
 case_nom-lex-rule := case-lex-rule-super & const-lex-rule &
@@ -1144,20 +1153,20 @@ case-synth-adp-lex-rule := case-lex-rule-super & const-lex-rule &
 noun-number-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr &
   [ INFLECTED [ NOUN-NUMBER-FLAG +,
                 NOUN-NUMBER-OR-TAM1-FLAG +,
-                V-STEM-FLAG #v-stem,
-                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                 KINSHIP-POSSESSUM-FLAG #kinship-possessum,
-                CASE-OR-TAM2-FLAG #case-or-tam2,
+                TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                 CASE-OR-TAM3-FLAG #case-or-tam3,
+                V-STEM-FLAG #v-stem,
                 INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                CASE-OR-TAM2-FLAG #case-or-tam2,
                 CASE-FLAG #case ],
     DTR noun-number-rule-dtr &
-        [ INFLECTED [ V-STEM-FLAG #v-stem,
+        [ INFLECTED [ KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                       TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                      KINSHIP-POSSESSUM-FLAG #kinship-possessum,
-                      CASE-OR-TAM2-FLAG #case-or-tam2,
                       CASE-OR-TAM3-FLAG #case-or-tam3,
+                      V-STEM-FLAG #v-stem,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      CASE-OR-TAM2-FLAG #case-or-tam2,
                       CASE-FLAG #case ] ] ].
 
 noun-plural-suffix-lex-rule := infl-lex-rule & noun-number-lex-rule-super &
@@ -1168,23 +1177,23 @@ noun-singular-lex-rule := const-lex-rule & noun-number-lex-rule-super &
 
 kinship-possessum-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & noun-number-rule-dtr &
   [ INFLECTED [ KINSHIP-POSSESSUM-FLAG +,
-                V-STEM-FLAG #v-stem,
                 TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                CASE-OR-TAM2-FLAG #case-or-tam2,
                 CASE-OR-TAM3-FLAG #case-or-tam3,
-                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                CASE-FLAG #case,
                 NOUN-NUMBER-OR-TAM1-FLAG #noun-number-or-tam1,
-                NOUN-NUMBER-FLAG #noun-number ],
+                V-STEM-FLAG #v-stem,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                NOUN-NUMBER-FLAG #noun-number,
+                CASE-OR-TAM2-FLAG #case-or-tam2,
+                CASE-FLAG #case ],
     DTR kinship-noun-lex &
-        [ INFLECTED [ V-STEM-FLAG #v-stem,
-                      TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                      CASE-OR-TAM2-FLAG #case-or-tam2,
+        [ INFLECTED [ TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                       CASE-OR-TAM3-FLAG #case-or-tam3,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      CASE-FLAG #case,
                       NOUN-NUMBER-OR-TAM1-FLAG #noun-number-or-tam1,
-                      NOUN-NUMBER-FLAG #noun-number ] ] ].
+                      V-STEM-FLAG #v-stem,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      NOUN-NUMBER-FLAG #noun-number,
+                      CASE-OR-TAM2-FLAG #case-or-tam2,
+                      CASE-FLAG #case ] ] ].
 
 kinship-possessum-2per-possessor-lex-rule := kinship-possessum-lex-rule-super.
 
@@ -1194,21 +1203,21 @@ v-stem-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & nominalize_kwa
   [ INFLECTED [ V-STEM-FLAG +,
                 KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                 TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                CASE-OR-TAM2-FLAG #case-or-tam2,
                 CASE-OR-TAM3-FLAG #case-or-tam3,
-                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                CASE-FLAG #case,
                 NOUN-NUMBER-OR-TAM1-FLAG #noun-number-or-tam1,
-                NOUN-NUMBER-FLAG #noun-number ],
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                NOUN-NUMBER-FLAG #noun-number,
+                CASE-OR-TAM2-FLAG #case-or-tam2,
+                CASE-FLAG #case ],
     DTR verb-lex &
         [ INFLECTED [ KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                       TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                      CASE-OR-TAM2-FLAG #case-or-tam2,
                       CASE-OR-TAM3-FLAG #case-or-tam3,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      CASE-FLAG #case,
                       NOUN-NUMBER-OR-TAM1-FLAG #noun-number-or-tam1,
-                      NOUN-NUMBER-FLAG #noun-number ] ] ].
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      NOUN-NUMBER-FLAG #noun-number,
+                      CASE-OR-TAM2-FLAG #case-or-tam2,
+                      CASE-FLAG #case ] ] ].
 
 v-stem-simple-lex-rule := const-lex-rule & v-stem-lex-rule-super &
   [ DTR.INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na ].
@@ -1227,21 +1236,21 @@ v-3pl-obj-suffix-lex-rule := v-3pl-obj-lex-rule-super &
 
 tam1-lex-rule-super := add-only-no-ccont-rule & tam2-rule-dtr & tam3-rule-dtr &
   [ INFLECTED [ NOUN-NUMBER-OR-TAM1-FLAG +,
-                V-STEM-FLAG #v-stem,
                 KINSHIP-POSSESSUM-FLAG #kinship-possessum,
-                CASE-OR-TAM2-FLAG #case-or-tam2,
                 CASE-OR-TAM3-FLAG #case-or-tam3,
+                V-STEM-FLAG #v-stem,
                 INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                CASE-FLAG #case,
-                NOUN-NUMBER-FLAG #noun-number ],
+                NOUN-NUMBER-FLAG #noun-number,
+                CASE-OR-TAM2-FLAG #case-or-tam2,
+                CASE-FLAG #case ],
     DTR tam1-rule-dtr &
-        [ INFLECTED [ V-STEM-FLAG #v-stem,
-                      KINSHIP-POSSESSUM-FLAG #kinship-possessum,
-                      CASE-OR-TAM2-FLAG #case-or-tam2,
+        [ INFLECTED [ KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                       CASE-OR-TAM3-FLAG #case-or-tam3,
+                      V-STEM-FLAG #v-stem,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      CASE-FLAG #case,
-                      NOUN-NUMBER-FLAG #noun-number ] ] ].
+                      NOUN-NUMBER-FLAG #noun-number,
+                      CASE-OR-TAM2-FLAG #case-or-tam2,
+                      CASE-FLAG #case ] ] ].
 
 tam1-habitual-past-form_xiren-lex-rule := infl-lex-rule & tam1-hab-check-lex-rule &
   [ INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG +,
@@ -1302,27 +1311,27 @@ tam1-hab-check-lex-rule := tam1-asp-tense-check-lex-rule &
 
 tam2-lex-rule-super := add-only-no-ccont-rule & tam3-rule-dtr &
   [ INFLECTED [ CASE-OR-TAM2-FLAG +,
-                V-STEM-FLAG #v-stem,
                 KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                 TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                 CASE-OR-TAM3-FLAG #case-or-tam3,
-                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                CASE-FLAG #case,
                 NOUN-NUMBER-OR-TAM1-FLAG #noun-number-or-tam1,
-                NOUN-NUMBER-FLAG #noun-number ],
+                V-STEM-FLAG #v-stem,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                NOUN-NUMBER-FLAG #noun-number,
+                CASE-FLAG #case ],
     DTR tam2-rule-dtr &
-        [ INFLECTED [ V-STEM-FLAG #v-stem,
-                      KINSHIP-POSSESSUM-FLAG #kinship-possessum,
+        [ INFLECTED [ KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                       TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
                       CASE-OR-TAM3-FLAG #case-or-tam3,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      CASE-FLAG #case,
                       NOUN-NUMBER-OR-TAM1-FLAG #noun-number-or-tam1,
-                      NOUN-NUMBER-FLAG #noun-number ] ] ].
+                      V-STEM-FLAG #v-stem,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      NOUN-NUMBER-FLAG #noun-number,
+                      CASE-FLAG #case ] ] ].
 
 tam2-hab-or-cont-past-mc-lex-rule := tam2-fin-mc-check-lex-rule & tam2-past-lex-rule &
   [ DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG na,
-    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT hab+cont ].
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT cont+hab ].
 
 tam2-hab-past-subord-lex-rule := tam2-past-lex-rule & tam2-subord-tensed-check-lex-rule &
   [ DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG na,
@@ -1348,7 +1357,7 @@ tam2-no-asp-tense-lex-rule := tam2-lex-rule-super &
                                      TENSE tense- ] ].
 
 tam2-subord-tensed-check-lex-rule := tam2-asp-tense-check-lex-rule & tam2-fin-subord-check-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT hab+aor ].
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT aor+hab ].
 
 tam2-past-lex-rule := infl-lex-rule & tam2-asp-tense-check-lex-rule &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE past ].
@@ -1377,23 +1386,23 @@ tam2-no-asp-tense-irr-lex-rule := const-lex-rule & tam2-no-asp-tense-lex-rule &
 
 tam3-lex-rule-super := add-only-no-ccont-rule &
   [ INFLECTED [ CASE-OR-TAM3-FLAG +,
-                V-STEM-FLAG #v-stem,
                 KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                 TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                CASE-OR-TAM2-FLAG #case-or-tam2,
-                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                CASE-FLAG #case,
                 NOUN-NUMBER-OR-TAM1-FLAG #noun-number-or-tam1,
-                NOUN-NUMBER-FLAG #noun-number ],
+                V-STEM-FLAG #v-stem,
+                INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                NOUN-NUMBER-FLAG #noun-number,
+                CASE-OR-TAM2-FLAG #case-or-tam2,
+                CASE-FLAG #case ],
     DTR tam3-rule-dtr &
-        [ INFLECTED [ V-STEM-FLAG #v-stem,
-                      KINSHIP-POSSESSUM-FLAG #kinship-possessum,
+        [ INFLECTED [ KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                       TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-                      CASE-OR-TAM2-FLAG #case-or-tam2,
-                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
-                      CASE-FLAG #case,
                       NOUN-NUMBER-OR-TAM1-FLAG #noun-number-or-tam1,
-                      NOUN-NUMBER-FLAG #noun-number ] ] ].
+                      V-STEM-FLAG #v-stem,
+                      INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb,
+                      NOUN-NUMBER-FLAG #noun-number,
+                      CASE-OR-TAM2-FLAG #case-or-tam2,
+                      CASE-FLAG #case ] ] ].
 
 tam3-fin-mc-check-lex-rule := tam3-lex-rule-super &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD mood+,

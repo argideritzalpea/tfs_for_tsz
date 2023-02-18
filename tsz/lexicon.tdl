@@ -3043,6 +3043,10 @@ com-marker_jinkoni := case-marking-adp-lex &
 
 ;;; Verbs
 
+_3De := np_pred_copular_clitic-verb-lex &
+  [ STEM < "=e" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
+
 ero_2 := intrans_bipart-stem_form-ka-verb-lex &
   [ STEM < "ero" >,
     SYNSEM.LKEYS.KEYREL.PRED "_wait_v_rel" ].
@@ -4483,10 +4487,6 @@ aianku_3 := verb32-verb-lex &
   [ STEM < "aianku" >,
     SYNSEM.LKEYS.KEYREL.PRED "_inform_v_rel" ].
 
-uanta_5 := verb32-verb-lex &
-  [ STEM < "uanta" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_say-or-speak_v_rel" ].
-
 anti_2 := verb42-verb-lex &
   [ STEM < "anti" >,
     SYNSEM.LKEYS.KEYREL.PRED "_why_v_rel" ].
@@ -4515,7 +4515,7 @@ teru_2 := verb42-verb-lex &
   [ STEM < "teru" >,
     SYNSEM.LKEYS.KEYREL.PRED "_more_v_rel" ].
 
-uanta_6 := verb42-verb-lex &
+uanta_5 := verb42-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say_v_rel" ].
 
@@ -4819,7 +4819,7 @@ tʰire_3 := verb257-verb-lex &
   [ STEM < "tʰire" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
-uanta_7 := verb257-verb-lex &
+uanta_6 := verb257-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_speak_v_rel" ].
 
@@ -5527,7 +5527,7 @@ tsiti_1 := verb304-verb-lex &
   [ STEM < "tsiti" >,
     SYNSEM.LKEYS.KEYREL.PRED "_like_v_rel" ].
 
-uanta_8 := verb304-verb-lex &
+uanta_7 := verb304-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_speak_v_rel" ].
 
@@ -5827,7 +5827,7 @@ kuaka := verb352-verb-lex &
   [ STEM < "kuaka" >,
     SYNSEM.LKEYS.KEYREL.PRED "_get.wet_v_rel" ].
 
-uanta_9 := verb352-verb-lex &
+uanta_8 := verb352-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_talk_v_rel" ].
 
@@ -6127,7 +6127,7 @@ tʰire_5 := verb620-verb-lex &
   [ STEM < "tʰire" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
-uanta_10 := verb620-verb-lex &
+uanta_9 := verb620-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_speak_v_rel" ].
 
@@ -6199,7 +6199,7 @@ ketsi_2 := verb621-verb-lex &
   [ STEM < "ketsi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_descend_v_rel" ].
 
-uanta_11 := verb621-verb-lex &
+uanta_10 := verb621-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_talk_v_rel" ].
 
