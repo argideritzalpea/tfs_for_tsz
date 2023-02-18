@@ -1749,7 +1749,7 @@ plasa := noun84-noun-lex &
   [ STEM < "plasa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_square_n_rel" ].
 
-pobri := noun84-noun-lex &
+pobri_1 := noun84-noun-lex &
   [ STEM < "pobri" >,
     SYNSEM.LKEYS.KEYREL.PRED "_poor_n_rel" ].
 
@@ -3023,6 +3023,22 @@ imecheri := pl3_pron_gen-noun-lex &
 
 ;;; Adjectives
 
+buenu := attr+pred-adj-adj-lex &
+  [ STEM < "buenu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_good_a_rel" ].
+
+sesi_3 := attr+pred-adj-adj-lex &
+  [ STEM < "sesi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_good_a_rel" ].
+
+pobri_2 := attr+pred-adj-adj-lex &
+  [ STEM < "pobri" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_poor_a_rel" ].
+
+itumi_2 := attr+pred-adj-adj-lex &
+  [ STEM < "itumi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_saltty_a_rel" ].
+
 ;;; Case-marking adpositions
 
 ins-marker_jimpo := case-marking-adp-lex &
@@ -3043,7 +3059,7 @@ com-marker_jinkoni := case-marking-adp-lex &
 
 ;;; Verbs
 
-_3De := np_pred_copular_clitic-verb-lex &
+_3De_1 := np_pred_copular_clitic-verb-lex &
   [ STEM < "=e" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
 
@@ -4575,7 +4591,7 @@ ekwatsi := verb105-verb-lex &
   [ STEM < "ekwatsi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_twenty_v_rel" ].
 
-itumi := verb105-verb-lex &
+itumi_1 := verb105-verb-lex &
   [ STEM < "itumi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_salty_v_rel" ].
 
@@ -6423,6 +6439,14 @@ yorki := verb755-verb-lex &
 
 _3Dni := s1sg_pronom_enclitic-aux-lex &
   [ STEM < "=ni" > ].
+
+;;; Copulas
+
+jarha_4 := loc+com-pred-copula-cop-lex &
+  [ STEM < "jarha" > ].
+
+_3De_2 := adj_pred_copular_clitic-cop-lex &
+  [ STEM < "=e" > ].
 
 ;;; Adverbs
 
