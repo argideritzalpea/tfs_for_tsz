@@ -1,0 +1,151 @@
+Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de Alfabetizacion entre los Tarascos Monolingues - No. 4 - 1949 Iuini
+Vetted: f
+Judgement: g
+Phenomena: wh-question
+"mama ,” arhíska jí : ” jindé iá juchíti uíchu , tumbí ?”
+ mama arhi-sï-ka ji jinte ia juchiti uichu tumpi
+ mom say-AOR-1/2IND 1SG DEM.SG already 1SG.GEN dog young
+“mom,” I said: “Where is my dog, young?”
+
+Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de Alfabetizacion entre los Tarascos Monolingues - No. 4 - 1949 Iuini
+Vetted: f
+Judgement: g
+Phenomena: wh-question
+mama, naní jarháski riata?
+mama nani jarha-sï-ki riata 
+mom where be-AOR-IRR riata 
+Mom where is the riata”? 
+
+Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de Alfabetizacion entre los Tarascos Monolingues - No. 4 - 1949 Iuini
+Vetted: f
+Judgement: g
+Phenomena: wh-question
+naníri jámasïrambi?
+nani =ri jama-sïren-p-i 
+where =2SG be.around-HAB.PST-PAST-INTER 
+Where were you?
+
+Source: our gloss - P’urhepecha / Hablemos purepecha [3] (flextext)
+Vetted: f
+Judgement: g
+Phenomena: wh-question - copular
+néiʃki
+ne-i-x=ki
+who-PRED-AOR-INTER
+'Who is it? / 'Quien es?' 
+
+Source: ref 6354 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+t'u anti=sï ixu ja-ki
+2SG why =FOC here exist INTER
+Why are you here?
+
+Source: ref 6497 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampe-s-ki i enka-ri ixu isï xa=isï ampe jatsi-ka
+ampe-sï-ki i enka-ri ixu isï xa isï ampe jatsi-ka
+what AOR INTER this SUBORD PAST here likethis form =APPROX what put 1/2IND
+-What is this that you put here?
+
+Source: ref 6515 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+ampe=isï ja-ki ia o ampe=rini=isï ueka-j-ki sani u-ra-ni
+ampe isï ja-ki ia o ampe=rini isï ueka-sï-ki sani u-ra-ni
+what =APPROX exist INTER already or what =1SG.OBJ =APPROX want AOR INTER bit do CAUS OBJ
+What is it or why did you want me to do?
+
+Source: modified ref 6420 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: wh non-verbal pred
+nani ja-ki
+nani ja-ki
+where exist-INTER
+where is she?
+
+Source: ref 992 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: wh non-verbal pred
+nani ha-ki Pedro
+nani ha-ki Pegru
+where exist INTER Pedro
+Where is Pedro?
+
+Source: ref 4836 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+antina-s-tija uarhi xani isï k'arhi-sï-ni jaxi
+anti na-sï-ti ja uarhi xani isï k'arhi-sï-ni jasï
+why how-AOR-3.IND exist woman alot APPROX dry.up-AOR-OBJ types
+just how is she so skynny looking
+
+Source: ref 4359 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+na=ri ha-sï
+na=ri ha-sï
+how =2SG exist AOR.INTER
+How are you?
+
+Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
+Vetted: f
+Judgement: g
+Phenomena: 
+Na jaxispki Marieri xukúparhakwa
+na jaxi-s-p-ki Mari-eri xukuparakwa
+how color-AOR-PAS-INTER Maria-GEN ropa
+‘¿Cómo era el color del traje de María?
+
+Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/8/8
+Vetted: f
+Judgement: g
+Phenomena: 
+Í karáratakwa turípitisti
+i kararatakwa turipiti =i-s-ø-ti
+DEM lápiz negro =COP-AOS-NP-3S.IND
+‘Este lápiz es negro.’
+
+Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
+Vetted: t
+Judgement: g
+Phenomena: 
+¿Néskiri, t'ueskiri jucheti uátsïti?
+ne-x-ki =ri t'u eski =ri jucheti uatsï-ti
+who-AOR-INTER =2SG.S 2SG SUB =2SG.S 1SG.GEN youngperson-3.IND
+Who are you, my son?”
+
+Source: https://www.bible.com/bible/3546/EST.6.BI-PURHE
+Vetted: t
+Judgement: g
+Phenomena: 
+¿Nésï jámki ekuarhu?
+ne =sï ja-xam-ki ekua-rhu
+who FOC exist-CONT-INTER courtyard-LOC
+“Who is in the courtyard?”
+
+Source: https://www.bible.com/bible/3546/EXO.32.BI-PURHE
+Vetted: t
+Judgement: g
+Phenomena: 
+¿Ne ACHA jinkuni jarhaski?
+ne acha jinkuni jarha-x-ki?
+who lord COM be-AOR-IRR
+Who is on the Lord's side?
+
+Source: Foster, page 82
+Vetted: f
+Judgement: g
+Phenomena: 
+náati?
+na-a-ti
+how-PRED.DEON-3.IND
+At what time will it be?
