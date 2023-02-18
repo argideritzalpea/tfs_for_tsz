@@ -2581,6 +2581,10 @@ p_27ukuminturi := noun235-noun-lex &
   [ STEM < "p'ukuminturi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_forest_n_rel" ].
 
+p_27ukuminturi_2 := noun235-noun-lex &
+  [ STEM < "p'ukuminturi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_park_n_rel" ].
+
 rati := noun235-noun-lex &
   [ STEM < "rati" >,
     SYNSEM.LKEYS.KEYREL.PRED "_time_n_rel" ].
@@ -5303,9 +5307,9 @@ janta := verb304-verb-lex &
   [ STEM < "janta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_bury_v_rel" ].
 
-k_27arhima_2 := verb304-verb-lex &
+k_27arhima_2 := verb312-verb-lex &
   [ STEM < "k'arhima" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_hungry_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_hungry_a_rel" ].
 
 tarhia_2 := verb304-verb-lex &
   [ STEM < "tarhia" >,
