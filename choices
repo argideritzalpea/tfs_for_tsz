@@ -170,6 +170,9 @@ subj-con=subj-con-some
     context3_feat2_name=number
     context3_feat2_value=sg
     context3_feat2_head=subj
+    context3_feat3_name=mood
+    context3_feat3_value=int, excl
+    context3_feat3_head=verb
 
 section=nominalclause
   ns1_name=v_nom
@@ -2008,7 +2011,7 @@ section=lexicon
     verb1_feat4_head=verb
   verb1_valence=trans
     verb1_stem1_orth==e
-    verb1_stem1_pred=_be_v_rel
+    verb1_stem1_pred=_be_v_id_rel
   verb1_valence=trans
   verb2_name=intrans_bipart-stem_form-ka
   verb2_valence=nom

@@ -3045,7 +3045,7 @@ com-marker_jinkoni := case-marking-adp-lex &
 
 _3De := np_pred_copular_clitic-verb-lex &
   [ STEM < "=e" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
 
 ero_2 := intrans_bipart-stem_form-ka-verb-lex &
   [ STEM < "ero" >,
