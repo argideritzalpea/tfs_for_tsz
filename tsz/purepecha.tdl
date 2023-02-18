@@ -556,14 +556,14 @@ clausal-nom-verb-lex := clausal-verb-lex &
                                 [ CASE nom ],
     SYNSEM.LOCAL.CAT.VAL.SUBJ < [ LOCAL.CAT.HEAD.CASE-MARKED + ] > ].
 
-np_pred_copular_clitic-verb-lex := transitive-verb-lex &
-  [ SYNSEM.LOCAL [ CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
-                                                         CASE-MARKED + ],
-                             COMPS.FIRST.LOCAL.CAT.HEAD [ CASE nom+gen,
-                                                          CASE-MARKED + ] ],
-                   CONT.HOOK.INDEX.E [ ASPECT aor,
-                                       MOOD ind+int+mood- ] ],
-    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
+;np_pred_copular_clitic-verb-lex := transitive-verb-lex &
+;  [ SYNSEM.LOCAL [ CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
+;                                                         CASE-MARKED + ],
+;                             COMPS.FIRST.LOCAL.CAT.HEAD [ CASE nom+gen,
+;                                                          CASE-MARKED + ] ],
+;                   CONT.HOOK.INDEX.E [ ASPECT aor,
+;                                       MOOD ind+int+mood- ] ],
+;    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
 
 intrans_bipart-stem_form-ka-verb-lex := nom-intransitive-verb-lex &
   [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG + ].
@@ -938,7 +938,20 @@ s1sg_pronom_enclitic-aux-lex := subj-raise-aux-no-pred &
 
 ;;; Copulas
 
-cop-lex := basic-verb-lex-super & trans-first-arg-raising-lex-item-2 & non-mod-lex-item &
+copular_clitic-verb-lex := verb-lex &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.INIT -,
+                         VAL.SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
+                                                       CASE-MARKED + ] ],
+                   CONT.HOOK.INDEX.E [ ASPECT aor,
+                                       MOOD ind+int+mood- ] ],
+    INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or-- ].
+
+np_pred_copular_clitic-verb-lex := transitive-verb-lex & copular_clitic-verb-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD [ CASE nom+gen,
+                                                      CASE-MARKED + ] ].
+
+
+real-cop-lex := basic-verb-lex-super & verb-lex & trans-first-arg-raising-lex-item-2 &
   [ SYNSEM.LOCAL [ CONT.HOOK.XARG #xarg,
                    CAT.VAL [ COMPS < [ LOCAL.CAT cat-sat &
                                                  [ HEAD.PRD +,
@@ -950,7 +963,8 @@ cop-lex := basic-verb-lex-super & trans-first-arg-raising-lex-item-2 & non-mod-l
                                                   [ VAL [ SPR < >,
                                                           COMPS < > ],
                                                     HEAD noun &
-                                                         [ CASE real-case ] ] ] ] > ] ] ].
+                                                         [ CASE real-case,
+                                                           CASE-MARKED + ] ] ] ] > ] ] ].
 
 ; copula-verb-lex := verb-lex-supertype & trans-first-arg-raising-lex-item-2 &
 ;   [ SYNSEM.LOCAL [ CONT.HOOK.XARG #xarg,
@@ -970,10 +984,10 @@ cop-lex := basic-verb-lex-super & trans-first-arg-raising-lex-item-2 & non-mod-l
 ; Copula type taking adjectival complements.
 ; Need to define more for additional complement types.
 
-pp-comp-copula-verb-lex := cop-lex &
+pp-comp-copula-verb-lex := real-cop-lex &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adp ].
 
-adj-comp-copula-verb-lex := cop-lex &
+adj-comp-copula-verb-lex := real-cop-lex & copular_clitic-verb-lex &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD adj ].
 
 loc+com-pred-copula-cop-lex := pp-comp-copula-verb-lex &
@@ -1696,6 +1710,29 @@ basic-filler-phrase :+ [ SYNSEM.NON-LOCAL.SLASH.LIST < >,
 
 extracted-subj-phrase := basic-extracted-subj-phrase &
   [ SYNSEM.LOCAL.CAT.HEAD verb ].
+
+locative-pp-phrase := unary-phrase &
+[ SYNSEM [ NON-LOCAL #nl,
+           LOCAL.CAT [ HEAD adp & [ MOD < [ LOCAL intersective-mod &
+                                                  [ CAT.HEAD verb,
+                                                    CONT.HOOK.INDEX #xarg ] ] > ],
+                       VAL [ COMPS < >,
+                             SUBJ < >, 
+                             SPR < > ]]],
+  C-CONT [ HOOK [ LTOP #ltop,
+                 INDEX #index,
+                 XARG #xarg ],
+           RELS.LIST < arg12-ev-relation &
+                     [ PRED "_loc_p_rel",
+                       LBL #ltop,
+                       ARG0 #index,
+                       ARG1 #xarg,
+                       ARG2 #dtr ] >,
+           HCONS.LIST < >  ],
+  ARGS < [ SYNSEM [ NON-LOCAL #nl,
+                    LOCAL [ CAT [ HEAD noun & [CASE loc],
+                                  VAL.SPR < > ],
+                            CONT.HOOK [ INDEX #dtr ] ] ] ] > ].
 
 ;;; Wh-question-related phrasal types
 

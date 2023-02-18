@@ -3755,9 +3755,9 @@ piri_2 := verb21-verb-lex &
   [ STEM < "piri" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sing_v_rel" ].
 
-jarha_1 := verb21-verb-lex &
-  [ STEM < "jarha" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
+;jarha_1 := verb21-verb-lex &
+;  [ STEM < "jarha" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
 
 wiripata_2 := verb21-verb-lex &
   [ STEM < "wiripata" >,
@@ -5559,9 +5559,9 @@ kwaneta := verb304-verb-lex &
   [ STEM < "kwaneta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lend_v_rel" ].
 
-jarha_2 := verb304-verb-lex &
-  [ STEM < "jarha" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
+;jarha_2 := verb304-verb-lex &
+;  [ STEM < "jarha" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
 
 hwa_2 := verb304-verb-lex &
   [ STEM < "hwa" >,
@@ -6095,9 +6095,9 @@ arhijta := verb568-verb-lex &
   [ STEM < "arhijta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_teach_v_rel" ].
 
-jarha_3 := verb568-verb-lex &
-  [ STEM < "jarha" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_dig_v_rel" ].
+; jarha_3 := verb568-verb-lex &
+;  [ STEM < "jarha" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_dig_v_rel" ].
 
 kuranku := verb568-verb-lex &
   [ STEM < "kuranku" >,

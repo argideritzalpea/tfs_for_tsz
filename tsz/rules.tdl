@@ -31,6 +31,8 @@ comp-head-2 := comp-head-phrase-2.
 
 bare-np := bare-np-phrase.
 
+locative-pp := locative-pp-phrase.
+
 n1-top-coord := n1-top-coord-rule.
 
 n1-bottom-coord := n1-bottom-coord-rule.
@@ -51,7 +53,7 @@ adj-head-scop := adj-head-scop-phrase.
 
 head-adj-scop := head-adj-scop-phrase.
 
-adj-head-int := adj-head-int-phrase.
+; adj-head-int := adj-head-int-phrase.
 
 because-modifying-clause := because-modifying-clause-phrase.
 
