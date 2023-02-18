@@ -1,0 +1,110 @@
+Stashed suite
+
+#83 lab6 - embedded interrogative, converted from Foster
+Source: Foster, pg.57
+Vetted: f
+Judgement: g
+Phenomena: emb-d
+ka ixu =tsïni kurhamarhi-ni aberi na=ksï uera-pi k'wintse-ni
+ka ixu =tsïni kurhamarhi-ni aberi na=ksï uera-pi k'wintse-ni
+CONJ here =O1PL ask-INF SUB how=S1PL go.out-INTER party-INF
+And here asking us about how we went out partying.
+
+# 
+Source: P’urhepecha / A Donkey and A Coyote | maru uandantskuecha No.3 1948 | Ma Búrru Ka Ma Jiuátsï (flextext)
+Vetted: f
+Judgement: g
+Phenomena: wh-question
+¿ambéri úkuaɽintʃaski? 
+ampe =ri u-kuarhi-s-ki 
+what =2SG do-RFLX-AOR-INTER 
+What happened to you?
+
+Source: P’urhepecha / A Donkey and A Coyote | maru uandantskuecha No.3 1948 | Ma Búrru Ka Ma Jiuátsï (flextext)
+Vetted: f
+Judgement: g
+Phenomena: wh-question
+¿andírisï isï jámani jakí reŋgéreŋgétskani? 
+anti =ri =sï isï ja-ni ja-ki ___-tska-ni 
+why =2SG-=FOC like.this exist-INF exist-INTER ___-LOC.buttocks-OBJ 
+Why are you limping like this? 
+
+Source: P’urhepecha / A jeoulous donkey | maru uandantskuecha No.3 1948 (pg13-15) | Ma burru imbidiósu (flextext)
+Vetted: f
+Judgement: g
+Phenomena: wh-question
+¿ andísï xáni sési kánki indé uíchu énhga xáni xépika ka nómbe újka ? 
+anti-=sï xani sesi ka- -ki inte uichu enka xani xepi-ka ka no-ampe u-j-ka 
+anti-=sï xani sesi ka- -ki inte uichu enka xani xepi-ka ka no-ampe u-sï-ka 
+why-=FOC that good treat- INTER DEM.SG dog SUBORD that lazy-SBJNC and no-something do-AOR-1/2IND 
+Why does he treat the dog so well when he is lazy does not do anything? 
+
+Source: P’urhepecha / A mouse and a frog | maru uandantskuecha No.3 1948 | Ma jeiáki ka ma kuanásï (flextext)
+Vetted: f
+Judgement: g
+Phenomena: wh-question
+Kuanásï eránhguerasti ka luégo ioárhisti ka arhíni : ¿ andísïrini no sáni jurhájki p'orhémbini ? 
+kuanasï e-ra- -ku- -s-ti ka luego ioarhi-s-ti ka a-rhi-ni anti-sï-=rini no sani ju- -j-ki p'orempi-ni 
+kuanasï e-ra- -ku- -sï-ti ka luego ioarhi-sï-ti ka a-rhi-ni anti-sï-=rini no sani ju- -sï-ki p'orempi-ni 
+frog see-VAL- APPL.3- AOR-3.IND and later call-AOR-3.IND and AUX-LOC.body-INF why-AOR-=1SG.OBJ no bit come- AOR-IRR visit-OBJ 
+The Frog saw him, and he called him and said to him: Why don’t you come visit me? 
+
+Source: Búrru ka ma uákasï ka ma acháti [3] Maru uandantskuecha - Secretaria de Educacion Publica (Numero 3 - 1948)
+Vetted: f
+Judgement: g
+Phenomena: wh-question
+¿ andísïri no marhóatki indéni ambé énhgakini tatá diósï íntsïkuka párari úni sési kuájpikuarhini ? 
+ anti-sï-=ri no marhoa-ta-ki inte-ni ampe enka-=kini tata diosï intsï-ku-ka para-=ri u-ni sesi kuajpi-kuarhi-ni 
+ anti-sï-=ri no marhoa-ta-ki inte-ni ampe enka-=kini tata diosï intsï-ku-ka para-=ri u-ni sesi kuajpi-kuarhe-ni 
+ why-AOR-=2SG no utilize-CAUS-INTER DEM.SG-OBJ something SUBORD-=2SG.OBJ sir god give-APPL.3-SBJNC for-=2SG do-OBJ good fend-RFLX-INF 
+Why don’t you utilize those things that god gave you so you can defend yourself? 
+
+Source: P’urhepecha / Búrru ka ma uákasï ka ma acháti [3] | Maru uandantskuecha - Secretaria de Educacion Publica (Numero 3 - 1948) (flextext)
+Vetted: f
+Judgement: g
+Phenomena: wh-question
+jí uékani jámaska úmbarhini uákasïni andí jíndini ambé emportárisïrambi . 
+ji jama-sï-ka umbarhi-ni uakasï-ni anti ji- =ni ampe emportári-sïren-p'i 
+ji jama-sï-ka umbarhi-ni uakasï-ni anti ji- =ni ampe emportári-sïren-p'i 
+1SG be around-AOR-1/2IND advise-OBJ ox-OBJ why 1SG- =1SG.SBJ what concern-HAB.PST-BEN 
+Why was I advising the ox, It was none of my concern 
+
+Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de Alfabetizacion entre los Tarascos Monolingues - No. 4 - 1949 Iuini
+Vetted: f
+Judgement: g
+Phenomena: other question
+Ka jí arhíska : “ xéntaskiri ma auánini ? 
+ka ji arhi-sï-ka exe-nt'a-sï-ki-ri ma auani-ni 
+ka ji arhi-sï-ka exe-nt'a-sï-ki-ri ma auani-ni 
+and 1SG say-AOR-1/2IND see-ITER-AOR-IRR-PAST one rabbit-OBJ 
+And I told him: Did you find a rabbit? 
+
+Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de Alfabetizacion entre los Tarascos Monolingues - No. 4 - 1949 Iuini
+Vetted: f
+Judgement: g
+Phenomena: wh-question
+Ka jí kurhámarhiskani : “ ambéri uxámki “ ka imá méntku no andájkurhini jarháni iuíni t'oksteniri ambé . 
+ka ji kurhamarhi-sï-ka-ni ampe-=ri u-xam-ki ka ima mentku no anta-j-kurhi-ni jarha-ni iui-ni ampe 
+ka ji kurhamarhi-sï-ka-ni ampe-=ri u-xam-ki ka ima mentku no anta-sï-kuarhe-ni jarha-ni iui-ni ampe 
+and 1SG ask-AOR-1/2IND-OBJ what-=2SG do-CONT-INTER and DEM.SG always no approach-AOR-RFLX-OBJ be-INF collect.firewood-INF something 
+And I asked him: “What are you doing? He couldn't come close to collect firewood only t’oksteniri things. 
+
+Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de Alfabetizacion entre los Tarascos Monolingues - No. 4 - 1949 Iuini
+Vetted: f
+Judgement: g
+Phenomena: other question
+Nori niuá juchínia kaníki ch'anáni ?” 
+no-=ri ni-ua jucheni-=ia kaniki chana-ni 
+no-=ri ni-a jucheni-=a kaniki chana-ni 
+no-=2SG go-FUT my.house-=already marble play-INF 
+Do you wanna come to my house to play with marbles?- 
+
+Source: P’urhepecha / Hablemos purepecha [3] (flextext)
+Vetted: f
+Judgement: g
+Phenomena: other question
+nekʃï iʃeʃaki 
+ne-=kʃï iʃe-ʃa-ki 
+ne-=kʃï eʃe-ʃa-ki 
+who-=3PL see-PROG-IRR 
+At who are we looking at? A quien estamos viendo?- 
