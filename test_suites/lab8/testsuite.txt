@@ -953,3 +953,193 @@ golondrina animali =e-xa-ti
 golondrina animali =e-xa-ti
 sparrow animal =COP-CONT-3.IND
 Intended:Sparrows are animals.
+
+#96 lab8
+Source: ref 992 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: wh non-verbal pred
+nani ja-ki Pedro
+nani ja-ki Pegru
+where exist-NP.INTER Pedro
+Where is Pedro?
+
+#97 lab8
+Source: ref 992 in tsz_toolbox
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+nani ja Pedro
+nani ja Pegru
+where exist Pedro
+Intended: Where is Pedro?
+
+#98 lab8
+Source: ref 992 in tsz_toolbox
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+nani jaki Pedro
+nani ja =e-ki Pegru
+where exist =COP-INTER Pedro
+Intended: Where is Pedro?
+
+#99 lab8
+Source: ref 4359 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: wh non-verbal pred
+nari hasï
+na =ri ja-x-i
+how =2SG exist-AOR-INTER
+How are you?
+
+#100 lab8
+Source: ref 4359 in tsz_toolbox
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+nari hasïka
+na =ri ja-x-ka
+how =2SG exist-AOR-1/2IND
+Intended: How are you?
+
+#101 lab8
+Source: ref 4359 in tsz_toolbox
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+hasï nari
+ja-x-i na =ri
+exist-AOR-INTER how =2SG
+Intended: How are you?
+
+#102 lab8
+Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
+Vetted: f
+Judgement: g
+Phenomena: wh non-verbal pred
+na jaxispki?
+na jaxi =e-s-p-ki
+how color =COP-AOR-PAS-INTER
+How was the color / type?
+
+#103 lab8
+Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+na jaxispki?
+na jaxi-s-p-ki
+how color-AOR-PAS-INTER
+Intended: How was the color / type?
+
+#104 lab8
+Source: https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
+Vetted: f
+Judgement: u
+Phenomena: wh non-verbal pred
+jaxispki na?
+jaxi =e-s-p-ki na
+color =COP-AOR-PAS-INTER how
+Intended: How was the color / type?
+
+#105 lab8
+Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
+Vetted: t
+Judgement: g
+Phenomena: wh non-verbal pred
+¿Néskiri?
+ne =e-x-ki =ri
+who =COP-AOR-INTER =2SG.S
+Who are you?”
+
+#106 lab8
+Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
+Vetted: t
+Judgement: u
+Phenomena: wh non-verbal pred
+¿Néskiri?
+ne-x-ki =ri
+who-AOR-INTER =2SG.S
+Intended: Who are you?”
+
+#107 lab8
+Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
+Vetted: t
+Judgement: u
+Phenomena: wh non-verbal pred
+¿éskiri né?
+=e-x-ki =ri ne
+=COP-AOR-INTER =2SG.S who
+Intended: Who are you?”
+
+#108 lab8
+Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
+Vetted: t
+Judgement: g
+Phenomena: wh non-verbal pred
+t'ueskiri jucheti uátsïti?
+t'u =e-x-ki =ri jucheti uatsï-ti?
+2SG =COP-AOR-INTER =2SG.S 1SG.GEN youngperson-FORM
+You are my son?
+
+#109 lab8
+Source: https://www.bible.com/bible/3546/EST.6.BI-PURHE
+Vetted: t
+Judgement: g
+Phenomena: wh non-verbal pred
+¿Né jámki ekuarhu?
+ne ja-xam-ki ekua-rhu
+who exist-CONT-INTER courtyard-LOC
+Who is in the courtyard?
+
+#110 lab8
+Source: https://www.bible.com/bible/3546/EST.6.BI-PURHE
+Vetted: t
+Judgement: u
+Phenomena: wh non-verbal pred
+¿Jámki né ekuarhu?
+ja-xam-ki ne ekua-rhu
+exist-CONT-INTER who courtyard-LOC
+Intended: Who is in the courtyard?
+
+#111 lab8
+Source: https://www.bible.com/bible/3546/EXO.32.BI-PURHE
+Vetted: t
+Judgement: g
+Phenomena: wh non-verbal pred
+¿Ne ACHA jinkuni ja-rhaski?
+ne acha jinkuni ja-rha-x-ki?
+who lord COM be-FORM-AOR-INTER
+Who is on the Lord's side?
+
+#112 lab8
+Source: https://www.bible.com/bible/3546/EXO.32.BI-PURHE
+Vetted: t
+Judgement: u
+Phenomena: wh non-verbal pred
+¿ACHA jinkuni ja-rhaski ne?
+acha jinkuni ja-rha-x-ki ne
+lord COM be-FORM-AOR-INTER who
+Intended: Who is on the Lord's side?
+
+#113 lab8
+Source: https://www.bible.com/bible/3546/EXO.32.BI-PURHE
+Vetted: t
+Judgement: u
+Phenomena: wh non-verbal pred
+¿ACHA jinkuni ja-rhaski ne?
+acha jinkuni ja-rha-x-ki ne
+lord COM be-FORM-AOR-INTER who
+Intended: Who is on the Lord's side?
+
+#114 lab8
+Source: translation 20
+Vetted: t
+Judgement: g
+Phenomena: wh-question
+¿ne k'uixaki?
+ne k'ui-xa-ki
+who sleep-PROG-INTER
+Who sleeps?
