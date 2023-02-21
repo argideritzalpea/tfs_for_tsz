@@ -1078,7 +1078,7 @@ Intended: Who are you?”
 Source: https://www.bible.com/bible/3546/GEN.27.BI-PURHE
 Vetted: t
 Judgement: g
-Phenomena: wh non-verbal pred
+Phenomena: polar question
 t'ueskiri jucheti uátsïti?
 t'u =e-x-ki =ri jucheti uatsï-ti?
 2SG =COP-AOR-INTER =2SG.S 1SG.GEN youngperson-FORM
@@ -1143,3 +1143,133 @@ Phenomena: wh-question
 ne k'ui-xa-ki
 who sleep-PROG-INTER
 Who sleeps?
+
+#115 lab8
+Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de Alfabetizacion entre los Tarascos Monolingues - No. 4 - 1949 Iuini
+Vetted: t
+Judgement: g
+Phenomena: polar question
+exent'askiri ma auanini
+exe-x-ki =ri ma auani-ni
+see-AOR-IRR =S2SG one rabbit-OBJ 
+Did you see a rabbit?
+
+#116 lab8
+Source: Collecting Firewood Seba ka Susana - Seccion Tecninca de la Campana de Alfabetizacion entre los Tarascos Monolingues - No. 4 - 1949 Iuini
+Vetted: f
+Judgement: g
+Phenomena: polar question
+Nori niuá juchínia kaníki ch'anáni ?” 
+no =ri ni-a jucheni =ia kaniki chana-ni 
+no =2SG go-FUT my.house =already marble play-INF 
+Do you wanna come to my house to play with marbles?
+
+#116 lab8
+Source: translation #11 
+Vetted: t
+Judgement: g
+Phenomena: polar question
+misiku-echa uiri-xïn-i anta-ku-ni uichu-echa-ni?
+misiku-echa uiri-xïn-i anta-ku-ni uichu-echa-ni
+cat-PL run-HAB.NP-3.IND reach-APPL.3O-INF dog-PL-OBJ
+Do cats chase dogs?
+
+#117 lab8
+Source: 2023 Chamoreau, (78) 
+Vetted: t
+Judgement: g
+Phenomena: polar question
+t’u irechaixkiri
+t’u irecha-i-x-ki =ri
+S2SG.IND king-PRED-AOR-INT =S2SG
+You are the king?
+
+#118 lab8
+Source: Herrera - La interrogación en el purépecha de Carapan, Michoacán*
+Vetted: t
+Judgement: g
+Phenomena: polar question
+Jatsískiri xukúparhakwa?
+jatsi-s-ki-ri xukuparhakwa
+have-AOR.NP-INTER-2S.SG traje/ropa
+Do you have your dress?
+
+#119 lab8
+Source: Herrera - La interrogación en el purépecha de Carapan, Michoacán*
+Vetted: t
+Judgement: g
+Phenomena: polar question
+Kanguariaskiria watsïchani?
+kankwaria-s-ki-ri=ia watsï-icha-ni
+tener-AOR.NP-INTER-2S.SG hijo-pl-obj
+Do you have kids?
+
+#120 lab8
+Source: Herrera - La interrogación en el purépecha de Carapan, Michoacán*
+Vetted: t
+Judgement: g
+Phenomena: polar question
+Jarhaski limonisï k’enhari?
+jarha-s-ki limonisï k’enha-eri
+be-AOR.NP-INTER limón cara.grande-GEN
+Are there big lemons?
+
+#121 lab8
+Source: Herrera - La interrogación en el purépecha de Carapan, Michoacán*
+Vetted: t
+Judgement: g
+Phenomena: polar question
+Juanu t’ireski k’urunda?
+jwanu t’ire-s-ki k’urunta
+Juan eat-AOR.NP-INTER tamal
+Juan ate tamales?
+
+#122 lab8
+Source: Herrera - La interrogación en el purépecha de Carapan, Michoacán*
+Vetted: t
+Judgement: g
+Phenomena: polar question
+Ima xariani jakí?
+ima xarhi-ni ja-ki
+DEM.SG swim-INF be-INTER
+He is swimming?
+
+#123 lab8
+Source: Herrera - La interrogación en el purépecha de Carapan, Michoacán*
+Vetted: t
+Judgement: g
+Phenomena: polar question
+Ima xariani jakí?
+ima xarhi-ni ja-ki
+DEM.SG swim-INF be-INTER
+He is swimming?
+
+#124 lab8
+Source: Herrera - La interrogación en el purépecha de Carapan, Michoacán*
+Vetted: t
+Judgement: g
+Phenomena: polar question
+Xariáspiri?
+xarhi-s-p-i =ri
+swim-AOR-PST-INTER =2S.SG
+Did you swim?
+
+#125 lab8
+Source: simplified https://www.bible.com/bible/3546/1co.6.19
+Vetted: s
+Judgement: g
+Phenomena: polar question
+¿Ójtsï no míteski eska chári kwiripets'ikata tiósteska...?
+o-tsï no mi-te-x-ki eska chari kwiripets'ikata tiosta-i-x-ka
+or-2S.PL no know-FORM-AOR-INTER SUB 2PL.GEN body temple-PRED
+Do you not know that your body is the temple?
+
+#126 lab8
+Source: simplified https://www.bible.com/bible/3546/1co.6.19
+Vetted: s
+Judgement: g
+Phenomena: polar question
+¿Ójtsï no míteski?
+o-tsï no mi-te-x-ki
+or-2S.PL no know-FORM-AOR-INTER
+Do you not know?

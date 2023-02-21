@@ -1,14 +1,14 @@
 uichu-echa k'ui-x-ti
-uichu-echa uiri-a-xïn-ti anta-ku-ni motsitaɽakwa-echa-ni
+uichu-echa uiri-xïn-ti anta-ku-ni motsitaɽakwa-echa-ni
 ji =kini uiri-x-ka anta-chi-ni
 uichu-echa arha-xïn-ti
-uichu-echa no uiri-a-xïn-ti anta-ku-ni motsitaɽakwa-echa-ni
+uichu-echa no uiri-xïn-ti anta-ku-ni motsitaɽakwa-echa-ni
 ji eratsi-x-ka eski =ri mi-ka eska uichu-echa uiri-xïn-ka anta-ku-ni motsitarhakua-echa-ni
 kurhamarhi-x-ka abersika =ri mi-ka eska wichu-echa wiri-xïn-ka anta-ku-ni motsitarhakwa-echa-ni
-misiku-echa ka uichu-echa uiri-a-xïn-ti anta-ku-ni motsitaɽakwa-echa-ni
-uichu-echa uiri-a-xïn-ti anta-ku-ni motsitaɽakwa-echa-ni ka misiku-echa uiri-a-xïn-ti anta-ku-ni uichu-echa-ni
-misiku-echa uiri-a-xïn-ti anta-ku-ni uichu-echa-ni ka k'ui-x-ti
-misiku-echa uiri-a-xïn-i anta-ku-ni uichu-echa-ni
+misiku-echa ka uichu-echa uiri-xïn-ti anta-ku-ni motsitaɽakwa-echa-ni
+uichu-echa uiri-xïn-ti anta-ku-ni motsitaɽakwa-echa-ni ka misiku-echa uiri-a-xïn-ti anta-ku-ni uichu-echa-ni
+misiku-echa uiri-xïn-ti anta-ku-ni uichu-echa-ni ka k'ui-x-ti
+misiku-echa uiri-xïn-i anta-ku-ni uichu-echa-ni
 SKIPPED 
 uichu-echa ekua-rhu =sï arha-xïn-ti
 uichu-echa arha-xïn-ti ekua-rhu
