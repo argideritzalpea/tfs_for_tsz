@@ -1483,7 +1483,8 @@ tam3-lex-rule-super := add-only-no-ccont-rule &
                       KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb ] ] ].
 
-tam3-noninterrogative-lex-rule := tam3-lex-rule-super.
+tam3-noninterrogative-lex-rule := tam3-lex-rule-super &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop ].
 
 tam3-fin-mc-check-lex-rule := tam3-lex-rule-super &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD mood+,
@@ -1512,8 +1513,7 @@ tam3-irr-_check-lex-rule := tam3-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD irr- ].
 
 tam3-indicative-check-lex-rule := infl-lex-rule & tam3-fin-mc-check-lex-rule & tam3-noninterrogative-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX [E.MOOD ind,
-                                  SF prop] ].
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX [E.MOOD ind ] ].
 
 tam3-interrogative-check-lex-rule := tam3-fin-mc-check-lex-rule &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD int ].
@@ -1546,7 +1546,6 @@ tam3-imp+excl-check-lex-rule := tam3-fin-mc-check-lex-rule & tam3-irr-_check-lex
 
 tam3-imp-check-lex-rule := tam3-imp+excl-check-lex-rule & tam3-noninterrogative-lex-rule &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD imp,
-                   CONT.HOOK.INDEX.SF prop,
                    CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd ] ].
 
 tam3-imperative_sg-lex-rule := const-lex-rule & tam3-imp-check-lex-rule &
@@ -1556,12 +1555,10 @@ tam3-imperative_pl-lex-rule := infl-lex-rule & tam3-imp-check-lex-rule &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
 
 tam3-exclamative-lex-rule := infl-lex-rule & tam3-imp+excl-check-lex-rule & tam3-noninterrogative-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX [E.MOOD excl,
-                                  SF prop] ].
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX [E.MOOD excl ] ].
 
 tam3-nonfin-lex-rule := infl-lex-rule & tam3-irr-_check-lex-rule & tam3-no-asp-tense-check-lex-rule &
-  [ SYNSEM.LOCAL [CAT.HEAD.FORM nonfinite,
-                  CONT.HOOK.INDEX.SF prop] ].
+  [ SYNSEM.LOCAL [CAT.HEAD.FORM nonfinite ] ].
 
 voice-lex-rule-super := add-only-no-ccont-rule & case-rule-dtr & infl-lex-rule & nominalize_kwa-or-v-3pl-obj-rule-dtr & noun-number-rule-dtr & tam1-rule-dtr & tam2-rule-dtr & tam3-rule-dtr &
   [ INFLECTED #infl,
