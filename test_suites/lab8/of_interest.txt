@@ -1,0 +1,10 @@
+# 
+Source: ref 6235 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+juchi uatsi-ni ne t'ire-ra-ua enka ji uarhi-a-ka
+juchi uatsï-ni ne t'ire-ra-a enka ji uarhi-a-ka
+1SG.POSS son/daughter OBJ who eat CAUS FUT SUBORD 1SG die FUT SBJNC
+Who will feed my son when I die
+

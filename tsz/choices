@@ -145,6 +145,7 @@ section=coordination
   cs1_order=before
 
 section=matrix-yes-no
+q-infl=on
 
 section=wh-q
 

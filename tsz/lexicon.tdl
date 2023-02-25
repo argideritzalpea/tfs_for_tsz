@@ -145,10 +145,6 @@ mariani := inanimate-noun-lex &
   [ STEM < "mariani" >,
     SYNSEM.LKEYS.KEYREL.PRED "_none_n_rel" ].
 
-misíku := inanimate-noun-lex &
-  [ STEM < "misíku" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_cat_n_rel" ].
-
 nema := inanimate-noun-lex &
   [ STEM < "nema" >,
     SYNSEM.LKEYS.KEYREL.PRED "_someone_n_rel" ].

@@ -1,0 +1,21 @@
+# 
+Source: ref 6235 in tsz_toolbox
+Vetted: f
+Judgement: g
+Phenomena: 
+juchi uatsi-ni ne t'ire-ra-ua enka ji uarhi-a-ka
+juchi uatsï-ni ne t'ire-ra-a enka ji uarhi-a-ka
+1SG.POSS son/daughter OBJ who eat CAUS FUT SUBORD 1SG die FUT SBJNC
+Who will feed my son when I die
+
+
+see \ref 6392 ## LATIN ##
+I asked what the dogs chased
+ji kurhamarhi-x-ka a ambe-ni uichu-echa uiri-a-xïn-i anta-ku-ni
+
+https://www.bible.com/bible/3546/GEN.50.BI-PURHE
+Enkaksï na táte jempani jatsintapkia
+After he had buried his father
+:::
+The dog sleeps after the cat sleeps
+uichu k'ui-xa-ti enka na misiku k'ui-xa-ka
