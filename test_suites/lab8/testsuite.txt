@@ -894,6 +894,7 @@ Phenomena: nonverbal_predicates, poss
 =e-x-ti misitu pegru-eri
 =COP-AOR-3.IND cat Pedro-GEN
 Intended: The cat is Pedro's
+
 #90 lab7
 Source: us
 Vetted: f
@@ -1080,7 +1081,7 @@ Vetted: t
 Judgement: g
 Phenomena: polar question
 t'ueskiri jucheti uátsïti?
-t'u =e-x-ki =ri jucheti uatsï-ti?
+t'u =e-x-ki =ri juchiti uatsï-ti?
 2SG =COP-AOR-INTER =2SG.S 1SG.GEN youngperson-FORM
 You are my son?
 
