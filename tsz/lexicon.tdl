@@ -5948,7 +5948,7 @@ tsurumu_3 := verb620-verb-lex &
     SYNSEM.LKEYS.KEYREL.PRED "_thorn_v_rel" ].
 
 t_27ire_5 := verb620-verb-lex &
-  [ STEM < "t_27ire" >,
+  [ STEM < "t'ire" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 uanta_9 := verb620-verb-lex &
