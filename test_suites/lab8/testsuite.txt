@@ -173,7 +173,7 @@ Phenomena: case
 jinte-s-ti uampa Maria-eri
 jinte-s-ti uampa Maria-eri
 be-AOR-ASS3S husband María-GEN
-‘He is Maria’s husband.’
+‘He is Maria's husband.'
 
 #18
 Source: 61b in Chamoreau
@@ -183,7 +183,7 @@ Phenomena: case
 nanaka-echa-eri jauiri sesi ja-rha-x-ti
 nanaka-echa-eri jauiri sesi ja-rha-x-ti
 girl-PL-GEN hair well be_there-FORM-AOR-ASS3S
-‘The girls’ hair is beautiful.’
+‘The girls' hair is beautiful.'
 
 #19
 Source: ref 3911 in tsz_toolbox.txt, reduced
@@ -473,7 +473,7 @@ Phenomena: poss
 jintesti wámpa Mariaeri
 jinte-x-ti uampa Maria-eri
 be-AOR-3.IND husband María-GEN
-He is Maria’s husband.
+He is Maria's husband.
 
 #48 Regular genitive adnominal possession (possesor-GEN + possessum)
 Source: Chamoreau 2023 61 (a) (edited)
@@ -483,7 +483,7 @@ Phenomena: poss
 jintesti Mariaeri wámpa
 jinte-x-ti Maria-eri uampa
 be-AOR-3.IND María-GEN husband
-He is Maria’s husband.
+He is Maria's husband.
 
 #49 Regular genitive adnominal possession (missing genitive)
 Source: Chamoreau 2023 61 (a)
@@ -493,7 +493,7 @@ Phenomena: poss
 jintesti wámpa Maria
 jinte-x-ti uampa Maria
 be-AOR-3.IND husband María
-Intended: "He is Maria’s husband."
+Intended: "He is Maria's husband."
 
 #50 1SG ("my") adnominal possession
 Source: Chamoreau 2023 64 (e)
@@ -1169,9 +1169,9 @@ Source: translation #11
 Vetted: t
 Judgement: g
 Phenomena: polar question
-misiku-echa uiri-xïn-i anta-ku-ni uichu-echa-ni?
-misiku-echa uiri-xïn-i anta-ku-ni uichu-echa-ni
-cat-PL run-HAB.NP-3.IND reach-APPL.3O-INF dog-PL-OBJ
+misitu-echa uiri-xïn-i anta-ku-ni uichu-echa-ni?
+misitu-echa uiri-xïn-i anta-ku-ni uichu-echa-ni
+cat-PL run-HAB.NP-3.INT reach-APPL.3O-INF dog-PL-OBJ
 Do cats chase dogs?
 
 #117 lab8
@@ -1179,8 +1179,8 @@ Source: 2023 Chamoreau, (78)
 Vetted: t
 Judgement: g
 Phenomena: polar question
-t’u irechaixkiri
-t’u irecha =i-x-ki =ri
+t'u irechaixkiri
+t'u irecha =e-x-ki =ri
 S2SG.IND king =PRED-AOR-INT =S2SG
 You are the king?
 
@@ -1209,8 +1209,8 @@ Source: Herrera - La interrogación en el purépecha de Carapan, Michoacán*
 Vetted: t
 Judgement: g
 Phenomena: polar question
-Jarhaski limonisï k’enhari?
-jarha-s-ki limonisï k’enha-eri
+Jarhaski limonisï k'enhari?
+jarha-s-ki limonisï k'enha-eri
 be-AOR.NP-INTER lemon face.big-GEN
 Are there big lemons?
 
@@ -1219,8 +1219,8 @@ Source: Herrera - La interrogación en el purépecha de Carapan, Michoacán*
 Vetted: t
 Judgement: g
 Phenomena: polar question
-Juanu t’ireski k’urunda?
-jwanu t’ire-s-ki k’urunta
+Juanu t'ireski k'urunda?
+jwanu t'ire-s-ki k'urunta
 Juan eat-AOR.NP-INTER tamal
 Juan ate tamales?
 
@@ -1245,16 +1245,6 @@ swim-AOR-PST-INTER =2S.SG
 Did you swim?
 
 #124 lab8
-Source: simplified https://www.bible.com/bible/3546/1co.6.19
-Vetted: s
-Judgement: g
-Phenomena: polar question
-¿Ójtsï no míteski eska chári kwiripets'ikata tiósteska...?
-o-tsï no mi-te-x-ki eska chari kwiripets'ikata tiosta-i-x-ka
-or-2S.PL no know-FORM-AOR-INTER SUB 2PL.GEN body temple-PRED
-Do you not know that your body is the temple?
-
-#125 lab8
 Source: simplified https://www.bible.com/bible/3546/1co.6.19
 Vetted: s
 Judgement: g

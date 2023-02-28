@@ -1102,12 +1102,8 @@ ireta := noun84-noun-lex &
     SYNSEM.LKEYS.KEYREL.PRED "_town_n_rel" ].
 
 iretʃa := noun84-noun-lex &
-  [ STEM < "iretʃa" >,
+  [ STEM < "irecha" >,
     SYNSEM.LKEYS.KEYREL.PRED "_king_n_rel" ].
-
-iretʃetʃa := noun84-noun-lex &
-  [ STEM < "iretʃetʃa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_kings_n_rel" ].
 
 isï_2 := noun84-noun-lex &
   [ STEM < "isï" >,
