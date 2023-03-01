@@ -1744,6 +1744,10 @@ locative-pp-phrase := unary-phrase &
 ;;; Coordination
 ;;;;;;;;;;;;;;;;;;
 
+qeq :+
+  [ HARG.INSTLOC #il,
+    LARG.INSTLOC #il ].
+
 ;;; Coordination Strategy 1
 
 n1-top-coord-rule := basic-n-top-coord-rule & apoly-top-coord-rule &
