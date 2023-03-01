@@ -1105,10 +1105,6 @@ irecha := noun84-noun-lex &
   [ STEM < "irecha" >,
     SYNSEM.LKEYS.KEYREL.PRED "_king_n_rel" ].
 
-iretʃetʃa := noun84-noun-lex &
-  [ STEM < "iretʃetʃa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_kings_n_rel" ].
-
 isï_2 := noun84-noun-lex &
   [ STEM < "isï" >,
     SYNSEM.LKEYS.KEYREL.PRED "_=approx-or-approx_n_rel" ].

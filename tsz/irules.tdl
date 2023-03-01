@@ -125,30 +125,6 @@ tam3-nonfin-suffix :=
 %suffix (* -ni)
 tam3-nonfin-lex-rule.
 
-voice1-reflexive-middle-suffix :=
-%suffix (* -kuri) (* -kuarhe) (* -kurha) (* -kuɽa)
-voice1-reflexive-middle-lex-rule.
-
-voice1-reciprocal-suffix :=
-%suffix (* -p'era) (* -pʰera)
-voice1-reciprocal-lex-rule.
-
-voice1-passive-suffix :=
-%suffix (* -na) (* -nha) (* -nhka) (* -ŋka)
-voice1-passive-lex-rule.
-
-voice1-antipassive-suffix :=
-%suffix (* -pʰe) (* -p'e)
-voice1-antipassive-lex-rule.
-
-voice1-appl-3rd-obj-suffix :=
-%suffix (* -ku)
-voice1-appl-3rd-obj-lex-rule.
-
-voice1-appl-non3rd-obj-suffix :=
-%suffix (* -chi)
-voice1-appl-non3rd-obj-lex-rule.
-
 v_nom_kwa_lrt1-suffix :=
 %suffix (* -kua) (* -kwa)
 v_nom_kwa_lrt1-lex-rule.
