@@ -1738,6 +1738,29 @@ locative-pp-phrase := unary-phrase &
                                   VAL.SPR < > ],
                             CONT.HOOK [ INDEX #dtr ] ] ] ] > ].
 
+locative-pp-noun-phrase := unary-phrase &
+[ SYNSEM [ NON-LOCAL #nl,
+           LOCAL.CAT [ HEAD adp & [ MOD < [ LOCAL intersective-mod &
+                                                  [ CAT.HEAD noun,
+                                                    CONT.HOOK.INDEX #xarg ] ] > ],
+                       VAL [ COMPS < >,
+                             SUBJ < >, 
+                             SPR < > ]]],
+  C-CONT [ HOOK [ LTOP #ltop,
+                 INDEX #index,
+                 XARG #xarg ],
+           RELS.LIST < arg12-ev-relation &
+                     [ PRED "_loc_p_rel",
+                       LBL #ltop,
+                       ARG0 #index,
+                       ARG1 #xarg,
+                       ARG2 #dtr ] >,
+           HCONS.LIST < >  ],
+  ARGS < [ SYNSEM [ NON-LOCAL #nl,
+                    LOCAL [ CAT [ HEAD noun & [CASE loc],
+                                  VAL.SPR < > ],
+                            CONT.HOOK [ INDEX #dtr ] ] ] ] > ].
+
 ;;; Wh-question-related phrasal types
 
 ;;;;;;;;;;;;;;;;;;

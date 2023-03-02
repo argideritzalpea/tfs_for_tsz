@@ -33,6 +33,8 @@ bare-np := bare-np-phrase.
 
 locative-pp := locative-pp-phrase.
 
+locative-noun-pp := locative-pp-noun-phrase.
+
 n1-top-coord := n1-top-coord-rule.
 
 n1-bottom-coord := n1-bottom-coord-rule.
