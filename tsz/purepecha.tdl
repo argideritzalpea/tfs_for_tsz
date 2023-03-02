@@ -1771,21 +1771,18 @@ qeq :+
   [ HARG.INSTLOC #il,
     LARG.INSTLOC #il ].
 
-;;; Coordination Strategy 1
+;;; Feature Resolution Rules
 
-n1-top-coord-rule := basic-n-top-coord-rule & apoly-top-coord-rule &
-  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
+pass-up-png-coord-rule := bottom-coord-phrase &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE #case,
+                   CONT.HOOK.INDEX.PNG #png ],
+    NONCONJ-DTR.SYNSEM.LOCAL [ CAT.HEAD.CASE #case,
+                               CONT.HOOK.INDEX.PNG #png ] ].
 
-n1-bottom-coord-rule := conj-first-bottom-coord-rule & n-bottom-coord-phrase &
-  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
-
-;;; Coordination Strategy 1
-
-np1-top-coord-rule := basic-np-top-coord-rule & apoly-top-coord-rule &
-  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
-
-np1-bottom-coord-rule := conj-first-bottom-coord-rule & np-bottom-coord-phrase &
-  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
+same-same-same-case-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE #case,
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ].
 
 ;;; Coordination Strategy 1
 
@@ -1802,3 +1799,21 @@ s1-top-coord-rule := basic-s-top-coord-rule & apoly-top-coord-rule &
 
 s1-bottom-coord-rule := conj-first-bottom-coord-rule & s-bottom-coord-phrase &
   [ SYNSEM.LOCAL.COORD-STRAT "1" ].
+
+;;; Coordination Strategy 2
+
+n2-same-same-same-top-coord-rule := basic-n-top-coord-rule & apoly-top-coord-rule & same-same-same-case-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
+
+n2-bottom-coord-rule := conj-first-bottom-coord-rule & n-bottom-coord-phrase & pass-up-png-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
+
+;;; Coordination Strategy 2
+
+np2-same-same-same-top-coord-rule := basic-np-top-coord-rule & apoly-top-coord-rule & same-same-same-case-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
+
+np2-bottom-coord-rule := conj-first-bottom-coord-rule & np-bottom-coord-phrase & pass-up-png-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "1" ].
+
+
