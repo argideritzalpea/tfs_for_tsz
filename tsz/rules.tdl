@@ -56,3 +56,5 @@ head-adj-scop := head-adj-scop-phrase.
 because-modifying-clause := because-modifying-clause-phrase.
 
 if-or-when-or-while-modifying-clause := if-or-when-or-while-modifying-clause-phrase.
+
+wh-ques := wh-ques-phrase

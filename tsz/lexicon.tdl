@@ -6284,3 +6284,13 @@ iska := comps1-complementizer-lex-item &
 
 iski := comps1-complementizer-lex-item &
   [ STEM < "iski" > ].
+
+;;; wh pronouns
+
+ambe := wh-pronoun-noun-lex &
+  [ STEM < "ambe" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+ne := wh-pronoun-noun-lex &
+  [ STEM < "ne" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].

@@ -1127,6 +1127,7 @@ case-marking-adp-lex := non-local-none-lex-item & raise-sem-lex-item &
                                 [ CASE #case & real-case,
                                   CASE-MARKED - ] ] ] > ].
 
+
 ;;; Adverbs
 
 ;;;;;;;;;;;;;;;;;;;
@@ -1712,6 +1713,14 @@ basic-filler-phrase :+ [ SYNSEM.NON-LOCAL.SLASH.LIST < >,
                       NON-LOCAL.SLASH.LIST < > ] ],
            [ SYNSEM.NON-LOCAL.SLASH.LIST < #slash > ] > ].
 
+1st-head-filler-phrase := basic-filler-phrase & head-compositional &
+  [ SYNSEM.NON-LOCAL [ SLASH.LIST #slash,
+                       REL.LIST < >,
+                       QUE.LIST < > ],
+    ARGS < [ SYNSEM.LOCAL #local &
+                          [ CAT.HEAD +nrpd ] ],
+           [ SYNSEM.NON-LOCAL.SLASH.LIST < #local . #slash > ] > ].
+
 extracted-subj-phrase := basic-extracted-subj-phrase &
   [ SYNSEM.LOCAL.CAT.HEAD verb ].
 
@@ -1762,6 +1771,24 @@ locative-pp-noun-phrase := unary-phrase &
                             CONT.HOOK [ INDEX #dtr ] ] ] ] > ].
 
 ;;; Wh-question-related phrasal types
+
+wh-ques-phrase := basic-head-filler-phrase & interrogative-clause & head-final & 1st-head-filler-phrase &
+  [ NON-HEAD-DTR.SYNSEM [ NON-LOCAL [ QUE.LIST < ref-ind >,
+                                      SLASH.LIST < >,
+                                      REL.LIST < > ],
+                          LOCAL.CONT.HOOK.ICONS-KEY focus ],
+    SYNSEM [ LOCAL.CAT [ WH.BOOL +,
+                         MC bool,
+                         VAL #val,
+                         HEAD verb ],
+             NON-LOCAL.QUE #que &
+                           [ LIST < > ] ],
+    HEAD-DTR.SYNSEM [ LOCAL.CAT [ VAL #val &
+                                      [ SUBJ < >,
+                                        COMPS < > ],
+                                  MC na-or-+ ],
+                      NON-LOCAL [ SLASH.LIST.FIRST [ ],
+                                  QUE #que ] ] ].
 
 ;;;;;;;;;;;;;;;;;;
 ;;; Coordination
@@ -1817,3 +1844,19 @@ np2-bottom-coord-rule := conj-first-bottom-coord-rule & np-bottom-coord-phrase &
   [ SYNSEM.LOCAL.COORD-STRAT "1" ].
 
 
+;;; Wh-pronouns
+
+wh-pronoun-noun-lex := norm-hook-lex-item & basic-icons-lex-item & 
+  [ SYNSEM [ LOCAL [ CAT [ HEAD noun,
+			   VAL [ SPR < >,
+				 SUBJ < >,
+				 COMPS < >,
+				 SPEC < > ] ],
+		     CONT [ RELS <! [ LBL #larg,
+				      ARG0 #ind & ref-ind ],
+				  [ PRED "wh_q_rel",
+				    ARG0 #ind,
+				    RSTR #harg ] !>,
+			    HCONS <! [ HARG #harg,
+				       LARG #larg ] !> ] ],
+	     NON-LOCAL.QUE <! #ind !> ] ].

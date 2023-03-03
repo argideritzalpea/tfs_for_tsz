@@ -1290,7 +1290,7 @@ Source: modified https://cuadernoslinguistica.colmex.mx/index.php/cl/article/vie
 Vetted: s
 Judgement: u
 Phenomena: wh pied piping
-ne jurastiana Pedro jingoni 
-ne jura-x-ti Pegru ne jinkoni 
+ne jurastiana Pedro jingoni
+ne jura-x-ti Pegru ne jinkoni
 who come-AOR.NP-3.IND Pegru COM
 Intended: Who came with Pedro?
