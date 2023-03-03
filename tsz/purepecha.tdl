@@ -1722,8 +1722,10 @@ basic-filler-phrase :+ [ SYNSEM.NON-LOCAL.SLASH.LIST < >,
            [ SYNSEM.NON-LOCAL.SLASH.LIST < #local . #slash > ] > ].
 
 extracted-subj-phrase := basic-extracted-subj-phrase &
-  [ SYNSEM.LOCAL.CAT.HEAD verb ].
-
+  [ SYNSEM.LOCAL.CAT.HEAD verb,
+    HEAD-DTR.SYNSEM [ LOCAL.CAT.VAL.COMPS < >,
+                      L-QUE - ] ].
+                      
 locative-pp-phrase := unary-phrase &
 [ SYNSEM [ NON-LOCAL #nl,
            LOCAL.CAT [ HEAD adp & [ MOD < [ LOCAL intersective-mod &
@@ -1846,7 +1848,7 @@ np2-bottom-coord-rule := conj-first-bottom-coord-rule & np-bottom-coord-phrase &
 
 ;;; Wh-pronouns
 
-wh-pronoun-noun-lex := basic-wh-word-lex & norm-hook-lex-item & basic-icons-lex-item & 
+wh-pronoun-noun-lex := norm-hook-lex-item & basic-icons-lex-item & 
   [ SYNSEM [ LOCAL [ CAT [ HEAD noun,
 			   VAL [ SPR < >,
 				 SUBJ < >,
@@ -1860,3 +1862,5 @@ wh-pronoun-noun-lex := basic-wh-word-lex & norm-hook-lex-item & basic-icons-lex-
 			    HCONS <! [ HARG #harg,
 				       LARG #larg ] !> ] ],
 	     NON-LOCAL.QUE <! #ind !> ] ].
+
+which_noun-noun-lex := wh-pronoun-noun-lex.
