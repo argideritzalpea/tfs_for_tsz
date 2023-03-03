@@ -1264,3 +1264,33 @@ Phenomena: polar question
 o =tsï no mi-te-x-ki
 or =2S.PL no know-FORM-AOR-INTER
 Do you not know?
+
+#126 lab9
+Source: modified https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
+Vetted: s
+Judgement: g
+Phenomena: wh pied piping
+Ne jingoni jurastiana Pedro
+Ne jinkoni jura-x-ti Pegru
+who COM come-AOR.NP-3.IND Pegru
+Who came with Pedro?
+
+#127 lab9
+Source: modified https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
+Vetted: s
+Judgement: u
+Phenomena: wh pied piping
+jurastiana Pedro ne jingoni 
+jura-x-ti Pegru ne jinkoni 
+come-AOR.NP-3.IND Pegru who COM
+Intended: Who came with Pedro?
+
+#128 lab9
+Source: modified https://cuadernoslinguistica.colmex.mx/index.php/cl/article/view/5/5
+Vetted: s
+Judgement: u
+Phenomena: wh pied piping
+ne jurastiana Pedro jingoni 
+ne jura-x-ti Pegru ne jinkoni 
+who come-AOR.NP-3.IND Pegru COM
+Intended: Who came with Pedro?
