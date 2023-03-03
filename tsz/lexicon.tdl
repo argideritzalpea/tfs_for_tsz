@@ -3647,9 +3647,9 @@ kama_1 := verb21-verb-lex &
   [ STEM < "kama" >,
     SYNSEM.LKEYS.KEYREL.PRED "_have_v_rel" ].
 
-t_27ire_1 := verb21-verb-lex &
-  [ STEM < "t'ire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+;t_27ire_1 := verb21-verb-lex &
+;  [ STEM < "t'ire" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 tsipi_2 := verb21-verb-lex &
   [ STEM < "tsipi" >,
@@ -4255,9 +4255,9 @@ sïruki_2 := verb31-verb-lex &
   [ STEM < "sïruki" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ant_v_rel" ].
 
-t_27ire_2 := verb31-verb-lex &
-  [ STEM < "t'ire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+;t_27ire_2 := verb31-verb-lex &
+;  [ STEM < "t'ire" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 t_27upuri_2 := verb31-verb-lex &
   [ STEM < "t'upuri" >,
@@ -4643,9 +4643,9 @@ tsurumu_2 := verb257-verb-lex &
   [ STEM < "tsurumu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thorn_v_rel" ].
 
-t_27ire_3 := verb257-verb-lex &
-  [ STEM < "t'ire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+;t_27ire_3 := verb257-verb-lex &
+;  [ STEM < "t'ire" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 uanta_6 := verb257-verb-lex &
   [ STEM < "uanta" >,
@@ -5023,9 +5023,9 @@ sïruki_3 := verb304-verb-lex &
   [ STEM < "sïruki" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ant_v_rel" ].
 
-t_27ire_4 := verb304-verb-lex &
-  [ STEM < "t'ire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+;t_27ire_4 := verb304-verb-lex &
+;  [ STEM < "t'ire" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 t_27upuri_3 := verb304-verb-lex &
   [ STEM < "t'upuri" >,
@@ -5943,9 +5943,9 @@ tsurumu_3 := verb620-verb-lex &
   [ STEM < "tsurumu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thorn_v_rel" ].
 
-t_27ire_5 := verb620-verb-lex &
-  [ STEM < "t'ire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+;t_27ire_5 := verb620-verb-lex &
+;  [ STEM < "t'ire" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 uanta_9 := verb620-verb-lex &
   [ STEM < "uanta" >,
