@@ -1,0 +1,52 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+basic-head-opt-comp := basic-head-opt-comp-phrase.
+
+head-comp := head-comp-phrase.
+
+subj-head := subj-head-phrase.
+
+head-spec := head-spec-phrase.
+
+head-spec-poss := poss-head-spec-phrase.
+
+bare-np := bare-np-phrase.
+
+n1-top-coord := n1-top-coord-rule.
+
+n1-bottom-coord := n1-bottom-coord-rule.
+
+np1-top-coord := np1-top-coord-rule.
+
+np1-bottom-coord := np1-bottom-coord-rule.
+
+vp1-top-coord := vp1-top-coord-rule.
+
+vp1-bottom-coord := vp1-bottom-coord-rule.
+
+s1-top-coord := s1-top-coord-rule.
+
+s1-bottom-coord := s1-bottom-coord-rule.
+
+int := int-cl.
+
+head-adj-int := head-adj-int-phrase.
+
+adj-head-int := adj-head-int-phrase.
+
+;;; Argument extraction and head-filler rules.
+
+mc-wh-ques := mc-wh-ques-phrase.
+ec-wh-ques := ec-wh-ques-phrase.
+wh-subj := mc-wh-subj-phrase.
+extr-comp := extracted-comp-phrase.
+extr-subj := extracted-subj-phrase.
+
+;; possessives
+
+;poss := poss-phrase.
+
+;;; for clausal modifiers
+
+head-adj-scop := head-adj-scop-phrase.
+
+adj-head-scop := adj-head-scop-phrase.

@@ -1,0 +1,441 @@
+;;; Hey, emacs(1), this is -*- Mode: TDL; Coding: iso-8859-1; -*- got it?
+
+; ERB 2007-06-29: We are reusing the same mtrs over and over again
+; in the mmt grammars.  For maintainability, define them here, and
+; have particular grammars simply instantiate them.
+
+
+; Pro-drop -> overt pronouns
+
+pro-insert-arg1-mtr := monotonic_mtr &
+[ INPUT.RELS < >,
+  CONTEXT.RELS < [ ARG0.SF prop-or-ques,
+		   ARG1 #x & x ] >,
+  FILTER.RELS < [ ARG0 #x ] >,
+  OUTPUT [ RELS < [ PRED "pron_rel",
+		    ARG0 #x,
+		    LBL #larg ],
+		  [ PRED "exist_q_rel",
+		    ARG0 #x,
+		    RSTR #harg ] >,
+	HCONS < qeq &
+		[ HARG #harg,
+		  LARG #larg ] > ],
+  FLAGS.EQUAL < #x > ].
+
+pro-insert-arg2-mtr := monotonic_mtr &
+[ INPUT.RELS < >,
+  CONTEXT.RELS < [ ARG0.SF prop-or-ques,
+		   ARG2 #x & [ COG-ST fam-or-more ]] >,
+  FILTER.RELS < [ ARG0 #x ] >,
+  OUTPUT [ RELS < [ PRED "pron_rel",
+		    ARG0 #x,
+		    LBL #larg ],
+		  [ PRED "exist_q_rel",
+		    ARG0 #x,
+		    RSTR #harg ] >,
+	HCONS < qeq &
+		[ HARG #harg,
+		  LARG #larg ] > ],
+  FLAGS.EQUAL < #x > ].
+
+pro-insert-arg3-mtr := monotonic_mtr &
+[ INPUT.RELS < >,
+  CONTEXT.RELS < [ ARG0.SF prop-or-ques,
+		   ARG3 #x & [ COG-ST fam-or-more ]] >,
+  FILTER.RELS < [ ARG0 #x ] >,
+  OUTPUT [ RELS < [ PRED "pron_rel",
+		    ARG0 #x,
+		    LBL #larg ],
+		  [ PRED "exist_q_rel",
+		    ARG0 #x,
+		    RSTR #harg ] >,
+	HCONS < qeq &
+		[ HARG #harg,
+		  LARG #larg ] > ],
+  FLAGS.EQUAL < #x > ].
+
+
+; overt pronouns -> pro-drop
+
+pronoun-delete-mtr := monotonic_omtr &
+ [ INPUT [ RELS < [ PRED "pron_rel",
+		     ARG0 #x,
+		     LBL #larg ],
+		 [ PRED "exist_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] >,
+	   HCONS < qeq & [ LARG #larg,
+			    HARG #harg ] > ],
+   OUTPUT [ RELS < >,
+	    HCONS < > ]].
+
+
+; MWEs
+
+make-harm-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_make_v_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1,
+		   ARG2 #arg2,
+		   ARG3 #arg3 ],
+		 [ PRED "_harm_n_rel",
+		   ARG0 #arg2,
+		   LBL #larg ],
+		 [ PRED "exist_q_rel",
+		   ARG0 #arg2 ]>,
+	  HCONS < [ LARG #larg ] > ],
+  OUTPUT [ RELS < [ PRED "_hurt_v_rel",
+		    LBL #lbl,
+		    ARG0 #arg0,
+		    ARG1 #arg1,
+		    ARG2 #arg3 ] >,
+	   HCONS < > ]].
+
+
+hurt-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_hurt_v_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1,
+		   ARG2 #arg2 ] >,
+	  HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_make_v_rel",
+		    LBL #lbl,
+		    ARG0 #arg0,
+		    ARG1 #arg1,
+		    ARG2 #pursuit,
+		    ARG3 #arg2 ],
+		  [ PRED "_harm_n_rel",
+		    LBL #larg,
+		    ARG0 #pursuit ],
+		  [ PRED "exist_q_rel",
+		    ARG0 #pursuit,
+		    RSTR #harg ] >,
+	   HCONS < [ HARG #harg,
+		     LARG #larg ] > ]].
+
+
+make-pursuit-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_make_v_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1,
+		   ARG2 #arg2,
+		   ARG3 #arg3 ],
+		 [ PRED "_pursuit_n_rel",
+		   ARG0 #arg2,
+		   LBL #larg ],
+		 [ PRED "exist_q_rel",
+		   ARG0 #arg2 ]>,
+	  HCONS < [ LARG #larg ] > ],
+  OUTPUT [ RELS < [ PRED "_chase_v_rel",
+		    LBL #lbl,
+		    ARG0 #arg0,
+		    ARG1 #arg1,
+		    ARG2 #arg3 ] >,
+	   HCONS < > ]].
+
+
+chase-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_chase_v_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1,
+		   ARG2 #arg2 ] >,
+	  HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_make_v_rel",
+		    LBL #lbl,
+		    ARG0 #arg0,
+		    ARG1 #arg1,
+		    ARG2 #pursuit,
+		    ARG3 #arg2 ],
+		  [ PRED "_pursuit_n_rel",
+		    LBL #larg,
+		    ARG0 #pursuit ],
+		  [ PRED "exist_q_rel",
+		    ARG0 #pursuit,
+		    RSTR #harg ] >,
+	   HCONS < [ HARG #harg,
+		     LARG #larg ] > ]].
+
+eat-food-mtr := monotonic_mtr &
+[ CONTEXT [ RELS < [ PRED "_eat_v_rel",
+		     ARG2 #arg2 ] > ],
+  INPUT [ RELS < [ PRED "_food_n_rel",
+		   LBL #larg,
+		   ARG0 #arg2 & [ COG-ST type-id ] ],
+		 [ PRED "exist_q_rel",
+		   ARG0 #arg2,
+		   RSTR #harg ] >,
+	  HCONS < [ HARG #harg,
+		    LARG #larg ] > ],
+  OUTPUT [ RELS < >,
+	   HCONS < > ],
+  FLAGS [ EQUAL < #arg2 > ]].
+
+eat-ini-mtr := monotonic_mtr &
+[ CONTEXT [ RELS < [ PRED "_eat_v_rel",
+		     ARG2 #arg2 ] > ],
+  FILTER [ RELS < [ ARG0 #arg2 ] > ],
+  INPUT [ RELS < >,
+	  HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_food_n_rel",
+		    LBL #larg,
+		    ARG0 #arg2 & [ COG-ST type-id,
+				   NUM sg] ],
+		  [ PRED "exist_q_rel",
+		    ARG0 #arg2,
+		    RSTR #harg ] >,
+	   HCONS < [ HARG #harg,
+		     LARG #larg ] > ],
+  FLAGS [ EQUAL < #arg2 > ]].
+
+make-thought-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_make_v_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1,
+		   ARG2 #arg2,
+		   ARG3 #arg3 ],
+		 [ PRED "_thought_n_rel",
+		   ARG0 #arg2,
+		   LBL #larg ],
+		 [ PRED "exist_q_rel",
+		   ARG0 #arg2 ]>,
+	  HCONS < [ LARG #larg ] > ],
+  OUTPUT [ RELS < [ PRED "_think_v_rel",
+		    LBL #lbl,
+		    ARG0 #arg0,
+		    ARG1 #arg1,
+		    ARG2 #arg3 ] >,
+	   HCONS < > ]].
+
+
+think-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_think_v_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1,
+		   ARG2 #arg2 ] >,
+	  HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_make_v_rel",
+		    LBL #lbl,
+		    ARG0 #arg0,
+		    ARG1 #arg1,
+		    ARG2 #thought,
+		    ARG3 #arg2 ],
+		  [ PRED "_thought_n_rel",
+		    LBL #larg,
+		    ARG0 #thought ],
+		  [ PRED "exist_q_rel",
+		    ARG0 #thought,
+		    RSTR #harg ] >,
+	   HCONS < [ HARG #harg,
+		     LARG #larg ] > ]].
+
+dem-insert-arg1-mtr := monotonic_mtr &
+[  INPUT.RELS < >,
+   CONTEXT [ RELS < [ PRED "~_n_",
+                       LBL #larg,
+                       ARG0 #x & x] > ],
+  FILTER.RELS < [ PRED demonstrative_a_rel,
+                   ARG0 e,
+                   ARG1 #x,
+                   LBL #larg ] >,
+  OUTPUT.RELS < [ PRED proximal+dem_a_rel,
+		     LBL #larg,
+                     ARG0 e,
+                     ARG1 #x ] >,
+  FLAGS.EQUAL < #x > ].
+
+;; New rules from 2014
+
+pro-set-cogst-arg2-mtr := monotonic_mtr &
+[ INPUT.RELS < 
+	      [ PRED "_eat_v_rel",
+		LBL #lbl,
+		ARG0 #arg0,
+		ARG1 #arg1,
+		ARG2 #x ]     >,
+  CONTEXT.RELS < [ ARG0.SF prop-or-ques,
+		   ARG2 [ COG-ST type-id ]] >,
+  FILTER.RELS < [ ARG0 #x ] >,
+  OUTPUT [ RELS < 
+		 [ PRED "_eat_v_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1,
+		   ARG2 #x & [ COG-ST activ-or-more ] ] > ],
+  FLAGS.EQUAL < #x > ].
+
+chase-run-behind-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_chase_v_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #pursuer,
+		   ARG2 #pursued ] >,
+	  HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_run_v_rel",
+		    LBL #lbl,
+		    ARG0 #arg0,
+		    ARG1 #pursuer ],
+		  [ PRED "_behind_p_rel",
+		    LBL #lbl,
+		    ARG1 #arg0,
+		    ARG2 #pursued ] >,
+	   HCONS < > ]].
+
+
+; From dtt
+
+hungry-have-hunger-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_hungry_a_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1 ] >,
+	  HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_have_v_rel",
+		    LBL #lbl,
+		    ARG0 #arg0,
+		    ARG1 #arg1,
+		    ARG2 #hunger],
+		  [ PRED "_hunger_n_rel",
+		    LBL #larg,
+		    ARG0 #hunger ],
+		  [ PRED "exist_q_rel",
+		    ARG0 #hunger,
+		    RSTR #harg ] >,
+	   HCONS < [ HARG #harg,
+		     LARG #larg ] > ]].
+
+; inverse
+
+have-hunger-hungry-mtr := monotonic_mtr &
+[ OUTPUT [ RELS < [ PRED "_hungry_a_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1 ] >,
+	  HCONS < > ],
+  INPUT [ RELS < [ PRED "_have_v_rel",
+		    LBL #lbl,
+		    ARG0 #arg0,
+		    ARG1 #arg1,
+		    ARG2 #hunger],
+		  [ PRED "_hunger_n_rel",
+		    LBL #larg,
+		    ARG0 #hunger ],
+		  [ PRED "exist_q_rel",
+		    ARG0 #hunger,
+		    RSTR #harg ] >,
+	   HCONS < [ HARG #harg,
+		     LARG #larg ] > ]].
+
+
+in-to-be-located := monotonic_mtr & 
+[ INPUT [ RELS < [ PRED "_in_p_rel",
+  LBL #lbl,
+  ARG0 #arg0,
+  ARG1 #arg1,
+  ARG2 #arg2 ] >,
+      HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_be_located_v_rel",
+   LBL #lbl,
+   ARG0 #arg0,
+   ARG1 #arg1,
+   ARG2 #arg2 ] > ]].
+
+be-located-mtr := monotonic_mtr & 
+[ INPUT [ RELS < [ PRED "_be_located_v_rel",
+  LBL #lbl,
+  ARG0 #arg0,
+  ARG1 #arg1,
+  ARG2 #arg2 ] >,
+      HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_in_p_rel",
+   LBL #lbl,
+   ARG0 #arg0,
+   ARG1 #arg1,
+   ARG2 #arg2 ] > ]].
+
+
+;; from ckt/lit/yak ; sje
+
+
+in-loc-mtr := monotonic_mtr &
+[ INPUT [ RELS < [PRED "_in_p_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1,
+		   ARG2 #arg2 ] >,
+	  HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_loc_p_rel",
+		     LBL #lbl,
+                     ARG0 #arg0,
+		     ARG1 #arg1,
+		     ARG2 #arg2 ] > ]].
+
+loc-in-mtr := monotonic_mtr &
+[ OUTPUT [ RELS < [PRED "_in_p_rel",
+		   LBL #lbl,
+		   ARG0 #arg0,
+		   ARG1 #arg1,
+		   ARG2 #arg2 ] >,
+	  HCONS < > ],
+  INPUT [ RELS < [ PRED "_loc_p_rel",
+		     LBL #lbl,
+                     ARG0 #arg0,
+		     ARG1 #arg1,
+		     ARG2 #arg2 ] > ]].
+
+;; From lit
+
+wh-person-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_person_n_rel",
+		   LBL #lbl,
+		   ARG0 #arg0 ] > ],
+  OUTPUT [ RELS < [ PRED "_person+thing_n_rel",
+		    LBL #lbl,
+		    ARG0 #arg0 ] > ] ].
+
+wh-thing-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_thing_n_rel",
+		   LBL #lbl,
+		   ARG0 #arg0 ] > ],
+  OUTPUT [ RELS < [ PRED "_person+thing_n_rel",
+		    LBL #lbl,
+		    ARG0 #arg0 ] > ] ].
+
+;; inverse:
+
+person-wh-mtr := monotonic_omtr &
+[ OUTPUT [ RELS < [ PRED "_person_n_rel",
+		   LBL #lbl,
+		   ARG0 #arg0 ] > ],
+  INPUT [ RELS < [ PRED "_person+thing_n_rel",
+		    LBL #lbl,
+		    ARG0 #arg0 ] > ] ].
+
+thing-wh-mtr := monotonic_omtr &
+[ OUTPUT [ RELS < [ PRED "_thing_n_rel",
+		   LBL #lbl,
+		   ARG0 #arg0 ] > ],
+  INPUT [ RELS < [ PRED "_person+thing_n_rel",
+		    LBL #lbl,
+		    ARG0 #arg0 ] > ] ].
+
+
+
+
+;; From sje
+
+eat-mtr := monotonic_mtr &
+[ INPUT [ RELS < [ PRED "_eat_v_rel",
+		    ARG0 #arg0,
+		    ARG1 #arg1,
+		    ARG2 #arg2  ] >  ],
+  FILTER [ RELS < [ ARG0 #arg2  ] > ],
+  OUTPUT [ RELS < [ PRED "_eat_v_rel",
+		     ARG0 #arg0,
+		     ARG1 #arg1 ] > ] ].

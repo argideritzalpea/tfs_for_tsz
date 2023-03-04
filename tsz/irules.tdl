@@ -6,11 +6,11 @@ case_acc-suffix :=
 case_acc-lex-rule.
 
 case_gen-suffix :=
-%suffix (* -eri) (* -iri)
+%suffix (* -iri) (* -eri) 
 case_gen-lex-rule.
 
 case_loc-suffix :=
-%suffix (* -rhu) (* -o)
+%suffix (* -o) (* -rhu)
 case_loc-lex-rule.
 
 case_com-suffix :=
@@ -25,13 +25,13 @@ noun-plural-suffix-suffix :=
 %suffix (* -echa)
 noun-plural-suffix-lex-rule.
 
-kinship-possessum-2per-possessor-suffix :=
-%suffix (* -ti)
-kinship-possessum-2per-possessor-lex-rule.
-
-kinship-possessum-3per-possessor-suffix :=
-%suffix (* -mpa)
-kinship-possessum-3per-possessor-lex-rule.
+; kinship-possessum-2per-possessor-suffix :=
+; %suffix (* -ti)
+; kinship-possessum-2per-possessor-lex-rule.
+; 
+; kinship-possessum-3per-possessor-suffix :=
+; %suffix (* -mpa)
+; kinship-possessum-3per-possessor-lex-rule.
 
 v-stem-bipart+ka-suffix :=
 %suffix (* -ka)
@@ -42,23 +42,23 @@ v-3pl-obj-suffix-suffix :=
 v-3pl-obj-suffix-lex-rule.
 
 tam1-aorist-mc-suffix :=
-%suffix (* -x) (* -ʃ) (* -s) (* -sï)
+%suffix (* -ʃ) (* -s) (* -sï) (* -x)
 tam1-aorist-mc-lex-rule.
 
 tam1-habitual-form_xin-suffix :=
-%suffix (* -xïn) (* -ʃïn) (* -sïn)
+%suffix (* -ʃïn) (* -sïn) (* -xïn)
 tam1-habitual-form_xin-lex-rule.
 
 tam1-habitual-past-form_xiren-suffix :=
-%suffix (* -xïren) (* -ʃïren) (* -sïren) (* -sïram)
+%suffix (* -ʃïren) (* -sïren) (* -sïram) (* -xïren)
 tam1-habitual-past-form_xiren-lex-rule.
 
 tam1-progressive-mc-suffix :=
-%suffix (* -xa) (* -ʃa)
+%suffix (* -ʃa) (* -xa)
 tam1-progressive-mc-lex-rule.
 
 tam1-continuative-mc-suffix :=
-%suffix (* -xam) (* -ʃam)
+%suffix (* -ʃam) (* -xam)
 tam1-continuative-mc-lex-rule.
 
 tam2-aor-or-prog-past-mc-suffix :=
@@ -125,30 +125,6 @@ tam3-nonfin-suffix :=
 %suffix (* -ni)
 tam3-nonfin-lex-rule.
 
-voice1-reflexive-middle-suffix :=
-%suffix (* -kuri) (* -kuarhe) (* -kurha) (* -kuɽa)
-voice1-reflexive-middle-lex-rule.
-
-voice1-reciprocal-suffix :=
-%suffix (* -p'era) (* -pʰera)
-voice1-reciprocal-lex-rule.
-
-voice1-passive-suffix :=
-%suffix (* -na) (* -nha) (* -nhka) (* -ŋka)
-voice1-passive-lex-rule.
-
-voice1-antipassive-suffix :=
-%suffix (* -pʰe) (* -p'e)
-voice1-antipassive-lex-rule.
-
-voice1-appl-3rd-obj-suffix :=
-%suffix (* -ku)
-voice1-appl-3rd-obj-lex-rule.
-
-voice1-appl-non3rd-obj-suffix :=
-%suffix (* -chi)
-voice1-appl-non3rd-obj-lex-rule.
-
-v_nom_kwa_lrt1-suffix :=
-%suffix (* -kua) (* -kwa)
-v_nom_kwa_lrt1-lex-rule.
+; v_nom_kwa_lrt1-suffix :=
+; %suffix (* -kwa) (* -kua)
+; v_nom_kwa_lrt1-lex-rule.

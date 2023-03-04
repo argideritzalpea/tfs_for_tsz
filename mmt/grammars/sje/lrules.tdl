@@ -1,0 +1,12 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;nom-sg-Ib-lex := nom-sg-Ib-lex-rule.
+
+;nom-pl-Ib-lex := nom-pl-Ib-lex-rule.
+
+;nom-sg-Ie-lex := nom-sg-Ie-lex-rule.
+
+;nom-pl-Ie-lex := nom-pl-Ie-lex-rule.
+
+adj_sg-lex := adj_sg-lex-rule.
+
+adj_attr-lex := adj_attr-lex-rule.

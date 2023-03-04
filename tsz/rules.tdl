@@ -33,13 +33,11 @@ bare-np := bare-np-phrase.
 
 locative-pp := locative-pp-phrase.
 
-n1-top-coord := n1-top-coord-rule.
+locative-noun-pp := locative-pp-noun-phrase.
 
-n1-bottom-coord := n1-bottom-coord-rule.
+n2-same-same-same-top-coord := n2-same-same-same-top-coord-rule.
 
-np1-top-coord := np1-top-coord-rule.
-
-np1-bottom-coord := np1-bottom-coord-rule.
+n2-bottom-coord := n2-bottom-coord-rule.
 
 vp1-top-coord := vp1-top-coord-rule.
 
@@ -58,3 +56,7 @@ head-adj-scop := head-adj-scop-phrase.
 because-modifying-clause := because-modifying-clause-phrase.
 
 if-or-when-or-while-modifying-clause := if-or-when-or-while-modifying-clause-phrase.
+
+ex-subj := extracted-subj-phrase.
+
+wh-ques := wh-ques-phrase.

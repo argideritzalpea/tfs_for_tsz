@@ -1,0 +1,110 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+; A basic VPM for Matrix grammars.
+event          <> e
+ref-ind        <> x
+individual     <> i
+handle         <> h
+non_event      <> p
+*              >> u
+semarg         << u
+
+SPECI : SPECI
+  * <> *
+
+SF : SF
+  prop <> prop
+  ques <> ques
+  prop-or-ques >> prop-or-ques
+  prop << prop-or-ques
+  comm <> comm
+  * <> *
+
+COG-ST : COG-ST
+  type-id <> type-id
+  uniq-id <> uniq-id
+  familiar <> familiar
+  activated <> activated
+  in-foc <> in-foc
+  activ+fam <> activ+fam
+  uniq+fam <> uniq+fam
+  activ-or-more <> activ-or-more
+  uniq-or-less <> uniq-or-less
+  uniq+fam+act <> uniq+fam+act
+  fam-or-more <> fam-or-more
+  fam-or-less <> fam-or-less
+  uniq-or-more <> uniq-or-more
+  activ-or-less <> activ-or-less
+  * <> *
+
+
+PNG.PER : PNG.PER
+  3rd <> third
+  2nd <> second
+  1st <> first
+  * <> *
+
+PNG.NUM : PNG.NUM
+  sg <> sg
+;  pl >> non-sg
+  pl <> pl
+  pl << du
+  pl << non-sg
+  * <> *
+
+PNG.GEND : PNG.GEND
+  * <> *
+
+E.TENSE : TENSE
+  past <> past
+  nonpast <> nonpast
+  tense+ <> tense+
+  tense- <> tense-
+  nonpast << present
+  tense+ << non-future
+  tense- << future
+  nonpast << [e]
+
+E.ASPECT : ASPECT
+  aor <> aor
+  hab <> hab
+  prog <> prog
+  cont <> cont
+  asp+ <> asp+
+  asp- <> asp-
+  iter <> iter
+  aor << aspect
+  * <> *
+
+E.MOOD : MOOD
+  mood+_irr+ <> mood+_irr+
+  imp <> imp
+  excl <> excl
+  imp+excl <> imp+excl
+  mood+_irr- <> mood+_irr-
+  ind_deon <> ind_deon
+  ind_epis <> ind_epis
+  ind_irr- <> ind_irr-
+  ind <> ind
+  int_deon <> int_deon
+  int_epis <> int_epis
+  int_irr- <> int_irr-
+  int <> int
+  ind+int <> ind+int
+  mood+ <> mood+
+  mood- <> mood-
+  mood+_irr+ <> mood+_irr+
+  ind_deon <> ind_deon
+  int_deon <> int_deon
+  deon <> deon
+  ind_epis <> ind_epis
+  int_epis <> int_epis
+  epis <> epis
+  irr+ <> irr+
+  imp <> imp
+  excl <> excl
+  imp+excl <> imp+excl
+  mood+_irr- <> mood+_irr-
+  ind_irr- <> ind_irr-
+  int_irr- <> int_irr-
+  irr- <> irr-
+  * <> *

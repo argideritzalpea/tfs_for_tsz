@@ -1,0 +1,388 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+adj-head-int := adj-head-int-no-comp-phrase.
+
+head-adj-int := head-adj-int-no-comp-phrase.
+
+head-comp := head-comp-phrase.
+
+head-subj := head-subj-phrase.
+
+comp-head := comp-head-phrase.
+
+subj-head := subj-head-phrase.
+
+head-comp-2 := head-comp-phrase-2.
+
+comp-head-2 := comp-head-phrase-2.
+
+head-spec := head-spec-phrase.
+
+loc-pp := locative-pp-phrase.
+
+poss := poss-phrase.
+
+bare-np := bare-np-phrase.
+
+wh-ques := wh-ques-phrase.
+
+extract-comp := extracted-comp-phrase.
+
+extract-subj := extracted-subj-phrase.
+
+vp1-top-coord := vp1-top-coord-rule.
+
+vp1-mid-coord := vp1-mid-coord-rule.
+
+vp1-bottom-coord := vp1-bottom-coord-rule.
+
+s-top-coord := s-top-coord-rule.
+
+s-mid-coord := s-mid-coord-rule.
+
+s-bottom-coord := s-bottom-coord-rule.
+
+n2-any-1st-1st-any-pl-pl-top-coord := n2-any-1st-1st-any-pl-pl-top-coord-rule.
+
+n2-any-1st-1st-any-pl-pl-mid-coord := n2-any-1st-1st-any-pl-pl-mid-coord-rule.
+
+n2-any-1st-1st-any-du-pl-top-coord := n2-any-1st-1st-any-du-pl-top-coord-rule.
+
+n2-any-1st-1st-any-du-pl-mid-coord := n2-any-1st-1st-any-du-pl-mid-coord-rule.
+
+n2-any-1st-1st-sg-sg-du-top-coord := n2-any-1st-1st-sg-sg-du-top-coord-rule.
+
+n2-any-1st-1st-sg-sg-du-mid-coord := n2-any-1st-1st-sg-sg-du-mid-coord-rule.
+
+n2-any-1st-1st-pl-any-pl-top-coord := n2-any-1st-1st-pl-any-pl-top-coord-rule.
+
+n2-any-1st-1st-pl-any-pl-mid-coord := n2-any-1st-1st-pl-any-pl-mid-coord-rule.
+
+n2-any-1st-1st-du-any-pl-top-coord := n2-any-1st-1st-du-any-pl-top-coord-rule.
+
+n2-any-1st-1st-du-any-pl-mid-coord := n2-any-1st-1st-du-any-pl-mid-coord-rule.
+
+n2-any-1st-1st-sg-non-sg-pl-top-coord := n2-any-1st-1st-sg-non-sg-pl-top-coord-rule.
+
+n2-any-1st-1st-sg-non-sg-pl-mid-coord := n2-any-1st-1st-sg-non-sg-pl-mid-coord-rule.
+
+n2-any-1st-1st-non-sg-sg-pl-top-coord := n2-any-1st-1st-non-sg-sg-pl-top-coord-rule.
+
+n2-any-1st-1st-non-sg-sg-pl-mid-coord := n2-any-1st-1st-non-sg-sg-pl-mid-coord-rule.
+
+n2-2nd-2nd-2nd-any-pl-pl-top-coord := n2-2nd-2nd-2nd-any-pl-pl-top-coord-rule.
+
+n2-2nd-2nd-2nd-any-pl-pl-mid-coord := n2-2nd-2nd-2nd-any-pl-pl-mid-coord-rule.
+
+n2-2nd-2nd-2nd-any-du-pl-top-coord := n2-2nd-2nd-2nd-any-du-pl-top-coord-rule.
+
+n2-2nd-2nd-2nd-any-du-pl-mid-coord := n2-2nd-2nd-2nd-any-du-pl-mid-coord-rule.
+
+n2-2nd-2nd-2nd-sg-sg-du-top-coord := n2-2nd-2nd-2nd-sg-sg-du-top-coord-rule.
+
+n2-2nd-2nd-2nd-sg-sg-du-mid-coord := n2-2nd-2nd-2nd-sg-sg-du-mid-coord-rule.
+
+n2-2nd-2nd-2nd-pl-any-pl-top-coord := n2-2nd-2nd-2nd-pl-any-pl-top-coord-rule.
+
+n2-2nd-2nd-2nd-pl-any-pl-mid-coord := n2-2nd-2nd-2nd-pl-any-pl-mid-coord-rule.
+
+n2-2nd-2nd-2nd-du-any-pl-top-coord := n2-2nd-2nd-2nd-du-any-pl-top-coord-rule.
+
+n2-2nd-2nd-2nd-du-any-pl-mid-coord := n2-2nd-2nd-2nd-du-any-pl-mid-coord-rule.
+
+n2-2nd-2nd-2nd-sg-non-sg-pl-top-coord := n2-2nd-2nd-2nd-sg-non-sg-pl-top-coord-rule.
+
+n2-2nd-2nd-2nd-sg-non-sg-pl-mid-coord := n2-2nd-2nd-2nd-sg-non-sg-pl-mid-coord-rule.
+
+n2-2nd-2nd-2nd-non-sg-sg-pl-top-coord := n2-2nd-2nd-2nd-non-sg-sg-pl-top-coord-rule.
+
+n2-2nd-2nd-2nd-non-sg-sg-pl-mid-coord := n2-2nd-2nd-2nd-non-sg-sg-pl-mid-coord-rule.
+
+n2-3rd-2nd-2nd-any-pl-pl-top-coord := n2-3rd-2nd-2nd-any-pl-pl-top-coord-rule.
+
+n2-3rd-2nd-2nd-any-pl-pl-mid-coord := n2-3rd-2nd-2nd-any-pl-pl-mid-coord-rule.
+
+n2-3rd-2nd-2nd-any-du-pl-top-coord := n2-3rd-2nd-2nd-any-du-pl-top-coord-rule.
+
+n2-3rd-2nd-2nd-any-du-pl-mid-coord := n2-3rd-2nd-2nd-any-du-pl-mid-coord-rule.
+
+n2-3rd-2nd-2nd-sg-sg-du-top-coord := n2-3rd-2nd-2nd-sg-sg-du-top-coord-rule.
+
+n2-3rd-2nd-2nd-sg-sg-du-mid-coord := n2-3rd-2nd-2nd-sg-sg-du-mid-coord-rule.
+
+n2-3rd-2nd-2nd-pl-any-pl-top-coord := n2-3rd-2nd-2nd-pl-any-pl-top-coord-rule.
+
+n2-3rd-2nd-2nd-pl-any-pl-mid-coord := n2-3rd-2nd-2nd-pl-any-pl-mid-coord-rule.
+
+n2-3rd-2nd-2nd-du-any-pl-top-coord := n2-3rd-2nd-2nd-du-any-pl-top-coord-rule.
+
+n2-3rd-2nd-2nd-du-any-pl-mid-coord := n2-3rd-2nd-2nd-du-any-pl-mid-coord-rule.
+
+n2-3rd-2nd-2nd-sg-non-sg-pl-top-coord := n2-3rd-2nd-2nd-sg-non-sg-pl-top-coord-rule.
+
+n2-3rd-2nd-2nd-sg-non-sg-pl-mid-coord := n2-3rd-2nd-2nd-sg-non-sg-pl-mid-coord-rule.
+
+n2-3rd-2nd-2nd-non-sg-sg-pl-top-coord := n2-3rd-2nd-2nd-non-sg-sg-pl-top-coord-rule.
+
+n2-3rd-2nd-2nd-non-sg-sg-pl-mid-coord := n2-3rd-2nd-2nd-non-sg-sg-pl-mid-coord-rule.
+
+n2-3rd-3rd-3rd-any-pl-pl-top-coord := n2-3rd-3rd-3rd-any-pl-pl-top-coord-rule.
+
+n2-3rd-3rd-3rd-any-pl-pl-mid-coord := n2-3rd-3rd-3rd-any-pl-pl-mid-coord-rule.
+
+n2-3rd-3rd-3rd-any-du-pl-top-coord := n2-3rd-3rd-3rd-any-du-pl-top-coord-rule.
+
+n2-3rd-3rd-3rd-any-du-pl-mid-coord := n2-3rd-3rd-3rd-any-du-pl-mid-coord-rule.
+
+n2-3rd-3rd-3rd-sg-sg-du-top-coord := n2-3rd-3rd-3rd-sg-sg-du-top-coord-rule.
+
+n2-3rd-3rd-3rd-sg-sg-du-mid-coord := n2-3rd-3rd-3rd-sg-sg-du-mid-coord-rule.
+
+n2-3rd-3rd-3rd-pl-any-pl-top-coord := n2-3rd-3rd-3rd-pl-any-pl-top-coord-rule.
+
+n2-3rd-3rd-3rd-pl-any-pl-mid-coord := n2-3rd-3rd-3rd-pl-any-pl-mid-coord-rule.
+
+n2-3rd-3rd-3rd-du-any-pl-top-coord := n2-3rd-3rd-3rd-du-any-pl-top-coord-rule.
+
+n2-3rd-3rd-3rd-du-any-pl-mid-coord := n2-3rd-3rd-3rd-du-any-pl-mid-coord-rule.
+
+n2-3rd-3rd-3rd-sg-non-sg-pl-top-coord := n2-3rd-3rd-3rd-sg-non-sg-pl-top-coord-rule.
+
+n2-3rd-3rd-3rd-sg-non-sg-pl-mid-coord := n2-3rd-3rd-3rd-sg-non-sg-pl-mid-coord-rule.
+
+n2-3rd-3rd-3rd-non-sg-sg-pl-top-coord := n2-3rd-3rd-3rd-non-sg-sg-pl-top-coord-rule.
+
+n2-3rd-3rd-3rd-non-sg-sg-pl-mid-coord := n2-3rd-3rd-3rd-non-sg-sg-pl-mid-coord-rule.
+
+n2-1st-any-1st-any-pl-pl-top-coord := n2-1st-any-1st-any-pl-pl-top-coord-rule.
+
+n2-1st-any-1st-any-pl-pl-mid-coord := n2-1st-any-1st-any-pl-pl-mid-coord-rule.
+
+n2-1st-any-1st-any-du-pl-top-coord := n2-1st-any-1st-any-du-pl-top-coord-rule.
+
+n2-1st-any-1st-any-du-pl-mid-coord := n2-1st-any-1st-any-du-pl-mid-coord-rule.
+
+n2-1st-any-1st-sg-sg-du-top-coord := n2-1st-any-1st-sg-sg-du-top-coord-rule.
+
+n2-1st-any-1st-sg-sg-du-mid-coord := n2-1st-any-1st-sg-sg-du-mid-coord-rule.
+
+n2-1st-any-1st-pl-any-pl-top-coord := n2-1st-any-1st-pl-any-pl-top-coord-rule.
+
+n2-1st-any-1st-pl-any-pl-mid-coord := n2-1st-any-1st-pl-any-pl-mid-coord-rule.
+
+n2-1st-any-1st-du-any-pl-top-coord := n2-1st-any-1st-du-any-pl-top-coord-rule.
+
+n2-1st-any-1st-du-any-pl-mid-coord := n2-1st-any-1st-du-any-pl-mid-coord-rule.
+
+n2-1st-any-1st-sg-non-sg-pl-top-coord := n2-1st-any-1st-sg-non-sg-pl-top-coord-rule.
+
+n2-1st-any-1st-sg-non-sg-pl-mid-coord := n2-1st-any-1st-sg-non-sg-pl-mid-coord-rule.
+
+n2-1st-any-1st-non-sg-sg-pl-top-coord := n2-1st-any-1st-non-sg-sg-pl-top-coord-rule.
+
+n2-1st-any-1st-non-sg-sg-pl-mid-coord := n2-1st-any-1st-non-sg-sg-pl-mid-coord-rule.
+
+n2-2nd-3rd-2nd-any-pl-pl-top-coord := n2-2nd-3rd-2nd-any-pl-pl-top-coord-rule.
+
+n2-2nd-3rd-2nd-any-pl-pl-mid-coord := n2-2nd-3rd-2nd-any-pl-pl-mid-coord-rule.
+
+n2-2nd-3rd-2nd-any-du-pl-top-coord := n2-2nd-3rd-2nd-any-du-pl-top-coord-rule.
+
+n2-2nd-3rd-2nd-any-du-pl-mid-coord := n2-2nd-3rd-2nd-any-du-pl-mid-coord-rule.
+
+n2-2nd-3rd-2nd-sg-sg-du-top-coord := n2-2nd-3rd-2nd-sg-sg-du-top-coord-rule.
+
+n2-2nd-3rd-2nd-sg-sg-du-mid-coord := n2-2nd-3rd-2nd-sg-sg-du-mid-coord-rule.
+
+n2-2nd-3rd-2nd-pl-any-pl-top-coord := n2-2nd-3rd-2nd-pl-any-pl-top-coord-rule.
+
+n2-2nd-3rd-2nd-pl-any-pl-mid-coord := n2-2nd-3rd-2nd-pl-any-pl-mid-coord-rule.
+
+n2-2nd-3rd-2nd-du-any-pl-top-coord := n2-2nd-3rd-2nd-du-any-pl-top-coord-rule.
+
+n2-2nd-3rd-2nd-du-any-pl-mid-coord := n2-2nd-3rd-2nd-du-any-pl-mid-coord-rule.
+
+n2-2nd-3rd-2nd-sg-non-sg-pl-top-coord := n2-2nd-3rd-2nd-sg-non-sg-pl-top-coord-rule.
+
+n2-2nd-3rd-2nd-sg-non-sg-pl-mid-coord := n2-2nd-3rd-2nd-sg-non-sg-pl-mid-coord-rule.
+
+n2-2nd-3rd-2nd-non-sg-sg-pl-top-coord := n2-2nd-3rd-2nd-non-sg-sg-pl-top-coord-rule.
+
+n2-2nd-3rd-2nd-non-sg-sg-pl-mid-coord := n2-2nd-3rd-2nd-non-sg-sg-pl-mid-coord-rule.
+
+n2-bottom-coord := n2-bottom-coord-rule.
+
+np2-any-1st-1st-any-pl-pl-top-coord := np2-any-1st-1st-any-pl-pl-top-coord-rule.
+
+np2-any-1st-1st-any-pl-pl-mid-coord := np2-any-1st-1st-any-pl-pl-mid-coord-rule.
+
+np2-any-1st-1st-any-du-pl-top-coord := np2-any-1st-1st-any-du-pl-top-coord-rule.
+
+np2-any-1st-1st-any-du-pl-mid-coord := np2-any-1st-1st-any-du-pl-mid-coord-rule.
+
+np2-any-1st-1st-sg-sg-du-top-coord := np2-any-1st-1st-sg-sg-du-top-coord-rule.
+
+np2-any-1st-1st-sg-sg-du-mid-coord := np2-any-1st-1st-sg-sg-du-mid-coord-rule.
+
+np2-any-1st-1st-pl-any-pl-top-coord := np2-any-1st-1st-pl-any-pl-top-coord-rule.
+
+np2-any-1st-1st-pl-any-pl-mid-coord := np2-any-1st-1st-pl-any-pl-mid-coord-rule.
+
+np2-any-1st-1st-du-any-pl-top-coord := np2-any-1st-1st-du-any-pl-top-coord-rule.
+
+np2-any-1st-1st-du-any-pl-mid-coord := np2-any-1st-1st-du-any-pl-mid-coord-rule.
+
+np2-any-1st-1st-sg-non-sg-pl-top-coord := np2-any-1st-1st-sg-non-sg-pl-top-coord-rule.
+
+np2-any-1st-1st-sg-non-sg-pl-mid-coord := np2-any-1st-1st-sg-non-sg-pl-mid-coord-rule.
+
+np2-any-1st-1st-non-sg-sg-pl-top-coord := np2-any-1st-1st-non-sg-sg-pl-top-coord-rule.
+
+np2-any-1st-1st-non-sg-sg-pl-mid-coord := np2-any-1st-1st-non-sg-sg-pl-mid-coord-rule.
+
+np2-2nd-2nd-2nd-any-pl-pl-top-coord := np2-2nd-2nd-2nd-any-pl-pl-top-coord-rule.
+
+np2-2nd-2nd-2nd-any-pl-pl-mid-coord := np2-2nd-2nd-2nd-any-pl-pl-mid-coord-rule.
+
+np2-2nd-2nd-2nd-any-du-pl-top-coord := np2-2nd-2nd-2nd-any-du-pl-top-coord-rule.
+
+np2-2nd-2nd-2nd-any-du-pl-mid-coord := np2-2nd-2nd-2nd-any-du-pl-mid-coord-rule.
+
+np2-2nd-2nd-2nd-sg-sg-du-top-coord := np2-2nd-2nd-2nd-sg-sg-du-top-coord-rule.
+
+np2-2nd-2nd-2nd-sg-sg-du-mid-coord := np2-2nd-2nd-2nd-sg-sg-du-mid-coord-rule.
+
+np2-2nd-2nd-2nd-pl-any-pl-top-coord := np2-2nd-2nd-2nd-pl-any-pl-top-coord-rule.
+
+np2-2nd-2nd-2nd-pl-any-pl-mid-coord := np2-2nd-2nd-2nd-pl-any-pl-mid-coord-rule.
+
+np2-2nd-2nd-2nd-du-any-pl-top-coord := np2-2nd-2nd-2nd-du-any-pl-top-coord-rule.
+
+np2-2nd-2nd-2nd-du-any-pl-mid-coord := np2-2nd-2nd-2nd-du-any-pl-mid-coord-rule.
+
+np2-2nd-2nd-2nd-sg-non-sg-pl-top-coord := np2-2nd-2nd-2nd-sg-non-sg-pl-top-coord-rule.
+
+np2-2nd-2nd-2nd-sg-non-sg-pl-mid-coord := np2-2nd-2nd-2nd-sg-non-sg-pl-mid-coord-rule.
+
+np2-2nd-2nd-2nd-non-sg-sg-pl-top-coord := np2-2nd-2nd-2nd-non-sg-sg-pl-top-coord-rule.
+
+np2-2nd-2nd-2nd-non-sg-sg-pl-mid-coord := np2-2nd-2nd-2nd-non-sg-sg-pl-mid-coord-rule.
+
+np2-3rd-2nd-2nd-any-pl-pl-top-coord := np2-3rd-2nd-2nd-any-pl-pl-top-coord-rule.
+
+np2-3rd-2nd-2nd-any-pl-pl-mid-coord := np2-3rd-2nd-2nd-any-pl-pl-mid-coord-rule.
+
+np2-3rd-2nd-2nd-any-du-pl-top-coord := np2-3rd-2nd-2nd-any-du-pl-top-coord-rule.
+
+np2-3rd-2nd-2nd-any-du-pl-mid-coord := np2-3rd-2nd-2nd-any-du-pl-mid-coord-rule.
+
+np2-3rd-2nd-2nd-sg-sg-du-top-coord := np2-3rd-2nd-2nd-sg-sg-du-top-coord-rule.
+
+np2-3rd-2nd-2nd-sg-sg-du-mid-coord := np2-3rd-2nd-2nd-sg-sg-du-mid-coord-rule.
+
+np2-3rd-2nd-2nd-pl-any-pl-top-coord := np2-3rd-2nd-2nd-pl-any-pl-top-coord-rule.
+
+np2-3rd-2nd-2nd-pl-any-pl-mid-coord := np2-3rd-2nd-2nd-pl-any-pl-mid-coord-rule.
+
+np2-3rd-2nd-2nd-du-any-pl-top-coord := np2-3rd-2nd-2nd-du-any-pl-top-coord-rule.
+
+np2-3rd-2nd-2nd-du-any-pl-mid-coord := np2-3rd-2nd-2nd-du-any-pl-mid-coord-rule.
+
+np2-3rd-2nd-2nd-sg-non-sg-pl-top-coord := np2-3rd-2nd-2nd-sg-non-sg-pl-top-coord-rule.
+
+np2-3rd-2nd-2nd-sg-non-sg-pl-mid-coord := np2-3rd-2nd-2nd-sg-non-sg-pl-mid-coord-rule.
+
+np2-3rd-2nd-2nd-non-sg-sg-pl-top-coord := np2-3rd-2nd-2nd-non-sg-sg-pl-top-coord-rule.
+
+np2-3rd-2nd-2nd-non-sg-sg-pl-mid-coord := np2-3rd-2nd-2nd-non-sg-sg-pl-mid-coord-rule.
+
+np2-3rd-3rd-3rd-any-pl-pl-top-coord := np2-3rd-3rd-3rd-any-pl-pl-top-coord-rule.
+
+np2-3rd-3rd-3rd-any-pl-pl-mid-coord := np2-3rd-3rd-3rd-any-pl-pl-mid-coord-rule.
+
+np2-3rd-3rd-3rd-any-du-pl-top-coord := np2-3rd-3rd-3rd-any-du-pl-top-coord-rule.
+
+np2-3rd-3rd-3rd-any-du-pl-mid-coord := np2-3rd-3rd-3rd-any-du-pl-mid-coord-rule.
+
+np2-3rd-3rd-3rd-sg-sg-du-top-coord := np2-3rd-3rd-3rd-sg-sg-du-top-coord-rule.
+
+np2-3rd-3rd-3rd-sg-sg-du-mid-coord := np2-3rd-3rd-3rd-sg-sg-du-mid-coord-rule.
+
+np2-3rd-3rd-3rd-pl-any-pl-top-coord := np2-3rd-3rd-3rd-pl-any-pl-top-coord-rule.
+
+np2-3rd-3rd-3rd-pl-any-pl-mid-coord := np2-3rd-3rd-3rd-pl-any-pl-mid-coord-rule.
+
+np2-3rd-3rd-3rd-du-any-pl-top-coord := np2-3rd-3rd-3rd-du-any-pl-top-coord-rule.
+
+np2-3rd-3rd-3rd-du-any-pl-mid-coord := np2-3rd-3rd-3rd-du-any-pl-mid-coord-rule.
+
+np2-3rd-3rd-3rd-sg-non-sg-pl-top-coord := np2-3rd-3rd-3rd-sg-non-sg-pl-top-coord-rule.
+
+np2-3rd-3rd-3rd-sg-non-sg-pl-mid-coord := np2-3rd-3rd-3rd-sg-non-sg-pl-mid-coord-rule.
+
+np2-3rd-3rd-3rd-non-sg-sg-pl-top-coord := np2-3rd-3rd-3rd-non-sg-sg-pl-top-coord-rule.
+
+np2-3rd-3rd-3rd-non-sg-sg-pl-mid-coord := np2-3rd-3rd-3rd-non-sg-sg-pl-mid-coord-rule.
+
+np2-1st-any-1st-any-pl-pl-top-coord := np2-1st-any-1st-any-pl-pl-top-coord-rule.
+
+np2-1st-any-1st-any-pl-pl-mid-coord := np2-1st-any-1st-any-pl-pl-mid-coord-rule.
+
+np2-1st-any-1st-any-du-pl-top-coord := np2-1st-any-1st-any-du-pl-top-coord-rule.
+
+np2-1st-any-1st-any-du-pl-mid-coord := np2-1st-any-1st-any-du-pl-mid-coord-rule.
+
+np2-1st-any-1st-sg-sg-du-top-coord := np2-1st-any-1st-sg-sg-du-top-coord-rule.
+
+np2-1st-any-1st-sg-sg-du-mid-coord := np2-1st-any-1st-sg-sg-du-mid-coord-rule.
+
+np2-1st-any-1st-pl-any-pl-top-coord := np2-1st-any-1st-pl-any-pl-top-coord-rule.
+
+np2-1st-any-1st-pl-any-pl-mid-coord := np2-1st-any-1st-pl-any-pl-mid-coord-rule.
+
+np2-1st-any-1st-du-any-pl-top-coord := np2-1st-any-1st-du-any-pl-top-coord-rule.
+
+np2-1st-any-1st-du-any-pl-mid-coord := np2-1st-any-1st-du-any-pl-mid-coord-rule.
+
+np2-1st-any-1st-sg-non-sg-pl-top-coord := np2-1st-any-1st-sg-non-sg-pl-top-coord-rule.
+
+np2-1st-any-1st-sg-non-sg-pl-mid-coord := np2-1st-any-1st-sg-non-sg-pl-mid-coord-rule.
+
+np2-1st-any-1st-non-sg-sg-pl-top-coord := np2-1st-any-1st-non-sg-sg-pl-top-coord-rule.
+
+np2-1st-any-1st-non-sg-sg-pl-mid-coord := np2-1st-any-1st-non-sg-sg-pl-mid-coord-rule.
+
+np2-2nd-3rd-2nd-any-pl-pl-top-coord := np2-2nd-3rd-2nd-any-pl-pl-top-coord-rule.
+
+np2-2nd-3rd-2nd-any-pl-pl-mid-coord := np2-2nd-3rd-2nd-any-pl-pl-mid-coord-rule.
+
+np2-2nd-3rd-2nd-any-du-pl-top-coord := np2-2nd-3rd-2nd-any-du-pl-top-coord-rule.
+
+np2-2nd-3rd-2nd-any-du-pl-mid-coord := np2-2nd-3rd-2nd-any-du-pl-mid-coord-rule.
+
+np2-2nd-3rd-2nd-sg-sg-du-top-coord := np2-2nd-3rd-2nd-sg-sg-du-top-coord-rule.
+
+np2-2nd-3rd-2nd-sg-sg-du-mid-coord := np2-2nd-3rd-2nd-sg-sg-du-mid-coord-rule.
+
+np2-2nd-3rd-2nd-pl-any-pl-top-coord := np2-2nd-3rd-2nd-pl-any-pl-top-coord-rule.
+
+np2-2nd-3rd-2nd-pl-any-pl-mid-coord := np2-2nd-3rd-2nd-pl-any-pl-mid-coord-rule.
+
+np2-2nd-3rd-2nd-du-any-pl-top-coord := np2-2nd-3rd-2nd-du-any-pl-top-coord-rule.
+
+np2-2nd-3rd-2nd-du-any-pl-mid-coord := np2-2nd-3rd-2nd-du-any-pl-mid-coord-rule.
+
+np2-2nd-3rd-2nd-sg-non-sg-pl-top-coord := np2-2nd-3rd-2nd-sg-non-sg-pl-top-coord-rule.
+
+np2-2nd-3rd-2nd-sg-non-sg-pl-mid-coord := np2-2nd-3rd-2nd-sg-non-sg-pl-mid-coord-rule.
+
+np2-2nd-3rd-2nd-non-sg-sg-pl-top-coord := np2-2nd-3rd-2nd-non-sg-sg-pl-top-coord-rule.
+
+np2-2nd-3rd-2nd-non-sg-sg-pl-mid-coord := np2-2nd-3rd-2nd-non-sg-sg-pl-mid-coord-rule.
+
+np2-bottom-coord := np2-bottom-coord-rule.
+
+adj-top-coord := adj-top-coord-rule.
+
+adj-mid-coord := adj-mid-coord-rule.
+
+adj-bottom-coord := adj-bottom-coord-rule.

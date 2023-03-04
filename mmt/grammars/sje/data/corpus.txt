@@ -1,0 +1,142 @@
+Language: Pite_Saami
+Language code: sje
+Lines: orth orth-seg gloss translat
+Author: Elizabeth Nielsen and Alex Spivey
+Date: April 27, 2017
+Source a: A Grammar of Pite Saami, Joshua Wilbur
+
+
+# 1
+Source: {a:86}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+dae virtiv vaalldet giehpajd ja ribrev ja dagarijd ulgos
+dae virti-v vaallde-t giehpa-jd ja ribbre-v ja dagari-jd ulgos
+then must-1sg.prs take-inf lung-acc.pl and liver-acc.sg and such-acc.pl out
+‘Then I have to take out the lungs, the liver and such things.’
+
+# 2
+Source: {a:88}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+vaaldav tjaovev ribrist luovas
+vaalda-v tjaojve-v ribri-st luovas
+take-1sg.prs stomach-acc.sg liver-elat.sg loose
+‘I loosen the stomach from the liver.’
+
+# 3
+Source: {a:89}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+maon lev stuorab Svienast
+maon le-v stuora-b Sviena-st
+1sg.nom be-1sg.prs big-comp Sven-elat.sg
+‘I am bigger than Sven.’
+
+# 4
+Source: {a:89}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+men aodtjo saame gielav saagastit duv aorbenij?
+men aodtjo saame giela-v saagasti-t duv aorbeni-j
+but may.2sg.pst Saami.gen.sg language-acc.sg speak-inf 2sg.gen sibling-com.pl
+‘But were you allowed to speak the Saami language with your siblings?’
+
+# 5
+Source: {a:232}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+daaj Skaile ello saokoj
+d-aa-j Skaile ello saoko-j
+dem-prox-gen.pl Skaile.gen.pl reindeer.herd.nom.sg drown-3sg.pst
+‘The Skaile family’s reindeer herd drowned.’
+
+# 6
+Source: {a:233}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+ja maon vuojnav muaehtagav danne
+ja maon vuojna-v muaehtaga-v danne
+and 1sg.nom see-1sg.prs snow-acc.sg here
+‘And I see snow here.’
+
+# 7
+Source: {a:235}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+buhtsoj lae nav buojde ja tjaabbe
+buhtsoj lae nav buojde ja tjaabbe
+reindeer.nom.pl be.3pl.prs so fat.pl and beautiful.pl
+‘The reindeer are so fat and beautiful.’
+
+## nom.sg of reindeer is baotsoj
+## tjaabbe is the pred pl version. Pred sg and attrib are both tjaabba.
+## Don't know about buojde's other forms
+## should add 
+
+# 8
+Source: {a:214}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+baotsoj maahtta duv nala baohtet
+baotsoj maahtta duv nala baohte-t
+reindeer.nom.sg can.3sg.prs 2sg.gen upon come-inf
+‘The reindeer can attack you.’
+
+#9
+Source: {a:152}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+gijtov	ednet
+gijt-ov	edne-t
+thank-acc.sg	have-pl.imp
+‘Thank you all!’ (lit.: have thank
+
+#10
+Source: {a:118}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+maon	saagastav	etjan	birra
+maon	saagasta-v	etja-n	birra
+1sg.nom	speak-1sg.prs	refl-1sg.gen	about
+‘I talk about myself.
+
+#11
+Source: {a:122}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+mikkir	maalle	lij?
+mikkir	maalle	li-j
+which	blood.nom.sg	be-3sg.pst
+‘Which (kind of) blood was it?’
+
+#12
+Source: {a:128}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+guollel	naov	njalga	baebbmo
+guolle=l	naov	njalga	baebbmo
+fish.nom.sg=be.3sg.prs	so	tasty	food.nom.sg
+‘Fish is such tasty food.’
+
+#13
+Source: {a:129}
+Vetted: t
+Judgment: g
+Phenomena: {corpus}
+tjaehppisa	lae	njallge
+tjaehppis-a	lae	njallge
+black-nom.pl	be.3pl.prs	tasty.nom.sg
+‘The black ones are tasty.’

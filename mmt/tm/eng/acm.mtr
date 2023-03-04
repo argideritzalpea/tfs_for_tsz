@@ -1,0 +1,40 @@
+;;; Hey, emacs(1), this is -*- Mode: TDL; Coding: utf-8; -*- got it?
+
+;pro-insert-arg1 := pro-insert-arg1-mtr & [].
+;pro-insert-arg2 := pro-insert-arg2-mtr & [].
+
+; 2018
+
+eat-food := eat-food-mtr.
+
+; 2017
+
+;quickly-mtr := quickly-mtr.
+loc-in := loc-in-mtr.
+;consume-food := consume-food-itr-eat-mtr.
+;eat-food := eat-food-mtr.
+
+; 2016
+
+;be-drop := be_v_id-pronoun-delete-mtr.
+
+;have-hunger := have-hunger-hungry-mtr.
+;ache-hunger := ache-hunger-hungry-mtr.
+
+;be-located-drop := be+located-drop-mtr.
+;quickly := quickly-mtr.
+
+;loc-in := loc-in-mtr.
+
+
+; 2015
+
+;eat-food := eat-food-mtr & [].
+;ask-two-arg := ask-mtr & [].
+;person-wh := person-wh-mtr & [].
+;thing-wh := thing-wh-mtr & [].
+;hungry-va := hungry-v-a-mtr & [].
+;loc-in := loc-in-mtr & [].
+;at-in := at-in-mtr & [].
+;be+located-drop := be+located-drop-mtr & [].
+;loc-exist-drop := loc-exist-drop-mtr & [].

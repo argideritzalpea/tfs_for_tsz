@@ -1,0 +1,3113 @@
+1 Getting the translation of 'Dogs sleep'
+1 Translating into 'uichu-echa k'ui-x-ti'
+
+
+NOTE: 1 transfer results	RAM: 15k
+NOTE: 1 readings, added 47 / 17 edges to chart (9 fully instantiated, 8 actives used, 4 passives used)	RAM: 155k
+NOTE: parsed 1 / 1 sentences, avg 155k, time 0.01720s
+NOTE: transfered 0 / 1 sentences, avg 15k, time 0.00414s
+Uichu-echa k'ui-ka
+Uichu-echa k'ui-sï-ti
+K'ui-sï-ti uichu-echa
+K'ui-sï-ki uichu-echa
+Uichu-echa k'ui-ŋka-sï-ti
+K'ui-ŋka-sï-ti uichu-echa
+K'ui-sï uichu-echa
+K'ui-pʰera-sï-ti uichu-echa
+K'ui-ŋka-sï uichu-echa
+K'ui-p'e-sï-ti uichu-echa
+K'ui-kuɽa-sï uichu-echa
+K'ui-kuɽa-sï-ti uichu-echa
+K'ui-pʰera-sï uichu-echa
+Uichu-echa k'ui-sï
+Uichu-echa k'ui-sï-i
+Uichu-echa k'ui-ŋka-ka
+K'ui-ka uichu-echa
+K'ui-p'e-sï uichu-echa
+Uichu-echa k'ui-p'e-sï-ti
+K'ui-ŋka-ka uichu-echa
+Uichu-echa k'ui-kuɽa-sï-ti
+K'ui-pʰera-ka uichu-echa
+Uichu-echa k'ui-pʰera-sï-ti
+K'ui-p'e-ka uichu-echa
+Uichu-echa k'ui-sï-ki
+K'ui-ŋka-sï-ki uichu-echa
+Uichu-echa k'ui-kuɽa-ka
+Uichu-echa k'ui-ŋka-sï-ki
+Uichu-echa k'ui-ŋka-sï-i
+Uichu-echa k'ui-kuɽa-sï-ki
+Uichu-echa k'ui-kuɽa-sï-i
+Uichu-echa k'ui-pʰera-sï-ki
+Uichu-echa k'ui-p'e-sï-i
+Uichu-echa k'ui-p'e-sï-ki
+Uichu-echa k'ui-pʰera-sï-i
+K'ui-sï-i uichu-echa
+K'ui-kuɽa-ka uichu-echa
+Uichu-echa k'ui-p'e-ka
+K'ui-ŋka-sï-i uichu-echa
+K'ui-p'e-sï-ki uichu-echa
+K'ui-pʰera-sï-i uichu-echa
+K'ui-kuɽa-sï-ki uichu-echa
+K'ui-p'e-sï-i uichu-echa
+K'ui-pʰera-sï-ki uichu-echa
+K'ui-kuɽa-sï-i uichu-echa
+Uichu-echa k'ui-ŋka-sï
+Uichu-echa k'ui-pʰera-ka
+Uichu-echa k'ui-p'e-sï
+Uichu-echa k'ui-kuɽa-sï
+Uichu-echa k'ui-pʰera-sï
+NOTE: 97 passive, 278 active edges in final generation chart; built 169 passives total. [50 results]
+
+NOTE: generated 1 / 1 sentences, avg 7376k, time 0.05956s
+NOTE: transfer did 6 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+2 Getting the translation of 'SKIPPED'
+2 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00541s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+3 Getting the translation of 'SKIPPED'
+3 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.02220s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+4 Getting the translation of 'Dogs eat'
+4 Translating into 'uichu-echa arha-xïn-ti'
+
+
+NOTE: 1 readings, added 53 / 23 edges to chart (15 fully instantiated, 10 actives used, 8 passives used)	RAM: 177k
+NOTE: parsed 1 / 1 sentences, avg 177k, time 0.00682s
+NOTE: 1 transfer results	RAM: 16k
+NOTE: transfered 0 / 1 sentences, avg 16k, time 0.00756s
+Uichu-echa tʰire-ka
+Uichu-echa tʰire-sï-ti
+Tʰire-sï uichu-echa
+Uichu-echa tʰire-ŋka-ka
+Uichu-echa tʰire-sï-i
+Tʰire-sï-i uichu-echa
+Uichu-echa tʰire-kuɽa-ka
+Uichu-echa tʰire-ŋka-sï-i
+Tʰire-ŋka-sï-i uichu-echa
+Uichu-echa tʰire-sï-i
+Tʰire-kuɽa-sï-i uichu-echa
+Uichu-echa tʰire-ŋka-sï-i
+Tʰire-ŋka-sï-i uichu-echa
+Uichu-echa t'ire-sï-i
+Tʰire-kuɽa-sï-i uichu-echa
+Uichu-echa t'ire-ŋka-sï-i
+T'ire-ŋka-sï-i uichu-echa
+Uichu-echa aɽa-sï-i
+Aɽa-kuɽa-sï-i uichu-echa
+Uichu-echa aɽa-ŋka-sï-i
+Aɽa-ŋka-sï-i uichu-echa
+Uichu-echa tʰire-sï-i
+T'ire-kuɽa-sï-i uichu-echa
+Uichu-echa tʰire-ŋka-sï-i
+Tʰire-ŋka-sï-i uichu-echa
+Uichu-echa tʰire-p'e-sï-i
+Tʰire-kuɽa-sï-i uichu-echa
+Uichu-echa tʰire-kuɽa-sï-i
+Tʰire-p'e-sï-i uichu-echa
+Uichu-echa tʰire-p'e-sï-i
+Tʰire-sï-i uichu-echa
+Uichu-echa tʰire-kuɽa-sï-i
+Tʰire-p'e-sï-i uichu-echa
+Uichu-echa aɽa-p'e-sï-i
+T'ire-sï-i uichu-echa
+Uichu-echa aɽa-kuɽa-sï-i
+Aɽa-p'e-sï-i uichu-echa
+Uichu-echa t'ire-p'e-sï-i
+Aɽa-sï-i uichu-echa
+Uichu-echa t'ire-kuɽa-sï-i
+T'ire-p'e-sï-i uichu-echa
+Uichu-echa tʰire-p'e-sï-i
+Tʰire-sï-i uichu-echa
+Uichu-echa tʰire-kuɽa-sï-i
+Tʰire-p'e-sï-i uichu-echa
+Uichu-echa tʰire-pʰera-sï-i
+Tʰire-pʰera-sï-i uichu-echa
+Uichu-echa tʰire-pʰera-sï-i
+Tʰire-pʰera-sï-i uichu-echa
+Uichu-echa aɽa-pʰera-sï-i
+Aɽa-pʰera-sï-i uichu-echa
+Uichu-echa t'ire-pʰera-sï-i
+T'ire-pʰera-sï-i uichu-echa
+Uichu-echa tʰire-pʰera-sï-i
+Tʰire-pʰera-sï-i uichu-echa
+Uichu-echa tʰire-sï
+Tʰire-ka uichu-echa
+Uichu-echa tʰire-ŋka-sï-ti
+Tʰire-ŋka-sï uichu-echa
+Tʰire-ŋka-ka uichu-echa
+Tʰire-sï-ti uichu-echa
+Tʰire-kuɽa-sï uichu-echa
+Tʰire-kuɽa-ka uichu-echa
+Tʰire-sï uichu-echa
+Tʰire-pʰera-ka uichu-echa
+Tʰire-kuɽa-sï uichu-echa
+Tʰire-ŋka-ka uichu-echa
+T'ire-sï uichu-echa
+Tʰire-kuɽa-ka uichu-echa
+Aɽa-kuɽa-sï uichu-echa
+Tʰire-pʰera-ka uichu-echa
+Aɽa-sï uichu-echa
+Aɽa-ŋka-ka uichu-echa
+T'ire-kuɽa-sï uichu-echa
+Aɽa-kuɽa-ka uichu-echa
+Tʰire-sï uichu-echa
+Aɽa-pʰera-ka uichu-echa
+Tʰire-kuɽa-sï uichu-echa
+T'ire-kuɽa-ka uichu-echa
+Tʰire-p'e-sï uichu-echa
+T'ire-pʰera-ka uichu-echa
+Tʰire-ŋka-sï uichu-echa
+Tʰire-kuɽa-ka uichu-echa
+Tʰire-p'e-sï uichu-echa
+Tʰire-pʰera-ka uichu-echa
+Aɽa-ŋka-sï uichu-echa
+Tʰire-p'e-ka uichu-echa
+T'ire-p'e-sï uichu-echa
+T'ire-ŋka-ka uichu-echa
+T'ire-ŋka-sï uichu-echa
+Tʰire-p'e-ka uichu-echa
+Aɽa-p'e-sï uichu-echa
+Tʰire-ŋka-ka uichu-echa
+Tʰire-ŋka-sï uichu-echa
+T'ire-p'e-ka uichu-echa
+Tʰire-p'e-sï uichu-echa
+Tʰire-ka uichu-echa
+Tʰire-pʰera-sï uichu-echa
+Aɽa-p'e-ka uichu-echa
+Tʰire-pʰera-sï uichu-echa
+Aɽa-ka uichu-echa
+T'ire-pʰera-sï uichu-echa
+Tʰire-p'e-ka uichu-echa
+Aɽa-pʰera-sï uichu-echa
+T'ire-ka uichu-echa
+Tʰire-pʰera-sï uichu-echa
+Tʰire-ka uichu-echa
+Uichu-echa tʰire-sï-ki
+Uichu-echa tʰire-ka
+Uichu-echa tʰire-kuɽa-sï-ti
+Uichu-echa tʰire-ŋka-sï
+Uichu-echa tʰire-sï-ti
+Uichu-echa tʰire-kuɽa-sï
+Uichu-echa tʰire-ŋka-sï-ti
+Uichu-echa tʰire-sï
+Uichu-echa tʰire-kuɽa-sï-ti
+Uichu-echa tʰire-ŋka-sï
+Uichu-echa t'ire-sï-ti
+Uichu-echa tʰire-kuɽa-sï
+Uichu-echa aɽa-kuɽa-sï-ti
+Uichu-echa aɽa-sï
+Uichu-echa aɽa-sï-ti
+Uichu-echa aɽa-ŋka-sï
+Uichu-echa t'ire-kuɽa-sï-ti
+Uichu-echa aɽa-kuɽa-sï
+Uichu-echa tʰire-sï-ti
+Uichu-echa t'ire-ŋka-sï
+Uichu-echa tʰire-kuɽa-sï-ti
+Uichu-echa t'ire-kuɽa-sï
+Uichu-echa tʰire-p'e-sï-ti
+Uichu-echa tʰire-ŋka-sï
+Uichu-echa aɽa-ŋka-sï-ti
+Uichu-echa tʰire-kuɽa-sï
+Uichu-echa tʰire-p'e-sï-ti
+Uichu-echa tʰire-p'e-sï
+Uichu-echa t'ire-ŋka-sï-ti
+Uichu-echa t'ire-sï
+Uichu-echa t'ire-p'e-sï-ti
+Uichu-echa tʰire-p'e-sï
+Uichu-echa tʰire-ŋka-sï-ti
+Uichu-echa tʰire-sï
+Uichu-echa aɽa-p'e-sï-ti
+Uichu-echa t'ire-p'e-sï
+Uichu-echa tʰire-pʰera-sï-ti
+Uichu-echa tʰire-pʰera-sï
+Uichu-echa tʰire-p'e-sï-ti
+Uichu-echa aɽa-p'e-sï
+Uichu-echa tʰire-pʰera-sï-ti
+Uichu-echa tʰire-pʰera-sï
+Uichu-echa t'ire-pʰera-sï-ti
+Uichu-echa tʰire-p'e-sï
+Uichu-echa aɽa-pʰera-sï-ti
+Uichu-echa t'ire-pʰera-sï
+Uichu-echa tʰire-pʰera-sï-ti
+Uichu-echa aɽa-pʰera-sï
+Tʰire-sï-ki uichu-echa
+Uichu-echa tʰire-ŋka-sï-ki
+Uichu-echa tʰire-pʰera-sï
+Tʰire-ŋka-sï-ki uichu-echa
+Uichu-echa tʰire-kuɽa-ka
+Tʰire-pʰera-sï-ki uichu-echa
+Uichu-echa aɽa-ka
+Tʰire-sï-ki uichu-echa
+Uichu-echa aɽa-kuɽa-ka
+Tʰire-pʰera-sï-ki uichu-echa
+Uichu-echa t'ire-ka
+Aɽa-sï-ki uichu-echa
+Uichu-echa t'ire-kuɽa-ka
+Aɽa-pʰera-sï-ki uichu-echa
+Uichu-echa tʰire-ka
+T'ire-sï-ki uichu-echa
+Uichu-echa tʰire-kuɽa-ka
+T'ire-pʰera-sï-ki uichu-echa
+Uichu-echa tʰire-p'e-ka
+Tʰire-sï-ki uichu-echa
+Uichu-echa tʰire-ŋka-ka
+Tʰire-pʰera-sï-ki uichu-echa
+Uichu-echa tʰire-p'e-ka
+Tʰire-p'e-sï-ki uichu-echa
+Uichu-echa aɽa-ŋka-ka
+Tʰire-ŋka-sï-ki uichu-echa
+Uichu-echa t'ire-p'e-ka
+Tʰire-p'e-sï-ki uichu-echa
+Uichu-echa t'ire-ŋka-ka
+Aɽa-ŋka-sï-ki uichu-echa
+Uichu-echa aɽa-p'e-ka
+Aɽa-p'e-sï-ki uichu-echa
+Uichu-echa tʰire-ŋka-ka
+T'ire-ŋka-sï-ki uichu-echa
+Uichu-echa tʰire-p'e-ka
+T'ire-p'e-sï-ki uichu-echa
+Uichu-echa tʰire-pʰera-ka
+Tʰire-ŋka-sï-ki uichu-echa
+Uichu-echa tʰire-pʰera-ka
+Tʰire-p'e-sï-ki uichu-echa
+Uichu-echa aɽa-pʰera-ka
+Tʰire-kuɽa-sï-ki uichu-echa
+Uichu-echa t'ire-pʰera-ka
+Tʰire-kuɽa-sï-ki uichu-echa
+Uichu-echa tʰire-pʰera-ka
+T'ire-kuɽa-sï-ki uichu-echa
+Tʰire-ŋka-sï-ti uichu-echa
+Aɽa-kuɽa-sï-ki uichu-echa
+Tʰire-pʰera-sï-ti uichu-echa
+Tʰire-kuɽa-sï-ki uichu-echa
+Tʰire-ŋka-sï-ti uichu-echa
+Uichu-echa tʰire-kuɽa-sï-ki
+Tʰire-pʰera-sï-ti uichu-echa
+Uichu-echa tʰire-pʰera-sï-ki
+Aɽa-ŋka-sï-ti uichu-echa
+Uichu-echa tʰire-kuɽa-sï-ki
+T'ire-pʰera-sï-ti uichu-echa
+Uichu-echa tʰire-pʰera-sï-ki
+T'ire-ŋka-sï-ti uichu-echa
+Uichu-echa t'ire-kuɽa-sï-ki
+Aɽa-pʰera-sï-ti uichu-echa
+Uichu-echa aɽa-pʰera-sï-ki
+Tʰire-ŋka-sï-ti uichu-echa
+Uichu-echa aɽa-kuɽa-sï-ki
+Tʰire-pʰera-sï-ti uichu-echa
+Uichu-echa t'ire-pʰera-sï-ki
+Tʰire-p'e-sï-ti uichu-echa
+Uichu-echa tʰire-kuɽa-sï-ki
+Tʰire-sï-ti uichu-echa
+Uichu-echa tʰire-pʰera-sï-ki
+Tʰire-p'e-sï-ti uichu-echa
+Uichu-echa tʰire-p'e-sï-ki
+T'ire-sï-ti uichu-echa
+Uichu-echa tʰire-ŋka-sï-ki
+T'ire-p'e-sï-ti uichu-echa
+Uichu-echa tʰire-p'e-sï-ki
+Aɽa-sï-ti uichu-echa
+Uichu-echa aɽa-ŋka-sï-ki
+Aɽa-p'e-sï-ti uichu-echa
+Uichu-echa aɽa-p'e-sï-ki
+Tʰire-sï-ti uichu-echa
+Uichu-echa t'ire-ŋka-sï-ki
+Tʰire-p'e-sï-ti uichu-echa
+Uichu-echa t'ire-p'e-sï-ki
+Tʰire-kuɽa-sï-ti uichu-echa
+Uichu-echa tʰire-ŋka-sï-ki
+Tʰire-kuɽa-sï-ti uichu-echa
+Uichu-echa tʰire-p'e-sï-ki
+Aɽa-kuɽa-sï-ti uichu-echa
+Uichu-echa tʰire-sï-ki
+T'ire-kuɽa-sï-ti uichu-echa
+Uichu-echa aɽa-sï-ki
+Tʰire-kuɽa-sï-ti uichu-echa
+Uichu-echa t'ire-sï-ki
+Uichu-echa tʰire-sï-ki
+NOTE: 179 passive, 398 active edges in final generation chart; built 452 passives total. [250 results]
+
+NOTE: generated 1 / 1 sentences, avg 23132k, time 0.19521s
+NOTE: transfer did 6 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+5 Getting the translation of 'SKIPPED'
+5 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00530s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+6 Getting the translation of 'SKIPPED'
+6 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00413s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+7 Getting the translation of 'SKIPPED'
+7 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00372s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+8 Getting the translation of 'SKIPPED'
+8 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00458s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+9 Getting the translation of 'SKIPPED'
+9 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00330s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+10 Getting the translation of 'SKIPPED'
+10 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00383s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+11 Getting the translation of 'SKIPPED'
+11 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00325s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+12 Getting the translation of 'Hungry dogs eat'
+12 Translating into 'SKIPPED '
+
+
+NOTE: 1 readings, added 99 / 44 edges to chart (22 fully instantiated, 20 actives used, 11 passives used)	RAM: 347k
+NOTE: 1 transfer results	RAM: 19k
+NOTE: parsed 1 / 1 sentences, avg 347k, time 0.01564s
+NOTE: transfered 0 / 1 sentences, avg 19k, time 0.01593s
+NOTE: 251 passive, 508 active edges in final generation chart; built 596 passives total. [0 results]
+
+NOTE: generated 0 / 1 sentences, avg 10608k, time 0.08597s
+NOTE: transfer did 10 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+13 Getting the translation of 'Dogs in the park eat'
+13 Translating into 'uichu-echa ekua-rhu =sï arha-xïn-ti'
+
+
+NOTE: 1 readings, added 169 / 64 edges to chart (25 fully instantiated, 26 actives used, 15 passives used)	RAM: 577k
+NOTE: 1 transfer results	RAM: 29k
+NOTE: EP '"_in_p_rel"' is unknown in the semantic index
+WARNING: EP '"_in_p_rel"' is not covered
+NOTE: parsed 1 / 1 sentences, avg 577k, time 0.01290s
+NOTE: transfered 0 / 1 sentences, avg 29k, time 0.00604s
+NOTE: 202 passive, 498 active edges in final generation chart; built 475 passives total. [0 results]
+
+NOTE: generated 0 / 1 sentences, avg 9488k, time 0.09979s
+NOTE: transfer did 8 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+14 Getting the translation of 'Dogs eat in the park'
+14 Translating into 'SKIPPED'
+
+
+NOTE: 3 readings, added 221 / 116 edges to chart (41 fully instantiated, 30 actives used, 29 passives used)	NOTE: 1 transfer results	RAM: 29k
+NOTE: EP '"_in_p_rel"' is unknown in the semantic index
+WARNING: EP '"_in_p_rel"' is not covered
+RAM: 1017k
+NOTE: 1 transfer results	RAM: 29k
+NOTE: parsed 1 / 1 sentences, avg 1017k, time 0.02646s
+NOTE: 1 transfer results	RAM: 29k
+NOTE: transfered 0 / 3 sentences, avg 29k, time 0.01685s
+NOTE: 202 passive, 498 active edges in final generation chart; built 475 passives total. [0 results]
+
+NOTE: EP '"_in_p_rel"' is unknown in the semantic index
+WARNING: EP '"_in_p_rel"' is not covered
+NOTE: 202 passive, 498 active edges in final generation chart; built 475 passives total. [0 results]
+
+NOTE: EP '"_in_p_rel"' is unknown in the semantic index
+WARNING: EP '"_in_p_rel"' is not covered
+NOTE: 202 passive, 498 active edges in final generation chart; built 475 passives total. [0 results]
+
+NOTE: generated 0 / 3 sentences, avg 9488k, time 0.18606s
+NOTE: transfer did 24 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+15 Getting the translation of 'The dogs are hungry'
+15 Translating into 'uichu-echa k'arhima-xa-ti'
+
+
+NOTE: 1 readings, added 136 / 55 edges to chart (14 fully instantiated, 24 actives used, 11 passives used)	RAM: 544k
+NOTE: 1 transfer results	RAM: 14k
+NOTE: parsed 1 / 1 sentences, avg 544k, time 0.03206s
+NOTE: transfered 0 / 1 sentences, avg 14k, time 0.00926s
+Uichu-echa k'arhima-ka
+Uichu-echa k'arhima-sï-ti
+K'arhima-sï-ti uichu-echa
+K'arhima-sï-ki uichu-echa
+Uichu-echa k'arhima-ŋka-sï-ti
+K'arhima-ŋka-sï-ti uichu-echa
+K'arhima-sï uichu-echa
+K'arhima-pʰera-sï-ti uichu-echa
+K'arhima-ŋka-sï uichu-echa
+K'arhima-p'e-sï-ti uichu-echa
+K'arhima-kuɽa-sï uichu-echa
+K'arhima-kuɽa-sï-ti uichu-echa
+K'arhima-pʰera-sï uichu-echa
+Uichu-echa k'arhima-sï
+Uichu-echa k'arhima-sï-i
+Uichu-echa k'arhima-ŋka-ka
+K'arhima-ka uichu-echa
+K'arhima-p'e-sï uichu-echa
+Uichu-echa k'arhima-p'e-sï-ti
+K'arhima-ŋka-ka uichu-echa
+Uichu-echa k'arhima-kuɽa-sï-ti
+K'arhima-pʰera-ka uichu-echa
+Uichu-echa k'arhima-pʰera-sï-ti
+K'arhima-p'e-ka uichu-echa
+Uichu-echa k'arhima-sï-ki
+K'arhima-ŋka-sï-ki uichu-echa
+Uichu-echa k'arhima-kuɽa-ka
+Uichu-echa k'arhima-ŋka-sï-ki
+Uichu-echa k'arhima-ŋka-sï-i
+Uichu-echa k'arhima-kuɽa-sï-ki
+Uichu-echa k'arhima-kuɽa-sï-i
+Uichu-echa k'arhima-pʰera-sï-ki
+Uichu-echa k'arhima-p'e-sï-i
+Uichu-echa k'arhima-p'e-sï-ki
+Uichu-echa k'arhima-pʰera-sï-i
+K'arhima-sï-i uichu-echa
+K'arhima-kuɽa-ka uichu-echa
+Uichu-echa k'arhima-p'e-ka
+K'arhima-ŋka-sï-i uichu-echa
+K'arhima-p'e-sï-ki uichu-echa
+K'arhima-pʰera-sï-i uichu-echa
+K'arhima-kuɽa-sï-ki uichu-echa
+K'arhima-p'e-sï-i uichu-echa
+K'arhima-pʰera-sï-ki uichu-echa
+K'arhima-kuɽa-sï-i uichu-echa
+Uichu-echa k'arhima-ŋka-sï
+Uichu-echa k'arhima-pʰera-ka
+Uichu-echa k'arhima-p'e-sï
+Uichu-echa k'arhima-kuɽa-sï
+Uichu-echa k'arhima-pʰera-sï
+NOTE: 97 passive, 278 active edges in final generation chart; built 169 passives total. [50 results]
+
+NOTE: generated 1 / 1 sentences, avg 7392k, time 0.08974s
+NOTE: transfer did 6 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+16 Getting the translation of 'The dogs are in the park'
+16 Translating into 'uichu-echa jarha-x-ti ekua-rhu'
+
+
+NOTE: 1 readings, added 206 / 75 edges to chart (26 fully instantiated, 34 actives used, 18 passives used)	NOTE: 1 transfer results	RAM: 24k
+NOTE: EP '"_in_p_rel"' is unknown in the semantic index
+WARNING: EP '"_in_p_rel"' is not covered
+RAM: 707k
+NOTE: parsed 1 / 1 sentences, avg 707k, time 0.02534s
+NOTE: transfered 0 / 1 sentences, avg 24k, time 0.00732s
+NOTE: 48 passive, 268 active edges in final generation chart; built 48 passives total. [0 results]
+
+NOTE: generated 0 / 1 sentences, avg 3157k, time 0.05162s
+NOTE: transfer did 6 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+17 Getting the translation of 'The dogs are the cats'
+17 Translating into 'uichu-echa misitu-echa-i-x-ti'
+
+
+NOTE: 1 readings, added 168 / 63 edges to chart (17 fully instantiated, 30 actives used, 13 passives used)	RAM: 621k
+NOTE: 1 transfer results	NOTE: parsed 1 / 1 sentences, avg 621k, time 0.01068s
+RAM: 25k
+NOTE: transfered 0 / 1 sentences, avg 25k, time 0.01540s
+Uichu-echa misitu-echa-iri =e-sï-i
+Uichu-echa misitu-echa-iri =e-sï-ki
+Uichu-echa misitu-echa-iri =e-sï-ti
+Misitu-echa uichu-echa =e-sï-ki
+Misitu-echa =e-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-sï-ki
+Uichu-echa misitu-echa =e-sï
+Misitu-echa =e-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-p'e-sï-ki
+Misitu-echa =e-p'e-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-ka
+Misitu-echa-iri uichu-echa =e-sï
+Misitu-echa uichu-echa =e-pʰera-sï-ki
+Uichu-echa misitu-echa =e-p'e-ka
+Uichu-echa misitu-echa-iri =e-sï
+Misitu-echa-iri =e-ka uichu-echa
+Uichu-echa misitu-echa =e-p'e-sï
+Misitu-echa uichu-echa =e-sï-i
+Misitu-echa-iri =e-p'e-ka uichu-echa
+Misitu-echa =e-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-sï-ti
+Misitu-echa-iri =e-a-ka uichu-echa
+Misitu-echa =e-p'e-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-p'e-sï-ti
+Misitu-echa =e-pʰera-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-kuɽa-sï-ti
+Misitu-echa =e-ŋka-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-ŋka-sï-ti
+Misitu-echa =e-kuɽa-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-a-sï-ti
+Misitu-echa =e-chi-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-chi-sï-ti
+Misitu-echa =e-a-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-p'e-a-sï-ti
+Misitu-echa =e-p'e-a-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-pʰera-sï-ti
+Misitu-echa =e-pʰera-a-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-pʰera-a-sï-ti
+Misitu-echa =e-kuɽa-a-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-chi-a-sï-ti
+Misitu-echa =e-ŋka-a-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-kuɽa-a-sï-ti
+Misitu-echa =e-chi-a-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-ŋka-a-sï-ti
+Uichu-echa misitu-echa =e-sï-i
+Uichu-echa misitu-echa-iri =e-ka
+Misitu-echa =e-sï-i uichu-echa
+Misitu-echa uichu-echa =e-sï-ti
+Uichu-echa misitu-echa-iri =e-p'e-sï
+Misitu-echa-iri =e-pʰera-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-p'e-ka
+Misitu-echa-iri uichu-echa =e-p'e-sï
+Misitu-echa-iri =e-sï uichu-echa
+Uichu-echa misitu-echa =e-chi-ka
+Misitu-echa uichu-echa =e-p'e-sï-i
+Uichu-echa misitu-echa-iri =e-p'e-sï-i
+Misitu-echa-iri =e-sï-i uichu-echa
+Misitu-echa =e-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-p'e-sï-ki
+Misitu-echa uichu-echa =e-ŋka-sï-i
+Uichu-echa misitu-echa =e-p'e-sï-i
+Misitu-echa-iri uichu-echa =e-ka
+Uichu-echa misitu-echa-iri =e-a-sï-i
+Misitu-echa =e-p'e-sï-ti uichu-echa
+Uichu-echa misitu-echa-iri =e-kuɽa-sï-ki
+Misitu-echa-iri =e-sï-ki uichu-echa
+Misitu-echa-iri uichu-echa =e-kuɽa-sï
+Misitu-echa =e-p'e-ka uichu-echa
+Misitu-echa-iri =e-p'e-sï-ki uichu-echa
+Misitu-echa-iri uichu-echa =e-a-sï
+Misitu-echa =e-a-ka uichu-echa
+Misitu-echa-iri =e-pʰera-sï-ki uichu-echa
+Misitu-echa-iri uichu-echa =e-ŋka-sï
+Misitu-echa =e-pʰera-ka uichu-echa
+Uichu-echa misitu-echa =e-chi-sï
+Misitu-echa-iri uichu-echa =e-p'e-a-sï
+Misitu-echa =e-p'e-a-ka uichu-echa
+Uichu-echa misitu-echa =e-pʰera-sï
+Misitu-echa-iri uichu-echa =e-chi-sï
+Misitu-echa =e-chi-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-chi-sï-ki
+Misitu-echa-iri uichu-echa =e-kuɽa-a-sï
+Misitu-echa =e-kuɽa-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-pʰera-sï-ki
+Misitu-echa =e-pʰera-a-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-a-sï-ki
+Misitu-echa =e-ŋka-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-ŋka-sï-ki
+Misitu-echa =e-ŋka-a-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-p'e-a-sï-ki
+Misitu-echa =e-kuɽa-a-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-pʰera-a-sï-ki
+Misitu-echa =e-chi-a-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-chi-a-sï-ki
+Uichu-echa misitu-echa =e-sï-ti
+Misitu-echa-iri uichu-echa =e-sï-i
+Uichu-echa misitu-echa-iri =e-chi-sï
+Misitu-echa-iri =e-p'e-sï uichu-echa
+Misitu-echa uichu-echa =e-chi-sï-i
+Misitu-echa-iri uichu-echa =e-pʰera-sï
+Uichu-echa misitu-echa =e-pʰera-ka
+Misitu-echa-iri =e-p'e-a-ka uichu-echa
+Misitu-echa-iri uichu-echa =e-p'e-sï-i
+Uichu-echa misitu-echa =e-p'e-sï-ti
+Misitu-echa =e-pʰera-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-a-sï-i
+Misitu-echa-iri =e-pʰera-sï uichu-echa
+Uichu-echa misitu-echa =e-pʰera-sï-ti
+Misitu-echa-iri =e-chi-sï-ki uichu-echa
+Misitu-echa-iri uichu-echa =e-ŋka-sï-i
+Uichu-echa misitu-echa =e-pʰera-sï-i
+Misitu-echa uichu-echa =e-kuɽa-sï-i
+Misitu-echa-iri =e-ŋka-sï uichu-echa
+Uichu-echa misitu-echa =e-p'e-a-sï-i
+Misitu-echa uichu-echa =e-pʰera-sï-i
+Misitu-echa-iri =e-kuɽa-sï uichu-echa
+Misitu-echa-iri =e-p'e-sï-i uichu-echa
+Misitu-echa =e-a-sï-ti uichu-echa
+Misitu-echa =e-chi-sï-ki uichu-echa
+Misitu-echa-iri =e-chi-sï uichu-echa
+Misitu-echa =e-pʰera-sï-ti uichu-echa
+Misitu-echa-iri uichu-echa =e-p'e-ka
+Misitu-echa-iri =e-a-sï uichu-echa
+Uichu-echa misitu-echa =e-a-sï-ti
+Misitu-echa-iri uichu-echa =e-kuɽa-ka
+Misitu-echa-iri =e-p'e-a-sï uichu-echa
+Uichu-echa misitu-echa =e-ŋka-sï-ti
+Misitu-echa-iri uichu-echa =e-pʰera-ka
+Misitu-echa-iri =e-pʰera-a-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-chi-ka
+Misitu-echa-iri =e-kuɽa-a-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-a-ka
+Misitu-echa-iri =e-ŋka-a-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-ŋka-ka
+Misitu-echa-iri =e-chi-a-sï uichu-echa
+Misitu-echa-iri uichu-echa =e-p'e-a-ka
+Misitu-echa-iri =e-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-sï
+Uichu-echa misitu-echa =e-p'e-sï-ki
+Misitu-echa =e-p'e-sï-i uichu-echa
+Misitu-echa-iri =e-kuɽa-sï-ki uichu-echa
+Misitu-echa-iri =e-chi-ka uichu-echa
+Misitu-echa =e-p'e-a-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-chi-sï-ki
+Misitu-echa-iri =e-kuɽa-sï-i uichu-echa
+Misitu-echa-iri uichu-echa =e-kuɽa-a-ka
+Misitu-echa =e-chi-sï-ti uichu-echa
+Misitu-echa-iri uichu-echa =e-chi-sï-i
+Misitu-echa-iri =e-ŋka-sï-i uichu-echa
+Misitu-echa =e-kuɽa-sï-ti uichu-echa
+Misitu-echa-iri uichu-echa =e-kuɽa-sï-i
+Misitu-echa-iri =e-chi-sï-i uichu-echa
+Uichu-echa misitu-echa-iri =e-p'e-sï-ti
+Misitu-echa-iri =e-a-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-kuɽa-sï
+Misitu-echa-iri =e-ŋka-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-ŋka-sï
+Misitu-echa-iri =e-p'e-a-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-a-sï
+Misitu-echa-iri =e-kuɽa-a-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-p'e-a-sï
+Misitu-echa-iri =e-chi-a-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-pʰera-a-sï
+Misitu-echa-iri =e-pʰera-a-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-ŋka-a-sï
+Misitu-echa-iri =e-ŋka-a-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-chi-a-sï
+Misitu-echa-iri uichu-echa =e-sï-ki
+Misitu-echa uichu-echa =e-p'e-sï-ti
+Uichu-echa misitu-echa-iri =e-pʰera-sï
+Misitu-echa =e-kuɽa-sï-ki uichu-echa
+Uichu-echa misitu-echa =e-kuɽa-a-sï
+Uichu-echa misitu-echa =e-a-ka
+Uichu-echa misitu-echa-iri =e-kuɽa-sï
+Misitu-echa =e-a-sï-ki uichu-echa
+Misitu-echa-iri uichu-echa =e-pʰera-sï-i
+Uichu-echa misitu-echa =e-kuɽa-ka
+Uichu-echa misitu-echa-iri =e-ŋka-sï
+Uichu-echa misitu-echa-iri =e-pʰera-sï-i
+Uichu-echa misitu-echa =e-kuɽa-sï-ki
+Misitu-echa uichu-echa =e-kuɽa-sï-ti
+Misitu-echa =e-ŋka-sï-ki uichu-echa
+Uichu-echa misitu-echa-iri =e-p'e-a-sï-i
+Misitu-echa-iri uichu-echa =e-p'e-sï-ki
+Uichu-echa misitu-echa =e-chi-sï-i
+Uichu-echa misitu-echa-iri =e-pʰera-sï-ti
+Misitu-echa uichu-echa =e-ŋka-sï-ti
+Misitu-echa-iri uichu-echa =e-pʰera-sï-ki
+Uichu-echa misitu-echa =e-kuɽa-sï-i
+Uichu-echa misitu-echa-iri =e-a-sï-ti
+Misitu-echa =e-kuɽa-sï-i uichu-echa
+Uichu-echa misitu-echa =e-chi-a-sï-i
+Uichu-echa misitu-echa =e-p'e-a-ka
+Uichu-echa misitu-echa =e-ŋka-sï-i
+Uichu-echa misitu-echa =e-ŋka-ka
+Uichu-echa misitu-echa =e-pʰera-a-sï-i
+Uichu-echa misitu-echa =e-kuɽa-a-ka
+Uichu-echa misitu-echa =e-kuɽa-a-sï-i
+Uichu-echa misitu-echa =e-pʰera-a-ka
+Uichu-echa misitu-echa =e-ŋka-a-sï-i
+Uichu-echa misitu-echa =e-chi-a-ka
+Misitu-echa uichu-echa =e-ka
+Uichu-echa misitu-echa-iri =e-kuɽa-a-sï-ki
+Misitu-echa-iri =e-p'e-sï-ti uichu-echa
+Uichu-echa misitu-echa =e-chi-sï-ki
+Misitu-echa =e-ŋka-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-a-sï-ti
+Uichu-echa misitu-echa =e-pʰera-sï-ki
+Misitu-echa-iri uichu-echa =e-pʰera-a-sï
+Misitu-echa-iri uichu-echa =e-a-sï-i
+Misitu-echa-iri =e-a-sï-ti uichu-echa
+Uichu-echa misitu-echa-iri =e-ŋka-a-sï-ki
+Misitu-echa-iri uichu-echa =e-chi-a-sï
+Misitu-echa uichu-echa =e-chi-sï-ti
+Misitu-echa-iri =e-pʰera-sï-ti uichu-echa
+Misitu-echa-iri uichu-echa =e-ŋka-a-sï
+Misitu-echa-iri uichu-echa =e-chi-a-ka
+Misitu-echa uichu-echa =e-p'e-ka
+Uichu-echa misitu-echa-iri =e-chi-sï-i
+Misitu-echa-iri =e-p'e-a-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-kuɽa-ka
+Uichu-echa misitu-echa-iri =e-kuɽa-sï-i
+Misitu-echa-iri =e-chi-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-pʰera-ka
+Misitu-echa-iri =e-kuɽa-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-chi-ka
+Misitu-echa-iri =e-ŋka-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-a-ka
+Misitu-echa-iri =e-pʰera-a-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-ŋka-ka
+Misitu-echa-iri =e-kuɽa-a-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-p'e-a-ka
+Misitu-echa-iri =e-ŋka-a-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-kuɽa-a-ka
+Misitu-echa-iri =e-chi-a-sï-ti uichu-echa
+Misitu-echa uichu-echa =e-chi-a-ka
+Uichu-echa misitu-echa-iri =e-chi-ka
+Uichu-echa misitu-echa =e-kuɽa-sï-ti
+Uichu-echa misitu-echa-iri =e-a-sï
+Uichu-echa misitu-echa-iri =e-pʰera-ka
+Uichu-echa misitu-echa =e-p'e-a-sï-ti
+Uichu-echa misitu-echa-iri =e-p'e-a-sï
+Uichu-echa misitu-echa-iri =e-a-ka
+Uichu-echa misitu-echa =e-chi-sï-ti
+Misitu-echa uichu-echa =e-p'e-sï
+Uichu-echa misitu-echa =e-ŋka-a-ka
+Misitu-echa =e-p'e-a-sï-ki uichu-echa
+Uichu-echa misitu-echa-iri =e-kuɽa-ka
+Misitu-echa uichu-echa =e-kuɽa-sï
+Misitu-echa uichu-echa =e-pʰera-a-ka
+Misitu-echa uichu-echa =e-a-sï
+Misitu-echa uichu-echa =e-ŋka-a-ka
+Misitu-echa uichu-echa =e-ŋka-sï
+Misitu-echa uichu-echa =e-a-sï-i
+Misitu-echa uichu-echa =e-kuɽa-sï-ki
+Uichu-echa misitu-echa-iri =e-ŋka-sï-ti
+Uichu-echa misitu-echa-iri =e-pʰera-a-sï
+Misitu-echa uichu-echa =e-p'e-a-sï
+Uichu-echa misitu-echa-iri =e-chi-a-sï-i
+Uichu-echa misitu-echa-iri =e-ŋka-a-sï
+Misitu-echa-iri =e-a-sï-i uichu-echa
+Uichu-echa misitu-echa-iri =e-ŋka-sï-i
+Uichu-echa misitu-echa-iri =e-chi-a-sï
+Misitu-echa-iri =e-pʰera-sï-i uichu-echa
+Uichu-echa misitu-echa-iri =e-kuɽa-a-sï
+Misitu-echa-iri =e-p'e-a-sï-i uichu-echa
+Misitu-echa-iri =e-kuɽa-ka uichu-echa
+Misitu-echa =e-ŋka-sï-i uichu-echa
+Uichu-echa misitu-echa =e-ŋka-a-sï-ti
+Misitu-echa-iri =e-pʰera-a-sï-i uichu-echa
+Misitu-echa-iri uichu-echa =e-p'e-a-sï-i
+Uichu-echa misitu-echa-iri =e-pʰera-a-sï-i
+Misitu-echa-iri =e-ŋka-a-sï-i uichu-echa
+Misitu-echa uichu-echa =e-chi-sï
+Uichu-echa misitu-echa-iri =e-kuɽa-a-sï-i
+Misitu-echa-iri =e-chi-a-sï-i uichu-echa
+Misitu-echa uichu-echa =e-kuɽa-a-sï
+Misitu-echa-iri =e-kuɽa-a-sï-i uichu-echa
+Misitu-echa uichu-echa =e-pʰera-sï
+Misitu-echa-iri uichu-echa =e-chi-sï-ki
+Uichu-echa misitu-echa =e-a-sï-ki
+Misitu-echa uichu-echa =e-a-sï-ki
+Misitu-echa =e-chi-sï-i uichu-echa
+Uichu-echa misitu-echa-iri =e-p'e-a-ka
+Misitu-echa-iri uichu-echa =e-chi-a-sï-i
+Misitu-echa =e-a-sï-i uichu-echa
+Misitu-echa-iri =e-pʰera-a-ka uichu-echa
+Misitu-echa uichu-echa =e-ŋka-sï-ki
+Misitu-echa-iri uichu-echa =e-pʰera-a-sï-i
+Uichu-echa misitu-echa-iri =e-ŋka-a-sï-i
+Misitu-echa uichu-echa =e-p'e-a-sï-ki
+Misitu-echa =e-pʰera-a-sï-ti uichu-echa
+Misitu-echa-iri uichu-echa =e-pʰera-a-ka
+Misitu-echa uichu-echa =e-p'e-a-sï-i
+Misitu-echa =e-kuɽa-a-sï-ki uichu-echa
+Misitu-echa-iri uichu-echa =e-ŋka-a-ka
+Uichu-echa misitu-echa-iri =e-kuɽa-sï-ti
+Misitu-echa uichu-echa =e-p'e-a-sï-ti
+Misitu-echa uichu-echa =e-pʰera-a-sï
+Uichu-echa misitu-echa =e-ŋka-sï-ki
+Misitu-echa-iri uichu-echa =e-ŋka-a-sï-i
+Uichu-echa misitu-echa-iri =e-ŋka-ka
+Uichu-echa misitu-echa =e-p'e-a-sï-ki
+Misitu-echa-iri uichu-echa =e-kuɽa-a-sï-i
+Misitu-echa-iri uichu-echa =e-kuɽa-sï-ki
+Misitu-echa =e-chi-a-sï-ki uichu-echa
+Misitu-echa uichu-echa =e-chi-a-sï
+Uichu-echa misitu-echa =e-pʰera-a-sï-ki
+Misitu-echa uichu-echa =e-pʰera-sï-ti
+Misitu-echa uichu-echa =e-ŋka-a-sï
+Misitu-echa uichu-echa =e-chi-a-sï-i
+Misitu-echa uichu-echa =e-pʰera-a-sï-ti
+Misitu-echa uichu-echa =e-pʰera-a-sï-i
+Misitu-echa uichu-echa =e-chi-a-sï-ti
+Misitu-echa uichu-echa =e-ŋka-a-sï-i
+Misitu-echa uichu-echa =e-kuɽa-a-sï-ti
+Misitu-echa uichu-echa =e-kuɽa-a-sï-i
+Misitu-echa uichu-echa =e-ŋka-a-sï-ti
+Uichu-echa misitu-echa =e-chi-a-sï-ti
+Misitu-echa-iri =e-ŋka-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-p'e-a-sï-ti
+Misitu-echa =e-pʰera-a-sï-ki uichu-echa
+Misitu-echa-iri uichu-echa =e-a-sï-ki
+Uichu-echa misitu-echa-iri =e-chi-sï-ti
+Misitu-echa =e-ŋka-a-sï-ki uichu-echa
+Misitu-echa uichu-echa =e-kuɽa-a-sï-ki
+Uichu-echa misitu-echa-iri =e-ŋka-a-sï-ti
+Misitu-echa uichu-echa =e-pʰera-a-sï-ki
+Uichu-echa misitu-echa-iri =e-chi-a-sï-ti
+Misitu-echa uichu-echa =e-chi-a-sï-ki
+Uichu-echa misitu-echa-iri =e-kuɽa-a-sï-ti
+Misitu-echa uichu-echa =e-ŋka-a-sï-ki
+Uichu-echa misitu-echa-iri =e-pʰera-a-sï-ti
+Misitu-echa =e-pʰera-sï-i uichu-echa
+Uichu-echa misitu-echa-iri =e-kuɽa-a-ka
+Uichu-echa misitu-echa =e-kuɽa-a-sï-ti
+Misitu-echa-iri uichu-echa =e-ŋka-sï-ki
+Uichu-echa misitu-echa-iri =e-pʰera-a-ka
+Uichu-echa misitu-echa =e-pʰera-a-sï-ti
+Misitu-echa-iri uichu-echa =e-p'e-a-sï-ki
+Uichu-echa misitu-echa-iri =e-chi-a-ka
+Uichu-echa misitu-echa =e-chi-a-sï-ki
+Misitu-echa-iri =e-ŋka-a-ka uichu-echa
+Uichu-echa misitu-echa-iri =e-ŋka-a-ka
+Uichu-echa misitu-echa =e-kuɽa-a-sï-ki
+Misitu-echa =e-kuɽa-a-sï-ti uichu-echa
+Misitu-echa-iri uichu-echa =e-kuɽa-a-sï-ki
+Uichu-echa misitu-echa =e-ŋka-a-sï-ki
+Misitu-echa-iri uichu-echa =e-pʰera-a-sï-ki
+Misitu-echa =e-p'e-a-sï-i uichu-echa
+Misitu-echa =e-ŋka-a-sï-ti uichu-echa
+Misitu-echa-iri uichu-echa =e-chi-a-sï-ki
+Misitu-echa =e-pʰera-a-sï-i uichu-echa
+Misitu-echa =e-chi-a-sï-ti uichu-echa
+Misitu-echa-iri uichu-echa =e-ŋka-a-sï-ki
+Misitu-echa-iri =e-kuɽa-a-ka uichu-echa
+Misitu-echa =e-ŋka-a-sï-i uichu-echa
+Misitu-echa-iri =e-chi-a-ka uichu-echa
+Misitu-echa =e-chi-a-sï-i uichu-echa
+Misitu-echa =e-kuɽa-a-sï-i uichu-echa
+NOTE: 144 passive, 518 active edges in final generation chart; built 277 passives total. [360 results]
+
+NOTE: generated 1 / 1 sentences, avg 34624k, time 0.33027s
+NOTE: transfer did 6 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+18 Getting the translation of 'The dog s car sleeps'
+18 Translating into 'uichu-eri motsitarhakua k'ui-x-ti'
+
+
+NOTE: 1 readings, added 147 / 42 edges to chart (12 fully instantiated, 19 actives used, 8 passives used)	RAM: 448k
+NOTE: 1 transfer results	RAM: 28k
+NOTE: parsed 1 / 1 sentences, avg 448k, time 0.01095s
+NOTE: transfered 0 / 1 sentences, avg 28k, time 0.00734s
+Motsitarhakua uichu-iri k'ui-ka
+Motsitarhakua uichu-iri k'ui-sï-ti
+K'ui-sï-ti motsitarhakua uichu-iri
+Uichu-iri motsitarhakua k'ui-sï
+K'ui-sï-ki motsitarhakua uichu-iri
+K'ui-sï-ti uichu-iri motsitarhakua
+Uichu-iri motsitarhakua k'ui-ŋka-sï
+K'ui-sï motsitarhakua uichu-iri
+K'ui-sï uichu-iri motsitarhakua
+K'ui-sï-ki uichu-iri motsitarhakua
+K'ui-ŋka-sï motsitarhakua uichu-iri
+Uichu-iri motsitarhakua k'ui-sï-i
+K'ui-ŋka-sï-ki uichu-iri motsitarhakua
+K'ui-kuɽa-sï motsitarhakua uichu-iri
+Uichu-iri motsitarhakua k'ui-ŋka-sï-i
+Motsitarhakua uichu-iri k'ui-ŋka-sï-ti
+Uichu-iri motsitarhakua k'ui-kuɽa-sï-i
+Motsitarhakua uichu-iri k'ui-p'e-sï-ti
+Uichu-iri motsitarhakua k'ui-p'e-sï-i
+Motsitarhakua uichu-iri k'ui-kuɽa-sï-ti
+Uichu-iri motsitarhakua k'ui-pʰera-sï-i
+Motsitarhakua uichu-iri k'ui-pʰera-sï-ti
+Motsitarhakua uichu-iri k'ui-sï
+Motsitarhakua uichu-iri k'ui-sï-i
+Uichu-iri motsitarhakua k'ui-ka
+Motsitarhakua uichu-iri k'ui-ŋka-ka
+K'ui-pʰera-sï motsitarhakua uichu-iri
+Motsitarhakua uichu-iri k'ui-ŋka-sï-i
+K'ui-sï-i uichu-iri motsitarhakua
+Motsitarhakua uichu-iri k'ui-kuɽa-ka
+K'ui-ka motsitarhakua uichu-iri
+K'ui-ŋka-sï-ti motsitarhakua uichu-iri
+Uichu-iri motsitarhakua k'ui-p'e-sï
+Motsitarhakua uichu-iri k'ui-ŋka-sï
+K'ui-ŋka-sï uichu-iri motsitarhakua
+K'ui-ŋka-sï-ti uichu-iri motsitarhakua
+Uichu-iri motsitarhakua k'ui-sï-ki
+K'ui-p'e-sï motsitarhakua uichu-iri
+Motsitarhakua uichu-iri k'ui-p'e-ka
+K'ui-ŋka-sï-ki motsitarhakua uichu-iri
+Uichu-iri motsitarhakua k'ui-kuɽa-sï
+K'ui-ŋka-ka motsitarhakua uichu-iri
+Uichu-iri motsitarhakua k'ui-pʰera-sï
+K'ui-pʰera-ka motsitarhakua uichu-iri
+Motsitarhakua uichu-iri k'ui-sï-ki
+Uichu-iri motsitarhakua k'ui-sï-ti
+Motsitarhakua uichu-iri k'ui-kuɽa-sï-i
+K'ui-p'e-sï-ki motsitarhakua uichu-iri
+K'ui-ŋka-sï-i uichu-iri motsitarhakua
+Uichu-iri motsitarhakua k'ui-ŋka-sï-ti
+K'ui-kuɽa-sï-ki motsitarhakua uichu-iri
+K'ui-p'e-sï-ki uichu-iri motsitarhakua
+Motsitarhakua uichu-iri k'ui-pʰera-ka
+K'ui-pʰera-sï-ti motsitarhakua uichu-iri
+K'ui-kuɽa-sï-ki uichu-iri motsitarhakua
+K'ui-p'e-sï-ti motsitarhakua uichu-iri
+K'ui-pʰera-sï-ki uichu-iri motsitarhakua
+K'ui-kuɽa-sï-ti motsitarhakua uichu-iri
+K'ui-sï-i motsitarhakua uichu-iri
+Uichu-iri motsitarhakua k'ui-ŋka-ka
+Uichu-iri motsitarhakua k'ui-ŋka-sï-ki
+K'ui-pʰera-sï-ki motsitarhakua uichu-iri
+K'ui-pʰera-sï-ti uichu-iri motsitarhakua
+Motsitarhakua uichu-iri k'ui-p'e-sï-i
+Uichu-iri motsitarhakua k'ui-kuɽa-sï-ki
+K'ui-pʰera-sï-i uichu-iri motsitarhakua
+Motsitarhakua uichu-iri k'ui-pʰera-sï-i
+K'ui-p'e-ka motsitarhakua uichu-iri
+K'ui-p'e-sï-ti uichu-iri motsitarhakua
+K'ui-kuɽa-ka motsitarhakua uichu-iri
+K'ui-kuɽa-sï-ti uichu-iri motsitarhakua
+K'ui-ka uichu-iri motsitarhakua
+K'ui-kuɽa-sï uichu-iri motsitarhakua
+K'ui-ŋka-sï-i motsitarhakua uichu-iri
+Uichu-iri motsitarhakua k'ui-kuɽa-ka
+K'ui-ŋka-ka uichu-iri motsitarhakua
+K'ui-pʰera-sï-i motsitarhakua uichu-iri
+Motsitarhakua uichu-iri k'ui-ŋka-sï-ki
+K'ui-p'e-sï-i motsitarhakua uichu-iri
+Motsitarhakua uichu-iri k'ui-kuɽa-sï-ki
+K'ui-kuɽa-sï-i motsitarhakua uichu-iri
+Motsitarhakua uichu-iri k'ui-pʰera-sï-ki
+Motsitarhakua uichu-iri k'ui-p'e-sï
+Uichu-iri motsitarhakua k'ui-pʰera-sï-ki
+K'ui-pʰera-ka uichu-iri motsitarhakua
+Uichu-iri motsitarhakua k'ui-p'e-sï-ki
+K'ui-p'e-ka uichu-iri motsitarhakua
+Uichu-iri motsitarhakua k'ui-p'e-sï-ti
+K'ui-pʰera-sï uichu-iri motsitarhakua
+Uichu-iri motsitarhakua k'ui-p'e-ka
+Uichu-iri motsitarhakua k'ui-kuɽa-sï-ti
+Uichu-iri motsitarhakua k'ui-pʰera-ka
+Uichu-iri motsitarhakua k'ui-pʰera-sï-ti
+K'ui-p'e-sï-i uichu-iri motsitarhakua
+Motsitarhakua uichu-iri k'ui-kuɽa-sï
+K'ui-kuɽa-ka uichu-iri motsitarhakua
+K'ui-kuɽa-sï-i uichu-iri motsitarhakua
+Motsitarhakua uichu-iri k'ui-p'e-sï-ki
+Motsitarhakua uichu-iri k'ui-pʰera-sï
+K'ui-p'e-sï uichu-iri motsitarhakua
+NOTE: 154 passive, 612 active edges in final generation chart; built 226 passives total. [100 results]
+
+NOTE: generated 1 / 1 sentences, avg 15623k, time 0.11418s
+NOTE: transfer did 8 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+19 Getting the translation of 'My dogs sleep'
+19 Translating into 'juchi uichu-echa k'ui-x-ti'
+
+
+NOTE: 1 readings, added 86 / 31 edges to chart (13 fully instantiated, 14 actives used, 6 passives used)	RAM: 279k
+NOTE: 1 transfer results	RAM: 28k
+NOTE: parsed 1 / 1 sentences, avg 279k, time 0.00630s
+NOTE: transfered 0 / 1 sentences, avg 28k, time 0.00714s
+Uichu-echa najtuka k'ui-ka
+Uichu-echa najtuka k'ui-sï-ti
+K'ui-ka uichu-echa najtuka
+Najtuka uichu-echa k'ui-sï
+Najtuka uichu-echa k'ui-sï-ki
+Najtuka uichu-echa k'ui-ka
+K'ui-ka uichu-echa noompi
+Uichu-echa najtuka k'ui-ŋka-ka
+Najtuka uichu-echa k'ui-ŋka-sï-ki
+Noompi uichu-echa k'ui-sï-ki
+K'ui-ka uichu-echa iamintu
+Uichu-echa najtuka k'ui-sï-i
+K'ui-sï-i uichu-echa najtuka
+K'ui-sï-i najtuka uichu-echa
+K'ui-ka uichu-echa jinteni
+Uichu-echa najtuka k'ui-ŋka-sï-i
+K'ui-sï-i uichu-echa noompi
+K'ui-ŋka-sï-i najtuka uichu-echa
+K'ui-sï-ti najtuka uichu-echa
+Uichu-echa najtuka k'ui-ŋka-sï-ti
+Uichu-echa noompi k'ui-sï-ti
+K'ui-sï-ti noompi uichu-echa
+K'ui-sï-ti uichu-echa najtuka
+Tsa uichu-echa k'ui-sï-ki
+K'ui-sï-i uichu-echa iamintu
+K'ui-ŋka-sï-ti uichu-echa najtuka
+Hinteni uichu-echa k'ui-sï-ki
+K'ui-sï-i uichu-echa jinteni
+K'ui-pʰera-sï-ti uichu-echa najtuka
+K'ui-sï najtuka uichu-echa
+K'ui-sï-ti tsa uichu-echa
+K'ui-p'e-sï-ti uichu-echa najtuka
+K'ui-ŋka-sï najtuka uichu-echa
+K'ui-sï-i noompi uichu-echa
+K'ui-p'e-sï najtuka uichu-echa
+K'ui-ŋka-sï-i noompi uichu-echa
+K'ui-kuɽa-sï najtuka uichu-echa
+Uichu-echa najtuka k'ui-sï
+K'ui-sï uichu-echa najtuka
+Najtuka uichu-echa k'ui-ŋka-sï
+K'ui-ŋka-sï-ti najtuka uichu-echa
+Iamintu uichu-echa k'ui-sï-ki
+Uichu-echa najtuka k'ui-ŋka-sï
+Uichu-echa noompi k'ui-sï
+Uichu-echa noompi k'ui-ŋka-sï-ti
+K'ui-pʰera-sï-i najtuka uichu-echa
+K'ui-kuɽa-sï-ti uichu-echa najtuka
+Uichu-echa noompi k'ui-ŋka-sï
+Uichu-echa hutʃeeti k'ui-sï-ti
+K'ui-p'e-sï-i najtuka uichu-echa
+Noompi uichu-echa k'ui-sï
+Uichu-echa najtuka k'ui-p'e-sï-i
+K'ui-pʰera-sï-i noompi uichu-echa
+Uichu-echa hutʃeeti k'ui-ŋka-sï-ti
+Tsa uichu-echa k'ui-sï
+K'ui-sï uichu-echa noompi
+Noompi uichu-echa k'ui-ka
+K'ui-sï-i uichu-echa hutʃeeti
+K'ui-sï uichu-echa iamintu
+K'ui-ŋka-sï uichu-echa najtuka
+K'ui-sï uichu-echa jinteni
+K'ui-p'e-sï uichu-echa najtuka
+K'ui-ŋka-sï uichu-echa noompi
+K'ui-p'e-sï uichu-echa noompi
+K'ui-ŋka-sï uichu-echa iamintu
+Uichu-echa najtuka k'ui-sï-ki
+Najtuka uichu-echa k'ui-sï-ti
+Uichu-echa najtuka k'ui-kuɽa-ka
+K'ui-sï noompi uichu-echa
+Uichu-echa jinteni k'ui-sï-ti
+K'ui-kuɽa-sï uichu-echa najtuka
+K'ui-p'e-sï uichu-echa iamintu
+Noompi uichu-echa k'ui-ŋka-sï
+Najtuka uichu-echa k'ui-p'e-sï
+Uichu-echa najtuka k'ui-ŋka-sï-ki
+K'ui-pʰera-sï uichu-echa najtuka
+K'ui-sï uichu-echa hutʃeeti
+Najtuka uichu-echa k'ui-ŋka-sï-ti
+K'ui-ka uichu-echa hutʃeeti
+Noompi uichu-echa k'ui-sï-ti
+K'ui-p'e-sï-i noompi uichu-echa
+K'ui-kuɽa-sï uichu-echa noompi
+Noompi uichu-echa k'ui-ŋka-sï-ti
+K'ui-sï-ki najtuka uichu-echa
+Uichu-echa noompi k'ui-sï-i
+K'ui-ŋka-sï uichu-echa jinteni
+K'ui-kuɽa-sï uichu-echa iamintu
+Uichu-echa hutʃeeti k'ui-sï
+Uichu-echa najtuka k'ui-pʰera-sï-ki
+K'ui-p'e-sï uichu-echa jinteni
+Uichu-echa jinteni k'ui-sï
+Uichu-echa najtuka k'ui-p'e-sï-ki
+K'ui-kuɽa-sï uichu-echa jinteni
+Uichu-echa hucheeti k'ui-sï
+Uichu-echa najtuka k'ui-kuɽa-sï-ki
+Najtuka uichu-echa k'ui-pʰera-sï-ki
+Tsa uichu-echa k'ui-ka
+Noompi uichu-echa k'ui-p'e-sï
+Najtuka uichu-echa k'ui-p'e-sï-ki
+Uichu-echa iamintu k'ui-sï
+K'ui-ŋka-sï uichu-echa hutʃeeti
+Najtuka uichu-echa k'ui-kuɽa-sï-ki
+K'ui-ŋka-sï-ti noompi uichu-echa
+Najtuka uichu-echa k'ui-kuɽa-sï-ti
+Uichu-echa noompi k'ui-ŋka-sï-i
+K'ui-ŋka-sï-ti tsa uichu-echa
+Najtuka uichu-echa k'ui-pʰera-sï-ti
+Uichu-echa najtuka k'ui-p'e-ka
+K'ui-sï-ki noompi uichu-echa
+Najtuka uichu-echa k'ui-p'e-sï-ti
+Uichu-echa najtuka k'ui-pʰera-ka
+K'ui-sï-ki tsa uichu-echa
+K'ui-sï-ki uichu-echa najtuka
+K'ui-ka najtuka uichu-echa
+K'ui-ŋka-ka uichu-echa najtuka
+Uichu-echa najtuka k'ui-kuɽa-sï-ti
+Uichu-echa hucheeti k'ui-sï-ti
+Uichu-echa hutʃeeti k'ui-ŋka-sï
+K'ui-pʰera-sï-ti najtuka uichu-echa
+Uichu-echa tsa k'ui-sï
+Uichu-echa jinteni k'ui-ŋka-sï-ti
+K'ui-ŋka-sï-i uichu-echa najtuka
+K'ui-pʰera-sï najtuka uichu-echa
+K'ui-sï tsa uichu-echa
+K'ui-p'e-sï-ti najtuka uichu-echa
+Hinteni uichu-echa k'ui-sï
+K'ui-pʰera-sï-i uichu-echa najtuka
+K'ui-sï-ti uichu-echa noompi
+K'ui-kuɽa-sï-ti najtuka uichu-echa
+K'ui-sï-ti uichu-echa iamintu
+Uichu-echa noompi k'ui-ka
+Uichu-echa najtuka k'ui-p'e-sï
+Hinteni uichu-echa k'ui-ka
+K'ui-ŋka-ka uichu-echa noompi
+Uichu-echa hutʃeeti k'ui-ka
+K'ui-kuɽa-sï-i najtuka uichu-echa
+Uichu-echa noompi k'ui-ŋka-ka
+Uichu-echa jinteni k'ui-ka
+K'ui-sï-i tsa uichu-echa
+K'ui-sï uichu-echa tsa
+K'ui-ŋka-sï-i tsa uichu-echa
+K'ui-sï-i uichu-echa tsa
+K'ui-ŋka-ka najtuka uichu-echa
+Uichu-echa hucheeti k'ui-ka
+K'ui-sï-i uichu-echa hucheeti
+K'ui-kuɽa-ka najtuka uichu-echa
+Uichu-echa iamintu k'ui-ka
+K'ui-sï-ki uichu-echa noompi
+K'ui-sï hinteni uichu-echa
+Iamintu uichu-echa k'ui-sï
+K'ui-sï-ki uichu-echa iamintu
+K'ui-pʰera-sï-i tsa uichu-echa
+K'ui-sï-ki uichu-echa jinteni
+K'ui-p'e-sï-i tsa uichu-echa
+Najtuka uichu-echa k'ui-sï-i
+Noompi uichu-echa k'ui-ŋka-sï-ki
+Hutʃeeti uichu-echa k'ui-sï-ki
+K'ui-ŋka-sï noompi uichu-echa
+K'ui-p'e-sï-i uichu-echa najtuka
+Noompi uichu-echa k'ui-sï-i
+Uichu-echa noompi k'ui-p'e-sï-i
+K'ui-ŋka-ka uichu-echa iamintu
+K'ui-kuɽa-sï-i uichu-echa najtuka
+Uichu-echa najtuka k'ui-kuɽa-sï-i
+K'ui-ka uichu-echa tsa
+K'ui-kuɽa-sï-i noompi uichu-echa
+Hutʃeeti uichu-echa k'ui-sï
+K'ui-p'e-sï noompi uichu-echa
+K'ui-ŋka-sï-ki najtuka uichu-echa
+Tsa uichu-echa k'ui-ŋka-sï
+Uichu-echa noompi k'ui-kuɽa-sï-ti
+K'ui-kuɽa-sï-i tsa uichu-echa
+Uichu-echa jinteni k'ui-ŋka-sï
+Uichu-echa hutʃeeti k'ui-kuɽa-sï-ti
+K'ui-sï-ki hinteni uichu-echa
+Uichu-echa hutʃeeti k'ui-sï-i
+K'ui-pʰera-ka najtuka uichu-echa
+K'ui-ŋka-sï-ki noompi uichu-echa
+Hucheeti uichu-echa k'ui-sï-ki
+Iamintu uichu-echa k'ui-ka
+K'ui-pʰera-sï uichu-echa noompi
+K'ui-kuɽa-ka uichu-echa najtuka
+K'ui-sï-i hinteni uichu-echa
+K'ui-kuɽa-sï noompi uichu-echa
+K'ui-pʰera-sï uichu-echa iamintu
+K'ui-pʰera-ka uichu-echa najtuka
+K'ui-sï uichu-echa hucheeti
+Tsa uichu-echa k'ui-p'e-sï
+Noompi uichu-echa k'ui-kuɽa-sï-ti
+K'ui-sï-ti uichu-echa jinteni
+Hutʃeeti uichu-echa k'ui-ka
+Uichu-echa najtuka k'ui-kuɽa-sï
+Uichu-echa najtuka k'ui-pʰera-sï
+Uichu-echa hinteni k'ui-sï
+Uichu-echa noompi k'ui-kuɽa-sï-i
+K'ui-p'e-ka najtuka uichu-echa
+K'ui-pʰera-sï noompi uichu-echa
+Tsa uichu-echa k'ui-sï-i
+Hucheeti uichu-echa k'ui-ka
+K'ui-sï-ki iamintu uichu-echa
+K'ui-sï uichu-echa hinteni
+Jinteni uichu-echa k'ui-ka
+K'ui-sï uichu-echa hutʃi
+Jutʃiti uichu-echa k'ui-ka
+Juchiti uichu-echa k'ui-ka
+K'ui-sï uichu-echa juchi
+Juchi uichu-echa k'ui-ka
+K'ui-sï uichu-echa huchiti
+Huchiti uichu-echa k'ui-ka
+K'ui-sï uichu-echa jutʃeeti
+Jucheeti uichu-echa k'ui-ka
+K'ui-sï uichu-echa hutʃiti
+Jutʃeeti uichu-echa k'ui-ka
+K'ui-sï uichu-echa jutʃi
+Hutʃi uichu-echa k'ui-ka
+K'ui-sï uichu-echa juchiti
+Huchi uichu-echa k'ui-ka
+K'ui-sï uichu-echa huchi
+Jutʃi uichu-echa k'ui-ka
+K'ui-sï uichu-echa jucheeti
+Hutʃiti uichu-echa k'ui-ka
+K'ui-sï uichu-echa jutʃiti
+Najtuka uichu-echa k'ui-ŋka-ka
+Najtuka uichu-echa k'ui-kuɽa-sï
+K'ui-ka noompi uichu-echa
+K'ui-ŋka-sï-i uichu-echa noompi
+K'ui-ka uichu-echa hucheeti
+Noompi uichu-echa k'ui-ŋka-ka
+K'ui-sï iamintu uichu-echa
+K'ui-ka uichu-echa hinteni
+Uichu-echa najtuka k'ui-pʰera-sï-ti
+K'ui-sï-ki uichu-echa hutʃeeti
+K'ui-sï-ti hinteni uichu-echa
+Noompi uichu-echa k'ui-pʰera-sï-ki
+Noompi uichu-echa k'ui-kuɽa-sï
+K'ui-sï-ki uichu-echa tsa
+Uichu-echa hutʃeeti k'ui-ŋka-ka
+Noompi uichu-echa k'ui-p'e-sï-ki
+Uichu-echa najtuka k'ui-p'e-sï-ti
+Uichu-echa jinteni k'ui-ŋka-ka
+Tsa uichu-echa k'ui-sï-ti
+Uichu-echa noompi k'ui-kuɽa-ka
+K'ui-ŋka-sï tsa uichu-echa
+K'ui-sï-ki hutʃeeti uichu-echa
+K'ui-ŋka-sï-i uichu-echa iamintu
+K'ui-ŋka-sï-ki tsa uichu-echa
+K'ui-sï hutʃeeti uichu-echa
+Tsa uichu-echa k'ui-ŋka-sï-ki
+Uichu-echa hucheeti k'ui-ŋka-ka
+K'ui-pʰera-sï uichu-echa jinteni
+Hinteni uichu-echa k'ui-ŋka-sï-ki
+Uichu-echa noompi k'ui-p'e-sï
+Uichu-echa tsa k'ui-ka
+K'ui-kuɽa-ka uichu-echa noompi
+Hinteni uichu-echa k'ui-sï-ti
+Tsa uichu-echa k'ui-pʰera-sï-ki
+K'ui-p'e-ka uichu-echa najtuka
+Uichu-echa hutʃeeti k'ui-ŋka-sï-i
+K'ui-p'e-sï tsa uichu-echa
+K'ui-ŋka-ka noompi uichu-echa
+K'ui-sï-i uichu-echa hinteni
+K'ui-ka tsa uichu-echa
+K'ui-ŋka-sï-i uichu-echa jinteni
+Uichu-echa hinteni k'ui-ka
+K'ui-sï-ki uichu-echa hucheeti
+K'ui-sï-i iamintu uichu-echa
+K'ui-kuɽa-ka uichu-echa iamintu
+K'ui-kuɽa-ka noompi uichu-echa
+Tsa uichu-echa k'ui-ŋka-sï-ti
+Hinteni uichu-echa k'ui-ŋka-sï-ti
+K'ui-ka hinteni uichu-echa
+Uichu-echa noompi k'ui-sï-ki
+K'ui-ŋka-sï-ki uichu-echa najtuka
+K'ui-ŋka-sï-ti uichu-echa noompi
+Uichu-echa najtuka k'ui-pʰera-sï-i
+Noompi uichu-echa k'ui-kuɽa-sï-ki
+Iamintu uichu-echa k'ui-ŋka-sï-ki
+K'ui-sï-i uichu-echa hutʃi
+Najtuka uichu-echa k'ui-ŋka-sï-i
+K'ui-sï-ti uichu-echa hutʃeeti
+K'ui-pʰera-ka uichu-echa noompi
+Noompi uichu-echa k'ui-pʰera-sï-ti
+K'ui-ŋka-sï-ki uichu-echa noompi
+K'ui-p'e-ka uichu-echa noompi
+K'ui-pʰera-ka uichu-echa iamintu
+K'ui-ŋka-sï-ki uichu-echa iamintu
+Uichu-echa hucheeti k'ui-ŋka-sï-ti
+Uichu-echa jinteni k'ui-sï-i
+K'ui-pʰera-sï-i uichu-echa noompi
+K'ui-p'e-ka uichu-echa iamintu
+Tsa uichu-echa k'ui-kuɽa-sï
+Jinteni uichu-echa k'ui-sï-ki
+K'ui-sï-i hutʃeeti uichu-echa
+Uichu-echa noompi k'ui-pʰera-sï-ti
+K'ui-ŋka-sï-ki hinteni uichu-echa
+K'ui-sï-i uichu-echa juchi
+K'ui-sï-i jinteni uichu-echa
+Uichu-echa noompi k'ui-p'e-sï-ti
+K'ui-sï-i uichu-echa huchiti
+K'ui-sï-i hucheeti uichu-echa
+K'ui-ŋka-ka uichu-echa jinteni
+K'ui-ka uichu-echa hutʃi
+Uichu-echa noompi k'ui-kuɽa-sï
+Uichu-echa hutʃeeti k'ui-kuɽa-ka
+Uichu-echa noompi k'ui-ŋka-sï-ki
+Uichu-echa hucheeti k'ui-sï-i
+Uichu-echa noompi k'ui-pʰera-sï-ki
+Uichu-echa iamintu k'ui-sï-i
+Uichu-echa noompi k'ui-p'e-sï-ki
+Najtuka uichu-echa k'ui-kuɽa-ka
+Noompi uichu-echa k'ui-ŋka-sï-i
+Uichu-echa noompi k'ui-pʰera-sï-i
+Uichu-echa noompi k'ui-pʰera-sï
+Uichu-echa tsa k'ui-sï-i
+K'ui-ŋka-sï-ki uichu-echa jinteni
+Najtuka uichu-echa k'ui-p'e-ka
+Najtuka uichu-echa k'ui-pʰera-ka
+K'ui-ŋka-sï-ki uichu-echa hutʃeeti
+K'ui-pʰera-sï-ti noompi uichu-echa
+Uichu-echa hucheeti k'ui-ŋka-sï
+Hinteni uichu-echa k'ui-pʰera-sï-ki
+K'ui-kuɽa-sï tsa uichu-echa
+K'ui-ŋka-ka uichu-echa hutʃeeti
+Tsa uichu-echa k'ui-p'e-sï-ki
+Hinteni uichu-echa k'ui-sï-i
+Uichu-echa jutʃiti k'ui-ka
+K'ui-pʰera-sï tsa uichu-echa
+K'ui-ŋka-ka uichu-echa tsa
+Tsa uichu-echa k'ui-ŋka-sï-i
+Najtuka uichu-echa k'ui-p'e-sï-i
+K'ui-ŋka-ka tsa uichu-echa
+K'ui-ka uichu-echa juchi
+Hucheeti uichu-echa k'ui-sï
+K'ui-pʰera-sï-ki najtuka uichu-echa
+Najtuka uichu-echa k'ui-pʰera-sï
+Uichu-echa hutʃeeti k'ui-p'e-sï-i
+K'ui-ŋka-sï-i uichu-echa hutʃeeti
+K'ui-ŋka-ka hinteni uichu-echa
+K'ui-pʰera-sï-ki noompi uichu-echa
+K'ui-sï jinteni uichu-echa
+Noompi uichu-echa k'ui-p'e-sï-ti
+Noompi uichu-echa k'ui-p'e-sï-i
+K'ui-sï-i jutʃiti uichu-echa
+K'ui-sï hucheeti uichu-echa
+K'ui-pʰera-sï-ti uichu-echa noompi
+Uichu-echa jinteni k'ui-kuɽa-sï-ti
+K'ui-ŋka-sï-ti uichu-echa iamintu
+Tsa uichu-echa k'ui-p'e-sï-i
+K'ui-sï jutʃiti uichu-echa
+Uichu-echa hucheeti k'ui-kuɽa-sï-ti
+K'ui-ŋka-sï-ti uichu-echa jinteni
+K'ui-sï-i uichu-echa jutʃeeti
+K'ui-p'e-sï-ti uichu-echa noompi
+Tsa uichu-echa k'ui-ŋka-ka
+K'ui-p'e-sï-i uichu-echa noompi
+K'ui-ŋka-sï-i uichu-echa tsa
+Hinteni uichu-echa k'ui-ŋka-ka
+Iamintu uichu-echa k'ui-sï-ti
+Noompi uichu-echa k'ui-pʰera-sï
+K'ui-ŋka-sï-i uichu-echa hucheeti
+K'ui-sï-ti uichu-echa tsa
+K'ui-p'e-sï uichu-echa hutʃeeti
+K'ui-kuɽa-sï-i uichu-echa noompi
+Uichu-echa hutʃeeti k'ui-kuɽa-sï-i
+K'ui-sï-ti uichu-echa hucheeti
+K'ui-ŋka-sï-ki uichu-echa tsa
+K'ui-sï-ti uichu-echa hinteni
+K'ui-ŋka-sï-ki uichu-echa hucheeti
+K'ui-sï-ti uichu-echa hutʃi
+Uichu-echa iamintu k'ui-sï-ti
+Uichu-echa jutʃiti k'ui-sï
+K'ui-sï-ki jinteni uichu-echa
+Tsa uichu-echa k'ui-kuɽa-sï-ki
+Noompi uichu-echa k'ui-kuɽa-ka
+K'ui-sï-i hutʃiti uichu-echa
+K'ui-ka iamintu uichu-echa
+K'ui-kuɽa-sï-ti uichu-echa noompi
+K'ui-pʰera-sï-i uichu-echa iamintu
+K'ui-sï-i uichu-echa hutʃiti
+K'ui-pʰera-sï-ki tsa uichu-echa
+Uichu-echa hutʃeeti k'ui-p'e-sï
+K'ui-sï-i jutʃi uichu-echa
+Uichu-echa jinteni k'ui-ŋka-sï-i
+Uichu-echa juchi k'ui-sï
+K'ui-sï-i hutʃi uichu-echa
+Uichu-echa jinteni k'ui-p'e-sï-i
+Hinteni uichu-echa k'ui-ŋka-sï
+Uichu-echa iamintu k'ui-ŋka-ka
+K'ui-kuɽa-ka uichu-echa jinteni
+K'ui-pʰera-sï-ti uichu-echa iamintu
+K'ui-sï-i uichu-echa jutʃi
+Hinteni uichu-echa k'ui-p'e-sï
+Uichu-echa tsa k'ui-ŋka-ka
+Uichu-echa hutʃeeti k'ui-pʰera-sï-ti
+Hinteni uichu-echa k'ui-p'e-sï-ki
+K'ui-ka hutʃeeti uichu-echa
+K'ui-kuɽa-sï uichu-echa hutʃeeti
+Uichu-echa hutʃeeti k'ui-p'e-sï-ti
+K'ui-ka jinteni uichu-echa
+K'ui-pʰera-sï-ti tsa uichu-echa
+Uichu-echa jinteni k'ui-kuɽa-sï-i
+Uichu-echa iamintu k'ui-ŋka-sï-ti
+K'ui-p'e-sï-ti uichu-echa iamintu
+Uichu-echa hinteni k'ui-ŋka-ka
+K'ui-ŋka-sï-i hinteni uichu-echa
+Uichu-echa jutʃiti k'ui-ŋka-ka
+K'ui-pʰera-sï-i hinteni uichu-echa
+Uichu-echa hutʃeeti k'ui-sï-ki
+K'ui-ka uichu-echa huchiti
+Uichu-echa tsa k'ui-sï-ti
+Iamintu uichu-echa k'ui-pʰera-sï-ki
+K'ui-p'e-sï-i hinteni uichu-echa
+K'ui-ŋka-sï hinteni uichu-echa
+Uichu-echa tsa k'ui-ŋka-sï-ti
+K'ui-p'e-sï-i uichu-echa iamintu
+K'ui-ŋka-ka uichu-echa hucheeti
+K'ui-pʰera-sï-ti uichu-echa jinteni
+K'ui-p'e-sï hinteni uichu-echa
+Uichu-echa hinteni k'ui-sï-ti
+K'ui-ŋka-ka uichu-echa hinteni
+K'ui-p'e-sï-ti uichu-echa jinteni
+Iamintu uichu-echa k'ui-sï-i
+Uichu-echa jutʃiti k'ui-sï-ti
+K'ui-ka uichu-echa jutʃeeti
+K'ui-sï-ki uichu-echa hinteni
+K'ui-ŋka-ka iamintu uichu-echa
+Tsa uichu-echa k'ui-kuɽa-ka
+Iamintu uichu-echa k'ui-p'e-sï-ki
+K'ui-sï-i jutʃeeti uichu-echa
+Jutʃiti uichu-echa k'ui-sï-ki
+Jinteni uichu-echa k'ui-sï
+K'ui-kuɽa-sï-i uichu-echa iamintu
+Uichu-echa iamintu k'ui-kuɽa-sï-ti
+K'ui-sï-i huchiti uichu-echa
+Iamintu uichu-echa k'ui-ŋka-sï
+K'ui-sï-ki uichu-echa hutʃi
+K'ui-ŋka-ka hutʃeeti uichu-echa
+Jutʃiti uichu-echa k'ui-sï
+K'ui-pʰera-sï-ki hinteni uichu-echa
+Juchiti uichu-echa k'ui-sï-ki
+Juchiti uichu-echa k'ui-sï
+K'ui-p'e-sï-ti noompi uichu-echa
+Uichu-echa jinteni k'ui-sï-ki
+K'ui-sï-i jucheeti uichu-echa
+Juchi uichu-echa k'ui-sï
+K'ui-kuɽa-sï-ti noompi uichu-echa
+K'ui-ŋka-sï-ki iamintu uichu-echa
+Huchiti uichu-echa k'ui-sï
+Hutʃeeti uichu-echa k'ui-ŋka-sï
+K'ui-ŋka-sï-ki hutʃeeti uichu-echa
+Uichu-echa jinteni k'ui-pʰera-sï-ti
+K'ui-ŋka-ka jinteni uichu-echa
+K'ui-sï-ki uichu-echa juchi
+Uichu-echa hinteni k'ui-ŋka-sï-ti
+K'ui-ŋka-sï-ki jinteni uichu-echa
+K'ui-sï-ki uichu-echa huchiti
+K'ui-ŋka-sï uichu-echa tsa
+Uichu-echa noompi k'ui-p'e-ka
+Tsa uichu-echa k'ui-kuɽa-sï-ti
+Najtuka uichu-echa k'ui-kuɽa-sï-i
+Uichu-echa hutʃeeti k'ui-kuɽa-sï
+K'ui-sï-i uichu-echa juchiti
+Uichu-echa hutʃeeti k'ui-ŋka-sï-ki
+K'ui-ŋka-ka uichu-echa hutʃi
+Uichu-echa hutʃeeti k'ui-pʰera-sï
+Hutʃeeti uichu-echa k'ui-sï-ti
+K'ui-p'e-sï-ti tsa uichu-echa
+Uichu-echa hucheeti k'ui-sï-ki
+Uichu-echa juchi k'ui-ka
+K'ui-pʰera-sï-ki uichu-echa najtuka
+K'ui-ka hucheeti uichu-echa
+Uichu-echa tsa k'ui-kuɽa-sï-ti
+Uichu-echa jutʃiti k'ui-ŋka-sï-ti
+Hinteni uichu-echa k'ui-kuɽa-sï
+K'ui-ŋka-sï-ki uichu-echa hinteni
+Uichu-echa hutʃeeti k'ui-pʰera-sï-ki
+K'ui-ŋka-ka uichu-echa juchi
+Jucheeti uichu-echa k'ui-sï
+Uichu-echa huchi k'ui-ka
+Jutʃeeti uichu-echa k'ui-sï
+K'ui-pʰera-ka noompi uichu-echa
+Uichu-echa noompi k'ui-kuɽa-sï-ki
+Noompi uichu-echa k'ui-p'e-ka
+Najtuka uichu-echa k'ui-pʰera-sï-i
+Tsa uichu-echa k'ui-p'e-ka
+Uichu-echa hinteni k'ui-sï-i
+Uichu-echa hucheeti k'ui-pʰera-sï-ti
+Hutʃeeti uichu-echa k'ui-ŋka-sï-ki
+Iamintu uichu-echa k'ui-ŋka-sï-ti
+Uichu-echa juchi k'ui-sï-ti
+K'ui-pʰera-sï-ki uichu-echa noompi
+Uichu-echa iamintu k'ui-pʰera-sï-ti
+Uichu-echa jinteni k'ui-ŋka-sï-ki
+Hinteni uichu-echa k'ui-kuɽa-ka
+K'ui-kuɽa-sï-ti tsa uichu-echa
+Juchi uichu-echa k'ui-sï-ki
+K'ui-p'e-sï-ki uichu-echa najtuka
+Huchiti uichu-echa k'ui-sï-ki
+K'ui-kuɽa-sï-ki uichu-echa najtuka
+K'ui-p'e-sï-ki uichu-echa noompi
+K'ui-sï hutʃiti uichu-echa
+Tsa uichu-echa k'ui-pʰera-sï-ti
+Hutʃi uichu-echa k'ui-sï
+Uichu-echa juchi k'ui-ŋka-sï-ti
+Hutʃeeti uichu-echa k'ui-pʰera-sï-ki
+Uichu-echa hucheeti k'ui-ŋka-sï-ki
+Tsa uichu-echa k'ui-p'e-sï-ti
+K'ui-kuɽa-ka uichu-echa hutʃeeti
+Hinteni uichu-echa k'ui-p'e-ka
+Noompi uichu-echa k'ui-pʰera-ka
+Hutʃeeti uichu-echa k'ui-sï-i
+Uichu-echa tsa k'ui-pʰera-sï-ti
+Tsa uichu-echa k'ui-pʰera-ka
+K'ui-p'e-ka noompi uichu-echa
+Hinteni uichu-echa k'ui-pʰera-ka
+Hucheeti uichu-echa k'ui-ŋka-sï-ki
+K'ui-ŋka-sï-ti hinteni uichu-echa
+Uichu-echa iamintu k'ui-ŋka-sï
+K'ui-sï-ki hucheeti uichu-echa
+Hutʃeeti uichu-echa k'ui-p'e-sï-ki
+Uichu-echa hutʃiti k'ui-ka
+K'ui-kuɽa-sï-ti uichu-echa iamintu
+K'ui-sï-ki uichu-echa jutʃeeti
+K'ui-kuɽa-ka uichu-echa tsa
+Uichu-echa jutʃeeti k'ui-ka
+K'ui-sï-ki uichu-echa hutʃiti
+K'ui-ka uichu-echa hutʃiti
+Hinteni uichu-echa k'ui-kuɽa-sï-ti
+Uichu-echa jinteni k'ui-p'e-sï-ti
+K'ui-ŋka-ka uichu-echa huchiti
+K'ui-sï-ki jutʃiti uichu-echa
+Hinteni uichu-echa k'ui-pʰera-sï-ti
+K'ui-ka jutʃiti uichu-echa
+K'ui-sï-ki hutʃiti uichu-echa
+Hinteni uichu-echa k'ui-kuɽa-sï-ki
+K'ui-ŋka-sï-i iamintu uichu-echa
+K'ui-sï-ki jutʃi uichu-echa
+K'ui-p'e-sï-ki najtuka uichu-echa
+K'ui-sï-ti iamintu uichu-echa
+K'ui-sï-i huchi uichu-echa
+K'ui-pʰera-sï-ki uichu-echa iamintu
+Hinteni uichu-echa k'ui-p'e-sï-ti
+K'ui-sï-ki hutʃi uichu-echa
+K'ui-p'e-sï-ki noompi uichu-echa
+K'ui-ŋka-sï-ti iamintu uichu-echa
+K'ui-kuɽa-sï hinteni uichu-echa
+K'ui-ka hutʃiti uichu-echa
+K'ui-ka uichu-echa jutʃi
+K'ui-pʰera-ka uichu-echa jinteni
+Hucheeti uichu-echa k'ui-sï-ti
+K'ui-pʰera-sï hinteni uichu-echa
+Jucheeti uichu-echa k'ui-sï-ki
+Tsa uichu-echa k'ui-pʰera-sï
+K'ui-ŋka-sï-ti uichu-echa hutʃeeti
+Uichu-echa hutʃeeti k'ui-p'e-ka
+K'ui-pʰera-ka uichu-echa hutʃeeti
+K'ui-ŋka-sï-ti uichu-echa tsa
+K'ui-pʰera-ka uichu-echa tsa
+K'ui-sï jutʃi uichu-echa
+K'ui-p'e-sï-ki tsa uichu-echa
+K'ui-p'e-ka uichu-echa jinteni
+K'ui-ŋka-sï iamintu uichu-echa
+K'ui-ka jutʃi uichu-echa
+K'ui-p'e-sï-ki uichu-echa iamintu
+Hutʃeeti uichu-echa k'ui-ŋka-sï-ti
+K'ui-sï-ti hutʃeeti uichu-echa
+Uichu-echa huchi k'ui-sï
+Uichu-echa hutʃiti k'ui-sï
+Iamintu uichu-echa k'ui-kuɽa-sï-ki
+Uichu-echa jutʃeeti k'ui-sï
+Hutʃeeti uichu-echa k'ui-kuɽa-sï-ki
+Uichu-echa huchiti k'ui-sï
+Uichu-echa jinteni k'ui-kuɽa-ka
+K'ui-kuɽa-ka tsa uichu-echa
+Uichu-echa hucheeti k'ui-ŋka-sï-i
+Uichu-echa hinteni k'ui-kuɽa-sï-ti
+Huchi uichu-echa k'ui-sï
+Jutʃeeti uichu-echa k'ui-sï-ki
+Uichu-echa hucheeti k'ui-p'e-sï-ti
+K'ui-ŋka-sï-ki uichu-echa hutʃi
+Hinteni uichu-echa k'ui-pʰera-sï
+K'ui-sï-ki jutʃeeti uichu-echa
+Uichu-echa iamintu k'ui-sï-ki
+Jinteni uichu-echa k'ui-sï-ti
+K'ui-sï-ti uichu-echa juchi
+Uichu-echa jinteni k'ui-p'e-ka
+K'ui-kuɽa-sï-ki uichu-echa noompi
+Jutʃiti uichu-echa k'ui-sï-ti
+K'ui-pʰera-sï-i uichu-echa jinteni
+K'ui-ŋka-sï uichu-echa hucheeti
+K'ui-kuɽa-ka uichu-echa hucheeti
+Uichu-echa iamintu k'ui-ŋka-sï-ki
+Uichu-echa jutʃiti k'ui-kuɽa-sï-ti
+K'ui-ŋka-ka hucheeti uichu-echa
+K'ui-ŋka-sï-ti hutʃeeti uichu-echa
+Uichu-echa hutʃi k'ui-sï
+Hucheeti uichu-echa k'ui-pʰera-sï-ki
+K'ui-ŋka-sï-ti uichu-echa hucheeti
+Uichu-echa hutʃeeti k'ui-pʰera-sï-i
+K'ui-sï-i uichu-echa huchi
+Hucheeti uichu-echa k'ui-sï-i
+K'ui-kuɽa-sï-ki najtuka uichu-echa
+K'ui-sï-ti uichu-echa huchiti
+K'ui-p'e-ka uichu-echa hutʃeeti
+K'ui-ŋka-ka jutʃiti uichu-echa
+K'ui-ŋka-sï-ki hucheeti uichu-echa
+Uichu-echa hucheeti k'ui-kuɽa-ka
+Uichu-echa jutʃiti k'ui-sï-i
+Uichu-echa hucheeti k'ui-p'e-sï-i
+Uichu-echa juchiti k'ui-sï
+K'ui-ŋka-sï-i hutʃeeti uichu-echa
+K'ui-pʰera-sï-i uichu-echa hutʃeeti
+K'ui-kuɽa-sï-ki noompi uichu-echa
+K'ui-ŋka-sï-i jinteni uichu-echa
+K'ui-pʰera-sï-i uichu-echa tsa
+Noompi uichu-echa k'ui-kuɽa-sï-i
+K'ui-ka uichu-echa juchiti
+K'ui-pʰera-sï-i uichu-echa hucheeti
+Tsa uichu-echa k'ui-kuɽa-sï-i
+K'ui-ŋka-sï-ki uichu-echa juchi
+Uichu-echa juchi k'ui-kuɽa-sï-ti
+Hutʃi uichu-echa k'ui-sï-ki
+K'ui-kuɽa-sï-ki uichu-echa iamintu
+K'ui-p'e-sï iamintu uichu-echa
+K'ui-p'e-ka uichu-echa tsa
+K'ui-ŋka-sï-i hucheeti uichu-echa
+Uichu-echa hucheeti k'ui-p'e-ka
+K'ui-sï-ti uichu-echa jutʃeeti
+K'ui-ŋka-sï-i jutʃiti uichu-echa
+K'ui-pʰera-ka uichu-echa hucheeti
+Jinteni uichu-echa k'ui-sï-i
+K'ui-sï-i uichu-echa jucheeti
+K'ui-ŋka-sï-i hutʃiti uichu-echa
+Jutʃiti uichu-echa k'ui-sï-i
+K'ui-sï-i uichu-echa jutʃiti
+K'ui-ŋka-sï-i jutʃi uichu-echa
+Juchiti uichu-echa k'ui-sï-i
+K'ui-sï-ti jinteni uichu-echa
+Uichu-echa iamintu k'ui-kuɽa-ka
+K'ui-ŋka-sï-ki uichu-echa huchiti
+Uichu-echa jucheeti k'ui-sï
+K'ui-sï-ti hucheeti uichu-echa
+K'ui-ŋka-sï-ki uichu-echa jutʃeeti
+Uichu-echa jutʃi k'ui-sï
+K'ui-sï-ti jutʃiti uichu-echa
+K'ui-ŋka-sï-ki uichu-echa hutʃiti
+K'ui-ŋka-sï-ki jutʃiti uichu-echa
+Uichu-echa juchi k'ui-sï-i
+Uichu-echa tsa k'ui-kuɽa-ka
+K'ui-sï-ti hutʃiti uichu-echa
+K'ui-ŋka-sï-i hutʃi uichu-echa
+Uichu-echa iamintu k'ui-p'e-ka
+Hucheeti uichu-echa k'ui-p'e-sï-ki
+K'ui-ŋka-sï-i jutʃeeti uichu-echa
+Uichu-echa tsa k'ui-p'e-ka
+K'ui-ŋka-sï-ki hutʃiti uichu-echa
+K'ui-ŋka-sï-i huchiti uichu-echa
+K'ui-ŋka-sï-ki jutʃi uichu-echa
+K'ui-ŋka-sï-i jucheeti uichu-echa
+K'ui-ŋka-sï-ki hutʃi uichu-echa
+K'ui-ŋka-sï-i huchi uichu-echa
+K'ui-ŋka-sï-ki jutʃeeti uichu-echa
+Hinteni uichu-echa k'ui-ŋka-sï-i
+Uichu-echa jinteni k'ui-p'e-sï
+Uichu-echa noompi k'ui-pʰera-ka
+Uichu-echa huchiti k'ui-ka
+K'ui-pʰera-sï-ki uichu-echa jinteni
+Iamintu uichu-echa k'ui-ŋka-ka
+Uichu-echa iamintu k'ui-ŋka-sï-i
+Uichu-echa hinteni k'ui-kuɽa-ka
+Uichu-echa jinteni k'ui-pʰera-sï-ki
+Uichu-echa iamintu k'ui-p'e-sï-ti
+K'ui-ŋka-sï uichu-echa hinteni
+K'ui-ŋka-ka hutʃiti uichu-echa
+Uichu-echa jinteni k'ui-pʰera-sï-i
+Uichu-echa tsa k'ui-ŋka-sï-i
+Uichu-echa hutʃeeti k'ui-pʰera-ka
+Juchiti uichu-echa k'ui-sï-ti
+K'ui-sï hutʃi uichu-echa
+K'ui-sï-ti jutʃi uichu-echa
+K'ui-p'e-sï-i uichu-echa jinteni
+Juchi uichu-echa k'ui-sï-ti
+K'ui-ŋka-ka jutʃi uichu-echa
+K'ui-kuɽa-sï-i uichu-echa jinteni
+Huchiti uichu-echa k'ui-sï-ti
+Uichu-echa hinteni k'ui-pʰera-sï-ti
+K'ui-ka uichu-echa huchi
+Uichu-echa tsa k'ui-p'e-sï-ti
+Uichu-echa jutʃiti k'ui-pʰera-sï-ti
+Uichu-echa hucheeti k'ui-kuɽa-sï-i
+Uichu-echa jinteni k'ui-kuɽa-sï
+Uichu-echa hucheeti k'ui-p'e-sï
+Uichu-echa hucheeti k'ui-pʰera-sï-i
+Jinteni uichu-echa k'ui-ŋka-sï-ki
+K'ui-ŋka-sï uichu-echa hutʃi
+K'ui-kuɽa-sï-i hinteni uichu-echa
+Uichu-echa jinteni k'ui-pʰera-ka
+Uichu-echa hucheeti k'ui-kuɽa-sï
+Uichu-echa jinteni k'ui-pʰera-sï
+Huchi uichu-echa k'ui-sï-ki
+Jinteni uichu-echa k'ui-pʰera-sï-ki
+Jutʃiti uichu-echa k'ui-ŋka-sï-ki
+Jinteni uichu-echa k'ui-p'e-sï-ki
+Juchiti uichu-echa k'ui-ŋka-sï-ki
+K'ui-ŋka-sï-i uichu-echa hinteni
+K'ui-pʰera-sï-ti hinteni uichu-echa
+K'ui-sï-ki uichu-echa jutʃi
+K'ui-ŋka-ka uichu-echa jutʃeeti
+K'ui-ka hutʃi uichu-echa
+K'ui-sï-ki huchiti uichu-echa
+Jutʃi uichu-echa k'ui-sï
+K'ui-sï-i juchiti uichu-echa
+Uichu-echa hinteni k'ui-p'e-sï-ti
+Juchi uichu-echa k'ui-sï-i
+K'ui-kuɽa-sï-ti uichu-echa jinteni
+K'ui-kuɽa-ka hinteni uichu-echa
+Iamintu uichu-echa k'ui-ŋka-sï-i
+K'ui-sï-ki jucheeti uichu-echa
+Juchi uichu-echa k'ui-ŋka-sï-ki
+Uichu-echa hucheeti k'ui-pʰera-sï-ki
+K'ui-ŋka-ka uichu-echa hutʃiti
+K'ui-sï-ki huchi uichu-echa
+K'ui-pʰera-sï-ki iamintu uichu-echa
+K'ui-kuɽa-sï iamintu uichu-echa
+K'ui-ŋka-ka uichu-echa jutʃi
+K'ui-ka uichu-echa jucheeti
+Hinteni uichu-echa k'ui-p'e-sï-i
+K'ui-ŋka-ka uichu-echa juchiti
+Uichu-echa juchi k'ui-ŋka-ka
+K'ui-pʰera-ka tsa uichu-echa
+K'ui-kuɽa-sï-ki tsa uichu-echa
+Uichu-echa jutʃiti k'ui-p'e-sï-ti
+K'ui-pʰera-sï-ki hutʃeeti uichu-echa
+K'ui-ŋka-ka uichu-echa huchi
+Noompi uichu-echa k'ui-pʰera-sï-i
+K'ui-pʰera-sï iamintu uichu-echa
+Uichu-echa tsa k'ui-sï-ki
+K'ui-ka jutʃeeti uichu-echa
+Hutʃiti uichu-echa k'ui-sï
+K'ui-sï-ti uichu-echa hutʃiti
+Tsa uichu-echa k'ui-pʰera-sï-i
+Iamintu uichu-echa k'ui-kuɽa-sï-ti
+K'ui-sï jutʃeeti uichu-echa
+K'ui-ŋka-sï-ki uichu-echa jutʃi
+K'ui-ŋka-ka uichu-echa jucheeti
+K'ui-ŋka-ka hutʃi uichu-echa
+K'ui-sï huchiti uichu-echa
+Uichu-echa hutʃi k'ui-ka
+K'ui-p'e-sï-i uichu-echa hutʃeeti
+K'ui-ŋka-sï-i uichu-echa hutʃi
+K'ui-ka huchiti uichu-echa
+Hutʃeeti uichu-echa k'ui-kuɽa-sï-ti
+Uichu-echa hinteni k'ui-sï-ki
+Jutʃiti uichu-echa k'ui-pʰera-sï-ki
+K'ui-kuɽa-sï-i uichu-echa hutʃeeti
+Jucheeti uichu-echa k'ui-sï-ti
+Juchiti uichu-echa k'ui-pʰera-sï-ki
+Jutʃiti uichu-echa k'ui-p'e-sï-ki
+Jutʃeeti uichu-echa k'ui-sï-ti
+K'ui-ka jucheeti uichu-echa
+Juchi uichu-echa k'ui-pʰera-sï-ki
+Hutʃi uichu-echa k'ui-sï-ti
+K'ui-ka huchi uichu-echa
+Jutʃi uichu-echa k'ui-sï-ki
+K'ui-p'e-sï-i uichu-echa tsa
+Huchi uichu-echa k'ui-sï-ti
+K'ui-p'e-sï-i uichu-echa hucheeti
+K'ui-kuɽa-sï-i uichu-echa tsa
+K'ui-pʰera-sï uichu-echa hutʃeeti
+Uichu-echa hutʃeeti k'ui-p'e-sï-ki
+Hucheeti uichu-echa k'ui-ŋka-sï
+Uichu-echa iamintu k'ui-p'e-sï
+K'ui-kuɽa-ka iamintu uichu-echa
+Hutʃiti uichu-echa k'ui-sï-ki
+Huchiti uichu-echa k'ui-sï-i
+Uichu-echa iamintu k'ui-p'e-sï-i
+K'ui-sï jucheeti uichu-echa
+Iamintu uichu-echa k'ui-kuɽa-ka
+K'ui-pʰera-sï-ti iamintu uichu-echa
+Uichu-echa huchi k'ui-ŋka-ka
+Uichu-echa tsa k'ui-p'e-sï-i
+K'ui-pʰera-sï-ti hutʃeeti uichu-echa
+K'ui-kuɽa-ka uichu-echa hinteni
+K'ui-pʰera-ka uichu-echa hinteni
+Uichu-echa hinteni k'ui-p'e-ka
+Uichu-echa jutʃiti k'ui-sï-ki
+K'ui-ŋka-sï-i uichu-echa juchi
+Juchiti uichu-echa k'ui-p'e-sï-ki
+Hutʃeeti uichu-echa k'ui-ŋka-sï-i
+Uichu-echa jinteni k'ui-p'e-sï-ki
+Hutʃeeti uichu-echa k'ui-ŋka-ka
+K'ui-p'e-sï-ti hinteni uichu-echa
+Uichu-echa hucheeti k'ui-pʰera-ka
+Jucheeti uichu-echa k'ui-sï-i
+K'ui-pʰera-sï-ki uichu-echa hutʃeeti
+Uichu-echa juchiti k'ui-ka
+K'ui-kuɽa-sï-ti hinteni uichu-echa
+Uichu-echa jucheeti k'ui-ka
+K'ui-p'e-ka uichu-echa hucheeti
+K'ui-pʰera-sï-i uichu-echa hinteni
+K'ui-ka uichu-echa jutʃiti
+Uichu-echa iamintu k'ui-pʰera-ka
+Uichu-echa iamintu k'ui-kuɽa-sï
+K'ui-pʰera-sï-i uichu-echa hutʃi
+K'ui-sï-ki juchiti uichu-echa
+Uichu-echa hutʃeeti k'ui-kuɽa-sï-ki
+Iamintu uichu-echa k'ui-p'e-ka
+K'ui-p'e-ka tsa uichu-echa
+Uichu-echa jutʃi k'ui-ka
+Iamintu uichu-echa k'ui-p'e-sï-i
+K'ui-p'e-sï-i uichu-echa hinteni
+Hutʃeeti uichu-echa k'ui-p'e-sï-i
+K'ui-ka juchiti uichu-echa
+K'ui-p'e-sï-i uichu-echa hutʃi
+K'ui-ka juchi uichu-echa
+Juchi uichu-echa k'ui-p'e-sï-ki
+K'ui-p'e-sï uichu-echa tsa
+Uichu-echa huchi k'ui-sï-ti
+K'ui-ŋka-ka jutʃeeti uichu-echa
+K'ui-kuɽa-ka hutʃeeti uichu-echa
+K'ui-kuɽa-sï-i uichu-echa hucheeti
+Hinteni uichu-echa k'ui-kuɽa-sï-i
+K'ui-ŋka-ka uichu-echa jutʃiti
+K'ui-kuɽa-ka uichu-echa hutʃi
+K'ui-ŋka-sï-i juchiti uichu-echa
+K'ui-sï huchi uichu-echa
+K'ui-ŋka-sï uichu-echa juchi
+Uichu-echa iamintu k'ui-pʰera-sï-ki
+K'ui-sï juchiti uichu-echa
+Uichu-echa hucheeti k'ui-p'e-sï-ki
+K'ui-pʰera-sï-i uichu-echa juchi
+K'ui-sï juchi uichu-echa
+K'ui-ŋka-sï hutʃeeti uichu-echa
+Uichu-echa hinteni k'ui-ŋka-sï-i
+Iamintu uichu-echa k'ui-pʰera-sï-ti
+K'ui-ŋka-ka huchiti uichu-echa
+Huchiti uichu-echa k'ui-ŋka-sï-ki
+K'ui-p'e-sï-ki hinteni uichu-echa
+K'ui-pʰera-sï-ti uichu-echa hutʃeeti
+Jinteni uichu-echa k'ui-ŋka-sï
+K'ui-kuɽa-sï-ki hinteni uichu-echa
+K'ui-p'e-sï-ti uichu-echa hutʃeeti
+K'ui-pʰera-sï-ti uichu-echa tsa
+Jutʃiti uichu-echa k'ui-ŋka-sï
+Uichu-echa jutʃiti k'ui-kuɽa-ka
+Uichu-echa hucheeti k'ui-pʰera-sï
+K'ui-p'e-sï-ti iamintu uichu-echa
+Hucheeti uichu-echa k'ui-ŋka-sï-i
+K'ui-pʰera-ka uichu-echa hutʃi
+Uichu-echa hutʃiti k'ui-sï-ti
+Uichu-echa iamintu k'ui-pʰera-sï
+K'ui-p'e-sï hutʃeeti uichu-echa
+Hutʃeeti uichu-echa k'ui-kuɽa-ka
+Jinteni uichu-echa k'ui-ŋka-sï-i
+K'ui-kuɽa-sï-i uichu-echa hinteni
+Hutʃeeti uichu-echa k'ui-p'e-ka
+K'ui-sï-ti uichu-echa jutʃi
+K'ui-kuɽa-sï-i uichu-echa hutʃi
+Hutʃeeti uichu-echa k'ui-pʰera-sï-ti
+K'ui-kuɽa-sï hutʃeeti uichu-echa
+K'ui-pʰera-sï hutʃeeti uichu-echa
+Uichu-echa tsa k'ui-ŋka-sï
+K'ui-ŋka-sï-ti uichu-echa hinteni
+K'ui-sï-ki uichu-echa juchiti
+K'ui-kuɽa-sï-ti uichu-echa hutʃeeti
+Jucheeti uichu-echa k'ui-ŋka-sï-ki
+K'ui-p'e-sï-ti uichu-echa tsa
+K'ui-ŋka-sï-ki uichu-echa juchiti
+K'ui-ŋka-sï-ki huchiti uichu-echa
+Huchiti uichu-echa k'ui-pʰera-sï-ki
+Jutʃiti uichu-echa k'ui-ŋka-sï-i
+K'ui-pʰera-sï-ti uichu-echa hucheeti
+K'ui-ŋka-sï-ki jucheeti uichu-echa
+Jucheeti uichu-echa k'ui-pʰera-sï-ki
+Uichu-echa hinteni k'ui-p'e-sï-i
+K'ui-ŋka-sï-ki huchi uichu-echa
+Iamintu uichu-echa k'ui-p'e-sï
+Uichu-echa tsa k'ui-ŋka-sï-ki
+Huchiti uichu-echa k'ui-p'e-sï-ki
+Uichu-echa juchi k'ui-pʰera-sï-ti
+Hutʃeeti uichu-echa k'ui-p'e-sï
+Hucheeti uichu-echa k'ui-ŋka-sï-ti
+K'ui-kuɽa-sï-ti iamintu uichu-echa
+Uichu-echa juchi k'ui-p'e-sï-ti
+K'ui-sï-ti uichu-echa juchiti
+K'ui-p'e-sï-ki iamintu uichu-echa
+K'ui-sï-ti uichu-echa huchi
+Hucheeti uichu-echa k'ui-p'e-sï
+K'ui-kuɽa-sï-ki iamintu uichu-echa
+K'ui-sï-ti uichu-echa jucheeti
+K'ui-pʰera-sï-ki jinteni uichu-echa
+K'ui-pʰera-sï-ki uichu-echa tsa
+K'ui-p'e-sï uichu-echa hucheeti
+K'ui-ŋka-ka jucheeti uichu-echa
+Hucheeti uichu-echa k'ui-kuɽa-sï-ti
+K'ui-pʰera-sï-ki hucheeti uichu-echa
+Iamintu uichu-echa k'ui-p'e-sï-ti
+K'ui-p'e-sï-ki hutʃeeti uichu-echa
+Iamintu uichu-echa k'ui-kuɽa-sï
+K'ui-sï-ki juchi uichu-echa
+K'ui-p'e-sï uichu-echa hinteni
+Hutʃeeti uichu-echa k'ui-kuɽa-sï
+K'ui-ŋka-sï-i uichu-echa huchiti
+K'ui-p'e-sï-ti hutʃeeti uichu-echa
+Uichu-echa hinteni k'ui-ŋka-sï
+K'ui-p'e-sï uichu-echa hutʃi
+Uichu-echa jutʃiti k'ui-ŋka-sï
+K'ui-kuɽa-sï uichu-echa tsa
+K'ui-ŋka-ka huchi uichu-echa
+K'ui-kuɽa-sï-ti hutʃeeti uichu-echa
+K'ui-pʰera-sï uichu-echa tsa
+K'ui-kuɽa-sï uichu-echa hucheeti
+K'ui-ŋka-sï-ki juchiti uichu-echa
+K'ui-ŋka-ka juchiti uichu-echa
+Iamintu uichu-echa k'ui-pʰera-sï
+K'ui-ŋka-sï-ki juchi uichu-echa
+K'ui-ŋka-ka juchi uichu-echa
+K'ui-pʰera-sï-i iamintu uichu-echa
+K'ui-sï-i juchi uichu-echa
+Uichu-echa tsa k'ui-pʰera-ka
+K'ui-pʰera-sï-ki jutʃiti uichu-echa
+K'ui-p'e-sï-ti uichu-echa hucheeti
+K'ui-ŋka-sï-i uichu-echa jutʃeeti
+Uichu-echa jinteni k'ui-kuɽa-sï-ki
+K'ui-ŋka-sï-i juchi uichu-echa
+Uichu-echa tsa k'ui-pʰera-sï-ki
+K'ui-ŋka-sï-i uichu-echa hutʃiti
+K'ui-kuɽa-ka jinteni uichu-echa
+K'ui-p'e-sï-i uichu-echa juchi
+Hucheeti uichu-echa k'ui-ŋka-ka
+Iamintu uichu-echa k'ui-kuɽa-sï-i
+K'ui-kuɽa-ka hucheeti uichu-echa
+Uichu-echa huchi k'ui-ŋka-sï-ti
+K'ui-sï-ti uichu-echa jutʃiti
+Juchiti uichu-echa k'ui-ŋka-sï
+K'ui-kuɽa-ka jutʃiti uichu-echa
+Uichu-echa hutʃiti k'ui-ŋka-sï-ti
+K'ui-p'e-sï-i iamintu uichu-echa
+K'ui-p'e-sï-ki uichu-echa jinteni
+Uichu-echa hutʃiti k'ui-ŋka-ka
+Uichu-echa juchi k'ui-sï-ki
+K'ui-ŋka-sï-ti uichu-echa hutʃi
+K'ui-kuɽa-sï-ki uichu-echa jinteni
+K'ui-ŋka-sï uichu-echa huchiti
+Jinteni uichu-echa k'ui-p'e-sï
+Jucheeti uichu-echa k'ui-p'e-sï-ki
+Jutʃiti uichu-echa k'ui-p'e-sï
+Jutʃi uichu-echa k'ui-sï-ti
+Uichu-echa jutʃeeti k'ui-sï-ti
+K'ui-ŋka-sï-i uichu-echa jutʃi
+Uichu-echa jutʃeeti k'ui-ŋka-ka
+Jinteni uichu-echa k'ui-ŋka-ka
+Uichu-echa hinteni k'ui-ŋka-sï-ki
+K'ui-p'e-sï-ki uichu-echa hutʃeeti
+Iamintu uichu-echa k'ui-pʰera-ka
+Juchiti uichu-echa k'ui-p'e-sï
+K'ui-p'e-sï-ki uichu-echa tsa
+Hutʃeeti uichu-echa k'ui-kuɽa-sï-i
+Uichu-echa huchi k'ui-kuɽa-sï-ti
+Uichu-echa juchi k'ui-kuɽa-ka
+K'ui-pʰera-sï-i hutʃeeti uichu-echa
+K'ui-sï-ki uichu-echa huchi
+Uichu-echa huchi k'ui-sï-ki
+K'ui-ŋka-sï-ki uichu-echa huchi
+K'ui-ŋka-sï uichu-echa jutʃeeti
+K'ui-sï-ki uichu-echa jucheeti
+Uichu-echa huchi k'ui-kuɽa-ka
+K'ui-ŋka-sï uichu-echa hutʃiti
+K'ui-ŋka-sï-ki uichu-echa jucheeti
+Uichu-echa hutʃiti k'ui-kuɽa-ka
+Hutʃiti uichu-echa k'ui-sï-ti
+Uichu-echa jutʃeeti k'ui-kuɽa-ka
+K'ui-ŋka-sï-ti jinteni uichu-echa
+Uichu-echa iamintu k'ui-kuɽa-sï-i
+Uichu-echa iamintu k'ui-p'e-sï-ki
+K'ui-pʰera-sï-i uichu-echa huchiti
+K'ui-kuɽa-sï-i iamintu uichu-echa
+Uichu-echa jutʃeeti k'ui-ŋka-sï-ti
+Hucheeti uichu-echa k'ui-kuɽa-ka
+K'ui-ŋka-sï jinteni uichu-echa
+Hutʃeeti uichu-echa k'ui-pʰera-sï
+Uichu-echa hinteni k'ui-pʰera-ka
+Jinteni uichu-echa k'ui-ŋka-sï-ti
+Uichu-echa hutʃiti k'ui-kuɽa-sï-ti
+K'ui-pʰera-sï-ki hutʃiti uichu-echa
+K'ui-ŋka-sï hucheeti uichu-echa
+Jutʃeeti uichu-echa k'ui-ŋka-sï-ki
+Uichu-echa jutʃiti k'ui-ŋka-sï-ki
+Uichu-echa jutʃeeti k'ui-kuɽa-sï-ti
+K'ui-ŋka-sï-ti hucheeti uichu-echa
+K'ui-kuɽa-sï-ki hutʃeeti uichu-echa
+Hucheeti uichu-echa k'ui-p'e-ka
+K'ui-ŋka-sï-ti jutʃiti uichu-echa
+Uichu-echa jutʃiti k'ui-ŋka-sï-i
+Jutʃiti uichu-echa k'ui-ŋka-ka
+K'ui-pʰera-sï-ki jutʃi uichu-echa
+Jutʃeeti uichu-echa k'ui-pʰera-sï-ki
+Hucheeti uichu-echa k'ui-p'e-sï-i
+K'ui-pʰera-sï-ki hutʃi uichu-echa
+Jutʃeeti uichu-echa k'ui-p'e-sï-ki
+Jinteni uichu-echa k'ui-p'e-sï-i
+K'ui-pʰera-ka hinteni uichu-echa
+Jinteni uichu-echa k'ui-kuɽa-sï-ti
+K'ui-ŋka-sï-ti hutʃiti uichu-echa
+Hutʃi uichu-echa k'ui-ŋka-sï-ki
+K'ui-ŋka-sï-ti jutʃi uichu-echa
+Huchi uichu-echa k'ui-ŋka-sï-ki
+K'ui-sï-ki uichu-echa jutʃiti
+Jutʃi uichu-echa k'ui-ŋka-sï-ki
+Uichu-echa juchi k'ui-ŋka-sï-ki
+Hutʃi uichu-echa k'ui-pʰera-sï-ki
+Hutʃiti uichu-echa k'ui-ŋka-sï-ki
+Huchi uichu-echa k'ui-pʰera-sï-ki
+K'ui-sï-ti hutʃi uichu-echa
+K'ui-p'e-ka uichu-echa hinteni
+K'ui-pʰera-sï-ti uichu-echa hinteni
+K'ui-pʰera-sï-i jinteni uichu-echa
+Jutʃi uichu-echa k'ui-pʰera-sï-ki
+K'ui-sï-ti jutʃeeti uichu-echa
+K'ui-ŋka-sï uichu-echa jutʃi
+K'ui-pʰera-sï-i hucheeti uichu-echa
+K'ui-kuɽa-ka hutʃiti uichu-echa
+Juchiti uichu-echa k'ui-ŋka-ka
+K'ui-p'e-sï-ti uichu-echa hinteni
+Uichu-echa hutʃiti k'ui-sï-ki
+K'ui-pʰera-ka iamintu uichu-echa
+Hinteni uichu-echa k'ui-pʰera-sï-i
+K'ui-kuɽa-sï uichu-echa hinteni
+Hucheeti uichu-echa k'ui-kuɽa-sï
+K'ui-pʰera-sï-ki jutʃeeti uichu-echa
+K'ui-ŋka-sï-i uichu-echa juchiti
+Uichu-echa iamintu k'ui-pʰera-sï-i
+Hutʃiti uichu-echa k'ui-pʰera-sï-ki
+Uichu-echa jutʃiti k'ui-p'e-sï-i
+Uichu-echa tsa k'ui-kuɽa-sï-i
+Jutʃiti uichu-echa k'ui-p'e-sï-i
+Uichu-echa hinteni k'ui-kuɽa-sï-i
+Uichu-echa huchi k'ui-ŋka-sï-ki
+K'ui-pʰera-sï-ki uichu-echa hucheeti
+Hutʃeeti uichu-echa k'ui-pʰera-ka
+Hucheeti uichu-echa k'ui-pʰera-sï
+Uichu-echa hutʃiti k'ui-ŋka-sï-ki
+K'ui-ŋka-sï-ti hutʃi uichu-echa
+K'ui-pʰera-ka hutʃeeti uichu-echa
+K'ui-pʰera-sï-i uichu-echa jutʃeeti
+K'ui-p'e-sï-ki uichu-echa hucheeti
+K'ui-ŋka-sï-i uichu-echa huchi
+K'ui-ŋka-sï-ti uichu-echa juchi
+K'ui-ŋka-sï-i uichu-echa jucheeti
+Hucheeti uichu-echa k'ui-pʰera-ka
+K'ui-ŋka-sï-i uichu-echa jutʃiti
+Jutʃeeti uichu-echa k'ui-sï-i
+K'ui-kuɽa-sï-ti uichu-echa tsa
+K'ui-ŋka-sï jutʃiti uichu-echa
+Jinteni uichu-echa k'ui-kuɽa-ka
+Jinteni uichu-echa k'ui-kuɽa-sï
+K'ui-ŋka-sï-ti uichu-echa huchiti
+K'ui-kuɽa-sï uichu-echa hutʃi
+Hutʃeeti uichu-echa k'ui-p'e-sï-ti
+Uichu-echa tsa k'ui-p'e-sï-ki
+Jinteni uichu-echa k'ui-pʰera-sï
+Uichu-echa jutʃiti k'ui-kuɽa-sï-i
+Uichu-echa huchi k'ui-sï-i
+K'ui-ŋka-sï-ti jutʃeeti uichu-echa
+Uichu-echa jutʃiti k'ui-p'e-ka
+K'ui-pʰera-sï uichu-echa hucheeti
+Uichu-echa hinteni k'ui-pʰera-sï-ki
+K'ui-p'e-ka uichu-echa hutʃi
+K'ui-kuɽa-ka jutʃi uichu-echa
+Jutʃiti uichu-echa k'ui-ŋka-sï-ti
+Uichu-echa huchiti k'ui-sï-ti
+K'ui-pʰera-sï-i jutʃiti uichu-echa
+Uichu-echa juchi k'ui-ŋka-sï
+Uichu-echa hutʃi k'ui-sï-ti
+Uichu-echa huchiti k'ui-ŋka-sï-ti
+Hutʃi uichu-echa k'ui-p'e-sï-ki
+K'ui-kuɽa-ka uichu-echa juchi
+K'ui-pʰera-sï-i hutʃiti uichu-echa
+K'ui-ŋka-sï hutʃiti uichu-echa
+K'ui-pʰera-sï-i uichu-echa hutʃiti
+Jutʃiti uichu-echa k'ui-kuɽa-sï-ti
+Juchiti uichu-echa k'ui-ŋka-sï-ti
+Juchiti uichu-echa k'ui-ŋka-sï-i
+Iamintu uichu-echa k'ui-pʰera-sï-i
+K'ui-pʰera-sï-ki uichu-echa hinteni
+Juchi uichu-echa k'ui-ŋka-sï-i
+Juchi uichu-echa k'ui-ŋka-sï
+Uichu-echa hutʃi k'ui-ŋka-sï-ti
+K'ui-ŋka-sï-ti uichu-echa jutʃeeti
+Juchiti uichu-echa k'ui-p'e-sï-i
+Juchi uichu-echa k'ui-p'e-sï
+Huchiti uichu-echa k'ui-ŋka-sï
+Juchi uichu-echa k'ui-ŋka-sï-ti
+Jucheeti uichu-echa k'ui-ŋka-sï
+Huchiti uichu-echa k'ui-ŋka-sï-ti
+Jutʃeeti uichu-echa k'ui-ŋka-sï
+Jucheeti uichu-echa k'ui-ŋka-sï-ti
+Hutʃi uichu-echa k'ui-ŋka-sï
+Jutʃeeti uichu-echa k'ui-ŋka-sï-ti
+Huchi uichu-echa k'ui-ŋka-sï
+Hutʃi uichu-echa k'ui-ŋka-sï-ti
+Jutʃi uichu-echa k'ui-ŋka-sï
+Huchi uichu-echa k'ui-ŋka-sï-ti
+Hutʃiti uichu-echa k'ui-ŋka-sï
+Jutʃi uichu-echa k'ui-ŋka-sï-ti
+Hucheeti uichu-echa k'ui-kuɽa-sï-ki
+K'ui-p'e-sï-ki jinteni uichu-echa
+K'ui-p'e-sï-i hutʃeeti uichu-echa
+K'ui-sï-ti huchiti uichu-echa
+K'ui-ŋka-sï jutʃi uichu-echa
+Uichu-echa hinteni k'ui-p'e-sï-ki
+K'ui-pʰera-sï-ti jinteni uichu-echa
+Jinteni uichu-echa k'ui-p'e-ka
+K'ui-sï-ti jucheeti uichu-echa
+K'ui-pʰera-sï-ki huchiti uichu-echa
+Jinteni uichu-echa k'ui-kuɽa-sï-ki
+K'ui-p'e-sï-ti jinteni uichu-echa
+K'ui-kuɽa-ka hutʃi uichu-echa
+K'ui-p'e-sï-i jinteni uichu-echa
+K'ui-kuɽa-sï-i uichu-echa juchi
+Hucheeti uichu-echa k'ui-kuɽa-sï-i
+K'ui-kuɽa-sï-ti jinteni uichu-echa
+K'ui-pʰera-sï uichu-echa hinteni
+Uichu-echa jutʃeeti k'ui-sï-ki
+K'ui-p'e-sï-ki uichu-echa hinteni
+Jutʃiti uichu-echa k'ui-kuɽa-ka
+Jinteni uichu-echa k'ui-kuɽa-sï-i
+Uichu-echa huchiti k'ui-sï-ki
+Jutʃiti uichu-echa k'ui-p'e-ka
+Jutʃiti uichu-echa k'ui-kuɽa-sï-i
+Hucheeti uichu-echa k'ui-pʰera-sï-ti
+K'ui-p'e-sï uichu-echa juchi
+Uichu-echa hutʃiti k'ui-sï-i
+Hutʃeeti uichu-echa k'ui-pʰera-sï-i
+Juchiti uichu-echa k'ui-kuɽa-sï-i
+Hucheeti uichu-echa k'ui-p'e-sï-ti
+K'ui-p'e-sï-i hucheeti uichu-echa
+Uichu-echa juchi k'ui-ŋka-sï-i
+Uichu-echa jutʃiti k'ui-pʰera-sï-ki
+Huchiti uichu-echa k'ui-p'e-sï
+Juchiti uichu-echa k'ui-kuɽa-sï-ti
+Uichu-echa jutʃeeti k'ui-sï-i
+K'ui-ŋka-sï hutʃi uichu-echa
+Uichu-echa jutʃiti k'ui-pʰera-ka
+Jinteni uichu-echa k'ui-pʰera-ka
+Uichu-echa juchi k'ui-pʰera-sï-ki
+K'ui-p'e-sï jinteni uichu-echa
+Uichu-echa tsa k'ui-pʰera-sï-i
+K'ui-pʰera-sï-i jutʃi uichu-echa
+Juchi uichu-echa k'ui-kuɽa-sï-ti
+Juchi uichu-echa k'ui-p'e-sï-i
+Huchi uichu-echa k'ui-p'e-sï-ki
+K'ui-pʰera-sï-ti hucheeti uichu-echa
+Jutʃiti uichu-echa k'ui-pʰera-ka
+K'ui-ŋka-sï jutʃeeti uichu-echa
+K'ui-p'e-sï hucheeti uichu-echa
+Uichu-echa huchi k'ui-pʰera-sï-ti
+K'ui-ŋka-sï huchiti uichu-echa
+K'ui-p'e-sï jutʃiti uichu-echa
+Uichu-echa huchi k'ui-ŋka-sï-i
+K'ui-ŋka-sï jucheeti uichu-echa
+K'ui-ŋka-sï-ki uichu-echa jutʃiti
+Jutʃiti uichu-echa k'ui-kuɽa-sï
+K'ui-sï-ti huchi uichu-echa
+Uichu-echa huchi k'ui-ŋka-sï
+Uichu-echa huchiti k'ui-kuɽa-sï-ti
+Uichu-echa hutʃiti k'ui-ŋka-sï-i
+Jutʃiti uichu-echa k'ui-pʰera-sï
+K'ui-p'e-sï-ti hucheeti uichu-echa
+Uichu-echa hutʃi k'ui-kuɽa-sï-ti
+Uichu-echa jutʃeeti k'ui-ŋka-sï-i
+K'ui-kuɽa-sï-ti hucheeti uichu-echa
+K'ui-pʰera-sï-ki jucheeti uichu-echa
+K'ui-kuɽa-sï jinteni uichu-echa
+K'ui-pʰera-ka uichu-echa juchi
+K'ui-pʰera-sï-ki huchi uichu-echa
+Jinteni uichu-echa k'ui-pʰera-sï-ti
+K'ui-pʰera-sï-ki juchiti uichu-echa
+K'ui-kuɽa-sï uichu-echa juchi
+K'ui-pʰera-sï-ki juchi uichu-echa
+Uichu-echa tsa k'ui-p'e-sï
+Uichu-echa huchiti k'ui-ŋka-ka
+Hutʃi uichu-echa k'ui-sï-i
+K'ui-pʰera-sï-i uichu-echa jutʃi
+Uichu-echa jutʃiti k'ui-p'e-sï-ki
+K'ui-pʰera-sï-i hutʃi uichu-echa
+K'ui-pʰera-sï-ki uichu-echa hutʃi
+Huchi uichu-echa k'ui-sï-i
+K'ui-pʰera-sï-i uichu-echa juchiti
+K'ui-pʰera-sï-ti jutʃiti uichu-echa
+K'ui-kuɽa-sï-ti uichu-echa hucheeti
+K'ui-kuɽa-ka jutʃeeti uichu-echa
+Uichu-echa hinteni k'ui-p'e-sï
+K'ui-pʰera-sï-i uichu-echa huchi
+Jinteni uichu-echa k'ui-p'e-sï-ti
+Uichu-echa hutʃi k'ui-ŋka-ka
+K'ui-kuɽa-sï-ki uichu-echa hutʃeeti
+K'ui-pʰera-sï jinteni uichu-echa
+K'ui-kuɽa-ka huchiti uichu-echa
+Huchiti uichu-echa k'ui-kuɽa-sï-ti
+K'ui-p'e-sï-i uichu-echa huchiti
+K'ui-kuɽa-ka uichu-echa huchiti
+Jutʃiti uichu-echa k'ui-kuɽa-sï-ki
+Jutʃiti uichu-echa k'ui-pʰera-sï-ti
+K'ui-kuɽa-sï-ti uichu-echa hinteni
+Uichu-echa juchi k'ui-p'e-sï-i
+K'ui-pʰera-sï-i jutʃeeti uichu-echa
+Jutʃiti uichu-echa k'ui-p'e-sï-ti
+K'ui-kuɽa-sï-ki jinteni uichu-echa
+K'ui-p'e-sï-i jutʃiti uichu-echa
+K'ui-kuɽa-sï-ki uichu-echa tsa
+K'ui-kuɽa-ka jucheeti uichu-echa
+K'ui-ŋka-sï huchi uichu-echa
+K'ui-kuɽa-ka uichu-echa jutʃeeti
+K'ui-p'e-sï-i hutʃiti uichu-echa
+Uichu-echa hutʃi k'ui-sï-ki
+K'ui-kuɽa-sï-ki uichu-echa hucheeti
+K'ui-p'e-sï-i jutʃi uichu-echa
+Jucheeti uichu-echa k'ui-p'e-sï
+K'ui-pʰera-sï-ti hutʃiti uichu-echa
+Juchiti uichu-echa k'ui-pʰera-sï-ti
+K'ui-p'e-sï-i uichu-echa jutʃeeti
+Uichu-echa huchiti k'ui-kuɽa-ka
+K'ui-kuɽa-sï-ki uichu-echa hinteni
+Juchi uichu-echa k'ui-pʰera-sï-ti
+K'ui-p'e-sï-i uichu-echa hutʃiti
+Jucheeti uichu-echa k'ui-kuɽa-sï-ti
+Hutʃiti uichu-echa k'ui-ŋka-sï-ti
+K'ui-p'e-sï-i hutʃi uichu-echa
+Jutʃeeti uichu-echa k'ui-kuɽa-sï-ti
+Uichu-echa juchi k'ui-kuɽa-sï-i
+K'ui-p'e-sï-i jutʃeeti uichu-echa
+Uichu-echa hucheeti k'ui-kuɽa-sï-ki
+K'ui-pʰera-sï-ti uichu-echa hutʃi
+K'ui-ŋka-sï-ti uichu-echa hutʃiti
+K'ui-kuɽa-sï-i hutʃeeti uichu-echa
+Juchiti uichu-echa k'ui-kuɽa-sï
+K'ui-p'e-sï-ti jutʃiti uichu-echa
+Uichu-echa jutʃeeti k'ui-ŋka-sï-ki
+Jutʃeeti uichu-echa k'ui-p'e-sï
+Uichu-echa juchiti k'ui-ŋka-ka
+K'ui-p'e-sï-ki uichu-echa hutʃi
+K'ui-pʰera-sï-ki uichu-echa juchi
+Uichu-echa juchi k'ui-p'e-ka
+Uichu-echa huchiti k'ui-ŋka-sï-ki
+Uichu-echa hutʃi k'ui-kuɽa-ka
+K'ui-p'e-sï-ki hucheeti uichu-echa
+Juchi uichu-echa k'ui-kuɽa-sï-i
+K'ui-pʰera-sï-ti uichu-echa juchi
+K'ui-kuɽa-sï hucheeti uichu-echa
+K'ui-ŋka-sï-ti huchiti uichu-echa
+Juchi uichu-echa k'ui-ŋka-ka
+Juchiti uichu-echa k'ui-kuɽa-ka
+Jutʃi uichu-echa k'ui-p'e-sï-ki
+Juchi uichu-echa k'ui-kuɽa-sï
+K'ui-p'e-sï-ki jutʃiti uichu-echa
+K'ui-pʰera-sï-i uichu-echa jucheeti
+K'ui-kuɽa-sï-ti jutʃiti uichu-echa
+Uichu-echa hutʃiti k'ui-ŋka-sï
+Uichu-echa hutʃi k'ui-ŋka-sï-ki
+Uichu-echa huchi k'ui-pʰera-sï-ki
+K'ui-kuɽa-sï-ki uichu-echa hutʃi
+K'ui-p'e-sï hutʃiti uichu-echa
+K'ui-kuɽa-sï-i jinteni uichu-echa
+Juchiti uichu-echa k'ui-kuɽa-sï-ki
+Uichu-echa juchiti k'ui-kuɽa-ka
+K'ui-ŋka-sï-ti jucheeti uichu-echa
+Juchi uichu-echa k'ui-kuɽa-ka
+K'ui-ŋka-sï-ti huchi uichu-echa
+K'ui-pʰera-sï-ti jutʃi uichu-echa
+K'ui-kuɽa-sï jutʃiti uichu-echa
+K'ui-p'e-sï-i uichu-echa jutʃi
+K'ui-p'e-sï-ki hutʃiti uichu-echa
+K'ui-pʰera-sï-i huchiti uichu-echa
+Uichu-echa huchi k'ui-p'e-sï-ti
+K'ui-p'e-sï-ki jutʃi uichu-echa
+K'ui-pʰera-sï-i jucheeti uichu-echa
+K'ui-p'e-sï-i huchiti uichu-echa
+K'ui-pʰera-sï-i huchi uichu-echa
+K'ui-p'e-sï-i jucheeti uichu-echa
+K'ui-pʰera-sï-i juchiti uichu-echa
+K'ui-p'e-sï-i huchi uichu-echa
+K'ui-pʰera-sï-i juchi uichu-echa
+K'ui-p'e-sï-i juchiti uichu-echa
+K'ui-p'e-ka hinteni uichu-echa
+K'ui-pʰera-ka jinteni uichu-echa
+Huchiti uichu-echa k'ui-ŋka-sï-i
+K'ui-sï-ti juchiti uichu-echa
+Uichu-echa jucheeti k'ui-ŋka-ka
+Uichu-echa huchi k'ui-p'e-ka
+Hutʃiti uichu-echa k'ui-p'e-sï-ki
+Uichu-echa hinteni k'ui-pʰera-sï-i
+Juchiti uichu-echa k'ui-p'e-sï-ti
+K'ui-pʰera-ka hucheeti uichu-echa
+Uichu-echa jutʃi k'ui-ŋka-ka
+Hucheeti uichu-echa k'ui-pʰera-sï-i
+Jutʃi uichu-echa k'ui-sï-i
+Uichu-echa juchiti k'ui-sï-ti
+Uichu-echa huchiti k'ui-sï-i
+Uichu-echa jutʃiti k'ui-p'e-sï
+K'ui-pʰera-sï-i uichu-echa jutʃiti
+K'ui-pʰera-ka jutʃiti uichu-echa
+Uichu-echa hutʃiti k'ui-p'e-ka
+Jinteni uichu-echa k'ui-pʰera-sï-i
+Huchiti uichu-echa k'ui-pʰera-sï-ti
+K'ui-kuɽa-ka huchi uichu-echa
+K'ui-kuɽa-sï-i uichu-echa huchiti
+Uichu-echa jutʃiti k'ui-pʰera-sï-i
+K'ui-p'e-ka uichu-echa juchi
+Hutʃi uichu-echa k'ui-kuɽa-sï-ti
+Uichu-echa jutʃeeti k'ui-p'e-ka
+K'ui-p'e-ka iamintu uichu-echa
+K'ui-ŋka-sï-ti juchiti uichu-echa
+K'ui-p'e-sï uichu-echa huchiti
+Uichu-echa juchi k'ui-pʰera-ka
+Juchi uichu-echa k'ui-p'e-sï-ti
+K'ui-p'e-sï-ki hutʃi uichu-echa
+K'ui-ŋka-sï-ti uichu-echa jutʃi
+K'ui-p'e-sï uichu-echa jutʃeeti
+Uichu-echa huchiti k'ui-ŋka-sï-i
+K'ui-ŋka-sï-ti uichu-echa juchiti
+Uichu-echa huchi k'ui-pʰera-ka
+Uichu-echa hutʃiti k'ui-pʰera-sï-ti
+Huchiti uichu-echa k'ui-kuɽa-sï
+Uichu-echa jutʃeeti k'ui-ŋka-sï
+Uichu-echa jutʃeeti k'ui-pʰera-sï-ti
+K'ui-kuɽa-sï uichu-echa huchiti
+K'ui-pʰera-sï-ki uichu-echa huchiti
+Uichu-echa hutʃiti k'ui-pʰera-ka
+K'ui-p'e-sï uichu-echa hutʃiti
+K'ui-sï-ti juchi uichu-echa
+K'ui-kuɽa-ka juchiti uichu-echa
+Uichu-echa juchi k'ui-p'e-sï
+K'ui-ŋka-sï-ti juchi uichu-echa
+K'ui-kuɽa-ka juchi uichu-echa
+Uichu-echa jucheeti k'ui-sï-ti
+Uichu-echa juchi k'ui-pʰera-sï-i
+Uichu-echa huchi k'ui-p'e-sï
+K'ui-kuɽa-sï-i uichu-echa jutʃeeti
+Uichu-echa jutʃeeti k'ui-pʰera-ka
+K'ui-kuɽa-sï-i uichu-echa hutʃiti
+K'ui-ŋka-sï uichu-echa juchiti
+Uichu-echa tsa k'ui-kuɽa-sï
+Uichu-echa juchiti k'ui-sï-ki
+Hutʃi uichu-echa k'ui-p'e-sï
+Uichu-echa hutʃiti k'ui-pʰera-sï-ki
+K'ui-p'e-sï-ki jutʃeeti uichu-echa
+K'ui-ŋka-sï uichu-echa huchi
+Uichu-echa hinteni k'ui-kuɽa-sï
+Uichu-echa juchiti k'ui-ŋka-sï-ki
+Juchiti uichu-echa k'ui-p'e-ka
+Jutʃiti uichu-echa k'ui-pʰera-sï-i
+K'ui-ŋka-sï uichu-echa jucheeti
+K'ui-pʰera-sï-ti hutʃi uichu-echa
+K'ui-p'e-sï-ti hutʃiti uichu-echa
+K'ui-p'e-sï jutʃi uichu-echa
+Uichu-echa hutʃiti k'ui-p'e-sï-ti
+Jucheeti uichu-echa k'ui-pʰera-sï-ti
+K'ui-pʰera-sï-ti uichu-echa huchiti
+K'ui-p'e-sï-ki uichu-echa juchi
+Uichu-echa jutʃiti k'ui-kuɽa-sï
+Uichu-echa huchiti k'ui-p'e-ka
+Jucheeti uichu-echa k'ui-ŋka-sï-i
+K'ui-kuɽa-sï-ki uichu-echa juchi
+K'ui-pʰera-ka hutʃiti uichu-echa
+Jutʃeeti uichu-echa k'ui-ŋka-sï-i
+Huchiti uichu-echa k'ui-ŋka-ka
+Uichu-echa juchi k'ui-p'e-sï-ki
+Uichu-echa jutʃeeti k'ui-pʰera-sï-ki
+Uichu-echa huchiti k'ui-pʰera-sï-ti
+Huchiti uichu-echa k'ui-kuɽa-ka
+Uichu-echa huchiti k'ui-pʰera-sï-ki
+Huchiti uichu-echa k'ui-p'e-sï-i
+Uichu-echa huchiti k'ui-pʰera-ka
+K'ui-pʰera-sï hucheeti uichu-echa
+Juchi uichu-echa k'ui-kuɽa-sï-ki
+K'ui-pʰera-sï-ti jutʃeeti uichu-echa
+Uichu-echa hutʃi k'ui-pʰera-sï-ti
+K'ui-pʰera-sï-ki uichu-echa jutʃeeti
+Uichu-echa huchi k'ui-p'e-sï-ki
+Huchiti uichu-echa k'ui-kuɽa-sï-ki
+Jucheeti uichu-echa k'ui-p'e-sï-i
+K'ui-kuɽa-sï-i hucheeti uichu-echa
+K'ui-kuɽa-sï-i uichu-echa jutʃi
+Uichu-echa jutʃeeti k'ui-p'e-sï-ti
+K'ui-pʰera-sï jutʃiti uichu-echa
+Juchi uichu-echa k'ui-p'e-ka
+Uichu-echa huchiti k'ui-p'e-sï-ti
+K'ui-kuɽa-sï-i jutʃiti uichu-echa
+Huchiti uichu-echa k'ui-p'e-ka
+Uichu-echa hutʃi k'ui-p'e-sï-ti
+Uichu-echa hutʃiti k'ui-p'e-sï
+Jutʃeeti uichu-echa k'ui-p'e-sï-i
+Huchiti uichu-echa k'ui-kuɽa-sï-i
+K'ui-pʰera-sï uichu-echa hutʃi
+K'ui-ŋka-sï juchiti uichu-echa
+K'ui-p'e-sï-ti uichu-echa hutʃi
+K'ui-p'e-sï-i uichu-echa juchiti
+K'ui-kuɽa-sï uichu-echa jutʃeeti
+Huchiti uichu-echa k'ui-p'e-sï-ti
+Uichu-echa hutʃi k'ui-p'e-ka
+K'ui-ŋka-sï juchi uichu-echa
+Uichu-echa jutʃi k'ui-sï-ti
+K'ui-kuɽa-sï hutʃiti uichu-echa
+K'ui-ŋka-sï-ti uichu-echa huchi
+K'ui-pʰera-sï-ti huchiti uichu-echa
+K'ui-p'e-sï-ki uichu-echa huchiti
+K'ui-kuɽa-sï jutʃi uichu-echa
+Jucheeti uichu-echa k'ui-kuɽa-sï-i
+K'ui-kuɽa-sï-ki uichu-echa huchiti
+K'ui-p'e-sï-ti uichu-echa juchi
+K'ui-p'e-ka hutʃeeti uichu-echa
+K'ui-kuɽa-sï uichu-echa hutʃiti
+Uichu-echa jutʃeeti k'ui-p'e-sï
+Uichu-echa iamintu k'ui-kuɽa-sï-ki
+K'ui-p'e-sï-i juchi uichu-echa
+Juchiti uichu-echa k'ui-pʰera-sï-i
+K'ui-kuɽa-sï-i uichu-echa juchiti
+K'ui-kuɽa-sï-ti uichu-echa hutʃi
+K'ui-p'e-sï-ti uichu-echa huchiti
+Juchi uichu-echa k'ui-pʰera-sï-i
+Uichu-echa juchiti k'ui-ŋka-sï-ti
+Uichu-echa hutʃi k'ui-pʰera-sï-ki
+Hutʃi uichu-echa k'ui-ŋka-sï-i
+Uichu-echa hutʃi k'ui-pʰera-ka
+K'ui-pʰera-sï-ki uichu-echa hutʃiti
+Hutʃi uichu-echa k'ui-p'e-sï-i
+Juchiti uichu-echa k'ui-pʰera-sï
+Jucheeti uichu-echa k'ui-kuɽa-sï
+Uichu-echa huchi k'ui-p'e-sï-i
+Uichu-echa jucheeti k'ui-sï-ki
+K'ui-pʰera-sï-ki uichu-echa jutʃi
+Jucheeti uichu-echa k'ui-kuɽa-sï-ki
+Uichu-echa hutʃiti k'ui-p'e-sï-i
+Uichu-echa jucheeti k'ui-ŋka-sï-ki
+K'ui-pʰera-sï-ki uichu-echa juchiti
+Jutʃeeti uichu-echa k'ui-kuɽa-sï-ki
+Uichu-echa jucheeti k'ui-kuɽa-ka
+Jutʃeeti uichu-echa k'ui-kuɽa-sï-i
+Uichu-echa huchi k'ui-kuɽa-sï-i
+Hutʃi uichu-echa k'ui-kuɽa-sï-ki
+Uichu-echa jutʃi k'ui-kuɽa-ka
+Jucheeti uichu-echa k'ui-p'e-sï-ti
+Huchi uichu-echa k'ui-kuɽa-sï-ki
+K'ui-pʰera-sï-ki uichu-echa huchi
+Jutʃi uichu-echa k'ui-kuɽa-sï-ki
+K'ui-pʰera-sï-ki uichu-echa jucheeti
+Hutʃiti uichu-echa k'ui-kuɽa-sï-ki
+K'ui-pʰera-sï-ki uichu-echa jutʃiti
+K'ui-pʰera-ka uichu-echa huchiti
+K'ui-kuɽa-sï-ki hucheeti uichu-echa
+Uichu-echa hutʃi k'ui-sï-i
+Huchi uichu-echa k'ui-p'e-sï
+Uichu-echa juchiti k'ui-p'e-ka
+Huchiti uichu-echa k'ui-pʰera-sï-i
+Huchi uichu-echa k'ui-ŋka-sï-i
+K'ui-p'e-ka jinteni uichu-echa
+K'ui-p'e-sï-ti jutʃi uichu-echa
+Jucheeti uichu-echa k'ui-pʰera-sï-i
+Uichu-echa huchiti k'ui-ŋka-sï
+K'ui-pʰera-ka jutʃi uichu-echa
+Uichu-echa jutʃeeti k'ui-p'e-sï-i
+Juchi uichu-echa k'ui-pʰera-sï
+Uichu-echa jucheeti k'ui-p'e-ka
+K'ui-kuɽa-sï-ti hutʃiti uichu-echa
+Uichu-echa hutʃi k'ui-ŋka-sï
+Uichu-echa huchi k'ui-pʰera-sï-i
+Hutʃiti uichu-echa k'ui-sï-i
+Uichu-echa tsa k'ui-pʰera-sï
+K'ui-ŋka-sï uichu-echa jutʃiti
+K'ui-pʰera-sï-ti jucheeti uichu-echa
+Uichu-echa juchiti k'ui-ŋka-sï
+K'ui-p'e-ka hucheeti uichu-echa
+K'ui-pʰera-sï hutʃiti uichu-echa
+Uichu-echa juchiti k'ui-pʰera-ka
+K'ui-p'e-sï-ki uichu-echa jutʃeeti
+Uichu-echa jucheeti k'ui-ŋka-sï
+K'ui-p'e-sï-ki huchiti uichu-echa
+Jucheeti uichu-echa k'ui-ŋka-ka
+K'ui-p'e-sï-ti hutʃi uichu-echa
+Uichu-echa hutʃi k'ui-ŋka-sï-i
+K'ui-p'e-sï-ki jucheeti uichu-echa
+Jutʃeeti uichu-echa k'ui-pʰera-sï-ti
+Uichu-echa tsa k'ui-kuɽa-sï-ki
+Uichu-echa jutʃi k'ui-ŋka-sï
+Jutʃi uichu-echa k'ui-p'e-sï
+Jutʃeeti uichu-echa k'ui-p'e-sï-ti
+K'ui-p'e-sï-i uichu-echa huchi
+K'ui-kuɽa-sï-ki uichu-echa jutʃeeti
+K'ui-p'e-sï uichu-echa jutʃi
+K'ui-ŋka-sï-ti uichu-echa jucheeti
+K'ui-pʰera-sï-ti huchi uichu-echa
+K'ui-pʰera-sï jutʃi uichu-echa
+K'ui-p'e-sï uichu-echa juchiti
+K'ui-ŋka-sï-ti uichu-echa jutʃiti
+K'ui-pʰera-sï-ti juchiti uichu-echa
+Uichu-echa juchiti k'ui-pʰera-sï-ki
+Uichu-echa jucheeti k'ui-pʰera-ka
+K'ui-p'e-ka jutʃiti uichu-echa
+Juchiti uichu-echa k'ui-pʰera-ka
+K'ui-p'e-sï-ki uichu-echa hutʃiti
+Uichu-echa jutʃi k'ui-sï-ki
+K'ui-p'e-sï-ti jutʃeeti uichu-echa
+K'ui-kuɽa-sï-ki uichu-echa hutʃiti
+Jutʃeeti uichu-echa k'ui-ŋka-ka
+K'ui-p'e-sï-ti huchiti uichu-echa
+K'ui-p'e-sï uichu-echa huchi
+Hutʃi uichu-echa k'ui-ŋka-ka
+K'ui-p'e-sï uichu-echa jucheeti
+Huchi uichu-echa k'ui-ŋka-ka
+K'ui-p'e-sï uichu-echa jutʃiti
+Jutʃi uichu-echa k'ui-ŋka-ka
+K'ui-kuɽa-ka uichu-echa hutʃiti
+K'ui-p'e-sï hutʃi uichu-echa
+K'ui-kuɽa-sï-i hutʃiti uichu-echa
+Jutʃeeti uichu-echa k'ui-kuɽa-sï
+K'ui-kuɽa-sï-ki jutʃiti uichu-echa
+K'ui-pʰera-ka uichu-echa jutʃeeti
+Uichu-echa hinteni k'ui-pʰera-sï
+K'ui-kuɽa-sï-i jutʃi uichu-echa
+Huchi uichu-echa k'ui-p'e-sï-i
+Juchi uichu-echa k'ui-pʰera-ka
+K'ui-p'e-sï-i uichu-echa jucheeti
+Uichu-echa jutʃiti k'ui-pʰera-sï
+Uichu-echa jucheeti k'ui-ŋka-sï-ti
+Uichu-echa juchiti k'ui-sï-i
+K'ui-p'e-sï-ti jucheeti uichu-echa
+K'ui-p'e-sï-i uichu-echa jutʃiti
+Hutʃiti uichu-echa k'ui-p'e-sï
+Uichu-echa hutʃiti k'ui-kuɽa-sï-i
+Uichu-echa jutʃi k'ui-ŋka-sï-ti
+Uichu-echa hutʃiti k'ui-p'e-sï-ki
+Uichu-echa jucheeti k'ui-pʰera-sï-ki
+K'ui-pʰera-ka hutʃi uichu-echa
+K'ui-kuɽa-sï hutʃi uichu-echa
+K'ui-kuɽa-sï-ti uichu-echa juchi
+Uichu-echa jutʃi k'ui-ŋka-sï-ki
+Uichu-echa jutʃeeti k'ui-p'e-sï-ki
+K'ui-kuɽa-sï-ti uichu-echa huchiti
+K'ui-kuɽa-sï uichu-echa jutʃi
+K'ui-kuɽa-ka uichu-echa jutʃi
+K'ui-kuɽa-sï-i uichu-echa huchi
+Uichu-echa jutʃeeti k'ui-kuɽa-sï-i
+K'ui-kuɽa-sï uichu-echa juchiti
+K'ui-kuɽa-sï-i uichu-echa jucheeti
+K'ui-p'e-ka hutʃiti uichu-echa
+K'ui-kuɽa-sï uichu-echa huchi
+K'ui-p'e-ka jutʃi uichu-echa
+K'ui-kuɽa-sï uichu-echa jucheeti
+K'ui-p'e-ka hutʃi uichu-echa
+K'ui-kuɽa-sï uichu-echa jutʃiti
+Huchi uichu-echa k'ui-kuɽa-sï-ti
+Jutʃeeti uichu-echa k'ui-pʰera-sï-i
+Hutʃi uichu-echa k'ui-pʰera-sï-ti
+K'ui-pʰera-sï-ti juchi uichu-echa
+K'ui-pʰera-ka uichu-echa hutʃiti
+K'ui-kuɽa-sï-ki hutʃiti uichu-echa
+K'ui-pʰera-sï hutʃi uichu-echa
+Uichu-echa hinteni k'ui-kuɽa-sï-ki
+K'ui-kuɽa-sï-i hutʃi uichu-echa
+Uichu-echa juchi k'ui-kuɽa-sï
+K'ui-p'e-sï jutʃeeti uichu-echa
+K'ui-kuɽa-sï-ki jutʃi uichu-echa
+K'ui-p'e-sï-ki huchi uichu-echa
+K'ui-p'e-sï-ti huchi uichu-echa
+K'ui-kuɽa-sï jutʃeeti uichu-echa
+K'ui-p'e-sï huchiti uichu-echa
+K'ui-p'e-sï-ki uichu-echa jutʃi
+K'ui-pʰera-ka jutʃeeti uichu-echa
+K'ui-kuɽa-sï huchiti uichu-echa
+K'ui-p'e-sï jucheeti uichu-echa
+K'ui-kuɽa-sï-ki uichu-echa jutʃi
+K'ui-p'e-ka jutʃeeti uichu-echa
+K'ui-kuɽa-sï jucheeti uichu-echa
+Jutʃi uichu-echa k'ui-ŋka-sï-i
+Uichu-echa jutʃi k'ui-p'e-ka
+Hutʃi uichu-echa k'ui-p'e-sï-ti
+K'ui-p'e-sï-ki juchiti uichu-echa
+Uichu-echa juchi k'ui-pʰera-sï
+Uichu-echa jutʃi k'ui-pʰera-ka
+K'ui-pʰera-sï uichu-echa juchi
+K'ui-p'e-sï-ki uichu-echa juchiti
+Uichu-echa huchiti k'ui-p'e-sï
+K'ui-p'e-sï-ti juchiti uichu-echa
+K'ui-pʰera-sï uichu-echa huchiti
+Uichu-echa hutʃi k'ui-p'e-sï
+K'ui-p'e-sï-ti juchi uichu-echa
+K'ui-pʰera-sï uichu-echa jutʃeeti
+Uichu-echa juchiti k'ui-p'e-sï
+Uichu-echa jutʃiti k'ui-kuɽa-sï-ki
+K'ui-kuɽa-sï-ki uichu-echa juchiti
+Uichu-echa jucheeti k'ui-p'e-sï
+Hutʃiti uichu-echa k'ui-ŋka-sï-i
+Uichu-echa juchi k'ui-kuɽa-sï-ki
+K'ui-pʰera-sï-ti uichu-echa jutʃeeti
+Hutʃi uichu-echa k'ui-kuɽa-sï-i
+K'ui-kuɽa-sï-ti jutʃi uichu-echa
+Hutʃi uichu-echa k'ui-kuɽa-sï
+K'ui-pʰera-ka huchiti uichu-echa
+Jutʃi uichu-echa k'ui-p'e-sï-i
+Uichu-echa juchiti k'ui-ŋka-sï-i
+Hutʃiti uichu-echa k'ui-ŋka-ka
+K'ui-kuɽa-sï-i jutʃeeti uichu-echa
+K'ui-p'e-sï-ki juchi uichu-echa
+Huchi uichu-echa k'ui-kuɽa-sï-i
+Uichu-echa jutʃi k'ui-pʰera-sï-ki
+K'ui-pʰera-ka jucheeti uichu-echa
+K'ui-kuɽa-sï-ti hutʃi uichu-echa
+Huchiti uichu-echa k'ui-pʰera-sï
+K'ui-kuɽa-ka uichu-echa juchiti
+Uichu-echa jutʃi k'ui-p'e-sï
+K'ui-p'e-sï-ki uichu-echa huchi
+K'ui-pʰera-sï-ti uichu-echa hutʃiti
+Jucheeti uichu-echa k'ui-pʰera-sï
+K'ui-p'e-sï-ki uichu-echa jucheeti
+K'ui-pʰera-sï-ti uichu-echa jutʃi
+Jucheeti uichu-echa k'ui-kuɽa-ka
+Huchi uichu-echa k'ui-pʰera-sï-ti
+K'ui-pʰera-sï uichu-echa hutʃiti
+K'ui-kuɽa-sï-ki hutʃi uichu-echa
+K'ui-kuɽa-sï-ti jutʃeeti uichu-echa
+Jutʃeeti uichu-echa k'ui-kuɽa-ka
+K'ui-p'e-ka huchiti uichu-echa
+Jutʃi uichu-echa k'ui-kuɽa-sï-ti
+K'ui-kuɽa-ka uichu-echa huchi
+K'ui-pʰera-sï uichu-echa jutʃi
+K'ui-p'e-ka jucheeti uichu-echa
+Jutʃi uichu-echa k'ui-pʰera-sï-ti
+K'ui-kuɽa-ka uichu-echa jucheeti
+K'ui-pʰera-sï uichu-echa juchiti
+Hutʃiti uichu-echa k'ui-kuɽa-sï-ti
+K'ui-pʰera-sï jutʃeeti uichu-echa
+Hutʃi uichu-echa k'ui-kuɽa-ka
+Hutʃiti uichu-echa k'ui-pʰera-sï-ti
+K'ui-pʰera-sï huchiti uichu-echa
+Huchi uichu-echa k'ui-kuɽa-ka
+Huchi uichu-echa k'ui-p'e-sï-ti
+Jutʃi uichu-echa k'ui-kuɽa-ka
+Jutʃi uichu-echa k'ui-p'e-sï-ti
+Hutʃiti uichu-echa k'ui-kuɽa-ka
+Hutʃiti uichu-echa k'ui-p'e-sï-ti
+Uichu-echa juchiti k'ui-kuɽa-sï-ti
+Uichu-echa huchiti k'ui-p'e-sï-i
+Uichu-echa huchiti k'ui-p'e-sï-ki
+Hutʃiti uichu-echa k'ui-p'e-sï-i
+K'ui-pʰera-sï-ti uichu-echa juchiti
+K'ui-kuɽa-sï-ti huchiti uichu-echa
+Uichu-echa juchiti k'ui-pʰera-sï-ti
+K'ui-p'e-sï-ki uichu-echa jutʃiti
+Hutʃi uichu-echa k'ui-pʰera-sï-i
+K'ui-kuɽa-sï-ki jutʃeeti uichu-echa
+Uichu-echa jucheeti k'ui-sï-i
+K'ui-p'e-sï huchi uichu-echa
+Uichu-echa jucheeti k'ui-kuɽa-sï-ti
+K'ui-kuɽa-sï-ki huchiti uichu-echa
+Uichu-echa jutʃi k'ui-sï-i
+K'ui-pʰera-sï jucheeti uichu-echa
+Uichu-echa jucheeti k'ui-pʰera-sï-ti
+K'ui-p'e-sï-ti uichu-echa jutʃeeti
+K'ui-pʰera-sï-ti uichu-echa huchi
+Jucheeti uichu-echa k'ui-p'e-ka
+K'ui-kuɽa-sï-ti uichu-echa jutʃeeti
+K'ui-kuɽa-sï-i uichu-echa jutʃiti
+K'ui-pʰera-ka huchi uichu-echa
+Uichu-echa juchiti k'ui-p'e-sï-ti
+Jutʃi uichu-echa k'ui-kuɽa-sï-i
+K'ui-p'e-ka huchi uichu-echa
+K'ui-pʰera-ka juchiti uichu-echa
+Uichu-echa jucheeti k'ui-p'e-sï-ti
+Jutʃeeti uichu-echa k'ui-pʰera-sï
+K'ui-pʰera-ka juchi uichu-echa
+K'ui-p'e-ka juchiti uichu-echa
+K'ui-p'e-ka uichu-echa huchiti
+Uichu-echa hutʃiti k'ui-pʰera-sï-i
+K'ui-kuɽa-sï-ki uichu-echa huchi
+K'ui-kuɽa-ka uichu-echa jutʃiti
+Hutʃi uichu-echa k'ui-pʰera-sï
+K'ui-p'e-sï juchiti uichu-echa
+Uichu-echa huchi k'ui-kuɽa-sï-ki
+K'ui-kuɽa-sï-ti jucheeti uichu-echa
+K'ui-p'e-sï juchi uichu-echa
+Uichu-echa hutʃiti k'ui-kuɽa-sï-ki
+K'ui-kuɽa-sï-ti huchi uichu-echa
+Huchi uichu-echa k'ui-kuɽa-sï
+Uichu-echa hutʃi k'ui-p'e-sï-ki
+K'ui-p'e-ka juchi uichu-echa
+K'ui-kuɽa-sï-ti juchiti uichu-echa
+Uichu-echa juchiti k'ui-p'e-sï-ki
+K'ui-pʰera-sï uichu-echa huchi
+Hutʃiti uichu-echa k'ui-kuɽa-sï-i
+Uichu-echa jutʃeeti k'ui-kuɽa-sï-ki
+Uichu-echa jucheeti k'ui-p'e-sï-ki
+Uichu-echa jutʃeeti k'ui-pʰera-sï-i
+Uichu-echa huchiti k'ui-kuɽa-sï-ki
+Uichu-echa jutʃi k'ui-p'e-sï-ki
+Uichu-echa jutʃi k'ui-kuɽa-sï-ti
+K'ui-pʰera-sï uichu-echa jucheeti
+K'ui-kuɽa-sï-ti juchi uichu-echa
+Uichu-echa jutʃi k'ui-pʰera-sï-ti
+K'ui-pʰera-sï uichu-echa jutʃiti
+Uichu-echa jutʃi k'ui-p'e-sï-ti
+Huchiti uichu-echa k'ui-pʰera-ka
+K'ui-kuɽa-sï-i huchiti uichu-echa
+Huchi uichu-echa k'ui-pʰera-sï-i
+K'ui-kuɽa-sï-ki uichu-echa jucheeti
+Jucheeti uichu-echa k'ui-pʰera-ka
+Jutʃeeti uichu-echa k'ui-p'e-ka
+Huchi uichu-echa k'ui-pʰera-sï
+Uichu-echa huchi k'ui-kuɽa-sï
+K'ui-kuɽa-sï-ki uichu-echa jutʃiti
+Jutʃi uichu-echa k'ui-kuɽa-sï
+Uichu-echa huchi k'ui-pʰera-sï
+Uichu-echa hutʃiti k'ui-kuɽa-sï
+K'ui-pʰera-ka uichu-echa jutʃi
+Uichu-echa huchiti k'ui-kuɽa-sï-i
+K'ui-kuɽa-sï huchi uichu-echa
+Uichu-echa hutʃi k'ui-kuɽa-sï-ki
+K'ui-kuɽa-sï-i jucheeti uichu-echa
+Uichu-echa huchiti k'ui-pʰera-sï-i
+K'ui-kuɽa-sï juchiti uichu-echa
+K'ui-pʰera-sï-ti uichu-echa jucheeti
+Jutʃeeti uichu-echa k'ui-pʰera-ka
+Uichu-echa jucheeti k'ui-ŋka-sï-i
+K'ui-pʰera-ka uichu-echa juchiti
+K'ui-pʰera-sï huchi uichu-echa
+Uichu-echa jutʃi k'ui-ŋka-sï-i
+Hutʃiti uichu-echa k'ui-kuɽa-sï
+K'ui-pʰera-sï juchiti uichu-echa
+Uichu-echa hutʃi k'ui-p'e-sï-i
+K'ui-p'e-sï-ti uichu-echa hutʃiti
+Jutʃi uichu-echa k'ui-pʰera-sï-i
+K'ui-pʰera-sï-ti uichu-echa jutʃiti
+Jutʃi uichu-echa k'ui-pʰera-sï
+Hutʃiti uichu-echa k'ui-pʰera-sï-i
+K'ui-p'e-ka uichu-echa jutʃeeti
+Uichu-echa hutʃiti k'ui-pʰera-sï
+Uichu-echa jutʃeeti k'ui-kuɽa-sï
+K'ui-p'e-ka uichu-echa hutʃiti
+K'ui-kuɽa-sï-i huchi uichu-echa
+Uichu-echa jutʃeeti k'ui-pʰera-sï
+Uichu-echa huchiti k'ui-kuɽa-sï
+K'ui-kuɽa-sï-i juchiti uichu-echa
+Uichu-echa hutʃi k'ui-kuɽa-sï
+K'ui-kuɽa-sï-i juchi uichu-echa
+Uichu-echa juchiti k'ui-kuɽa-sï
+K'ui-kuɽa-sï-ki jucheeti uichu-echa
+Uichu-echa juchiti k'ui-kuɽa-sï-ki
+Uichu-echa hutʃi k'ui-kuɽa-sï-i
+K'ui-kuɽa-sï-ki huchi uichu-echa
+Uichu-echa jucheeti k'ui-kuɽa-sï-ki
+Uichu-echa juchiti k'ui-p'e-sï-i
+K'ui-p'e-sï-ti uichu-echa jutʃi
+K'ui-kuɽa-sï-ti uichu-echa hutʃiti
+Uichu-echa juchiti k'ui-kuɽa-sï-i
+K'ui-p'e-sï-ti uichu-echa juchiti
+K'ui-kuɽa-sï-ti uichu-echa jutʃi
+K'ui-kuɽa-sï-ki juchiti uichu-echa
+K'ui-kuɽa-sï-ti uichu-echa juchiti
+K'ui-kuɽa-sï-ki juchi uichu-echa
+Hutʃi uichu-echa k'ui-p'e-ka
+K'ui-pʰera-ka uichu-echa huchi
+Uichu-echa hutʃi k'ui-pʰera-sï-i
+Uichu-echa jutʃi k'ui-kuɽa-sï-ki
+K'ui-pʰera-ka uichu-echa jucheeti
+Hutʃiti uichu-echa k'ui-pʰera-sï
+K'ui-pʰera-ka uichu-echa jutʃiti
+K'ui-kuɽa-sï juchi uichu-echa
+Uichu-echa huchiti k'ui-pʰera-sï
+Uichu-echa jucheeti k'ui-p'e-sï-i
+Hutʃi uichu-echa k'ui-pʰera-ka
+K'ui-pʰera-sï juchi uichu-echa
+Uichu-echa jutʃi k'ui-p'e-sï-i
+Uichu-echa jucheeti k'ui-kuɽa-sï
+K'ui-p'e-ka uichu-echa jutʃi
+Huchi uichu-echa k'ui-p'e-ka
+Uichu-echa jutʃi k'ui-kuɽa-sï
+Uichu-echa hutʃi k'ui-pʰera-sï
+Jutʃi uichu-echa k'ui-p'e-ka
+Uichu-echa juchiti k'ui-pʰera-sï
+Hutʃiti uichu-echa k'ui-p'e-ka
+Uichu-echa jucheeti k'ui-pʰera-sï
+K'ui-p'e-sï-ti uichu-echa huchi
+Uichu-echa jucheeti k'ui-kuɽa-sï-i
+K'ui-p'e-ka uichu-echa juchiti
+K'ui-kuɽa-sï-ti uichu-echa huchi
+Uichu-echa jutʃi k'ui-kuɽa-sï-i
+Uichu-echa juchiti k'ui-pʰera-sï-i
+Uichu-echa jutʃi k'ui-pʰera-sï
+K'ui-p'e-ka uichu-echa huchi
+Huchi uichu-echa k'ui-pʰera-ka
+Uichu-echa jucheeti k'ui-pʰera-sï-i
+K'ui-p'e-ka uichu-echa jucheeti
+Jutʃi uichu-echa k'ui-pʰera-ka
+Uichu-echa jutʃi k'ui-pʰera-sï-i
+Hutʃiti uichu-echa k'ui-pʰera-ka
+K'ui-p'e-sï-ti uichu-echa jucheeti
+K'ui-p'e-ka uichu-echa jutʃiti
+K'ui-p'e-sï-ti uichu-echa jutʃiti
+K'ui-kuɽa-sï-ti uichu-echa jucheeti
+K'ui-kuɽa-sï-ti uichu-echa jutʃiti
+NOTE: 140 passive, 576 active edges in final generation chart; built 231 passives total. [1800 results]
+
+NOTE: generated 1 / 1 sentences, avg 65617k, time 0.91364s
+NOTE: transfer did 8 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+20 Getting the translation of 'Who sleeps'
+20 Translating into 'ne k'ui-xïn-i'
+
+
+NOTE: 1 readings, added 39 / 9 edges to chart (4 fully instantiated, 7 actives used, 3 passives used)	RAM: 108k
+NOTE: parsed 1 / 1 sentences, avg 108k, time 0.00521s
+NOTE: 1 transfer results	RAM: 15k
+NOTE: EP '"_person_n_rel"' is unknown in the semantic index
+NOTE: EP '"wh_q_rel"' is unknown in the semantic index
+WARNING: EP '"_person_n_rel"' is not covered
+WARNING: EP '"wh_q_rel"' is not covered
+NOTE: transfered 0 / 1 sentences, avg 15k, time 0.00328s
+NOTE: 51 passive, 127 active edges in final generation chart; built 107 passives total. [0 results]
+
+NOTE: generated 0 / 1 sentences, avg 1401k, time 0.03004s
+NOTE: transfer did 6 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+21 Getting the translation of 'SKIPPED'
+21 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00600s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+22 Getting the translation of 'SKIPPED'
+22 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00434s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+23 Getting the translation of 'SKIPPED'
+23 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00439s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+24 Getting the translation of 'SKIPPED'
+24 Translating into 'SKIPPED'
+
+
+NOTE: lexemes do not span position 0 `SKIPPED'!
+NOTE: post reduction gap
+NOTE: ignoring `SKIPPED'
+NOTE: parsed 0 / 1 sentences, avg 0k, time 0.00680s
+NOTE: transfer did 0 successful unifies and 0 failed ones
+
+
+
+
+_______________________________________
+
+
+
+25 Getting the translation of 'The dog sleeps because the cat sleeps'
+25 Translating into 'uichu k'ui-xa-ti jimpoka misitu k'ui-xa-ka'
+
+
+NOTE: 1 transfer results	RAM: 36k
+NOTE: 1 readings, added 245 / 91 edges to chart (22 fully instantiated, 41 actives used, 16 passives used)	RAM: 900k
+NOTE: parsed 1 / 1 sentences, avg 900k, time 0.01273s
+NOTE: transfered 0 / 1 sentences, avg 36k, time 0.00312s
+NOTE: 192 passive, 489 active edges in final generation chart; built 336 passives total. [0 results]
+
+NOTE: generated 0 / 1 sentences, avg 8460k, time 0.05224s
+NOTE: transfer did 14 successful unifies and 2 failed ones
+
+
+
+
+_______________________________________
+
+
+
+26 Getting the translation of 'The dog sleeps after the cat sleeps'
+26 Translating into 'uichu k'ui-xa-ti enka na misitu k'ui-xa-ka'
+
+
+NOTE: 1 readings, added 245 / 91 edges to chart (22 fully instantiated, 41 actives used, 16 passives used)	NOTE: 1 transfer results	RAM: 36k
+NOTE: EP '"_after_subord_rel"' is unknown in the semantic index
+WARNING: EP '"_after_subord_rel"' is not covered
+RAM: 900k
+NOTE: parsed 1 / 1 sentences, avg 900k, time 0.04053s
+NOTE: transfered 0 / 1 sentences, avg 36k, time 0.00683s
+NOTE: 192 passive, 488 active edges in final generation chart; built 336 passives total. [0 results]
+
+NOTE: generated 0 / 1 sentences, avg 8443k, time 0.09456s
+NOTE: transfer did 12 successful unifies and 2 failed ones
+
+
+
+
+_______________________________________
+
+
+

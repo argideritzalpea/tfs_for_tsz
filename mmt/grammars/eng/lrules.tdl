@@ -1,0 +1,14 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+sg-lex := sg-lex-rule.
+
+mass-lex := mass-lex-rule.
+
+base-lex := base-lex-rule.
+
+png-tense_lrt2-lex := png-tense_lrt2-lex-rule.
+
+;png-tense_lrt3-lex := png-tense_lrt3-lex-rule.
+
+inv-lr := subj-v-inv-lrule.
+
+neg-add-lr := neg-add-lex-rule.

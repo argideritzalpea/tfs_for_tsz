@@ -11,8 +11,15 @@ semarg         << u
 SPECI : SPECI
   * <> *
 
-E.MOOD SF : SF
-int ques <> ques
+SF            E.MOOD  :   SF            MOOD
+ques          *       >>  ques          mood
+ques          int     <<  ques          mood
+prop-or-ques  ind+int <>  prop-or-ques  *
+*             excl    >>  comm          mood
+comm          excl    <<  comm          *
+*             *       >>  *             mood
+irr-          *       <<  *             *
+*             *       <>  *             *
 
 SF : SF
   prop <> prop
@@ -39,6 +46,7 @@ COG-ST : COG-ST
   activ-or-less <> activ-or-less
   * <> *
 
+
 PNG.PER : PER
   3rd <> third
   2nd <> second
@@ -47,6 +55,7 @@ PNG.PER : PER
 
 PNG.NUM : NUM
   sg <> sg
+;  pl >> non-sg
   pl <> pl
   pl << du
   pl << non-sg
@@ -55,21 +64,63 @@ PNG.NUM : NUM
 PNG.GEND : GEND
   * <> *
 
+E.TENSE : TENSE
+  past <> past
+  nonpast <> nonpast
+  tense+ <> tense+
+  tense- <> tense-
+  nonpast << present
+  tense+ << non-future
+  tense- << future
+  nonpast << [e]
+
 E.ASPECT : ASPECT
-  prog <> prog
-  prog <> progressive
+  aor <> perfective
   hab <> hab
+  prog <> prog
   cont <> cont
-  iter <> iter
   asp+ <> asp+
   asp- <> asp-
-  aor << *
+  iter <> iter
+  asp+ >> aspect
+  asp- >> no-aspect
+  aor << aspect
+  * <> *
 
-E.MOOD E.TENSE : MOOD TENSE
-deon nonpast <> * future
-
-E.TENSE : TENSE
-nonpast << present
-past <> past
-nonpast << [e]
-* <> *
+;E.MOOD : MOOD
+;  * >> mood
+;  irr- << *
+;  ind << mood
+;  mood >> mood
+;  mood+_irr+ <> mood+_irr+
+;  imp <> imp
+;  excl <> excl
+;  imp+excl <> imp+excl
+;  mood+_irr- <> mood+_irr-
+;  ind_deon <> ind_deon
+;  ind_epis <> ind_epis
+;  ind_irr- <> ind_irr-
+;  ind <> ind
+;  int_deon <> int_deon
+;  int_epis <> int_epis
+;  int_irr- <> int_irr-
+;  int <> int
+;  ind+int <> ind+int
+;  mood+ <> mood+
+;  mood- <> mood-
+;  mood+_irr+ <> mood+_irr+
+;  ind_deon <> ind_deon
+;  int_deon <> int_deon
+;  deon <> deon
+;  ind_epis <> ind_epis
+;  int_epis <> int_epis
+;  epis <> epis
+;  irr+ <> irr+
+;  imp <> imp
+;  excl <> excl
+;  imp+excl <> imp+excl
+;  mood+_irr- <> mood+_irr-
+;  ind_irr- <> ind_irr-
+;  int_irr- <> int_irr-
+;  irr- <> irr-
+;  * <> *

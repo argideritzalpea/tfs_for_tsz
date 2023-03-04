@@ -1,0 +1,249 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+cat := count-noun-lex &
+  [ STEM < "cat" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cat_n_rel" ].
+
+dog := count-noun-lex &
+  [ STEM < "dog" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dog_n_rel" ].
+
+park := count-noun-lex &
+  [ STEM < "park" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_park_n_rel" ].
+
+car := count-noun-lex &
+  [ STEM < "car" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_car_n_rel" ].
+
+glass := mass-noun-lex &
+  [ STEM < "glass" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_glass_n_rel" ].
+
+I := 1sg-nom-pronoun-noun-lex &
+  [ STEM < "I" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+me := 1sg-acc-pronoun-noun-lex &
+  [ STEM < "me" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+you := 2nd-pronoun-noun-lex &
+  [ STEM < "you" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+she := 3sg-fem-nom-pronoun-noun-lex &
+  [ STEM < "she" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+he := 3sg-masc-nom-pronoun-noun-lex &
+  [ STEM < "he" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+her := 3sg-fem-acc-pronoun-noun-lex &
+  [ STEM < "her" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+him := 3sg-masc-acc-pronoun-noun-lex &
+  [ STEM < "him" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+it := 3sg-neut-pronoun-noun-lex &
+  [ STEM < "it" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+we := 1pl-nom-pronoun-noun-lex &
+  [ STEM < "we" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+us := 1pl-acc-pronoun-noun-lex &
+  [ STEM < "us" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+they := 3pl-nom-pronoun-noun-lex &
+  [ STEM < "they" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+them := 3pl-acc-pronoun-noun-lex &
+  [ STEM < "them" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+;;; Verbs
+
+chase := trans-verb-lex &
+  [ STEM < "chase" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ].
+
+hurt := trans-verb-lex &
+  [ STEM < "hurt" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hurt_v_rel" ].
+
+sleep := intrans-verb-lex &
+  [ STEM < "sleep" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sleep_v_rel" ].
+
+eat := opt-trans-verb-lex &
+  [ STEM < "eat" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+
+think := prop-comp-verb-lex &
+  [ STEM < "think" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_think_v_rel" ].
+
+ask := ques-comp-verb-lex &
+  [ STEM < "ask" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ask_v_rel" ].
+
+know := ques-comp-verb-lex &
+  [ STEM < "know" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ].
+
+know-2 := prop-comp-verb-lex &
+  [ STEM < "know" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ].
+
+
+
+;;; Auxiliaries
+
+do := do-aux-aux-lex &
+  [ STEM < "do" > ].
+
+can := can-aux &
+  [ STEM < "can" >, 
+    SYNSEM.LKEYS.KEYREL.PRED "_can_v_rel" ].
+
+;be := be-aux-aux-lex &
+;  [ STEM < "be" > ].
+
+will := will-aux-aux-lex &
+  [ STEM < "will" > ].
+
+c-am := cop-am-aux-lex &
+  [ STEM < "am" > ].
+
+c-is := cop-is-aux-lex &
+  [ STEM < "is" > ].
+
+c-are := cop-are-aux-lex &
+  [ STEM < "are" > ].
+
+
+c-was := cop-was-aux-lex &
+  [ STEM < "was" > ].
+
+c-were := cop-were-aux-lex &
+  [ STEM < "were" > ].
+
+
+id-am := id-cop-am-aux-lex &
+  [ STEM < "am" > ].
+
+id-is := id-cop-is-aux-lex &
+  [ STEM < "is" > ].
+
+id-are := id-cop-are-aux-lex &
+  [ STEM < "are" > ].
+
+
+id-was := id-cop-was-aux-lex &
+  [ STEM < "was" > ].
+
+id-were := id-cop-were-aux-lex &
+  [ STEM < "were" > ].
+
+
+;;; Determiners
+
+the := det1-determiner-lex &
+  [ STEM < "the" >,
+    SYNSEM.LKEYS.KEYREL.PRED "exist_q_rel" ].
+
+a := det2-determiner-lex &
+  [ STEM < "a" >,
+    SYNSEM.LKEYS.KEYREL.PRED "exist_q_rel" ].
+
+this := demonstrative-sg-determiner-lex &
+  [ STEM < "this" >,
+    SYNSEM.LKEYS.ALTKEYREL.PRED proximal+dem_a_rel ].
+
+that := demonstrative-sg-determiner-lex &
+  [ STEM < "that" >,
+    SYNSEM.LKEYS.ALTKEYREL.PRED distal+dem_a_rel ].
+
+these := demonstrative-pl-determiner-lex &
+  [ STEM < "these" >,
+    SYNSEM.LKEYS.ALTKEYREL.PRED proximal+dem_a_rel ].
+
+those := demonstrative-pl-determiner-lex &
+  [ STEM < "those" >,
+    SYNSEM.LKEYS.ALTKEYREL.PRED distal+dem_a_rel ].
+
+and := conj-lex &
+  [ STEM < "and" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "1" ].
+
+my := poss-pron-det-lex &
+  [ STEM < "my" >,
+    SYNSEM.LKEYS.ALTKEYREL.ARG0.PNG.PERNUM 1sg ].
+
+poss-det := poss-det-lex &
+  [ STEM < "s" > ].
+    
+		 
+;;; complementizers
+
+that-2 := prop-comp-lex-item &
+  [ STEM < "that" > ].
+
+whether := ques-comp-lex-item &
+  [ STEM < "whether" > ].
+
+;;; adjectives
+
+hungry := adjective-lex &
+  [ STEM < "hungry" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hungry_a_rel" ].
+
+;;; adverbs
+
+quickly := adverb-lex &
+  [ STEM < "quickly" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quickly_a_rel" ].
+
+not := neg-adv-lex &
+  [ STEM < "not" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_neg_a_rel" ] .
+
+;;; prepositions
+
+in := adposition-lex &
+  [ STEM < "in" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_in_p_rel" ].
+
+;of := adposition-lex &
+;  [ STEM < "of" >,
+;    SYNSEM.LKEYS.KEYREL [ PRED "poss_rel",
+;			  ARG1.COG-ST uniq+fam+act ] ].
+
+;;; wh pronouns
+
+what := wh-pronoun-noun-lex &
+  [ STEM < "what" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+who := wh-pronoun-noun-lex &
+  [ STEM < "who" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+;;; subordinating prepositions
+
+after := s-attach-clause-subord-lex-item &
+  [ STEM < "after" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_after_subord_rel" ].
+
+because := s-attach-clause-subord-lex-item &
+  [ STEM < "because" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_because_subord_rel" ].

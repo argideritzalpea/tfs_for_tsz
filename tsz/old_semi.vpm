@@ -1,0 +1,75 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+; A basic VPM for Matrix grammars.
+event          <> e
+ref-ind        <> x
+individual     <> i
+handle         <> h
+non_event      <> p
+*              >> u
+semarg         << u
+
+SPECI : SPECI
+  * <> *
+
+E.MOOD SF : SF
+int ques <> ques
+
+SF : SF
+  prop <> prop
+  ques <> ques
+  prop-or-ques >> prop-or-ques
+  prop << prop-or-ques
+  comm <> comm
+  * <> *
+
+COG-ST : COG-ST
+  type-id <> type-id
+  uniq-id <> uniq-id
+  familiar <> familiar
+  activated <> activated
+  in-foc <> in-foc
+  activ+fam <> activ+fam
+  uniq+fam <> uniq+fam
+  activ-or-more <> activ-or-more
+  uniq-or-less <> uniq-or-less
+  uniq+fam+act <> uniq+fam+act
+  fam-or-more <> fam-or-more
+  fam-or-less <> fam-or-less
+  uniq-or-more <> uniq-or-more
+  activ-or-less <> activ-or-less
+  * <> *
+
+PNG.PER : PER
+  3rd <> third
+  2nd <> second
+  1st <> first
+  * <> *
+
+PNG.NUM : NUM
+  sg <> sg
+  pl <> pl
+  pl << du
+  pl << non-sg
+  * <> *
+
+PNG.GEND : GEND
+  * <> *
+
+E.ASPECT : ASPECT
+  prog <> prog
+  prog <> progressive
+  hab <> hab
+  cont <> cont
+  iter <> iter
+  asp+ <> asp+
+  asp- <> asp-
+  aor << *
+
+E.MOOD E.TENSE : MOOD TENSE
+deon nonpast <> * future
+
+E.TENSE : TENSE
+nonpast << present
+past <> past
+nonpast << [e]
+* <> *

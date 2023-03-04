@@ -894,6 +894,7 @@ Phenomena: nonverbal_predicates, poss
 =e-x-ti misitu pegru-eri
 =COP-AOR-3.IND cat Pedro-GEN
 Intended: The cat is Pedro's
+
 #90 lab7
 Source: us
 Vetted: f

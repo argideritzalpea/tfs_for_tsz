@@ -1045,7 +1045,7 @@ ia_1 := noun84-noun-lex &
   [ STEM < "ia" >,
     SYNSEM.LKEYS.KEYREL.PRED "_already_n_rel" ].
 
-iamintu_1 := noun84-noun-lex &
+iamintu := noun84-noun-lex &
   [ STEM < "iamintu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_everyone_n_rel" ].
 
@@ -1101,7 +1101,7 @@ ireta := noun84-noun-lex &
   [ STEM < "ireta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_town_n_rel" ].
 
-iretʃa := noun84-noun-lex &
+irecha := noun84-noun-lex &
   [ STEM < "irecha" >,
     SYNSEM.LKEYS.KEYREL.PRED "_king_n_rel" ].
 
@@ -2571,11 +2571,11 @@ kuini := noun235-noun-lex &
 
 p_27ukuminturi := noun235-noun-lex &
   [ STEM < "p'ukuminturi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_forest_n_rel" ].
-
-p_27ukuminturi_2 := noun235-noun-lex &
-  [ STEM < "p'ukuminturi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_park_n_rel" ].
+
+;p_27ukuminturi_2 := noun235-noun-lex &
+;  [ STEM < "p'ukuminturi" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_forest_n_rel" ].
 
 rati := noun235-noun-lex &
   [ STEM < "rati" >,
@@ -2737,160 +2737,28 @@ xuku_1 := noun278-noun-lex &
   [ STEM < "xuku" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dress_n_rel" ].
 
-najtuka := noun334-noun-lex &
-  [ STEM < "najtuka" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-iamintu_2 := noun336-noun-lex &
-  [ STEM < "iamintu" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hutʃaeri := noun338-noun-lex &
-  [ STEM < "hutʃaeri" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
 jinte_1 := noun339-noun-lex &
   [ STEM < "jinte" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-noompi := noun340-noun-lex &
-  [ STEM < "noompi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-chats_27ï := noun341-noun-lex &
-  [ STEM < "chats'ï" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hinte_1 := noun345-noun-lex &
-  [ STEM < "hinte" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hinteni := noun346-noun-lex &
-  [ STEM < "hinteni" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hutʃa_1 := noun347-noun-lex &
-  [ STEM < "hutʃa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hutʃantsʰïni := noun348-noun-lex &
-  [ STEM < "hutʃantsʰïni" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-jinteni := noun352-noun-lex &
-  [ STEM < "jinteni" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-ts_27ïma := noun356-noun-lex &
-  [ STEM < "ts'ïma" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-tsa := noun357-noun-lex &
-  [ STEM < "tsa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-tsʰïma := noun359-noun-lex &
-  [ STEM < "tsʰïma" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-tsʰima := noun359-noun-lex &
-  [ STEM < "tsʰima" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-tʃa_1 := noun360-noun-lex &
-  [ STEM < "tʃa" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
 ji := sg1_pron_nom-noun-lex &
   [ STEM < "ji" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
-hi := sg1_pron_nom-noun-lex &
-  [ STEM < "hi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
 juchi := sg1_pron_gen-noun-lex &
   [ STEM < "juchi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-huchi := sg1_pron_gen-noun-lex &
-  [ STEM < "huchi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-jutʃi := sg1_pron_gen-noun-lex &
-  [ STEM < "jutʃi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hutʃi := sg1_pron_gen-noun-lex &
-  [ STEM < "hutʃi" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
 juchiti := sg1_pron_gen-noun-lex &
   [ STEM < "juchiti" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
-huchiti := sg1_pron_gen-noun-lex &
-  [ STEM < "huchiti" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-jutʃiti := sg1_pron_gen-noun-lex &
-  [ STEM < "jutʃiti" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hutʃiti := sg1_pron_gen-noun-lex &
-  [ STEM < "hutʃiti" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-jucheeti := sg1_pron_gen-noun-lex &
-  [ STEM < "jucheeti" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hucheeti := sg1_pron_gen-noun-lex &
-  [ STEM < "hucheeti" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-jutʃeeti := sg1_pron_gen-noun-lex &
-  [ STEM < "jutʃeeti" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hutʃeeti := sg1_pron_gen-noun-lex &
-  [ STEM < "hutʃeeti" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
 jucha := pl1_pron_nom-noun-lex &
   [ STEM < "jucha" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
-hucha := pl1_pron_nom-noun-lex &
-  [ STEM < "hucha" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-jutʃa := pl1_pron_nom-noun-lex &
-  [ STEM < "jutʃa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hutʃa_2 := pl1_pron_nom-noun-lex &
-  [ STEM < "hutʃa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
 juchari := pl1_pron_gen-noun-lex &
   [ STEM < "juchari" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-huchari := pl1_pron_gen-noun-lex &
-  [ STEM < "huchari" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-jutʃari := pl1_pron_gen-noun-lex &
-  [ STEM < "jutʃari" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-hutʃari := pl1_pron_gen-noun-lex &
-  [ STEM < "hutʃari" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-juchaeri := pl1_pron_gen-noun-lex &
-  [ STEM < "juchaeri" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
 t_27u := sg2_pron_nom-noun-lex &
@@ -2905,36 +2773,12 @@ t_27uchi := sg2_pron_gen-noun-lex &
   [ STEM < "t'uchi" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
-tʃi := sg2_pron_gen-noun-lex &
-  [ STEM < "tʃi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-t_27utʃi := sg2_pron_gen-noun-lex &
-  [ STEM < "t'utʃi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-tʰuchi := sg2_pron_gen-noun-lex &
-  [ STEM < "tʰuchi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-tʰutʃi := sg2_pron_gen-noun-lex &
-  [ STEM < "tʰutʃi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
 cha_2 := pl2_pron_nom-noun-lex &
   [ STEM < "cha" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
-tʃa_2 := pl2_pron_nom-noun-lex &
-  [ STEM < "tʃa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
 chari := pl2_pron_gen-noun-lex &
   [ STEM < "chari" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-tʃari := pl2_pron_gen-noun-lex &
-  [ STEM < "tʃari" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
 i_1 := sg3_pron_nom-noun-lex &
@@ -2969,20 +2813,8 @@ tsïmi := pl3_pron_nom-noun-lex &
   [ STEM < "tsïmi" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
-tsʰimi := pl3_pron_nom-noun-lex &
-  [ STEM < "tsʰimi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
 tsïma := pl3_pron_nom-noun-lex &
   [ STEM < "tsïma" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-itʃa_1 := pl3_pron_nom-noun-lex &
-  [ STEM < "itʃa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-imetʃa := pl3_pron_nom-noun-lex &
-  [ STEM < "imetʃa" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
 icha_2 := pl3_pron_nom-noun-lex &
@@ -2999,14 +2831,6 @@ tsïri := pl3_pron_gen-noun-lex &
 
 tsïmeri := pl3_pron_gen-noun-lex &
   [ STEM < "tsïmeri" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-itʃeri := pl3_pron_gen-noun-lex &
-  [ STEM < "itʃeri" >,
-    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
-
-imetʃeri := pl3_pron_gen-noun-lex &
-  [ STEM < "imetʃeri" >,
     SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
 icheri := pl3_pron_gen-noun-lex &
@@ -3655,10 +3479,6 @@ tsurumu_1 := verb21-verb-lex &
   [ STEM < "tsurumu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thorn_v_rel" ].
 
-tʰire_1 := verb21-verb-lex &
-  [ STEM < "tʰire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
-
 uanta_2 := verb21-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say-or-speak_v_rel" ].
@@ -3826,10 +3646,6 @@ pensari := verb21-verb-lex &
 kama_1 := verb21-verb-lex &
   [ STEM < "kama" >,
     SYNSEM.LKEYS.KEYREL.PRED "_have_v_rel" ].
-
-t_27ire_1 := verb21-verb-lex &
-  [ STEM < "t'ire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 tsipi_2 := verb21-verb-lex &
   [ STEM < "tsipi" >,
@@ -4281,7 +4097,7 @@ uina_2 := verb31-verb-lex &
 
 aku := verb31-verb-lex &
   [ STEM < "aku" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "__eat_v_rel" ].
 
 ku_1 := verb31-verb-lex &
   [ STEM < "ku" >,
@@ -4435,10 +4251,6 @@ sïruki_2 := verb31-verb-lex &
   [ STEM < "sïruki" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ant_v_rel" ].
 
-t_27ire_2 := verb31-verb-lex &
-  [ STEM < "t'ire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
-
 t_27upuri_2 := verb31-verb-lex &
   [ STEM < "t'upuri" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dust_v_rel" ].
@@ -4450,10 +4262,6 @@ tsanarhi_2 := verb31-verb-lex &
 tsïta_1 := verb31-verb-lex &
   [ STEM < "tsïta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lose_v_rel" ].
-
-tʰire_2 := verb31-verb-lex &
-  [ STEM < "tʰire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 u_3 := verb31-verb-lex &
   [ STEM < "u" >,
@@ -4826,10 +4634,6 @@ tinti_3 := verb257-verb-lex &
 tsurumu_2 := verb257-verb-lex &
   [ STEM < "tsurumu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thorn_v_rel" ].
-
-tʰire_3 := verb257-verb-lex &
-  [ STEM < "tʰire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 uanta_6 := verb257-verb-lex &
   [ STEM < "uanta" >,
@@ -5207,7 +5011,7 @@ sïruki_3 := verb304-verb-lex &
   [ STEM < "sïruki" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ant_v_rel" ].
 
-t_27ire_3 := verb304-verb-lex &
+t_27ire_2 := verb304-verb-lex &
   [ STEM < "t'ire" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
@@ -5222,10 +5026,6 @@ tsanarhi_3 := verb304-verb-lex &
 tsïta_2 := verb304-verb-lex &
   [ STEM < "tsïta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lose_v_rel" ].
-
-tʰire_4 := verb304-verb-lex &
-  [ STEM < "tʰire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 u_4 := verb304-verb-lex &
   [ STEM < "u" >,
@@ -5355,10 +5155,6 @@ aŋa_1 := verb304-verb-lex &
   [ STEM < "aŋa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_stand.up_v_rel" ].
 
-aɽa_1 := verb304-verb-lex &
-  [ STEM < "aɽa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
-
 pera_2 := verb304-verb-lex &
   [ STEM < "pera" >,
     SYNSEM.LKEYS.KEYREL.PRED "_deliver-or-put_v_rel" ].
@@ -5477,7 +5273,7 @@ kurhamarhi_1 := verb304-verb-lex &
 
 arha := verb304-verb-lex &
   [ STEM < "arha" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "__eat_v_rel" ].
 
 aɽi_2 := verb304-verb-lex &
   [ STEM < "aɽi" >,
@@ -5647,9 +5443,9 @@ archivari_2 := verb312-verb-lex &
   [ STEM < "archivari" >,
     SYNSEM.LKEYS.KEYREL.PRED "_file_v_rel" ].
 
-aɽa_2 := verb312-verb-lex &
-  [ STEM < "aɽa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+arha_2 := verb312-verb-lex &
+  [ STEM < "arha" >,
+    SYNSEM.LKEYS.KEYREL.PRED "__eat_v_rel" ].
 
 ch_27apa_2 := verb312-verb-lex &
   [ STEM < "ch'apa" >,
@@ -6135,10 +5931,6 @@ tsurumu_3 := verb620-verb-lex &
   [ STEM < "tsurumu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thorn_v_rel" ].
 
-tʰire_5 := verb620-verb-lex &
-  [ STEM < "tʰire" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
-
 uanta_9 := verb620-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_speak_v_rel" ].
@@ -6476,3 +6268,13 @@ iska := comps1-complementizer-lex-item &
 
 iski := comps1-complementizer-lex-item &
   [ STEM < "iski" > ].
+
+;;; wh pronouns
+
+ambe := wh-pronoun-noun-lex &
+  [ STEM < "ambe" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+ne := wh-pronoun-noun-lex &
+  [ STEM < "ne" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
