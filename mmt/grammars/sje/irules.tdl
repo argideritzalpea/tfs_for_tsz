@@ -1,0 +1,273 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Inflecting Lexical Rule Instances
+
+;;; Nominal morphology
+
+%(letter-set (!c bcdfghjklmnpqrstvwxyz))
+
+nom-sg-Ib-suffix :=
+%suffix (!c !c!caa)
+nom-sg-Ib-lex-rule.
+
+nom-pl-Ib-suffix :=
+%suffix (* aa)
+nom-pl-Ib-lex-rule.
+
+acc-sg-Ib-suffix :=
+%suffix (* aav)
+acc-sg-Ib-lex-rule.
+
+acc-pl-Ib-suffix :=
+%suffix (* ajd)
+acc-pl-Ib-lex-rule.
+
+gen-sg-Ib-suffix :=
+%suffix (* aa)
+gen-sg-Ib-lex-rule.
+
+iness-sg-Ib-suffix :=
+%suffix (* aan)
+iness-sg-Ib-lex-rule.
+
+nom-sg-Ie-suffix :=
+%suffix (!c !c!ce)
+nom-sg-Ie-lex-rule.
+
+nom-pl-Ie-suffix :=
+%suffix (* e)
+nom-pl-Ie-lex-rule.
+
+acc-sg-Ie-suffix :=
+%suffix (* ev)
+acc-sg-Ie-lex-rule.
+
+gen-sg-Ie-suffix :=
+%suffix (* e)
+gen-sg-Ie-lex-rule.
+
+iness-sg-Ie-suffix :=
+%suffix (* en)
+iness-sg-Ie-lex-rule.
+
+
+;;; Verbal morphology
+
+1sg-prs-V-suffix :=
+%suffix (* av)
+1sg-prs-V-lex-rule.
+
+2sg-prs-V-suffix :=
+%suffix (* a)
+2sg-prs-V-lex-rule.
+
+3sg-prs-V-suffix :=
+%suffix (* a)
+3sg-prs-V-lex-rule.
+
+1du-prs-V-suffix :=
+%suffix (* en)
+1du-prs-V-lex-rule.
+
+2du-prs-V-suffix :=
+%suffix (* aehpen)
+2du-prs-V-lex-rule.
+
+3du-prs-V-suffix :=
+%suffix (* aeba)
+3du-prs-V-lex-rule.
+
+1pl-prs-V-suffix :=
+%suffix (* ep)
+1pl-prs-V-lex-rule.
+
+2pl-prs-V-suffix :=
+%suffix (* aehpit)
+2pl-prs-V-lex-rule.
+
+3pl-prs-V-suffix :=
+%suffix (* e)
+3pl-prs-V-lex-rule.
+
+1sg-pst-V-suffix :=
+%suffix (* ijiv)
+1sg-pst-V-lex-rule.
+
+2sg-pst-V-suffix :=
+%suffix (* ijiv)
+2sg-pst-V-lex-rule.
+
+;1pl-pst-V-suffix :=
+;%suffix (* ije)
+;1pl-pst-V-lex-rule.
+
+3sg-pst-V-suffix :=
+%suffix (* ij)
+3sg-pst-V-lex-rule.
+
+infinitive-V-suffix :=
+%suffix (* it)
+infinitive-V-lex-rule.
+
+progressive-V-suffix :=
+%suffix (* emin)
+progressive-V-lex-rule.
+
+connegative-V-suffix :=
+%suffix (* e)
+connegative-V-lex-rule.
+
+1-sg-prs-fut-suffix :=
+%suffix (* av)
+1-sg-prs-fut-lex-rule.
+
+1sg-pres-neg-suffix :=
+%suffix (* v)
+1sg-pres-neg-lex-rule.
+
+3sg-pres-neg-suffix :=
+%suffix (* j)
+3sg-pres-neg-lex-rule.
+
+1du-pres-neg-suffix :=
+%suffix (* en)
+1du-pres-neg-lex-rule.
+
+2du-pres-neg-suffix :=
+%suffix (* ehpen)
+2du-pres-neg-lex-rule.
+
+3du-pres-neg-suffix :=
+%suffix (* eba)
+3du-pres-neg-lex-rule.
+
+1pl-pres-neg-suffix :=
+%suffix (* ep)
+1pl-pres-neg-lex-rule.
+
+2pl-pres-neg-suffix :=
+%suffix (* ehpet)
+2pl-pres-neg-lex-rule.
+
+3pl-pres-neg-suffix :=
+%suffix (* eh)
+3pl-pres-neg-lex-rule.
+
+
+
+
+1sg-pres-prog-suffix :=
+%suffix (* ev)
+1sg-pres-prog-lex-rule.
+
+1sg-prs-modal-suffix :=
+%suffix (* aav)
+1sg-prs-modal-lex-rule.
+
+2sg-prs-modal-suffix :=
+%suffix (* aa)
+2sg-prs-modal-lex-rule.
+
+3sg-prs-modal-suffix :=
+%suffix (!c !c!ca)
+3sg-prs-modal-lex-rule.
+
+pass-VI-suffix :=
+%suffix (* duvvu)
+pass-VI-lex-rule.
+
+3sg-pst-VI-suffix :=
+%suffix (* j)
+3sg-pst-VI-lex-rule.
+
+
+
+1sg-prs-IIb-suffix :=
+%suffix (* av)
+1sg-prs-IIb-lex-rule.
+
+2sg-prs-IIb-suffix :=
+%suffix (* a)
+2sg-prs-IIb-lex-rule.
+
+3sg-prs-IIb-suffix :=
+%suffix (* a)
+3sg-prs-IIb-lex-rule.
+
+1du-prs-IIb-suffix :=
+%suffix (* in)
+1du-prs-IIb-lex-rule.
+
+2du-prs-IIb-suffix :=
+%suffix (* aehppen)
+2du-prs-IIb-lex-rule. 
+
+3du-prs-IIb-suffix :=
+%suffix (* eba)
+3du-prs-IIb-lex-rule.
+
+1pl-prs-IIb-suffix :=
+%suffix (* ip)
+1pl-prs-IIb-lex-rule.
+ 
+2pl-prs-IIb-suffix :=
+%suffix (* ihppit)
+2pl-prs-IIb-lex-rule. 
+
+3pl-prs-IIb-suffix :=
+%suffix (* i)
+3pl-prs-IIb-lex-rule.
+
+
+
+1sg-pst-IIb-suffix :=
+%suffix (* iv)
+1sg-pst-IIb-lex-rule.
+ 
+2sg-pst-IIb-suffix :=
+%suffix (* e)
+2sg-pst-IIb-lex-rule. 
+
+3sg-pst-IIb-suffix :=
+%suffix (* aj)
+3sg-pst-IIb-lex-rule.
+
+1pl-pst-IIb-suffix :=
+%suffix (* ajmae)
+1pl-pst-IIb-lex-rule.
+ 
+2pl-pst-IIb-suffix :=
+%suffix (* ajdae)
+2pl-pst-IIb-lex-rule. 
+
+3pl-pst-IIb-suffix :=
+%suffix (* in)
+3pl-pst-IIb-lex-rule.
+
+
+
+
+
+connegative-IIb-suffix :=
+%suffix (* ao)
+connegative-IIb-lex-rule.
+
+1sg-prs-III-suffix :=
+%suffix (* av)
+1sg-prs-III-lex-rule.
+
+2sg-prs-III-suffix :=
+%suffix (* a)
+2sg-prs-III-lex-rule.
+ 
+connegative-III-suffix :=
+%suffix (* e)
+connegative-III-lex-rule.
+
+adj_pl-suffix :=
+%suffix (* a)
+adj_pl-lex-rule.
+
+adj_sg-suffix :=
+%suffix (* e)
+adj_sg-lex-rule.
+

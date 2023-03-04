@@ -18,8 +18,7 @@ non-mod-lex-item := lex-item &
 ;;; Matrix Type Addenda
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 
-head :+ [ MAIN_CLAUSE bool,
-    PRON bool,
+head :+ [ PRON bool,
     PRD bool,
     NMZ bool,
     POSSESSOR poss,
@@ -618,8 +617,8 @@ verb32-verb-lex := clausal-nom-verb-lex & clausal-second-arg-trans-lex-item &
   [ INFLECTED.INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG na-or--,
     SYNSEM [ LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CAT.HEAD [ CASE nom,
                                                          CASE-MARKED + ],
-                             COMPS < [ LOCAL [ CAT [ HEAD comp &
-                                                          [ MAIN_CLAUSE - ],
+                             COMPS < [ LOCAL [ CAT [ HEAD comp,
+                                                     MC -,
                                                      WH.BOOL - ],
                                                CONT.HOOK.INDEX [ E.MOOD mood-,
                                                                  SF prop ] ] ] > ],
@@ -1027,13 +1026,13 @@ adverb-subord-lex-item := no-rels-hcons-lex-item & basic-icons-lex-item &
 
 --because-clause-init-adv-subord-lex-item := adverb-subord-lex-item &
   [ SYNSEM [ LOCAL.CAT [ POSTHEAD -,
-                         HEAD [ MAIN_CLAUSE #feat,
-                                MOD < [ LOCAL.CAT [ HEAD.MAIN_CLAUSE #feat & -,
-                                                    VAL.COMPS < > ] ] > ] ],
+                         MC -,
+                         HEAD.MOD < [ LOCAL.CAT [ VAL.COMPS < > ] ] > ],
              SUBORDINATED because ] ].
 
 --if-or-when-or-while-clause-init-adv-subord-lex-item := adverb-subord-lex-item &
-  [ SYNSEM [ LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.VAL.COMPS < > ] >,
+  [ SYNSEM [ LOCAL.CAT [ HEAD.MOD < [ LOCAL.CAT.VAL.COMPS < > ] >,
+                         MC - ],
              SUBORDINATED if-or-when-or-while ] ].
 
 adv-marked-subord-clause-phrase := unary-phrase &
@@ -1098,8 +1097,7 @@ complementizer-lex-item := raise-sem-lex-item & non-local-none-lex-item & basic-
 
 comps1-complementizer-lex-item := complementizer-lex-item & basic-non-wh-word-lex &
   [ SYNSEM.LOCAL [ CAT [ MC na-or--,
-                         VAL.COMPS.FIRST.LOCAL [ CAT [ MC -,
-                                                       HEAD.MAIN_CLAUSE - ],
+                         VAL.COMPS.FIRST.LOCAL [ CAT [ MC - ],
                                                  CONT.HOOK.INDEX.E.MOOD mood- ] ],
                    CONT.HOOK.INDEX.SF prop ] ].
 
@@ -1363,14 +1361,14 @@ tam1-continuative-mc-lex-rule := tam1-asp-tense-check-lex-rule & tam1-fin-mc-che
 tam1-fin-mc-check-lex-rule := infl-lex-rule & tam1-lex-rule-super &
   [ INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
     DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-    SYNSEM.LOCAL.CAT.HEAD [ MAIN_CLAUSE +,
-                            FORM finite ] ].
+    SYNSEM.LOCAL.CAT [ MC +,
+                       HEAD [ FORM finite ] ] ].
 
 tam1-fin-subord-check-lex-rule := const-lex-rule & tam1-lex-rule-super &
   [ INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
     DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
-    SYNSEM.LOCAL.CAT.HEAD [ MAIN_CLAUSE -,
-                            FORM finite ] ].
+    SYNSEM.LOCAL.CAT [ MC -,
+                       HEAD [ FORM finite ] ] ].
 
 tam1-no-asp-tense-lex-rule := const-lex-rule & tam1-lex-rule-super &
   [ INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG #tam1-habitual-past-form_xiren,
@@ -1421,12 +1419,12 @@ tam2-habitual-past-form_xiren-lex-rule := const-lex-rule & tam2-asp-tense-check-
   [ DTR.INFLECTED.TAM1-HABITUAL-PAST-FORM_XIREN-FLAG + ].
 
 tam2-fin-mc-check-lex-rule := tam2-lex-rule-super &
-  [ SYNSEM.LOCAL.CAT.HEAD [ MAIN_CLAUSE +,
-                            FORM finite ] ].
+  [ SYNSEM.LOCAL.CAT [ MC +,
+                       HEAD [ FORM finite ] ] ].
 
 tam2-fin-subord-check-lex-rule := tam2-lex-rule-super &
-  [ SYNSEM.LOCAL.CAT.HEAD [ MAIN_CLAUSE -,
-                            FORM finite ] ].
+  [ SYNSEM.LOCAL.CAT [ MC -,
+                       HEAD [ FORM finite ] ] ].
 
 tam2-asp-tense-check-lex-rule := tam2-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ ASPECT asp+,
@@ -1484,19 +1482,19 @@ tam3-lex-rule-super := add-only-no-ccont-rule &
                       KINSHIP-POSSESSUM-FLAG #kinship-possessum,
                       INTRANS_BIPART-STEM_FORM-KA-VERB-OR-TRANS_BIPART-STEM_FORM-KA-VERB-FLAG #intrans_bipart-stem_form-ka-verb-or-trans_bipart-stem_form-ka-verb ] ] ].
 
-tam3-noninterrogative-lex-rule := tam3-lex-rule-super &
+tam3-prop-lex-rule := tam3-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop ].
 
 tam3-fin-mc-check-lex-rule := tam3-lex-rule-super &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD mood+,
-                   CAT.HEAD [ MAIN_CLAUSE +,
-                              FORM finite ] ] ].
+                   CAT [ MC +,
+                         HEAD [ FORM finite ] ] ] ].
 
 tam3-fin-subord-lex-rule := infl-lex-rule & tam3-lex-rule-super &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD mood-,
                    CONT.HOOK.INDEX.SF prop,
-                   CAT.HEAD [ MAIN_CLAUSE -,
-                              FORM finite ] ] ].
+                   CAT [ MC +,
+                         HEAD [ FORM finite ] ] ] ].
 
 tam3-asp-tense-check-lex-rule := tam3-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E [ ASPECT asp+,
@@ -1513,7 +1511,7 @@ tam3-irr+_check-lex-rule := tam3-no-asp-tense-check-lex-rule &
 tam3-irr-_check-lex-rule := tam3-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD irr- ].
 
-tam3-indicative-check-lex-rule := infl-lex-rule & tam3-fin-mc-check-lex-rule & tam3-noninterrogative-lex-rule &
+tam3-indicative-check-lex-rule := infl-lex-rule & tam3-fin-mc-check-lex-rule & tam3-prop-lex-rule &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX [E.MOOD ind ] ].
 
 tam3-interrogative-check-lex-rule := tam3-fin-mc-check-lex-rule &
@@ -1545,8 +1543,9 @@ tam3-interrogative_-zero-lex-rule := const-lex-rule & tam3-interrogative-check-l
 tam3-imp+excl-check-lex-rule := tam3-fin-mc-check-lex-rule & tam3-irr-_check-lex-rule & tam3-no-asp-tense-check-lex-rule &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD imp+excl ].
 
-tam3-imp-check-lex-rule := tam3-imp+excl-check-lex-rule & tam3-noninterrogative-lex-rule &
-  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD imp,
+tam3-imp-check-lex-rule := tam3-imp+excl-check-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX [ E.MOOD imp,
+                                     SF comm ],
                    CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd ] ].
 
 tam3-imperative_sg-lex-rule := const-lex-rule & tam3-imp-check-lex-rule &
@@ -1555,8 +1554,9 @@ tam3-imperative_sg-lex-rule := const-lex-rule & tam3-imp-check-lex-rule &
 tam3-imperative_pl-lex-rule := infl-lex-rule & tam3-imp-check-lex-rule &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
 
-tam3-exclamative-lex-rule := infl-lex-rule & tam3-imp+excl-check-lex-rule & tam3-noninterrogative-lex-rule &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX [E.MOOD excl ] ].
+tam3-exclamative-lex-rule := infl-lex-rule & tam3-imp+excl-check-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX [ E.MOOD excl,
+                                   SF prop ] ].
 
 tam3-nonfin-lex-rule := infl-lex-rule & tam3-irr-_check-lex-rule & tam3-no-asp-tense-check-lex-rule &
   [ SYNSEM.LOCAL [CAT.HEAD.FORM nonfinite ] ].

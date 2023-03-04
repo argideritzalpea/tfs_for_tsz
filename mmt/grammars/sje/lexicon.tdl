@@ -1,0 +1,498 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+maan := common-noun-Ib-noun-lex &
+  [ STEM < "maan" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_child_n_rel" ].
+
+bijl := common-noun-Ib-noun-lex &	    
+  [ STEM < "bijl" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_car_n_rel" ].
+
+bednag := common-noun-Ib-noun-lex &
+  [ STEM < "bednag" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dog_n_rel" ].
+
+gaaht := common-noun-Ib-noun-lex &
+  [ STEM < "gaaht" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cat_n_rel" ].
+
+miehts := common-noun-Ie-noun-lex &
+  [ STEM < "miehts" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_park_n_rel" ].
+
+mielk := common-noun-Ie-noun-lex &
+  [ STEM < "mielk" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_milk_n_rel" ].
+
+vuoj := common-noun-Ib-noun-lex &
+  [ STEM < "vuoj" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_butter_n_rel" ].
+
+buhts := common-noun-Ie-noun-lex &
+  [ STEM < "buhts" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_reindeer_n_rel" ].
+
+guol := common-noun-Ie-noun-lex &
+  [ STEM < "guol" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fish_n_rel" ].
+
+maon := pronoun-1sg-nom-noun-lex &
+  [ STEM < "maon" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+;maonnao := pronoun-1sg-nom-noun-lex &
+;  [ STEM < "maonnao" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+daon := pronoun-2sg-nom-noun-lex &
+  [ STEM < "daon" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+;daonnao := pronoun-2sg-nom-noun-lex &
+;  [ STEM < "daonnao" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+saon := pronoun-3sg-nom-noun-lex &
+  [ STEM < "saon" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+;saonnao := pronoun-3sg-nom-noun-lex &
+;  [ STEM < "saonnao" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+maoj := pronoun-1du-nom-noun-lex &
+  [ STEM < "maoj" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+;maojao := pronoun-1du-nom-noun-lex &
+;  [ STEM < "maojao" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+daoj := pronoun-2du-nom-noun-lex &
+  [ STEM < "daoj" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+;daojao := pronoun-2du-nom-noun-lex &
+;  [ STEM < "daojao" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+saoj := pronoun-3du-nom-noun-lex &
+  [ STEM < "saoj" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+;saojao := pronoun-3du-nom-noun-lex &
+;  [ STEM < "saojao" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+mij := pronoun-1pl-nom-noun-lex &
+  [ STEM < "mij" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+;mija := pronoun-1pl-nom-noun-lex &
+;  [ STEM < "mija" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_1pl_n_rel" ].
+
+dij := pronoun-2pl-nom-noun-lex &
+  [ STEM < "dij" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+sij := pronoun-3pl-nom-noun-lex &
+  [ STEM < "sij" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+;sija := pronoun-3pl-nom-noun-lex &
+;  [ STEM < "sija" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+muv_1 := pronoun-1sg-acc-noun-lex &
+  [ STEM < "muv" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+duv_1 := pronoun-2sg-gen-noun-lex &
+  [ STEM < "duv"  >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+duv_2 := pronoun-2sg-acc-noun-lex &
+  [ STEM < "duv" >,
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+;interrogative pronouns
+
+ge_1 := wh-pronoun-sg-nom-noun-lex &
+  [ STEM < "ge" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+ge_2 := wh-pronoun-pl-nom-noun-lex &
+  [ STEM < "ge" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+gen := wh-pronoun-sg-gen-noun-lex &
+  [ STEM < "gen" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+gej := wh-pronoun-pl-gen-noun-lex &
+  [ STEM < "gej" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+gev := wh-pronoun-sg-acc-noun-lex &
+  [ STEM < "gev" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+gejd := wh-pronoun-pl-acc-noun-lex &
+  [ STEM < "gejd" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+genne := wh-pronoun-sg-iness-noun-lex &
+  [ STEM < "genne" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+gejdne := wh-pronoun-pl-iness-noun-lex &
+  [ STEM < "gejdne" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+mij_1 := wh-pronoun-sg-nom-noun-lex &
+  [ STEM < "mij" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+ma := wh-pronoun-pl-nom-noun-lex &
+  [ STEM < "ma" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+man := wh-pronoun-sg-gen-noun-lex &
+  [ STEM < "man" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+mej := wh-pronoun-pl-gen-noun-lex &
+  [ STEM < "mej" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+mejd := wh-pronoun-sg-acc-noun-lex &
+  [ STEM < "mejd" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+mav := wh-pronoun-pl-acc-noun-lex &
+  [ STEM < "mav" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+manne := wh-pronoun-sg-iness-noun-lex &
+  [ STEM < "manne" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+majdne := wh-pronoun-pl-iness-noun-lex &
+  [ STEM < "majdne" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+;;; Adjectives
+
+aovros := adj-adj-lex &
+  [ STEM < "aovros" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nervous_a_rel" ].
+
+vuoras := adj-adj-lex &
+  [ STEM < "vuoras" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_old_a_rel" ].
+
+tjaabba := adj-adj-lex &
+  [ STEM < "tjaabb" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_beautiful_a_rel" ].
+; predicative sg version should also be tjaabbe
+
+buojde := adj-adj-lex &
+  [ STEM < "buojde" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hungry_a_rel" ].
+; this one is unattested in any other form than predicative pl, so we are using that form as its stem here.
+; doesn't mean 'hungry,' means 'fat'
+
+saadnes := adj-adj-lex &
+  [ STEM < "saadnes" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_true_a_rel" ].
+
+
+;;; Adverbs
+
+vaarogit := adverb-verb-mod-lex &
+  [ STEM < "vaarogit" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nervously_a_rel" ].
+
+haahppelit := adverb-verb-mod-lex &
+  [ STEM < "haahppelit" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_quickly_a_rel" ].
+
+nav := adverb-adj-mod-lex &
+  [ STEM < "nav" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_so_a_rel" ].
+
+;;; Verbs
+
+
+haoskaol := verb-IIb-trans-verb-lex &
+  [ STEM < "haoskaol" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ].
+
+baor := verb-IIb-trans-verb-lex &
+  [ STEM < "baor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+
+baor2 := verb-V-intrans-verb-lex &
+  [ STEM < "baor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+
+saagast := verb-V-intrans-verb-lex &
+  [ STEM < "saagast" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_speak_v_rel" ].
+
+gatjad := verb-V-trans-verb-lex &
+  [ STEM < "gatjad" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ask_v_rel" ].
+
+aor := verb-V-intrans-verb-lex &
+  [ STEM < "aor"  >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sleep_v_rel" ].
+
+baoht := verb-V-intrans-verb-lex &
+  [ STEM < "baoht" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_come_v_rel" ].
+
+naelg := verb-V-intrans-verb-lex &
+  [ STEM < "naelg" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hunger_v_rel" ]. 
+
+bidtji := verb-VI-trans-verb-lex &
+  [ STEM < "bidtji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_build_v_rel" ].
+
+died := verb-III-trans-verb-lex &
+  [ STEM < "died" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ].
+
+usjud := verb-III-trans-verb-lex &
+  [ STEM < "usjud" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_think_v_rel" ].
+
+;;; Auxiliaries
+
+galg := future-aux-lex &
+  [ STEM < "galg" > ].
+
+i := neg-aux-lex &
+  [ STEM < "i" >,
+    SYNSEM.LKEYS.KEYREL.PRED "neg_rel" ].
+
+l_1 := progressive-aux-lex &
+  [ STEM < "l" > ].
+
+maaht := modal-aux-lex &
+  [ STEM < "maaht" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_can_v_rel" ].
+
+;;; Copulas
+
+aorrot := copula-be-inf-cop-lex &
+  [ STEM < "aorrot" > ].
+
+lidjiv := copula-be-1sg-pst-cop-lex &
+  [ STEM < "lidjiv" > ].
+
+lev := copula-be-1sg-prs-cop-lex &
+  [ STEM < "lev" > ].
+
+lijmen := copula-be-1du-pst-cop-lex &
+  [ STEM < "lijmen" > ].
+
+lin := copula-be-1du-prs-cop-lex &
+  [ STEM < "lin" > ].
+
+lijme := copula-be-1pl-pst-cop-lex &
+  [ STEM < "lijme" > ].
+
+lep := copula-be-1pl-prs-cop-lex &
+  [ STEM < "lep" > ].
+
+lidje := copula-be-2sg-pst-cop-lex &
+  [ STEM < "lidje" > ].
+
+lae_1 := copula-be-2sg-prs-cop-lex &
+  [ STEM < "lae" > ].
+
+l_2 := copula-be-2sg-prs-cop-lex &
+  [ STEM < "l" > ].
+
+lijden := copula-be-2du-pst-cop-lex &
+  [ STEM < "lijden" > ].
+
+laehpen := copula-be-2du-prs-cop-lex &
+  [ STEM < "laehpen" > ].
+
+lijde := copula-be-2pl-pst-cop-lex &
+  [ STEM < "lijde" > ].
+
+lehpet := coplua-be-2pl-prs-cop-lex &
+  [ STEM < "lehpet" > ].
+
+lij := copula-be-3sg-pst-cop-lex &
+  [ STEM < "lij" > ].
+
+lae_2 := copula-be-3sg-prs-cop-lex &
+  [ STEM < "lae" > ].
+
+lijga := copula-be-3du-pst-cop-lex &
+  [ STEM < "lijga" > ].
+
+laehpa := copula-be-3du-prs-cop-lex &
+  [ STEM < "laehpa" > ].
+
+lidjen := copula-be-3pl-pst-cop-lex &
+  [ STEM < "lidjen" > ].
+
+lea := copula-be-3pl-prs-cop-lex &
+  [ STEM < "lea" > ].
+
+;l_3 := copula-be-3pl-prs-cop-lex &
+;  [ STEM < "l" > ].
+
+lae_3 := copula-be-conneg-cop-lex &
+  [ STEM < "lae" > ].
+
+;Many example sentences have this agreeing with a 3pl subject:
+
+;lae_4 := copula-be-3pl-prs-cop-lex &
+;  [ STEM < "lae" > ].
+
+
+;;; Complementizers
+
+att := complementizer-lex-item &
+  [ STEM < "att" > ].
+
+;;; Be-id copulas
+
+aorrot_id := be-id-inf-lex &
+  [ STEM < "aorrot" > ].
+
+lidjiv_id := be-id-1sg-pst-lex &
+  [ STEM < "lidjiv" > ].
+
+lev_id := be-id-1sg-prs-lex &
+  [ STEM < "lev" > ].
+
+lijmen_id := be-id-1du-pst-lex &
+  [ STEM < "lijmen" > ].
+
+lin_id := be-id-1du-prs-lex &
+  [ STEM < "lin" > ].
+
+lijme_id := be-id-1pl-pst-lex &
+  [ STEM < "lijme" > ].
+
+lep_id := be-id-1pl-prs-lex &
+  [ STEM < "lep" > ].
+
+lidje_id := be-id-2sg-pst-lex &
+  [ STEM < "lidje" > ].
+
+lae_1_id := be-id-2sg-prs-lex &
+  [ STEM < "lae" > ].
+
+l_2_id := be-id-2sg-prs-lex &
+  [ STEM < "l" > ].
+
+lijden_id := be-id-2du-pst-lex &
+  [ STEM < "lijden" > ].
+
+laehpen_id := be-id-2du-prs-lex &
+  [ STEM < "laehpen" > ].
+
+lijde_id := be-id-2pl-pst-lex &
+  [ STEM < "lijde" > ].
+
+lehpet_id := be-id-2pl-prs-lex &
+  [ STEM < "lehpet" > ].
+
+lij_id := be-id-3sg-pst-lex &
+  [ STEM < "lij" > ].
+
+lae_2_id := be-id-3sg-prs-lex &
+  [ STEM < "lae" > ].
+
+lijga_id := be-id-3du-pst-lex &
+  [ STEM < "lijga" > ].
+
+laehpa_id := be-id-3du-prs-lex &
+  [ STEM < "laehpa" > ].
+
+lidjen_id := be-id-3pl-pst-lex &
+  [ STEM < "lidjen" > ].
+
+lea_id := be-id-3pl-prs-lex &
+  [ STEM < "lea" > ].
+
+;l_3_id := be-id-3pl-prs-lex &
+; [ STEM < "l" > ].
+
+lae_3_id := be-id-conneg-lex &
+  [ STEM < "lae" > ].
+
+;lae_4_id := be-id-3pl-prs-lex &
+;  [ STEM < "lae" > ].
+
+
+; Conjunctions
+
+ja1 := conj-lex &
+  [ STEM < "ja" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "1" ].
+
+ja2 := conj-lex &
+  [ STEM < "ja" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "2" ].
+
+;;; Possessive pronouns
+
+muv_2 := poss-pron-det-lex &
+  [ STEM < "muv" >,
+    SYNSEM.LKEYS.ALTKEYREL.ARG0.PNG [NUM sg, PER 1st ]].
+
+duv := poss-pron-det-lex &
+  [ STEM < "duv" >,
+    SYNSEM.LKEYS.ALTKEYREL.ARG0.PNG [NUM sg, PER 2nd ]].
+
+suv := poss-pron-det-lex &
+  [ STEM < "suv" >,
+    SYNSEM.LKEYS.ALTKEYREL.ARG0.PNG [NUM sg, PER 3rd ]].
+
+munuo := poss-pron-det-lex &
+  [ STEM < "munuo" >,
+    SYNSEM.LKEYS.ALTKEYREL.ARG0.PNG [NUM du, PER 1st ]].
+
+dunuo := poss-pron-det-lex &
+  [ STEM < "dunuo" >,
+    SYNSEM.LKEYS.ALTKEYREL.ARG0.PNG [NUM du, PER 2nd ]].
+
+sunuo := poss-pron-det-lex &
+  [ STEM < "sunuo" >,
+    SYNSEM.LKEYS.ALTKEYREL.ARG0.PNG [NUM du, PER 3rd ]].
+
+mijaa := poss-pron-det-lex &
+  [ STEM < "mijaa" >,
+    SYNSEM.LKEYS.ALTKEYREL.ARG0.PNG [NUM pl, PER 1st ]].
+
+dijaa := poss-pron-det-lex &
+  [ STEM < "dijaa" >,
+    SYNSEM.LKEYS.ALTKEYREL.ARG0.PNG [NUM pl, PER 2nd ]].
+
+sijaa := poss-pron-det-lex &
+  [ STEM < "sijaa" >,
+    SYNSEM.LKEYS.ALTKEYREL.ARG0.PNG [NUM pl, PER 3rd ]].
+
+;;; Postpositions
+
+nala := postposition-gen-lex &
+  [ STEM < "nala" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_upon_p_rel" ].
+
+nanne := postposition-gen-lex &
+  [ STEM < "nanne" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_on_p_rel" ].

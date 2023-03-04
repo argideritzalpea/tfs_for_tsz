@@ -1,0 +1,102 @@
+Working: 
+
+	kalib-PL y-unuum-u
+
+	kalib-PL y-itaarid-u watiir-PL
+
+	al-kalib-PL y-itaarid-u watiir-PL
+
+	al-kalib-PL ma y-itaarid-u watiir-PL
+
+	ana n-ahsib-0 kadar inta t-a'arif-0 kadar kalib-PL y-itaarid-u watiir-PL
+
+	biss-PL wa kalib-PL y-itaarid-u watiir-PL
+
+	kalib-PL y-itaarid-u watiir-PL wa biss-PL y-itaarid-u kalib-PL
+
+	biss-PL y-itaarid-u kalib-PL wa naam-o 
+
+	biss-PL y-itaarid-u kalib-PL walla
+
+	al-kalib-PL al-biss-PL
+
+	al-kalib-PL y-itaarid-u chunu
+
+	inta t-ahsib-0 kadar al-kalib-PL y-itaarid-u chunu
+
+	ana n-as'al-0 kan inta t-a'arif-0 kadar kalib-PL y-itaarid-u watiir-PL
+
+	ana sa'al-t al-kalib-PL taarad-o chunu
+
+	yaatu sa'al-0 al-kalib-PL y-itaarid-u chunu
+
+	yaatu y-unuum-0
+
+	al-kalib-PL fi al-naga'a
+
+Haven't Tried:
+
+	
+
+Don't Parse:
+
+
+Requre Transfer Rules:
+
+	ana n-itaarid-0-k ;;;Needs obj-drop *fixed
+	
+	kalib-PL jii'aan-PL y-aakul-u ;;;requires "hungry" also requires argument optionality for eat. *fixed
+	al-kalib-PL jii'aan-PL ;;; needs predicative "hungry" *fixed
+	al-kalib-PL fi al-naga'a ;;;has that "in" issue. *fixed 
+	kalib-PL y-aakul-u ;;;Needs argument optionality *fixed
+	kalib-PL y-aakul-u ajala ;;;Also needs argument optionality for 'eat' *fixed
+	
+
+Impossible:
+
+
+Total:
+
+	kalib-PL y-unuum-u
+
+	kalib-PL y-itaarid-u watiir-PL
+
+	ana n-itaarid-0-k
+
+	kalib-PL y-aakul-u
+
+	al-kalib-PL y-itaarid-u watiir-PL
+
+	al-kalib-PL ma y-itaarid-u watiir-PL
+
+	ana n-ahsib-0 kadar inta t-a'arif-0 kadar kalib-PL y-itaarid-u watiir-PL
+
+	ana n-as'al-0 kan inta t-a'arif-0 kadar kalib-PL y-itaarid-u watiir-PL
+
+	biss-PL wa kalib-PL y-itaarid-u watiir-PL
+
+	kalib-PL y-itaarid-u watiir-PL wa biss-PL y-itaarid-u kalib-PL
+
+	biss-PL y-itaarid-u kalib-PL wa naam-o
+
+	biss-PL y-itaarid-u kalib-PL walla
+
+	kalib-PL jii'aan-PL y-aakul-u
+
+	kalib-PL y-aakul-u ajala
+
+	al-kalib-PL jii'aan-PL
+
+	al-kalib-PL fi al-naga'a
+
+	al-kalib-PL al-biss-PL
+
+	yaatu y-unuum-0
+
+	al-kalib-PL y-itaarid-u chunu
+
+	inta t-ahsib-0 kadar al-kalib-PL y-itaarid-u chunu
+
+	yaatu sa'al-0 al-kalib-PL y-itaarid-u chunu
+
+	ana sa'al-t al-kalib-PL taarad-o chunu

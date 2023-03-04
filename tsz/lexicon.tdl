@@ -2571,11 +2571,11 @@ kuini := noun235-noun-lex &
 
 p_27ukuminturi := noun235-noun-lex &
   [ STEM < "p'ukuminturi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_forest_n_rel" ].
-
-p_27ukuminturi_2 := noun235-noun-lex &
-  [ STEM < "p'ukuminturi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_park_n_rel" ].
+
+;p_27ukuminturi_2 := noun235-noun-lex &
+;  [ STEM < "p'ukuminturi" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_forest_n_rel" ].
 
 rati := noun235-noun-lex &
   [ STEM < "rati" >,
@@ -3647,10 +3647,6 @@ kama_1 := verb21-verb-lex &
   [ STEM < "kama" >,
     SYNSEM.LKEYS.KEYREL.PRED "_have_v_rel" ].
 
-;t_27ire_1 := verb21-verb-lex &
-;  [ STEM < "t'ire" >,
-;    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
-
 tsipi_2 := verb21-verb-lex &
   [ STEM < "tsipi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_smile_v_rel" ].
@@ -4101,7 +4097,7 @@ uina_2 := verb31-verb-lex &
 
 aku := verb31-verb-lex &
   [ STEM < "aku" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "__eat_v_rel" ].
 
 ku_1 := verb31-verb-lex &
   [ STEM < "ku" >,
@@ -4254,10 +4250,6 @@ sïpa_2 := verb31-verb-lex &
 sïruki_2 := verb31-verb-lex &
   [ STEM < "sïruki" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ant_v_rel" ].
-
-;t_27ire_2 := verb31-verb-lex &
-;  [ STEM < "t'ire" >,
-;    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 t_27upuri_2 := verb31-verb-lex &
   [ STEM < "t'upuri" >,
@@ -4643,10 +4635,6 @@ tsurumu_2 := verb257-verb-lex &
   [ STEM < "tsurumu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thorn_v_rel" ].
 
-;t_27ire_3 := verb257-verb-lex &
-;  [ STEM < "t'ire" >,
-;    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
-
 uanta_6 := verb257-verb-lex &
   [ STEM < "uanta" >,
     SYNSEM.LKEYS.KEYREL.PRED "_speak_v_rel" ].
@@ -5023,9 +5011,9 @@ sïruki_3 := verb304-verb-lex &
   [ STEM < "sïruki" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ant_v_rel" ].
 
-;t_27ire_4 := verb304-verb-lex &
-;  [ STEM < "t'ire" >,
-;    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+t_27ire_2 := verb304-verb-lex &
+  [ STEM < "t'ire" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 t_27upuri_3 := verb304-verb-lex &
   [ STEM < "t'upuri" >,
@@ -5285,7 +5273,7 @@ kurhamarhi_1 := verb304-verb-lex &
 
 arha := verb304-verb-lex &
   [ STEM < "arha" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "__eat_v_rel" ].
 
 aɽi_2 := verb304-verb-lex &
   [ STEM < "aɽi" >,
@@ -5457,7 +5445,7 @@ archivari_2 := verb312-verb-lex &
 
 arha_2 := verb312-verb-lex &
   [ STEM < "arha" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "__eat_v_rel" ].
 
 ch_27apa_2 := verb312-verb-lex &
   [ STEM < "ch'apa" >,
@@ -5942,10 +5930,6 @@ tsipe_4 := verb620-verb-lex &
 tsurumu_3 := verb620-verb-lex &
   [ STEM < "tsurumu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thorn_v_rel" ].
-
-;t_27ire_5 := verb620-verb-lex &
-;  [ STEM < "t'ire" >,
-;    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 uanta_9 := verb620-verb-lex &
   [ STEM < "uanta" >,

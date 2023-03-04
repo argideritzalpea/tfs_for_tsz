@@ -1,0 +1,17 @@
+;;; Hey, emacs(1), this is -*- Mode: TDL; Coding: utf-8; -*- got it?
+
+;loc-mtr := in-loc-mtr.
+
+eat-mtr := eat-mtr.
+
+;pro-ins2 := pro-insert-arg2-mtr.
+
+;; Added for other grammars
+
+;pro-insert-arg1 := pro-insert-arg1-mtr & [].
+;quickly-mtr := quickly-mtr.
+
+;consume-food := consume-food-itr-eat-mtr.
+
+eat-food := eat-food-mtr.
+

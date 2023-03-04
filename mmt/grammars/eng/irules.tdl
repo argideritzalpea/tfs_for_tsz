@@ -1,0 +1,28 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+
+%(letter-set (!s abcedfghijklmnopqrtuvwxyz))
+%(letter-set (!n abcedfghijklmopqrstuvwxyz))
+
+pl-suffix :=
+%suffix (!s !ss) (s ses)
+pl-lex-rule.
+
+prp-suffix :=
+%suffix (* ing) (e ing)
+prp-lex-rule.
+
+png-tense_lrt1-suffix :=
+%suffix (!s !ss) (s ses) (do does)
+png-tense_lrt1-lex-rule.
+
+png-tense_lrt4-suffix :=
+%suffix (* ed) (e ed) (do did) (sleep slept) (think thought)
+png-tense_lrt4-lex-rule.
+
+neg-infl-lr :=
+%suffix (n nt) (!n !nnt)
+neg-infl-lex-rule.
+
+;fp-lr :=
+;%suffix (* -fp)
+;fp-lex-rule.

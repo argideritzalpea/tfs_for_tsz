@@ -1,0 +1,2184 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Grammar of Pite_Saami
+;;; created at:
+;;;     Mon Apr 24 18:33:29 UTC 2017
+;;; based on Matrix customization system version of:
+;;;     Fri Apr 21 07:02:53 UTC 2017
+;;;
+;;; 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Type assigning empty mod list. Added to basic types for nouns, verbs and determiners.
+
+non-mod-lex-item := lex-item &
+  [ SYNSEM.LOCAL.CAT.HEAD.MOD < > ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Matrix Type Addenda
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+noun :+ [ CASE case ].
+
+head :+ [ PRD bool,
+    FORM form,
+    AUX bool ].
+
+inflected :+ [ ADJ_ATTR-OR-NUMBER-FLAG luk,
+    TENSE-PER-NUM-IIB-FLAG luk,
+    TENSE-PER-NUM-III-FLAG luk,
+    TENSE-PER-NUM-V-FLAG luk,
+    TENSE-PER-NUM-FUT-FLAG luk,
+    TENSE-PER-NUM-PROG-FLAG luk,
+    TENSE-PER-NUM-MODAL-FLAG luk,
+    CASE-NUM-IB-FLAG luk,
+    TENSE-PER-NUM-VI-FLAG luk,
+    TENSE-PER-NUM-NEG-FLAG luk,
+    CASE-NUM-IE-FLAG luk ].
+
+infl-satisfied :+ [ ADJ_ATTR-OR-NUMBER-FLAG na-or-+,
+    TENSE-PER-NUM-IIB-FLAG na-or-+,
+    TENSE-PER-NUM-III-FLAG na-or-+,
+    TENSE-PER-NUM-V-FLAG na-or-+,
+    TENSE-PER-NUM-FUT-FLAG na-or-+,
+    TENSE-PER-NUM-PROG-FLAG na-or-+,
+    TENSE-PER-NUM-MODAL-FLAG na-or-+,
+    CASE-NUM-IB-FLAG na-or-+,
+    TENSE-PER-NUM-VI-FLAG na-or-+,
+    TENSE-PER-NUM-NEG-FLAG na-or-+,
+    CASE-NUM-IE-FLAG na-or-+ ].
+
+png :+ [ PER person,
+    NUM number ].
+
+basic-head-comp-phrase :+ [ SYNSEM.LOCAL.CAT.MC #mc,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.MC #mc ].
+
+basic-head-mod-phrase-simple :+ [ SYNSEM.LOCAL.CAT.MC #mc,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.MC #mc ].
+
+basic-head-opt-subj-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
+
+basic-head-filler-phrase :+
+   [ ARGS < [ SYNSEM.LOCAL.COORD - ], [ SYNSEM.LOCAL.COORD - ] > ].
+
+; We can't just use the V-final and V-initial word
+; order modules together to get a good free word order
+; module. The root of the problem seems to be that we
+; need the subject to be able to attach inside the
+; object(s) for VSO and OSV, but at the same time, we
+; don't want complete flexibility on order of attachment
+; when the verb is in the middle -- that would give
+; spurious ambiguity.  This solution adopts the xmod
+; hierarchy to enforce right-first attachment.  That is,
+; all arguments appears to the right of the verb must
+; attach before all arguments appearing to the left.  The
+; linguistic prediction of this analysis is that free
+; word order languages do not have a consistent VP
+; consituent, even when the verb and object are adjacent
+; (OV order).  Using a separate feature for tracking
+; argument attachment (as opposed to modifier
+; attachment).  We might be able to collapse these one
+; day, but that's not obvious.
+
+synsem :+ [ ATTACH xmod ].
+
+; We'll need to add identification of ATTACH between
+; mother and head-daughter for all other kinds of phrases
+; if we do this.  Just for illustration, I'm putting it
+; in for head-adjnct phrases here:
+
+head-mod-phrase :+ [ SYNSEM.ATTACH #attach,
+    HEAD-DTR.SYNSEM.ATTACH #attach ].
+
+;;;;;;;;;;;;;;
+;;; Features
+;;;;;;;;;;;;;;
+
+;;; Case
+
+case := *top*.
+nom := case.  ; nominative
+acc := case.  ; accusative
+gen := case.  ; genitive
+iness := case. ; inessive (our locative case)
+
+;;; Person
+
+person := *top*.
+1st := person.
+2nd := person.
+3rd := person.
+
+;;; Number
+
+number := *top*.
+sg := number.
+non-sg := number.
+pl := non-sg.
+du := non-sg.
+
+;;; Form
+
+form := *top*.
+nonfinite := form.
+finite := form.
+negform := nonfinite.
+progform := nonfinite.
+infform := nonfinite.
+
+;;; Tense
+
+past := tense.
+present := tense.
+future := tense.
+
+;;; Aspect
+
+progressive := aspect.
+
+;;;;;;;;;;;;;;;;;;;
+;;; Lexical Types
+;;;;;;;;;;;;;;;;;;;
+
+;;; Nouns
+
+noun-lex := basic-noun-lex & basic-one-arg & no-hcons-lex-item & non-mod-lex-item &
+  [ ARG-ST < #spr >,
+    SYNSEM.LOCAL.CAT.VAL [ COMPS < >,
+                           SUBJ < >,
+                           SPEC < >,
+                           SPR < #spr &
+                                 [ LOCAL.CAT.HEAD det ] > ] ].
+
+;; The only determiners are possessive pronouns. 
+
+head-spec-phrase := basic-head-spec-phrase & head-final &
+  [ NON-HEAD-DTR.SYNSEM.OPT - ].
+
+poss-phrase := head-final &
+  [ SYNSEM [ LOCAL.CAT [ HEAD #head,
+		       VAL [ SPR < >,
+			     COMPS < >,
+			     SUBJ < > ] ],
+             NON-LOCAL [ QUE [ LIST #qfirst,
+			       LAST #qlast ],
+			 SLASH [ LIST #sfirst,
+				 LAST #slast],
+			 REL [ LIST #rfirst,
+				LAST #rlast ] ] ],
+    C-CONT [ HOOK.INDEX #index,
+	     RELS <! arg12-ev-relation & [ PRED "poss_rel",
+					   LBL #lbl,
+					   ARG1 #index,
+					   ARG2 #poss ],
+		   quant-relation & [ PRED "exist_q_rel",
+				      ARG0 #index,
+				      RSTR #harg ] !>,
+	     HCONS <! qeq & [ HARG #harg, LARG #lbl ] !>,
+	     ICONS <! !> ],
+    HEAD-DTR.SYNSEM [ LOCAL [ CAT [ HEAD #head & noun,
+				  VAL.SPR < [ ] > ],
+			    CONT.HOOK [ INDEX #index & [ COG-ST uniq+fam+act ],
+					LTOP #lbl ] ],
+                      NON-LOCAL [ QUE [ LIST  #qmiddle,
+					LAST #qlast ] ,
+				  SLASH [ LIST #smiddle,
+					  LAST #slast ],
+				  REL [ LIST #rmiddle,
+					 LAST #rlast] ] ],
+    NON-HEAD-DTR.SYNSEM [ LOCAL [ CAT [ HEAD noun & [CASE gen],
+				      VAL.SPR < > ],
+				CONT.HOOK.INDEX #poss ],
+                          NON-LOCAL [ QUE [ LIST #qfirst,
+					    LAST #qmiddle ],
+				      SLASH [ LIST #sfirst,
+					      LAST #smiddle],
+				      REL [ LIST #rfirst,
+					     LAST #rmiddle ] ] ] ].
+
+common-noun-noun-lex := noun-lex & 
+  [ SYNSEM [ LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
+	     NON-LOCAL [ QUE 0-dlist,
+			 REL 0-dlist,
+			 SLASH 0-dlist ] ] ].
+
+common-noun-Ib-noun-lex := common-noun-noun-lex &
+  [ INFLECTED.CASE-NUM-IB-FLAG - ].
+
+common-noun-Ie-noun-lex := common-noun-noun-lex &
+  [ INFLECTED.CASE-NUM-IE-FLAG - ].
+
+pronoun-noun-lex := noun-lex & [SYNSEM.LOCAL.CAT.VAL.SPR.FIRST.OPT +].
+
+pronoun-nom-noun-lex := pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE nom ].
+
+pronoun-acc-noun-lex := pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE acc ].
+
+pronoun-gen-noun-lex := pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE gen ].
+
+pronoun-1st-noun-lex := pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st ].
+
+pronoun-2nd-noun-lex := pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd ].
+
+pronoun-3rd-noun-lex := pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+pronoun-sg-noun-lex := pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
+
+pronoun-du-noun-lex := pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM du ].
+
+pronoun-pl-noun-lex := pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
+
+pronoun-1sg-nom-noun-lex := pronoun-nom-noun-lex & pronoun-1st-noun-lex & pronoun-sg-noun-lex.
+
+pronoun-2sg-nom-noun-lex := pronoun-nom-noun-lex & pronoun-2nd-noun-lex & pronoun-sg-noun-lex.
+
+pronoun-3sg-nom-noun-lex := pronoun-nom-noun-lex & pronoun-3rd-noun-lex & pronoun-sg-noun-lex.
+
+pronoun-1du-nom-noun-lex := pronoun-nom-noun-lex & pronoun-1st-noun-lex & pronoun-du-noun-lex.
+
+pronoun-2du-nom-noun-lex := pronoun-nom-noun-lex & pronoun-2nd-noun-lex & pronoun-du-noun-lex.
+
+pronoun-3du-nom-noun-lex := pronoun-nom-noun-lex & pronoun-3rd-noun-lex & pronoun-du-noun-lex.
+
+pronoun-1pl-nom-noun-lex := pronoun-nom-noun-lex & pronoun-1st-noun-lex & pronoun-pl-noun-lex.
+
+pronoun-2pl-nom-noun-lex := pronoun-nom-noun-lex & pronoun-2nd-noun-lex & pronoun-pl-noun-lex.
+
+pronoun-3pl-nom-noun-lex := pronoun-nom-noun-lex & pronoun-3rd-noun-lex & pronoun-pl-noun-lex.
+
+pronoun-1sg-acc-noun-lex := pronoun-acc-noun-lex & pronoun-1st-noun-lex & pronoun-sg-noun-lex.
+
+pronoun-2sg-gen-noun-lex := pronoun-gen-noun-lex & pronoun-2nd-noun-lex & pronoun-sg-noun-lex.
+
+pronoun-2sg-acc-noun-lex := pronoun-acc-noun-lex & pronoun-2nd-noun-lex & pronoun-sg-noun-lex.
+
+wh-pronoun-noun-lex := norm-hook-lex-item & basic-icons-lex-item & 
+  [ SYNSEM [ LOCAL [ CAT [ HEAD noun,
+			   VAL [ SPR < >,
+				 SUBJ < >,
+				 COMPS < >,
+				 SPEC < > ] ],
+		     CONT [ HOOK.INDEX.PNG.PER 3rd,
+	                    RELS <! [ LBL #larg,
+				       ARG0 #ind & ref-ind ],
+				  [ PRED "wh_q_rel",
+				    ARG0 #ind,
+				    RSTR #harg ] !>,
+			    HCONS <! [ HARG #harg,
+				        LARG #larg ] !> ] ],
+	     NON-LOCAL.QUE <! #ind !> ] ].
+
+;Ge -"who", could be modeled via inflectional rules, since it's morphophonology is concatenative, but
+;mej -"what", has very complicated morphophonology. In order to keep it consistent between both, and since
+;both 'wh' pronouns are a closed class anyway, we're just doing it lexically. 
+wh-pronoun-nom-noun-lex := wh-pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE nom ].
+
+wh-pronoun-gen-noun-lex := wh-pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE gen ].
+
+wh-pronoun-acc-noun-lex := wh-pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE acc ].
+
+wh-pronoun-iness-noun-lex := wh-pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE iness ].
+
+wh-prounoun-sg-noun-lex := wh-pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
+
+wh-prounoun-pl-noun-lex := wh-pronoun-noun-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
+
+wh-pronoun-sg-nom-noun-lex := wh-pronoun-nom-noun-lex & wh-prounoun-sg-noun-lex.
+
+wh-pronoun-pl-nom-noun-lex := wh-pronoun-nom-noun-lex & wh-prounoun-pl-noun-lex.
+
+wh-pronoun-sg-gen-noun-lex := wh-pronoun-gen-noun-lex & wh-prounoun-sg-noun-lex.
+
+wh-pronoun-pl-gen-noun-lex := wh-pronoun-gen-noun-lex & wh-prounoun-pl-noun-lex.
+
+wh-pronoun-sg-acc-noun-lex := wh-pronoun-acc-noun-lex & wh-prounoun-sg-noun-lex.
+
+wh-pronoun-pl-acc-noun-lex := wh-pronoun-acc-noun-lex & wh-prounoun-pl-noun-lex.
+
+wh-pronoun-sg-iness-noun-lex := wh-pronoun-iness-noun-lex & wh-prounoun-sg-noun-lex.
+
+wh-pronoun-pl-iness-noun-lex := wh-pronoun-iness-noun-lex & wh-prounoun-pl-noun-lex.
+
+;;; Verbs
+
+verb-lex := non-mod-lex-item &
+  [ SYNSEM.LOCAL.CAT.HEAD verb ].
+
+main-verb-lex := verb-lex & basic-verb-lex &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.AUX -,
+                         VAL [ SPR < >,
+                               SPEC < >,
+                               SUBJ < #subj > ] ],
+                   CONT.HOOK.XARG #xarg ],
+    ARG-ST.FIRST #subj &
+                 [ LOCAL [ CAT.VAL [ SPR < >,
+                                     COMPS < > ],
+                           CONT.HOOK.INDEX #xarg ] ] ].
+
+aux-lex := verb-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.AUX + ].
+
+intransitive-verb-lex := main-verb-lex & intransitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < >,
+    ARG-ST.FIRST.LOCAL.CAT.HEAD noun ].
+
+transitive-verb-lex := main-verb-lex & transitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
+    ARG-ST < [ LOCAL.CAT.HEAD noun ],
+             #comps &
+             [ LOCAL.CAT [ VAL [ SPR < >,
+                                 COMPS < > ],
+                           HEAD noun ] ] > ].
+
+clausal-second-arg-trans-verb-lex := main-verb-lex & clausal-second-arg-trans-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
+    ARG-ST < [ LOCAL.CAT.HEAD noun &
+                              [ CASE nom ] ],
+             #comps &
+             [ LOCAL [ CAT [ HEAD.FORM finite,
+				 VAL [ SUBJ < >,
+                                 COMPS < > ] ] ,
+                       CONT.HOOK.INDEX.SF prop-or-ques ] ] > ].
+
+nom-intransitive-verb-lex := intransitive-verb-lex &
+  [ ARG-ST.FIRST.LOCAL.CAT.HEAD noun &
+                                [ CASE nom ] ].
+
+nom-acc-transitive-verb-lex := transitive-verb-lex &
+  [ ARG-ST < [ LOCAL.CAT.HEAD noun &
+                              [ CASE nom ] ],
+             [ LOCAL.CAT.HEAD noun &
+                              [ CASE acc ] ] > ].
+
+; This type exists to put the right cases on the be-id verb
+
+nom-nom-transitive-verb-lex := transitive-verb-lex &
+  [ ARG-ST < [ LOCAL.CAT.HEAD noun &
+                              [ CASE nom ] ],
+             [ LOCAL.CAT.HEAD noun &
+                              [ CASE nom ] ] > ].
+
+verb-IIb-trans-verb-lex := nom-acc-transitive-verb-lex &
+  [ INFLECTED.TENSE-PER-NUM-IIB-FLAG - ].
+
+verb-III-trans-verb-lex := clausal-second-arg-trans-verb-lex &
+  [ INFLECTED.TENSE-PER-NUM-III-FLAG - ].
+
+;SHOULD THIS INHERIT FROM MORE/LESS THAN THIS? 
+verb-V-lex := verb-lex &
+  [ INFLECTED.TENSE-PER-NUM-V-FLAG - ].
+
+verb-V-intrans-verb-lex := nom-intransitive-verb-lex & verb-V-lex.
+
+verb-V-trans-verb-lex := clausal-second-arg-trans-verb-lex & verb-V-lex.
+
+
+verb-VI-trans-verb-lex := nom-acc-transitive-verb-lex & tense-per-num-VI-rule-dtr &
+  [ INFLECTED.TENSE-PER-NUM-VI-FLAG - ].
+
+;;; Auxiliaries
+
+subj-raise-aux := aux-lex & trans-first-arg-raising-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SPR < >,
+                             SPEC < >,
+                             COMPS < #comps >,
+                             SUBJ < #subj > ],
+                   CONT.HOOK.XARG #xarg ],
+    ARG-ST < #subj &
+             [ LOCAL [ CAT [ HEAD noun &
+                                  [ CASE #case ],
+                             VAL [ SUBJ < >,
+                                   SPR < >,
+                                   SPEC < >,
+                                   COMPS < > ] ],
+                       CONT.HOOK.INDEX #xarg ] ],
+             #comps &
+             [ LOCAL.CAT [ HEAD verb,
+                           VAL [ COMPS < >,
+                                 SPR < >,
+                                 SPEC < >,
+                                 SUBJ < unexpressed &
+                                        [ LOCAL.CAT.HEAD.CASE #case ] > ] ] ] > ].
+
+; To keep the semantically empty ones from spinning on
+; generation, require complement to be [AUX -].  The
+; FORM feature might be enough in the starter grammars,
+; but I don't want to rely on this.  Then again, [ AUX - ]
+; might not be true.
+
+subj-raise-aux-no-pred := subj-raise-aux & raise-sem-lex-item &
+  [ ARG-ST < [ ],
+             [ LOCAL.CAT.HEAD.AUX - ] > ].
+
+	
+future-aux-lex := subj-raise-aux-no-pred &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE future,
+                   CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infform ],
+    INFLECTED.TENSE-PER-NUM-FUT-FLAG - ].
+
+subj-raise-aux-with-pred := subj-raise-aux & norm-sem-lex-item & trans-first-arg-raising-lex-item-1.
+
+subj-raise-aux-with-pred-comp-index :=  single-rel-lex-item & norm-ltop-lex-item & subj-raise-aux & trans-first-arg-raising-lex-item-1.
+
+neg-aux-lex := subj-raise-aux-with-pred-comp-index &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.FORM finite,
+                         VAL.COMPS.FIRST.LOCAL [ CAT.HEAD.FORM negform ,
+		       			         CONT.HOOK.INDEX #index] ],
+		  CONT.HOOK.INDEX #index ],
+           INFLECTED.TENSE-PER-NUM-NEG-FLAG - ].
+
+; To keep the semantically empty ones from spinning on
+; generation, require complement to be [AUX -].  The
+; FORM feature might be enough in the starter grammars,
+; but I don't want to rely on this.  Then again, [ AUX - ]
+; might not be true.
+
+progressive-aux-lex := subj-raise-aux-no-pred &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM progform,
+    INFLECTED.TENSE-PER-NUM-PROG-FLAG - ].
+
+modal-aux-lex := subj-raise-aux-with-pred &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM infform,
+    INFLECTED.TENSE-PER-NUM-MODAL-FLAG - ].
+
+
+;;; Copulas
+
+cop-lex := basic-verb-lex-super & trans-first-arg-raising-lex-item-2 &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.MOD < > ,
+    		         VAL [ SUBJ < [ LOCAL [ CONT.HOOK.INDEX #xarg,
+                                              CAT [ VAL [ SPR < >,
+                                                          COMPS < > ],
+                                                    HEAD noun & [CASE nom] ] ] ] >,
+                             COMPS < [ LOCAL.CAT [ HEAD.PRD +,
+                                                   VAL [ SUBJ < >,
+                                                         COMPS < > ] ] ] >,
+                             SPR < >,			     
+                             SPEC < > ]],
+                   CONT.HOOK.XARG #xarg ] ].
+
+; Copula type taking adjectival or PP complements.
+; Need to define more for additional complement types.
+
+
+adj-or-adp-comp-copula-verb-lex := cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD +jp ].
+
+copula-be-cop-lex := adj-or-adp-comp-copula-verb-lex.
+
+copula-be-sg-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
+
+copula-be-pl-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
+
+copula-be-du-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM du ].
+
+copula-be-1st-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st ].
+
+copula-be-2nd-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd ].
+
+copula-be-3rd-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+copula-be-past-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE past ].
+
+copula-be-present-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE present ].
+
+copula-be-fin-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+copula-be-inf-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM infform ].
+
+copula-be-1sg-pst-cop-lex := copula-be-sg-cop-lex & copula-be-1st-cop-lex & copula-be-past-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-1sg-prs-cop-lex := copula-be-sg-cop-lex & copula-be-1st-cop-lex & copula-be-present-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-1du-pst-cop-lex := copula-be-du-cop-lex & copula-be-1st-cop-lex & copula-be-past-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-1du-prs-cop-lex := copula-be-du-cop-lex & copula-be-1st-cop-lex & copula-be-present-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-1pl-pst-cop-lex := copula-be-pl-cop-lex & copula-be-1st-cop-lex & copula-be-past-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-1pl-prs-cop-lex := copula-be-pl-cop-lex & copula-be-1st-cop-lex & copula-be-present-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-2sg-pst-cop-lex := copula-be-sg-cop-lex & copula-be-2nd-cop-lex & copula-be-past-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-2sg-prs-cop-lex := copula-be-sg-cop-lex & copula-be-2nd-cop-lex & copula-be-present-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-2du-pst-cop-lex := copula-be-du-cop-lex & copula-be-2nd-cop-lex & copula-be-past-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-2du-prs-cop-lex := copula-be-du-cop-lex & copula-be-2nd-cop-lex & copula-be-present-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-2pl-pst-cop-lex := copula-be-pl-cop-lex & copula-be-2nd-cop-lex & copula-be-past-cop-lex & copula-be-fin-cop-lex.
+
+coplua-be-2pl-prs-cop-lex := copula-be-pl-cop-lex & copula-be-2nd-cop-lex & copula-be-present-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-3sg-pst-cop-lex := copula-be-sg-cop-lex & copula-be-3rd-cop-lex & copula-be-past-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-3sg-prs-cop-lex := copula-be-sg-cop-lex & copula-be-3rd-cop-lex & copula-be-present-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-3du-pst-cop-lex := copula-be-du-cop-lex & copula-be-3rd-cop-lex & copula-be-past-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-3du-prs-cop-lex := copula-be-du-cop-lex & copula-be-3rd-cop-lex & copula-be-present-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-3pl-pst-cop-lex := copula-be-pl-cop-lex & copula-be-3rd-cop-lex & copula-be-past-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-3pl-prs-cop-lex := copula-be-pl-cop-lex & copula-be-3rd-cop-lex & copula-be-present-cop-lex & copula-be-fin-cop-lex.
+
+copula-be-conneg-cop-lex := copula-be-cop-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM negform ].
+
+;; Adding another 'be'for NP complements
+
+be-id-lex := nom-nom-transitive-verb-lex & [SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
+
+be-id-sg-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
+
+be-id-pl-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
+
+be-id-du-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM du ].
+
+be-id-1st-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st ].
+
+be-id-2nd-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd ].
+
+be-id-3rd-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+be-id-past-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE past ].
+
+be-id-present-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE present ].
+
+be-id-fin-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+be-id-inf-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM infform ].
+
+be-id-1sg-prs-lex := be-id-sg-lex & be-id-1st-lex & be-id-present-lex & be-id-fin-lex.
+
+be-id-1du-prs-lex := be-id-du-lex & be-id-1st-lex & be-id-present-lex & be-id-fin-lex.
+
+be-id-1pl-prs-lex := be-id-pl-lex & be-id-1st-lex & be-id-present-lex & be-id-fin-lex.
+
+be-id-2sg-prs-lex := be-id-sg-lex & be-id-2nd-lex & be-id-present-lex & be-id-fin-lex.
+
+be-id-2du-prs-lex := be-id-du-lex & be-id-2nd-lex & be-id-present-lex & be-id-fin-lex.
+
+be-id-2pl-prs-lex := be-id-pl-lex & be-id-2nd-lex & be-id-present-lex & be-id-fin-lex.
+
+be-id-3sg-prs-lex := be-id-sg-lex & be-id-3rd-lex & be-id-present-lex & be-id-fin-lex.
+
+be-id-3du-prs-lex := be-id-du-lex & be-id-3rd-lex & be-id-present-lex & be-id-fin-lex.
+
+be-id-3pl-prs-lex := be-id-pl-lex & be-id-3rd-lex & be-id-present-lex & be-id-fin-lex.
+
+be-id-1sg-pst-lex := be-id-sg-lex & be-id-1st-lex & be-id-past-lex & be-id-fin-lex.
+
+be-id-1du-pst-lex := be-id-du-lex & be-id-1st-lex & be-id-past-lex & be-id-fin-lex.
+
+be-id-1pl-pst-lex := be-id-pl-lex & be-id-1st-lex & be-id-past-lex & be-id-fin-lex.
+
+be-id-2sg-pst-lex := be-id-sg-lex & be-id-2nd-lex & be-id-past-lex & be-id-fin-lex.
+
+be-id-2du-pst-lex := be-id-du-lex & be-id-2nd-lex & be-id-past-lex & be-id-fin-lex.
+
+be-id-2pl-pst-lex := be-id-pl-lex & be-id-2nd-lex & be-id-past-lex & be-id-fin-lex.
+
+be-id-3sg-pst-lex := be-id-sg-lex & be-id-3rd-lex & be-id-past-lex & be-id-fin-lex.
+
+be-id-3du-pst-lex := be-id-du-lex & be-id-3rd-lex & be-id-past-lex & be-id-fin-lex.
+
+be-id-3pl-pst-lex := be-id-pl-lex & be-id-3rd-lex & be-id-past-lex & be-id-fin-lex.
+
+be-id-conneg-lex := be-id-lex &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM negform ].
+
+
+
+
+;;; Adjectives
+
+adj-lex := basic-intersective-adjective-lex.
+
+adj-adj-lex := adj-lex &
+  [ SYNSEM.LOCAL [ CAT [ POSTHEAD -,
+			 VAL [ SUBJ < > ] ] ,		
+		   CONT [ HCONS <! !> ] ],
+    INFLECTED.ADJ_ATTR-OR-NUMBER-FLAG - ].
+
+; Basic attributive adjective definition
+
+; attr-adj-lex := adj-adj-lex & intersective-mod-lex &
+;   [ SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT [ HEAD noun,
+;                                               VAL.SPR cons ] ] > ].
+
+;;; Adverbs
+
+adverb-lex := basic-adverb-lex & intersective-mod-lex &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT.HEAD +vj ]>,
+			   VAL [ SPR < >,
+				 SUBJ < >,
+				 COMPS < >,
+				 SPEC < > ]]]]].
+
+adverb-adj-mod-lex := adverb-lex &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT.HEAD adj ]>,
+                            POSTHEAD - ]]]].
+
+adverb-verb-mod-lex := adverb-lex &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT [ HEAD verb,
+						    VAL.SUBJ <[]> ] ]>,
+                            POSTHEAD + ]]]].
+
+
+;;; Determiners (possessive pronouns)
+
+determiner-lex-supertype := norm-hook-lex-item & norm-zero-arg & non-mod-lex-item &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD det,
+			   VAL [ SPEC.FIRST.LOCAL.CONT.HOOK [ INDEX #ind,
+							      LTOP #larg ],
+                                SPR < >,
+                                SUBJ < >,
+                                COMPS < >]],
+		     CONT.HCONS.LIST.FIRST qeq &
+			 [ HARG #harg,
+			   LARG #larg ] ],
+	     LKEYS.KEYREL quant-relation &
+		   [ ARG0 #ind,
+		     RSTR #harg ] ] ].
+
+poss-pron-det-lex := determiner-lex-supertype &
+  [ SYNSEM [ LOCAL [ CAT.VAL.SPEC < [ LOCAL.CONT.HOOK [ INDEX #arg1 &
+							      [ COG-ST uniq+fam+act ],
+							LTOP #lbl ]] >,
+		     CONT [ RELS <! [ PRED "exist_q_rel" ],
+				  arg12-ev-relation &
+				  [ PRED "poss_rel",
+				    LBL #lbl,
+				    ARG1 #arg1,
+				    ARG2 #arg2 ],
+				  quant-relation &
+				  [ PRED "exist_q_rel",
+				    ARG0 #arg2,
+				    RSTR #harg ],
+				  #altkeyrel !>,
+			    HCONS <! [ ], qeq & [ HARG #harg, 
+						  LARG #lbl2 ] !> ] ],
+	     LKEYS.ALTKEYREL #altkeyrel & noun-relation &
+			     [ PRED "pron_rel",
+			       LBL #lbl2,
+			       ARG0 #arg2 & [ COG-ST activ-or-more,
+					      SPECI + ] ] ] ].
+
+
+;;;Complementizers
+complementizer-lex-item := raise-sem-lex-item & basic-one-arg & non-mod-lex-item &
+  [ SYNSEM.LOCAL.CAT [ HEAD comp,
+                       VAL [ SUBJ < >, 
+                             COMPS < #comps >,
+                             SPR < > ] ],
+    ARG-ST < #comps & [ LOCAL [ CAT [ HEAD verb & [ FORM finite ],
+                                    VAL [ SUBJ < >,
+                                          COMPS < > ] ] ,
+			        CONT.HOOK.INDEX.SF prop ] ] > ].
+
+
+;[ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
+;    ARG-ST < [ LOCAL.CAT.HEAD noun &
+;                              [ CASE nom ] ],
+;             #comps &
+;             [ LOCAL [ CAT [ VAL [ SUBJ < >,
+;                                 COMPS < > ],
+;                                 HEAD verb ] ,
+;                       CONT.HOOK.INDEX.SF prop-or-ques ] ] > ].
+
+
+;;; Postpositions
+
+postposition-lex := basic-int-mod-adposition-lex &
+   [ SYNSEM.LOCAL.CAT [ HEAD.MOD.FIRST.LOCAL.CAT.HEAD verb ,
+			VAL [ COMPS.FIRST.LOCAL.CAT [ HEAD noun,
+						      VAL [ SPR <> ,
+							    SUBJ <> ,
+							    COMPS <> ] ] ,
+			      SUBJ <>,
+			      SPR.FIRST.LOCAL.CAT.HEAD adv ] ] ].
+
+postposition-gen-lex := postposition-lex &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.CASE gen  ].
+
+;;;;;;;;;;;;;;;;;;;
+;;; Lexical Rules
+;;;;;;;;;;;;;;;;;;;
+;;; Intermediate rule types
+
+tense-per-num-VI-rule-dtr := word-or-lexrule.
+
+;;; Lexical rule types
+
+case-num-Ib-lex-rule-super := add-only-no-ccont-rule &
+  [ INFLECTED [ CASE-NUM-IB-FLAG +,
+		ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                CASE-NUM-IE-FLAG #case-num-ie,
+                TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ],
+    DTR common-noun-Ib-noun-lex &
+        [ INFLECTED [ ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+		      TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                      TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                      TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                      TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		      TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                      TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                      CASE-NUM-IE-FLAG #case-num-ie,
+                      TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                      TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ] ] ].
+
+nom-sg-Ib-lex-rule := case-num-Ib-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE nom,
+                   CONT.HOOK.INDEX.PNG.NUM sg ] ].
+
+nom-pl-Ib-lex-rule := case-num-Ib-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE nom,
+                   CONT.HOOK.INDEX.PNG.NUM pl ] ].
+
+acc-sg-Ib-lex-rule := case-num-Ib-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE acc,
+                   CONT.HOOK.INDEX.PNG.NUM sg ] ].
+
+acc-pl-Ib-lex-rule := case-num-Ib-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE acc,
+                   CONT.HOOK.INDEX.PNG.NUM pl ] ].
+
+gen-sg-Ib-lex-rule := case-num-Ib-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE gen,
+                   CONT.HOOK.INDEX.PNG.NUM sg ] ].
+
+iness-sg-Ib-lex-rule := case-num-Ib-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE iness,
+                   CONT.HOOK.INDEX.PNG.NUM sg ] ].
+
+case-num-Ie-lex-rule-super := add-only-no-ccont-rule &
+  [ INFLECTED [ CASE-NUM-IE-FLAG +,
+                ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                CASE-NUM-IB-FLAG #case-num-ib,
+                TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ],
+    DTR common-noun-Ie-noun-lex &
+        [ INFLECTED [ ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                      TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                      TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                      TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                      TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		      TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                      TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                      TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                      CASE-NUM-IB-FLAG #case-num-ib,
+                      TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ] ] ].
+
+nom-sg-Ie-lex-rule := case-num-Ie-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE nom,
+                   CONT.HOOK.INDEX.PNG.NUM sg ] ].
+
+nom-pl-Ie-lex-rule := case-num-Ie-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE nom,
+                   CONT.HOOK.INDEX.PNG.NUM pl ] ].
+
+acc-sg-Ie-lex-rule := case-num-Ie-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE acc,
+                   CONT.HOOK.INDEX.PNG.NUM sg ] ].
+
+gen-sg-Ie-lex-rule := case-num-Ie-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE gen,
+                   CONT.HOOK.INDEX.PNG.NUM sg ] ].
+
+iness-sg-Ie-lex-rule := case-num-Ie-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CAT.HEAD.CASE iness,
+                   CONT.HOOK.INDEX.PNG.NUM sg ] ].
+
+tense-per-num-III-lex-rule-super := add-only-no-ccont-rule &
+  [ INFLECTED [ TENSE-PER-NUM-III-FLAG +,
+                TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                TENSE-PER-NUM-VI-FLAG #tense-per-num-vi,
+                ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                CASE-NUM-IE-FLAG #case-num-ie,
+                TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                CASE-NUM-IB-FLAG #case-num-ib,
+                TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                TENSE-PER-NUM-V-FLAG #tense-per-num-v ],
+    DTR verb-III-trans-verb-lex &
+        [ INFLECTED [ TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                      TENSE-PER-NUM-VI-FLAG #tense-per-num-vi,
+                      ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                      CASE-NUM-IE-FLAG #case-num-ie,
+                      TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		      TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                      CASE-NUM-IB-FLAG #case-num-ib,
+                      TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                      TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                      TENSE-PER-NUM-V-FLAG #tense-per-num-v ] ] ].
+
+finite-III-lex-rule := tense-per-num-III-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+nonfinite-III-lex-rule := infl-lex-rule & tense-per-num-III-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM nonfinite ].
+
+present-III-lex-rule := finite-III-lex-rule & infl-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE present ].
+
+past-III-lex-rule := finite-III-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE past ].
+
+1st-III-lex-rule := finite-III-lex-rule & infl-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st ].
+
+2nd-III-lex-rule := finite-III-lex-rule & infl-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd ].
+
+3rd-III-lex-rule := finite-III-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+sg-III-lex-rule := finite-III-lex-rule & infl-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
+
+du-III-lex-rule := finite-III-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM du ].
+
+pl-III-lex-rule := finite-III-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
+
+1sg-prs-III-lex-rule := 1st-III-lex-rule & present-III-lex-rule & sg-III-lex-rule.
+
+2sg-prs-III-lex-rule := 2nd-III-lex-rule & present-III-lex-rule & sg-III-lex-rule.
+
+connegative-III-lex-rule := nonfinite-III-lex-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM negform ].
+
+tense-per-num-V-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
+  [ INFLECTED [ TENSE-PER-NUM-V-FLAG +,
+                TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,		
+                CASE-NUM-IE-FLAG #case-num-ie,
+                TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                CASE-NUM-IB-FLAG #case-num-ib,
+                TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ],
+    DTR verb-V-lex &
+        [ INFLECTED [ TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                      TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                      TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                      ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                      TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+                      TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+		      CASE-NUM-IE-FLAG #case-num-ie,
+                      TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                      CASE-NUM-IB-FLAG #case-num-ib,
+                      TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ] ] ].
+
+finite-V-lex-rule := tense-per-num-V-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+present-V-lex-rule := finite-V-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE present ].
+
+past-V-lex-rule := finite-V-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE past ].
+
+1st-V-lex-rule := finite-V-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st ].
+
+2nd-V-lex-rule := finite-V-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd ].
+
+3rd-V-lex-rule := finite-V-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+sg-V-lex-rule := finite-V-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
+
+du-V-lex-rule := finite-V-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM du ].
+
+pl-V-lex-rule := finite-V-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
+
+1sg-prs-V-lex-rule := 1st-V-lex-rule & present-V-lex-rule & sg-V-lex-rule.
+
+2sg-prs-V-lex-rule := 2nd-V-lex-rule & present-V-lex-rule & sg-V-lex-rule.
+
+3sg-prs-V-lex-rule := 3rd-V-lex-rule & present-V-lex-rule & sg-V-lex-rule.
+
+1du-prs-V-lex-rule := 1st-V-lex-rule & du-V-lex-rule & present-V-lex-rule.
+
+2du-prs-V-lex-rule := 2nd-V-lex-rule & du-V-lex-rule & present-V-lex-rule.
+
+3du-prs-V-lex-rule := 3rd-V-lex-rule & du-V-lex-rule & present-V-lex-rule.
+
+1pl-prs-V-lex-rule := 1st-V-lex-rule & pl-V-lex-rule & present-V-lex-rule.
+
+2pl-prs-V-lex-rule := 2nd-V-lex-rule & pl-V-lex-rule & present-V-lex-rule.
+
+3pl-prs-V-lex-rule := 3rd-V-lex-rule & pl-V-lex-rule & present-V-lex-rule.
+
+1sg-pst-V-lex-rule := 1st-V-lex-rule & past-V-lex-rule & sg-V-lex-rule.
+
+2sg-pst-V-lex-rule := 2nd-V-lex-rule & past-V-lex-rule & sg-V-lex-rule.
+
+3sg-pst-V-lex-rule := 3rd-V-lex-rule & past-V-lex-rule & sg-V-lex-rule.
+
+
+nonfinite-V-lex-rule := tense-per-num-V-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM nonfinite ].
+
+infinitive-V-lex-rule := nonfinite-V-lex-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM infform ].
+
+progressive-V-lex-rule := nonfinite-V-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.ASPECT progressive,
+                   CAT.HEAD.FORM progform ] ].
+
+connegative-V-lex-rule := tense-per-num-V-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM negform ].
+
+tense-per-num-fut-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
+  [ INFLECTED [ TENSE-PER-NUM-FUT-FLAG +,
+                ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                CASE-NUM-IE-FLAG #case-num-ie,
+                CASE-NUM-IB-FLAG #case-num-ib,
+                TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ],
+    DTR future-aux-lex &
+        [ INFLECTED [ TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                      TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                      TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                      ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                      TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		      TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                      TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                      CASE-NUM-IE-FLAG #case-num-ie,
+                      CASE-NUM-IB-FLAG #case-num-ib,
+                      TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ] ] ].
+
+1-sg-prs-fut-lex-rule := tense-per-num-fut-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                  PER 1st ],
+                       HEAD.FORM finite ] ].
+
+tense-per-num-neg-lex-rule-super := add-only-no-ccont-rule  &
+  [ INFLECTED [ TENSE-PER-NUM-NEG-FLAG +,
+                ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                CASE-NUM-IE-FLAG #case-num-ie,
+                TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                CASE-NUM-IB-FLAG #case-num-ib,
+                TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ],
+    DTR neg-aux-lex &
+        [ INFLECTED [ TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                      TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                      TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                      ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                      TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		      TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                      CASE-NUM-IE-FLAG #case-num-ie,
+                      TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                      CASE-NUM-IB-FLAG #case-num-ib,
+                      TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ] ] ].
+
+
+1sg-pres-neg-lex-rule := tense-per-num-neg-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE present,
+                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                    PER 1st ],
+                         HEAD.FORM finite ] ] ].
+
+2sg-pres-neg-lex-rule := tense-per-num-neg-lex-rule-super & const-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE present,
+                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                    PER 2nd ],
+                         HEAD.FORM finite ] ] ].
+
+3sg-pres-neg-lex-rule := tense-per-num-neg-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE present,
+                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                    PER 3rd ],
+                         HEAD.FORM finite ] ] ].
+
+1du-pres-neg-lex-rule := tense-per-num-neg-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE present,
+                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM du,
+                                                                    PER 1st ],
+                         HEAD.FORM finite ] ] ].
+
+
+2du-pres-neg-lex-rule := tense-per-num-neg-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE present,
+                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM du,
+                                                                    PER 2nd ],
+                         HEAD.FORM finite ] ] ].
+
+3du-pres-neg-lex-rule := tense-per-num-neg-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE present,
+                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM du,
+                                                                    PER 3rd ],
+                         HEAD.FORM finite ] ] ].
+
+1pl-pres-neg-lex-rule := tense-per-num-neg-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE present,
+                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
+                                                                    PER 1st ],
+                         HEAD.FORM finite ] ] ].
+
+2pl-pres-neg-lex-rule := tense-per-num-neg-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE present,
+                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
+                                                                    PER 2nd ],
+                         HEAD.FORM finite ] ] ].
+
+3pl-pres-neg-lex-rule := tense-per-num-neg-lex-rule-super & infl-lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE present,
+                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
+                                                                    PER 3rd ],
+                         HEAD.FORM finite ] ] ].
+
+
+
+
+tense-per-num-prog-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
+  [ INFLECTED [ TENSE-PER-NUM-PROG-FLAG +,
+                ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+		TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                CASE-NUM-IE-FLAG #case-num-ie,
+                TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                CASE-NUM-IB-FLAG #case-num-ib,
+                TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ],
+    DTR progressive-aux-lex &
+        [ INFLECTED [ TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                      TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                      TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                      ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                      TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+		      TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                      CASE-NUM-IE-FLAG #case-num-ie,
+                      TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                      CASE-NUM-IB-FLAG #case-num-ib,
+                      TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ] ] ].
+
+1sg-pres-prog-lex-rule := tense-per-num-prog-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.TENSE present,
+                   CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                    PER 1st ],
+                         HEAD.FORM finite ] ] ].
+
+tense-per-num-modal-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
+  [ INFLECTED [ TENSE-PER-NUM-MODAL-FLAG +,
+                ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+		TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+                CASE-NUM-IE-FLAG #case-num-ie,
+                TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                CASE-NUM-IB-FLAG #case-num-ib,
+                TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ],
+    DTR modal-aux-lex &
+        [ INFLECTED [ TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                      TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                      TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                      ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                      TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+		      TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+                      CASE-NUM-IE-FLAG #case-num-ie,
+                      TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                      CASE-NUM-IB-FLAG #case-num-ib,
+                      TENSE-PER-NUM-VI-FLAG #tense-per-num-vi ] ] ].
+
+1sg-prs-modal-lex-rule := tense-per-num-modal-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                    PER 1st ],
+                         HEAD.FORM finite ],
+                   CONT.HOOK.INDEX.E.TENSE present ] ].
+
+2sg-prs-modal-lex-rule := tense-per-num-modal-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                    PER 2nd ],
+                         HEAD.FORM finite ],
+                   CONT.HOOK.INDEX.E.TENSE present ] ].
+
+3sg-prs-modal-lex-rule := tense-per-num-modal-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                    PER 3rd ],
+                         HEAD.FORM finite ],
+                   CONT.HOOK.INDEX.E.TENSE present ] ].
+
+
+passive-VI-lex-rule-super := infl-lex-rule & tense-per-num-VI-rule-dtr & val-change-no-cont-lex-rule &
+  [ INFLECTED #infl,
+    DTR verb-VI-trans-verb-lex &
+        [ INFLECTED #infl ] ].
+
+pass-VI-lex-rule := obj-rem-op-lex-rule & local-change-only-lex-rule & passive-VI-lex-rule-super & same-cont-lex-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+tense-per-num-VI-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
+  [ INFLECTED [ TENSE-PER-NUM-VI-FLAG +,
+                ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                CASE-NUM-IE-FLAG #case-num-ie,
+                TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                CASE-NUM-IB-FLAG #case-num-ib ],
+    DTR tense-per-num-VI-rule-dtr &
+        [ INFLECTED [ TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                      TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                      TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                      ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                      TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		      TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                      TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                      CASE-NUM-IE-FLAG #case-num-ie,
+                      TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                      CASE-NUM-IB-FLAG #case-num-ib ] ] ].
+
+3sg-pst-VI-lex-rule := tense-per-num-VI-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT [ VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                    PER 3rd ],
+                         HEAD.FORM finite ],
+                   CONT.HOOK.INDEX.E.TENSE past ] ].
+
+tense-per-num-IIb-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
+  [ INFLECTED [ TENSE-PER-NUM-IIB-FLAG +,
+                CASE-NUM-IB-FLAG #case-num-ib,
+                TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                TENSE-PER-NUM-VI-FLAG #tense-per-num-vi,
+                TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                CASE-NUM-IE-FLAG #case-num-ie,
+                TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg ],
+    DTR verb-IIb-trans-verb-lex &
+        [ INFLECTED [ CASE-NUM-IB-FLAG #case-num-ib,
+                      TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                      ADJ_ATTR-OR-NUMBER-FLAG #adj_attr-or-number,
+                      TENSE-PER-NUM-VI-FLAG #tense-per-num-vi,
+                      TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut,
+                      CASE-NUM-IE-FLAG #case-num-ie,
+                      TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		      TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                      TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                      TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg ] ] ].
+
+finite-IIb-lex-rule := tense-per-num-IIb-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+connegative-IIb-lex-rule := tense-per-num-IIb-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM negform ].
+
+present-IIb-lex-rule := finite-IIb-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE present ].
+
+past-IIb-lex-rule := finite-IIb-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE past ].
+
+1st-IIb-lex-rule := finite-IIb-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st ].
+
+2nd-IIb-lex-rule := finite-IIb-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd ].
+
+3rd-IIb-lex-rule := finite-IIb-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+sg-IIb-lex-rule := finite-IIb-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
+
+du-IIb-lex-rule := finite-IIb-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM du ].
+
+pl-IIb-lex-rule := finite-IIb-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
+
+1sg-prs-IIb-lex-rule := 1st-IIb-lex-rule & present-IIb-lex-rule & sg-IIb-lex-rule.
+
+2sg-prs-IIb-lex-rule := 2nd-IIb-lex-rule & present-IIb-lex-rule & sg-IIb-lex-rule.
+
+3sg-prs-IIb-lex-rule := 3rd-IIb-lex-rule & present-IIb-lex-rule & sg-IIb-lex-rule.
+
+1du-prs-IIb-lex-rule := 1st-IIb-lex-rule & present-IIb-lex-rule & du-IIb-lex-rule.
+
+2du-prs-IIb-lex-rule := 2nd-IIb-lex-rule & present-IIb-lex-rule & du-IIb-lex-rule.
+
+3du-prs-IIb-lex-rule := 3rd-IIb-lex-rule & present-IIb-lex-rule & du-IIb-lex-rule.
+
+1pl-prs-IIb-lex-rule := 1st-IIb-lex-rule & present-IIb-lex-rule & pl-IIb-lex-rule.
+
+2pl-prs-IIb-lex-rule := 2nd-IIb-lex-rule & present-IIb-lex-rule & pl-IIb-lex-rule.
+
+3pl-prs-IIb-lex-rule := 3rd-IIb-lex-rule & present-IIb-lex-rule & pl-IIb-lex-rule.
+
+
+1sg-pst-IIb-lex-rule := 1st-IIb-lex-rule & past-IIb-lex-rule & sg-IIb-lex-rule.
+
+2sg-pst-IIb-lex-rule := 2nd-IIb-lex-rule & past-IIb-lex-rule & sg-IIb-lex-rule.
+
+3sg-pst-IIb-lex-rule := 3rd-IIb-lex-rule & past-IIb-lex-rule & sg-IIb-lex-rule.
+
+1pl-pst-IIb-lex-rule := 1st-IIb-lex-rule & past-IIb-lex-rule & pl-IIb-lex-rule.
+
+2pl-pst-IIb-lex-rule := 2nd-IIb-lex-rule & past-IIb-lex-rule & pl-IIb-lex-rule.
+
+3pl-pst-IIb-lex-rule := 3rd-IIb-lex-rule & past-IIb-lex-rule & pl-IIb-lex-rule.
+
+
+nonfinite-IIb-lex-rule := tense-per-num-IIb-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM nonfinite ].
+
+infinitive-IIb-lex-rule := nonfinite-IIb-lex-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM infform ].
+
+number-lex-rule-super := head-change-only-lex-rule &
+  [ SYNSEM.LOCAL.CAT [ HEAD #head & adj ],
+    INFLECTED [ ADJ_ATTR-OR-NUMBER-FLAG +,
+                CASE-NUM-IB-FLAG #case-num-ib,
+                TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                TENSE-PER-NUM-VI-FLAG #tense-per-num-vi,
+                CASE-NUM-IE-FLAG #case-num-ie,
+                TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut ],
+    DTR adj-adj-lex &
+        [ SYNSEM.LOCAL.CAT [ HEAD #head ],
+          INFLECTED [ CASE-NUM-IB-FLAG #case-num-ib,
+                      TENSE-PER-NUM-NEG-FLAG #tense-per-num-neg,
+                      TENSE-PER-NUM-V-FLAG #tense-per-num-v,
+                      TENSE-PER-NUM-IIB-FLAG #tense-per-num-iib,
+                      TENSE-PER-NUM-III-FLAG #tense-per-num-iii,
+                      TENSE-PER-NUM-VI-FLAG #tense-per-num-vi,
+                      CASE-NUM-IE-FLAG #case-num-ie,
+                      TENSE-PER-NUM-PROG-FLAG #tense-per-num-prog,
+		      TENSE-PER-NUM-MODAL-FLAG #tense-per-num-modal,
+                      TENSE-PER-NUM-FUT-FLAG #tense-per-num-fut ] ] ].
+
+adj_pred-lex-rule := number-lex-rule-super &
+  [ SYNSEM.LOCAL.CAT.HEAD.MOD < > ].
+
+adj_sg-lex-rule := infl-lex-rule & adj_pred-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.NUM sg ].
+
+adj_pl-lex-rule := infl-lex-rule & adj_pred-lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.NUM pl ].
+
+adj_attr-lex-rule := const-lex-rule & number-lex-rule-super &
+  [ SYNSEM [ LOCAL.CAT.HEAD [ PRD -,
+			      MOD < [ LOCAL intersective-mod & 
+					    [ CAT [ HEAD noun,
+						    VAL.SPR < [ ] > ],
+					      CONT.HOOK [ INDEX #ind,
+							  LTOP #ltop] ]] > ]],
+    DTR.SYNSEM.LOCAL.CONT.HOOK [ XARG #ind,
+				 LTOP #ltop ] ].
+
+obj-rem-op-lex-rule := comps-change-only-lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS #comps,
+    DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < unexpressed . #comps > ].
+
+;;;;;;;;;;;;;;;;;;;
+;;; Phrasal Types
+;;;;;;;;;;;;;;;;;;;
+
+;Constraint on MC used to be part of matrix.tdl
+;;it applies to all wo implementations, except for v2
+
+head-final-head-nexus := head-final &
+  [ SYNSEM.ATTACH lmod,
+    HEAD-DTR.SYNSEM.ATTACH notmod-or-lmod ].
+
+head-initial-head-nexus := head-initial &
+  [ SYNSEM.ATTACH rmod ].
+
+head-subj-phrase := decl-head-subj-phrase & head-initial-head-nexus.
+
+subj-head-phrase := decl-head-subj-phrase & head-final-head-nexus.
+
+; The head of head-comp phrase cant be [HEAD adp]
+
+head-comp-phrase := basic-head-1st-comp-phrase & head-initial-head-nexus &
+  [ SYNSEM.LOCAL.CAT.HEAD +nvjrcdmo ].
+
+; The head of comp-head-phrase can't be: ['comp']
+
+comp-head-phrase := basic-head-1st-comp-phrase & head-final-head-nexus &
+  [ SYNSEM.LOCAL.CAT [ HEAD +nvjrpdmo & [ AUX - ]] ,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD +njrpdmo ].
+
+head-comp-phrase-2 := basic-head-2nd-comp-phrase & head-initial-head-nexus &
+  [ SYNSEM.LOCAL.CAT.HEAD +nvjrcdmo ].
+
+comp-head-phrase-2 := basic-head-2nd-comp-phrase & head-final-head-nexus &
+ [ SYNSEM.LOCAL.CAT.HEAD +nvjrpdmo ].
+
+isect-mod-phrase-no-ltop-id := basic-head-mod-phrase-simple & head-compositional &
+  [ HEAD-DTR.SYNSEM.LOCAL [ CAT.MKG #mkg ],
+    NON-HEAD-DTR.SYNSEM.LOCAL [ CAT.HEAD.MOD < [ LOCAL intersective-mod & [ CAT.MKG #mkg ] ] > ],
+    C-CONT [ HCONS <! !>,
+	     ICONS <! !> ] ].
+
+adj-head-int-phrase-2 := adj-head-phrase & isect-mod-phrase-no-ltop-id &
+  [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT [ POSTHEAD - ] ].
+
+head-adj-int-phrase-2 := head-adj-phrase &  isect-mod-phrase-no-ltop-id.
+
+
+
+head-adj-int-no-comp-phrase := head-adj-int-phrase-2 &
+  [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
+
+adj-head-int-no-comp-phrase := adj-head-int-phrase-2 &
+  [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
+
+; Bare NP phrase.  Consider modifying the PRED value of the quantifier relation
+; introduced to match the semantic effect of bare NPs in your language.
+
+bare-np-phrase := basic-bare-np-phrase &
+  [ C-CONT.RELS <! [ PRED "exist_q_rel" ] !> ].
+
+;; Rule added in lab6 to make bare locative NPs behave as PPs
+
+locative-pp-phrase := unary-phrase &
+  [ SYNSEM [ LOCAL.CAT [ HEAD adp & [ MOD < [ SYNSEM.LOCAL intersective-mod &
+                                                    [ CAT.HEAD verb ] ] > ],
+			 
+		          VAL [ COMPS < >,
+			        SUBJ < >, 
+			        SPR < > ]]],
+    C-CONT [ HOOK [ LTOP #ltop,
+		    INDEX #index,
+		    XARG #xarg ],
+	     RELS <! arg12-ev-relation &
+		   [ PRED "_loc_p_rel",
+		     LBL #ltop,
+		     ARG0 #index,
+		     ARG1 #xarg,
+		     ARG2 #dtr ] !>,
+	     HCONS <! !>  ],
+    ARGS < [ SYNSEM.LOCAL [ CAT [ HEAD noun & [CASE iness],
+				  VAL.SPR < > ],
+			    CONT.HOOK [ INDEX #dtr ]]] > ].
+
+wh-ques-phrase := basic-head-filler-phrase & interrogative-clause & 
+		  head-final &
+   [ SYNSEM.LOCAL.CAT [ MC bool,
+			VAL #val,
+			HEAD verb & [ FORM finite ] ],
+     HEAD-DTR.SYNSEM.LOCAL.CAT [ MC na,
+				 VAL #val & [ SUBJ < >,
+					      COMPS < > ] ],
+     NON-HEAD-DTR.SYNSEM.NON-LOCAL.QUE <! ref-ind !> ].
+
+extracted-comp-phrase := basic-extracted-comp-phrase &
+  [ SYNSEM.LOCAL.CAT.HEAD verb,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ cons ].
+
+extracted-subj-phrase := basic-extracted-subj-phrase &
+  [ SYNSEM.LOCAL.CAT.HEAD verb,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
+
+
+
+;;;;;;;;;;;;;;;;;;
+;;; Coordination
+;;;;;;;;;;;;;;;;;;
+
+;;; Coordination Strategy 1
+
+vp1-top-coord-rule := basic-vp-top-coord-rule & monopoly-top-coord-rule &
+  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+    		   CAT.HEAD.FORM #form ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form ].
+
+vp1-mid-coord-rule := basic-vp-mid-coord-rule & monopoly-mid-coord-rule &
+  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+    		   CAT.HEAD.FORM #form ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form ].
+
+vp1-bottom-coord-rule := conj-first-bottom-coord-rule & vp-bottom-coord-phrase &
+    [ SYNSEM.LOCAL [ COORD-STRAT "1",
+    		   CAT.HEAD.FORM #form ],
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form ].
+
+s-top-coord-rule := basic-s-top-coord-rule & monopoly-top-coord-rule &
+  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+    		   CAT.HEAD.FORM #form ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form ].
+
+s-mid-coord-rule := basic-s-mid-coord-rule & monopoly-mid-coord-rule &
+  [ SYNSEM.LOCAL [ COORD-STRAT "1",
+    		   CAT.HEAD.FORM #form ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form ].
+
+s-bottom-coord-rule := conj-first-bottom-coord-rule & s-bottom-coord-phrase &
+    [ SYNSEM.LOCAL [ COORD-STRAT "1",
+    		   CAT.HEAD.FORM #form ],
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM #form ].
+
+;;; Feature Resolution Rules
+
+any-1st-1st-per-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st ].
+
+2nd-2nd-2nd-per-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd ].
+
+3rd-2nd-2nd-per-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd ].
+
+3rd-3rd-3rd-per-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+1st-any-1st-per-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 1st ].
+
+2nd-3rd-2nd-per-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 2nd,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
+
+any-pl-pl-num-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
+
+any-du-pl-num-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM du ].
+
+sg-sg-du-num-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM du,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
+
+pl-any-pl-num-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl ].
+
+du-any-pl-num-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM du ].
+
+sg-non-sg-pl-num-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM non-sg ].
+
+non-sg-sg-pl-num-coord-rule := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM pl,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM non-sg,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
+
+pass-up-png-coord-rule := bottom-coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG #png,
+    NONCONJ-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG #png ].
+
+;;; Coordination Strategy 2
+
+basic-n-top-coord-rule-case-matching := basic-n-top-coord-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE #case ,
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ].
+
+basic-n-mid-coord-rule-case-matching := basic-n-mid-coord-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE #case ,
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ].
+
+n-bottom-coord-phrase-case-matching := n-bottom-coord-phrase &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE #case ,
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ].
+   
+
+n2-any-1st-1st-any-pl-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-any-pl-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-any-du-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-any-du-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-sg-sg-du-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-sg-sg-du-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-pl-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-pl-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-du-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-du-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-sg-non-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-sg-non-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-non-sg-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-any-1st-1st-non-sg-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-any-pl-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-any-pl-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-any-du-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-any-du-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-sg-sg-du-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-sg-sg-du-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-pl-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-pl-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-du-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-du-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-sg-non-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-sg-non-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-non-sg-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-2nd-2nd-non-sg-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-any-pl-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-any-pl-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-any-du-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-any-du-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-sg-sg-du-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-sg-sg-du-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-pl-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-pl-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-du-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-du-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-sg-non-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-sg-non-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-non-sg-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-2nd-2nd-non-sg-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-any-pl-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-any-pl-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-any-du-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-any-du-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-sg-sg-du-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-sg-sg-du-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-pl-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-pl-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-du-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-du-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-sg-non-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-sg-non-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-non-sg-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-3rd-3rd-3rd-non-sg-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-any-pl-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-any-pl-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-any-du-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-any-du-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-sg-sg-du-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-sg-sg-du-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-pl-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-pl-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-du-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-du-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-sg-non-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-sg-non-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-non-sg-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-1st-any-1st-non-sg-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-any-pl-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-any-pl-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-any-du-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-any-du-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-sg-sg-du-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-sg-sg-du-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-pl-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-pl-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-du-any-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-du-any-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-sg-non-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-sg-non-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-non-sg-sg-pl-top-coord-rule := basic-n-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-2nd-3rd-2nd-non-sg-sg-pl-mid-coord-rule := basic-n-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+n2-bottom-coord-rule := conj-first-bottom-coord-rule & n-bottom-coord-phrase-case-matching & pass-up-png-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+;;; Coordination Strategy 2
+
+
+basic-np-top-coord-rule-case-matching := basic-np-top-coord-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE #case ,
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ].
+
+basic-np-mid-coord-rule-case-matching := basic-np-mid-coord-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE #case ,
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ].
+
+np-bottom-coord-phrase-case-matching := np-bottom-coord-phrase &
+  [ SYNSEM.LOCAL.CAT.HEAD.CASE #case ,
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD.CASE #case ].
+
+
+np2-any-1st-1st-any-pl-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-any-pl-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-any-du-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-any-du-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-sg-sg-du-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-sg-sg-du-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-pl-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-pl-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-du-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-du-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-sg-non-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-sg-non-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-non-sg-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & any-1st-1st-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-any-1st-1st-non-sg-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & any-1st-1st-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-any-pl-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-any-pl-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-any-du-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-any-du-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-sg-sg-du-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-sg-sg-du-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-pl-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-pl-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-du-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-du-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-sg-non-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-sg-non-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-non-sg-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-2nd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-2nd-2nd-non-sg-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-2nd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-any-pl-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-any-pl-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-any-du-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-any-du-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-sg-sg-du-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-sg-sg-du-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-pl-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-pl-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-du-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-du-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-sg-non-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-sg-non-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-non-sg-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-2nd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-2nd-2nd-non-sg-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-2nd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-any-pl-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-any-pl-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-any-du-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-any-du-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-sg-sg-du-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-sg-sg-du-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-pl-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-pl-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-du-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-du-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-sg-non-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-sg-non-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-non-sg-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 3rd-3rd-3rd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-3rd-3rd-3rd-non-sg-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 3rd-3rd-3rd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-any-pl-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-any-pl-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-any-du-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-any-du-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-sg-sg-du-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-sg-sg-du-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-pl-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-pl-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-du-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-du-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-sg-non-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-sg-non-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-non-sg-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 1st-any-1st-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-1st-any-1st-non-sg-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 1st-any-1st-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-any-pl-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-any-pl-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & any-pl-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-any-du-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-any-du-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & any-du-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-sg-sg-du-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-sg-sg-du-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & sg-sg-du-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-pl-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-pl-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & pl-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-du-any-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-du-any-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & du-any-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-sg-non-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-sg-non-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & sg-non-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-non-sg-sg-pl-top-coord-rule := basic-np-top-coord-rule-case-matching & monopoly-top-coord-rule & 2nd-3rd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-2nd-3rd-2nd-non-sg-sg-pl-mid-coord-rule := basic-np-mid-coord-rule-case-matching & monopoly-mid-coord-rule & 2nd-3rd-2nd-per-coord-rule & non-sg-sg-pl-num-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+np2-bottom-coord-rule := conj-first-bottom-coord-rule & np-bottom-coord-phrase-case-matching & pass-up-png-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+
+;; trying to add some adj coord rules:
+
+
+topormid-coord-phrase-adj-only := coord-phrase-supertype &
+  [ C-CONT.HOOK [ LTOP #lbl, INDEX #carg ],
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #lind,
+    RCOORD-DTR.SYNSEM.LOCAL [ COORD-REL [ LBL #lbl,
+                                          C-ARG #carg,
+                                          L-INDEX #lind,
+                                          R-INDEX #rind ],
+                              CONT.HOOK.INDEX #rind ]].
+
+top-coord-rule-adj-only := topormid-coord-phrase-adj-only &
+  [ SYNSEM.LOCAL.COORD - ].
+
+mid-coord-rule-adj-only := topormid-coord-phrase-adj-only &
+  [ SYNSEM.LOCAL [ COORD +,
+                   COORD-REL implicit-coord-rel ]].
+
+
+monopoly-top-coord-rule-adj-only := top-coord-rule-adj-only &
+  [ LCOORD-DTR.SYNSEM.LOCAL.COORD -,
+    RCOORD-DTR.SYNSEM.LOCAL.COORD + ].
+
+monopoly-mid-coord-rule-adj-only := mid-coord-rule-adj-only &
+  [ LCOORD-DTR.SYNSEM.LOCAL.COORD -,
+    RCOORD-DTR.SYNSEM.LOCAL.COORD + ].
+
+event-coord-phrase-adj-only := coord-phrase-supertype &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX [ E #tam ],
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #lhndl,
+    RCOORD-DTR.SYNSEM.LOCAL [ COORD-REL [ L-HNDL #lhndl,
+                                          R-HNDL #rhndl,
+                                          R-INDEX.E #tam ],
+                              CONT.HOOK.LTOP #rhndl ]].
+
+adj-coord-phrase-adj-only := event-coord-phrase-adj-only &
+  [ SYNSEM.LOCAL.CAT [ POSTHEAD #ph,
+                       HEAD adj ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT [ POSTHEAD #ph,
+                                  HEAD adj ],
+    RCOORD-DTR.SYNSEM.LOCAL.CAT [ POSTHEAD #ph,
+                                  HEAD adj ]].
+
+basic-adj-top-coord-rule-adj-only := adj-coord-phrase-adj-only &
+  [ C-CONT [ RELS <! !>,
+	     HCONS <! !> ]].
+
+basic-adj-mid-coord-rule-adj-only := adj-coord-phrase-adj-only &
+  [ SYNSEM.LOCAL.COORD-REL #crel,
+    C-CONT [ RELS <! #crel !>,
+	     HCONS <! !> ]].
+
+
+
+
+adj-top-coord-rule :=  basic-adj-top-coord-rule-adj-only & monopoly-top-coord-rule-adj-only &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.MOD < >,
+    		       	 VAL.SPR.FIRST.LOCAL.CAT.HEAD adv ],
+	       	   CONT.HOOK.XARG #xarg  ],
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.XARG #xarg  ,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.XARG #xarg ] .
+
+adj-mid-coord-rule :=  basic-adj-mid-coord-rule-adj-only & monopoly-mid-coord-rule-adj-only &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.MOD < > ,
+    		       	 VAL.SPR.FIRST.LOCAL.CAT.HEAD adv],
+       	   CONT.HOOK.XARG #xarg ] ,
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.XARG #xarg  ,
+    RCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.XARG #xarg ] .
+
+adj-bottom-coord-rule := adj-bottom-coord-phrase & conj-first-bottom-coord-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK [ XARG #xarg,
+    			     LTOP #hndl ],
+    NONCONJ-DTR.SYNSEM.LOCAL [ CAT.HEAD.MOD < > ,
+				CONT.HOOK [ XARG #xarg,
+					    LTOP #hndl ] ] ].

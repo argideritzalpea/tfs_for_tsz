@@ -1,0 +1,63 @@
+whether_gr := generator_rule &
+  [ CONTEXT.RELS <! [ ARG0 #e & [ SF ques ]] !>,
+    FLAGS [ EQUAL < #e >,
+            TRIGGER "whether" ] ].
+
+comp_gtr := generator_rule &
+[ CONTEXT [ RELS <! [ ARG0 #e & [ SF prop ]] !> ],
+  FLAGS [ EQUAL < #e >,
+          TRIGGER "that-2" ]].
+
+do_ques_gr := generator_rule &
+  [ CONTEXT.RELS <! [ ARG0 #e & [ SF ques ]] !>,
+    FLAGS [ EQUAL < #e >,
+            TRIGGER "do" ] ].
+
+do_neg_gr := generator_rule &
+  [ CONTEXT.RELS <! [ PRED "neg_rel" ] !>,
+    FLAGS.TRIGGER "do" ].
+
+is_gr := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~._a_" ] !>,
+  FLAGS.TRIGGER "c-is" ].
+
+am_gr := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~._a_" ] !>,
+  FLAGS.TRIGGER "c-am" ].
+
+were_gr := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~._a_" ] !>,
+  FLAGS.TRIGGER "c-were" ].
+
+was_gr := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~._a_" ] !>,
+  FLAGS.TRIGGER "c-was" ].
+
+are_gr := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~._a_" ] !>,
+  FLAGS.TRIGGER "c-are" ].
+
+will_gr := generator_rule &
+[ CONTEXT.RELS <! [ ARG0 #e & [ E.TENSE future ]] !>,
+  FLAGS [ EQUAL < #e >,
+          TRIGGER "will" ] ].
+
+is_gr2 := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~._p_" ] !>,
+  FLAGS.TRIGGER "c-is" ].
+
+am_gr2 := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~._p_" ] !>,
+  FLAGS.TRIGGER "c-am" ].
+
+were_gr2 := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~._p_" ] !>,
+  FLAGS.TRIGGER "c-were" ].
+
+was_gr2 := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~._p_" ] !>,
+  FLAGS.TRIGGER "c-was" ].
+
+are_gr2 := generator_rule &
+[ CONTEXT.RELS <! [ PRED "~._p_" ] !>,
+  FLAGS.TRIGGER "c-are" ].

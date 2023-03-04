@@ -1,0 +1,1204 @@
+Language: Pite_Saami
+Language code: sje
+Lines: orth orth-seg gloss translat
+Author: Elizabeth Nielsen and Alex Spivey
+Date: April 5, 2017
+Source a: A Grammar of Pite Saami, Joshua Wilbur
+
+# Word Order 
+
+# 1
+# SVO
+Source: {a:101,103,172}
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+maannaa baorra guolev
+maannaa baorr-a guole-v
+child.nom.sg eat-3sg.prs fish-acc.sg
+‘The child eats the fish'
+
+# 2
+# SOV
+Source: {a:101,103,172}
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+maannaa guolev baorra
+maannaa guole-v baorr-a
+child.nom.sg fish-acc.sg eat-3sg.prs
+‘The child eats the fish"
+
+# 3
+# VSO
+Source: {a:101,103,172}
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+baorra maannaa guolev
+baorr-a maannaa guole-v
+eat-3sg.prs child.nom.sg fish-acc.sg
+‘The child eats the fish'
+
+# 4
+# VOS
+Source: {a:101,103,172}
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+baorra  guolev  maannaa 
+baorr-a guole-v maannaa 
+eat-3sg.prs fish-acc.sg child.nom.sg 
+‘The child eats the fish'
+
+# 5
+# OVS
+Source: {a:101,103,172}
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+guolev baorra maannaa 
+guole-v baorr-a maannaa 
+fish-acc.sg eat-3sg.prs child.nom.sg 
+‘The child eats the fish'
+
+# 6
+# OSV
+Source: {a:101,103,172}
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+guolev baorra maannaa
+guole-v baorr-a maannaa 
+fish-acc.sg eat-3sg.prs child.nom.sg
+‘The child eats the fish'
+
+# 7
+# SV
+Source: {a:101,84}
+Vetted: f
+Judgment: g
+Phenomena: {case}
+maannaa saagasta
+maannaa saagast-a
+child.nom.sg speaks-3sg.prs
+‘The child speaks.’
+
+# 8
+# VS
+Source: {a:101,84}
+Vetted: f
+Judgment: g
+Phenomena: {case}
+saagasta maannaa 
+saagast-a maannaa
+speak-3sg.prs child.nom.sg 
+‘The child speaks.’
+
+
+# Case
+
+# 9
+# Intransitive with nominative arugment
+Source: {a:101,84}
+Vetted: f
+Judgment: g
+Phenomena: {case}
+maannaa saagasta
+maannaa saagast-a
+child.nom.sg speak-3sg.prs
+‘The child speaks.’
+
+# 10
+# *Intransitive with accusative arugment
+Source: {a:101,84}
+Vetted: f
+Judgment: u
+Phenomena: {case}
+maanaav saagasta
+maanaa-v saagast-a
+child-acc.sg speak-3sg.prs
+'The child speaks.’
+
+# 11
+# Transitive with nominative and accusative arguments
+Source: {a:101,103,172}
+Vetted: f
+Judgment: g
+Phenomena: {case}
+maannaa baorra guolev
+maannaa baorr-a guole-v
+child.nom.sg eat-3sg.prs fish-acc.sg
+‘The child eats the fish'
+
+# 12
+# *Transitive with two nominative arguments
+Source: {a:101,103,172}
+Vetted: f
+Judgment: u
+Phenomena: {case}
+maannaa baorra guolle
+maannaa baorr-a guolle
+child.nom.sg eat-3sg.prs fish.nom.sg
+‘The child eats the fish'
+
+# 13
+# *Transitive with two accusative arguments
+Source: {a:101,103,172}
+Vetted: f
+Judgment: u
+Phenomena: {case}
+maanaav baorra guolev
+maanaav baorr-a guole-v
+child.acc.sg eat-3sg.prs fish-acc.sg
+'The child eats the fish'
+
+# Pronouns
+
+#14 
+#Nominative Singular 1st Person Pronoun 1
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pn}
+maon	saagastav
+maon	saagast-av
+I.nom.sg speak-1sg.prs
+I speak.
+
+#15 
+#Nominative Singular 1st Person Pronoun 2
+#Allophonic alternation (identical syntactically, alternate for can be used for emphasis or citation)
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pn}
+maonnao	saagastav
+maonnao	saagast-av
+I.nom.sg speak-1sg.prs
+I speak.
+
+#16 
+#Nominative Singular 2nd. Person Pronoun 1
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pn}
+daon	saagasta
+doan	saagast-a
+You.nom.sg speak-2sg.prs
+You speak.
+
+#17 
+#Nominative Singular 2nd. Person Pronoun 2
+#Allophonic alternation (identical syntactically, alternate for can be used for emphasis or citation)
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pn}
+daonnao	saagasta
+doannao	saagast-a
+You.nom.sg speak-2sg.prs
+You speak.
+
+#18 
+#Nominative Singular 3rd. Person Pronoun 1
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pn}
+saon	saagasta
+saon	saagast-a
+They.nom.sg speak-3sg.prs
+He or she speaks.
+
+#19 
+#Nominative Singular 3rd. Person Pronoun 2
+#Allophonic alternation (identical syntactically, alternate for can be used for emphasis or citation)
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pn}
+saonnao saagasta
+saonnao saagast-a
+They.nom.sg speak-3sg.prs
+He or she speaks.
+
+# 20 
+#Accusative pronouns
+Source: {a:101,103,172}
+Vetted: f
+Judgment: g
+Phenomena: {word order}
+maannaa baorra muv
+maannaa baorr-a muv
+child.nom.sg eat-3sg.prs me.acc.sg
+‘The child eats me'
+
+# 21 
+# *Accusative pronouns
+Source: {a:101,103,172}
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+maannaa baorra maon
+maannaa baorr-a maon
+child.nom.sg eat-3sg.prs me.nom.sg
+‘The child eats me'
+
+#22 
+#Dual pronouns
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pn}
+maoj saagasten
+maoj saagast-en
+We.nom.sg speak-1du.prs
+We speak.
+
+#23
+#Dual pronouns
+#Allophonic alternation (identical syntactically, alternate for can be used for emphasis or citation)
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pn}
+maojao saagasten
+maojao saagast-en
+We.nom.du speak-1du.prs
+We speak.
+
+#24
+#Plural pronouns
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pn}
+mij saagastep
+mij saagast-ep
+We.nom.pl speak-1pl.prs
+We speak.
+
+#25
+#Plural pronouns
+#Allophonic alternation (identical syntactically, alternate for can be used for emphasis or citation)
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pn}
+mija saagastep
+mija saagast-ep
+We.nom.pl speak-1pl.prs
+We speak.
+
+#Agreement
+
+# 26
+# 3sg subject 
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {agr}
+maannaa	saagasta
+maannaa saagast-a
+child.nom.sg speak-3sg.prs
+The child speaks.
+
+# 27
+# 3pl subject 
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {agr}
+maanaa	saagaste
+maanaa	saagast-e
+child.nom.pl speak-3pl.prs
+The children speak.
+
+# 28
+# Number disagreement
+# *3sg subject, 3pl verb
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {agr}
+maannaa	saagaste
+maannaa	saagast-e
+child.nom.sg speak-3pl.prs
+The child speak.
+
+# 29
+# Number disagreement
+# *3pl subject, 3sg verb
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {agr}
+maanaa	saagasta
+maanaa	saagast-a
+child.nom.pl speak-3sg.prs
+The children speaks.
+
+# 30
+# Person disagreement
+# *3sg subj, 1sg verb
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {agr}
+maannaa	saagastav
+maannaa	saagast-av
+child.nom.sg speak-1sg.prs
+The child speak.
+
+# 31
+# Person and number disagreement
+# *3sg subj, 1pl verb
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {agr}
+maannaa	saagastep
+maannaa	saagast-ep
+child.nom.sg speak-1pl.prs
+The child speak.
+
+# Agreement with pronominal subject
+
+# 32
+# 1sg subj
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {agr}
+maon	saagastav
+maon	saagast-av
+I.nom.sg speak-1sg.prs
+I speak.
+
+
+# 33
+# 1pl subj
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {agr}
+mij	saagastep
+mij	saagast-ep
+We.nom.pl speak-1pl.prs
+We speak.
+
+
+# 34
+# 1du subj
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {agr}
+maoj saagasten
+maoj saagast-en
+We.nom.du speak-1du.prs
+We two speak.
+
+# 35
+# 2sg subj
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {agr}
+daon saagasta
+daon saagast-a
+2.nom.sg speak-2sg.prs
+You speak.
+
+# 36
+# 2pl subj
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {agr}
+dij saagastaehpit
+dij saagast-aehpit
+2.nom.pl speak-2pl.prs
+You all speak.
+
+# 37
+# 2du subj
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {agr}
+daoj saagastaehpen
+daoj saagast-aehpen
+2.nom.du speak-2du.prs
+You two speak.
+
+# 38
+# 3du subj
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {agr}
+saoj saagastaeba
+saoj saagast-aeba
+3.nom.du speak-3du.prs
+They two speak.
+
+# 39
+# Person disagreement
+# *1sg subj, 2sg verb (ambiguous with 3sg verb)
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {agr}
+maon	saagasta
+maon	saagast-a
+I.nom.sg speak-2sg.prs
+I speak.
+
+# 40
+# Person disagreement
+# *2sg subj, 1sg verb
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {agr}
+daon	saagastav
+daon	saagast-av
+2.nom.sg speak-1sg.prs
+You speak.
+
+#41
+#Auxiliary Agreement
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {agr}
+maonnao galgav saagastit
+maonnao galg-av saagast-it
+I.nom.sg will-1ps.sg speak-INF
+I will speak.
+
+#42
+#*Auxiliary Agreement
+#Ungrammatical because the auxiliary doesn't agree its complement's subject.
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {agr}
+daon galgav saagastit
+daon galg-av saagast-it
+2.nom.du will-1ps.sg speak-INF
+You two will speak.
+
+# Possession
+
+#43
+# 1sg possesive pronoun
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {poss}
+muv maannaa	saagasta
+muv maannaa saagast-a
+1sg.gen child.nom.sg speak-3sg.prs
+My child speaks.
+
+# 44
+# 2sg possesive pronoun
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {poss}
+duv maannaa	saagasta
+duv maannaa saagast-a
+2sg.gen child.nom.sg speak-3sg.prs
+Your child speaks.
+
+# 45
+# 3sg possesive pronoun
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {poss}
+suv maannaa	saagasta
+suv maannaa saagast-a
+3sg.gen child.nom.sg speak-3sg.prs
+His/her child speaks.
+
+# 46
+# 1du possesive pronoun
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {poss}
+munuo maannaa	saagasta
+munuo maannaa saagast-a
+1du.gen child.nom.sg speak-3sg.prs
+Our child speaks.
+
+# 47
+# 1pl possesive pronoun
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {poss}
+munuo maannaa	saagasta
+munuo maannaa saagast-a
+1du.gen child.nom.sg speak-3sg.prs
+Our child speaks.
+
+# 48
+# Possessive NP
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {poss}
+maanaa maannaa	saagasta
+maanaa maannaa saagast-a
+child.gen.sg child.nom.sg speak-3sg.prs
+The child's child speaks.
+
+# Valence-changing lexical rule:
+# Passivization
+ 
+# 49
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {pass}
+guolle bidtjiduvvuj 
+guolle bidtji-duvvu-j 
+fish.nom.sg build-pass-3sg.pst 
+The fish was built
+
+# 50
+# *Wrong case on promoted patient
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {pass}
+guolev bidtjiduvvuj 
+guole-v bidtji-duvvu-j 
+fish-acc.sg build-pass-3sg.pst 
+The fish was built
+
+# 51
+# *Disagreement between verb and promoted patient
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {pass}
+guolle bidtjiduvvu 
+guolle bidtji-duvvu 
+fish.nom.sg build-pass.2sg
+The fish was built
+
+# Tense and aspect
+
+#52
+#Present tense
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {tam}
+mija saagastep
+mija saagast-ep
+We.nom.pl speak-1pl.prs
+We speak.
+
+#53
+#Past tense
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {tam}
+mija saagastejme
+mija saagast-ejme
+We.nom.pl speak-1pl.pst
+We spoke.
+
+#54
+#Future tense
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {tam}
+maonnao galgav saagastit
+maonnao galg-av saagast-it
+I.nom.sg will-1ps.sg speak-INF
+I will speak.
+
+#55
+#*Future tense 
+#Ungrammatical because "speak" is not infinitive.
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {tam}
+maonnao galgav saagastav
+maonnao galga-v saagast-av
+I.nom.sg will-1ps.sg speak-1sg.prs
+I will speak.
+
+#56
+#*Future tense 
+#Ungrammatical because of the infinitive without gallgat
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {tam}
+maonnao saagastit
+maonnao saagast-it
+I.nom.sg speak-INF
+I will speak.
+
+#57
+#*Future tense 
+#Ungrammatical because "gallgat" occurs with the wrong non-finite form.
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {tam}
+maonnao galgav saagastemin
+maonnao galg-av saagast-emin
+I.nom.sg will-1ps.sg speak-PROG
+I will speaking.
+
+#58
+#Past Tense
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {tam}
+maannaa	saagastij
+maannaa saagast-ij
+child.nom.sg speak-3sg.pst
+The child spoke.
+
+#59
+#Progressive Aspect
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {tam}
+maonnao lev saagastemin
+maonnao lev saagast-emin
+I.nom.sg be.1sg.prs speak-PROG
+I am speaking.
+
+#60
+#*Progressive Aspect
+#Ungrammatical because it lacks the verb "aorrot" (be)
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {tam}
+maonnao saagastemin
+maonnao saagast-emin
+I.nom.sg speak-PROG
+I speaking.
+
+#61
+#Negation
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {neg}
+maannaa	ij saagaste
+maannaa ij saagast-e
+child.nom.sg NEG.3sg speak-CONNEG
+The child doesn't speak.
+
+#62
+#*Negation
+#Ungrammatical because of the missing negation verb. 
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {neg}
+maannaa	saagaste
+maannaa saagast-e
+child.nom.sg speak-CONNEG
+The child doesn't speak.
+
+#63
+#*Negation
+#Ungrammatical because the verb is isn't connegative. 
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {neg}
+maannaa	ij saagasta
+maannaa ij saagast-a
+child.nom.sg NEG.3sg speak-3.sg
+The child doesn't speak.
+
+#64
+#Wh-question with nominal human refferent
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {wh}
+ge saagasta?
+ge saagast-a
+who.nom.sg speak-3.sg
+who speaks?
+
+#65
+#Wh-question with nominal non-human refferent
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {wh}
+mij saagasta?
+mij saagast-a
+what.nom.sg speak-3.sg
+what speaks?
+
+#66
+#Wh-question with acc non-human referrent 
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {wh}
+mav daon baorao?
+ma-v daon baor-ao
+what-acc.sg 2sg.nom eat-2sg.prs
+What do you eat? 
+
+#67
+#Wh-question with acc human referrent 
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {wh}
+gev daon baorao?
+ge-v daon baor-ao
+who-acc.sg 2sg.nom eat-2sg.prs
+Who do you eat? 
+
+#68
+#*Wh-question with nominal human refferent
+#Incorrect because the pronoun should be clause-initial
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {wh}
+saagasta ge?
+saagast-a ge
+speak-3.sg who.nom.sg
+speaks who?
+
+#69
+#*Wh-question with nominal human refferent
+#Incorrect because the pronoun should be clause-initial
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {wh}
+saagasta mij?
+saagast-a mij
+speak-3.sg what.nom.sg
+speaks what?
+
+#70
+#*Wh-question with acc non-human referrent
+#Incorrect because the pronoun should be clause-initial 
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {wh}
+daon mav baorao?
+daon ma-v baor-ao
+2sg.nom what-acc.sg eat-2sg.prs
+do you what eat? 
+
+#*71
+#Wh-question with acc human referrent
+#Incorrect because the pronoun should be clause-initial 
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {wh}
+daon gev baorao?
+daon ge-v baor-ao
+2sg.nom who-acc.sg eat-2sg.prs
+do you who eat? 
+
+#72
+#*Wh-question with nominal human refferent
+#Incorrect because the pronoun is taking the inflection for demonstrative pronouns, not reflexive pronouns.
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {wh}
+get saagasta?
+get saagast-a
+who.nom.sg speak-3.sg
+who speaks?
+
+#73
+#*Wh-question with nominal human refferent
+#Incorrect because the pronoun is taking the inflection for demonstrative pronouns, not reflexive pronouns.
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {wh}
+mat saagasta?
+mat saagast-a
+who.nom.sg speak-3.sg
+who speaks?
+
+#74
+# Wh-question with nominal human refferent
+#Incorrect because the pronoun does not agree with its verb
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {wh}
+mij saagaste?
+mij saagast-e
+what.nom.sg speak-3.pl
+what speaks?
+
+#75
+#Adjectives
+Source: {author}
+Vetted: f
+Judgment: g
+Phenomena: {adj}
+aovros maannaa saagasta
+aovros maannaa saagast-a
+nervous child.nom.sg speaks-3sg.prs
+‘The nervous child speaks’
+
+#76
+#*Adjectives
+#ungrammatical because the adjective must occur before the noun it modifies
+Source: {author}
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+maannaa aovros saagasta
+maannaa aovros saagast-a
+child.nom.sg nervous speaks-3sg.prs
+‘The child nervous speaks’
+
+#77
+#*Adjectives
+#ungrammatical because the adjective must occur before the noun it modifies
+Source: {author}
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+maannaa saagasta aovros 
+maannaa saagast-a aovros  
+child.nom.sg speaks-3sg.prs nervous
+‘The child speaks nervous’
+
+#78
+#*Adjectives
+#ungrammatical because the adjective is inflecting even though there's a noun for it to modify
+Source: {author}
+Vetted: f
+Judgment: u
+Phenomena: {adj}
+aovrosa maanaa saagaste
+aovros-a maanaa saagast-e
+nervous-pl child.nom.pl speaks-3pl.prs
+‘The nervous children speak’
+
+# Coordination
+
+#79
+# Monosyndeton
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {coord}
+maannaa baorra mielkev, mielkev, ja  guolev 
+maannaa baorr-a mielke-v mielke-v ja guole-v 
+child.nom.sg eat-3sg.prs milk-acc.sg butter-acc.sg and fish-acc.sg 
+'The child eats milk, milk, and fish.’
+
+#80
+# Polysyndeton
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {coord}
+maannaa baorra mielkev ja mielkev ja  guolev 
+maannaa baorr-a mielke-v ja mielke-v ja guole-v 
+child.nom.sg eat-3sg.prs milk-acc.sg and milk-acc.sg and fish-acc.sg 
+'The child eats milk, milk, and fish.’
+
+#81
+# *Asyndeton
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {coord}
+maannaa baorra mielkev, mielkev, guolev 
+maannaa baorr-a mielke-v mielke-v guole-v 
+child.nom.sg eat-3sg.prs milk-acc.sg milk-acc.sg fish-acc.sg 
+'The child eats milk, milk, and fish.’
+
+#82
+# *Omnisyndeton
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {coord}
+maannaa baorra ja mielkev ja mielkev ja  guolev 
+maannaa baorr-a ja mielke-v ja mielke-v ja guole-v 
+child.nom.sg eat-3sg.prs and milk-acc.sg and milk-acc.sg and fish-acc.sg 
+'The child eats milk, milk, and fish.’
+
+#83
+# Coordinating adjectives
+Source: {author}
+Vetted: {t}
+Judgment: g
+Phenomena: {coord}
+maanaa lea aovrosa ja vuorasa
+maanaa lea aovros-a ja vuoras-a
+child.nom.pl be.3pl.prs nervous-pl and old-pl
+‘The children are nervous and old.’
+
+#84
+# Coordinating VPs / sentences (ambiguous because of pro-drop)
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {coord}
+saagasta ja baorra guolev
+saagast-a ja baorr-a guole-v
+speak-3sg.prs and eat-3sg.prs fish-acc.sg
+'He spoke and ate fish.'
+
+# Coordination agreement
+
+#85
+# any 1st person subject takes 1st person agreement.
+# Number corresponds to the real world number
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {coord-agr}
+maonnao ja maannaa saagasten
+maonnao ja maannaa saagast-en 
+1sg.nom and child.nom.sg speak-1du.prs
+The child and I spoke.
+
+#86
+# *wrong person
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {coord-agr}
+maonnao ja maannaa saagastaeba
+maonnao ja maannaa saagast-aeba
+1sg.nom and Josh.nom.sg speak-3du.prs
+The child and I spoke.
+
+#87
+# *wrong number
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {coord-agr}
+maonnao ja maannaa saagastav
+maonnao ja maannaa saagast-av
+1sg.nom and Josh.nom.sg speak-1sg.prs
+The child and I spoke.
+
+# Non-verbal predicates
+
+#88
+# Copula + adjective
+# question here: the verb says it's pl here, but on p.178, it says that it's a sg form
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {predicates}
+maanaa lea aovrosa 
+maanaa lea aovros-a 
+child.nom.pl be.3pl.prs nervous-pl
+‘The children are nervous.’
+
+#89
+# Copula + noun phrase
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {predicates}
+maannaa lae guolle
+maannaa lae guolle
+child.nom.sg be.3sg.prs fish.nom.sg
+'The child is a fish.'
+
+# can also do copula + prepositional phrase, but we don't have the cases for that yet
+
+#90
+# *Missing copula
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {predicates}
+maanaa aovrosa 
+maanaa aovros-a
+child.nom.pl nervous-pl
+‘The children are nervous.’
+
+#91
+# *missing copula
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {predicates}
+maannaa  guolle
+maannaa  guolle
+child.nom.sg fish.nom.sg
+'The child is a fish.'
+
+#92
+# *number disagreement
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {predicates}
+maanaa aovros 
+maanaa aovros
+child.nom.pl nervous.sg
+‘The children are nervous.’
+
+#93
+# wrong case on complement
+Source: {author}
+Vetted: {t}
+Judgment: u
+Phenomena: {predicates}
+maannaa lae guolev
+maannaa l-ae guole-v
+child.nom.sg be-3sg.prs fish-acc.sg
+'The child is a fish.
+
+
+# Embedded phrases
+# complementizer optional; subord. clause has no special morphology/syntax
+
+#94
+# with complementizer
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {embed}
+maon diedav att maannaa saagasta
+maon died-av att maannaa saagast-a
+1sg.nom know-1sg.prs subord child speak-3sg.prs
+‘I know that the child speaks’
+
+#95
+# without complementizer
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {embed}
+maon diedav maannaa saagasta
+maon died-av maannaa saagast-a
+1sg.nom know-1sg.prs child speak-3sg.prs
+‘I know that the child speaks’
+
+
+#96
+# *with non-finite form in embedded clause
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {embed}
+maon diedav att maannaa saagastit
+maon died-av att maannaa saagast-it
+1sg.nom know-1sg.prs subord child speak-inf
+‘I know that the child speaks’
+
+#97
+#Adverbs
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {adv}
+maannaa	saagasta vaarogit
+maannaa saagast-a vaarogit
+child.nom.sg speak-3sg.prs careful.advz
+The child speaks carefully.
+
+#98
+#*Adverbs
+#Ungrammatical because the adverb must occur after the verb. 
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {adv}
+maannaa	vaarogit saagasta 
+maannaa vaarogit saagast-a
+child.nom.sg careful.advz speak-3sg.prs
+The child speaks carefully.
+
+#99
+# Copula + locative NP
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {predicates}
+maannaa lae guolen
+maannaa lae guole-n
+child.1sg.nom be.3sg.prs fish-iness.sg
+The child is in the fish
+
+#100
+# *locative NP predicate with no copula
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {predicates}
+maannaa guolen
+maannaa guole-n
+child.1sg.nom fish-iness.sg
+The child is in the fish
+
+#101
+# Copula + PP
+Source: {author}
+Vetted: {f}
+Judgment: g
+Phenomena: {predicates}
+maannaa lae guole nanne
+maannaa lae guole nanne
+child.1sg.nom be.3sg.prs fish.gen.sg on
+The child is on the fish
+
+#102
+# * PP predicate, no copula
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {predicates}
+maannaa guole nanne
+maannaa  guole nanne
+child.1sg.nom fish.gen.sg on
+The child is on the fish
+
+#103
+# *Copula + PP with wrong case
+Source: {author}
+Vetted: {f}
+Judgment: u
+Phenomena: {predicates}
+maannaa lae guolle nanne
+maannaa lae guolle nanne
+child.1sg.nom be.3sg.prs fish.nom.sg on
+The child is on the fish
+
+

@@ -1,0 +1,113 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Semantically Empty Lexical Entries
+
+galg_gr := arg0e_gtr &
+  [ CONTEXT.RELS <! [ ARG0.E.TENSE future ] !>,
+    FLAGS.TRIGGER "galg" ].
+
+l_1_gr := arg0e_gtr &
+  [ CONTEXT.RELS <! [ PRED "non_existing_rel" ] !>,
+    FLAGS.TRIGGER "l_1" ].
+
+
+
+aorrot_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "non_existing_rel"] !>,
+  FLAGS.TRIGGER "aorrot" ].
+
+lidjiv_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lidjiv" ].
+
+lev_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lev" ].
+
+lijmen_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lijmen" ].
+
+lin_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lin" ].
+
+lijme_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lijme" ].
+
+lep_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lep" ].
+
+lidje_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lidje" ].
+
+lae_1_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lae_1" ].
+
+l_2_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "l_2" ].
+
+lijden_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lijden" ].
+
+laehpen_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "laehpen" ].
+
+lijde_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lijde" ].
+
+lehpet_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lehpet" ].
+
+lij_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lij" ].
+
+lae_2_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lae_2" ].
+
+lijga_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lijga" ].
+
+laehpa_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "laehpa" ].
+
+lidjen_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lidjen" ].
+
+lea_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lea" ].
+
+;l_3_gr := arg0e_gtr &
+;[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+;  FLAGS.TRIGGER "l_3" ].
+
+lae_3_gr := arg0e_gtr &
+[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+  FLAGS.TRIGGER "lae_3" ].
+
+;lae_4_gr := arg0e_gtr &
+;[ CONTEXT.RELS <! [ PRED "~.*_[a|p]_rel"] !>,
+;  FLAGS.TRIGGER "lae_4" ].
+
+
+att_gtr := generator_rule &
+[ CONTEXT [ RELS <! [ ARG2 #h & handle ],
+                    [ ARG0 #e & event ] !> ],
+  FLAGS [ EQUAL < #e, #h >,
+          TRIGGER "att" ]].
+
+
